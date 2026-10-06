@@ -1,0 +1,340 @@
+{
+  "units": "mm",
+  "coordinates": "Unmodified source STEP coordinate systems",
+  "usb2can_bare": {
+    "included_solid_indices_zero_based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "removed_housing_indices": [
+      0,
+      12
+    ],
+    "removed_housing_screw_indices": [
+      13,
+      14,
+      15,
+      16
+    ],
+    "removed_light_pipe_indices": [
+      17,
+      18,
+      19
+    ],
+    "bounds": {
+      "min": [
+        -24.05,
+        -11.0,
+        2.000001
+      ],
+      "max": [
+        24.05,
+        11.0,
+        7.999027
+      ],
+      "size": [
+        48.1,
+        22.0,
+        5.999026
+      ]
+    },
+    "valid": true,
+    "mounting_holes_diameter": 2.0,
+    "mounting_holes_xy": [
+      [
+        -13.05,
+        -9.0
+      ],
+      [
+        -13.05,
+        9.0
+      ],
+      [
+        13.95,
+        -9.0
+      ],
+      [
+        13.95,
+        9.0
+      ]
+    ],
+    "mounting_hole_pitch_xy": [
+      27.0,
+      18.0
+    ],
+    "pcb_z_bottom_top": [
+      2.0,
+      3.6
+    ],
+    "usb_mating_direction": [
+      -1,
+      0,
+      0
+    ],
+    "can_uart_mating_direction": [
+      1,
+      0,
+      0
+    ],
+    "note": "Bare assembly extracted from supplied manufacturer STEP; no housing, screws or light pipes. Small underside solder joints not necessarily represented.",
+    "exported_step": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_mujoco/mechanical/v8_2/source/board_model_inspection_usb2can_bare.step"
+  },
+  "usb2can_source": {
+    "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/模型/usb2canfd_v2_1-double.stp",
+    "sha256": "ae103c372e35f404dcd8850467e634c400ee7dbe9f44eec9fb41a5fa9639a40b"
+  },
+  "distribution_pcb": {
+    "source": "/Users/lvjiaqing/Downloads/3D_PCB1_2026-09-28.step",
+    "sha256": "dae4fde3a403c3b4f57518a739b74c02b2bf28d3ca17e1c20dff035dfba9b938",
+    "bounds": {
+      "min": [
+        -0.081991,
+        -39.103378,
+        -0.399949
+      ],
+      "max": [
+        31.991364,
+        -0.0127,
+        6.770393
+      ],
+      "size": [
+        32.073355,
+        39.090678,
+        7.170343
+      ]
+    },
+    "valid": true,
+    "pcb_bounds": {
+      "min": [
+        0.0127,
+        -39.103378,
+        0.0
+      ],
+      "max": [
+        31.991364,
+        -0.0127,
+        1.600051
+      ],
+      "size": [
+        31.978664,
+        39.090678,
+        1.600051
+      ]
+    },
+    "pcb_z_bottom_top": [
+      0.0,
+      1.600051
+    ],
+    "mounting_holes_diameter": 3.000005,
+    "mounting_holes_xy": [
+      [
+        2.413005,
+        -36.576073
+      ],
+      [
+        2.413005,
+        -2.540005
+      ],
+      [
+        29.464059,
+        -36.576073
+      ],
+      [
+        29.464059,
+        -2.540005
+      ]
+    ],
+    "mounting_hole_pitch_xy": [
+      27.051054,
+      34.036068
+    ],
+    "mounting_hole_array_center_xy": [
+      15.938532,
+      -19.558039
+    ],
+    "connectors": [
+      {
+        "reference": "CN5",
+        "model_name": "XT30PW-M 2P",
+        "solid_indices": [
+          1,
+          2,
+          3
+        ],
+        "mating_outward": [
+          0,
+          -1,
+          0
+        ],
+        "bounds": {
+          "min": [
+            9.859906,
+            -38.841091,
+            -0.399949
+          ],
+          "max": [
+            23.159906,
+            -24.664512,
+            6.600052
+          ],
+          "size": [
+            13.3,
+            14.176578,
+            7.000001
+          ]
+        }
+      },
+      {
+        "reference": "U2",
+        "model_name": "4P XT30PW-M",
+        "solid_indices": [
+          4
+        ],
+        "mating_outward": [
+          1,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            19.280752,
+            -21.003034,
+            -0.399949
+          ],
+          "max": [
+            31.959055,
+            -5.503037,
+            6.770393
+          ],
+          "size": [
+            12.678304,
+            15.499997,
+            7.170342
+          ]
+        }
+      },
+      {
+        "reference": "U1",
+        "model_name": "4P XT30PW-M",
+        "solid_indices": [
+          5
+        ],
+        "mating_outward": [
+          -1,
+          0,
+          0
+        ],
+        "bounds": {
+          "min": [
+            -0.081991,
+            -21.003796,
+            -0.399949
+          ],
+          "max": [
+            12.596312,
+            -5.503799,
+            6.770393
+          ],
+          "size": [
+            12.678304,
+            15.499997,
+            7.170342
+          ]
+        }
+      },
+      {
+        "reference": "CN4",
+        "model_name": "WAFER-GH1.25-2PWB",
+        "solid_indices": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "mating_outward": [
+          1,
+          0,
+          0
+        ],
+        "housing_bounds": {
+          "min": [
+            27.458052,
+            -27.391049,
+            1.700051
+          ],
+          "max": [
+            31.508052,
+            -21.631049,
+            5.950051
+          ],
+          "size": [
+            4.05,
+            5.76,
+            4.25
+          ]
+        }
+      },
+      {
+        "reference": "CN3",
+        "model_name": "WAFER-GH1.25-2PWB",
+        "solid_indices": [
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "mating_outward": [
+          1,
+          0,
+          0
+        ],
+        "housing_bounds": {
+          "min": [
+            27.458052,
+            -34.122062,
+            1.700051
+          ],
+          "max": [
+            31.508052,
+            -28.362062,
+            5.950051
+          ],
+          "size": [
+            4.05,
+            5.76,
+            4.25
+          ]
+        }
+      }
+    ],
+    "limits": [
+      "STEP contains no electrical netlist, pin assignment or current rating.",
+      "Connector assignments to left/right legs must be confirmed electrically.",
+      "3.0 mm holes are not guaranteed M3 clearance holes; M2.5 insulated fixing is an option.",
+      "Minimum model solder tail Z=-0.399949; provide additional solder/insulation clearance."
+    ]
+  },
+  "manual_confirmed": {
+    "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/DM-USB2CANFD_Dual 模块使用说明书 V1.0.pdf",
+    "manual_revision": "2026-03-23 V1.0",
+    "pages": [
+      3,
+      4
+    ],
+    "USB_TypeC": "Module power and host communication; do not connect battery 24V.",
+    "CAN": "Two independent channels, GH1.25 2P each.",
+    "UART": "GH1.25 3P.",
+    "termination": "120 ohm on-board termination enabled by corresponding switch ON."
+  }
+}

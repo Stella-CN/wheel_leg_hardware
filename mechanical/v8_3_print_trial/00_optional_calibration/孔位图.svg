@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="850" viewBox="0 0 900 850">
+<rect width="900" height="850" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#173444">
+<text x="60" y="45" font-size="26">Optional hole-fit coupon / mm / 100% scale</text>
+<text x="60" y="78" font-size="18">Notch at upper left. This illustration is not a cutting template.</text>
+<path d="M90 740 L846 740 L846 96 L125 96 L125 131 L90 131 Z" fill="#ebf0f3" stroke="#173444" stroke-width="2"/>
+<circle cx="188" cy="635" r="14.0" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="188" y="673.0" text-anchor="middle" font-size="18">D4.00</text>
+<circle cx="349" cy="635" r="21.0" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="349" y="680.0" text-anchor="middle" font-size="18">D6.00</text>
+<circle cx="510" cy="635" r="28.0" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="510" y="687.0" text-anchor="middle" font-size="18">D8.00</text>
+<circle cx="720" cy="635" r="66.5" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="720" y="725.5" text-anchor="middle" font-size="18">D19.00</text>
+<circle cx="188" cy="432" r="14.525000000000002" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="188" y="470.525" text-anchor="middle" font-size="18">D4.15</text>
+<circle cx="349" cy="432" r="21.525000000000002" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="349" y="477.525" text-anchor="middle" font-size="18">D6.15</text>
+<circle cx="510" cy="432" r="28.525000000000002" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="510" y="484.525" text-anchor="middle" font-size="18">D8.15</text>
+<circle cx="720" cy="432" r="67.02499999999999" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="720" y="523.025" text-anchor="middle" font-size="18">D19.15</text>
+<circle cx="188" cy="229" r="15.049999999999999" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="188" y="268.05" text-anchor="middle" font-size="18">D4.30</text>
+<circle cx="349" cy="229" r="22.05" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="349" y="275.05" text-anchor="middle" font-size="18">D6.30</text>
+<circle cx="510" cy="229" r="29.050000000000004" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="510" y="282.05" text-anchor="middle" font-size="18">D8.30</text>
+<circle cx="720" cy="229" r="67.55" fill="white" stroke="#237c88" stroke-width="2"/>
+<text x="720" y="320.55" text-anchor="middle" font-size="18">D19.30</text>
+<text x="60" y="788" font-size="18">Bottom row: nominal; middle: +0.15 diameter; top: +0.30 diameter.</text>
+<text x="60" y="821" font-size="18">Use results for measured local fitting; never scale the whole robot.</text>
+</g></svg>

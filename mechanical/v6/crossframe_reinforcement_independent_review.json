@@ -1,0 +1,894 @@
+{
+  "method": "exact added/removed BRep volumes; unchanged source syntax and immutable full-review inheritance",
+  "baseline_source_sha256": "6c5ca468937e011e070385949ad7fd5618ee7a5eab851bf9e1ed0f6d5753845e",
+  "baseline_report_sha256": "09532d64ff60ad316b8a7bc0fce93193873b849e0b5654cc628458d97d5ff381",
+  "source_sha256": {
+    "cad_v6_chassis.py": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b",
+    "cad_v6_payload.py": "aab10d7f8257b0df8017cbadc6b2ffb334ed1c6f110767d1f638ab89ee815d93",
+    "cad_v6_jetson_mount.py": "465955c2eff340851ef9380ff2d76503026318f09a0466d4238e4e3478dcd5fa"
+  },
+  "changed_functions": [
+    "_crossframe",
+    "_side"
+  ],
+  "unchanged_global_syntax": true,
+  "helper_source_sha256": "c62a7dacb2c543b23ef866bab205a4ab91e1f63f411a60e552432786a9cb451e",
+  "geometry_differences": {
+    "chassis_hip_frame_right": {
+      "valid": true,
+      "solids": 1,
+      "old_volume_mm3": 60436.504946341025,
+      "new_volume_mm3": 59396.50494634098,
+      "added_mm3": 0.0,
+      "removed_mm3": 1039.9999999999995,
+      "added_solid_bounds_mm": []
+    },
+    "chassis_hip_frame_left": {
+      "valid": true,
+      "solids": 1,
+      "old_volume_mm3": 60436.504946341025,
+      "new_volume_mm3": 59396.50494634097,
+      "added_mm3": 0.0,
+      "removed_mm3": 1039.9999999999995,
+      "added_solid_bounds_mm": []
+    },
+    "chassis_front_crossframe": {
+      "valid": true,
+      "solids": 1,
+      "old_volume_mm3": 23942.69762713208,
+      "new_volume_mm3": 29167.42771896222,
+      "added_mm3": 5224.73009183013,
+      "removed_mm3": 0.0,
+      "added_solid_bounds_mm": [
+        [
+          78.0,
+          -72.0,
+          -47.0,
+          80.0,
+          -58.0,
+          47.0
+        ],
+        [
+          78.0,
+          58.0,
+          -47.0,
+          80.0,
+          72.0,
+          47.0
+        ]
+      ]
+    },
+    "chassis_rear_crossframe": {
+      "valid": true,
+      "solids": 1,
+      "old_volume_mm3": 23942.697627132075,
+      "new_volume_mm3": 29167.427718962233,
+      "added_mm3": 5224.73009183013,
+      "removed_mm3": 0.0,
+      "added_solid_bounds_mm": [
+        [
+          -80.0,
+          -72.0,
+          -47.0,
+          -78.0,
+          -58.0,
+          47.0
+        ],
+        [
+          -80.0,
+          58.0,
+          -47.0,
+          -78.0,
+          72.0,
+          47.0
+        ]
+      ]
+    }
+  },
+  "new_material_collisions": [],
+  "path_collisions": [],
+  "updated_fastener_chains": [
+    {
+      "name": "cross_-82.0_-1_-25.0",
+      "head_seat_or_flush_point_mm": [
+        -82.0,
+        -75,
+        -25.0
+      ],
+      "inward_axis": [
+        0,
+        1,
+        0
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -82.0,
+        -67.0,
+        -25.0
+      ],
+      "interface_support_fraction": 1.0000000000000002,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113525615,
+      "pass": true
+    },
+    {
+      "name": "cross_-82.0_-1_25.0",
+      "head_seat_or_flush_point_mm": [
+        -82.0,
+        -75,
+        25.0
+      ],
+      "inward_axis": [
+        0,
+        1,
+        0
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -82.0,
+        -67.0,
+        25.0
+      ],
+      "interface_support_fraction": 1.0000000000000002,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113525615,
+      "pass": true
+    },
+    {
+      "name": "cross_-82.0_1_-25.0",
+      "head_seat_or_flush_point_mm": [
+        -82.0,
+        75,
+        -25.0
+      ],
+      "inward_axis": [
+        0,
+        -1,
+        0
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -82.0,
+        67.0,
+        -25.0
+      ],
+      "interface_support_fraction": 1.0000000000000002,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113438751,
+      "pass": true
+    },
+    {
+      "name": "cross_-82.0_1_25.0",
+      "head_seat_or_flush_point_mm": [
+        -82.0,
+        75,
+        25.0
+      ],
+      "inward_axis": [
+        0,
+        -1,
+        0
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -82.0,
+        67.0,
+        25.0
+      ],
+      "interface_support_fraction": 1.0000000000000002,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.1919513111343804,
+      "pass": true
+    },
+    {
+      "name": "cross_82.0_-1_-25.0",
+      "head_seat_or_flush_point_mm": [
+        82.0,
+        -75,
+        -25.0
+      ],
+      "inward_axis": [
+        0,
+        1,
+        0
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        82.0,
+        -67.0,
+        -25.0
+      ],
+      "interface_support_fraction": 1.0000000000000002,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113525615,
+      "pass": true
+    },
+    {
+      "name": "cross_82.0_-1_25.0",
+      "head_seat_or_flush_point_mm": [
+        82.0,
+        -75,
+        25.0
+      ],
+      "inward_axis": [
+        0,
+        1,
+        0
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        82.0,
+        -67.0,
+        25.0
+      ],
+      "interface_support_fraction": 1.0000000000000002,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113525615,
+      "pass": true
+    },
+    {
+      "name": "cross_82.0_1_-25.0",
+      "head_seat_or_flush_point_mm": [
+        82.0,
+        75,
+        -25.0
+      ],
+      "inward_axis": [
+        0,
+        -1,
+        0
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        82.0,
+        67.0,
+        -25.0
+      ],
+      "interface_support_fraction": 1.0000000000000002,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113438751,
+      "pass": true
+    },
+    {
+      "name": "cross_82.0_1_25.0",
+      "head_seat_or_flush_point_mm": [
+        82.0,
+        75,
+        25.0
+      ],
+      "inward_axis": [
+        0,
+        -1,
+        0
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        82.0,
+        67.0,
+        25.0
+      ],
+      "interface_support_fraction": 1.0000000000000002,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.1919513111343804,
+      "pass": true
+    },
+    {
+      "name": "belly_-70.0_-67.0",
+      "head_seat_or_flush_point_mm": [
+        -70.0,
+        -67.0,
+        -50
+      ],
+      "inward_axis": [
+        0,
+        0,
+        1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -70.0,
+        -67.0,
+        -42.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113428135,
+      "pass": true
+    },
+    {
+      "name": "belly_-70.0_67.0",
+      "head_seat_or_flush_point_mm": [
+        -70.0,
+        67.0,
+        -50
+      ],
+      "inward_axis": [
+        0,
+        0,
+        1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -70.0,
+        67.0,
+        -42.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113428135,
+      "pass": true
+    },
+    {
+      "name": "belly_-35.0_-67.0",
+      "head_seat_or_flush_point_mm": [
+        -35.0,
+        -67.0,
+        -50
+      ],
+      "inward_axis": [
+        0,
+        0,
+        1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -35.0,
+        -67.0,
+        -42.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.1919513111343062,
+      "pass": true
+    },
+    {
+      "name": "belly_-35.0_67.0",
+      "head_seat_or_flush_point_mm": [
+        -35.0,
+        67.0,
+        -50
+      ],
+      "inward_axis": [
+        0,
+        0,
+        1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -35.0,
+        67.0,
+        -42.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.1919513111343502,
+      "pass": true
+    },
+    {
+      "name": "belly_35.0_-67.0",
+      "head_seat_or_flush_point_mm": [
+        35.0,
+        -67.0,
+        -50
+      ],
+      "inward_axis": [
+        0,
+        0,
+        1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        35.0,
+        -67.0,
+        -42.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113427422,
+      "pass": true
+    },
+    {
+      "name": "belly_35.0_67.0",
+      "head_seat_or_flush_point_mm": [
+        35.0,
+        67.0,
+        -50
+      ],
+      "inward_axis": [
+        0,
+        0,
+        1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        35.0,
+        67.0,
+        -42.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113427422,
+      "pass": true
+    },
+    {
+      "name": "belly_70.0_-67.0",
+      "head_seat_or_flush_point_mm": [
+        70.0,
+        -67.0,
+        -50
+      ],
+      "inward_axis": [
+        0,
+        0,
+        1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        70.0,
+        -67.0,
+        -42.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113428135,
+      "pass": true
+    },
+    {
+      "name": "belly_70.0_67.0",
+      "head_seat_or_flush_point_mm": [
+        70.0,
+        67.0,
+        -50
+      ],
+      "inward_axis": [
+        0,
+        0,
+        1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        70.0,
+        67.0,
+        -42.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_geometry": "DIN7991-style D6 x1.7; thread omitted",
+      "head_distance_mm": 0.0,
+      "head_overlap_mm3": 0.0,
+      "head_inward_0p01_overlap_mm3": 0.19195131113428135,
+      "pass": true
+    },
+    {
+      "name": "tray_-74.0_-48.0",
+      "head_seat_or_flush_point_mm": [
+        -74.0,
+        -48.0,
+        33
+      ],
+      "inward_axis": [
+        0,
+        0,
+        -1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -74.0,
+        -48.0,
+        25.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 1.0000000000014644,
+      "pass": true
+    },
+    {
+      "name": "tray_-74.0_48.0",
+      "head_seat_or_flush_point_mm": [
+        -74.0,
+        48.0,
+        33
+      ],
+      "inward_axis": [
+        0,
+        0,
+        -1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        -74.0,
+        48.0,
+        25.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 1.0000000000014644,
+      "pass": true
+    },
+    {
+      "name": "tray_38.0_-48.0",
+      "head_seat_or_flush_point_mm": [
+        38.0,
+        -48.0,
+        33
+      ],
+      "inward_axis": [
+        0,
+        0,
+        -1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        38.0,
+        -48.0,
+        25.0
+      ],
+      "interface_support_fraction": 0.9737385921212259,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 1.0000000000014644,
+      "pass": true
+    },
+    {
+      "name": "tray_38.0_48.0",
+      "head_seat_or_flush_point_mm": [
+        38.0,
+        48.0,
+        33
+      ],
+      "inward_axis": [
+        0,
+        0,
+        -1
+      ],
+      "nominal_grip_mm": 3,
+      "nominal_engagement_mm": 5,
+      "nominal_screw_end_mm": [
+        38.0,
+        48.0,
+        25.0
+      ],
+      "interface_support_fraction": 0.9737385921212257,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 1.0000000000014644,
+      "pass": true
+    },
+    {
+      "name": "shell_-1_-62.0_-40.0",
+      "head_seat_or_flush_point_mm": [
+        -110,
+        -62.0,
+        -40.0
+      ],
+      "inward_axis": [
+        1,
+        0,
+        0
+      ],
+      "nominal_grip_mm": 24,
+      "nominal_engagement_mm": 6,
+      "nominal_screw_end_mm": [
+        -80.0,
+        -62.0,
+        -40.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 1.0,
+      "pass": true
+    },
+    {
+      "name": "shell_1_-62.0_-40.0",
+      "head_seat_or_flush_point_mm": [
+        100,
+        -62.0,
+        -40.0
+      ],
+      "inward_axis": [
+        -1,
+        0,
+        0
+      ],
+      "nominal_grip_mm": 14,
+      "nominal_engagement_mm": 6,
+      "nominal_screw_end_mm": [
+        80.0,
+        -62.0,
+        -40.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 0.99999999999707,
+      "pass": true
+    },
+    {
+      "name": "shell_-1_-62.0_41.0",
+      "head_seat_or_flush_point_mm": [
+        -110,
+        -62.0,
+        41.0
+      ],
+      "inward_axis": [
+        1,
+        0,
+        0
+      ],
+      "nominal_grip_mm": 24,
+      "nominal_engagement_mm": 6,
+      "nominal_screw_end_mm": [
+        -80.0,
+        -62.0,
+        41.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 1.0,
+      "pass": true
+    },
+    {
+      "name": "shell_1_-62.0_41.0",
+      "head_seat_or_flush_point_mm": [
+        100,
+        -62.0,
+        41.0
+      ],
+      "inward_axis": [
+        -1,
+        0,
+        0
+      ],
+      "nominal_grip_mm": 14,
+      "nominal_engagement_mm": 6,
+      "nominal_screw_end_mm": [
+        80.0,
+        -62.0,
+        41.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 0.9999999999999999,
+      "pass": true
+    },
+    {
+      "name": "shell_-1_62.0_-40.0",
+      "head_seat_or_flush_point_mm": [
+        -110,
+        62.0,
+        -40.0
+      ],
+      "inward_axis": [
+        1,
+        0,
+        0
+      ],
+      "nominal_grip_mm": 24,
+      "nominal_engagement_mm": 6,
+      "nominal_screw_end_mm": [
+        -80.0,
+        62.0,
+        -40.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 1.0,
+      "pass": true
+    },
+    {
+      "name": "shell_1_62.0_-40.0",
+      "head_seat_or_flush_point_mm": [
+        100,
+        62.0,
+        -40.0
+      ],
+      "inward_axis": [
+        -1,
+        0,
+        0
+      ],
+      "nominal_grip_mm": 14,
+      "nominal_engagement_mm": 6,
+      "nominal_screw_end_mm": [
+        80.0,
+        62.0,
+        -40.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 0.99999999999707,
+      "pass": true
+    },
+    {
+      "name": "shell_-1_62.0_41.0",
+      "head_seat_or_flush_point_mm": [
+        -110,
+        62.0,
+        41.0
+      ],
+      "inward_axis": [
+        1,
+        0,
+        0
+      ],
+      "nominal_grip_mm": 24,
+      "nominal_engagement_mm": 6,
+      "nominal_screw_end_mm": [
+        -80.0,
+        62.0,
+        41.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 1.0,
+      "pass": true
+    },
+    {
+      "name": "shell_1_62.0_41.0",
+      "head_seat_or_flush_point_mm": [
+        100,
+        62.0,
+        41.0
+      ],
+      "inward_axis": [
+        -1,
+        0,
+        0
+      ],
+      "nominal_grip_mm": 14,
+      "nominal_engagement_mm": 6,
+      "nominal_screw_end_mm": [
+        80.0,
+        62.0,
+        41.0
+      ],
+      "interface_support_fraction": 1.0,
+      "clearance_shaft_overlap_mm3": 0.0,
+      "thread_core_overlap_mm3": 0.0,
+      "thread_core_diameter_mm": 2.4,
+      "head_support_fraction": 0.9999999999999999,
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "net_aluminium_mass_change_g": 22.597542495882536,
+  "Jetson_rejection_bounds_mm": [
+    -70.52625103033625,
+    -51.68950206067251,
+    32.86148887556,
+    20.5262510311781,
+    51.68950206067251,
+    67.766
+  ],
+  "crossframe_edge_dimensions_mm": {
+    "hole_centre_abs_x": 82,
+    "rail_inner_abs_x": 78,
+    "skin_outer_abs_x": 86,
+    "hole_centre_to_both_edges": 4,
+    "drill_diameter": 2.5,
+    "drill_to_edge_web": 2.75,
+    "nominal_M3_major_to_edge_web": 2.5
+  },
+  "pass": {
+    "valid_parts": true,
+    "no_new_material_interference": true,
+    "affected_fastener_chains_supported": true,
+    "added_material_clear_on_all_previous_path_samples": true
+  },
+  "source_unchanged_during_review": true
+}

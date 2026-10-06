@@ -1,0 +1,906 @@
+{
+  "revision": "v8_1",
+  "scope": "一台双腿整机；仅腿/法兰/轮/髋座硬件，含腿-机身M4接口；不含原厂电机内部件及装配工具/耗材",
+  "bom": [
+    {
+      "id": "LH01",
+      "module": "左右腿",
+      "name": "内六角圆柱头螺钉",
+      "spec": "ISO4762 M3×8",
+      "quantity": 30,
+      "unit": "件",
+      "material": "钢8.8；发黑",
+      "process": "采购",
+      "supply_type": "standard",
+      "source": "https://www.norelem.es/medias/07160-ST-Datasheet-32102-Socket-head-screws-DIN-EN-ISO-4762-enhanced-steel-en.pdf?context=bWFzdGVyfHJvb3R8Mjc4MTEzfGFwcGxpY2F0aW9uL3BkZnxhREEyTDJobE5TODVORGt5TmpreE9ERXlNemd5THpBM01UWXdYMU5VWDBSaGRHRnphR1ZsZEY4ek1qRXdNbDlUYjJOclpYUmZhR1ZoWkY5elkzSmxkM05mUkVsT1gwVk9YMGxUVDE4ME56WXlYMlZ1YUdGdVkyVmtYM04wWldWc0xTMWxiaTV3WkdZfGM1Y2MxMzYwMDFiYzUzMDY3ZDQ4NTAxMWJhZmE0NTlmZWI2NjQ4OTY3NGI0MGRjZWY2NjU5MTZjMzJmODI1OTI",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "通用长度；用于髋转子法兰、轮电机定子和轮辋。轮辋12枚为V8.1补齐。",
+      "standard_key": "ISO4762|M3x8|8.8|steel|black",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "髋转子法兰→髋转子",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "髋转子法兰→髋转子",
+          "quantity": 6
+        },
+        {
+          "module": "右腿",
+          "connection": "CW→H6215定子",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "CW→H6215定子",
+          "quantity": 3
+        },
+        {
+          "module": "右腿",
+          "connection": "轮辋→H6215转子",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "轮辋→H6215转子",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "coupling_rotor_ISO4762_M3x8_0_right",
+        "coupling_rotor_ISO4762_M3x8_0_left",
+        "coupling_rotor_ISO4762_M3x8_1_right",
+        "coupling_rotor_ISO4762_M3x8_1_left",
+        "coupling_rotor_ISO4762_M3x8_2_right",
+        "coupling_rotor_ISO4762_M3x8_2_left",
+        "coupling_rotor_ISO4762_M3x8_3_right",
+        "coupling_rotor_ISO4762_M3x8_3_left",
+        "coupling_rotor_ISO4762_M3x8_4_right",
+        "coupling_rotor_ISO4762_M3x8_4_left",
+        "coupling_rotor_ISO4762_M3x8_5_right",
+        "coupling_rotor_ISO4762_M3x8_5_left",
+        "H6215_stator_M3x8_0_right",
+        "H6215_stator_M3x8_0_left",
+        "H6215_stator_M3x8_1_right",
+        "H6215_stator_M3x8_1_left",
+        "H6215_stator_M3x8_2_right",
+        "H6215_stator_M3x8_2_left",
+        "wheel_rim_ISO4762_M3x8_0_right",
+        "wheel_rim_ISO4762_M3x8_0_left",
+        "wheel_rim_ISO4762_M3x8_1_right",
+        "wheel_rim_ISO4762_M3x8_1_left",
+        "wheel_rim_ISO4762_M3x8_2_right",
+        "wheel_rim_ISO4762_M3x8_2_left",
+        "wheel_rim_ISO4762_M3x8_3_right",
+        "wheel_rim_ISO4762_M3x8_3_left",
+        "wheel_rim_ISO4762_M3x8_4_right",
+        "wheel_rim_ISO4762_M3x8_4_left",
+        "wheel_rim_ISO4762_M3x8_5_right",
+        "wheel_rim_ISO4762_M3x8_5_left"
+      ]
+    },
+    {
+      "id": "LH02",
+      "module": "左右腿",
+      "name": "内六角圆柱头螺钉",
+      "spec": "ISO4762 M3×16",
+      "quantity": 12,
+      "unit": "件",
+      "material": "钢8.8；发黑",
+      "process": "采购",
+      "supply_type": "standard",
+      "source": "https://www.norelem.es/medias/07160-ST-Datasheet-32102-Socket-head-screws-DIN-EN-ISO-4762-enhanced-steel-en.pdf?context=bWFzdGVyfHJvb3R8Mjc4MTEzfGFwcGxpY2F0aW9uL3BkZnxhREEyTDJobE5TODVORGt5TmpreE9ERXlNemd5THpBM01UWXdYMU5VWDBSaGRHRnphR1ZsZEY4ek1qRXdNbDlUYjJOclpYUmZhR1ZoWkY5elkzSmxkM05mUkVsT1gwVk9YMGxUVDE4ME56WXlYMlZ1YUdGdVkyVmtYM04wWldWc0xTMWxiaTV3WkdZfGM1Y2MxMzYwMDFiYzUzMDY3ZDQ4NTAxMWJhZmE0NTlmZWI2NjQ4OTY3NGI0MGRjZWY2NjU5MTZjMzJmODI1OTI",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "OA到膝转子；夹持12、啮合4 mm，不可用M3×8代替。",
+      "standard_key": "ISO4762|M3x16|8.8|steel|black",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "OA→膝转子",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "OA→膝转子",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "OA_rotor_M3x16_0_right",
+        "OA_rotor_M3x16_0_left",
+        "OA_rotor_M3x16_1_right",
+        "OA_rotor_M3x16_1_left",
+        "OA_rotor_M3x16_2_right",
+        "OA_rotor_M3x16_2_left",
+        "OA_rotor_M3x16_3_right",
+        "OA_rotor_M3x16_3_left",
+        "OA_rotor_M3x16_4_right",
+        "OA_rotor_M3x16_4_left",
+        "OA_rotor_M3x16_5_right",
+        "OA_rotor_M3x16_5_left"
+      ]
+    },
+    {
+      "id": "LH03",
+      "module": "左右腿",
+      "name": "低头小头螺钉",
+      "spec": "NBK SLH-M3-6-SD；头Ø4.5×2，内六角2",
+      "quantity": 20,
+      "unit": "件",
+      "material": "SWCH45K；8.8；发黑",
+      "process": "采购",
+      "supply_type": "catalog",
+      "source": "https://www.nbk1560.com/images/en-US/product/lowsmallheadscrew/SLH-SD/SLH-SD_1.pdf",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "膝后定子4/侧及OB前定子6/侧；保留小头以避让紧凑孔壁，非普通ISO4762。",
+      "standard_key": "NBK|SLH-M3-6-SD|8.8|black_oxide",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "定子杯→膝定子后端",
+          "quantity": 4
+        },
+        {
+          "module": "左腿",
+          "connection": "定子杯→膝定子后端",
+          "quantity": 4
+        },
+        {
+          "module": "右腿",
+          "connection": "OB内框→膝定子前端",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "OB内框→膝定子前端",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "coupling_knee_SLH_M3x6_SD_0_right",
+        "coupling_knee_SLH_M3x6_SD_0_left",
+        "coupling_knee_SLH_M3x6_SD_1_right",
+        "coupling_knee_SLH_M3x6_SD_1_left",
+        "coupling_knee_SLH_M3x6_SD_2_right",
+        "coupling_knee_SLH_M3x6_SD_2_left",
+        "coupling_knee_SLH_M3x6_SD_3_right",
+        "coupling_knee_SLH_M3x6_SD_3_left",
+        "OB_stator_SLH_M3x6_0_right",
+        "OB_stator_SLH_M3x6_0_left",
+        "OB_stator_SLH_M3x6_1_right",
+        "OB_stator_SLH_M3x6_1_left",
+        "OB_stator_SLH_M3x6_2_right",
+        "OB_stator_SLH_M3x6_2_left",
+        "OB_stator_SLH_M3x6_3_right",
+        "OB_stator_SLH_M3x6_3_left",
+        "OB_stator_SLH_M3x6_4_right",
+        "OB_stator_SLH_M3x6_4_left",
+        "OB_stator_SLH_M3x6_5_right",
+        "OB_stator_SLH_M3x6_5_left"
+      ]
+    },
+    {
+      "id": "LH04",
+      "module": "左右腿",
+      "name": "低头小头螺钉",
+      "spec": "NBK SLH-M3-8-SD；头Ø4.5×2，内六角2",
+      "quantity": 8,
+      "unit": "件",
+      "material": "SWCH45K；8.8；发黑",
+      "process": "采购",
+      "supply_type": "catalog",
+      "source": "https://www.nbk1560.com/images/en-US/product/lowsmallheadscrew/SLH-SD/SLH-SD_1.pdf",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "两法兰侧向锁紧。厂家1.4 N·m是螺钉上限，不是该铝接头装配扭矩。",
+      "standard_key": "NBK|SLH-M3-8-SD|8.8|black_oxide",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "两法兰径向锁紧",
+          "quantity": 4
+        },
+        {
+          "module": "左腿",
+          "connection": "两法兰径向锁紧",
+          "quantity": 4
+        }
+      ],
+      "model_instances": [
+        "coupling_radial_SLH_M3x8_SD_0_right",
+        "coupling_radial_SLH_M3x8_SD_0_left",
+        "coupling_radial_SLH_M3x8_SD_1_right",
+        "coupling_radial_SLH_M3x8_SD_1_left",
+        "coupling_radial_SLH_M3x8_SD_2_right",
+        "coupling_radial_SLH_M3x8_SD_2_left",
+        "coupling_radial_SLH_M3x8_SD_3_right",
+        "coupling_radial_SLH_M3x8_SD_3_left"
+      ]
+    },
+    {
+      "id": "LH05",
+      "module": "左右腿",
+      "name": "超薄头内六角花形螺钉",
+      "spec": "NBK SETS-M2-4；头Ø4×0.5，TX4",
+      "quantity": 30,
+      "unit": "件",
+      "material": "SUSXM7；A2；原厂本色",
+      "process": "采购",
+      "supply_type": "catalog",
+      "source": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/spacesaving/SETS/",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "轴承压盖18枚+轴销两端防脱12枚。原厂最大0.15 N·m不可直接当成铝压盖或薄挡片的最终扭矩。",
+      "standard_key": "NBK|SETS-M2-4|SUSXM7_A2|plain",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴承外圈压盖",
+          "quantity": 9
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴承外圈压盖",
+          "quantity": 9
+        },
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴销两端防脱",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴销两端防脱",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "keeper_A_SETS_M2x4_0_right",
+        "keeper_A_SETS_M2x4_0_left",
+        "keeper_A_SETS_M2x4_1_right",
+        "keeper_A_SETS_M2x4_1_left",
+        "keeper_A_SETS_M2x4_2_right",
+        "keeper_A_SETS_M2x4_2_left",
+        "axis_A_SETS_M2x4_inner_right",
+        "axis_A_SETS_M2x4_inner_left",
+        "axis_A_SETS_M2x4_outer_right",
+        "axis_A_SETS_M2x4_outer_left",
+        "keeper_C_SETS_M2x4_0_right",
+        "keeper_C_SETS_M2x4_0_left",
+        "keeper_C_SETS_M2x4_1_right",
+        "keeper_C_SETS_M2x4_1_left",
+        "keeper_C_SETS_M2x4_2_right",
+        "keeper_C_SETS_M2x4_2_left",
+        "axis_C_SETS_M2x4_inner_right",
+        "axis_C_SETS_M2x4_inner_left",
+        "axis_C_SETS_M2x4_outer_right",
+        "axis_C_SETS_M2x4_outer_left",
+        "keeper_B_SETS_M2x4_0_right",
+        "keeper_B_SETS_M2x4_0_left",
+        "keeper_B_SETS_M2x4_1_right",
+        "keeper_B_SETS_M2x4_1_left",
+        "keeper_B_SETS_M2x4_2_right",
+        "keeper_B_SETS_M2x4_2_left",
+        "axis_B_SETS_M2x4_inner_right",
+        "axis_B_SETS_M2x4_inner_left",
+        "axis_B_SETS_M2x4_outer_right",
+        "axis_B_SETS_M2x4_outer_left"
+      ]
+    },
+    {
+      "id": "LH06",
+      "module": "左右腿",
+      "name": "沉头内六角螺钉",
+      "spec": "DIN7991 M3×10；头≤Ø6×1.7，90°，内六角2",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢010.9；发黑",
+      "process": "采购",
+      "supply_type": "standard",
+      "source": "https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-flat-countersunk-head-screws-fully-threaded/p/20/",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "OB内框到外壳；DIN已撤销但仍有目录件。不得不检查就换ISO10642大头。",
+      "standard_key": "DIN7991|M3x10|010.9|steel|black|headD6_k1.7",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "OB内框→OB外壳",
+          "quantity": 4
+        },
+        {
+          "module": "左腿",
+          "connection": "OB内框→OB外壳",
+          "quantity": 4
+        }
+      ],
+      "model_instances": [
+        "OB_shell_DIN7991_M3x10_0_right",
+        "OB_shell_DIN7991_M3x10_0_left",
+        "OB_shell_DIN7991_M3x10_1_right",
+        "OB_shell_DIN7991_M3x10_1_left",
+        "OB_shell_DIN7991_M3x10_2_right",
+        "OB_shell_DIN7991_M3x10_2_left",
+        "OB_shell_DIN7991_M3x10_3_right",
+        "OB_shell_DIN7991_M3x10_3_left"
+      ]
+    },
+    {
+      "id": "LH07",
+      "module": "左右腿",
+      "name": "沉头内六角螺钉",
+      "spec": "DIN7991 M3×6；头≤Ø6×1.7，90°，内六角2",
+      "quantity": 12,
+      "unit": "件",
+      "material": "钢010.9；发黑",
+      "process": "采购",
+      "supply_type": "standard",
+      "source": "https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-flat-countersunk-head-screws-fully-threaded/p/20/",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "髋电机定子到髋座；深5的电机孔中名义啮合3。",
+      "standard_key": "DIN7991|M3x6|010.9|steel|black|headD6_k1.7",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "髋定子→髋座",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "髋定子→髋座",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "hip_stator_M3x6_CS_0_right",
+        "hip_stator_M3x6_CS_0_left",
+        "hip_stator_M3x6_CS_1_right",
+        "hip_stator_M3x6_CS_1_left",
+        "hip_stator_M3x6_CS_2_right",
+        "hip_stator_M3x6_CS_2_left",
+        "hip_stator_M3x6_CS_3_right",
+        "hip_stator_M3x6_CS_3_left",
+        "hip_stator_M3x6_CS_4_right",
+        "hip_stator_M3x6_CS_4_left",
+        "hip_stator_M3x6_CS_5_right",
+        "hip_stator_M3x6_CS_5_left"
+      ]
+    },
+    {
+      "id": "LH08",
+      "module": "左右腿",
+      "name": "沉头内六角螺钉",
+      "spec": "DIN7991 M4×12；头≤Ø8×2.3，90°，内六角2.5",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢010.9；发黑",
+      "process": "采购",
+      "supply_type": "standard",
+      "source": "https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-flat-countersunk-head-screws-fully-threaded/p/20/",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "腿模块到机身侧框；每侧4枚，整机总装时使用，机身BOM不要重复。",
+      "standard_key": "DIN7991|M4x12|010.9|steel|black|headD8_k2.3",
+      "usage": [
+        {
+          "module": "腿-机身总装",
+          "connection": "髋座→机身侧框",
+          "quantity": 8
+        }
+      ],
+      "model_instances": [
+        "hip_case_M4x12_CS_0_right",
+        "hip_case_M4x12_CS_0_left",
+        "hip_case_M4x12_CS_1_right",
+        "hip_case_M4x12_CS_1_left",
+        "hip_case_M4x12_CS_2_right",
+        "hip_case_M4x12_CS_2_left",
+        "hip_case_M4x12_CS_3_right",
+        "hip_case_M4x12_CS_3_left"
+      ]
+    },
+    {
+      "id": "LH09",
+      "module": "左右腿",
+      "name": "普通平垫圈",
+      "spec": "ISO7089 M4；Ø4.3/Ø9×0.8",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢200HV；镀锌",
+      "process": "采购",
+      "supply_type": "standard",
+      "source": "https://www.obo.de/de-de/produkte/unterlegscheibe-9-4-3-0-8-m4-3402045.html",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "外形来源为厂家DIN125A表；采购选200HV等级，不能拿未标硬度或软塑料垫圈替换。每个M4接口一片。",
+      "standard_key": "ISO7089|M4|200HV|steel|zinc",
+      "usage": [
+        {
+          "module": "腿-机身总装",
+          "connection": "髋座→机身侧框",
+          "quantity": 8
+        }
+      ],
+      "model_instances": [
+        "hip_case_M4_washer_0_right",
+        "hip_case_M4_washer_0_left",
+        "hip_case_M4_washer_1_right",
+        "hip_case_M4_washer_1_left",
+        "hip_case_M4_washer_2_right",
+        "hip_case_M4_washer_2_left",
+        "hip_case_M4_washer_3_right",
+        "hip_case_M4_washer_3_left"
+      ]
+    },
+    {
+      "id": "LH10",
+      "module": "左右腿",
+      "name": "六角螺母",
+      "spec": "ISO4032 M4；AF7×3.2",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢8级；镀锌",
+      "process": "采购",
+      "supply_type": "standard",
+      "source": "https://www.norelem.com/doc/hu/hu/did.294335/Normenuebersicht-der-Verbindungselemente-NLM_HU.pdf",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "髋座总装用；与M4沉头螺钉配对，现场防松工艺确认后做扭矩标记。",
+      "standard_key": "ISO4032|M4|8|steel|zinc",
+      "usage": [
+        {
+          "module": "腿-机身总装",
+          "connection": "髋座→机身侧框",
+          "quantity": 8
+        }
+      ],
+      "model_instances": [
+        "hip_case_M4_nut_0_right",
+        "hip_case_M4_nut_0_left",
+        "hip_case_M4_nut_1_right",
+        "hip_case_M4_nut_1_left",
+        "hip_case_M4_nut_2_right",
+        "hip_case_M4_nut_2_left",
+        "hip_case_M4_nut_3_right",
+        "hip_case_M4_nut_3_left"
+      ]
+    },
+    {
+      "id": "LH11",
+      "module": "左右腿",
+      "name": "定位圆柱销",
+      "spec": "DIN6325 Ø4m6×10（Norelem03320-04X10）",
+      "quantity": 6,
+      "unit": "件",
+      "material": "工具钢；淬硬磨削60±2HRC；本色",
+      "process": "采购",
+      "supply_type": "standard",
+      "source": "https://www.norelem.mx/doc/mx/es/did.97191/03320_Datasheet_2785_Pasadores_cil_ndricos_DIN_6325--es.pdf",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "3/髋法兰；取代旧定制9mm。只控制装入法兰7.00±0.05；外露名义3、随实际长度变化（详公差文档），三销按实物检具确认，禁止螺钉强拉。",
+      "standard_key": "DIN6325|4m6x10|hardened_60HRC|ground_plain",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "髋转子法兰定位",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "髋转子法兰定位",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "coupling_rotor_DIN6325_D4x10_0_right",
+        "coupling_rotor_DIN6325_D4x10_0_left",
+        "coupling_rotor_DIN6325_D4x10_1_right",
+        "coupling_rotor_DIN6325_D4x10_1_left",
+        "coupling_rotor_DIN6325_D4x10_2_right",
+        "coupling_rotor_DIN6325_D4x10_2_left"
+      ]
+    },
+    {
+      "id": "LH12",
+      "module": "左右腿",
+      "name": "深沟球轴承",
+      "spec": "NSK626ZZ1；6×19×6；金属防尘盖",
+      "quantity": 6,
+      "unit": "件",
+      "material": "原厂轴承钢",
+      "process": "采购",
+      "supply_type": "catalog",
+      "source": "https://www.nsk.com/jp-ja/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series/626zz1-esm-md.html",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "A、B、C各1/腿，普通游隙版本；不得仅按626尺寸采购C3/MC3等异游隙版本。额定载荷不等于整机跳跃能力。",
+      "standard_key": "NSK|626ZZ1|standard_clearance|ZZ",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C关节",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C关节",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "626_A_right",
+        "626_A_left",
+        "626_C_right",
+        "626_C_left",
+        "626_B_right",
+        "626_B_left"
+      ]
+    },
+    {
+      "id": "LC01",
+      "module": "左右腿",
+      "name": "轴承外圈压盖",
+      "spec": "Ø28/Ø16.8×0.8；3-Ø2.2 PCD24",
+      "quantity": 6,
+      "unit": "件",
+      "material": "不锈钢板",
+      "process": "金属加工",
+      "supply_type": "custom",
+      "source": "metal_hardware/bearing_keeper_D28_D16_8_t0_8.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "激光/精密板切割后去毛刺整平；薄型结构不够放DIN472槽+保边，保留压盖。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴承外圈压盖",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴承外圈压盖",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "bearing_keeper_A_right",
+        "bearing_keeper_A_left",
+        "bearing_keeper_C_right",
+        "bearing_keeper_C_left",
+        "bearing_keeper_B_right",
+        "bearing_keeper_B_left"
+      ]
+    },
+    {
+      "id": "LC02",
+      "module": "左右腿",
+      "name": "双端内螺纹关节轴销",
+      "spec": "Ø6×14.05；两端M2×0.4完整牙≥4.3；底孔深4.6",
+      "quantity": 6,
+      "unit": "件",
+      "material": "40Cr调质后精磨；具体硬度按试验定",
+      "process": "金属加工",
+      "supply_type": "custom",
+      "source": "metal_hardware/female_pin_D6_L14_05.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "六个A/B/C轴同一种；非标准肩螺栓。外形冻结，轴径按轴承实测选配；名义中心实心段4.85 mm。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴销",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴销",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "female_pin_A_right",
+        "female_pin_A_left",
+        "female_pin_C_right",
+        "female_pin_C_left",
+        "female_pin_B_right",
+        "female_pin_B_left"
+      ]
+    },
+    {
+      "id": "LC03",
+      "module": "左右腿",
+      "name": "内侧一体带肩衬套",
+      "spec": "铜套Ø8/Ø6.05×2.5＋肩Ø8.4/Ø6.2×1.25；总长3.75",
+      "quantity": 6,
+      "unit": "件",
+      "material": "轴承青铜CuSn12",
+      "process": "金属加工",
+      "supply_type": "custom",
+      "source": "metal_hardware/flanged_bush_inner_D8_D8p4_L3p75.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "精密车削；Ø8段朝内叉耳，Ø8.4肩朝轴承。替代独立铜套+1.25隔圈；轻压装，不用窄肩传递轴承预载。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C嵌套支撑",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C嵌套支撑",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "flanged_bush_A_inner_right",
+        "flanged_bush_A_inner_left",
+        "flanged_bush_C_inner_right",
+        "flanged_bush_C_inner_left",
+        "flanged_bush_B_inner_right",
+        "flanged_bush_B_inner_left"
+      ]
+    },
+    {
+      "id": "LC04",
+      "module": "左右腿",
+      "name": "外侧一体带肩衬套",
+      "spec": "肩Ø8.4/Ø6.2×1.70＋铜套Ø8/Ø6.05×2.5；总长4.20",
+      "quantity": 6,
+      "unit": "件",
+      "material": "轴承青铜CuSn12",
+      "process": "金属加工",
+      "supply_type": "custom",
+      "source": "metal_hardware/flanged_bush_outer_D8_D8p4_L4p20.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "精密车削；Ø8段朝外叉耳，Ø8.4肩朝轴承。名义游隙0.05留在肩与轴承内圈之间，避免压盖/轴销锁死轴承。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C嵌套支撑",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C嵌套支撑",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "flanged_bush_A_outer_right",
+        "flanged_bush_A_outer_left",
+        "flanged_bush_C_outer_right",
+        "flanged_bush_C_outer_left",
+        "flanged_bush_B_outer_right",
+        "flanged_bush_B_outer_left"
+      ]
+    },
+    {
+      "id": "LC05",
+      "module": "左右腿",
+      "name": "轴销薄防脱挡片",
+      "spec": "Ø9/Ø2.2×0.20",
+      "quantity": 12,
+      "unit": "件",
+      "material": "钢精密垫片料",
+      "process": "金属加工",
+      "supply_type": "custom",
+      "source": "metal_hardware/axis_washer_D9_d2_2_t0_2.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "定制功能挡片，不是标准采购垫片。单一规格12件，避免用大/小标准垫片叠层增加散件。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴销防脱",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴销防脱",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "axis_washer_A_inner_right",
+        "axis_washer_A_inner_left",
+        "axis_washer_A_outer_right",
+        "axis_washer_A_outer_left",
+        "axis_washer_C_inner_right",
+        "axis_washer_C_inner_left",
+        "axis_washer_C_outer_right",
+        "axis_washer_C_outer_left",
+        "axis_washer_B_inner_right",
+        "axis_washer_B_inner_left",
+        "axis_washer_B_outer_right",
+        "axis_washer_B_outer_left"
+      ]
+    },
+    {
+      "id": "LC06",
+      "module": "左右腿",
+      "name": "OA装配限位肩销",
+      "spec": "M3×3；Ø4肩长4.2；Ø7×1头，0.8槽",
+      "quantity": 2,
+      "unit": "件",
+      "material": "钢；强度待验证",
+      "process": "金属加工",
+      "supply_type": "custom",
+      "source": "metal_hardware/OA_angular_stop_M3_D4.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "只做装配角限位；禁止把它当作带电撞停或落地限位件。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "OA装配角限位",
+          "quantity": 1
+        },
+        {
+          "module": "左腿",
+          "connection": "OA装配角限位",
+          "quantity": 1
+        }
+      ],
+      "model_instances": [
+        "OA_angular_stop_shoulder_M3_right",
+        "OA_angular_stop_shoulder_M3_left"
+      ]
+    }
+  ],
+  "sources": {
+    "iso4762": "https://www.norelem.es/medias/07160-ST-Datasheet-32102-Socket-head-screws-DIN-EN-ISO-4762-enhanced-steel-en.pdf?context=bWFzdGVyfHJvb3R8Mjc4MTEzfGFwcGxpY2F0aW9uL3BkZnxhREEyTDJobE5TODVORGt5TmpreE9ERXlNemd5THpBM01UWXdYMU5VWDBSaGRHRnphR1ZsZEY4ek1qRXdNbDlUYjJOclpYUmZhR1ZoWkY5elkzSmxkM05mUkVsT1gwVk9YMGxUVDE4ME56WXlYMlZ1YUdGdVkyVmtYM04wWldWc0xTMWxiaTV3WkdZfGM1Y2MxMzYwMDFiYzUzMDY3ZDQ4NTAxMWJhZmE0NTlmZWI2NjQ4OTY3NGI0MGRjZWY2NjU5MTZjMzJmODI1OTI",
+    "din7991": "https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-flat-countersunk-head-screws-fully-threaded/p/20/",
+    "slh": "https://www.nbk1560.com/images/en-US/product/lowsmallheadscrew/SLH-SD/SLH-SD_1.pdf",
+    "sets": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/spacesaving/SETS/",
+    "pin": "https://www.norelem.mx/doc/mx/es/did.97191/03320_Datasheet_2785_Pasadores_cil_ndricos_DIN_6325--es.pdf",
+    "pin_length_tolerance": "https://www.ganternorm.com/en/products/New-products/New-products/DIN-6325-Dowel-Pins-Steel",
+    "bearing": "https://www.nsk.com/jp-ja/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series/626zz1-esm-md.html",
+    "washer": "https://www.obo.de/de-de/produkte/unterlegscheibe-9-4-3-0-8-m4-3402045.html",
+    "nut": "https://www.norelem.com/doc/hu/hu/did.294335/Normenuebersicht-der-Verbindungselemente-NLM_HU.pdf",
+    "j4310": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/2D图纸/DM_J4310_V1.1 减速电机 标注.PDF",
+    "h6215": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/2D图纸/6215_轮毂电机20251203.PDF"
+  },
+  "count_audit": {
+    "modelled_each_leg": 97,
+    "modelled_both_legs": 194,
+    "standard_catalog_quantity": 156,
+    "custom_quantity": 38,
+    "hardware_purchase_skus": 12,
+    "custom_hardware_skus": 6,
+    "all_model_instances_classified_once": true
+  },
+  "manufacturing_aliases": {
+    "tolerance_mm3": 0.0001,
+    "results": [
+      {
+        "part": "hip_stator_mount",
+        "assembly_instances": 2,
+        "shape_volume_mm3": 14900.879871576582,
+        "rigid_rotation_equivalence": [
+          {
+            "axis_xz_degrees": 0,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          },
+          {
+            "axis_xz_degrees": 90,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          }
+        ],
+        "shared_manufacturing_sku": true
+      },
+      {
+        "part": "hip_rotor_cnc",
+        "assembly_instances": 2,
+        "shape_volume_mm3": 11985.280330612151,
+        "rigid_rotation_equivalence": [
+          {
+            "axis_xz_degrees": 150,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          }
+        ],
+        "shared_manufacturing_sku": true
+      },
+      {
+        "part": "knee_stator_cnc",
+        "assembly_instances": 2,
+        "shape_volume_mm3": 18837.70277802956,
+        "rigid_rotation_equivalence": [],
+        "shared_manufacturing_sku": false
+      },
+      {
+        "part": "OB_inner_carrier",
+        "assembly_instances": 2,
+        "shape_volume_mm3": 15493.035216379412,
+        "rigid_rotation_equivalence": [],
+        "shared_manufacturing_sku": false
+      },
+      {
+        "part": "OB_outer_shell",
+        "assembly_instances": 2,
+        "shape_volume_mm3": 35214.607262092046,
+        "rigid_rotation_equivalence": [],
+        "shared_manufacturing_sku": false
+      },
+      {
+        "part": "OA_one_piece",
+        "assembly_instances": 2,
+        "shape_volume_mm3": 26061.498485070937,
+        "rigid_rotation_equivalence": [
+          {
+            "axis_xz_degrees": 90,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          }
+        ],
+        "shared_manufacturing_sku": true
+      },
+      {
+        "part": "AC_bearing_link",
+        "assembly_instances": 2,
+        "shape_volume_mm3": 17625.133372022,
+        "rigid_rotation_equivalence": [
+          {
+            "axis_xz_degrees": 0,
+            "axis_point_mm": [
+              0,
+              0,
+              -65
+            ],
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0,
+            "method": "A/C ends exchanged, measured two directional boolean cuts"
+          }
+        ],
+        "shared_manufacturing_sku": true
+      },
+      {
+        "part": "CW_one_piece",
+        "assembly_instances": 2,
+        "shape_volume_mm3": 42448.68524188544,
+        "rigid_rotation_equivalence": [],
+        "shared_manufacturing_sku": false
+      },
+      {
+        "part": "wheel_rim",
+        "assembly_instances": 2,
+        "shape_volume_mm3": 52682.873601724685,
+        "rigid_rotation_equivalence": [
+          {
+            "axis_xz_degrees": 0,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          },
+          {
+            "axis_xz_degrees": 30,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          },
+          {
+            "axis_xz_degrees": 60,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          },
+          {
+            "axis_xz_degrees": 90,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          },
+          {
+            "axis_xz_degrees": 120,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          },
+          {
+            "axis_xz_degrees": 150,
+            "rotation_degrees": 180,
+            "symmetric_difference_mm3": 0.0
+          }
+        ],
+        "shared_manufacturing_sku": true
+      }
+    ],
+    "manufacturing_sku_count_before": 17,
+    "manufacturing_sku_count_after": 13,
+    "structural_parts_count_whole_robot": 18
+  }
+}

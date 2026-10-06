@@ -1,0 +1,196 @@
+{
+  "panels": {
+    "front": {
+      "source_image": "internal_cutaway.png",
+      "viewport": [
+        60,
+        250,
+        1810,
+        1250
+      ],
+      "title": "前侧观察 · 竖装转接板与服务托架"
+    },
+    "rear": {
+      "source_image": "internal_cutaway_rear.png",
+      "viewport": [
+        1960,
+        260,
+        1000,
+        1080
+      ],
+      "title": "后侧观察 · USB 扩展与充电口"
+    }
+  },
+  "annotations": [
+    {
+      "number": 1,
+      "panel": "rear",
+      "title": "Jetson Orin Nano",
+      "details": [
+        "官方开发套件实体模型",
+        "接口集中朝前，保留插头通道"
+      ],
+      "target": [
+        1000,
+        790
+      ],
+      "badge": [
+        710,
+        555
+      ]
+    },
+    {
+      "number": 2,
+      "panel": "front",
+      "title": "HI13R2 IMU",
+      "details": [
+        "刚性桥架安装",
+        "原点保持俯视机器中心"
+      ],
+      "target": [
+        1073,
+        554
+      ],
+      "badge": [
+        1140,
+        420
+      ]
+    },
+    {
+      "number": 3,
+      "panel": "front",
+      "title": "USB2CANFD 裸板",
+      "details": [
+        "拆除厂家壳体，四点固定",
+        "两路 CAN 与 USB 分开走线"
+      ],
+      "target": [
+        745,
+        832
+      ],
+      "badge": [
+        410,
+        865
+      ]
+    },
+    {
+      "number": 4,
+      "panel": "front",
+      "title": "用户配电转接板",
+      "details": [
+        "按实际 STEP 竖装",
+        "电源 XT30 朝上，便于接插"
+      ],
+      "target": [
+        947,
+        1099
+      ],
+      "badge": [
+        690,
+        1240
+      ]
+    },
+    {
+      "number": 5,
+      "panel": "front",
+      "title": "24→19 V 模块",
+      "details": [
+        "安装耳孔距 51，孔径 4",
+        "根据图示外形建立安装包络"
+      ],
+      "target": [
+        659,
+        692
+      ],
+      "badge": [
+        420,
+        600
+      ]
+    },
+    {
+      "number": 6,
+      "panel": "front",
+      "title": "顶部自锁电源开关",
+      "details": [
+        "M16 安装，含插座深 47.5",
+        "顶壳隐藏以显示完整开关"
+      ],
+      "target": [
+        879,
+        650
+      ],
+      "badge": [
+        815,
+        430
+      ]
+    },
+    {
+      "number": 7,
+      "panel": "front",
+      "title": "E626S 电池与托架",
+      "details": [
+        "电池处于下层中心区域",
+        "原托架保留，绑带限制跳动"
+      ],
+      "target": [
+        1200,
+        1070
+      ],
+      "badge": [
+        1550,
+        1180
+      ]
+    },
+    {
+      "number": 8,
+      "panel": "rear",
+      "title": "后部四口 USB Hub",
+      "details": [
+        "安装到后盖的独立压座",
+        "150 上行线另配 250 延长线"
+      ],
+      "target": [
+        865,
+        1130
+      ],
+      "badge": [
+        450,
+        1205
+      ]
+    },
+    {
+      "number": 9,
+      "panel": "rear",
+      "title": "后部充电口安装板",
+      "details": [
+        "可更换板，保留导孔",
+        "最终孔形根据 DC 母座确认"
+      ],
+      "target": [
+        980,
+        1385
+      ],
+      "badge": [
+        1350,
+        1500
+      ]
+    },
+    {
+      "number": 10,
+      "panel": "front",
+      "title": "一体电器服务托架",
+      "details": [
+        "两块板及 DC/DC 先预装",
+        "整模块再固定到电器托盘"
+      ],
+      "target": [
+        1000,
+        930
+      ],
+      "badge": [
+        625,
+        1000
+      ]
+    }
+  ]
+}

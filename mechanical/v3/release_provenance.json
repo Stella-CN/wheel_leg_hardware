@@ -1,0 +1,12 @@
+{
+  "review_report": "design_review.json",
+  "reviewed_hashes_preserved": true,
+  "post_review_changes": [
+    {
+      "path": "tools/build_nested_robot.py",
+      "change": "Added end_land_min=0.5 to exported pin specification metadata only; geometry code unchanged.",
+      "verified_by": "Removing the single metadata field reproduces the independent review source SHA-256 exactly.",
+      "release_sha256": "5e3eb562cd59eee9245e8867bfc3028a801bb0d8d9a30e92bd3145b07a5e80be"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "units": "mm",
+  "source": "source/display/显示器规格书.pdf",
+  "source_sha256": "f895c2682c0a3a7350379cb1d421471bf04abbc52a86e3d671ca078d53c56b96",
+  "dimension_page_pdf": 2,
+  "model_family": "GK-HD",
+  "specification_revision": "V3",
+  "cover_date": "20240428",
+  "selected_variant_inches": 5,
+  "outer_width_height_depth": [
+    122.0,
+    78.0,
+    14.5
+  ],
+  "active_display_area": null,
+  "active_display_window": "Not specified; no inferred AA cutout.",
+  "manufacturer_device_mounting_holes": null,
+  "face_x": 114.0,
+  "rear_x": 99.5,
+  "center_z": -4.0,
+  "mass_g": 200.0,
+  "mass_is_assumed": true,
+  "mass_scenario_range_g": [
+    100.0,
+    350.0
+  ],
+  "panel_clear_opening_width_height": [
+    123.0,
+    79.0
+  ],
+  "cradle_fasteners": "4xM3x22 screws + 4xM3 nuts, cradle front datumX114, panelX114..117",
+  "cradle_holes_yz": [
+    [
+      -67.0,
+      -34.0
+    ],
+    [
+      -67.0,
+      26.0
+    ],
+    [
+      67.0,
+      -34.0
+    ],
+    [
+      67.0,
+      26.0
+    ]
+  ],
+  "cradle_hole_diameter": 3.4,
+  "case_side_clearance_each_mm": 0.5,
+  "front_stops": "Provided by chassis front panel at four corners; formed length4mm, nominal case contact3.5x0.5mm each. Actual metal rim must be confirmed.",
+  "rear_pads": "4x4x8x0.5 mm compliant adhesive pads at X99..99.5, Y±(56..60), Z[-38,-30]/[22,30]; not separate CAD solids.",
+  "device_bottom_support_z": -43.0,
+  "device_top_retention_z": 35.5,
+  "connectors": "Rear-left recessed family illustration; no dimensioned connector coordinates/direction. Cradle leaves rear central area and side central height open.",
+  "unresolved": [
+    "Actual mass and centre of mass.",
+    "Front corner contact must be metal case, not LCD/glass; replace stop pads after measuring if necessary.",
+    "Case dimensional tolerances and front glass extent.",
+    "Actual rear/side plug clearances and cable bending.",
+    "Unknown purchased-device case load limits; not jump-qualified."
+  ],
+  "supplier_interface_not_reused": "7/10-inch75x75 M4 and all former7-inch data excluded."
+}

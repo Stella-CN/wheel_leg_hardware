@@ -1,0 +1,11 @@
+{
+  "units": "mm",
+  "physical_solid_objects": 369,
+  "facets": 3175352,
+  "purpose": "Assembly viewing, not monolithic printing; separate print/*.stl and CNC STEP.",
+  "excluded": [
+    "routing allowance objects",
+    "D435 analytic proxy replaced by official mesh"
+  ],
+  "scope": "Vendor motor, Jetson, HiPNUC, bareUSB2CAN and distributionPCB solids; dimensioned switch/converter/hub/battery/screen envelopes."
+}

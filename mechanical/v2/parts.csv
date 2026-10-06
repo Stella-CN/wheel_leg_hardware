@@ -1,0 +1,17 @@
+part,process,quantity,print_X_mm,print_Y_mm,print_Z_mm,solid_mass_g_each
+chassis_lower_shell,PETG,1,200.0,150.0,96.0,442.9
+chassis_lid,PETG,1,200.0,150.0,7.0,156.5
+battery_tray,PETG,1,153.993,58.0,10.4,33.9
+electronics_tray,PETG,1,188.0,46.0,3.0,30.8
+hip_stator_mount,PETG,2,78.0,78.0,8.0,35.5
+hip_rotor_cnc,CNC,2,79.941,80.0,15.8,107.0
+knee_stator_cnc,CNC,2,79.941,80.0,6.0,79.0
+fixed_arm_OB,PETG,1,74.0,184.982,28.0,76.0
+fixed_arm_OB_left,PETG,1,74.0,184.982,28.0,76.0
+B_outer_cheek,PETG,2,27.989,88.0,8.0,16.5
+active_arm_OA,PETG,2,43.971,68.988,24.8,47.9
+coupler_AC,PETG,2,31.992,162.0,14.0,47.6
+output_BCW,PETG,1,47.991,201.0,14.0,91.3
+output_BCW_left,PETG,1,47.991,201.0,14.0,91.3
+wheel_rim,PETG,2,89.985,89.971,40.5,126.2
+bearing_fit_coupon,PETG,1,100.0,30.0,6.0,14.1

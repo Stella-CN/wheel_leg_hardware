@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+HiPNUC - IMU AHRS GNSS | 姿态感知 | 定位导航 | 状态监测| 3D 动作感测
+</title>
+<meta name="description" content="IMU/AHRS/GNSS/INS，提供姿态检测、定位导航、状态监测、动作捕捉方案">
+<meta content="无线IMU,IMU,姿态检测,慣性測量,定位导航" name="keywords" />
+<link href="static/images/favicon.ico" rel="shortcut icon" sizes="16x16" type="image/x-icon">
+<link href="static/css/template.min.css" rel="stylesheet" />
+<link href="static/css/main.css" rel="stylesheet" />
+<link href="static/css/icon.css" rel="stylesheet" />
+<link href="static/css/chosen.css" rel="stylesheet" />
+<link href="static/css/finder.css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="static/css/swiper.min.css">
+<script src="static/js/jquery.min.js"></script>
+<script src="static/js/bootstrap.min.js" nomodule defer></script>
+<script src="static/js/main.js" defer></script>
+<script type="text/javascript" src="static/js/swiper.min.js"></script>
+<script>var _hmt =_hmt ||[];(function() {var hm =document.createElement("script");hm.src ="https://hm.baidu.com/hm.js?269e8599d4393777b084a5237d82cad1";var s =document.getElementsByTagName("script")[0];s.parentNode.insertBefore(hm,s);})();</script>
+</head>
+<body class="site com_sbx wrapper-fluid view-sites no-layout no-task itemid-101">
+<header class="header container-header full-width">
+<div class="container-topbar">
+<div id="k-nav" class="grid-child k-nav fixed">
+<div class="container k-nav" style="border:0">
+<div class="row">
+<div class="col-auto pt-2">
+<a href="index.html">
+<img src="static/images/brand.png" class="k-nav-logo">
+</a>
+</div>
+<div class="col text-end px-0">
+<div class="meta-k-nav">
+<a class="meta-nav-item" href="https://download.hipnuc.com/" target="_blank" rel="noopener">
+资源下载
+</a>
+<a class="meta-nav-item" href="contact.html">
+联系我们
+</a>
+<a class="meta-nav-item" href="https://www.hipnuc.com/en" data-toggle="rds-module-language-switch">
+<img class="language-flag me-2" src="static/picture/cn.svg" style="min-width: 24px;">
+English
+</a>
+<a class="meta-nav-item">
+<i class="kicon-phone me-2" style="font-size: .85rem">
+</i>
+<b>
++86 010 6972 6346&nbsp;&nbsp;&nbsp;&nbsp;15801501203
+</b>
+</a>
+</div>
+<div class="main-k-nav">
+<nav class="navbar justify-content-end">
+<ul class="navbar-nav">
+<li data-toggle-nav-link="521" class="nav-link parent no-select">
+产品
+</li>
+<li data-toggle-nav-link="623" class="nav-link parent no-select">
+行业
+</li>
+<li data-toggle-nav-link="647" class="nav-link parent no-select">
+服务
+</li>
+<li data-toggle-nav-link="673" class="nav-link parent no-select">
+招聘
+</li>
+<li class="nav-link parent no-select">
+<a href="https://hipnuc.tmall.com" target="_blank"><image src="static/images/tmall.png" style="height: 1.3rem;">
+</a>
+</li>
+<li class="nav-link parent no-select">
+<a href="https://mall.jd.com/index-16829568.html" target="_blank"><image src="static/images/jd.png" style="height: 1.2rem;">
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div id="mega-dropdown-section" class="mega-dropdown-section">
+<div id="mega-dropdown-521" data-mega-dropdown class="container mega-dropdown">
+<div class="row">
+<div class="col-3 col-left k-nav-shadow" style="background-color: #ffffff">
+<ul class="navbar-list-left mb-0 ">
+<li class="divider">
+<a href="#" class="have-childs" target="_self" data-knav-dropdown-open-childs="imu">
+姿态感知 （IMU/VRU/MRU/AHRS）
+<i class="float-end kicon-chevron-right"></i></a>
+</li>
+<li class="divider">
+<a href="#" class="have-childs" target="_self" data-knav-dropdown-open-childs="position">
+定位导航
+<i class="float-end kicon-chevron-right"></i>
+</a>
+</li>
+<li class="divider">
+<a href="monitor.html" target="_self">
+状态监测
+</a>
+</li>
+<li>
+<a href="#" class="have-childs" target="_self" data-knav-dropdown-open-childs="tilt">
+倾角传感器
+<i class="float-end kicon-chevron-right"></i>
+</a>
+</li>
+</ul>
+</div>
+<div id="data-knav-dropdown-col-521" class="col col-right pt-3">
+<a class="btn btn-outline-primary text-uppercase m-0" href="products.html">
+产品
+</a>
+<div class="welcome-text">
+<h4 class="mb-3">
+欢迎来到我们的产品世界
+</h4>
+<p class="mb-2">
+发现HIPNUC的各种产品和解决方案。从标准产品到不同行业的特殊解决方案。我们乐意接受方案定制，专业且快速地为您定制专属解决方案。
+</p>
+<p class="lead orange">
+欢迎与我们沟通您的需求。电话：+86 010 6972 6346|sales@hipnuc.com
+</p>
+</div>
+</div>
+<div id="data-knav-dropdown-col-imu" class="col col-right hidden">
+<div class="row pt-0 " style="height: 540px; overflow-y: scroll;">
+<a href="attitude.html" style="font-size: 1.5rem;margin-bottom: 10px;font-weight: bold;">
+姿态感知 </a>
+<ul class="navbar-list-right flex-columns" style="justify-content: space-around;">
+<li style="width:30%"> <a href="hi02.html">
+<img src="static/picture/hi02_497x398.png" style="width:80% !important">
+<p style="font-size: 16px;text-align: left;display: block;margin-bottom: 0;">
+HI02系列
+</p>
+<span style="font-size: 14px;text-align: left;display: block;color: #666;font-weight: normal;">
+低成本，高性能，UART，全温温补
+</span>
+</a>
+</li>
+<li style="width:30%"> <a href="hi05.html">
+<img src="static/picture/hi05_497x398.png" style="width:80% !important">
+<p style="font-size: 16px;text-align: left;display: block;margin-bottom: 0;">
+HI05系列
+</p>
+<span style="font-size: 14px;text-align: left;display: block;color: #666;font-weight: normal;">
+全功能，低噪声，UART，全温温补
+</span>
+</a>
+</li>
+<li style="width:30%">
+<a href="hi06.html">
+<img src="static/picture/group_hi06_497x398.png" style="width:80% !important">
+<p style="font-size: 16px;text-align: left;display: block;margin-bottom: 0;">
+HI06系列
+</p>
+<span style="font-size: 14px;text-align: left;display: block;color: #666;font-weight: normal;">
+全功能 站术级 小体积 全温温补
+</span>
+</a>
+</li>
+</ul>
+<ul class="navbar-list-right flex-columns" style="justify-content: space-around;">
+<li style="width:30%">
+<a href="hi12.html">
+<img src="static/picture/group_hi12_497x398.png" style="width:80% !important">
+<p style="font-size: 16px;text-align: left;display: block;margin-bottom: 0;">
+HI12系列
+</p>
+<span style="font-size: 14px;text-align: left;display: block;color: #666;font-weight: normal;">
+小体积外壳，大量程地磁，阵列设计，UART/CAN，全温温补
+</span>
+</a>
+</li>
+<li style="width:30%"> <a href="hi13.html">
+<img src="static/picture/hi13_497x398_usb.png" style="width:80% !important">
+<p style="font-size: 16px;text-align: left;display: block;margin-bottom: 0;">
+HI13系列
+</p>
+<span style="font-size: 14px;text-align: left;display: block;color: #666;font-weight: normal;">
+Type C接口 阵列设计 大量程地磁
+</span>
+</a>
+</li>
+<li style="width:30%"> <a href="hi14.html">
+<img src="static/picture/group_hi14_m12_pg_497x398.png" style="width:80% !important">
+<p style="font-size: 16px;text-align: left;display: block;margin-bottom: 0;">
+HI14系列
+</p>
+<span style="font-size: 14px;text-align: left;display: block;color: #666;font-weight: normal;">
+M12/直接出线 IP68防水 EMC UART(TTL/RS-232)/RS-485/CAN/USB/同步等多种接口
+</span>
+</a>
+</li>
+</ul>
+<ul class="navbar-list-right flex-columns" style="justify-content: space-around;">
+<li style="width:30%"> <a href="hi70.html">
+<img src="static/picture/group_hi70_497x398.png" style="width:80% !important">
+<p style="font-size: 16px;text-align: left;display: block;margin-bottom: 0;">
+HI70系列
+</p>
+<span style="font-size: 14px;text-align: left;display: block;color: #666;font-weight: normal;">
+战术级惯性传感器 RS232/RS422/CAN/同步等多种接口
+</span>
+</a>
+</li>
+<li style="width:30%"> <a href="hi71.html">
+<img src="static/picture/group_hi71_497x398.png" style="width:80% !important">
+<p style="font-size: 16px;text-align: left;display: block;margin-bottom: 0;">
+HI71系列
+</p>
+<span style="font-size: 14px;text-align: left;display: block;color: #666;font-weight: normal;">
+战术级惯性传感器 IMU/VRU/MRU/AHRS/INS
+</span>
+</a>
+</li>
+<li style="width:30%"></li>
+</ul>
+</div>
+</div>
+<div id="data-knav-dropdown-col-position" class="col col-right hidden">
+<div class="row pt-0">
+<a href="position_nav.html" style="font-size: 1.5rem;margin-bottom: 10px;font-weight: bold;">
+定位导航 </a>
+<ul class="navbar-list-right flex-columns">
+<li> <a href="hi30.html">
+<img src="static/picture/hi30r7_497x398.png">hi30表贴系列<br>双天线组合导航系统</a>
+</li>
+<li style="width:30%">
+</li>
+<li style="width:30%">
+</li>
+</ul>
+<ul class="navbar-list-right flex-columns">
+<li> <a href="hi32.html">
+<img src="static/picture/hi32_2cx_single_497x398.png">hi32防水外壳系列<br>单天线组合导航系统</a>
+</li>
+<li> <a href="hi32.html">
+<img src="static/picture/hi32_2cx_dual_497x398.png">hi32防水外壳系列<br>双天线组合导航系统</a>
+</li>
+<li style="width:30%">
+</li>
+</ul>
+</div>
+</div>
+<div id="data-knav-dropdown-col-tilt" class="col col-right hidden">
+<div class="row pt-0">
+<a href="" style="font-size: 1.5rem;margin-bottom: 10px;font-weight: bold;">
+倾角传感器 </a>
+<ul class="navbar-list-right flex-columns">
+<li> <a href="hi50.html">
+<img src="static/picture/group_hi50_497x396.png"> HI50系列<br>动/静态倾角传感器 </a>
+</li>
+<li style="width:30%">
+</li>
+<li style="width:30%">
+</li>
+</ul>
+<ul class="navbar-list-right flex-columns">
+<li>
+</li>
+<li style="width:30%">
+</li>
+<li style="width:30%">
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="mega-dropdown-623" data-mega-dropdown class="container mega-dropdown">
+<div class="row">
+<div class="col-3 k-nav-shadow col-left" style="background-color: #ffffff">
+<ul class="navbar-list-left">
+<li>
+<a href="umanned_driving.html" target="_self">
+无人驾驶设备
+</a>
+</li>
+<li>
+<a href="engineering_machinery.html" target="_self">
+工程机械
+</a>
+</li>
+<li>
+<a href="humanoid.html" target="_self">
+人形机器人/机器狗
+</a>
+</li>
+</ul>
+</div>
+<div id="data-knav-dropdown-col-623" class="col col-right pt-3">
+<a class="btn btn-outline-primary text-uppercase m-0" href="industries.html">
+行业
+</a>
+<div class="welcome-text">
+<h4 class="mb-3">
+我们专注于您的行业应用。
+</h4>
+<p class="mb-2">
+为每个行业提供合适的解决方案。多领域的成功经验，高标准的产品品质要求以及高水平的服务能力，确保可以成为您强大和可靠的合作伙伴。
+</p>
+<p class="lead orange">
+欢迎与我们沟通您的需求。电话：+86 010 6972 6346|sales@hipnuc.com
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="mega-dropdown-647" data-mega-dropdown class="container mega-dropdown">
+<div class="row">
+<div class="col-3 k-nav-shadow col-left" style="background-color: #ffffff">
+<ul class="navbar-list-left">
+<li>
+<a href="contact.html" target="_self">
+联系我们
+</a>
+</li>
+<li>
+<a href="https://download.hipnuc.com/" target="_blank" rel="noopener">
+资源下载
+</a>
+</li>
+</ul>
+</div>
+<div id="data-knav-dropdown-col-647" class="col col-right pt-3">
+<a class="btn btn-outline-primary text-uppercase m-0" href="service.html">
+服务
+</a>
+<div class="welcome-text">
+<h4 class="mb-3">
+欢迎来到我们的技术服务与支持专区。
+</h4>
+<p class="mb-2">
+我们对我们的产品和服务有着极高的要求，服务范围包括专业的和个性化的产品建议，可以为您提供专属的定制服务和现场调试工作。
+</p>
+<p class="lead orange">
+欢迎与我们沟通您的需求。电话：+86 010 6972 6346|sales@hipnuc.com
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="mega-dropdown-673" data-mega-dropdown class="container mega-dropdown">
+<div class="row">
+<div class="col-3 k-nav-shadow col-left" style="background-color: #ffffff">
+<ul class="navbar-list-left">
+<li>
+<a href="hr.html" target="_self">
+最新招聘
+</a>
+</li>
+</ul>
+</div>
+<div id="data-knav-dropdown-col-673" class="col col-right pt-3">
+<a class="btn btn-outline-primary text-uppercase m-0" href="hr.html">
+招聘
+</a>
+<div class="welcome-text">
+<h4 class="mb-3">
+让用户、员工以及商业伙伴可以利用这个平台充分发挥创新力，共同打造有助于行业的产品
+</h4>
+<p class="mb-2">
+HIPNUC期待您的加入，探索新的世界
+</p>
+<p class="lead orange">
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="k-nav-mobile" class="k-nav-mobile-wrapper">
+<div class="navbar">
+<div id="menu-burger" class="menu-burder">
+<a href="javascript:void(0)">
+<i class="kicon-burder">
+</i>
+</a>
+<a href="javascript:void(0)">
+<i class="kicon-x">
+</i>
+</a>
+</div>
+<div id="logo">
+<a href="index.html">
+<img src="static/images/brand.png" class="k-nav-mobile-logo">
+</a>
+</div>
+<div id="search" class="menu-search">
+<a href="https://www.hipnuc.com/en">EN</a>
+</div>
+</div>
+<div id="k-nav-mobile-menu-items" class="k-nav-mobile-menu-items" style="height: 100vh; overflow: scroll">
+<div class="one-child level-0">
+<a href="javascript:void(0)" data-toggle-child="521">
+产品
+<i class="kicon-chevron-right float-end">
+</i>
+</a>
+<div id="k-nav-mobile-menu-child-521" class="one-child">
+<a href="javascript:void(0)" data-toggle-child="521" class="go-back">
+<i class="kicon-chevron-left">
+</i>
+BACK
+</a>
+<a class="text-center" href="products.html">
+<span class="btn btn-outline-primary mb-3">
+产品
+</span>
+</a>
+<a href="javascript:void(0)" data-toggle-child="523">
+姿态感知
+<i class="kicon-chevron-right float-end">
+</i>
+</a>
+<div id="k-nav-mobile-menu-child-523" class="one-child">
+<a href="javascript:void(0)" data-toggle-child="523" class="go-back">
+<i class="kicon-chevron-left">
+</i>
+BACK
+</a>
+<a class="text-center" href="attitude.html">
+<span class="btn btn-outline-primary mb-3">
+姿态感知
+</span>
+</a>
+<a href="hi02.html">
+HI02系列
+</a>
+<a href="hi05.html">
+HI05系列
+</a>
+<a href="hi06.html">
+HI06系列
+</a>
+<a href="hi12.html">
+HI12系列
+</a>
+<a href="hi13.html">
+HI13系列
+</a>
+<a href="hi14.html">
+HI14系列
+</a>
+<a href="hi70.html">
+HI70系列
+</a>
+<a href="hi71.html">
+HI71系列
+</a>
+</div>
+<a href="javascript:void(0)" data-toggle-child="547">
+定位导航
+<i class="kicon-chevron-right float-end">
+</i>
+</a>
+<div id="k-nav-mobile-menu-child-547" class="one-child">
+<a href="javascript:void(0)" data-toggle-child="547" class="go-back">
+<i class="kicon-chevron-left">
+</i>
+BACK
+</a>
+<a class="text-center" href="position_nav.html">
+<span class="btn btn-outline-primary mb-3">
+定位导航
+</span>
+</a>
+<a href="hi30.html">
+HI30系列
+</a>
+<a href="hi32.html">
+hi32系列
+</a>
+</div>
+<a href="javascript:void(0)" data-toggle-child="565">
+状态监测
+<i class="kicon-chevron-right float-end">
+</i>
+</a>
+<div id="k-nav-mobile-menu-child-565" class="one-child">
+<a href="javascript:void(0)" data-toggle-child="565" class="go-back">
+<i class="kicon-chevron-left">
+</i>
+BACK
+</a>
+<a class="text-center" href="monitor.html">
+<span class="btn btn-outline-primary mb-3">
+状态监测
+</span>
+</a>
+<a href="javascript:void(0)" data-toggle-child="566">
+倾角传感器
+<i class="kicon-chevron-right float-end">
+</i>
+</a>
+<div id="k-nav-mobile-menu-child-566" class="one-child">
+<a href="javascript:void(0)" data-toggle-child="566" class="go-back">
+<i class="kicon-chevron-left">
+</i>
+BACK
+</a>
+<a class="text-center" href="hi50.html">
+HI50系列 动/静态倾角传感器
+</a>
+</div>
+</div>
+</div>
+<a href="javascript:void(0)" data-toggle-child="623">
+行业
+<i class="kicon-chevron-right float-end">
+</i>
+</a>
+<div id="k-nav-mobile-menu-child-623" class="one-child">
+<a href="javascript:void(0)" data-toggle-child="623" class="go-back">
+<i class="kicon-chevron-left">
+</i>
+BACK
+</a>
+<a class="text-center" href="industries.html">
+<span class="btn btn-outline-primary mb-3">
+行业
+</span>
+</a>
+<a href="umanned_driving.html">
+无人驾驶设备
+</a>
+<a href="engineering_machinery.html">
+工程机械
+</a>
+<a href="humanoid.html">
+人形机器人/机器狗
+</a>
+</div>
+<a href="javascript:void(0)" data-toggle-child="647">
+服务
+<i class="kicon-chevron-right float-end">
+</i>
+</a>
+<div id="k-nav-mobile-menu-child-647" class="one-child">
+<a href="javascript:void(0)" data-toggle-child="647" class="go-back">
+<i class="kicon-chevron-left">
+</i>
+BACK
+</a>
+<a class="text-center" href="service.html">
+<span class="btn btn-outline-primary mb-3">
+服务
+</span>
+</a>
+<a href="contact.html">
+联系我们
+</a>
+<a href="https://download.hipnuc.com/" target="_blank" rel="noopener">
+资源下载
+</a>
+</div>
+<a href="javascript:void(0)" data-toggle-child="673">
+招聘
+<i class="kicon-chevron-right float-end">
+</i>
+</a>
+<div id="k-nav-mobile-menu-child-673" class="one-child">
+<a href="javascript:void(0)" data-toggle-child="673" class="go-back">
+<i class="kicon-chevron-left">
+</i>
+BACK
+</a>
+<a href="hr.html">
+最新招聘
+</a>
+</div>
+<a href="https://hipnuc.tmall.com" target="_blank"><image src="static/images/tmall.png" style="height: 1.5rem;">
+</a>
+</div>
+</div>
+</div>
+<script>(function($) {$(document).ready(function() {$('#menu-burger').on('click',function() {$('#k-nav-mobile').toggleClass('opened')
+})
+$('[data-toggle-child]').on('click',function() {target =$(this).attr('data-toggle-child');$('#k-nav-mobile-menu-child-' + target).toggleClass('opened');})
+})
+})(jQuery);</script>
+</div>
+</header>
+<div class="site-grid">
+<div class="grid-child container-component">
+<div class="container hipnuc-breadcrumbs mb-3">
+<small>
+<a href="index.html" class="pr-5">
+<i class="kicon-house">
+</i>
+</a>
+<a href="products.html" class="mr-3">
+产品
+</a>
+<i class="kicon-chevron-right">
+</i>
+<a href="attitude.html" class="mr-3">
+姿态感知
+</a>
+<i class="kicon-chevron-right">
+</i>
+HI13系列
+</small>
+</div>
+<main>
+<section id="product-finder-details" class="product-finder-details mt-2">
+<div class="container mt-3">
+<div class="row">
+<div class="col-12 col-sm-8  col-md-6  col-lg-4 product-media">
+<div class="media-list">
+<div class="prod-main-picture">
+<img id="main_prod_picture_low_res" class="" src="static/picture/group_hi13_1024x816.png" role="button" data-bs-toggle="modal">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-6 product-description">
+<p class="product-type">
+独立外壳式姿态传感器
+</p>
+<h1 class="product-name">
+HI13系列
+</h1>
+</p>
+<div class="row">
+<div class="col-12 col-md-6">
+<ul class="mb-0" style="list-style-type: square;">
+<li>
+零偏不稳定性高达1.6°/h
+</li>
+<li>
+高达1000Hz数据输出
+</li>
+<li>
+全对称设计
+</li>
+<li>
+易于嵌入
+</li>
+<li>
+Type-C接口
+</li>
+</ul>
+</div>
+<div class="col-12 mt-2">
+<img src="static/picture/rohs.png" class="product-finder-small-logo" title="RoHS">
+<img src="static/picture/ce.png" class="product-finder-small-logo" title="CE">
+</div>
+</div>
+</div>
+<div class="col-12 col-md-2 product-meta-nav mb-3 position-relative">
+<table style="width: 100%;height: 100%;text-align: center;">
+<tr>
+<td style="vertical-align: bottom;">
+<i class="kicon-document-download d-none d-md-block">
+</i>
+规格书
+<br>
+<a class="btn btn-sm btn-outline-primary" href="https://download.hipnuc.com/" target="_blank" rel="noopener">
+中文
+</a>
+<a class="btn btn-sm btn-outline-primary" href="https://download.hipnuc.com/en" target="_blank" rel="noopener">
+EN
+</a>
+</td>
+</tr>
+</table>
+</div>
+<hr class="mx-2">
+<div class="col-12 col-md-12 top-text mb-3">
+<h3 class="mb-3">
+高性能MEMS-IMU，高精度高可靠性
+</h3>
+HI13系列传感器可以为用户提供精准的姿态信息包含欧拉角和四元数，温度范围从-40°C到+85°C，非常适合工程机械和低速无人驾驶设备的应用。
+</div>
+</div>
+<div class="row">
+<div class="">
+<nav>
+<div class="nav nav-tabs" id="nav-tab" role="tablist">
+<button class="nav-link nav-taba active" id="nav-select-tab" data-bs-toggle="tab" data-bs-target="#nav-select" type="button" role="tab" aria-controls="nav-select" aria-selected="true">
+产品选型
+</button>
+<button class="nav-taba nav-link" id="nav-specifications-tab" data-bs-toggle="tab" data-bs-target="#nav-specifications" type="button" role="tab" aria-controls="nav-specifications" aria-selected="true">
+技术参数
+</button>
+<button class="nav-taba nav-link" id="nav-values-tab" data-bs-toggle="tab" data-bs-target="#nav-values" type="button" role="tab" aria-controls="nav-values" aria-selected="false">
+产品特性
+</button>
+<a href="https://download.hipnuc.com/" target="_blank" rel="noopener"><button class="nav-link" style="width: 100%;">
+产品资源
+</button></a>
+</div>
+</nav>
+<div class="tab-content pt-4" id="nav-tabContent" style="padding-left: 14px">
+<div class="tab-pane fade show active" id="nav-specifications" role="tabpanel" aria-labelledby="nav-specifications-tab">
+<div class="row">
+<table class="table">
+<thead>
+<tr>
+<th class="">
+<h5 class="prd-utility-visuallyHidden" style="font-weight: normal;">产品选型</h5>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center" colspan="6">
+HI13a-b-c<sup>①</sup>
+</td>
+</tr>
+<tr>
+<td>
+公司标识
+</td>
+<td>
+产品系列
+</td>
+<td>
+a 传感器组成
+</td>
+<td>
+b 数据接口
+</td>
+<td>
+c 定制信息
+</td>
+</tr>
+<tr>
+<td rowspan="3">
+HI
+</td>
+<td rowspan="3">
+13
+</td>
+<td rowspan="3">
+M0 IMU/VRU<br>
+M3 IMU/VRU/AHRS <br>
+R2 IMU/VRU <br>
+R3 IMU/VRU/AHRS <br>
+S2 IMU/VRU<br>
+S3 IMU/VRU/AHRS<br>
+S4 IMU/VRU/AHRS + 气压
+</td>
+<td rowspan="3">
+USB UART 转 USB
+</td>
+<td rowspan="3">
+000 默认<br>
+其他 客户有定制
+</td>
+</tr>
+</tbody>
+</table>
+<div>①型号举例:HI13R2-USB-000</div>
+</div>
+</div>
+<div class="tab-pane fade" id="nav-values" role="tabpanel" aria-labelledby="nav-values-tab">
+<div class="row">
+<table class="table">
+<thead>
+<tr>
+<th class="">
+<h5 class="prd-utility-visuallyHidden" style="font-weight: normal;">产品参数</h5>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+参数
+</td>
+<td>
+条件
+</td>
+<td>
+HI13M0
+</td>
+<td>
+HI13M3
+</td>
+<td>
+HI13R2
+</td>
+<td>
+HI13R3
+</td>
+<td>
+HI13S2
+</td>
+<td>
+HI13S3
+</td>
+<td>
+HI13S4
+</td>
+</tr>
+<tr>
+<td>
+陀螺仪量程
+</td>
+<td>
+</td>
+<td>
+±2000°/s
+</td>
+<td>
+±2000°/s
+</td>
+<td>
+±2000°/s
+</td>
+<td>
+±2000°/s
+</td>
+<td>
+±4000°/s
+</td>
+<td>
+±4000°/s
+</td>
+<td>
+±4000°/s
+</td>
+</tr>
+<tr>
+<td>
+零偏不稳定性
+</td>
+<td>
+艾伦方差
+</td>
+<td>
+X&nbsp;2.5°/h<br>
+Y&nbsp;3.2°/h<br>
+Z&nbsp;3°/h
+</td>
+<td>
+X&nbsp;2.5°/h<br>
+Y&nbsp;3.2°/h<br>
+Z&nbsp;3°/h
+</td>
+<td>
+X&nbsp;1.5°/h<br>
+Y&nbsp;1.9°/h<br>
+Z&nbsp;1.7°/h
+</td>
+<td>
+X&nbsp;1.5°/h<br>
+Y&nbsp;1.9°/h<br>
+Z&nbsp;1.7°/h
+</td>
+<td>
+X&nbsp;4°/h<br>
+Y&nbsp;1.5°/h<br>
+Z&nbsp;1.7°/h
+</td>
+<td>
+X&nbsp;4°/h<br>
+Y&nbsp;1.5°/h<br>
+Z&nbsp;1.7°/h
+</td>
+<td>
+X&nbsp;4°/h<br>
+Y&nbsp;1.5°/h<br>
+Z&nbsp;1.7°/h
+</td>
+</tr>
+<tr>
+<td>
+加速度计量程
+</td>
+<td>
+</td>
+<td>
+±24g
+</td>
+<td>
+±24g
+</td>
+<td>
+±24g
+</td>
+<td>
+±24g
+</td>
+<td>
+±32g
+</td>
+<td>
+±32g
+</td>
+<td>
+±32g
+</td>
+</tr>
+<tr>
+<td>
+零偏不稳定性
+</td>
+<td>
+艾伦方差
+</td>
+<td>
+X&nbsp;0.021mg<br>
+Y&nbsp;0.032mg<br>
+Z&nbsp;0.023mg
+</td>
+<td>
+X&nbsp;0.021mg<br>
+Y&nbsp;0.032mg<br>
+Z&nbsp;0.023mg
+</td>
+<td>
+X&nbsp;0.015mg<br>
+Y&nbsp;0.02mg<br>
+Z&nbsp;0.015mg
+</td>
+<td>
+X&nbsp;0.015mg<br>
+Y&nbsp;0.02mg<br>
+Z&nbsp;0.015mg
+</td>
+<td>
+X&nbsp;0.012mg<br>
+Y&nbsp;0.009mg<br>
+Z&nbsp;0.016mg
+</td>
+<td>
+X&nbsp;0.012mg<br>
+Y&nbsp;0.009mg<br>
+Z&nbsp;0.016mg
+</td>
+<td>
+X&nbsp;0.012mg<br>
+Y&nbsp;0.009mg<br>
+Z&nbsp;0.016mg
+</td>
+</tr>
+<tr>
+<td>
+磁力计量程
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+±2000 μT
+</td>
+<td>
+x
+</td>
+<td>
+±2000 μT
+</td>
+<td>
+x
+</td>
+<td>
+±2000 μT
+</td>
+<td>
+±2000 μT
+</td>
+</tr>
+<tr>
+<td>
+气压计量程
+</td>
+<td>
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+x
+</td>
+<td>
+1200 hPa
+</td>
+</tr>
+<tr>
+<td>
+俯仰/横滚(静态)
+</td>
+<td>
+</td>
+<td>
+0.1°-0.15°
+</td>
+<td>
+0.1°-0.15°
+</td>
+<td>
+0.1°-0.15°
+</td>
+<td>
+0.1°-0.15°
+</td>
+<td>
+0.1°-0.15°
+</td>
+<td>
+0.1°-0.15°
+</td>
+<td>
+0.1°-0.15°
+</td>
+</tr>
+<tr>
+<td>
+俯仰/横滚(动态)
+</td>
+<td>
+</td>
+<td>
+0.2°-0.3°
+</td>
+<td>
+0.2°-0.3°
+</td>
+<td>
+0.2°-0.3°
+</td>
+<td>
+0.2°-0.3°
+</td>
+<td>
+0.2°-0.3°
+</td>
+<td>
+0.2°-0.3°
+</td>
+<td>
+0.2°-0.3°
+</td>
+</tr>
+<tr>
+<td>
+航向角静态漂移(6DOF)
+</td>
+<td>
+静止2 h
+</td>
+<td>
+0.15°-0.2°
+</td>
+<td>
+0.15°-0.2°
+</td>
+<td>
+0.15°-0.2°
+</td>
+<td>
+0.15°-0.2°
+</td>
+<td>
+0.15°-0.2°
+</td>
+<td>
+0.15°-0.2°
+</td>
+<td>
+0.15°-0.2°
+</td>
+</tr>
+<tr>
+<td>
+航向角动态漂移(6DOF)
+</td>
+<td>
+</td>
+<td>
+10°
+</td>
+<td>
+10°
+</td>
+<td>
+5°
+</td>
+<td>
+5°
+</td>
+<td>
+5°
+</td>
+<td>
+5°
+</td>
+<td>
+5°
+</td>
+</tr>
+</tbody>
+</table>
+<div class="col-md-6">
+<div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th class="">
+<h5 class="prd-utility-visuallyHidden" style="font-weight: normal;">机械</h5>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="2">
+结构尺寸
+</td>
+<td>
+USB接口
+</td>
+<td>
+26x24x12mm
+</td>
+</tr>
+<tr>
+<td>
+重量
+</td>
+<td>
+<11g
+</td>
+</tr>
+<tr>
+<td>
+外壳材质
+</td>
+<td>
+</td>
+<td>
+铝合金
+</td>
+</tr>
+<tr>
+<td>
+工作温度
+</td>
+<td>
+</td>
+<td>
+-40 &deg;C ... +85 &deg;C
+</td>
+</tr>
+<tr>
+<td>
+认证
+</td>
+<td>
+</td>
+<td>
+RoHS、CE
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="col-md-6">
+<div class="table-responsive">
+<table class="table">
+<thead>
+<tr>
+<th class="">
+<h5 class="prd-utility-visuallyHidden" style="font-weight: normal;">电气</h5>
+</th>
+<th>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+电压
+</td>
+<td>
+4.5-5.5V DC
+</td>
+</tr>
+<tr>
+<td>
+功耗
+</td>
+<td>
+HI13MX 215mW<br>
+HI13RX/HI13SX 300mW
+</td>
+</tr>
+<tr>
+<td>
+接口
+</td>
+<td>
+USB
+</td>
+</tr>
+<tr>
+<td>
+输出帧率
+</td>
+<td>
+USB 1000Hz
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+<div class="tab-pane fade" id="nav-values" role="tabpanel" aria-labelledby="nav-values-tab">
+<div class="row py-2">
+<div class="col-12 col-md-6">
+<strong>
+硬件  
+</strong>
+<br />
+<ul class="list">
+<li>
+出厂标定、一致性好
+</li>
+<li>
+独立外壳封装易于集成
+</li>
+<li>
+在-40°C到+85°C的温度范围内工作
+</li>
+<li>
+高性能MEMS-IMU，长期漂移小
+</li>
+</ul>
+<strong>
+软件  
+</strong>
+<br />
+<ul class="list">
+<li>
+高达1000Hz数据输出
+</li>
+<li>
+高精度、高性能
+</li>
+<li>
+基于扩展卡尔曼融合算法可以提供标定的原始数据和高精度融合数据
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<div class="col-12 container" style="margin-top: 100px">
+<section class="index_pro">
+<h2 class="prd-utility-visuallyHidden">
+相关产品
+</h2>
+<div class="prd-layout-grid smallScreen-column-2 extraSmallScreen-column-1 largeScreen-column-3 smallScreen-spaceX-3 largeScreen-spaceX-7 of-spaceY-9">
+<div>
+<section class="prd-groupCard">
+<p class="prd-groupCard-imageWrapper prd-utility-marginBottom-2">
+<img src="static/images/group_imu_1656x1116.png" class="prd-groupCard-image prd-image" width="400" height="370" alt="姿态感知" decoding="async" loading="lazy">
+</p>
+<h3 class="prd-groupCard-title prd-utility-heading-4 prd-utility-marginBottom-2">
+<a class="prd-groupCard-link" href="attitude.html">
+姿态感知
+</a>
+</h3>
+<span class="prd-divider">
+</span>
+<div class="prd-smallScreen-marginBottom-3 prd-largeScreen-marginBottom-5">
+</div>
+<p class="prd-utility-body-small prd-utility-marginBottom-0">
+IMU/VRU/AHRS
+</p>
+</section>
+</div>
+<div>
+<section class="prd-groupCard">
+<p class="prd-groupCard-imageWrapper prd-utility-marginBottom-2">
+<img src="static/images/group_ins_1656x1116.png" class="prd-groupCard-image prd-image" width="400" height="370" alt="定位导航" decoding="async" loading="lazy">
+</p>
+<h3 class="prd-groupCard-title prd-utility-heading-4 prd-utility-marginBottom-2">
+<a class="prd-groupCard-link" href="position_nav.html">
+定位导航
+</a>
+</h3>
+<span class="prd-divider">
+</span>
+<div class="prd-smallScreen-marginBottom-3 prd-largeScreen-marginBottom-5">
+</div>
+<p class="prd-utility-body-small prd-utility-marginBottom-0">
+GNSS-INS/Dual GNSS INS
+</p>
+</section>
+</div>
+<div>
+<section class="prd-groupCard">
+<p class="prd-groupCard-imageWrapper prd-utility-marginBottom-2">
+<img src="static/images/group_monitor_1656x1116.png" class="prd-groupCard-image prd-image" width="400" height="370" alt="状态监测" decoding="async" loading="lazy">
+</p>
+<h3 class="prd-groupCard-title prd-utility-heading-4 prd-utility-marginBottom-2">
+<a class="prd-groupCard-link" href="tilt.html">
+倾角传感器
+</a>
+</h3>
+<span class="prd-divider">
+</span>
+<div class="prd-smallScreen-marginBottom-3 prd-largeScreen-marginBottom-5">
+</div>
+<p class="prd-utility-body-small prd-utility-marginBottom-0">
+Static、Dynamic Inclinometer
+</p>
+</section>
+</div>
+</div>
+</section>
+</div>
+<script>(function($) {$(document).ready(function() {$("#nav-" + window.location.hash.replace('#','') + "-tab").trigger('click');})
+})(jQuery);$(function(){$(".nav-taba").click(function(){$(".nav-taba").removeClass("active");$(this).addClass("active");idx =$(this).index();$(".tab-pane").eq(idx).addClass("show active");$(".tab-pane").not($(".tab-pane").eq(idx)).removeClass("show active");;});});</script>
+<style>.anchor-section{position:relative;top:-50px;}</style>
+</main>
+</div>
+</div>
+<style type="text/css">.table th,.table td{vertical-align:middle !important;}</style>
+<footer class="container-footer footer full-width">
+<div class="grid-child">
+<div class="w-100 service-footer">
+<div class="container">
+<div class="row">
+<div class="col-12 col-md-9">
+<div class="row">
+<div class="col-12 col-lg-3 col-md-6 d-none d-sm-block">
+<strong class="bold">
+产品
+</strong>
+<hr class="mt-2">
+<nav>
+<ul class="nav flex-column">
+<li class="nav-item">
+<a class="nav-link" href="attitude.html" target="_self">
+姿态感知
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="position_nav.html" target="_self">
+定位导航
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="monitor.html" target="_self">
+状态监测
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="col-12 col-lg-3 col-md-6 d-none d-sm-block">
+<strong class="bold">
+行业
+</strong>
+<hr class="mt-2">
+<nav>
+<ul class="nav flex-column">
+<li class="nav-item">
+<a class="nav-link" href="umanned_driving.html" target="_self">
+无人驾驶设备
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="engineering_machinery.html" target="_self">
+工程机械
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="humanoid.html" target="_self">
+人形机器人/机器狗
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="col-12 col-lg-3 col-md-6 d-none d-sm-block">
+<strong class="bold">
+服务
+</strong>
+<hr class="mt-2">
+<nav>
+<ul class="nav flex-column">
+<li class="nav-item">
+<a class="nav-link" href="contact.html" target="_self">
+联系我们
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://download.hipnuc.com/" target="_blank" rel="noopener">
+资源下载
+</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="col-12 col-lg-3 col-md-6 d-none d-sm-block">
+<strong class="bold">
+公司
+</strong>
+<hr class="mt-2">
+<nav>
+<ul class="nav flex-column">
+<li class="nav-item">
+<a class="nav-link" href="hr.html" target="_self">
+关于我们
+</a>
+</li>
+<li class="nav-item">
+<a class="nav-link" href="https://download.hipnuc.com/" target="_blank" rel="noopener">
+资质/证书
+</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="col-12 col-md-3 p-fix">
+<p class="mb-1">
+<strong>
+北京超核电子科技有限公司
+</strong>
+</p>
+<p class="mb-0">
+地址:北京市昌平区科技园区超前路23号院
+<br />
+B区一层121室
+</p>
+<ul class="mt-3 contact-list">
+<li class="m-0" title="电话">
+<i class="kicon-phone">
+</i>
+<a href="tel:+86 010 6972 6346">
++86 010 6972 6346
+</a>
+</li>
+<li class="m-0" title="电话">
+<i class="kicon-phone">
+</i>
+<a href="tel:+86 15801501203">
++86 15801501203
+</a>
+</li>
+<li class="m-0" title="Fax">
+<i class="kicon-printer">
+</i>
++86 010 6972 6346
+</li>
+<li class="m-0" title="电子邮件">
+<i class="kicon-mail">
+</i>
+<a href="mailto:sales@hipnuc.com">
+sales@hipnuc.com
+</a>
+</li>
+</ul>
+</div>
+<div class="col-12 col-md-9 mt-3 p-fix">
+</div>
+<div class="col-12 col-md-3 mt-3    p-fix">
+</div>
+<div class="col-12 my-5">
+<pre class="hidden">
+        </pre>
+</div>
+</div>
+</div>
+</div>
+<div class="w-100">
+<div class="subfooter bg-dark-blue pt-3 pb-5">
+<div class="container">
+<div class="row">
+<div class="col-lg-9 col-6">
+<span class="font-weight-bold">
+Copyright © Hipnuc <span class="yearscp"> </span>
+</span><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备16058907号-1</a>
+</div>
+<script>var myDate =new Date;var year=myDate.getFullYear();$(".yearscp").html(year);</script>
+<div class="col-lg-3 col-6 text-lg-left text-right">
+<span class="font-weight-bold">
+姿态感知●定位导航●状态监测
+</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<style>.bottom{position:fixed;top:30%;right:1%;width:65px;border:1px solid #cccccc;border-radius:6px;background-color:#ffffff;z-index:999;}.bottom ul{padding:0;margin:0;list-style:none;}.bottom ul li{position:relative;color:#333333;text-align:center;padding:8px 0;border-bottom:1px solid #cccccc;list-style:none;cursor:pointer;}.bottom ul li:last-child{border-bottom:none;}.bottom ul li img{margin:0 auto 3px;}.bottom ul li p{margin-bottom:0;}.bottom1 p{font-size:12px;color:#333333;}.bottom_wx{background:#fff;border-radius:6px;box-shadow:0 0 8px 0 rgba(0,0,0,.12);color:#333333;display:none;font-size:14px;left:0;line-height:22px;max-width:252px;padding:15px;position:absolute;top:50%;transform:translate(-110%,-50%);width:max-content;}.bottom_wx p{font-size:14px;}.bottom_wx img{margin:9px auto;width:110px;}.bottom ul li:hover .bottom1 p{color:#5677fc;}.bottom ul li:hover .bottom_sj{display:block;}.bottom_sj:after{background:#fff;content:"";filter:drop-shadow(2px -2px 1px rgba(0,0,0,.05));height:8px;position:absolute;right:0;right:-12px;top:50%;transform:translate(-100%,-50%) rotate(45deg);width:8px;}.bottom_tel{animation:spservhover .3s ease-out 0s forwards;background:#fff;border-radius:6px;box-shadow:0 0 8px 0 rgba(0,0,0,.12);color:#333;display:none;font-size:14px;left:0;line-height:22px;max-width:252px;padding:15px;position:absolute;top:50%;transform:translate(-110%,-50%);width:max-content;}@media only screen and (max-width:756px){.bottom{bottom:0;left:0;width:100%;top:auto;border-bottom:none;border-radius:0;border-left:none;border-right:none;}.bottom ul{display:flex;justify-content:center;align-items:center;}.bottom ul li{border:0;width:32%;border-right:1px solid #cccccc;}.bottom ul li:last-child{border:0;}.bottom_tel{display:none !important;}.bottom_wx{position:fixed;margin:auto;top:0;left:0;right:0;bottom:0;width:60%;height:260px;transform:unset;}.bottom_wx img{width:250px;}}</style>
+<div class="bottom">
+<ul>
+<li>
+<div class="bottom1">
+<img src="static/images/wx.jpg">
+<p>微信咨询</p>
+</div>
+<div class="bottom_wx bottom_sj">
+<p>微信咨询</p>
+<img src="static/images/ewm.jpg">
+</div>
+</li>
+<li>
+<div class="bottom1">
+<a href="tel:+8615801501203"> <img src="static/images/dh.jpg">
+<p>电话咨询</p></a>
+</div>
+<div class="bottom_tel bottom_sj">
+<p>电话：+8615801501203</p><p>座机：+86 010 6972 6346</p>
+</div>
+</li>
+<li>
+<a href="https://hipnuc.tmall.com/shop/view_shop.htm" class="bottom1">
+<img src="static/images/sc.jpg">
+<p>官方商城</p>
+</a>
+</li>
+<li>
+<a href="https://download.hipnuc.com/" target="_blank" rel="noopener" class="bottom1">
+<img src="static/images/download.png">
+<p>资源下载</p>
+</a>
+</li>
+</ul>
+</div>
+</body>
+</html>

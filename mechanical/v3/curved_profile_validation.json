@@ -1,0 +1,27 @@
+{
+  "OB": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3_at_t8": 67232.23796749204,
+    "minimum_window_to_outer_mm": 7.163748630826212,
+    "minimum_between_windows_mm": 17.5,
+    "window_radius_mm": 2.0,
+    "curve_types": [
+      "BSplineCurve",
+      "Circle"
+    ],
+    "minimum_tie_hole_to_window_mm": 6.299999999999997
+  },
+  "CW": {
+    "valid": true,
+    "solids": 1,
+    "volume_mm3_at_t8": 48649.21250903296,
+    "minimum_window_to_outer_mm": 6.149427369124525,
+    "minimum_between_windows_mm": 7.0,
+    "window_radius_mm": 2.0,
+    "curve_types": [
+      "BSplineCurve",
+      "Circle"
+    ]
+  }
+}

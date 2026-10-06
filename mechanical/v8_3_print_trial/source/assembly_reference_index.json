@@ -1,0 +1,649 @@
+{
+  "purpose": "Minimal transitive assembly reference set for V8.3 print-trial package; historical reports are evidence for their original revisions only.",
+  "cad_model_files_copied": 0,
+  "file_count": 57,
+  "files": [
+    {
+      "destination": "MODULE_ASSEMBLY.md",
+      "source": "mechanical/v8_2/MODULE_ASSEMBLY.md",
+      "bytes": 9655,
+      "source_sha256": "143fa3a4e0a112d7874c80ff778957dd5e9df177e03a8e04790fae77afb5004d",
+      "packaged_sha256": "253231697c6fe2c37258c0e37ccae04515a6cbd6c5da2cf9c01494e21bd3f5c9",
+      "edits": [
+        "Added print-trial and historical-validation scope note",
+        "Reframed for V8.3 trial without claiming final shell checks",
+        "Removed packaged module STEP implications",
+        "Marked previous-generation validation and illustration explicitly"
+      ]
+    },
+    {
+      "destination": "ELECTRICAL_INTEGRATION.md",
+      "source": "mechanical/v8_2/ELECTRICAL_INTEGRATION.md",
+      "bytes": 11975,
+      "source_sha256": "76ca6c506575517186e7b6eff4df4bf309b9d74c4039a3f705e43b28472788f2",
+      "packaged_sha256": "889757899bb229e488cc22c9bb820c041d4c960f09b112259f9de58483df7a72",
+      "edits": [
+        "Added print-trial and historical-validation scope note",
+        "Expanded relative text references for USB2CAN page images"
+      ]
+    },
+    {
+      "destination": "WIRING_TOPOLOGY.svg",
+      "source": "mechanical/v8_2/WIRING_TOPOLOGY.svg",
+      "bytes": 15637,
+      "source_sha256": "9cf0f8556f285d0d48a6f98e7dccc3cc6f4b20b85ab2c0ba0a971a5c33a0854a",
+      "packaged_sha256": "9cf0f8556f285d0d48a6f98e7dccc3cc6f4b20b85ab2c0ba0a971a5c33a0854a",
+      "edits": []
+    },
+    {
+      "destination": "WIRING_TOPOLOGY.png",
+      "source": "mechanical/v8_2/WIRING_TOPOLOGY.png",
+      "bytes": 269744,
+      "source_sha256": "1c66d27d8b26f9517bf55cce431dff6e56fb94b56302f32f91b4731ed6d1b9e6",
+      "packaged_sha256": "1c66d27d8b26f9517bf55cce431dff6e56fb94b56302f32f91b4731ed6d1b9e6",
+      "edits": []
+    },
+    {
+      "destination": "routing_allowances.json",
+      "source": "mechanical/v8_2/routing_allowances.json",
+      "bytes": 9111,
+      "source_sha256": "79a2b9a39849101f1c775a3b862f305ed365af6db2e48f4b02cf3dd3e36e2509",
+      "packaged_sha256": "79a2b9a39849101f1c775a3b862f305ed365af6db2e48f4b02cf3dd3e36e2509",
+      "edits": []
+    },
+    {
+      "destination": "routing_validation.json",
+      "source": "mechanical/v8_2/routing_validation.json",
+      "bytes": 12485,
+      "source_sha256": "8ea6cb884206a8cdedd3237be7214f0bd9c780c811e8ddbcc3c07ae1da00f823",
+      "packaged_sha256": "8ea6cb884206a8cdedd3237be7214f0bd9c780c811e8ddbcc3c07ae1da00f823",
+      "edits": []
+    },
+    {
+      "destination": "electrical_final_validation.json",
+      "source": "mechanical/v8_2/electrical_final_validation.json",
+      "bytes": 47662,
+      "source_sha256": "14733fb2945af1e2bf9e5492052afb41d99ae8e991f5e58c660366fba6377af6",
+      "packaged_sha256": "14733fb2945af1e2bf9e5492052afb41d99ae8e991f5e58c660366fba6377af6",
+      "edits": []
+    },
+    {
+      "destination": "previews/internal_structure_annotated.png",
+      "source": "mechanical/v8_2/previews/internal_structure_annotated.png",
+      "bytes": 1165971,
+      "source_sha256": "cace2226997f964403650ab99ca659456992523c78cafbba55d843e508bb24cd",
+      "packaged_sha256": "cace2226997f964403650ab99ca659456992523c78cafbba55d843e508bb24cd",
+      "edits": []
+    },
+    {
+      "destination": "source/electrical/usb2can_manual.txt",
+      "source": "mechanical/v8_2/source/electrical/usb2can_manual.txt",
+      "bytes": 15864,
+      "source_sha256": "a7d37c4799d3f04f2c30e44b2eed4a3fc4a3d70988b0851a553a2364fcc827f2",
+      "packaged_sha256": "a7d37c4799d3f04f2c30e44b2eed4a3fc4a3d70988b0851a553a2364fcc827f2",
+      "edits": []
+    },
+    {
+      "destination": "source/electrical/usb2can-03.png",
+      "source": "mechanical/v8_2/source/electrical/usb2can-03.png",
+      "bytes": 509299,
+      "source_sha256": "43ba5465196c09a486d5fee654543b8cee37b6b66e4dc36ec0cdd9082c95e9ec",
+      "packaged_sha256": "43ba5465196c09a486d5fee654543b8cee37b6b66e4dc36ec0cdd9082c95e9ec",
+      "edits": []
+    },
+    {
+      "destination": "source/electrical/usb2can-04.png",
+      "source": "mechanical/v8_2/source/electrical/usb2can-04.png",
+      "bytes": 257906,
+      "source_sha256": "bb0b59cba0f72e398c841a72d12d16abdc44ac4312d959197799763864a04ae2",
+      "packaged_sha256": "bb0b59cba0f72e398c841a72d12d16abdc44ac4312d959197799763864a04ae2",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/LEG_ASSEMBLY.md",
+      "source": "mechanical/v8_2/baseline_v81/LEG_ASSEMBLY.md",
+      "bytes": 6970,
+      "source_sha256": "abee9547fcd31c7f2cb326b6e0647b64a045404d95ba1af20ee6c9b22ed0530b",
+      "packaged_sha256": "04d24b09af6b0b5e2a63320e6811b747428b5bbdc42afbb6f9bfe5cbbb3b3041",
+      "edits": [
+        "Added print-trial and historical-validation scope note"
+      ]
+    },
+    {
+      "destination": "baseline_v81/LEG_FITS.md",
+      "source": "mechanical/v8_2/baseline_v81/LEG_FITS.md",
+      "bytes": 7712,
+      "source_sha256": "953c3998a28e9a20b10243d34c5b0fad00a96f337b82bacecdc67329b2d68f38",
+      "packaged_sha256": "82f2def4990986437f82cd1f42765400baa242db886b346e9764e754e95368ab",
+      "edits": [
+        "Added print-trial and historical-validation scope note"
+      ]
+    },
+    {
+      "destination": "baseline_v81/BATTERY.md",
+      "source": "mechanical/v8_2/baseline_v81/BATTERY.md",
+      "bytes": 3751,
+      "source_sha256": "e3e7f9521d16852af0eae23a66284bd2dd22433133c6e6ea5409d59189128507",
+      "packaged_sha256": "56c1bc9a63be481c1d0133a6bdd5f8ffda495abd442b536e7ee270c7d0805bdf",
+      "edits": [
+        "Added print-trial and historical-validation scope note"
+      ]
+    },
+    {
+      "destination": "baseline_v81/BATTERY_SOURCE_REVIEW.md",
+      "source": "mechanical/v8_2/baseline_v81/BATTERY_SOURCE_REVIEW.md",
+      "bytes": 5284,
+      "source_sha256": "8cccc4915623b2bcbfacb218dfaeddc03e558c1fd862b0fd0eb97ffc75d082cd",
+      "packaged_sha256": "3fcc048997b3ed0793acdba632824c74f5621eeb7121ff35253fcde5c43bc56e",
+      "edits": [
+        "Added print-trial and historical-validation scope note"
+      ]
+    },
+    {
+      "destination": "baseline_v81/MODULE_ASSEMBLY.md",
+      "source": "mechanical/v8_2/baseline_v81/MODULE_ASSEMBLY.md",
+      "bytes": 9535,
+      "source_sha256": "42c28ff5b5eea09f737f4e4f7b99716f1062b87ec304bd82c5b40f8bdea33a39",
+      "packaged_sha256": "541688b32f7e18907661420a16411060fe2926a17fd8588439d1c6d3d2b76064",
+      "edits": [
+        "Added print-trial and historical-validation scope note"
+      ]
+    },
+    {
+      "destination": "baseline_v81/BODY_ASSEMBLY.md",
+      "source": "mechanical/v8_2/baseline_v81/BODY_ASSEMBLY.md",
+      "bytes": 10760,
+      "source_sha256": "9393d83c41774194771990f0defe4c5cd84d0e18b9b7cb2b9c3e3ff5fe9db376",
+      "packaged_sha256": "682fa4592cf109862655cc85d166093d7dab600cdf64fcf71dd872e78602695e",
+      "edits": [
+        "Added print-trial and historical-validation scope note",
+        "Explained alternate STEP omitted; no phantom local file"
+      ]
+    },
+    {
+      "destination": "baseline_v81/IMU.md",
+      "source": "mechanical/v8_2/baseline_v81/IMU.md",
+      "bytes": 1816,
+      "source_sha256": "4bc6d79a401cbde52e633b759a122367e2cef93c56c8f465bb8870c2c5431e90",
+      "packaged_sha256": "678f3d40d9b4c8dc825d5abd01cc53346bb92c6a9ac407c65abc2a2c48f35ce1",
+      "edits": [
+        "Added print-trial and historical-validation scope note"
+      ]
+    },
+    {
+      "destination": "baseline_v81/DISPLAY.md",
+      "source": "mechanical/v8_2/baseline_v81/DISPLAY.md",
+      "bytes": 2713,
+      "source_sha256": "ea28818d45949fdad84915832f5a157800971502cf5c577a9b0174d125339597",
+      "packaged_sha256": "3e8016b146897efb56602250854ef3f2a7c9c3f7824f03edd78c9929b8169252",
+      "edits": [
+        "Added print-trial and historical-validation scope note"
+      ]
+    },
+    {
+      "destination": "baseline_v81/leg_mirror_equivalence.json",
+      "source": "mechanical/v8_2/leg_mirror_equivalence.json",
+      "bytes": 3616,
+      "source_sha256": "4500f0dac3f6b03e0a4a0aef585592c1721efa7594c44839214a0dd13ab199e3",
+      "packaged_sha256": "4500f0dac3f6b03e0a4a0aef585592c1721efa7594c44839214a0dd13ab199e3",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/leg_hardware_bom.json",
+      "source": "mechanical/v8_1/leg_hardware_bom.json",
+      "bytes": 31920,
+      "source_sha256": "da1b5144421791fd541a2b09291c6bd4943fb180a91d47c8ee6cfa6cbacd47cc",
+      "packaged_sha256": "da1b5144421791fd541a2b09291c6bd4943fb180a91d47c8ee6cfa6cbacd47cc",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/module_access_review.json",
+      "source": "mechanical/v8_2/baseline_v81/module_access_review.json",
+      "bytes": 43876,
+      "source_sha256": "5f1d38d2155878119dfb93e3d809428da53960a6562a074068e1591cfa5abca8",
+      "packaged_sha256": "5f1d38d2155878119dfb93e3d809428da53960a6562a074068e1591cfa5abca8",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/battery_local_review.json",
+      "source": "mechanical/v8_2/baseline_v81/battery_local_review.json",
+      "bytes": 3624,
+      "source_sha256": "e63d34ee8f2d2c9246afca02157283cc42c394987fda3ce9a7d644feca5d2769",
+      "packaged_sha256": "e63d34ee8f2d2c9246afca02157283cc42c394987fda3ce9a7d644feca5d2769",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/body_detail_review.json",
+      "source": "mechanical/v8_2/baseline_v81/body_detail_review.json",
+      "bytes": 7354,
+      "source_sha256": "7d47778c05952672772e209c064750a16e3da03b1131ca28573f03eb463de2b6",
+      "packaged_sha256": "7d47778c05952672772e209c064750a16e3da03b1131ca28573f03eb463de2b6",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/maintenance_access_review.json",
+      "source": "mechanical/v8_2/baseline_v81/maintenance_access_review.json",
+      "bytes": 10032,
+      "source_sha256": "8fc99f9464939ce1a1d70801bc2483d6383ff5968f28621b698d72a8ee398c42",
+      "packaged_sha256": "8fc99f9464939ce1a1d70801bc2483d6383ff5968f28621b698d72a8ee398c42",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/body_hardware_bom.json",
+      "source": "mechanical/v8_2/baseline_v81/body_hardware_bom.json",
+      "bytes": 16199,
+      "source_sha256": "45e288b96f749b7a65891a0cefbf6399fbde2cf732d891c1f299ad05b794b9b2",
+      "packaged_sha256": "45e288b96f749b7a65891a0cefbf6399fbde2cf732d891c1f299ad05b794b9b2",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/manufacturing_aliases.json",
+      "source": "mechanical/v8_2/manufacturing_aliases.json",
+      "bytes": 1389,
+      "source_sha256": "4130d2d3d1c3b20c49125a4a0f9786b5a44d62fb49e2e21094d9e5083a6afaf8",
+      "packaged_sha256": "4130d2d3d1c3b20c49125a4a0f9786b5a44d62fb49e2e21094d9e5083a6afaf8",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/imu_interface.json",
+      "source": "mechanical/v8_2/imu_interface.json",
+      "bytes": 3220,
+      "source_sha256": "2741523312cb198845bf0e9be264b043bc807dd2021b1f97140c0dd58b96d275",
+      "packaged_sha256": "2741523312cb198845bf0e9be264b043bc807dd2021b1f97140c0dd58b96d275",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/battery_interface.json",
+      "source": "mechanical/v8_2/battery_interface.json",
+      "bytes": 5470,
+      "source_sha256": "05806bad743be6a97d8dcf1499c2fd2c84dae0d8a4d6582c8f9a2c4c27852e87",
+      "packaged_sha256": "05806bad743be6a97d8dcf1499c2fd2c84dae0d8a4d6582c8f9a2c4c27852e87",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hardware/j4310_drawing.png",
+      "source": "mechanical/v8_2/source/hardware/j4310_drawing.png",
+      "bytes": 190654,
+      "source_sha256": "3cae7ea4fc41a775b532c15d253ae0ac21054e5353d9fa0e7db75781c380f2cf",
+      "packaged_sha256": "3cae7ea4fc41a775b532c15d253ae0ac21054e5353d9fa0e7db75781c380f2cf",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hardware/j4310_drawing.txt",
+      "source": "mechanical/v8_2/source/hardware/j4310_drawing.txt",
+      "bytes": 1112,
+      "source_sha256": "178a1b1582723e89c711b3fd8e619e4a9d235bf9860b9227b3f7fe9e38553587",
+      "packaged_sha256": "178a1b1582723e89c711b3fd8e619e4a9d235bf9860b9227b3f7fe9e38553587",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hardware/h6215_drawing.png",
+      "source": "mechanical/v8_2/source/hardware/h6215_drawing.png",
+      "bytes": 144127,
+      "source_sha256": "2aff698be3d3d7cb318bf648d080671600e519e2e4c2fc7580532bfe80edbfeb",
+      "packaged_sha256": "2aff698be3d3d7cb318bf648d080671600e519e2e4c2fc7580532bfe80edbfeb",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hardware/h6215_drawing.txt",
+      "source": "mechanical/v8_2/source/hardware/h6215_drawing.txt",
+      "bytes": 1143,
+      "source_sha256": "44f1c3a9e25bcfac09aef2261b0a7b40436cd51db721bf84aeb2c4c1e3c48828",
+      "packaged_sha256": "44f1c3a9e25bcfac09aef2261b0a7b40436cd51db721bf84aeb2c4c1e3c48828",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/battery/WHEELTEC_24V_manual.pdf",
+      "source": "mechanical/v8_2/source/battery/WHEELTEC_24V_manual.pdf",
+      "bytes": 2099218,
+      "source_sha256": "29d61c232052dace7349b435a29070142d4290eb21476f4cf060e00928340f78",
+      "packaged_sha256": "29d61c232052dace7349b435a29070142d4290eb21476f4cf060e00928340f78",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/battery/WHEELTEC_12V_comparison_manual.pdf",
+      "source": "mechanical/v8_2/source/battery/WHEELTEC_12V_comparison_manual.pdf",
+      "bytes": 2155852,
+      "source_sha256": "c128aa48b8354c36e5b19cdf80cea8bfbd7fcc66e46f61cd30988eeef9ae3ebc",
+      "packaged_sha256": "c128aa48b8354c36e5b19cdf80cea8bfbd7fcc66e46f61cd30988eeef9ae3ebc",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/battery/official_manual_page_12.png",
+      "source": "mechanical/v8_2/source/battery/official_manual_page_12.png",
+      "bytes": 357383,
+      "source_sha256": "e1b90c78cf05bc18d31a99abba7ee8b1797339b4eda129513251ae8b2a8fa6e6",
+      "packaged_sha256": "e1b90c78cf05bc18d31a99abba7ee8b1797339b4eda129513251ae8b2a8fa6e6",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/battery/official_manual_page_09.png",
+      "source": "mechanical/v8_2/source/battery/official_manual_page_09.png",
+      "bytes": 445612,
+      "source_sha256": "09fa23969639916a52921c89f60a606a1ebd6871e6494f5e9f8355a27d431858",
+      "packaged_sha256": "09fa23969639916a52921c89f60a606a1ebd6871e6494f5e9f8355a27d431858",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/battery/official_12V_manual_page_11.png",
+      "source": "mechanical/v8_2/source/battery/official_12V_manual_page_11.png",
+      "bytes": 640878,
+      "source_sha256": "faf0c1259e48560150df922f6034de41255cb951c64bc14eaa8ee0dc94ee9f19",
+      "packaged_sha256": "faf0c1259e48560150df922f6034de41255cb951c64bc14eaa8ee0dc94ee9f19",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/battery/user_battery_dimension_drawing.png",
+      "source": "mechanical/v8_2/source/battery/user_battery_dimension_drawing.png",
+      "bytes": 579735,
+      "source_sha256": "b98cecfeec97993a836b9dfb05de558123f1c7bc83491f5cd5bb849ce996583d",
+      "packaged_sha256": "b98cecfeec97993a836b9dfb05de558123f1c7bc83491f5cd5bb849ce996583d",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hi13r2/PROVENANCE.md",
+      "source": "mechanical/v8_2/source/hi13r2/PROVENANCE.md",
+      "bytes": 4748,
+      "source_sha256": "53d7976ffdffb709d944fc26d14fd59df09bcf5ad7de504071140b0578dc8b35",
+      "packaged_sha256": "e9c5c325b1d743b36fe63dce41ceae6df5e52ff596fe8f7693a5a1b31b5a6c62",
+      "edits": [
+        "Added print-trial and historical-validation scope note",
+        "Corrected 300 mW max, not typical, per V8.2 electrical source review",
+        "Explicitly omitted owned-device model STEP/ZIP"
+      ]
+    },
+    {
+      "destination": "baseline_v81/source/hi13r2/hi13_datasheet_cn.pdf",
+      "source": "mechanical/v8_2/source/hi13r2/hi13_datasheet_cn.pdf",
+      "bytes": 2405174,
+      "source_sha256": "6994b6380effff29060cdd1f99aa40eaf37aaa50189e98c3deffdca0522501d1",
+      "packaged_sha256": "6994b6380effff29060cdd1f99aa40eaf37aaa50189e98c3deffdca0522501d1",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hi13r2/hi13_datasheet_cn.txt",
+      "source": "mechanical/v8_2/source/hi13r2/hi13_datasheet_cn.txt",
+      "bytes": 42271,
+      "source_sha256": "f568290be230345ce807633c2197bb9110b50e3d83954180b0fd56fd53467c5d",
+      "packaged_sha256": "f568290be230345ce807633c2197bb9110b50e3d83954180b0fd56fd53467c5d",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hi13r2/datasheet-17.png",
+      "source": "mechanical/v8_2/source/hi13r2/datasheet-17.png",
+      "bytes": 78485,
+      "source_sha256": "10ecf7524e0b0208b1c1435faf1470909d59380b4f5dd7f000fce09fc4f3fd13",
+      "packaged_sha256": "10ecf7524e0b0208b1c1435faf1470909d59380b4f5dd7f000fce09fc4f3fd13",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hi13r2/datasheet-18.png",
+      "source": "mechanical/v8_2/source/hi13r2/datasheet-18.png",
+      "bytes": 55025,
+      "source_sha256": "935f721a4a2cfeea599beb1f5597c78eb616e549d196f08ab5428d06930a629c",
+      "packaged_sha256": "935f721a4a2cfeea599beb1f5597c78eb616e549d196f08ab5428d06930a629c",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hi13r2/datasheet-19.png",
+      "source": "mechanical/v8_2/source/hi13r2/datasheet-19.png",
+      "bytes": 177499,
+      "source_sha256": "dbda1ed8080d592edb97073ba32e3fd052744f9f8e5a0728b2776b0d13a1526a",
+      "packaged_sha256": "dbda1ed8080d592edb97073ba32e3fd052744f9f8e5a0728b2776b0d13a1526a",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/hi13r2/model_validation.json",
+      "source": "mechanical/v8_2/source/hi13r2/model_validation.json",
+      "bytes": 654,
+      "source_sha256": "8937ea143ed818456f99f90aa99b6a2da8381a66597d51f7b59b6bc7ce3ef45d",
+      "packaged_sha256": "8937ea143ed818456f99f90aa99b6a2da8381a66597d51f7b59b6bc7ce3ef45d",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/display/specification.txt",
+      "source": "mechanical/v8_2/source/display/specification.txt",
+      "bytes": 3946,
+      "source_sha256": "17303bc8880f3f45a92fad36389f2500d1209d374e803b7f4adf62fc729649ef",
+      "packaged_sha256": "17303bc8880f3f45a92fad36389f2500d1209d374e803b7f4adf62fc729649ef",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/display/facts.json",
+      "source": "mechanical/v8_2/source/display/facts.json",
+      "bytes": 1544,
+      "source_sha256": "72ffb7193632cddfdfc0b96773537fddf27f4a2e655387b28182536f75846087",
+      "packaged_sha256": "72ffb7193632cddfdfc0b96773537fddf27f4a2e655387b28182536f75846087",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/display/显示器规格书.pdf",
+      "source": "mechanical/v8_2/source/display/显示器规格书.pdf",
+      "bytes": 242038,
+      "source_sha256": "f895c2682c0a3a7350379cb1d421471bf04abbc52a86e3d671ca078d53c56b96",
+      "packaged_sha256": "f895c2682c0a3a7350379cb1d421471bf04abbc52a86e3d671ca078d53c56b96",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/display/page-1.png",
+      "source": "mechanical/v8_2/source/display/page-1.png",
+      "bytes": 142173,
+      "source_sha256": "6bcf19626aaeacf83f882f9af19cac9da5ac0bc30601df85db0097997aea6262",
+      "packaged_sha256": "6bcf19626aaeacf83f882f9af19cac9da5ac0bc30601df85db0097997aea6262",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/display/page-2.png",
+      "source": "mechanical/v8_2/source/display/page-2.png",
+      "bytes": 421315,
+      "source_sha256": "f4842b1f4a46f6d4016ef7701172599bf4ad25f34a4966916740f2a23833bc3c",
+      "packaged_sha256": "f4842b1f4a46f6d4016ef7701172599bf4ad25f34a4966916740f2a23833bc3c",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/display/page-3.png",
+      "source": "mechanical/v8_2/source/display/page-3.png",
+      "bytes": 425038,
+      "source_sha256": "01b1bbd7bf9d86246820e3ce3baec41d6f1a64410328b3cc1399d642dbd0130b",
+      "packaged_sha256": "01b1bbd7bf9d86246820e3ce3baec41d6f1a64410328b3cc1399d642dbd0130b",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/display/page-4.png",
+      "source": "mechanical/v8_2/source/display/page-4.png",
+      "bytes": 283161,
+      "source_sha256": "e1e4c8177000774dabf20149c896610a935e0c6f7826e6cc04b4a1b925e53c46",
+      "packaged_sha256": "e1e4c8177000774dabf20149c896610a935e0c6f7826e6cc04b4a1b925e53c46",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/display/page-5.png",
+      "source": "mechanical/v8_2/source/display/page-5.png",
+      "bytes": 282679,
+      "source_sha256": "5db94c050cfeabe7d9b1cf6df2d27d0c6a388626afa99ec752b753e4bf4ebebd",
+      "packaged_sha256": "5db94c050cfeabe7d9b1cf6df2d27d0c6a388626afa99ec752b753e4bf4ebebd",
+      "edits": []
+    },
+    {
+      "destination": "baseline_v81/source/display/page-6.png",
+      "source": "mechanical/v8_2/source/display/page-6.png",
+      "bytes": 201983,
+      "source_sha256": "eca6087c46308ce8c21591ef31222767f9b7b732e2bb8a6f73a3b7327506e4a4",
+      "packaged_sha256": "eca6087c46308ce8c21591ef31222767f9b7b732e2bb8a6f73a3b7327506e4a4",
+      "edits": []
+    },
+    {
+      "destination": "source/electrical/j4310_v11_manual.txt",
+      "source": "mechanical/v8_2/source/electrical/j4310_v11_manual.txt",
+      "bytes": 62344,
+      "source_sha256": "6fd3dfaa43763bb3e6afb1b15f8baa4b3f8d167d40f1781ee8bc18425e1eecb0",
+      "packaged_sha256": "6fd3dfaa43763bb3e6afb1b15f8baa4b3f8d167d40f1781ee8bc18425e1eecb0",
+      "edits": []
+    },
+    {
+      "destination": "source/electrical/j4310-07.png",
+      "source": "mechanical/v8_2/source/electrical/j4310-07.png",
+      "bytes": 267129,
+      "source_sha256": "e1f1274046f8112d96d8431b93f70b7844b2f54a7794dc45e15af542817cdbb9",
+      "packaged_sha256": "e1f1274046f8112d96d8431b93f70b7844b2f54a7794dc45e15af542817cdbb9",
+      "edits": []
+    }
+  ],
+  "relative_markdown_links": [
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "baseline_v81/LEG_ASSEMBLY.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "baseline_v81/LEG_FITS.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "baseline_v81/BATTERY.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "baseline_v81/MODULE_ASSEMBLY.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "ELECTRICAL_INTEGRATION.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "routing_validation.json",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "electrical_final_validation.json",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "previews/internal_structure_annotated.png",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "ELECTRICAL_INTEGRATION.md",
+      "target": "FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/LEG_ASSEMBLY.md",
+      "target": "../FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/LEG_FITS.md",
+      "target": "../FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/BATTERY.md",
+      "target": "../FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/BATTERY_SOURCE_REVIEW.md",
+      "target": "../FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/MODULE_ASSEMBLY.md",
+      "target": "../FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/BODY_ASSEMBLY.md",
+      "target": "../FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/BODY_ASSEMBLY.md",
+      "target": "MODULE_ASSEMBLY.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/BODY_ASSEMBLY.md",
+      "target": "maintenance_access_review.json",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/IMU.md",
+      "target": "../FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/IMU.md",
+      "target": "source/hi13r2/PROVENANCE.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/IMU.md",
+      "target": "imu_interface.json",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/DISPLAY.md",
+      "target": "../FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    },
+    {
+      "document": "baseline_v81/source/hi13r2/PROVENANCE.md",
+      "target": "../../../FIT_NOTES.md",
+      "exists": true,
+      "in_package": true
+    }
+  ],
+  "all_relative_markdown_links_exist": true,
+  "intentional_omissions": [
+    "Large assembly and module STEP/FCStd/BREP files",
+    "Owned-device original STEP/ZIP models",
+    "Historical README, manufacturing list, mass and motor reports not needed for this assembly document closure",
+    "Alternate 26.05 mm depth D435 bracket: not selected, not in print net quantity"
+  ],
+  "remaining_issues": [
+    "Historical internal annotated image depicts V8.2 shell exterior; internal placement unchanged, image cannot substitute latest exterior preview.",
+    "Real connector insertion, cable bend radii, PETG accuracy and module handling remain physical trial work."
+  ],
+  "missing_literal_document_references": [],
+  "current_validation": {
+    "exterior": "source/shell_validation.json",
+    "print_meshes": "print_validation.json",
+    "scope": "Latest V8.3 nominal interference and printable mesh checks; historical references retain their original scope."
+  }
+}

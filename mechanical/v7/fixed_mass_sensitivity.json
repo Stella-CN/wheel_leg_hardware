@@ -1,0 +1,53 @@
+{
+  "rows": [
+    {
+      "height_mm": 100.0,
+      "added_fixed_mass_kg": 0.3,
+      "added_knee_torque_Nm": 0.15149740600057263,
+      "resulting_knee_torque_Nm": 2.410245362674374,
+      "rated_margin_Nm": 0.5897546373256262,
+      "torque_with_25_percent_allowance_Nm": 3.0128067033429673
+    },
+    {
+      "height_mm": 100.0,
+      "added_fixed_mass_kg": 0.6,
+      "added_knee_torque_Nm": 0.30299481200114525,
+      "resulting_knee_torque_Nm": 2.5617427686749465,
+      "rated_margin_Nm": 0.43825723132505345,
+      "torque_with_25_percent_allowance_Nm": 3.202178460843683
+    },
+    {
+      "height_mm": 180.0,
+      "added_fixed_mass_kg": 0.3,
+      "added_knee_torque_Nm": 0.11007937076433123,
+      "resulting_knee_torque_Nm": 1.7510518775310893,
+      "rated_margin_Nm": 1.2489481224689107,
+      "torque_with_25_percent_allowance_Nm": 2.1888148469138615
+    },
+    {
+      "height_mm": 180.0,
+      "added_fixed_mass_kg": 0.6,
+      "added_knee_torque_Nm": 0.22015874152866247,
+      "resulting_knee_torque_Nm": 1.8611312482954205,
+      "rated_margin_Nm": 1.1388687517045795,
+      "torque_with_25_percent_allowance_Nm": 2.3264140603692756
+    },
+    {
+      "height_mm": 215.0,
+      "added_fixed_mass_kg": 0.3,
+      "added_knee_torque_Nm": 0.0693258952974178,
+      "resulting_knee_torque_Nm": 1.1025739393108085,
+      "rated_margin_Nm": 1.8974260606891915,
+      "torque_with_25_percent_allowance_Nm": 1.3782174241385106
+    },
+    {
+      "height_mm": 215.0,
+      "added_fixed_mass_kg": 0.6,
+      "added_knee_torque_Nm": 0.1386517905948356,
+      "resulting_knee_torque_Nm": 1.1718998346082263,
+      "rated_margin_Nm": 1.8281001653917737,
+      "torque_with_25_percent_allowance_Nm": 1.4648747932602828
+    }
+  ],
+  "scope": "V6 plus added chassis-fixed mass only, with chassis pitch constrained; not the actual V7 mass or free balance result"
+}

@@ -1,0 +1,216 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1640" viewBox="0 0 1280 1640">
+<rect width="1280" height="1640" fill="white"/>
+<defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#34434c"/></marker></defs>
+<style>text{font-family:Arial,"PingFang SC","Noto Sans CJK SC",sans-serif;fill:#26343e}.title{font-size:29px;font-weight:700}.heading{font-size:25px;font-weight:700}.label{font-size:17px}.note{font-size:16px}.dim{font-size:15px;font-variant-numeric:tabular-nums}.tiny{font-size:13px}</style>
+<text x="40" y="45" class="title">V3 内扣关节：两侧支承夹住中间活动舌</text>
+<text x="40" y="75" class="note">右腿轴向中心剖面；横向为机身坐标 +Y。Y 区间取自实体 CAD，单位 mm。</text>
+<text x="40" y="100" class="note">叉根位于剖面外；径向轮廓简化，626 为包络。此图不是加工图。</text>
+<text x="40.00" y="120.00" class="heading" text-anchor="start">A 点</text>
+<text x="164.00" y="119.00" class="label" text-anchor="start">OA 两侧耳板 → 铜套 / 钢销 → AC 双轴承舌</text>
+<line x1="40.00" y1="136.00" x2="1240.00" y2="136.00" stroke="#dbe0e3" stroke-width="1.2"/>
+<rect x="452.00" y="255.00" width="80.00" height="89.75" fill="#8b73d3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="452.00" y="425.25" width="80.00" height="89.75" fill="#8b73d3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="452.00" y="345.00" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="452.00" y="415.25" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="255.00" width="80.00" height="89.75" fill="#a68cdc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="425.25" width="80.00" height="89.75" fill="#a68cdc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="345.00" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="415.25" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="225.00" width="60.50" height="64.25" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="480.75" width="60.50" height="64.25" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.50" y="225.00" width="19.00" height="76.00" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.50" y="469.00" width="19.00" height="76.00" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="621.50" y="225.00" width="60.50" height="64.25" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="621.50" y="480.75" width="60.50" height="64.25" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="290.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="415.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="622.00" y="290.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="622.00" y="415.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.00" y="343.00" width="20.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.00" y="416.00" width="20.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="532.00" y="343.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="532.00" y="416.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="682.00" y="343.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="682.00" y="416.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="437.00" y="355.00" width="5.00" height="60.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="442.00" y="356.50" width="8.00" height="57.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="450.00" y="355.00" width="324.00" height="60.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="774.00" y="356.50" width="8.00" height="57.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="782.00" y="355.00" width="5.00" height="60.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="450.00" y="335.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="450.00" y="416.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="772.00" y="335.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="772.00" y="416.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="443.00" y="325.00" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<rect x="443.00" y="413.50" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<rect x="774.00" y="325.00" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<rect x="774.00" y="413.50" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<line x1="316.00" y1="385.00" x2="902.00" y2="385.00" stroke="#697d89" stroke-width="1.2" stroke-dasharray="8 4 2 4" marker-end="url(#arrow)"/>
+<text x="909.00" y="391.00" class="dim" text-anchor="start">+Y</text>
+<text x="492.00" y="198.00" class="label" text-anchor="middle">内侧支承</text>
+<text x="492.00" y="218.00" class="dim" text-anchor="middle">Y 150–158</text>
+<line x1="492.00" y1="224.00" x2="492.00" y2="251.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="612.00" y="198.00" class="label" text-anchor="middle">中间活动舌</text>
+<text x="612.00" y="218.00" class="dim" text-anchor="middle">Y 159–173</text>
+<line x1="612.00" y1="224.00" x2="612.00" y2="221.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="732.00" y="198.00" class="label" text-anchor="middle">外侧支承</text>
+<text x="732.00" y="218.00" class="dim" text-anchor="middle">Y 174–182</text>
+<line x1="732.00" y1="224.00" x2="732.00" y2="251.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="966.00" y="293.00" class="label" text-anchor="start">OA 双耳</text>
+<text x="966.00" y="318.00" class="label" text-anchor="start">夹住 AC 活动舌</text>
+<text x="966.00" y="359.00" class="note" text-anchor="start">钢销：Ø6 × 35</text>
+<text x="966.00" y="385.00" class="note" text-anchor="start">两端：外卡簧 + 0.2 垫片</text>
+<text x="966.00" y="411.00" class="note" text-anchor="start">两耳铜套：Ø8 / Ø6.05 × 8</text>
+<text x="966.00" y="437.00" class="note" text-anchor="start">中舌：2 × 626（6 × 19 × 6）</text>
+<text x="966.00" y="463.00" class="note" text-anchor="start">中间隔套：Ø8.4 / Ø6.2 × 2</text>
+<text x="966.00" y="489.00" class="note" text-anchor="start">两侧钢垫：Ø8.4 / Ø6.2 × 1</text>
+<line x1="437.00" y1="446.00" x2="437.00" y2="574.00" stroke="#9aa7ae" stroke-width="1.2"/>
+<line x1="787.00" y1="446.00" x2="787.00" y2="574.00" stroke="#9aa7ae" stroke-width="1.2"/>
+<line x1="437.00" y1="569.00" x2="787.00" y2="569.00" stroke="#44545e" stroke-width="1.2"/>
+<line x1="433.00" y1="573.00" x2="441.00" y2="565.00" stroke="#44545e" stroke-width="1.2"/>
+<line x1="783.00" y1="573.00" x2="791.00" y2="565.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="612.00" y="562.00" class="dim" text-anchor="middle">销长 35；Y 148.5–183.5</text>
+<text x="40.00" y="620.00" class="heading" text-anchor="start">B 点</text>
+<text x="164.00" y="619.00" class="label" text-anchor="start">完整 OB 内 / 外板 → 铜套 / 钢销 → CW 双轴承舌</text>
+<line x1="40.00" y1="636.00" x2="1240.00" y2="636.00" stroke="#dbe0e3" stroke-width="1.2"/>
+<rect x="342.00" y="715.00" width="80.00" height="129.75" fill="#70bd5d" stroke="#47545e" stroke-width="0.85"/>
+<rect x="342.00" y="925.25" width="80.00" height="129.75" fill="#70bd5d" stroke="#47545e" stroke-width="0.85"/>
+<rect x="342.00" y="845.00" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="342.00" y="915.25" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="792.00" y="715.00" width="80.00" height="129.75" fill="#a9ce74" stroke="#47545e" stroke-width="0.85"/>
+<rect x="792.00" y="925.25" width="80.00" height="129.75" fill="#a9ce74" stroke="#47545e" stroke-width="0.85"/>
+<rect x="792.00" y="845.00" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="792.00" y="915.25" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="715.00" width="60.50" height="74.25" fill="#60c5c7" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="980.75" width="60.50" height="74.25" fill="#60c5c7" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.50" y="715.00" width="19.00" height="86.00" fill="#60c5c7" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.50" y="969.00" width="19.00" height="86.00" fill="#60c5c7" stroke="#47545e" stroke-width="0.85"/>
+<rect x="621.50" y="715.00" width="60.50" height="74.25" fill="#60c5c7" stroke="#47545e" stroke-width="0.85"/>
+<rect x="621.50" y="980.75" width="60.50" height="74.25" fill="#60c5c7" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="790.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="915.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="622.00" y="790.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="622.00" y="915.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.00" y="843.00" width="20.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.00" y="916.00" width="20.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="532.00" y="843.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="532.00" y="916.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="682.00" y="843.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="682.00" y="916.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="422.00" y="835.00" width="110.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="422.00" y="916.00" width="110.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="835.00" width="100.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="916.00" width="100.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="327.00" y="855.00" width="5.00" height="60.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="332.00" y="856.50" width="8.00" height="57.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="340.00" y="855.00" width="534.00" height="60.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="874.00" y="856.50" width="8.00" height="57.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="882.00" y="855.00" width="5.00" height="60.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="340.00" y="835.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="340.00" y="916.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="872.00" y="835.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="872.00" y="916.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="333.00" y="825.00" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<rect x="333.00" y="913.50" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<rect x="874.00" y="825.00" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<rect x="874.00" y="913.50" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<line x1="316.00" y1="885.00" x2="902.00" y2="885.00" stroke="#697d89" stroke-width="1.2" stroke-dasharray="8 4 2 4" marker-end="url(#arrow)"/>
+<text x="909.00" y="891.00" class="dim" text-anchor="start">+Y</text>
+<text x="382.00" y="665.00" class="label" text-anchor="middle">内侧支承</text>
+<text x="382.00" y="685.00" class="dim" text-anchor="middle">Y 139–147</text>
+<line x1="382.00" y1="691.00" x2="382.00" y2="711.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="612.00" y="665.00" class="label" text-anchor="middle">中间活动舌</text>
+<text x="612.00" y="685.00" class="dim" text-anchor="middle">Y 159–173</text>
+<line x1="612.00" y1="691.00" x2="612.00" y2="721.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="832.00" y="665.00" class="label" text-anchor="middle">外侧支承</text>
+<text x="832.00" y="685.00" class="dim" text-anchor="middle">Y 184–192</text>
+<line x1="832.00" y1="691.00" x2="832.00" y2="711.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="966.00" y="793.00" class="label" text-anchor="start">完整 OB 双板</text>
+<text x="966.00" y="818.00" class="label" text-anchor="start">夹住 CW 活动舌</text>
+<text x="966.00" y="859.00" class="note" text-anchor="start">钢销：Ø6 × 56</text>
+<text x="966.00" y="885.00" class="note" text-anchor="start">两端：外卡簧 + 0.2 垫片</text>
+<text x="966.00" y="911.00" class="note" text-anchor="start">两耳铜套：Ø8 / Ø6.05 × 8</text>
+<text x="966.00" y="937.00" class="note" text-anchor="start">中舌：2 × 626（6 × 19 × 6）</text>
+<text x="966.00" y="963.00" class="note" text-anchor="start">中间隔套：Ø8.4 / Ø6.2 × 2</text>
+<text x="966.00" y="989.00" class="note" text-anchor="start">两侧钢垫：Ø8.4 / Ø6.2 × 1</text>
+<text x="966.00" y="1019.00" class="note" text-anchor="start">额外钢隔套：内 11 / 外 10</text>
+<line x1="327.00" y1="946.00" x2="327.00" y2="1098.00" stroke="#9aa7ae" stroke-width="1.2"/>
+<line x1="887.00" y1="946.00" x2="887.00" y2="1098.00" stroke="#9aa7ae" stroke-width="1.2"/>
+<line x1="327.00" y1="1093.00" x2="887.00" y2="1093.00" stroke="#44545e" stroke-width="1.2"/>
+<line x1="323.00" y1="1097.00" x2="331.00" y2="1089.00" stroke="#44545e" stroke-width="1.2"/>
+<line x1="883.00" y1="1097.00" x2="891.00" y2="1089.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="607.00" y="1086.00" class="dim" text-anchor="middle">销长 56；Y 137.5–193.5</text>
+<text x="40.00" y="1120.00" class="heading" text-anchor="start">C 点</text>
+<text x="164.00" y="1119.00" class="label" text-anchor="start">CW 两侧耳板 → 铜套 / 钢销 → AC 双轴承舌</text>
+<line x1="40.00" y1="1136.00" x2="1240.00" y2="1136.00" stroke="#dbe0e3" stroke-width="1.2"/>
+<rect x="452.00" y="1255.00" width="80.00" height="89.75" fill="#60c5c7" stroke="#47545e" stroke-width="0.85"/>
+<rect x="452.00" y="1425.25" width="80.00" height="89.75" fill="#60c5c7" stroke="#47545e" stroke-width="0.85"/>
+<rect x="452.00" y="1345.00" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="452.00" y="1415.25" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="1255.00" width="80.00" height="89.75" fill="#8dd8d6" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="1425.25" width="80.00" height="89.75" fill="#8dd8d6" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="1345.00" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="692.00" y="1415.25" width="80.00" height="9.75" fill="#d8af64" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="1225.00" width="60.50" height="64.25" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="1480.75" width="60.50" height="64.25" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.50" y="1225.00" width="19.00" height="76.00" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.50" y="1469.00" width="19.00" height="76.00" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="621.50" y="1225.00" width="60.50" height="64.25" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="621.50" y="1480.75" width="60.50" height="64.25" fill="#e98582" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="1290.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="542.00" y="1415.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="622.00" y="1290.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="622.00" y="1415.00" width="60.00" height="65.00" fill="#8194a3" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.00" y="1343.00" width="20.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="602.00" y="1416.00" width="20.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="532.00" y="1343.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="532.00" y="1416.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="682.00" y="1343.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="682.00" y="1416.00" width="10.00" height="11.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="437.00" y="1355.00" width="5.00" height="60.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="442.00" y="1356.50" width="8.00" height="57.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="450.00" y="1355.00" width="324.00" height="60.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="774.00" y="1356.50" width="8.00" height="57.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="782.00" y="1355.00" width="5.00" height="60.00" fill="#d4dce1" stroke="#47545e" stroke-width="0.85"/>
+<rect x="450.00" y="1335.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="450.00" y="1416.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="772.00" y="1335.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="772.00" y="1416.00" width="2.00" height="19.00" fill="#bcc5cc" stroke="#47545e" stroke-width="0.85"/>
+<rect x="443.00" y="1325.00" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<rect x="443.00" y="1413.50" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<rect x="774.00" y="1325.00" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<rect x="774.00" y="1413.50" width="7.00" height="31.50" fill="#52626b" stroke="#47545e" stroke-width="0.85"/>
+<line x1="316.00" y1="1385.00" x2="902.00" y2="1385.00" stroke="#697d89" stroke-width="1.2" stroke-dasharray="8 4 2 4" marker-end="url(#arrow)"/>
+<text x="909.00" y="1391.00" class="dim" text-anchor="start">+Y</text>
+<text x="492.00" y="1198.00" class="label" text-anchor="middle">内侧支承</text>
+<text x="492.00" y="1218.00" class="dim" text-anchor="middle">Y 150–158</text>
+<line x1="492.00" y1="1224.00" x2="492.00" y2="1251.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="612.00" y="1198.00" class="label" text-anchor="middle">中间活动舌</text>
+<text x="612.00" y="1218.00" class="dim" text-anchor="middle">Y 159–173</text>
+<line x1="612.00" y1="1224.00" x2="612.00" y2="1221.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="732.00" y="1198.00" class="label" text-anchor="middle">外侧支承</text>
+<text x="732.00" y="1218.00" class="dim" text-anchor="middle">Y 174–182</text>
+<line x1="732.00" y1="1224.00" x2="732.00" y2="1251.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="966.00" y="1293.00" class="label" text-anchor="start">CW 双耳</text>
+<text x="966.00" y="1318.00" class="label" text-anchor="start">夹住 AC 活动舌</text>
+<text x="966.00" y="1359.00" class="note" text-anchor="start">钢销：Ø6 × 35</text>
+<text x="966.00" y="1385.00" class="note" text-anchor="start">两端：外卡簧 + 0.2 垫片</text>
+<text x="966.00" y="1411.00" class="note" text-anchor="start">两耳铜套：Ø8 / Ø6.05 × 8</text>
+<text x="966.00" y="1437.00" class="note" text-anchor="start">中舌：2 × 626（6 × 19 × 6）</text>
+<text x="966.00" y="1463.00" class="note" text-anchor="start">中间隔套：Ø8.4 / Ø6.2 × 2</text>
+<text x="966.00" y="1489.00" class="note" text-anchor="start">两侧钢垫：Ø8.4 / Ø6.2 × 1</text>
+<line x1="437.00" y1="1446.00" x2="437.00" y2="1574.00" stroke="#9aa7ae" stroke-width="1.2"/>
+<line x1="787.00" y1="1446.00" x2="787.00" y2="1574.00" stroke="#9aa7ae" stroke-width="1.2"/>
+<line x1="437.00" y1="1569.00" x2="787.00" y2="1569.00" stroke="#44545e" stroke-width="1.2"/>
+<line x1="433.00" y1="1573.00" x2="441.00" y2="1565.00" stroke="#44545e" stroke-width="1.2"/>
+<line x1="783.00" y1="1573.00" x2="791.00" y2="1565.00" stroke="#44545e" stroke-width="1.2"/>
+<text x="612.00" y="1562.00" class="dim" text-anchor="middle">销长 35；Y 148.5–183.5</text>
+<rect x="40" y="1598" width="22" height="18" fill="#83c471" stroke="#58646c"/>
+<text x="71.00" y="1615.00" class="note" text-anchor="start">PETG 支承 / 活动舌</text>
+<rect x="337" y="1598" width="22" height="18" fill="#d8af64" stroke="#58646c"/>
+<text x="368.00" y="1615.00" class="note" text-anchor="start">青铜衬套</text>
+<rect x="559" y="1598" width="22" height="18" fill="#8194a3" stroke="#58646c"/>
+<text x="590.00" y="1615.00" class="note" text-anchor="start">626 轴承包络</text>
+<rect x="817" y="1598" width="22" height="18" fill="#bcc5cc" stroke="#58646c"/>
+<text x="848.00" y="1615.00" class="note" text-anchor="start">钢销 / 隔套 / 垫片</text>
+</svg>

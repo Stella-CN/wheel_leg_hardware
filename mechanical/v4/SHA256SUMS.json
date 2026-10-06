@@ -1,0 +1,486 @@
+{
+  "mechanical/v4/INTERFACES.md": {
+    "sha256": "cfe9c84b67b05ae95e38356cf284cc1fbb86f6df72057633e44c8bdc2b49bf34",
+    "bytes": 11492
+  },
+  "mechanical/v4/README.md": {
+    "sha256": "cab1fc4cbbc1cb013d6a050289498185d2ee1a25ca416112ee2d443b4b5f1180",
+    "bytes": 21384
+  },
+  "mechanical/v4/assembly_stl_report.json": {
+    "sha256": "59c1b65c7c8fb0104d207f8a4156f5bd81f81ec22278143bd83b561dd40b5c1f",
+    "bytes": 751
+  },
+  "mechanical/v4/cnc/OA_crank_review.json": {
+    "sha256": "c819e26cc7f81e30e0fa5691a352df7d2fa2b885a788cea35c7f7182afc42174",
+    "bytes": 6534
+  },
+  "mechanical/v4/cnc/OA_crank_review.png": {
+    "sha256": "6b4f188c8d2611e7ddcca2867ede415d0cbc1494b4acc502f1f1f5fc87a5e1a5",
+    "bytes": 644883
+  },
+  "mechanical/v4/cnc/OA_crank_review.svg": {
+    "sha256": "dd2afa0a2e57144dbc2cd4c7450c7ed48b7b360bba7bd649f1a922c1d875256c",
+    "bytes": 46531
+  },
+  "mechanical/v4/cnc/OA_inner_hub.step": {
+    "sha256": "d0bd9c9403e619f7896dc02c2ef76bd067359e1f1001047dd9493791a7d96819",
+    "bytes": 31782
+  },
+  "mechanical/v4/cnc/OA_outer_cheek.step": {
+    "sha256": "6c3060675a55bb1d20e3454dd540df31b0613218181f5cc43a34d71c774eb245",
+    "bytes": 37439
+  },
+  "mechanical/v4/cnc/coupling_section.png": {
+    "sha256": "6ebbc2011a2241ccf56c127e78d2485d5eafb20b5cc6b2e7a29c8111aa0f07b4",
+    "bytes": 732889
+  },
+  "mechanical/v4/cnc/coupling_section.svg": {
+    "sha256": "a9ed3522735e8ca33c52f330ad3475ef427c58561d05778323962513ed09a85f",
+    "bytes": 41754
+  },
+  "mechanical/v4/cnc/hip_rotor_cnc.step": {
+    "sha256": "ecd5a3331391a009afa2b7c34f74ebdc3b917821ad4f3db5b69e54be20f49b46",
+    "bytes": 57353
+  },
+  "mechanical/v4/cnc/hip_rotor_cnc_left.step": {
+    "sha256": "4495e8e5e64bbe3c5de234d03e8a38face0fd44ed6aeba9a42b0e0067f464253",
+    "bytes": 57721
+  },
+  "mechanical/v4/cnc/knee_stator_cnc.step": {
+    "sha256": "9b5d5db1bb6294780ca15829c8e246a84948add8a742f01acfa423cc711c7a0c",
+    "bytes": 76633
+  },
+  "mechanical/v4/cnc/knee_stator_cnc_left.step": {
+    "sha256": "c0d688c019a51ea20ef66e0d6293f0dc6a9ba99813feadd0efeb92f03565fecf",
+    "bytes": 76992
+  },
+  "mechanical/v4/coupling_local_review.FCStd": {
+    "sha256": "3797f448fa44efb0ce9072255f5f370c5caea743f601994a359538d048c82a84",
+    "bytes": 22319060
+  },
+  "mechanical/v4/coupling_review.json": {
+    "sha256": "dac6ada42c006be3efa16f9fdc8eeb9279d20439a38809fd699b3e365cc49dd2",
+    "bytes": 4456
+  },
+  "mechanical/v4/coupling_review.md": {
+    "sha256": "47b65e4a76f6acb23889f3ee9c6f5f71ee7e88f0fbb2d11eb547370db30562ac",
+    "bytes": 4952
+  },
+  "mechanical/v4/design_parameters.json": {
+    "sha256": "6654dcedba19274a81c8bb670e8b5bf9bfbe4b2073db92f04315a5944ebf41cb",
+    "bytes": 2206
+  },
+  "mechanical/v4/joint_hardware_validation.json": {
+    "sha256": "8323e3f3d40eb1a1d3de7c9facd701c8681c8058d3ef858289323339ecf607f3",
+    "bytes": 2290
+  },
+  "mechanical/v4/leg_layout_review.json": {
+    "sha256": "30d6c4d239d14eb3b86eedbaae2ae4303966dafdeb3e953ddbc9d083da95bcfe",
+    "bytes": 6630
+  },
+  "mechanical/v4/metal_hardware/B_standoff_ID6_2_OD10_L7.step": {
+    "sha256": "8f76eb5901facabb73cd7384d548249ec94aa29f6ec2cd4d3916a83e738c7087",
+    "bytes": 4953
+  },
+  "mechanical/v4/metal_hardware/OB_tube_ID4_3_OD10_L21.step": {
+    "sha256": "5361a96f3ef4f9c393c00f367f8e1f39c9ae1671e1d859c3b6bcb1d7795adf6c",
+    "bytes": 4964
+  },
+  "mechanical/v4/metal_hardware/bushing_ID6_05_OD8_L3.step": {
+    "sha256": "d8f846c54f25d6383b2d82c25f62ee6e7e59945bef0b3475a367b3684752d91b",
+    "bytes": 4967
+  },
+  "mechanical/v4/metal_hardware/bushing_ID6_05_OD8_L6.step": {
+    "sha256": "be29d931df7eafc1899d85a7731cdb4d1a420986972e265f4c781bac8b03048b",
+    "bytes": 4965
+  },
+  "mechanical/v4/metal_hardware/dowel_D4_L9.step": {
+    "sha256": "169deb9ffaf80b72d25d5c56748bf02aa50e76c8401e9ea869f1a4ef9c2c7131",
+    "bytes": 3526
+  },
+  "mechanical/v4/metal_hardware/dowel_specification.json": {
+    "sha256": "e8584f7ce21db3ac6e6c7d70d502951c67cd20f3a4c0c498e5d38dc083a13589",
+    "bytes": 368
+  },
+  "mechanical/v4/metal_hardware/end_shim_ID6_2_OD10_t0_2.step": {
+    "sha256": "d285783c90e5146bce698bea1ab573be5372af43203d3667cb39a11ffca67afe",
+    "bytes": 4958
+  },
+  "mechanical/v4/metal_hardware/ground_pin_D6_L23.step": {
+    "sha256": "e27ad27647097ff7deab590e6861751c0fd3c3c72b71d6037710641215d5974b",
+    "bytes": 10315
+  },
+  "mechanical/v4/metal_hardware/ground_pin_D6_L29.step": {
+    "sha256": "1cf393f045b27130a86d1bb96501944938af694d2ea4216c7c23e21128784369",
+    "bytes": 10315
+  },
+  "mechanical/v4/metal_hardware/ground_pin_D6_L36.step": {
+    "sha256": "f6e2211af1386dbd0ae6fef53901c73dabcfa851f0ab92a435d6392671081094",
+    "bytes": 10315
+  },
+  "mechanical/v4/metal_hardware/inner_spacer_ID6_2_OD7_2_L2.step": {
+    "sha256": "5f7fa5a1bd14c8ada7e46454b9102448609608356e67259eed5c257f95e98f3f",
+    "bytes": 4959
+  },
+  "mechanical/v4/metal_hardware/pin_specification.json": {
+    "sha256": "09a25af9e13d4bf15ccea54fa7628fb36e39be308d9e567419458394a05fbfc1",
+    "bytes": 1185
+  },
+  "mechanical/v4/metal_hardware/race_washer_ID6_2_OD7_2_t1.step": {
+    "sha256": "3d7f1c89fbef4124b396b1f63b2583a72b3902fae05a2cf4c4ae0b1428de50aa",
+    "bytes": 4959
+  },
+  "mechanical/v4/metal_hardware/spacer_specification.json": {
+    "sha256": "cf441805346f8cda21f39ba5ab60dc584373d02544890fa834b6ac6b07b016d2",
+    "bytes": 1159
+  },
+  "mechanical/v4/motor_interface_review.json": {
+    "sha256": "4e91ef956d41f9d43ff3cd45eaa0086a9e297c4164ce73725015556ef1a38a52",
+    "bytes": 11583
+  },
+  "mechanical/v4/motor_interface_review.md": {
+    "sha256": "4b2beb9caf6edaedde1a992d50cee0d4c37cfac607baadb978e360bf4d0976c7",
+    "bytes": 4675
+  },
+  "mechanical/v4/native_hardware_placement_validation.json": {
+    "sha256": "a01861984b2f2119b291ba175ea5820b4f0ef0520269a488e60018dc30f2199c",
+    "bytes": 139
+  },
+  "mechanical/v4/part_breakdown.FCStd": {
+    "sha256": "0f5ac4053ff8e99e914e000e87d5fe574b69ef1b0a67cefaeac9636634afc31c",
+    "bytes": 148772
+  },
+  "mechanical/v4/part_breakdown.step": {
+    "sha256": "056a395d4c8c30d9650046e7d0178d395161369d36a9dcc4df6a61e1481db69b",
+    "bytes": 570111
+  },
+  "mechanical/v4/part_manifest.json": {
+    "sha256": "ee9aab217e7b12e11e2a0380bb9c133c86ffb9396f463ab0086ea4549d292a39",
+    "bytes": 7342
+  },
+  "mechanical/v4/parts.csv": {
+    "sha256": "4f0e4f28a03890989eb3966e6d2adad5b18b5555aa76d4362f9fd42b6bb3caa1",
+    "bytes": 1136
+  },
+  "mechanical/v4/previews/assembly.png": {
+    "sha256": "e334b42fe781fd3053373b588dddce52939d32db47748cd6046e6fbe740891e9",
+    "bytes": 120265
+  },
+  "mechanical/v4/previews/coupling_assembled.png": {
+    "sha256": "ace3b77b904c42c4d662e2c5c23ac5ac8a0a5184eba32c2b90e4a6508bcd6623",
+    "bytes": 58434
+  },
+  "mechanical/v4/previews/coupling_exploded.png": {
+    "sha256": "d0055c0dbd6a9a1698ecee4725389d1eaf3ce47914866b1868a67c7046cf0961",
+    "bytes": 75468
+  },
+  "mechanical/v4/previews/coupling_parts.png": {
+    "sha256": "a8d8ba3eb66e6c399248ca0dfadb7d95aee121d8b7d1b8d40388d24439ba552b",
+    "bytes": 75106
+  },
+  "mechanical/v4/previews/layout_shared_planes.png": {
+    "sha256": "a92847e54b2a2e28b989093fde4cd25f349374e2120a11ee0570c91d87fc6a18",
+    "bytes": 318436
+  },
+  "mechanical/v4/previews/layout_shared_planes.svg": {
+    "sha256": "b91eba62e6f951af2c6ce881c5858483c0c79c35fb6b37a2a01541147029b4b1",
+    "bytes": 20370
+  },
+  "mechanical/v4/previews/linkage_coordinates.json": {
+    "sha256": "6724af0a6dfe634ab2c998fab1f3ef3324cf6dd170d813b7ed9d43237127346a",
+    "bytes": 460
+  },
+  "mechanical/v4/previews/linkage_layout.svg": {
+    "sha256": "d9331e7bbf1e95ace1b8e18b4dc1062c403301894b455ddbe800b0e67065fd8e",
+    "bytes": 3287
+  },
+  "mechanical/v4/previews/nested_joints_cutaway.png": {
+    "sha256": "9f173c9f54fa9222b110345cc6786be2645ca60fd42afc44929be1f23f5037d5",
+    "bytes": 98541
+  },
+  "mechanical/v4/previews/open_chassis.png": {
+    "sha256": "e1433b0d39496065c3a6289291f4be6e254272f40fdccf600e45d02a02f8e728",
+    "bytes": 150798
+  },
+  "mechanical/v4/previews/part_breakdown.png": {
+    "sha256": "7ee23f511198b26cd57dd2e792ac7a15fd25845f492b7e51747a43cb3644cf5f",
+    "bytes": 31797
+  },
+  "mechanical/v4/previews/reference_breakdown.png": {
+    "sha256": "ec12ac120f45e905d97ffac7863f513645275c2fd60f456c2fc5aa3e111ec070",
+    "bytes": 367803
+  },
+  "mechanical/v4/previews/reference_breakdown.svg": {
+    "sha256": "b0d1261b9cc05eb1b4d8a84bdd54887f9139e3f1899a0ff2adc538643e91e197",
+    "bytes": 13153
+  },
+  "mechanical/v4/previews/right_leg.png": {
+    "sha256": "4b3b224fd258280034c9c5336d3700b209cfd177d449084932ea1c072e941d22",
+    "bytes": 84538
+  },
+  "mechanical/v4/previews/right_leg_exploded.png": {
+    "sha256": "b73c9e69db9e848d1c82cda3997181fd069fdc2f98c0fd5a4c201a53066e00a1",
+    "bytes": 89733
+  },
+  "mechanical/v4/previews/right_leg_side.png": {
+    "sha256": "7c6c9ea094a6f0889ec52eecfe733b771374b7a27bc1b189a249d5b7c87780fc",
+    "bytes": 32946
+  },
+  "mechanical/v4/print/AC_bearing_link.stl": {
+    "sha256": "645a3b0b2b131bad35f56ee5ece3d884c0d5693ec7d076edcdd1aa6f7e98c8de",
+    "bytes": 148284
+  },
+  "mechanical/v4/print/CW_main_inner.stl": {
+    "sha256": "ba9464b9a8f32983e98231f6d182b37b501947c53d4b57b0f0203d72f76f0dfc",
+    "bytes": 379184
+  },
+  "mechanical/v4/print/CW_main_inner_left.stl": {
+    "sha256": "39aa8de46922d0f38aa3026d32df284743d31cf0102ddd93c92d18f2830f4441",
+    "bytes": 379684
+  },
+  "mechanical/v4/print/CW_outer_fork.stl": {
+    "sha256": "117b99cf5bb3159a75f0b6230a929ad0f2c0a472e07d557c3a241ffb4adab74f",
+    "bytes": 95084
+  },
+  "mechanical/v4/print/CW_outer_fork_left.stl": {
+    "sha256": "8984479d5f468b1605b3ec81d9036ec3218fc5b4a192eb2c6a7377e0c43fdab0",
+    "bytes": 95084
+  },
+  "mechanical/v4/print/OB_inner_full.stl": {
+    "sha256": "bb9d888f3d0f83135042fc2c7619233f0674abb1b57df7f9735da629054f7b5f",
+    "bytes": 332984
+  },
+  "mechanical/v4/print/OB_inner_full_left.stl": {
+    "sha256": "253bc8c435524bfbd7fc6d50bd85e585be6b78d9fa57a81e1d4220d923dd8c31",
+    "bytes": 333184
+  },
+  "mechanical/v4/print/OB_outer_full.stl": {
+    "sha256": "bb9eda3801dbb8d46e4e446532fb1b0591c81a783f49171d5dcf15a80a686f6e",
+    "bytes": 146484
+  },
+  "mechanical/v4/print/OB_outer_full_left.stl": {
+    "sha256": "3c67938d7eab864ee62bd6246efd99ff401ca30623acb7e640ab025ca97e501c",
+    "bytes": 146484
+  },
+  "mechanical/v4/print/battery_tray.stl": {
+    "sha256": "55a97fb62b62fe7a6f4941089a3fa5f8f0a9de2fa56f528c717cd8739c7b56c8",
+    "bytes": 182684
+  },
+  "mechanical/v4/print/bearing_fit_coupon.stl": {
+    "sha256": "91f52ebbc05790b668f08a88e7fa095d38a5b963f87ddc3288c0c6b4eb0ac0e8",
+    "bytes": 57484
+  },
+  "mechanical/v4/print/bushing_fit_coupon.stl": {
+    "sha256": "e43ae0106ce119434203ef91fe4ad68c1b0567cf3f063b89a921517ccfc951a8",
+    "bytes": 57484
+  },
+  "mechanical/v4/print/chassis_lid.stl": {
+    "sha256": "eefd6e7196dce234159f4546570002bab23db0468c927e9931fa6018a2620304",
+    "bytes": 145484
+  },
+  "mechanical/v4/print/chassis_lower_shell.stl": {
+    "sha256": "357f4f4794761d64b17b52467622263bd976c1e349850d5f452d74c6b46b113b",
+    "bytes": 800684
+  },
+  "mechanical/v4/print/electronics_tray.stl": {
+    "sha256": "3a04caa1a2c4a0f4256433716d00b87865481445afb75fe70bad65e1361c2e75",
+    "bytes": 217084
+  },
+  "mechanical/v4/print/hip_stator_mount.stl": {
+    "sha256": "8e7adabf6529927e144a62cce5d0a3671763fc7d441f74c4aa2fbaac37e2cadb",
+    "bytes": 311284
+  },
+  "mechanical/v4/print/wheel_rim.stl": {
+    "sha256": "caf39f53f705c4804b732e177f8815fe75cb31b2daa70bf8e077875fda36f178",
+    "bytes": 270384
+  },
+  "mechanical/v4/print_mesh_validation.json": {
+    "sha256": "2d8c717804c2bf67cca74fc96d8022fb908876e6f475b99dbb8d81840b05b451",
+    "bytes": 6054
+  },
+  "mechanical/v4/reference_breakdown.md": {
+    "sha256": "d37cdf04cf33a8b135870070e7eb615905af50fbb7355b819756feda02590b01",
+    "bytes": 11346
+  },
+  "mechanical/v4/release_verification.json": {
+    "sha256": "08db5759400b7bbfb823019e07ebf5a3b77c39088a2b60e0bddbe8615a56a712",
+    "bytes": 1459
+  },
+  "mechanical/v4/source/686AZZ1_selection_evidence.json": {
+    "sha256": "beb39d1276fed9349d4d14af55bf529df7b4553242660295b9e83d2cd6a9216b",
+    "bytes": 1841
+  },
+  "mechanical/v4/source/NSK_686AZZ1_abutment_C060_C061.png": {
+    "sha256": "004a5a7e3582aac9b50b6e901f8f10b7424b9525884c0776efa634e660fedb70",
+    "bytes": 1060964
+  },
+  "mechanical/v4/source/motor_review/J4310_V11_20260908_p09.png": {
+    "sha256": "b99db693e86526caca0fdec05dcea8c2f57ecb468dea9d4283e59d50677255f6",
+    "bytes": 1047633
+  },
+  "mechanical/v4/source/motor_review/J4310_V12_20260908_p09.png": {
+    "sha256": "9f327284a6d9bc6bb7908fe7a0e0e4b4cd03a1d8509ecef3c9517dccbe017824",
+    "bytes": 1047676
+  },
+  "mechanical/v4/source/motor_review/J4310_VerB20230904.png": {
+    "sha256": "4541e6cc3f6041cc03666274e75ac9ba18324b117444bb78e6748ba0bfc26112",
+    "bytes": 405272
+  },
+  "mechanical/v4/source/motor_review/J4310_annotated.png": {
+    "sha256": "793b50839e9b2c78e59cff59a1b18663785ff083cbcfa3451050514639c94b53",
+    "bytes": 321870
+  },
+  "mechanical/v4/source/motor_review/J4310_fresh_step_probe.json": {
+    "sha256": "511d97378cd111ce0f6c9cd47b3b342db1c3cdef851b940dcb1e447a2219d52c",
+    "bytes": 15433
+  },
+  "mechanical/v4/source/motor_review/candidate_cup_access_web.json": {
+    "sha256": "ba51a3448a43ef084c046954236d76c9627b51bb07579c73e19eeeb6aa81d993",
+    "bytes": 3019
+  },
+  "mechanical/v4/source/motor_review/pin_insertion_probe.json": {
+    "sha256": "4259c798ac3c73f09cf7af84a8979d57725bbc2fd5a5596cfbd7cdec945bdebb",
+    "bytes": 367
+  },
+  "mechanical/v4/source/reference_mechanism.png": {
+    "sha256": "dbd6ac161a8f61fff6accd933af755f09027ae586c158694fe9e891a0b9cffa8",
+    "bytes": 2116504
+  },
+  "mechanical/v4/step/AC_bearing_link.step": {
+    "sha256": "0719b85114056705f370f4984f7ce78f24f94019e5ac017a85c60290e194d79c",
+    "bytes": 29829
+  },
+  "mechanical/v4/step/CW_main_inner.step": {
+    "sha256": "8018381a65da3dcaba670011af1b121bb5f6bacf34262342965390b266f83d62",
+    "bytes": 155310
+  },
+  "mechanical/v4/step/CW_main_inner_left.step": {
+    "sha256": "c8be3ba63c96223ca8d660838038770f32e9a7116295761825db1e4add5a1aa9",
+    "bytes": 156660
+  },
+  "mechanical/v4/step/CW_outer_fork.step": {
+    "sha256": "264fbe3f093a1f66506d2946dd2c7040d23b0a4b9890437dfb775c8fcc443df7",
+    "bytes": 20193
+  },
+  "mechanical/v4/step/CW_outer_fork_left.step": {
+    "sha256": "afb0665300aad494471d000ca0908414312bcd0e71710bfb052faa19d24f4141",
+    "bytes": 20361
+  },
+  "mechanical/v4/step/OB_inner_full.step": {
+    "sha256": "415dfbd8465854b190df7d9ffb348e03de4a6e9b8c4bf451cbc7911a101d50a8",
+    "bytes": 103855
+  },
+  "mechanical/v4/step/OB_inner_full_left.step": {
+    "sha256": "9346cc82e7e105cff43b546070fc915279ffe9ffd27744eab94956adcb99c724",
+    "bytes": 104776
+  },
+  "mechanical/v4/step/OB_outer_full.step": {
+    "sha256": "a44147453287f5531efac81d5168eef99b26c4d77066e9f2df04fe86849a1a64",
+    "bytes": 51140
+  },
+  "mechanical/v4/step/OB_outer_full_left.step": {
+    "sha256": "e36cbcfe6d05acfb4adf15ee6b3ce36518a4544e3cee2d772c8c232bf488d35a",
+    "bytes": 51571
+  },
+  "mechanical/v4/step/battery_tray.step": {
+    "sha256": "dc450da687bf043a0a43f7e41b575691367fdd41e2ecc257cd54dd5ff0417e28",
+    "bytes": 79241
+  },
+  "mechanical/v4/step/bearing_fit_coupon.step": {
+    "sha256": "24dbf78a66ae85e35be57a8ce442785bea018c1f7fb250866c6369c6af3b7461",
+    "bytes": 12677
+  },
+  "mechanical/v4/step/bushing_fit_coupon.step": {
+    "sha256": "b7b1e230006fb966d20c7ce5a2250368802a670404724b68e018c0a5f6343b24",
+    "bytes": 12680
+  },
+  "mechanical/v4/step/chassis_lid.step": {
+    "sha256": "2925d29b120f9765fbb266a400099fa7055af35ecaf5834e17ae8b98410f4221",
+    "bytes": 75183
+  },
+  "mechanical/v4/step/chassis_lower_shell.step": {
+    "sha256": "863a0328c387952f78289f9041eb50814ee1340b17a6386fec130452127b1bd1",
+    "bytes": 216905
+  },
+  "mechanical/v4/step/electronics_tray.step": {
+    "sha256": "0512f9209f283daacaef32f1a4b6e8d08ae465f9c191b6724f4478bef5496fa7",
+    "bytes": 64439
+  },
+  "mechanical/v4/step/hip_stator_mount.step": {
+    "sha256": "bf6820ac06b967d7ac6037c0c47e1786039c78a0486f6878086d65268a1c8af9",
+    "bytes": 39920
+  },
+  "mechanical/v4/step/wheel_rim.step": {
+    "sha256": "61923caa49aafb2712d10e6f0fed770e94703b88919a2d0acf1310dffb177b4e",
+    "bytes": 45678
+  },
+  "mechanical/v4/validation.json": {
+    "sha256": "04c3fafa4ea27d93109a92b73f57060acfa01ad2438f7bcb485209fabf64bb95",
+    "bytes": 967
+  },
+  "mechanical/v4/wheel_leg_assembly.step": {
+    "sha256": "769d8fce5ad5a7f2e54c44e75ad4ad0da7ee32cc34e71677beddfe7d6f9fbaa3",
+    "bytes": 83670521
+  },
+  "mechanical/v4/wheel_leg_assembly.stl": {
+    "sha256": "3b5af7066042269e4a408135b708ea694302756e1c3d178f3a548f4cf4ccb650",
+    "bytes": 82686084
+  },
+  "mechanical/v4/wheel_leg_structure.step": {
+    "sha256": "f2b2efd5e6946573ff18306ff6cc4972ebf4404d105b5fc6870feaa6a3726adb",
+    "bytes": 1906202
+  },
+  "mechanical/v4/wheel_leg_v4.FCStd": {
+    "sha256": "21127bf5406bb6225e818ac3eec151d0d0ec2e1e1065622b8902f4f14155a01d",
+    "bytes": 47116888
+  },
+  "tools/build_printable_robot.py": {
+    "sha256": "11511d7930ee03b0e03640f0d25f712a40c8774e38e2f1458a2e94f8e7da5f51",
+    "bytes": 25050
+  },
+  "tools/build_reference_robot.py": {
+    "sha256": "e43629396b1c8227dcb7999b0e1bb75c517fdf4ca981e889e087314e471b3afa",
+    "bytes": 7636
+  },
+  "tools/build_nested_robot.py": {
+    "sha256": "5e3eb562cd59eee9245e8867bfc3028a801bb0d8d9a30e92bd3145b07a5e80be",
+    "bytes": 13289
+  },
+  "tools/cad_v3_profiles.py": {
+    "sha256": "c42db1a82ba6e3b79c23036b5544e6c98e7784d93776e03883c6f48b8907fd3b",
+    "bytes": 12780
+  },
+  "tools/cad_chassis.py": {
+    "sha256": "f92ef80ab47c039b3a239b16879fdcc54a7374f1fc7442cfaed197a76dfd8405",
+    "bytes": 8106
+  },
+  "tools/render_nested_robot.py": {
+    "sha256": "db5d7f8c7ff6175f84ef568ba6aa96f82e51ac2d76b73ac33425b781a73ed603",
+    "bytes": 21252
+  },
+  "tools/build_compact_robot.py": {
+    "sha256": "47e8b23d1fcf3714a27bfe5b24e7cf8b249a8329156e706aef765fdf5bcde0a6",
+    "bytes": 4684
+  },
+  "tools/cad_v4_leg.py": {
+    "sha256": "5af7333d3a9b8623692ec25f08dfbe90bae6bd692b2889038fed5336695c51bb",
+    "bytes": 14618
+  },
+  "tools/cad_v4_coupling.py": {
+    "sha256": "1932efb330c2f607612bc2e39f1421aacae2552c18b0416dcc1b9e689dcc2241",
+    "bytes": 10162
+  },
+  "tools/render_compact_robot.py": {
+    "sha256": "02cd2e8f7e2e79c96fe8150d74323469dd6c291b1b6917a98fe0dfca571c5574",
+    "bytes": 5347
+  },
+  "tools/export_robot_assembly_stl.py": {
+    "sha256": "fcf55a395d2eb59271f198da234918aa9e67d317f87f931f63d4a48f4239c0c1",
+    "bytes": 2230
+  },
+  "tools/validate_print_meshes.py": {
+    "sha256": "b5819e7541da97c6a8543b21b0154ccd239096e316fd9d66f0b7971b7e44f4e5",
+    "bytes": 1708
+  }
+}

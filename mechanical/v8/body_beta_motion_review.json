@@ -1,0 +1,168 @@
+{
+  "units": "mm",
+  "threshold_volume_mm3": 0.05,
+  "source_sha256": {
+    "cad_v8_chassis.py": "74157de9316fb0f5476eecd2b17378cad7675e887551d7dda1222af52d60d92f",
+    "cad_v8_payload.py": "e2c6512d2f1070d49760fbe3591d9ba2bc4a0354a028252e6d2959d71bb25710",
+    "cad_v8_display.py": "2c2179be8fd2bd116f1c03b478b452c7c565ee7695a7a464a9bc9848fedc0107",
+    "cad_v6_chassis.py": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b",
+    "cad_v6_payload.py": "aab10d7f8257b0df8017cbadc6b2ffb334ed1c6f110767d1f638ab89ee815d93",
+    "cad_v7_payload.py": "78baeb7fdb1f7b9f1e71a4d1bc8541b61844f4c48a405faf72b76b4bb356ec29",
+    "cad_v7_imu.py": "b96c061cb0660e597c7a46729b3196a18f9267b1e918e4edb41ad4813b5b81a4",
+    "cad_v6_jetson_mount.py": "465955c2eff340851ef9380ff2d76503026318f09a0466d4238e4e3478dcd5fa",
+    "cad_v6_leg.py": "abe2646d426fe4bd03c0f8ec4aa000e7cea71a055b00763f20e39e32ead2f091",
+    "cad_v5_coupling.py": "09f9921c891a79dac08b2faabbb424ef15b77259ee9389e6ec9e3671556cf2c9",
+    "build_printable_robot.py": "a8e5a1a8320c94eba38558cb6d5d6ebf215171f7e5f5f0e474eb2c5271494393",
+    "build_enclosed_robot.py": "bc4af62fdcd54dda66cd1316733baf628c6b9bd7c6bf22b15b675786fbc48c4a"
+  },
+  "script_sha256": "a54fc6a21ab839af459f31cea9435da6a242b3356617406484b8657648947afc",
+  "source_unchanged": true,
+  "source_unchanged_during_review": true,
+  "leg_geometry_frozen_to_v6": true,
+  "parameter_source": "mechanical/v8",
+  "preserved_leg_datums": {
+    "rod_length": 130.0,
+    "lower_length": 105.0,
+    "crank_length": 45.0,
+    "knee_stator_face_y": 132.1,
+    "knee_motor_translation_y": 132.6,
+    "hub_stator_face_y": 148.1,
+    "wheel_center_y": 174.1
+  },
+  "motor_source_sha256": {
+    "references/DM-J4310-2EC/3D\u6a21\u578b/DM-J4310-2EC-V1.1_3d_20260228_1.stp": "596fdb1d78232f4f4a30676451b2d03ee25be044e1de78c9396e3a454d86675e",
+    "references/DM-H6215/3D\u6a21\u578b/6215_\u8f6e\u6bc2\u7535\u673a3D\u6a21\u578b20240821.stp": "a299d68f3efaf03a3b4c9a2d3e3ff373c1c78db477a86509a64b4ca2b5cb9253"
+  },
+  "body_parts": [
+    "chassis_belly_plate",
+    "chassis_hip_frame_right",
+    "chassis_hip_frame_left",
+    "chassis_front_crossframe",
+    "chassis_rear_crossframe",
+    "chassis_front_shell",
+    "chassis_rear_cover",
+    "display_front_bezel",
+    "shoulder_fairing_right",
+    "shoulder_fairing_left",
+    "battery_tray",
+    "electronics_tray",
+    "Jetson_base_retainer_right",
+    "Jetson_base_retainer_left",
+    "D435_embedded_bracket",
+    "HI13R2_rigid_bridge",
+    "display_case_cradle_right",
+    "display_case_cradle_left",
+    "Jetson_Orin_Nano_official",
+    "D435_clearance_envelope",
+    "Battery_400g_envelope",
+    "HI13R2_official",
+    "Display_GK_HD_5in_supplier_envelope"
+  ],
+  "moving_parts": {
+    "hip_rotor_cnc": {
+      "role": "hip",
+      "source_material": "CNC"
+    },
+    "knee_stator_cnc": {
+      "role": "hip",
+      "source_material": "CNC"
+    },
+    "OB_inner_carrier": {
+      "role": "hip",
+      "source_material": "CNC"
+    },
+    "OB_outer_shell": {
+      "role": "hip",
+      "source_material": "CNC"
+    },
+    "OA_one_piece": {
+      "role": "oa",
+      "source_material": "CNC"
+    },
+    "AC_bearing_link": {
+      "role": "ac",
+      "source_material": "CNC"
+    },
+    "CW_one_piece": {
+      "role": "output",
+      "source_material": "CNC"
+    },
+    "wheel_rim": {
+      "role": "wheel",
+      "source_material": "CNC"
+    },
+    "J4310_knee_official": {
+      "role": "hip",
+      "source_material": "official_motor"
+    },
+    "H6215_wheel_official": {
+      "role": "wheel",
+      "source_material": "official_motor"
+    },
+    "elastic_tyre": {
+      "role": "wheel",
+      "source_material": "rubber_reference"
+    }
+  },
+  "poses": [
+    {
+      "length_mm": 100,
+      "beta_deg": -10,
+      "hip_deg": -62.36877004133026,
+      "oa_deg": -111.32818885206876,
+      "pair_count": 506,
+      "max_overlap_mm3": 0.0,
+      "worst_pair": null
+    },
+    {
+      "length_mm": 100,
+      "beta_deg": 10,
+      "hip_deg": -42.36877004133026,
+      "oa_deg": -91.32818885206876,
+      "pair_count": 506,
+      "max_overlap_mm3": 0.0,
+      "worst_pair": null
+    },
+    {
+      "length_mm": 180,
+      "beta_deg": -10,
+      "hip_deg": -45.13066242227374,
+      "oa_deg": -144.56512920842542,
+      "pair_count": 506,
+      "max_overlap_mm3": 0.0,
+      "worst_pair": null
+    },
+    {
+      "length_mm": 180,
+      "beta_deg": 10,
+      "hip_deg": -25.130662422273737,
+      "oa_deg": -124.56512920842542,
+      "pair_count": 506,
+      "max_overlap_mm3": 0.0,
+      "worst_pair": null
+    },
+    {
+      "length_mm": 215,
+      "beta_deg": -10,
+      "hip_deg": -31.24785032508448,
+      "oa_deg": -163.34036434087625,
+      "pair_count": 506,
+      "max_overlap_mm3": 0.0,
+      "worst_pair": null
+    },
+    {
+      "length_mm": 215,
+      "beta_deg": 10,
+      "hip_deg": -11.247850325084482,
+      "oa_deg": -143.34036434087625,
+      "pair_count": 506,
+      "max_overlap_mm3": 0.0,
+      "worst_pair": null
+    }
+  ],
+  "collisions": [],
+  "pass_geometry": true,
+  "scope": "V8 R5 rectangular body, full front panel, display/camera supports and installed payloads against both mirrored originalV6 legs, unchanged coupling, wheel rim, tyre and original J4310/H6215 STEP solids.",
+  "exclusions": "No hardware all-pairs, cables/plugs, deformation, dynamics, or continuous sweep. Display is supplier outside-envelope only. Six samples do not establish a continuous safe motion envelope; integrated beta0 scan is separate.",
+  "failures": []
+}

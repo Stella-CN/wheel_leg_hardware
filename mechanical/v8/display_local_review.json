@@ -1,0 +1,90 @@
+{
+  "source": "tools/cad_v8_display.py",
+  "source_sha256": "2c2179be8fd2bd116f1c03b478b452c7c565ee7695a7a464a9bc9848fedc0107",
+  "checks": [
+    {
+      "check": "display_case_cradle_right_solid",
+      "pass_": true,
+      "volume_mm3": 4154.655550757911
+    },
+    {
+      "check": "display_case_cradle_right_case_clearance",
+      "pass_": true,
+      "overlap_mm3": 0.0
+    },
+    {
+      "check": "display_case_cradle_right_panel_boss",
+      "pass_": true,
+      "clearance_mm": 0.2999999999999941
+    },
+    {
+      "check": "display_case_cradle_right_side_assembly_0",
+      "pass_": true
+    },
+    {
+      "check": "display_case_cradle_right_side_assembly_2",
+      "pass_": true
+    },
+    {
+      "check": "display_case_cradle_right_side_assembly_5",
+      "pass_": true
+    },
+    {
+      "check": "display_case_cradle_right_side_assembly_10",
+      "pass_": true
+    },
+    {
+      "check": "display_case_cradle_right_side_assembly_20",
+      "pass_": true
+    },
+    {
+      "check": "display_case_cradle_left_solid",
+      "pass_": true,
+      "volume_mm3": 4154.655550757911
+    },
+    {
+      "check": "display_case_cradle_left_case_clearance",
+      "pass_": true,
+      "overlap_mm3": 0.0
+    },
+    {
+      "check": "display_case_cradle_left_panel_boss",
+      "pass_": true,
+      "clearance_mm": 0.29999999999999344
+    },
+    {
+      "check": "display_case_cradle_left_side_assembly_0",
+      "pass_": true
+    },
+    {
+      "check": "display_case_cradle_left_side_assembly_2",
+      "pass_": true
+    },
+    {
+      "check": "display_case_cradle_left_side_assembly_5",
+      "pass_": true
+    },
+    {
+      "check": "display_case_cradle_left_side_assembly_10",
+      "pass_": true
+    },
+    {
+      "check": "display_case_cradle_left_side_assembly_20",
+      "pass_": true
+    },
+    {
+      "check": "display_subassembly_no_collisions",
+      "pass_": true,
+      "collisions": []
+    },
+    {
+      "check": "manufacturer_dimensions_only",
+      "pass_": true
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "No exact device connector CAD or front glass/metal boundary supplied.",
+    "Checks verify modeled geometry, not structural strength or vibration."
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "scope": "True official-base contact at Z33 and sampled translation capture; final reshaped tray/outer shell checked separately",
+  "source_sha256": {
+    "cad_v6_jetson_mount.py": "465955c2eff340851ef9380ff2d76503026318f09a0466d4238e4e3478dcd5fa",
+    "cad_v6_payload.py": "aab10d7f8257b0df8017cbadc6b2ffb334ed1c6f110767d1f638ab89ee815d93"
+  },
+  "source_base_solid_index": 1266,
+  "official_solids": 1393,
+  "selected_vertical_translation_mm": 37.9,
+  "actual_minimum_base_vertex_z_mm": 33.0,
+  "base_to_reference_tray_distance_mm": 0.0,
+  "initial_base_overlap_mm3": 0.0,
+  "initial_retainer_overlap_mm3": {
+    "Jetson_base_retainer_right": 0.0,
+    "Jetson_base_retainer_left": 0.0
+  },
+  "mount_vs_payload_placement_max_bound_error_mm": 4.2091130580956815e-10,
+  "probes": [
+    {
+      "direction": "+X",
+      "offset_mm": [
+        1.0,
+        0,
+        0
+      ],
+      "overlap_mm3": {
+        "Jetson_base_retainer_right": 0.15778578872918417,
+        "Jetson_base_retainer_left": 0.15779121399699228
+      },
+      "translation_captured": true
+    },
+    {
+      "direction": "-X",
+      "offset_mm": [
+        -1.0,
+        0,
+        0
+      ],
+      "overlap_mm3": {
+        "Jetson_base_retainer_right": 1.1507540478103317,
+        "Jetson_base_retainer_left": 1.1507541096515257
+      },
+      "translation_captured": true
+    },
+    {
+      "direction": "+Y",
+      "offset_mm": [
+        0,
+        1.0,
+        0
+      ],
+      "overlap_mm3": {
+        "Jetson_base_retainer_right": 169.74290380807167,
+        "Jetson_base_retainer_left": 0.0
+      },
+      "translation_captured": true
+    },
+    {
+      "direction": "-Y",
+      "offset_mm": [
+        0,
+        -1.0,
+        0
+      ],
+      "overlap_mm3": {
+        "Jetson_base_retainer_right": 0.0,
+        "Jetson_base_retainer_left": 169.74290644884724
+      },
+      "translation_captured": true
+    },
+    {
+      "direction": "+Z",
+      "offset_mm": [
+        0,
+        0,
+        0.6
+      ],
+      "overlap_mm3": {
+        "Jetson_base_retainer_right": 5.3068389518321855,
+        "Jetson_base_retainer_left": 5.30683895180313
+      },
+      "translation_captured": true
+    },
+    {
+      "direction": "-Z",
+      "offset_mm": [
+        0,
+        0,
+        -0.05
+      ],
+      "overlap_mm3": {
+        "reference_Z33_tray": 37.645542872656264
+      },
+      "translation_captured": true
+    }
+  ],
+  "notes": [
+    "The previous +38.03851112444 transform followed a loose BRep bound and left the real base0.13849mm above the tray.",
+    "Only the installation transform changed; the official solid geometry is unmodified.",
+    "Retainer lip undersideZ40 is0.5mm above the actual base rim, so +Z0.6 rather than0.5 tests positive capture.",
+    "These are translations of the original plastic base, not collision against PCB components; no impact capacity is established."
+  ],
+  "pass": {
+    "true_base_supported": true,
+    "no_initial_base_interference": true,
+    "all_six_translations_captured": true,
+    "two_payload_implementations_match": true
+  }
+}

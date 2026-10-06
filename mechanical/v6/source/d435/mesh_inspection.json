@@ -1,0 +1,253 @@
+{
+  "source_file": "d435_official_ros.dae",
+  "source_sha256": "42f3b66f47a1f8f425a2e4dc07c1d9c283183167d8441f520a15623d98f9bf78",
+  "source_url": "https://raw.githubusercontent.com/realsenseai/realsense-ros/ros2-master/realsense2_description/meshes/d435.dae",
+  "repository": "https://github.com/realsenseai/realsense-ros",
+  "retrieved_local_date": "2026-09-22",
+  "license": "Apache License 2.0",
+  "license_url": "https://raw.githubusercontent.com/realsenseai/realsense-ros/ros2-master/LICENSE",
+  "source_metadata": {
+    "unit_name": "Meters",
+    "source_meter_scale": 1.0,
+    "applied_coordinate_scale_to_mm": 1000.0,
+    "up_axis": "Z_UP",
+    "source_created": "2018-07-03T03:16:23",
+    "scene_transform_count": 0
+  },
+  "geometry_count": 18,
+  "geometries": [
+    {
+      "id": "ID3",
+      "source_triangles": 126
+    },
+    {
+      "id": "ID11",
+      "source_triangles": 1416
+    },
+    {
+      "id": "ID17",
+      "source_triangles": 1416
+    },
+    {
+      "id": "ID23",
+      "source_triangles": 18498
+    },
+    {
+      "id": "ID29",
+      "source_triangles": 172
+    },
+    {
+      "id": "ID35",
+      "source_triangles": 112
+    },
+    {
+      "id": "ID41",
+      "source_triangles": 60
+    },
+    {
+      "id": "ID47",
+      "source_triangles": 20
+    },
+    {
+      "id": "ID53",
+      "source_triangles": 20
+    },
+    {
+      "id": "ID59",
+      "source_triangles": 45
+    },
+    {
+      "id": "ID65",
+      "source_triangles": 52
+    },
+    {
+      "id": "ID71",
+      "source_triangles": 172
+    },
+    {
+      "id": "ID77",
+      "source_triangles": 200489
+    },
+    {
+      "id": "ID83",
+      "source_triangles": 32
+    },
+    {
+      "id": "ID89",
+      "source_triangles": 7250
+    },
+    {
+      "id": "ID95",
+      "source_triangles": 582
+    },
+    {
+      "id": "ID101",
+      "source_triangles": 712
+    },
+    {
+      "id": "ID107",
+      "source_triangles": 12
+    }
+  ],
+  "rear_mount_interface": {
+    "source_holes": [
+      {
+        "source_centre_xy_mm": [
+          -22.5,
+          0.0
+        ],
+        "source_radius_mm": 1.25,
+        "measured_back_z_mm": -25.05,
+        "measured_inside_z_mm": -23.445500000000003,
+        "sampled_vertices": 197
+      },
+      {
+        "source_centre_xy_mm": [
+          22.5,
+          0.0
+        ],
+        "source_radius_mm": 1.25,
+        "measured_back_z_mm": -25.05,
+        "measured_inside_z_mm": -23.445500000000003,
+        "sampled_vertices": 197
+      }
+    ],
+    "transformed_back_plane_x_mm": 74.95,
+    "transformed_hole_centres_mm": [
+      [
+        74.95,
+        -22.5,
+        19
+      ],
+      [
+        74.95,
+        22.5,
+        19
+      ]
+    ],
+    "official_drawing_depth_mm": 26.05,
+    "mesh_back_plane_depth_mm": 25.05,
+    "discrepancy_mm": 1.0,
+    "evidence": "2025 D400 datasheet Figure10-9/page140 specifies26.05mm depth and2xM3 maximum3mm insertion; 2018 ROS mesh has back hole plane at sourcez=-25.05mm",
+    "interpretation": "The official visualization mesh and mechanical drawing differ by1mm in depth; no inference that the mesh hole depth is the permissible screw engagement",
+    "mounting_option": "Keep front atX100 and optical/body centreZ19. For25.05mm ROS-model depth use1mm removable spacers between bracketX73.95 and rearX74.95, withM3x6 through3mm bracket+1mm spacer giving2mm insertion. For26.05mm drawing-depth unit remove spacers and useM3x5 through3mm bracket, also2mm insertion. Confirm supplied camera dimensions; both remain below3mm specified maximum."
+  },
+  "derived_file": "d435_official_ros_mm.stl",
+  "derived_sha256": "a7770d26ebf6fd808d2990d87b6e7dcbec59e34dff07844ecb74b78b4ca15973",
+  "derivation": [
+    "Derived d435_official_ros_mm.stl: COLLADA position coordinates multiplied by 1000 (metres to millimetres), original triangle order/winding retained; STL omits COLLADA material/colour data.",
+    "No hole filling, mesh repair, smoothing, decimation, or substitute solid geometry was performed.",
+    "The derived STL is a visualization mesh, not manufacturer solid CAD or a printable structural component."
+  ],
+  "before_STL": {
+    "points": 154149,
+    "facets": 231186,
+    "components": 133,
+    "is_solid": false,
+    "has_nonmanifolds": false,
+    "has_nonuniform_orientation": true,
+    "nonuniform_oriented_facets": 5,
+    "boundary_edges": 80034,
+    "nonmanifold_edges": 0,
+    "degenerate_facets": 56,
+    "duplicate_facets": 0,
+    "bounds_mm": [
+      -44.91419982910156,
+      45.000099182128906,
+      -12.5,
+      12.5,
+      -25.05470085144043,
+      0.0
+    ],
+    "dimensions_mm": [
+      89.91429901123047,
+      25.0,
+      25.05470085144043
+    ]
+  },
+  "after_STL": {
+    "points": 154149,
+    "facets": 231186,
+    "components": 133,
+    "is_solid": false,
+    "has_nonmanifolds": false,
+    "has_nonuniform_orientation": true,
+    "nonuniform_oriented_facets": 5,
+    "boundary_edges": 80034,
+    "nonmanifold_edges": 0,
+    "degenerate_facets": 56,
+    "duplicate_facets": 0,
+    "bounds_mm": [
+      -44.91419982910156,
+      45.000099182128906,
+      -12.5,
+      12.5,
+      -25.05470085144043,
+      0.0
+    ],
+    "dimensions_mm": [
+      89.91429901123047,
+      25.0,
+      25.05470085144043
+    ]
+  },
+  "recommended_assembly": {
+    "rule": "(source x,y,z) mm -> (z+100, x, y+19) mm",
+    "rotation_matrix_rows": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "translation_mm": [
+      100,
+      0,
+      19
+    ],
+    "expected_front_x_mm": 100
+  },
+  "collision_and_mass_method": "Use explicitly labelled75g analytic envelope for collision/mass: selected25.05mm configuration X74.95..100, Y±45.075, Z6.425..31.575mm. Alternative26.05mm depth reaches rearX73.95, removes1mm shims and usesM3x5. Do not infer mass from open mesh volume; original ROS mesh has0.0047mm local rear protrusion beyond nominal25.05mm plane.",
+  "analytic_envelope_configurations": [
+    {
+      "camera_depth_mm": 25.05,
+      "bounds_mm": [
+        74.95,
+        100,
+        -45.075,
+        45.075,
+        6.425,
+        31.575
+      ],
+      "removable_shim_mm": 1,
+      "screw": "M3x6",
+      "nominal_engagement_mm": 2,
+      "selected": true
+    },
+    {
+      "camera_depth_mm": 26.05,
+      "bounds_mm": [
+        73.95,
+        100,
+        -45.075,
+        45.075,
+        6.425,
+        31.575
+      ],
+      "removable_shim_mm": 0,
+      "screw": "M3x5",
+      "nominal_engagement_mm": 2,
+      "selected": false
+    }
+  ]
+}

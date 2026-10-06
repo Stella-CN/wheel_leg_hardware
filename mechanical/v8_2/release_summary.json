@@ -1,0 +1,19 @@
+{
+  "revision": "V8.2",
+  "native_sha256": "44ae8e5e32b553f4ae15e895c0b00e2c2ab878b36f9c37177b7182003815b944",
+  "native_file": "wheel_leg_v8_2.FCStd",
+  "physical_bom_objects": 370,
+  "checked": [
+    "Physical geometry preservation and hub module insertion",
+    "24-pose leg-motion evidence plus documented final geometric deltas",
+    "All print STL topology/bed size",
+    "Routing corridors versus rigid solids",
+    "BOM per-instance reconciliation"
+  ],
+  "limitations": [
+    "Routing is not flexible cable or selected connector qualification",
+    "DC jack pilot is not final selected jack hole",
+    "Unknown switch DC rating/converter power/PCB netlist remain open",
+    "Not validated for jumping or thermal operation"
+  ]
+}

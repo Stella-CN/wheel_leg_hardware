@@ -1,0 +1,293 @@
+{
+  "model": "symmetric beta=0 concentrated-mass quasi-static screening",
+  "motor_specs": {
+    "J4310": {
+      "voltage_V": 24,
+      "version": "V1.1, confirmed by user",
+      "rated_Nm": 3,
+      "peak_Nm": 7,
+      "rated_rpm": 120,
+      "no_load_rpm": 200
+    },
+    "H6215": {
+      "rated_Nm": 1,
+      "peak_Nm": 2,
+      "rated_rpm": 120,
+      "no_load_rpm": 320
+    }
+  },
+  "standing": [
+    {
+      "leg_length_mm": 120.0,
+      "knee_torque_Nm": 3.156296986761694,
+      "continuous_torque_utilization": 1.0520989955872313,
+      "knee_with_25_percent_design_allowance_Nm": 3.9453712334521174,
+      "total_mass_at_3Nm_kg": 5.303424890055779,
+      "peak_vertical_force_multiple": 2.21778876619018
+    },
+    {
+      "leg_length_mm": 160.0,
+      "knee_torque_Nm": 2.8044434669740412,
+      "continuous_torque_utilization": 0.9348144889913471,
+      "knee_with_25_percent_design_allowance_Nm": 3.5055543337175514,
+      "total_mass_at_3Nm_kg": 5.96880778561794,
+      "peak_vertical_force_multiple": 2.4960389048430027
+    },
+    {
+      "leg_length_mm": 183.84776310850236,
+      "knee_torque_Nm": 2.5158248045858884,
+      "continuous_torque_utilization": 0.8386082681952961,
+      "knee_with_25_percent_design_allowance_Nm": 3.1447810057323604,
+      "total_mass_at_3Nm_kg": 6.653557103613714,
+      "peak_vertical_force_multiple": 2.782387703325081
+    },
+    {
+      "leg_length_mm": 200.0,
+      "knee_torque_Nm": 2.273403821003888,
+      "continuous_torque_utilization": 0.7578012736679627,
+      "knee_with_25_percent_design_allowance_Nm": 2.8417547762548603,
+      "total_mass_at_3Nm_kg": 7.3630491183956694,
+      "peak_vertical_force_multiple": 3.0790834146258033
+    },
+    {
+      "leg_length_mm": 225.0,
+      "knee_torque_Nm": 1.782899799094836,
+      "continuous_torque_utilization": 0.594299933031612,
+      "knee_with_25_percent_design_allowance_Nm": 2.228624748868545,
+      "total_mass_at_3Nm_kg": 9.388740751722768,
+      "peak_vertical_force_multiple": 3.9261881141911865
+    }
+  ],
+  "flat_driving": [
+    {
+      "acceleration_m_s2": 0.0,
+      "assumed_Crr": 0.02,
+      "hip_absolute_envelope_Nm": 0.1280015580234356,
+      "knee_absolute_envelope_Nm": 2.5935098665176066,
+      "wheel_torque_Nm": 0.027368565840000043,
+      "note": "absolute-sum screening includes wheel housing reaction; omits wheel angular inertia and detailed link inertias"
+    },
+    {
+      "acceleration_m_s2": 0.5,
+      "assumed_Crr": 0.02,
+      "hip_absolute_envelope_Nm": 0.4542032859119055,
+      "knee_absolute_envelope_Nm": 2.791484030461841,
+      "wheel_torque_Nm": 0.09711516584000016,
+      "note": "absolute-sum screening includes wheel housing reaction; omits wheel angular inertia and detailed link inertias"
+    },
+    {
+      "acceleration_m_s2": 1.0,
+      "assumed_Crr": 0.02,
+      "hip_absolute_envelope_Nm": 0.7804050138003753,
+      "knee_absolute_envelope_Nm": 2.989458194406076,
+      "wheel_torque_Nm": 0.16686176584000023,
+      "note": "absolute-sum screening includes wheel housing reaction; omits wheel angular inertia and detailed link inertias"
+    }
+  ],
+  "wheel_climbing": [
+    {
+      "slope_deg": 5,
+      "wheel_torque_Nm": 0.14653080437035235,
+      "assumed_min_traction_coefficient": 0.107488663525924
+    },
+    {
+      "slope_deg": 10,
+      "wheel_torque_Nm": 0.26457785500172754,
+      "assumed_min_traction_coefficient": 0.19632698070846497
+    },
+    {
+      "slope_deg": 15,
+      "wheel_torque_Nm": 0.3806113084000628,
+      "assumed_min_traction_coefficient": 0.2879491924311227
+    }
+  ],
+  "landing_scenarios": [
+    {
+      "drop_height_m": 0.05,
+      "stopping_stroke_m": 0.03,
+      "displacement_average_force_multiple": 2.666666666666667,
+      "end_leg_length_mm": 195.0,
+      "knee_torque_at_average_force_Nm": 6.275569642605267,
+      "AC_force_at_average_N": 180.7194188800003,
+      "B_reaction_at_average_N": 240.35417383205373,
+      "C0r_over_B_average": 3.6820662853077364,
+      "note": "displacement-average force times end-stroke lever arm; neither peak nor time-average torque; excludes link inertia, skew landing and compliance"
+    },
+    {
+      "drop_height_m": 0.05,
+      "stopping_stroke_m": 0.05,
+      "displacement_average_force_multiple": 2.0,
+      "end_leg_length_mm": 175.0,
+      "knee_torque_at_average_force_Nm": 5.262669920982883,
+      "AC_force_at_average_N": 151.02980006400023,
+      "B_reaction_at_average_N": 192.1840902594155,
+      "C0r_over_B_average": 4.6049597487773415,
+      "note": "displacement-average force times end-stroke lever arm; neither peak nor time-average torque; excludes link inertia, skew landing and compliance"
+    },
+    {
+      "drop_height_m": 0.05,
+      "stopping_stroke_m": 0.08,
+      "displacement_average_force_multiple": 1.625,
+      "end_leg_length_mm": 145.00000000000003,
+      "knee_torque_at_average_force_Nm": 4.7990120637468205,
+      "AC_force_at_average_N": 148.1003427351726,
+      "B_reaction_at_average_N": 176.79998974483988,
+      "C0r_over_B_average": 5.005656398946877,
+      "note": "displacement-average force times end-stroke lever arm; neither peak nor time-average torque; excludes link inertia, skew landing and compliance"
+    },
+    {
+      "drop_height_m": 0.1,
+      "stopping_stroke_m": 0.03,
+      "displacement_average_force_multiple": 4.333333333333334,
+      "end_leg_length_mm": 195.0,
+      "knee_torque_at_average_force_Nm": 10.197800669233558,
+      "AC_force_at_average_N": 293.66905568000044,
+      "B_reaction_at_average_N": 390.5755324770873,
+      "C0r_over_B_average": 2.265886944804761,
+      "note": "displacement-average force times end-stroke lever arm; neither peak nor time-average torque; excludes link inertia, skew landing and compliance"
+    },
+    {
+      "drop_height_m": 0.1,
+      "stopping_stroke_m": 0.05,
+      "displacement_average_force_multiple": 3.0,
+      "end_leg_length_mm": 175.0,
+      "knee_torque_at_average_force_Nm": 7.8940048814743236,
+      "AC_force_at_average_N": 226.54470009600033,
+      "B_reaction_at_average_N": 288.2761353891233,
+      "C0r_over_B_average": 3.069973165851561,
+      "note": "displacement-average force times end-stroke lever arm; neither peak nor time-average torque; excludes link inertia, skew landing and compliance"
+    },
+    {
+      "drop_height_m": 0.1,
+      "stopping_stroke_m": 0.08,
+      "displacement_average_force_multiple": 2.25,
+      "end_leg_length_mm": 145.00000000000003,
+      "knee_torque_at_average_force_Nm": 6.644785934418675,
+      "AC_force_at_average_N": 205.06201301793132,
+      "B_reaction_at_average_N": 244.79998580054755,
+      "C0r_over_B_average": 3.6151962881283,
+      "note": "displacement-average force times end-stroke lever arm; neither peak nor time-average torque; excludes link inertia, skew landing and compliance"
+    },
+    {
+      "drop_height_m": 0.2,
+      "stopping_stroke_m": 0.03,
+      "displacement_average_force_multiple": 7.666666666666667,
+      "end_leg_length_mm": 195.0,
+      "knee_torque_at_average_force_Nm": 18.04226272249014,
+      "AC_force_at_average_N": 519.5683292800007,
+      "B_reaction_at_average_N": 691.0182497671542,
+      "C0r_over_B_average": 1.2807187079331261,
+      "note": "displacement-average force times end-stroke lever arm; neither peak nor time-average torque; excludes link inertia, skew landing and compliance"
+    },
+    {
+      "drop_height_m": 0.2,
+      "stopping_stroke_m": 0.05,
+      "displacement_average_force_multiple": 5.0,
+      "end_leg_length_mm": 175.0,
+      "knee_torque_at_average_force_Nm": 13.156674802457207,
+      "AC_force_at_average_N": 377.57450016000064,
+      "B_reaction_at_average_N": 480.4602256485389,
+      "C0r_over_B_average": 1.8419838995109363,
+      "note": "displacement-average force times end-stroke lever arm; neither peak nor time-average torque; excludes link inertia, skew landing and compliance"
+    },
+    {
+      "drop_height_m": 0.2,
+      "stopping_stroke_m": 0.08,
+      "displacement_average_force_multiple": 3.5,
+      "end_leg_length_mm": 145.00000000000003,
+      "knee_torque_at_average_force_Nm": 10.336333675762384,
+      "AC_force_at_average_N": 318.9853535834488,
+      "B_reaction_at_average_N": 380.7999779119629,
+      "C0r_over_B_average": 2.3240547566539065,
+      "note": "displacement-average force times end-stroke lever arm; neither peak nor time-average torque; excludes link inertia, skew landing and compliance"
+    }
+  ],
+  "takeoff_speed_scenarios": [
+    {
+      "height_m": 0.05,
+      "takeoff_leg_length_mm": 225,
+      "vertical_speed_m_s": 0.9904544411531507,
+      "knee_relative_rpm": 145.18808930308444,
+      "hip_rpm": 72.59404465154222
+    },
+    {
+      "height_m": 0.1,
+      "takeoff_leg_length_mm": 225,
+      "vertical_speed_m_s": 1.4007141035914503,
+      "knee_relative_rpm": 205.32696498745813,
+      "hip_rpm": 102.66348249372906
+    },
+    {
+      "height_m": 0.2,
+      "takeoff_leg_length_mm": 225,
+      "vertical_speed_m_s": 1.9809088823063015,
+      "knee_relative_rpm": 290.3761786061689,
+      "hip_rpm": 145.18808930308444
+    }
+  ],
+  "wheel_rated_speed_m_s": 0.6283185307179586,
+  "wheel_no_load_speed_m_s": 1.6755160819145563,
+  "ideal_constant_peak_work_J": 15.853285157289134,
+  "ideal_peak_energy_height_upper_m": 0.18462579277937624,
+  "jacobian_finite_difference_max_error": 1.9591550604047825e-11,
+  "equations": {
+    "alpha": "acos(ell/(2L))",
+    "qhip": "-alpha",
+    "qknee": "2alpha-pi",
+    "J_columns": "Jhip=(ell,0); Jknee=(ell/2,L sin(alpha))",
+    "actuator_effort": "tau=-J^T F minus external wheel housing couple; absolute sums used for driving envelope",
+    "vertical_tendon_force": "|T_AC|=Fz L/(2r cos(alpha))",
+    "B_reaction": "sqrt((T sin(alpha))^2+(T cos(alpha)+Fz)^2)",
+    "landing_average": "F_total_displacement_average=Mg(1+h/s)",
+    "knee_speed": "abs(qdot_knee)=abs(ell_dot)/(L sin(alpha)); beta=0"
+  },
+  "limitations": [
+    "No 7Nm full-speed assumption: the supplied 24V test image is near120rpm over0..4.5Nm, not a complete peak torque-speed envelope.",
+    "Peak holding duration, drive current, battery voltage sag and thermal model are not established.",
+    "Unsprung mass and distributed link gravity are approximated by total mass; balance and transient demands need multibody validation.",
+    "No allowance was inferred from the motor gear ratio; published torque already refers to the output.",
+    "C0r is a catalog static rating, not permissible shock load or a whole-joint safety certificate."
+  ],
+  "distributed_gravity": {
+    "method": "CAD distributed gravity virtual work, symmetric coordinates, fixed chassis pitch, wheel centres held at floor height",
+    "rows": [
+      {
+        "leg_length_mm": 120.0,
+        "hip_gravity_Nm": -0.21884148049267083,
+        "knee_gravity_Nm": -2.46222244704164,
+        "knee_magnitude_Nm": 2.46222244704164,
+        "finite_difference_convergence_Nm": 1.9539925233402755e-09
+      },
+      {
+        "leg_length_mm": 160.0,
+        "hip_gravity_Nm": -0.19398936301762149,
+        "knee_gravity_Nm": -2.1876238813778315,
+        "knee_magnitude_Nm": 2.1876238813778315,
+        "finite_difference_convergence_Nm": 3.863576125695545e-09
+      },
+      {
+        "leg_length_mm": 183.84776310850236,
+        "hip_gravity_Nm": -0.17368029525677287,
+        "knee_gravity_Nm": -1.9623958222858562,
+        "knee_magnitude_Nm": 1.9623958222858562,
+        "finite_difference_convergence_Nm": 3.930189729217659e-09
+      },
+      {
+        "leg_length_mm": 200.0,
+        "hip_gravity_Nm": -0.1566551470766342,
+        "knee_gravity_Nm": -1.7732274133486214,
+        "knee_magnitude_Nm": 1.7732274133486214,
+        "finite_difference_convergence_Nm": 2.7533528790257833e-09
+      },
+      {
+        "leg_length_mm": 225.0,
+        "hip_gravity_Nm": -0.12227289802879682,
+        "knee_gravity_Nm": -1.3904893547689312,
+        "knee_magnitude_Nm": 1.3904893547689312,
+        "finite_difference_convergence_Nm": 8.748557656090838e-09
+      }
+    ],
+    "limitations": "CAD motor uniform-volume centres approximate actual internal mass; balanced posture and thermal endurance are not established"
+  },
+  "mass_kg": 5.579728000000008
+}

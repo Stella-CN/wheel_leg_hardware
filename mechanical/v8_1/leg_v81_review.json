@@ -1,0 +1,77 @@
+{
+  "revision": "v8_1",
+  "unchanged_link_solids": [
+    "OB_inner_carrier",
+    "OB_outer_shell",
+    "OA_one_piece",
+    "AC_bearing_link",
+    "CW_one_piece"
+  ],
+  "added_hardware_each_wheel": 6,
+  "added_hardware_whole_robot": 12,
+  "hardware_spec": "ISO4762 M3x8 8.8 black oxide; no washer in rigid CNC rim joint",
+  "rotor_thread": "6xM3 depth5 on PCD28, supplied manufacturer drawing 2025-12-03",
+  "nominal_grip_mm": 4.0,
+  "nominal_engagement_mm": 4.0,
+  "nominal_bottom_clearance_mm": 1.0,
+  "rim_screw_intersections": [
+    {
+      "part": "wheel_rim_ISO4762_M3x8_0",
+      "volume_mm3": 0.0
+    },
+    {
+      "part": "wheel_rim_ISO4762_M3x8_1",
+      "volume_mm3": 0.0
+    },
+    {
+      "part": "wheel_rim_ISO4762_M3x8_2",
+      "volume_mm3": 0.0
+    },
+    {
+      "part": "wheel_rim_ISO4762_M3x8_3",
+      "volume_mm3": 0.0
+    },
+    {
+      "part": "wheel_rim_ISO4762_M3x8_4",
+      "volume_mm3": 0.0
+    },
+    {
+      "part": "wheel_rim_ISO4762_M3x8_5",
+      "volume_mm3": 0.0
+    }
+  ],
+  "integrated_bushes": {
+    "removed_each_robot": {
+      "bronze_sleeves": 12,
+      "steel_race_spacers": 12
+    },
+    "added_each_robot": {
+      "inner_flanged_bush": 6,
+      "outer_flanged_bush": 6
+    },
+    "net_piece_reduction": 12,
+    "inner_sleeve_y_offset": [
+      5,
+      7.5
+    ],
+    "inner_flange_y_offset": [
+      7.5,
+      8.75
+    ],
+    "bearing_y_offset": [
+      8.75,
+      14.75
+    ],
+    "outer_flange_y_offset": [
+      14.8,
+      16.5
+    ],
+    "outer_sleeve_y_offset": [
+      16.5,
+      19
+    ],
+    "nominal_axial_gap_mm": 0.05,
+    "preload": "None; M2 end screws retain pin, not preload bearing"
+  },
+  "notes": "CAD excludes motor-engaged threads; do not count CAD partial shank length as purchased screw length."
+}

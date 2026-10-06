@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1020" viewBox="0 0 1600 1020">
+<style>text{font-family:"PingFang SC",Arial,sans-serif;fill:#233448} .edge{stroke:#334557;stroke-width:.7;stroke-linejoin:round}</style>
+<rect width="1600" height="1020" fill="#f5f7fa"/>
+<text x="55" y="64" font-size="36" font-weight="650">V5 · A / B / C 真实 CAD 轴向剖面</text>
+<text x="55" y="105" font-size="21" font-weight="400">从 FreeCAD 实体截取，非手绘叠层；名义腿长 183.848 mm。轴向放大显示，单位 mm。</text>
+<text x="55" y="142" font-size="21" font-weight="400">基准 S = 膝前定子面 132.1；完整 OB 外盖位于所有 OA / CW 外耳之外。</text>
+<rect x="50" y="175" width="470" height="625" rx="12" fill="white" stroke="#dae1e9"/>
+<text x="68" y="213" font-size="23" font-weight="600">A · OA 一体叉夹 AC</text>
+<path class="edge" fill="#80bd7b" fill-rule="evenodd" d="M167.000,594.000 L122.000,594.000 L122.000,299.153 L144.500,299.153 L167.000,312.351 L167.000,594.000 Z"/>
+<path class="edge" fill="#a4d49a" fill-rule="evenodd" d="M452.000,594.000 L407.000,594.000 L407.000,288.000 L452.000,288.000 L452.000,594.000 Z"/>
+<path class="edge" fill="#9786d5" fill-rule="evenodd" d="M219.500,551.500 L174.500,551.500 L174.500,480.100 L182.000,480.100 L182.000,475.000 L219.500,475.000 L219.500,551.500 Z"/>
+<path class="edge" fill="#9786d5" fill-rule="evenodd" d="M182.000,401.900 L174.500,401.900 L174.500,329.303 L219.500,329.303 L219.500,407.000 L182.000,407.000 L182.000,401.900 Z"/>
+<path class="edge" fill="#9786d5" fill-rule="evenodd" d="M399.500,551.500 L354.500,551.500 L354.500,475.000 L392.000,475.000 L392.000,480.100 L399.500,480.100 L399.500,551.500 Z"/>
+<path class="edge" fill="#9786d5" fill-rule="evenodd" d="M392.000,407.000 L354.500,407.000 L354.500,329.303 L399.500,329.303 L399.500,401.900 L392.000,401.900 L392.000,407.000 Z"/>
+<path class="edge" fill="#e78b86" fill-rule="evenodd" d="M227.000,309.250 L347.000,309.250 L347.000,321.150 L329.000,321.150 L329.000,360.250 L238.250,360.250 L238.250,369.600 L227.000,369.600 L227.000,309.250 Z"/>
+<path class="edge" fill="#e78b86" fill-rule="evenodd" d="M347.000,560.850 L347.000,572.750 L227.000,572.750 L227.000,512.400 L238.250,512.400 L238.250,521.750 L329.000,521.750 L329.000,560.850 L347.000,560.850 Z"/>
+<path class="edge" fill="#aab6c2" fill-rule="evenodd" d="M328.250,521.750 L238.250,521.750 L238.250,466.500 L328.250,466.500 L328.250,521.750 Z"/>
+<path class="edge" fill="#aab6c2" fill-rule="evenodd" d="M238.250,415.500 L238.250,360.250 L328.250,360.250 L328.250,415.500 L238.250,415.500 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M341.000,560.000 L329.000,560.000 L329.000,512.400 L341.000,512.400 L341.000,560.000 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M329.000,369.600 L329.000,322.000 L341.000,322.000 L341.000,369.600 L329.000,369.600 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M392.750,466.500 L182.000,466.500 L182.000,452.475 L182.000,447.800 L245.000,447.800 L245.000,434.200 L182.000,434.200 L182.000,415.500 L392.750,415.500 L392.750,434.200 L328.250,434.200 L328.250,447.800 L392.750,447.800 L392.750,466.500 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M219.500,475.000 L182.000,475.000 L182.000,466.712 L219.500,466.712 L219.500,475.000 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M182.000,415.288 L182.000,407.000 L219.500,407.000 L219.500,415.288 L182.000,415.288 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M392.000,475.000 L354.500,475.000 L354.500,466.712 L392.000,466.712 L392.000,475.000 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M354.500,415.288 L354.500,407.000 L392.000,407.000 L392.000,415.288 L354.500,415.288 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M238.250,476.700 L219.500,476.700 L219.500,467.350 L238.250,467.350 L238.250,476.700 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M219.500,414.650 L219.500,405.300 L238.250,405.300 L238.250,414.650 L219.500,414.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M353.750,476.700 L328.250,476.700 L328.250,467.350 L353.750,467.350 L353.750,476.700 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M328.250,414.650 L328.250,405.300 L353.750,405.300 L353.750,414.650 L328.250,414.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M182.000,479.250 L179.000,479.250 L179.000,450.350 L182.000,450.350 L182.000,479.250 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M179.000,431.650 L179.000,402.750 L182.000,402.750 L182.000,431.650 L179.000,431.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M395.750,479.250 L392.750,479.250 L392.750,450.350 L395.750,450.350 L395.750,479.250 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M392.750,431.650 L392.750,402.750 L395.750,402.750 L395.750,431.650 L392.750,431.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M179.000,458.000 L171.500,458.000 L171.500,424.000 L179.000,424.000 L179.000,432.500 L182.000,432.500 L182.000,449.500 L179.000,449.500 L179.000,458.000 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M395.750,449.500 L392.750,449.500 L392.750,432.500 L395.750,432.500 L395.750,424.000 L403.250,424.000 L403.250,458.000 L395.750,458.000 L395.750,449.500 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M141.500,297.318 L122.000,297.318 L122.000,288.000 L167.000,288.000 L167.000,310.619 L164.000,310.619 L141.500,297.318 Z"/>
+<path d="M106 441L468 441" fill="none" stroke="#738699" stroke-width="1" stroke-dasharray="5 5"/>
+<path d="M122 603L122 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="114" y="640" font-size="15" font-weight="400">0</text>
+<path d="M167 603L167 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="159" y="640" font-size="15" font-weight="400">3</text>
+<path d="M227 603L227 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="219" y="640" font-size="15" font-weight="400">7</text>
+<path d="M347 603L347 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="339" y="640" font-size="15" font-weight="400">15</text>
+<path d="M407 603L407 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="399" y="640" font-size="15" font-weight="400">19</text>
+<path d="M452 603L452 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="444" y="640" font-size="15" font-weight="400">22</text>
+<path d="M122 611L452 611" fill="none" stroke="#738699" stroke-width="1" />
+<text x="74" y="669" font-size="16" font-weight="400">Y − S</text>
+<text x="70" y="707" font-size="18" font-weight="500">OB 两板完整覆盖 A 耳 / 轴端</text>
+<text x="70" y="735" font-size="18" font-weight="400">A 内侧保持件先在框外装好</text>
+<text x="70" y="763" font-size="18" font-weight="400">轴端到 OB：内 0.30 / 外 0.25</text>
+<rect x="565" y="175" width="470" height="625" rx="12" fill="white" stroke="#dae1e9"/>
+<text x="583" y="213" font-size="23" font-weight="600">B · OB 台阶支承 CW 舌</text>
+<path class="edge" fill="#80bd7b" fill-rule="evenodd" d="M682.000,585.500 L637.000,585.500 L637.000,480.100 L697.000,480.100 L697.000,475.000 L734.500,475.000 L734.500,513.250 L682.000,513.250 L682.000,585.500 Z"/>
+<path class="edge" fill="#80bd7b" fill-rule="evenodd" d="M637.000,288.000 L682.000,288.000 L682.000,368.750 L734.500,368.750 L734.500,407.000 L697.000,407.000 L697.000,401.900 L637.000,401.900 L637.000,288.000 Z"/>
+<path class="edge" fill="#a4d49a" fill-rule="evenodd" d="M967.000,480.100 L967.000,585.500 L933.250,585.500 L922.000,585.500 L922.000,513.250 L869.500,513.250 L869.500,475.000 L907.000,475.000 L907.000,480.100 L967.000,480.100 Z"/>
+<path class="edge" fill="#a4d49a" fill-rule="evenodd" d="M922.000,368.750 L922.000,288.000 L967.000,288.000 L967.000,401.900 L907.000,401.900 L907.000,407.000 L869.500,407.000 L869.500,368.750 L922.000,368.750 Z"/>
+<path class="edge" fill="#6cc8c3" fill-rule="evenodd" d="M742.000,296.500 L742.000,288.000 L862.000,288.000 L862.000,296.500 L914.500,296.500 L914.500,360.250 L865.000,360.250 L865.000,321.150 L844.000,321.150 L844.000,360.250 L753.250,360.250 L753.250,369.600 L742.000,369.600 L742.000,360.250 L689.500,360.250 L689.500,296.500 L742.000,296.500 Z"/>
+<path class="edge" fill="#6cc8c3" fill-rule="evenodd" d="M865.000,560.850 L865.000,521.750 L914.500,521.750 L914.500,585.500 L689.500,585.500 L689.500,521.750 L742.000,521.750 L742.000,512.400 L753.250,512.400 L753.250,521.750 L844.000,521.750 L844.000,560.850 L865.000,560.850 Z"/>
+<path class="edge" fill="#aab6c2" fill-rule="evenodd" d="M843.250,521.750 L753.250,521.750 L753.250,466.500 L843.250,466.500 L843.250,521.750 Z"/>
+<path class="edge" fill="#aab6c2" fill-rule="evenodd" d="M753.250,415.500 L753.250,360.250 L843.250,360.250 L843.250,415.500 L753.250,415.500 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M856.000,560.000 L844.000,560.000 L844.000,512.400 L856.000,512.400 L856.000,560.000 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M844.000,369.600 L844.000,322.000 L853.000,322.000 L856.000,322.000 L856.000,369.600 L844.000,369.600 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M907.750,466.500 L697.000,466.500 L697.000,452.475 L697.000,447.800 L760.000,447.800 L760.000,434.200 L697.000,434.200 L697.000,415.500 L907.750,415.500 L907.750,434.200 L843.250,434.200 L843.250,447.800 L907.750,447.800 L907.750,466.500 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M734.500,475.000 L697.000,475.000 L697.000,466.713 L734.500,466.713 L734.500,475.000 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M697.000,415.287 L697.000,407.000 L725.125,407.000 L734.500,407.000 L734.500,415.287 L697.000,415.287 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M907.000,475.000 L869.500,475.000 L869.500,466.713 L907.000,466.713 L907.000,475.000 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M869.500,415.287 L869.500,407.000 L897.625,407.000 L907.000,407.000 L907.000,415.287 L869.500,415.287 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M753.250,476.700 L734.500,476.700 L734.500,467.350 L753.250,467.350 L753.250,476.700 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M734.500,414.650 L734.500,405.300 L753.250,405.300 L753.250,414.650 L734.500,414.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M868.750,476.700 L843.250,476.700 L843.250,467.350 L868.750,467.350 L868.750,476.700 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M843.250,414.650 L843.250,405.300 L868.750,405.300 L868.750,414.650 L843.250,414.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M697.000,479.250 L694.000,479.250 L694.000,450.350 L697.000,450.350 L697.000,479.250 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M694.000,431.650 L694.000,402.750 L697.000,402.750 L697.000,431.650 L694.000,431.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M910.750,479.250 L907.750,479.250 L907.750,450.350 L910.750,450.350 L910.750,479.250 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M907.750,431.650 L907.750,402.750 L910.750,402.750 L910.750,431.650 L907.750,431.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M694.000,458.000 L686.500,458.000 L686.500,424.000 L694.000,424.000 L694.000,432.500 L697.000,432.500 L697.000,449.500 L694.000,449.500 L694.000,458.000 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M910.750,449.500 L907.750,449.500 L907.750,432.500 L910.750,432.500 L910.750,424.000 L918.250,424.000 L918.250,458.000 L910.750,458.000 L910.750,449.500 Z"/>
+<path d="M621 441L983 441" fill="none" stroke="#738699" stroke-width="1" stroke-dasharray="5 5"/>
+<path d="M637 603L637 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="629" y="640" font-size="15" font-weight="400">0</text>
+<path d="M682 603L682 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="674" y="640" font-size="15" font-weight="400">3</text>
+<path d="M742 603L742 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="734" y="640" font-size="15" font-weight="400">7</text>
+<path d="M862 603L862 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="854" y="640" font-size="15" font-weight="400">15</text>
+<path d="M922 603L922 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="914" y="640" font-size="15" font-weight="400">19</text>
+<path d="M967 603L967 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="959" y="640" font-size="15" font-weight="400">22</text>
+<path d="M637 611L967 611" fill="none" stroke="#738699" stroke-width="1" />
+<text x="589" y="669" font-size="16" font-weight="400">Y − S</text>
+<text x="585" y="707" font-size="18" font-weight="500">两片 OB 局部凸台向内支撑钢轴</text>
+<text x="585" y="735" font-size="18" font-weight="400">B 轴端可经 Ø9.2 沉台安装</text>
+<text x="585" y="763" font-size="18" font-weight="400">外盖合拢时先对准 B 轴与铜套</text>
+<rect x="1080" y="175" width="470" height="625" rx="12" fill="white" stroke="#dae1e9"/>
+<text x="1098" y="213" font-size="23" font-weight="600">C · CW 一体叉夹 AC</text>
+<path class="edge" fill="#e78b86" fill-rule="evenodd" d="M1377.000,572.750 L1257.000,572.750 L1257.000,512.400 L1268.250,512.400 L1268.250,521.750 L1359.000,521.750 L1359.000,560.850 L1377.000,560.850 L1377.000,572.750 Z"/>
+<path class="edge" fill="#e78b86" fill-rule="evenodd" d="M1268.250,369.600 L1257.000,369.600 L1257.000,309.250 L1377.000,309.250 L1377.000,321.150 L1359.000,321.150 L1359.000,360.250 L1268.250,360.250 L1268.250,369.600 Z"/>
+<path class="edge" fill="#6cc8c3" fill-rule="evenodd" d="M1384.500,329.303 L1429.500,329.303 L1429.500,401.900 L1422.000,401.900 L1422.000,407.000 L1384.500,407.000 L1384.500,329.303 Z"/>
+<path class="edge" fill="#6cc8c3" fill-rule="evenodd" d="M1422.000,480.100 L1429.500,480.100 L1429.500,551.500 L1384.500,551.500 L1384.500,475.000 L1422.000,475.000 L1422.000,480.100 Z"/>
+<path class="edge" fill="#6cc8c3" fill-rule="evenodd" d="M1204.500,329.303 L1249.500,329.303 L1249.500,407.000 L1212.000,407.000 L1212.000,401.900 L1204.500,401.900 L1204.500,329.303 Z"/>
+<path class="edge" fill="#6cc8c3" fill-rule="evenodd" d="M1212.000,475.000 L1249.500,475.000 L1249.500,551.500 L1204.500,551.500 L1204.500,480.100 L1212.000,480.100 L1212.000,475.000 Z"/>
+<path class="edge" fill="#aab6c2" fill-rule="evenodd" d="M1358.250,521.750 L1268.250,521.750 L1268.250,466.500 L1358.250,466.500 L1358.250,521.750 Z"/>
+<path class="edge" fill="#aab6c2" fill-rule="evenodd" d="M1268.250,415.500 L1268.250,360.250 L1358.250,360.250 L1358.250,415.500 L1268.250,415.500 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1371.000,560.000 L1359.000,560.000 L1359.000,512.400 L1371.000,512.400 L1371.000,560.000 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1359.000,369.600 L1359.000,322.000 L1368.000,322.000 L1371.000,322.000 L1371.000,369.600 L1359.000,369.600 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1422.750,466.500 L1212.000,466.500 L1212.000,452.475 L1212.000,447.800 L1275.000,447.800 L1275.000,434.200 L1212.000,434.200 L1212.000,415.500 L1422.750,415.500 L1422.750,434.200 L1358.250,434.200 L1358.250,447.800 L1422.750,447.800 L1422.750,466.500 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M1249.500,475.000 L1212.000,475.000 L1212.000,466.713 L1249.500,466.713 L1249.500,475.000 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M1212.000,415.287 L1212.000,407.000 L1240.125,407.000 L1249.500,407.000 L1249.500,415.287 L1212.000,415.287 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M1422.000,475.000 L1384.500,475.000 L1384.500,466.713 L1422.000,466.713 L1422.000,475.000 Z"/>
+<path class="edge" fill="#d4a251" fill-rule="evenodd" d="M1384.500,415.287 L1384.500,407.000 L1412.625,407.000 L1422.000,407.000 L1422.000,415.287 L1384.500,415.287 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1268.250,476.700 L1249.500,476.700 L1249.500,467.350 L1268.250,467.350 L1268.250,476.700 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1249.500,414.650 L1249.500,405.300 L1268.250,405.300 L1268.250,414.650 L1249.500,414.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1383.750,476.700 L1358.250,476.700 L1358.250,467.350 L1383.750,467.350 L1383.750,476.700 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1358.250,414.650 L1358.250,405.300 L1383.750,405.300 L1383.750,414.650 L1358.250,414.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1212.000,479.250 L1209.000,479.250 L1209.000,450.350 L1212.000,450.350 L1212.000,479.250 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1209.000,431.650 L1209.000,402.750 L1212.000,402.750 L1212.000,431.650 L1209.000,431.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1425.750,479.250 L1422.750,479.250 L1422.750,450.350 L1425.750,450.350 L1425.750,479.250 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1422.750,431.650 L1422.750,402.750 L1425.750,402.750 L1425.750,431.650 L1422.750,431.650 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1209.000,458.000 L1201.500,458.000 L1201.500,424.000 L1209.000,424.000 L1209.000,432.500 L1212.000,432.500 L1212.000,449.500 L1209.000,449.500 L1209.000,458.000 Z"/>
+<path class="edge" fill="#5e6c7b" fill-rule="evenodd" d="M1425.750,449.500 L1422.750,449.500 L1422.750,432.500 L1425.750,432.500 L1425.750,424.000 L1433.250,424.000 L1433.250,458.000 L1425.750,458.000 L1425.750,449.500 Z"/>
+<path d="M1136 441L1498 441" fill="none" stroke="#738699" stroke-width="1" stroke-dasharray="5 5"/>
+<path d="M1152 603L1152 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="1144" y="640" font-size="15" font-weight="400">0</text>
+<path d="M1197 603L1197 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="1189" y="640" font-size="15" font-weight="400">3</text>
+<path d="M1257 603L1257 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="1249" y="640" font-size="15" font-weight="400">7</text>
+<path d="M1377 603L1377 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="1369" y="640" font-size="15" font-weight="400">15</text>
+<path d="M1437 603L1437 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="1429" y="640" font-size="15" font-weight="400">19</text>
+<path d="M1482 603L1482 617" fill="none" stroke="#738699" stroke-width="1" />
+<text x="1474" y="640" font-size="15" font-weight="400">22</text>
+<path d="M1152 611L1482 611" fill="none" stroke="#738699" stroke-width="1" />
+<text x="1104" y="669" font-size="16" font-weight="400">Y − S</text>
+<text x="1100" y="707" font-size="18" font-weight="500">C 叉通过 B 圆弧背桥连成一体</text>
+<text x="1100" y="735" font-size="18" font-weight="400">不再使用独立外帽或两根螺钉柱</text>
+<text x="1100" y="763" font-size="18" font-weight="400">外圈保持片在插入叉口前锁紧</text>
+<rect x="65" y="833" width="28" height="22" fill="#80bd7b" stroke="#334557"/>
+<text x="104" y="853" font-size="19" font-weight="400">OB</text>
+<rect x="235" y="833" width="28" height="22" fill="#9786d5" stroke="#334557"/>
+<text x="274" y="853" font-size="19" font-weight="400">OA</text>
+<rect x="405" y="833" width="28" height="22" fill="#e78b86" stroke="#334557"/>
+<text x="444" y="853" font-size="19" font-weight="400">AC</text>
+<rect x="575" y="833" width="28" height="22" fill="#6cc8c3" stroke="#334557"/>
+<text x="614" y="853" font-size="19" font-weight="400">CW</text>
+<rect x="745" y="833" width="28" height="22" fill="#aab6c2" stroke="#334557"/>
+<text x="784" y="853" font-size="19" font-weight="400">626 轴承</text>
+<rect x="955" y="833" width="28" height="22" fill="#d4a251" stroke="#334557"/>
+<text x="994" y="853" font-size="19" font-weight="400">铜套</text>
+<rect x="1125" y="833" width="28" height="22" fill="#5e6c7b" stroke="#334557"/>
+<text x="1164" y="853" font-size="19" font-weight="400">轴 / 保持件</text>
+<text x="55" y="897" font-size="20" font-weight="400">单 626ZZ1：6×19×6；止肩 0.75 + 轴承 6 + 名义轴向隙 0.05 + 钢保持片 0.8。</text>
+<text x="55" y="931" font-size="20" font-weight="400">Ø6 钢短轴长 14.05；铜套各长 2.5；低头 M2 与 Ø9×0.2 垫片实现轴端机械防脱。</text>
+<text x="55" y="972" font-size="20" font-weight="400">本图证明剖面装配关系；不代表跳跃冲击、疲劳或装配公差已通过试验。</text>
+</svg>

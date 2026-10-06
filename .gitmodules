@@ -1,0 +1,6 @@
+[submodule "references/DM-H6215"]
+	path = references/DM-H6215
+	url = https://gitee.com/kit-miao/DM-H6215.git
+[submodule "references/DM-J4310-2EC"]
+	path = references/DM-J4310-2EC
+	url = https://gitee.com/kit-miao/DM-J4310-2EC.git

@@ -1,0 +1,505 @@
+{
+  "status": "independent geometric review; no load or manufacturing release",
+  "source_sha256": "abe2646d426fe4bd03c0f8ec4aa000e7cea71a055b00763f20e39e32ead2f091",
+  "motor_source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/3D\u6a21\u578b/DM-J4310-2EC-V1.1_3d_20260228_1.stp",
+  "motor_source_sha256": "596fdb1d78232f4f4a30676451b2d03ee25be044e1de78c9396e3a454d86675e",
+  "motor_solids": 26,
+  "reference_stator_plane_mm": 132.1,
+  "assembly_pose_mm": 180.0,
+  "collision_threshold_mm3": 0.001,
+  "O_interface_dimensions_mm": {
+    "motor_stator_diameter": 57.0,
+    "motor_rotor_diameter": 35.0,
+    "rotor_projection_from_stator": 1.0,
+    "inner_thickness": 4.0,
+    "inner_entry_diameter": 40.4,
+    "stator_holes_pcd": 50.0,
+    "stator_clearance": 3.4,
+    "stator_counterbore": 4.8,
+    "stator_counterbore_floor_offset": 2.0,
+    "stator_counterbore_outer_edge_web": 1.1,
+    "stator_counterbore_inner_edge_web": 2.400000000000002,
+    "SLH_M3x6_nominal_grip": 2.0,
+    "SLH_M3x6_nominal_engagement": 4.0,
+    "stator_thread_depth": 5.0,
+    "stator_nominal_bottom_margin": 1.0,
+    "SLH_M3_head_bearing_area_mm2": 6.8251100399238265,
+    "OA_bridge_diameter": 37.0,
+    "OA_nose_diameter": 35.0,
+    "outer_nose_bore_diameter": 35.4,
+    "nose_nominal_radial_clearance": 0.2,
+    "nose_nominal_axial_clearance": 0.4
+  },
+  "local_unrotated_intersections_mm3": {
+    "inner_vs_motor": 0.0,
+    "OA_vs_motor": 0.0,
+    "outer_vs_motor": 0.0
+  },
+  "stator_AF2_tools_before_OA": [
+    {
+      "index": 0,
+      "x_mm": 21.65063509461097,
+      "z_mm": 12.499999999999998,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 1,
+      "x_mm": 1.5308084989341915e-15,
+      "z_mm": 25.0,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 2,
+      "x_mm": -21.65063509461097,
+      "z_mm": 12.499999999999998,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 3,
+      "x_mm": -21.650635094610966,
+      "z_mm": -12.500000000000004,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 4,
+      "x_mm": -4.592425496802574e-15,
+      "z_mm": -25.0,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 5,
+      "x_mm": 21.65063509461096,
+      "z_mm": -12.50000000000001,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    }
+  ],
+  "rotor_AF2_5_tools_before_outer_shell": [
+    {
+      "index": 0,
+      "x_mm": 13.5,
+      "z_mm": 0.0,
+      "OA_mm3": 0.0,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 1,
+      "x_mm": 6.750000000000002,
+      "z_mm": 11.69134295108992,
+      "OA_mm3": 0.0,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 2,
+      "x_mm": -6.749999999999997,
+      "z_mm": 11.691342951089922,
+      "OA_mm3": 0.0,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 3,
+      "x_mm": -13.5,
+      "z_mm": 1.6532731788489269e-15,
+      "OA_mm3": 0.0,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 4,
+      "x_mm": -6.750000000000006,
+      "z_mm": -11.691342951089919,
+      "OA_mm3": 0.0,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    },
+    {
+      "index": 5,
+      "x_mm": 6.750000000000002,
+      "z_mm": -11.69134295108992,
+      "OA_mm3": 0.0,
+      "inner_mm3": 0.0,
+      "motor_mm3": 0.0
+    }
+  ],
+  "motor_thread_core_probes": [
+    {
+      "interface": "stator",
+      "index": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "stator",
+      "index": 1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "stator",
+      "index": 2,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "stator",
+      "index": 3,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "stator",
+      "index": 4,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "stator",
+      "index": 5,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "rotor",
+      "index": 0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "rotor",
+      "index": 1,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "rotor",
+      "index": 2,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "rotor",
+      "index": 3,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "rotor",
+      "index": 4,
+      "overlap_mm3": 0.0
+    },
+    {
+      "interface": "rotor",
+      "index": 5,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "shell_insertion_samples": [
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 0.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 0.1,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 0.5,
+      "collisions": 1
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 1.0,
+      "collisions": 1
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 2.0,
+      "collisions": 1
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 4.0,
+      "collisions": 1
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 8.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 16.0,
+      "collisions": 1
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 24.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 180.0,
+      "axial_offset_mm": 0.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 180.0,
+      "axial_offset_mm": 0.1,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 180.0,
+      "axial_offset_mm": 0.5,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 180.0,
+      "axial_offset_mm": 1.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 180.0,
+      "axial_offset_mm": 2.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 180.0,
+      "axial_offset_mm": 4.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 180.0,
+      "axial_offset_mm": 8.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 180.0,
+      "axial_offset_mm": 16.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 180.0,
+      "axial_offset_mm": 24.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 215.0,
+      "axial_offset_mm": 0.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 215.0,
+      "axial_offset_mm": 0.1,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 215.0,
+      "axial_offset_mm": 0.5,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 215.0,
+      "axial_offset_mm": 1.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 215.0,
+      "axial_offset_mm": 2.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 215.0,
+      "axial_offset_mm": 4.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 215.0,
+      "axial_offset_mm": 8.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 215.0,
+      "axial_offset_mm": 16.0,
+      "collisions": 0
+    },
+    {
+      "leg_length_mm": 215.0,
+      "axial_offset_mm": 24.0,
+      "collisions": 0
+    }
+  ],
+  "shell_insertion_collisions": [
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 0.5,
+      "moving": "OB_outer_shell",
+      "fixed": "OA_one_piece",
+      "mm3": 0.1368866116580102
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 1.0,
+      "moving": "OB_outer_shell",
+      "fixed": "OA_one_piece",
+      "mm3": 0.8213196699482762
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 2.0,
+      "moving": "OB_outer_shell",
+      "fixed": "OA_one_piece",
+      "mm3": 2.1901857865287697
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 4.0,
+      "moving": "OB_outer_shell",
+      "fixed": "OA_one_piece",
+      "mm3": 4.106599721896105
+    },
+    {
+      "leg_length_mm": 100.0,
+      "axial_offset_mm": 16.0,
+      "moving": "OB_outer_shell",
+      "fixed": "OA_one_piece",
+      "mm3": 4.106599721896118
+    }
+  ],
+  "angular_limit_checks": [
+    {
+      "qk_degrees": -136.5,
+      "leg_length_mm": 218.46674879403378,
+      "pin_vs_shell_mm3": 2.6574937189976997,
+      "pin_to_shell_distance_mm": 0.0,
+      "past_ideal_stop": true,
+      "other_body_collisions": [],
+      "outer_to_AC_distance_mm": 0.27175117464358794,
+      "outer_to_CW_distance_mm": 0.4999999999999716
+    },
+    {
+      "qk_degrees": -135.74734155237215,
+      "leg_length_mm": 217.89712975337972,
+      "pin_vs_shell_mm3": 0.0,
+      "pin_to_shell_distance_mm": 0.0,
+      "past_ideal_stop": false,
+      "other_body_collisions": [],
+      "outer_to_AC_distance_mm": 0.8580324887275149,
+      "outer_to_CW_distance_mm": 0.4999999999999716
+    },
+    {
+      "qk_degrees": -135,
+      "leg_length_mm": 217.32237603705872,
+      "pin_vs_shell_mm3": 0.0,
+      "pin_to_shell_distance_mm": 0.2999999999999975,
+      "past_ideal_stop": false,
+      "other_body_collisions": [],
+      "outer_to_AC_distance_mm": 1.4395263424151785,
+      "outer_to_CW_distance_mm": 0.4999999999999716
+    },
+    {
+      "qk_degrees": -48.5,
+      "leg_length_mm": 99.17395163907891,
+      "pin_vs_shell_mm3": 0.0,
+      "pin_to_shell_distance_mm": 0.2999999999999962,
+      "past_ideal_stop": false,
+      "other_body_collisions": [],
+      "outer_to_AC_distance_mm": 0.9298550919562398,
+      "outer_to_CW_distance_mm": 0.4999999999999716
+    },
+    {
+      "qk_degrees": -47.75265844762786,
+      "leg_length_mm": 97.82803176442904,
+      "pin_vs_shell_mm3": 0.0,
+      "pin_to_shell_distance_mm": 0.0,
+      "past_ideal_stop": false,
+      "other_body_collisions": [],
+      "outer_to_AC_distance_mm": 0.44299304640358034,
+      "outer_to_CW_distance_mm": 0.4999999999999716
+    },
+    {
+      "qk_degrees": -47.5,
+      "leg_length_mm": 97.37241566322814,
+      "pin_vs_shell_mm3": 0.6259766468703127,
+      "pin_to_shell_distance_mm": 0.0,
+      "past_ideal_stop": true,
+      "other_body_collisions": [],
+      "outer_to_AC_distance_mm": 0.278950509339754,
+      "outer_to_CW_distance_mm": 0.4999999999999716
+    },
+    {
+      "qk_degrees": -47.0,
+      "leg_length_mm": 96.46991640036698,
+      "pin_vs_shell_mm3": 2.657493718997732,
+      "pin_to_shell_distance_mm": 0.0,
+      "past_ideal_stop": true,
+      "other_body_collisions": [
+        {
+          "a": "OB_outer_shell",
+          "b": "AC_bearing_link",
+          "mm3": 0.04475572650043316
+        }
+      ],
+      "outer_to_AC_distance_mm": 0.0,
+      "outer_to_CW_distance_mm": 0.4999999999999716
+    }
+  ],
+  "shape_checks": {
+    "OB_inner_carrier": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 15493.035216379412
+    },
+    "OB_outer_shell": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 35214.607262092046
+    },
+    "OA_one_piece": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 26061.498485070937
+    },
+    "AC_bearing_link": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17625.133372022
+    },
+    "CW_one_piece": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 42448.68524188544
+    }
+  },
+  "notes": [
+    "O motor hole phase and pilot are checked in their aligned local datum; motor rotor visual is not a native independently rotating STEP subassembly. qk=0 is outside this leg's allowed assembled range.",
+    "Stator AF2 access precedes OA installation. Rotor AF2.5 access follows inner-carrier installation and precedes outer-shell installation.",
+    "Tools stop at the nominal screw top plane; screw socket recesses are not included in the smooth hardware geometry.",
+    "D2.4 core probes verify nominal 4 mm engagement against the original STEP hole void, not thread flank strength or effective tap depth.",
+    "Cover insertion is prescribed at the 180 mm nominal assembly pose. Other poses are rejection/probing cases, not additional authorized assembly states.",
+    "Cover insertion excludes four final shell-fastening screws, the B outer end washer/screw, and removable angular-stop hardware installed afterward. The B outer bronze sleeve travels with the outer shell.",
+    "M3 head bearing pressure, motor thread strength, fit/finish, continuous motion, and jumping impacts remain separate checks."
+  ],
+  "outside_range_qk_zero_diagnostic": {
+    "inner_vs_OA_mm3": 29.194615842589354,
+    "admissible_assembly_pose": false,
+    "note": "The full arm at zero relative angle is outside the side-window angular range; assemble at 180 mm using the mapped motor angle."
+  },
+  "angular_limit_nominal": {
+    "slot_centerline_qk_range_degrees": [
+      -135,
+      -48.5
+    ],
+    "cap_clearance_angle_degrees": 0.7473415523721425,
+    "calculated_first_contact_qk_degrees": [
+      -135.74734155237215,
+      -47.75265844762786
+    ],
+    "target_AC_to_shell_clearance_at_stop_mm": 0.4,
+    "scope": "Ideal circle centers, zero elastic deflection; no impact rating"
+  },
+  "nominal_180_assembly_pass": true,
+  "angular_stops_precede_body_collisions_pass": true,
+  "angular_endpoint_AC_clearance_pass": true,
+  "angular_slot_matches_specification_pass": true,
+  "source_unchanged_during_review": true
+}

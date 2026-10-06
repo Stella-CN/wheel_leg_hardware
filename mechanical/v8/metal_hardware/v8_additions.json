@@ -1,0 +1,205 @@
+{
+  "display_interface": "../display_interface.json",
+  "added_standard_hardware": [
+    {
+      "part": "M3x22 socket head (or M3x25 shortened to22)",
+      "quantity": 4,
+      "location": "front panel to screen metal-case cradle"
+    },
+    {
+      "part": "M3 hex nut AF5.5/t2.4",
+      "quantity": 4,
+      "location": "screen cradle captive pockets"
+    },
+    {
+      "part": "M3x12 socket head",
+      "quantity": 4,
+      "location": "complete front face to shell"
+    },
+    {
+      "part": "M3 hex nut AF5.5/t2.4",
+      "quantity": 4,
+      "location": "shell front-face bosses"
+    },
+    {
+      "part": "M3x8 socket head",
+      "quantity": 4,
+      "location": "IMU bridge feet",
+      "grip_mm": 3,
+      "engagement_mm": 5
+    },
+    {
+      "part": "M2.5x16 socket head",
+      "quantity": 2,
+      "location": "HI13R2"
+    },
+    {
+      "part": "M2.5 hex nut AF5/t2",
+      "quantity": 2,
+      "location": "under IMU bridge"
+    },
+    {
+      "part": "Compliant adhesive pad 4x8x0.5mm",
+      "quantity": 4,
+      "location": "screen case rear corner contacts",
+      "modelled": false
+    }
+  ],
+  "chassis_fasteners": [
+    {
+      "location": "belly plate to CNC side ledges",
+      "quantity": 8,
+      "spec": "DIN7991 M3x8",
+      "grip": 3,
+      "engagement": 5,
+      "access": "underside; unmodeled"
+    },
+    {
+      "location": "side frames to front/rear crossframe rails",
+      "quantity": 8,
+      "spec": "DIN7991 M3x8",
+      "grip": 3,
+      "engagement": 5,
+      "access": "outside before shells; unmodeled"
+    },
+    {
+      "location": "battery tray to belly posts",
+      "quantity": 4,
+      "spec": "M3x8 socket",
+      "grip": 3,
+      "engagement": 5,
+      "access": "rear opening; unmodeled"
+    },
+    {
+      "location": "electronics tray to side-frame shelves",
+      "quantity": 4,
+      "spec": "M3x8 socket",
+      "grip": 3,
+      "engagement": 5,
+      "access": "rear opening; unmodeled",
+      "centres_xy": [
+        [
+          -74.0,
+          -48.0
+        ],
+        [
+          -74.0,
+          48.0
+        ],
+        [
+          38.0,
+          -48.0
+        ],
+        [
+          38.0,
+          48.0
+        ]
+      ]
+    },
+    {
+      "location": "continuous front shell to front crossframe",
+      "quantity": 4,
+      "spec": "M3x14 socket",
+      "grip": 8,
+      "engagement": 6,
+      "access": "through whole front face before screen/camera panel installation; modeled grip and head",
+      "head_seat_x": 94,
+      "head_end_x": 97,
+      "screen_rear_x": 99.5
+    },
+    {
+      "location": "large rear cover to rear crossframe",
+      "quantity": 4,
+      "spec": "M3x14 socket",
+      "grip": 8,
+      "engagement": 6,
+      "access": "rear outside; modeled grip and head",
+      "head_seat_x": -94
+    },
+    {
+      "location": "shoulder covers through main shell into side-frame bosses",
+      "quantity": 4,
+      "spec": "M3x20 socket",
+      "grip": 14,
+      "engagement": 6,
+      "access": "lateral outside; modeled",
+      "metal_face_y_abs": 75,
+      "body_face_y_abs": 86,
+      "head_seat_y_abs": 89
+    },
+    {
+      "location": "Jetson original-base peripheral retainers",
+      "quantity": 4,
+      "spec": "M3x10 + washer0.5 + M3 nut2.4",
+      "grip": 6,
+      "engagement": 2.4,
+      "access": "rear opening and under tray; modeled",
+      "source": "jetson_mount_specification.json"
+    },
+    {
+      "location": "complete front face to shell",
+      "quantity": 4,
+      "spec": "M3x12 socket + captive AF5.5 M3 nut thickness2.4",
+      "centres_yz": [
+        [
+          -68.0,
+          -44.0
+        ],
+        [
+          -68.0,
+          88.0
+        ],
+        [
+          68.0,
+          -44.0
+        ],
+        [
+          68.0,
+          88.0
+        ]
+      ],
+      "panel_x": [
+        114,
+        117
+      ],
+      "boss_x": [
+        107,
+        114
+      ],
+      "nut_x": [
+        107.2,
+        109.6
+      ],
+      "hole_diameter": 3.4,
+      "access": "front outside; load captive nuts before panel; modeled"
+    },
+    {
+      "location": "IMU bridge feet to upper sideframe beams",
+      "quantity": 4,
+      "spec": "M3x8 socket; grip3, engagement5",
+      "centres_xy": [
+        [
+          -10.0,
+          -68.0
+        ],
+        [
+          -10.0,
+          68.0
+        ],
+        [
+          10.0,
+          -68.0
+        ],
+        [
+          10.0,
+          68.0
+        ]
+      ],
+      "tapping_face_z": 47,
+      "tapping_pilot_diameter": 2.5,
+      "tapping_depth": 6,
+      "note": "V7 holes retained; bridge module owns fasteners"
+    }
+  ],
+  "limitations": "Screen manufacturer holes absent from datasheet: no screw enters device. Confirm four front stops land on metal rather than glass. Final cable/plug sizes require measurement; unmodelled threaded engagement stays per mechanical fastener schedule."
+}

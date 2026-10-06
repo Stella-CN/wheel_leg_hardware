@@ -1,0 +1,843 @@
+{
+  "native_sha256": "6c412e7decafa3248ac72778895a7d07f83699d7fd820d27fb9a8fe7ba220aa5",
+  "print_skus": 38,
+  "print_pieces": 77,
+  "optional_calibration": 1,
+  "files": [
+    {
+      "path": "00_optional_calibration/CALI_hole_coupon_108x92_x01.stl",
+      "bytes": 255484,
+      "sha256": "f743717666e8104b1571fbdebab00ec7fb1092bfbc5b42ff02bc61479ac37dc4"
+    },
+    {
+      "path": "00_optional_calibration/孔位图.svg",
+      "bytes": 2707,
+      "sha256": "67e592927596eba15a8e1e5842faa4342d8f566cc685c0b29d9a2edda0170d18"
+    },
+    {
+      "path": "00_optional_calibration/孔位说明.json",
+      "bytes": 2238,
+      "sha256": "8848853eb5f0fd1535d68358aab55c5d97d39da9cead0fd54dd3f7bf925cdfee"
+    },
+    {
+      "path": "DESIGN_CHANGES.md",
+      "bytes": 4125,
+      "sha256": "32a531d3a69b73b196145faaaa0797dbff3c70c5e3e302f4646f46cbcaf4064c"
+    },
+    {
+      "path": "ELECTRICAL_INTEGRATION.md",
+      "bytes": 11975,
+      "sha256": "889757899bb229e488cc22c9bb820c041d4c960f09b112259f9de58483df7a72"
+    },
+    {
+      "path": "FIT_NOTES.md",
+      "bytes": 13456,
+      "sha256": "37def70f694661b63342899bfc61d898bc07dd946a353fd7bb9b6ccf2503c4cf"
+    },
+    {
+      "path": "MODULE_ASSEMBLY.md",
+      "bytes": 9655,
+      "sha256": "253231697c6fe2c37258c0e37ccae04515a6cbd6c5da2cf9c01494e21bd3f5c9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3911,
+      "sha256": "0a3d8aa9a516ac457861c3d9e766aff836bc26fb4adec9cea73922aeb56bf43c"
+    },
+    {
+      "path": "STEP_reference/LC01_bearing_keeper_D28_D16_8_t0_8.step",
+      "bytes": 9450,
+      "sha256": "808699c8277ddd5fb034573026f5622db1d6a77006bdfefbb0a68692faef257b"
+    },
+    {
+      "path": "STEP_reference/LC02_female_pin_D6_L14_05.step",
+      "bytes": 6901,
+      "sha256": "e3d0de2acaa71f2b2286b1d823e1eff0c28ab3610721480ae5014db771d140f2"
+    },
+    {
+      "path": "STEP_reference/LC03_flanged_bush_inner_D8_D8p4_L3p75.step",
+      "bytes": 8393,
+      "sha256": "9820482d1c4b7724d3aa85830fa7b0f9bf59415396b4ac4aa08c23234fa0fa6e"
+    },
+    {
+      "path": "STEP_reference/LC04_flanged_bush_outer_D8_D8p4_L4p20.step",
+      "bytes": 8388,
+      "sha256": "77f07d3dbe94aa3069b241368aa079ac01ae1d99d0badc555d3ae9538f5689c7"
+    },
+    {
+      "path": "STEP_reference/LC05_axis_washer_D9_d2_2_t0_2.step",
+      "bytes": 4964,
+      "sha256": "54f25991e6b2113a94dc01a6eddfb3a0ccd86c832380b6e95d0df0b25b2cafea"
+    },
+    {
+      "path": "STEP_reference/LC06_OA_angular_stop_M3_D4.step",
+      "bytes": 12058,
+      "sha256": "7c6d1a5e7cc41214a8cf26ee960a1a215b5a455d6a3aa68d407e487c76565e45"
+    },
+    {
+      "path": "STEP_reference/P01_chassis_belly_plate.step",
+      "bytes": 66305,
+      "sha256": "cfc62e9d9a0528a36ab79db8c122c725149c2c5998a4a39c90107eedf19f3126"
+    },
+    {
+      "path": "STEP_reference/P02_chassis_hip_frame_right.step",
+      "bytes": 103292,
+      "sha256": "270e670141c3a6520480dc35877a31aaf3a150e97acf33e1fe95ab649f1d1296"
+    },
+    {
+      "path": "STEP_reference/P03_chassis_hip_frame_left.step",
+      "bytes": 104015,
+      "sha256": "b7526885f773d82620757716b67d1345d982c615d8d9a365c1dcae9eddccf316"
+    },
+    {
+      "path": "STEP_reference/P04_chassis_front_crossframe.step",
+      "bytes": 58774,
+      "sha256": "3bc95e766ea16ddc7071ffec639679be768e5c9c1a3d9559eb2eff26e7faac6b"
+    },
+    {
+      "path": "STEP_reference/P05_chassis_front_shell.step",
+      "bytes": 1081377,
+      "sha256": "1747f68df02f888e47e04e2f024b31653606e75077618051a933598aac0ce6f1"
+    },
+    {
+      "path": "STEP_reference/P06_chassis_rear_cover.step",
+      "bytes": 464765,
+      "sha256": "7ff394a0f6c7f216af7b68a4decfd1ddea5cc8efabbc69ecc0fe31857040d86f"
+    },
+    {
+      "path": "STEP_reference/P07_display_front_bezel.step",
+      "bytes": 104011,
+      "sha256": "47b2aba88d498bc9522b3a233faa43d78492f0a82574797f699074f22f689ef6"
+    },
+    {
+      "path": "STEP_reference/P08_shoulder_fairing_right.step",
+      "bytes": 55688,
+      "sha256": "2101e7362f18960dfdffad1b60587887c82cf18ffcf1153efe622085dc2cd589"
+    },
+    {
+      "path": "STEP_reference/P09_battery_tray.step",
+      "bytes": 99404,
+      "sha256": "c4fa795b9be4fe2bdef5f3a497725006161891ed1967a68ee3a14fa8f1204393"
+    },
+    {
+      "path": "STEP_reference/P10_electronics_tray.step",
+      "bytes": 42167,
+      "sha256": "6144c513ea761f75c0b4ddae465cf3c4be74178c839b88a2dbcc998fd9846fa8"
+    },
+    {
+      "path": "STEP_reference/P11_Jetson_base_retainer_right.step",
+      "bytes": 68706,
+      "sha256": "a139aa71d85bb9a734d54ec473ad63c348d274dfcb430dd9341fa89980a546b3"
+    },
+    {
+      "path": "STEP_reference/P12_Jetson_base_retainer_left.step",
+      "bytes": 69315,
+      "sha256": "6182029b4ae1cd0eed0b5b6764c72770a5f81d590212067b82bfe0d5b53a3b2d"
+    },
+    {
+      "path": "STEP_reference/P13_D435_embedded_bracket.step",
+      "bytes": 70354,
+      "sha256": "6a9b56e2df4393b21a4d25fed67da2deca8a1675b6922f5c136e7cb5008a47cb"
+    },
+    {
+      "path": "STEP_reference/P14_HI13R2_rigid_bridge.step",
+      "bytes": 51292,
+      "sha256": "e600aff57ea780664a64bbd4c41c4c3ea3eac80534b03ce7d44139cd1ae65271"
+    },
+    {
+      "path": "STEP_reference/P15_display_case_cradle_right.step",
+      "bytes": 63709,
+      "sha256": "f1638be000002f1a881b6a66e8707829e76d6b70b54950f5931977a7420dade5"
+    },
+    {
+      "path": "STEP_reference/P16_display_case_cradle_left.step",
+      "bytes": 64338,
+      "sha256": "4be76d58f6c2349a3644abbd924c6752950439ea17fd2f60b526e598efc09aba"
+    },
+    {
+      "path": "STEP_reference/P17_hip_stator_mount.step",
+      "bytes": 37458,
+      "sha256": "f056e54a1e63352a3de8f25dca6fdf5f0250f80dcd0f489b433335777110fd86"
+    },
+    {
+      "path": "STEP_reference/P18_hip_rotor_cnc.step",
+      "bytes": 57717,
+      "sha256": "59c97c581fba651194cffe9dbab272d74734fe2892370c1095207e939e5f7dc3"
+    },
+    {
+      "path": "STEP_reference/P19_knee_stator_cnc.step",
+      "bytes": 67313,
+      "sha256": "f195515311b51e56a4244055e8b65b58286869b357a078e1cca39667c37b50d4"
+    },
+    {
+      "path": "STEP_reference/P20_knee_stator_cnc_left.step",
+      "bytes": 67575,
+      "sha256": "09d64238ffe17d3d5401043d94c315cae8f4e343063109189575745f5b269283"
+    },
+    {
+      "path": "STEP_reference/P21_OB_inner_carrier.step",
+      "bytes": 150950,
+      "sha256": "09a7b1546de9d8a4b5ac8fe70d4e64bca3bec4eafba912a5c4d76ef9d8117faa"
+    },
+    {
+      "path": "STEP_reference/P22_OB_inner_carrier_left.step",
+      "bytes": 152213,
+      "sha256": "2a15db33d2a52131c3b76bed8660883cb5859c873278f1607e00a78c8da5994c"
+    },
+    {
+      "path": "STEP_reference/P23_OB_outer_shell.step",
+      "bytes": 135870,
+      "sha256": "a52fa8b1b265aeb97b5e6fbe13e4f701fb3a833b099f7821c2ade4554b49d7ab"
+    },
+    {
+      "path": "STEP_reference/P24_OB_outer_shell_left.step",
+      "bytes": 137179,
+      "sha256": "830d6397494fda915d685189514e872f627854e9c6a9e3612dc53a85e31c987c"
+    },
+    {
+      "path": "STEP_reference/P25_OA_one_piece.step",
+      "bytes": 65237,
+      "sha256": "d3b7e8408f13f7bbb549cd11fc78c7b696651860cde6e2a248f40db38b5ea3fb"
+    },
+    {
+      "path": "STEP_reference/P26_AC_bearing_link.step",
+      "bytes": 40413,
+      "sha256": "c82f765f1b57708f9d1e5d68e2f17336b0e9e34a212e5a2de597b9da6a4aa62b"
+    },
+    {
+      "path": "STEP_reference/P27_CW_one_piece.step",
+      "bytes": 95510,
+      "sha256": "f1cbdf930836bca11b0368a8686693291f5393e2a0c08c3ba473033cd2f64890"
+    },
+    {
+      "path": "STEP_reference/P28_CW_one_piece_left.step",
+      "bytes": 96376,
+      "sha256": "0075cf105429f824444864ff0366a06870a5926a893c5044152fe666b353cf79"
+    },
+    {
+      "path": "STEP_reference/P29_wheel_rim.step",
+      "bytes": 30637,
+      "sha256": "7aa110dd29d574d918925f9073114c4b26f3512fee33f459eab4b4d6af733e58"
+    },
+    {
+      "path": "STEP_reference/P30_electrical_service_carrier.step",
+      "bytes": 100491,
+      "sha256": "214bae05ac4ae6922dde385aff0ff73790cbb2b45d80990d1482a1394d32e496"
+    },
+    {
+      "path": "STEP_reference/P31_USB_hub_rear_clamp.step",
+      "bytes": 45234,
+      "sha256": "ac52aef6effdbf8314d10ab1b89b3bae829c03771441c88cfd7ea93d56af4da7"
+    },
+    {
+      "path": "STEP_reference/P32_DC_charge_replaceable_plate.step",
+      "bytes": 16829,
+      "sha256": "b8dc9cd95897ed572564fdb55ef03235282d8e93886bd6f0a45664a6d67ae9bb"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/LC01_bearing_keeper_D28_D16_8_t0_8_x06.stl",
+      "bytes": 105684,
+      "sha256": "a2da78f91a9df8673bbd91cab56a9f5fdbe83904054f2a6c77ae967d75d38a6a"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/LC02_female_pin_D6_L14_05_x06.stl",
+      "bytes": 62884,
+      "sha256": "83f69ca196ab63c3b7344da85689ddf16ba4cc1341db5b22725e9e148aefdd40"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/LC03_flanged_bush_inner_D8_D8p4_L3p75_x06.stl",
+      "bytes": 84084,
+      "sha256": "988b0f1179c446cd12cd1d4413d1d1e4f005dc6e10ce5d7876b74cc7a00735cc"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/LC04_flanged_bush_outer_D8_D8p4_L4p20_x06.stl",
+      "bytes": 84084,
+      "sha256": "d1448b6349da1e856d850b8a098b0706b87a9f6ddebff14f0c46a72289c09732"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/LC05_axis_washer_D9_d2_2_t0_2_x12.stl",
+      "bytes": 42084,
+      "sha256": "13b7dd0123ef99f8e5b0ac802ca8c23bc18b339c31386a792f7ec6c348fcbb43"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/LC06_OA_angular_stop_M3_D4_x02.stl",
+      "bytes": 63484,
+      "sha256": "3b1a5fa5dedeff813fb51a0ce416fd995308305c0af113e6b7a8ae1bdc2e9901"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/P17_hip_stator_mount_x02.stl",
+      "bytes": 541484,
+      "sha256": "2856c5e896060d8f3901509becd6b3d075339beedb635c02cdb8b6f7cdc24cf3"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/P18_hip_rotor_cnc_x02.stl",
+      "bytes": 574684,
+      "sha256": "3b046fc7bdc8d11461d49c46368bde1e541ce600210298e86b8409d3a578dbce"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/P25_OA_one_piece_x02.stl",
+      "bytes": 577284,
+      "sha256": "2551f71b9422f6334028376c3abeb8e1e837da1769273e4a6feb361856cd5305"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/P26_AC_bearing_link_x02.stl",
+      "bytes": 371984,
+      "sha256": "3bd3094b155c7b196a947cff46523c3858a36f266732dc8d94a3fe4560d85257"
+    },
+    {
+      "path": "STL/00_shared_leg_parts/P29_wheel_rim_x02.stl",
+      "bytes": 406484,
+      "sha256": "e0fe431e930cd492d30ea720c81375ecaa62016551b4a42a6250b88b89826fff"
+    },
+    {
+      "path": "STL/01_left_leg/P20_knee_stator_cnc_left_x01.stl",
+      "bytes": 395084,
+      "sha256": "8a798819af09232ee0d8329ee4da0214bb8ee465300b5eef098281e2cafc8d9c"
+    },
+    {
+      "path": "STL/01_left_leg/P22_OB_inner_carrier_left_x01.stl",
+      "bytes": 692784,
+      "sha256": "a82641ee59274cbcdfeffcb875ca819ae8e4972d1e10021711f0efd4807924bb"
+    },
+    {
+      "path": "STL/01_left_leg/P24_OB_outer_shell_left_x01.stl",
+      "bytes": 442084,
+      "sha256": "406c4bf87055e6f750bcb102cb85e67cd7d687b8e747fb807fd942843135a49f"
+    },
+    {
+      "path": "STL/01_left_leg/P28_CW_one_piece_left_x01.stl",
+      "bytes": 565284,
+      "sha256": "b92090219740a2187af8b5ff08dbab1422657cb7439e27cff81f1f1582ad3b7a"
+    },
+    {
+      "path": "STL/02_right_leg/P19_knee_stator_cnc_x01.stl",
+      "bytes": 395084,
+      "sha256": "adec33170619e95c96a88722c4ee619ba21d2abc06100b60d819555333e1d37b"
+    },
+    {
+      "path": "STL/02_right_leg/P21_OB_inner_carrier_x01.stl",
+      "bytes": 692884,
+      "sha256": "5193e4d3480fb9ccb85b9f6c480a10279c7f3981befae2f55e13ca661262260d"
+    },
+    {
+      "path": "STL/02_right_leg/P23_OB_outer_shell_x01.stl",
+      "bytes": 441584,
+      "sha256": "226d3e40530795caa0d28c77b668f0ed2696fc620db9345ea3e3b05c1065356b"
+    },
+    {
+      "path": "STL/02_right_leg/P27_CW_one_piece_x01.stl",
+      "bytes": 565284,
+      "sha256": "3c0e80c83f3eec15986ba433fe3fc566c57174533c629208f3e1b354ccb7de68"
+    },
+    {
+      "path": "STL/03_chassis/P01_chassis_belly_plate_x01.stl",
+      "bytes": 783884,
+      "sha256": "9d3b432a824e704e0d2ea47c7fb0cce6ee1f521fa201dc1ce467a2b7a5c699a1"
+    },
+    {
+      "path": "STL/03_chassis/P02_chassis_hip_frame_right_x01.stl",
+      "bytes": 882484,
+      "sha256": "d1b90692ab5f46ddaf038fdb15bc5945724e8d7262ed0973365f0ed54ef52b1d"
+    },
+    {
+      "path": "STL/03_chassis/P03_chassis_hip_frame_left_x01.stl",
+      "bytes": 882484,
+      "sha256": "a22d2430df2176e0194116a2fdd736e765fbb6b453ac68222c5e87dff5b04b32"
+    },
+    {
+      "path": "STL/03_chassis/P04_chassis_front_crossframe_x02.stl",
+      "bytes": 340084,
+      "sha256": "1440dd87f309a5d51b478c9acb7d4193652a4d722437cdb63769e9133a10afeb"
+    },
+    {
+      "path": "STL/04_electronics_bay/P09_battery_tray_x01.stl",
+      "bytes": 162284,
+      "sha256": "17b95460819c9636d68436cca27769cc9757bff80e027a2c5e71b267b071d154"
+    },
+    {
+      "path": "STL/04_electronics_bay/P10_electronics_tray_x01.stl",
+      "bytes": 310284,
+      "sha256": "a12a49943f1caa928696da88f6f2596e90c3f3238d40fba527d49ad582e3f392"
+    },
+    {
+      "path": "STL/04_electronics_bay/P11_Jetson_base_retainer_right_x01.stl",
+      "bytes": 181184,
+      "sha256": "716bcb2d0a55af291461535b815350de0e790f6d2afc47f0702592a6dfb49cef"
+    },
+    {
+      "path": "STL/04_electronics_bay/P12_Jetson_base_retainer_left_x01.stl",
+      "bytes": 181184,
+      "sha256": "e037a3f66aa9636b1bcd7f693bf93dba6d9966983fecb5db03c67939a2340e72"
+    },
+    {
+      "path": "STL/04_electronics_bay/P14_HI13R2_rigid_bridge_x01.stl",
+      "bytes": 175884,
+      "sha256": "8344a810c77da5ae7c58410e06414f3fe2f0ce04e0a3946272034e360c31ebd9"
+    },
+    {
+      "path": "STL/05_front_face/P07_display_front_bezel_x01.stl",
+      "bytes": 391484,
+      "sha256": "80eb12f1aea8adae77af5d40e9d37dab574d56bbc15bf06f284c036f419e4c74"
+    },
+    {
+      "path": "STL/05_front_face/P13_D435_embedded_bracket_x01.stl",
+      "bytes": 135884,
+      "sha256": "c29609bf46f7c2676dff0d6d423645894f4325530cde1d2e1bc1086f4d1173ef"
+    },
+    {
+      "path": "STL/05_front_face/P15_display_case_cradle_right_x01.stl",
+      "bytes": 88984,
+      "sha256": "e933d813f732e9487ebffd765d11e056cb1a416eae2e69106635fc563c17feda"
+    },
+    {
+      "path": "STL/05_front_face/P16_display_case_cradle_left_x01.stl",
+      "bytes": 88984,
+      "sha256": "7d31aef8f8e296cd36d6754ef8b45d0f25ab38094a7c20995758c6dba55d5490"
+    },
+    {
+      "path": "STL/06_shell/P05_chassis_front_shell_x01.stl",
+      "bytes": 4538384,
+      "sha256": "a9d43bc95ac76e4a8d4fa3c33990b36a44c221152020906c0e6ccfc8ab0baf47"
+    },
+    {
+      "path": "STL/06_shell/P06_chassis_rear_cover_x01.stl",
+      "bytes": 1442284,
+      "sha256": "03bf487336b62481cc41b40e1b0ebba3b0628f1e34d7c6d4a91f4d81710a7312"
+    },
+    {
+      "path": "STL/06_shell/P08_shoulder_fairing_right_x02.stl",
+      "bytes": 127284,
+      "sha256": "6b19ed0d09e7d16576bfb537262346c41439a01da051d55059e84b80db7a35e2"
+    },
+    {
+      "path": "STL/06_shell/P31_USB_hub_rear_clamp_x01.stl",
+      "bytes": 85884,
+      "sha256": "34c69a8970ea629ab7b8a2d742459e29ec329435533dc9c8e1ae54b72b53bc36"
+    },
+    {
+      "path": "STL/06_shell/P32_DC_charge_replaceable_plate_x01.stl",
+      "bytes": 85884,
+      "sha256": "193e9806e877a7545926b2e2f7c0b49d8a724386a909017c20ae3d21337d5325"
+    },
+    {
+      "path": "STL/07_service_carrier/P30_electrical_service_carrier_x01.stl",
+      "bytes": 576184,
+      "sha256": "b38adfaf107a6fcbca348113f6882ba9678b4fab30f9d2c257b13f6015055b6b"
+    },
+    {
+      "path": "WIRING_TOPOLOGY.png",
+      "bytes": 269744,
+      "sha256": "1c66d27d8b26f9517bf55cce431dff6e56fb94b56302f32f91b4731ed6d1b9e6"
+    },
+    {
+      "path": "WIRING_TOPOLOGY.svg",
+      "bytes": 15637,
+      "sha256": "9cf0f8556f285d0d48a6f98e7dccc3cc6f4b20b85ab2c0ba0a971a5c33a0854a"
+    },
+    {
+      "path": "baseline_v81/BATTERY.md",
+      "bytes": 3751,
+      "sha256": "56c1bc9a63be481c1d0133a6bdd5f8ffda495abd442b536e7ee270c7d0805bdf"
+    },
+    {
+      "path": "baseline_v81/BATTERY_SOURCE_REVIEW.md",
+      "bytes": 5284,
+      "sha256": "3fcc048997b3ed0793acdba632824c74f5621eeb7121ff35253fcde5c43bc56e"
+    },
+    {
+      "path": "baseline_v81/BODY_ASSEMBLY.md",
+      "bytes": 10760,
+      "sha256": "682fa4592cf109862655cc85d166093d7dab600cdf64fcf71dd872e78602695e"
+    },
+    {
+      "path": "baseline_v81/DISPLAY.md",
+      "bytes": 2713,
+      "sha256": "3e8016b146897efb56602250854ef3f2a7c9c3f7824f03edd78c9929b8169252"
+    },
+    {
+      "path": "baseline_v81/IMU.md",
+      "bytes": 1816,
+      "sha256": "678f3d40d9b4c8dc825d5abd01cc53346bb92c6a9ac407c65abc2a2c48f35ce1"
+    },
+    {
+      "path": "baseline_v81/LEG_ASSEMBLY.md",
+      "bytes": 6970,
+      "sha256": "04d24b09af6b0b5e2a63320e6811b747428b5bbdc42afbb6f9bfe5cbbb3b3041"
+    },
+    {
+      "path": "baseline_v81/LEG_FITS.md",
+      "bytes": 7712,
+      "sha256": "82f2def4990986437f82cd1f42765400baa242db886b346e9764e754e95368ab"
+    },
+    {
+      "path": "baseline_v81/MODULE_ASSEMBLY.md",
+      "bytes": 9535,
+      "sha256": "541688b32f7e18907661420a16411060fe2926a17fd8588439d1c6d3d2b76064"
+    },
+    {
+      "path": "baseline_v81/battery_interface.json",
+      "bytes": 5470,
+      "sha256": "05806bad743be6a97d8dcf1499c2fd2c84dae0d8a4d6582c8f9a2c4c27852e87"
+    },
+    {
+      "path": "baseline_v81/battery_local_review.json",
+      "bytes": 3624,
+      "sha256": "e63d34ee8f2d2c9246afca02157283cc42c394987fda3ce9a7d644feca5d2769"
+    },
+    {
+      "path": "baseline_v81/body_detail_review.json",
+      "bytes": 7354,
+      "sha256": "7d47778c05952672772e209c064750a16e3da03b1131ca28573f03eb463de2b6"
+    },
+    {
+      "path": "baseline_v81/body_hardware_bom.json",
+      "bytes": 16199,
+      "sha256": "45e288b96f749b7a65891a0cefbf6399fbde2cf732d891c1f299ad05b794b9b2"
+    },
+    {
+      "path": "baseline_v81/imu_interface.json",
+      "bytes": 3220,
+      "sha256": "2741523312cb198845bf0e9be264b043bc807dd2021b1f97140c0dd58b96d275"
+    },
+    {
+      "path": "baseline_v81/leg_hardware_bom.json",
+      "bytes": 31920,
+      "sha256": "da1b5144421791fd541a2b09291c6bd4943fb180a91d47c8ee6cfa6cbacd47cc"
+    },
+    {
+      "path": "baseline_v81/leg_mirror_equivalence.json",
+      "bytes": 3616,
+      "sha256": "4500f0dac3f6b03e0a4a0aef585592c1721efa7594c44839214a0dd13ab199e3"
+    },
+    {
+      "path": "baseline_v81/maintenance_access_review.json",
+      "bytes": 10032,
+      "sha256": "8fc99f9464939ce1a1d70801bc2483d6383ff5968f28621b698d72a8ee398c42"
+    },
+    {
+      "path": "baseline_v81/manufacturing_aliases.json",
+      "bytes": 1389,
+      "sha256": "4130d2d3d1c3b20c49125a4a0f9786b5a44d62fb49e2e21094d9e5083a6afaf8"
+    },
+    {
+      "path": "baseline_v81/module_access_review.json",
+      "bytes": 43876,
+      "sha256": "5f1d38d2155878119dfb93e3d809428da53960a6562a074068e1591cfa5abca8"
+    },
+    {
+      "path": "baseline_v81/source/battery/WHEELTEC_12V_comparison_manual.pdf",
+      "bytes": 2155852,
+      "sha256": "c128aa48b8354c36e5b19cdf80cea8bfbd7fcc66e46f61cd30988eeef9ae3ebc"
+    },
+    {
+      "path": "baseline_v81/source/battery/WHEELTEC_24V_manual.pdf",
+      "bytes": 2099218,
+      "sha256": "29d61c232052dace7349b435a29070142d4290eb21476f4cf060e00928340f78"
+    },
+    {
+      "path": "baseline_v81/source/battery/official_12V_manual_page_11.png",
+      "bytes": 640878,
+      "sha256": "faf0c1259e48560150df922f6034de41255cb951c64bc14eaa8ee0dc94ee9f19"
+    },
+    {
+      "path": "baseline_v81/source/battery/official_manual_page_09.png",
+      "bytes": 445612,
+      "sha256": "09fa23969639916a52921c89f60a606a1ebd6871e6494f5e9f8355a27d431858"
+    },
+    {
+      "path": "baseline_v81/source/battery/official_manual_page_12.png",
+      "bytes": 357383,
+      "sha256": "e1b90c78cf05bc18d31a99abba7ee8b1797339b4eda129513251ae8b2a8fa6e6"
+    },
+    {
+      "path": "baseline_v81/source/battery/user_battery_dimension_drawing.png",
+      "bytes": 579735,
+      "sha256": "b98cecfeec97993a836b9dfb05de558123f1c7bc83491f5cd5bb849ce996583d"
+    },
+    {
+      "path": "baseline_v81/source/display/facts.json",
+      "bytes": 1544,
+      "sha256": "72ffb7193632cddfdfc0b96773537fddf27f4a2e655387b28182536f75846087"
+    },
+    {
+      "path": "baseline_v81/source/display/page-1.png",
+      "bytes": 142173,
+      "sha256": "6bcf19626aaeacf83f882f9af19cac9da5ac0bc30601df85db0097997aea6262"
+    },
+    {
+      "path": "baseline_v81/source/display/page-2.png",
+      "bytes": 421315,
+      "sha256": "f4842b1f4a46f6d4016ef7701172599bf4ad25f34a4966916740f2a23833bc3c"
+    },
+    {
+      "path": "baseline_v81/source/display/page-3.png",
+      "bytes": 425038,
+      "sha256": "01b1bbd7bf9d86246820e3ce3baec41d6f1a64410328b3cc1399d642dbd0130b"
+    },
+    {
+      "path": "baseline_v81/source/display/page-4.png",
+      "bytes": 283161,
+      "sha256": "e1e4c8177000774dabf20149c896610a935e0c6f7826e6cc04b4a1b925e53c46"
+    },
+    {
+      "path": "baseline_v81/source/display/page-5.png",
+      "bytes": 282679,
+      "sha256": "5db94c050cfeabe7d9b1cf6df2d27d0c6a388626afa99ec752b753e4bf4ebebd"
+    },
+    {
+      "path": "baseline_v81/source/display/page-6.png",
+      "bytes": 201983,
+      "sha256": "eca6087c46308ce8c21591ef31222767f9b7b732e2bb8a6f73a3b7327506e4a4"
+    },
+    {
+      "path": "baseline_v81/source/display/specification.txt",
+      "bytes": 3946,
+      "sha256": "17303bc8880f3f45a92fad36389f2500d1209d374e803b7f4adf62fc729649ef"
+    },
+    {
+      "path": "baseline_v81/source/display/显示器规格书.pdf",
+      "bytes": 242038,
+      "sha256": "f895c2682c0a3a7350379cb1d421471bf04abbc52a86e3d671ca078d53c56b96"
+    },
+    {
+      "path": "baseline_v81/source/hardware/h6215_drawing.png",
+      "bytes": 144127,
+      "sha256": "2aff698be3d3d7cb318bf648d080671600e519e2e4c2fc7580532bfe80edbfeb"
+    },
+    {
+      "path": "baseline_v81/source/hardware/h6215_drawing.txt",
+      "bytes": 1143,
+      "sha256": "44f1c3a9e25bcfac09aef2261b0a7b40436cd51db721bf84aeb2c4c1e3c48828"
+    },
+    {
+      "path": "baseline_v81/source/hardware/j4310_drawing.png",
+      "bytes": 190654,
+      "sha256": "3cae7ea4fc41a775b532c15d253ae0ac21054e5353d9fa0e7db75781c380f2cf"
+    },
+    {
+      "path": "baseline_v81/source/hardware/j4310_drawing.txt",
+      "bytes": 1112,
+      "sha256": "178a1b1582723e89c711b3fd8e619e4a9d235bf9860b9227b3f7fe9e38553587"
+    },
+    {
+      "path": "baseline_v81/source/hi13r2/PROVENANCE.md",
+      "bytes": 4748,
+      "sha256": "e9c5c325b1d743b36fe63dce41ceae6df5e52ff596fe8f7693a5a1b31b5a6c62"
+    },
+    {
+      "path": "baseline_v81/source/hi13r2/datasheet-17.png",
+      "bytes": 78485,
+      "sha256": "10ecf7524e0b0208b1c1435faf1470909d59380b4f5dd7f000fce09fc4f3fd13"
+    },
+    {
+      "path": "baseline_v81/source/hi13r2/datasheet-18.png",
+      "bytes": 55025,
+      "sha256": "935f721a4a2cfeea599beb1f5597c78eb616e549d196f08ab5428d06930a629c"
+    },
+    {
+      "path": "baseline_v81/source/hi13r2/datasheet-19.png",
+      "bytes": 177499,
+      "sha256": "dbda1ed8080d592edb97073ba32e3fd052744f9f8e5a0728b2776b0d13a1526a"
+    },
+    {
+      "path": "baseline_v81/source/hi13r2/hi13_datasheet_cn.pdf",
+      "bytes": 2405174,
+      "sha256": "6994b6380effff29060cdd1f99aa40eaf37aaa50189e98c3deffdca0522501d1"
+    },
+    {
+      "path": "baseline_v81/source/hi13r2/hi13_datasheet_cn.txt",
+      "bytes": 42271,
+      "sha256": "f568290be230345ce807633c2197bb9110b50e3d83954180b0fd56fd53467c5d"
+    },
+    {
+      "path": "baseline_v81/source/hi13r2/model_validation.json",
+      "bytes": 654,
+      "sha256": "8937ea143ed818456f99f90aa99b6a2da8381a66597d51f7b59b6bc7ce3ef45d"
+    },
+    {
+      "path": "bom_purchase.json",
+      "bytes": 67899,
+      "sha256": "17047da8da5a0f95c4603394519d835a122dec4205039ef05ec19cda8c0c8462"
+    },
+    {
+      "path": "electrical_final_validation.json",
+      "bytes": 47662,
+      "sha256": "14733fb2945af1e2bf9e5492052afb41d99ae8e991f5e58c660366fba6377af6"
+    },
+    {
+      "path": "previews/assembly_front.png",
+      "bytes": 55342,
+      "sha256": "53357c24003e2af16dd6a18c61059f4c4a1a6eb01dc155ad738a74789f472c1d"
+    },
+    {
+      "path": "previews/assembly_isometric.png",
+      "bytes": 138630,
+      "sha256": "9b4fbdbabf881cef69ebee42bdd2302b8bd30b4504999dd1cd8cdd046b49cd98"
+    },
+    {
+      "path": "previews/assembly_rear.png",
+      "bytes": 166045,
+      "sha256": "0f623c888a69d65d3035aefebb925b5cc30cb8d3af892ab15b469f42a71081b6"
+    },
+    {
+      "path": "previews/body_front.png",
+      "bytes": 48471,
+      "sha256": "cb079e2dbf7c1ee2ebd6cec58595c445dbc387bf912a301595345992c4b8dfbb"
+    },
+    {
+      "path": "previews/body_isometric.png",
+      "bytes": 124534,
+      "sha256": "b3b5b096b26f24225e2b5ac8c1e37c3715044e604da54540e33221eb906f6e13"
+    },
+    {
+      "path": "previews/internal_layout.png",
+      "bytes": 107459,
+      "sha256": "bf252ad5003b58f513d7f83f440a2269352bb52e5ae162432f742f7d539d0e58"
+    },
+    {
+      "path": "previews/internal_structure_annotated.png",
+      "bytes": 1165971,
+      "sha256": "cace2226997f964403650ab99ca659456992523c78cafbba55d843e508bb24cd"
+    },
+    {
+      "path": "previews/shell_and_face.png",
+      "bytes": 112218,
+      "sha256": "937c5582e6ad5aaa93fbc79adf1f382d2fd23a73c9256e4fe8271ac1f2533e32"
+    },
+    {
+      "path": "print_manifest.json",
+      "bytes": 79510,
+      "sha256": "d44cbbce22c6fb3f543be9be719c74a5e155fa889c3f29b52f3be2b6386bc4c1"
+    },
+    {
+      "path": "print_validation.json",
+      "bytes": 12483,
+      "sha256": "80cf94c9d13cba3e86d44136adff84bfac81d63cb617ce3b9341043b85bc4381"
+    },
+    {
+      "path": "routing_allowances.json",
+      "bytes": 9111,
+      "sha256": "79a2b9a39849101f1c775a3b862f305ed365af6db2e48f4b02cf3dd3e36e2509"
+    },
+    {
+      "path": "routing_validation.json",
+      "bytes": 12485,
+      "sha256": "8ea6cb884206a8cdedd3237be7214f0bd9c780c811e8ddbcc3c07ae1da00f823"
+    },
+    {
+      "path": "source/assembly_reference_index.json",
+      "bytes": 26755,
+      "sha256": "6af25d2d07b53fcf94c09d8c41a03f2f1b3aa1e9b3c169a281bdaa5a9e006d88"
+    },
+    {
+      "path": "source/builders/export_v83_print_trial.py",
+      "bytes": 10705,
+      "sha256": "b12d7fb6a74f8933e27e4f73251aded274e4921193c6e3c472f898042c7c351d"
+    },
+    {
+      "path": "source/builders/package_v83_print_trial.py",
+      "bytes": 12641,
+      "sha256": "a77f5b639ed69dabc11126c80be9093b8f9bc4ec08871de816cbded489003530"
+    },
+    {
+      "path": "source/document_link_validation.json",
+      "bytes": 7618,
+      "sha256": "74d9f85a3368eb740403df9243d0c4eaaf39fd3403eff2fd8793f76b3a8afce3"
+    },
+    {
+      "path": "source/electrical/j4310-07.png",
+      "bytes": 267129,
+      "sha256": "e1f1274046f8112d96d8431b93f70b7844b2f54a7794dc45e15af542817cdbb9"
+    },
+    {
+      "path": "source/electrical/j4310_v11_manual.txt",
+      "bytes": 62344,
+      "sha256": "6fd3dfaa43763bb3e6afb1b15f8baa4b3f8d167d40f1781ee8bc18425e1eecb0"
+    },
+    {
+      "path": "source/electrical/usb2can-03.png",
+      "bytes": 509299,
+      "sha256": "43ba5465196c09a486d5fee654543b8cee37b6b66e4dc36ec0cdd9082c95e9ec"
+    },
+    {
+      "path": "source/electrical/usb2can-04.png",
+      "bytes": 257906,
+      "sha256": "bb0b59cba0f72e398c841a72d12d16abdc44ac4312d959197799763864a04ae2"
+    },
+    {
+      "path": "source/electrical/usb2can_manual.txt",
+      "bytes": 15864,
+      "sha256": "a7d37c4799d3f04f2c30e44b2eed4a3fc4a3d70988b0851a553a2364fcc827f2"
+    },
+    {
+      "path": "source/printability_review.json",
+      "bytes": 27137,
+      "sha256": "67768fc0dd0343a81dbdf2331a8ec48b68dcd56c4dc78e102515356afe63ffd8"
+    },
+    {
+      "path": "source/shell_validation.json",
+      "bytes": 46696,
+      "sha256": "0e0b89339e3c9dcea6a8067618c6eb9a6bc097536871817853fc2f0b270bfd41"
+    },
+    {
+      "path": "source/source_bom.json",
+      "bytes": 95382,
+      "sha256": "90ee53e5bb701da6491f441ab376645a55e5254187b0bfd7dce257a4388d888f"
+    },
+    {
+      "path": "verification/bom/optional_alternatives.png",
+      "bytes": 206757,
+      "sha256": "f89bf7c9408b7fd1059b6028e5c2b47c2e06ea38a0d52734ba24c83cb3a9b77f"
+    },
+    {
+      "path": "verification/bom/owned.png",
+      "bytes": 393992,
+      "sha256": "a980e8ede96c0d93c7f423346a6aab72adc4f1f5b763e757f021deaa7add2bd6"
+    },
+    {
+      "path": "verification/bom/pending.png",
+      "bytes": 345953,
+      "sha256": "72538ea79c3da1fe49849affaab002da4f059039861e630c02909249857f4380"
+    },
+    {
+      "path": "verification/bom/standard_bottom.png",
+      "bytes": 291661,
+      "sha256": "2a64c03393fc3c527495256d2de34fb3e7f1f700671c0bbe99648f20ca1fe87f"
+    },
+    {
+      "path": "verification/bom/standard_top.png",
+      "bytes": 295900,
+      "sha256": "f1edcebc5cbddc5972a7f0389a1ff5f34c0f0b0ba02ca20170d9c14c5f97f44e"
+    },
+    {
+      "path": "verification/bom/workbook_qa.json",
+      "bytes": 3422,
+      "sha256": "31a5932c3280e0bedd05402b4855bb3a816a3de7fd0997f306038383ab21e765"
+    },
+    {
+      "path": "制造工艺分类.md",
+      "bytes": 2551,
+      "sha256": "c011599b268a27bbe458ccf569f6ffe025da0abe9fc583de894af8c293deb214"
+    },
+    {
+      "path": "打印清单.md",
+      "bytes": 6236,
+      "sha256": "54c6c232b0ca912d5165fc3f5c4904e8d0d433827ee74bb2ce4be81bfd62f63c"
+    },
+    {
+      "path": "采购BOM.xlsx",
+      "bytes": 26384,
+      "sha256": "41c3ecdd8032286d93fad2737cac0e11f5b3f817bbb127865159813ca4bd03f6"
+    },
+    {
+      "path": "采购BOM.xlsx.inspect.ndjson",
+      "bytes": 189650,
+      "sha256": "3b2f86ac40c942534bbd538e9e5eb2afe398d27f37d59b0ac15237f16f3124e5"
+    },
+    {
+      "path": "采购清单.csv",
+      "bytes": 3868,
+      "sha256": "73fa075498dc248aa8265d1daabb79be654b7779551b5debfe679ef0ef631996"
+    }
+  ]
+}

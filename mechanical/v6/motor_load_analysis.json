@@ -1,0 +1,642 @@
+{
+  "geometry_mm": {
+    "OB": 130.0,
+    "AC": 130.0,
+    "BW": 105.0,
+    "OA": 45.0,
+    "BC": 45.0
+  },
+  "nominal_leg_length_mm": 180.0,
+  "mass_kg": 5.641930000000013,
+  "motor_specs": {
+    "J4310": {
+      "voltage_V": 24,
+      "driver_version": "V1.1 confirmed by user",
+      "rated_Nm": 3,
+      "peak_Nm": 7,
+      "rated_rpm": 120,
+      "no_load_rpm": 200
+    },
+    "H6215": {
+      "voltage_V": 24,
+      "rated_Nm": 1,
+      "peak_Nm": 2,
+      "rated_rpm": 120,
+      "no_load_rpm": 320
+    }
+  },
+  "distributed_gravity": {
+    "rows": [
+      {
+        "leg_length_mm": 100.0,
+        "bend_deg": 131.04058118926147,
+        "hip_deg": -52.36877004133025,
+        "knee_relative_deg": -48.959418810738526,
+        "hip_gravity_Nm": -0.23150237615787717,
+        "knee_gravity_Nm": -2.258747956673801,
+        "hip_magnitude_Nm": 0.23150237615787717,
+        "knee_magnitude_Nm": 2.258747956673801,
+        "knee_rated_utilization": 0.7529159855579337,
+        "knee_with_25_percent_allowance_Nm": 2.8234349458422514,
+        "finite_difference_convergence_Nm": 7.993606054856883e-10
+      },
+      {
+        "leg_length_mm": 120.0,
+        "bend_deg": 119.69753157211497,
+        "hip_deg": -49.47047968298855,
+        "knee_relative_deg": -60.30246842788504,
+        "hip_gravity_Nm": -0.2219606209941105,
+        "knee_gravity_Nm": -2.1677383856832932,
+        "hip_magnitude_Nm": 0.2219606209941105,
+        "knee_magnitude_Nm": 2.1677383856832932,
+        "knee_rated_utilization": 0.7225794618944311,
+        "knee_with_25_percent_allowance_Nm": 2.7096729821041166,
+        "finite_difference_convergence_Nm": 2.353672812205332e-09
+      },
+      {
+        "leg_length_mm": 160.0,
+        "bend_deg": 94.88550359954706,
+        "hip_deg": -40.833701885679545,
+        "knee_relative_deg": -85.11449640045294,
+        "hip_gravity_Nm": -0.19033795561895772,
+        "knee_gravity_Nm": -1.8647037147712098,
+        "hip_magnitude_Nm": 0.19033795561895772,
+        "knee_magnitude_Nm": 1.8647037147712098,
+        "knee_rated_utilization": 0.6215679049237366,
+        "knee_with_25_percent_allowance_Nm": 2.330879643464012,
+        "finite_difference_convergence_Nm": 3.9301894794174785e-09
+      },
+      {
+        "leg_length_mm": 180.0,
+        "bend_deg": 80.56553321384833,
+        "hip_deg": -35.13066242227375,
+        "knee_relative_deg": -99.43446678615167,
+        "hip_gravity_Nm": -0.16706114891462676,
+        "knee_gravity_Nm": -1.640972506766758,
+        "hip_magnitude_Nm": 0.16706114891462676,
+        "knee_magnitude_Nm": 1.640972506766758,
+        "knee_rated_utilization": 0.5469908355889194,
+        "knee_with_25_percent_allowance_Nm": 2.0512156334584475,
+        "finite_difference_convergence_Nm": 2.2648549702353193e-09
+      },
+      {
+        "leg_length_mm": 183.84776310850236,
+        "bend_deg": 77.57265291020968,
+        "hip_deg": -33.899859258909814,
+        "knee_relative_deg": -102.42734708979032,
+        "hip_gravity_Nm": -0.161813502153052,
+        "knee_gravity_Nm": -1.5904785430898016,
+        "hip_magnitude_Nm": 0.161813502153052,
+        "knee_magnitude_Nm": 1.5904785430898016,
+        "knee_rated_utilization": 0.5301595143632672,
+        "knee_with_25_percent_allowance_Nm": 1.988098178862252,
+        "finite_difference_convergence_Nm": 1.3322678515947928e-09
+      },
+      {
+        "leg_length_mm": 200.0,
+        "bend_deg": 63.748786065044236,
+        "hip_deg": -28.089698368905484,
+        "knee_relative_deg": -116.25121393495576,
+        "hip_gravity_Nm": -0.13607825000150342,
+        "knee_gravity_Nm": -1.342608996868222,
+        "hip_magnitude_Nm": 0.13607825000150342,
+        "knee_magnitude_Nm": 1.342608996868222,
+        "knee_rated_utilization": 0.4475363322894073,
+        "knee_with_25_percent_allowance_Nm": 1.6782612460852775,
+        "finite_difference_convergence_Nm": 9.769962616701378e-10
+      },
+      {
+        "leg_length_mm": 215.0,
+        "bend_deg": 47.907485984208236,
+        "hip_deg": -21.247850325084485,
+        "knee_relative_deg": -132.09251401579178,
+        "hip_gravity_Nm": -0.10400763272855329,
+        "knee_gravity_Nm": -1.0332480440133907,
+        "hip_magnitude_Nm": 0.10400763272855329,
+        "knee_magnitude_Nm": 1.0332480440133907,
+        "knee_rated_utilization": 0.3444160146711302,
+        "knee_with_25_percent_allowance_Nm": 1.2915600550167383,
+        "finite_difference_convergence_Nm": 2.9309887711326255e-09
+      }
+    ],
+    "constraint": "Wheels fixed to ground, left/right coordinates varied together, chassis pitch fixed; requires corresponding external constraint reaction and is not a free static balance solution"
+  },
+  "concentrated_mass_screen": [
+    {
+      "height_mm": 100.0,
+      "bend_deg": 131.04058118926147,
+      "hip_deg": -52.36877004133025,
+      "knee_relative_deg": -48.959418810738526,
+      "oa_absolute_deg": -101.32818885206879,
+      "knee_vertical_arm_mm": 102.95440434969258,
+      "hip_horizontal_arm_mm": 100.00000000000003,
+      "knee_horizontal_arm_mm": 20.625000000000014,
+      "static_knee_Nm": 2.849125866122709,
+      "static_hip_Nm": 0.0,
+      "AC_force_per_vertical_wheel_force": 3.0333333333333337,
+      "AC_force_N": 83.9434555050002,
+      "hip_over_knee_rate": -0.20625000000000013,
+      "vertical_speed_at_120rpm_m_s": 1.293763201438829,
+      "vertical_speed_at_200rpm_m_s": 2.1562720023980484,
+      "knee_rpm_for_1_m_s": 92.7526767391009,
+      "hip_rpm_for_1_m_s": 19.130239577439575,
+      "knee_rpm_for_100mm_ballistic_jump": 129.91998245431728,
+      "hip_rpm_for_100mm_ballistic_jump": 26.795996381202958
+    },
+    {
+      "height_mm": 120.0,
+      "bend_deg": 119.69753157211497,
+      "hip_deg": -49.47047968298855,
+      "knee_relative_deg": -60.30246842788504,
+      "oa_absolute_deg": -109.77294811087359,
+      "knee_vertical_arm_mm": 98.80926272018002,
+      "hip_horizontal_arm_mm": 119.99999999999997,
+      "knee_horizontal_arm_mm": 35.5208333333333,
+      "static_knee_Nm": 2.734414598450541,
+      "static_hip_Nm": 0.0,
+      "AC_force_per_vertical_wheel_force": 2.527777777777778,
+      "AC_force_N": 69.95287958750018,
+      "hip_over_knee_rate": -0.2960069444444442,
+      "vertical_speed_at_120rpm_m_s": 1.2416738154733655,
+      "vertical_speed_at_200rpm_m_s": 2.0694563591222757,
+      "knee_rpm_for_1_m_s": 96.64373888262449,
+      "hip_rpm_for_1_m_s": 28.6072178463324,
+      "knee_rpm_for_100mm_ballistic_jump": 135.37024807670156,
+      "hip_rpm_for_100mm_ballistic_jump": 40.07053350187083
+    },
+    {
+      "height_mm": 160.0,
+      "bend_deg": 94.88550359954706,
+      "hip_deg": -40.833701885679545,
+      "knee_relative_deg": -85.11449640045294,
+      "oa_absolute_deg": -125.94819828613247,
+      "knee_vertical_arm_mm": 85.00254907712696,
+      "hip_horizontal_arm_mm": 160.0,
+      "knee_horizontal_arm_mm": 61.640624999999986,
+      "static_knee_Nm": 2.352332207560682,
+      "static_hip_Nm": 0.0,
+      "AC_force_per_vertical_wheel_force": 1.8958333333333335,
+      "AC_force_N": 52.464659690625126,
+      "hip_over_knee_rate": -0.3852539062499999,
+      "vertical_speed_at_120rpm_m_s": 1.0681735348684316,
+      "vertical_speed_at_200rpm_m_s": 1.7802892247807194,
+      "knee_rpm_for_1_m_s": 112.34129669275187,
+      "hip_rpm_for_1_m_s": 43.27992338407285,
+      "knee_rpm_for_100mm_ballistic_jump": 157.3580386932891,
+      "hip_rpm_for_100mm_ballistic_jump": 60.62279908642826
+    },
+    {
+      "height_mm": 180.0,
+      "bend_deg": 80.56553321384833,
+      "hip_deg": -35.13066242227375,
+      "knee_relative_deg": -99.43446678615167,
+      "oa_absolute_deg": -134.56512920842542,
+      "knee_vertical_arm_mm": 74.80759141306913,
+      "hip_horizontal_arm_mm": 179.99999999999997,
+      "knee_horizontal_arm_mm": 73.68055555555554,
+      "static_knee_Nm": 2.070200347654682,
+      "static_hip_Nm": 0.0,
+      "AC_force_per_vertical_wheel_force": 1.6851851851851853,
+      "AC_force_N": 46.63525305833345,
+      "hip_over_knee_rate": -0.4093364197530864,
+      "vertical_speed_at_120rpm_m_s": 0.9400599184641795,
+      "vertical_speed_at_200rpm_m_s": 1.5667665307736323,
+      "knee_rpm_for_1_m_s": 127.65143757650013,
+      "hip_rpm_for_1_m_s": 52.25238243389916,
+      "knee_rpm_for_100mm_ballistic_jump": 178.80316895712735,
+      "hip_rpm_for_100mm_ballistic_jump": 73.19064902141672
+    },
+    {
+      "height_mm": 183.84776310850236,
+      "bend_deg": 77.57265291020968,
+      "hip_deg": -33.899859258909814,
+      "knee_relative_deg": -102.42734708979032,
+      "oa_absolute_deg": -136.32720634870012,
+      "knee_vertical_arm_mm": 72.5065991181525,
+      "hip_horizontal_arm_mm": 183.84776310850236,
+      "knee_horizontal_arm_mm": 75.9459879409013,
+      "static_knee_Nm": 2.006523453920941,
+      "static_hip_Nm": 0.0,
+      "AC_force_per_vertical_wheel_force": 1.6499158227686108,
+      "AC_force_N": 45.65922047985912,
+      "hip_over_knee_rate": -0.4130917159763313,
+      "vertical_speed_at_120rpm_m_s": 0.9111447965054721,
+      "vertical_speed_at_200rpm_m_s": 1.5185746608424537,
+      "knee_rpm_for_1_m_s": 131.7024477999961,
+      "hip_rpm_for_1_m_s": 54.40519015998359,
+      "knee_rpm_for_100mm_ballistic_jump": 184.4774761109713,
+      "hip_rpm_for_100mm_ballistic_jump": 76.20611716566381
+    },
+    {
+      "height_mm": 200.0,
+      "bend_deg": 63.748786065044236,
+      "hip_deg": -28.089698368905484,
+      "knee_relative_deg": -116.25121393495576,
+      "oa_absolute_deg": -144.34091230386124,
+      "knee_vertical_arm_mm": 61.210925035895364,
+      "hip_horizontal_arm_mm": 200.0,
+      "knee_horizontal_arm_mm": 85.31249999999999,
+      "static_knee_Nm": 1.6939307347815116,
+      "static_hip_Nm": 0.0,
+      "AC_force_per_vertical_wheel_force": 1.5166666666666668,
+      "AC_force_N": 41.9717277525001,
+      "hip_over_knee_rate": -0.4265624999999999,
+      "vertical_speed_at_120rpm_m_s": 0.7691991696488176,
+      "vertical_speed_at_200rpm_m_s": 1.2819986160813628,
+      "knee_rpm_for_1_m_s": 156.006408658484,
+      "hip_rpm_for_1_m_s": 66.54648369338456,
+      "knee_rpm_for_100mm_ballistic_jump": 218.52037685858988,
+      "hip_rpm_for_100mm_ballistic_jump": 93.21259825374221
+    },
+    {
+      "height_mm": 215.0,
+      "bend_deg": 47.907485984208236,
+      "hip_deg": -21.247850325084485,
+      "knee_relative_deg": -132.09251401579178,
+      "oa_absolute_deg": -153.34036434087628,
+      "knee_vertical_arm_mm": 47.11239911479292,
+      "hip_horizontal_arm_mm": 215.00000000000003,
+      "knee_horizontal_arm_mm": 93.83720930232559,
+      "static_knee_Nm": 1.3037728281845375,
+      "static_hip_Nm": 0.0,
+      "AC_force_per_vertical_wheel_force": 1.4108527131782946,
+      "AC_force_N": 39.04346767674428,
+      "hip_over_knee_rate": -0.43645213628988644,
+      "vertical_speed_at_120rpm_m_s": 0.5920318678080949,
+      "vertical_speed_at_200rpm_m_s": 0.9867197796801582,
+      "knee_rpm_for_1_m_s": 202.69179165013733,
+      "hip_rpm_for_1_m_s": 88.46526547412701,
+      "knee_rpm_for_100mm_ballistic_jump": 283.91325124656714,
+      "hip_rpm_for_100mm_ballistic_jump": 123.91454502757149
+    }
+  ],
+  "V5_same_height_same_method": [
+    {
+      "height_mm": 100.0,
+      "V5_knee_Nm": 2.562076204082331,
+      "V6_knee_Nm": 2.258747956673801,
+      "knee_change_percent": -11.8391579034697,
+      "V5_hip_Nm": 0.22792414955397078,
+      "V6_hip_Nm": 0.23150237615787717
+    },
+    {
+      "height_mm": 120.0,
+      "V5_knee_Nm": 2.46222244704164,
+      "V6_knee_Nm": 2.1677383856832932,
+      "knee_change_percent": -11.960091652651828,
+      "V5_hip_Nm": 0.21884148071471543,
+      "V6_hip_Nm": 0.2219606209941105
+    },
+    {
+      "height_mm": 160.0,
+      "V5_knee_Nm": 2.1876238813778315,
+      "V6_knee_Nm": 1.8647037147712098,
+      "knee_change_percent": -14.761228808822334,
+      "V5_hip_Nm": 0.1939893634617107,
+      "V6_hip_Nm": 0.19033795561895772
+    },
+    {
+      "height_mm": 180.0,
+      "V5_knee_Nm": 2.002641672271821,
+      "V6_knee_Nm": 1.640972506766758,
+      "knee_change_percent": -18.05960449703322,
+      "V5_hip_Nm": 0.17730585510911112,
+      "V6_hip_Nm": 0.16706114891462676
+    },
+    {
+      "height_mm": 183.84776310850236,
+      "V5_knee_Nm": 1.9623958222858562,
+      "V6_knee_Nm": 1.5904785430898016,
+      "knee_change_percent": -18.952205002293287,
+      "V5_hip_Nm": 0.17368029481268366,
+      "V6_hip_Nm": 0.161813502153052
+    },
+    {
+      "height_mm": 200.0,
+      "V5_knee_Nm": 1.7732274129045322,
+      "V6_knee_Nm": 1.342608996868222,
+      "knee_change_percent": -24.284443884778472,
+      "V5_hip_Nm": 0.1566551470766342,
+      "V6_hip_Nm": 0.13607825000150342
+    },
+    {
+      "height_mm": 215.0,
+      "V5_knee_Nm": 1.560410737955209,
+      "V6_knee_Nm": 1.0332480440133907,
+      "knee_change_percent": -33.78358538038658,
+      "V5_hip_Nm": 0.13752814975731553,
+      "V6_hip_Nm": 0.10400763272855329
+    }
+  ],
+  "flat_driving": [
+    {
+      "acceleration_m_s2": 0.0,
+      "Crr_assumption": 0.02,
+      "height_mm": 180.0,
+      "wheel_torque_Nm": 0.027673666650000067,
+      "hip_absolute_sum_Nm": 0.2943600155046271,
+      "knee_absolute_sum_Nm": 1.7094263960773832,
+      "method": "Distributed static gravity plus conservative total-mass horizontal demand and wheel-housing couple; omits wheel/link inertias"
+    },
+    {
+      "acceleration_m_s2": 0.5,
+      "Crr_assumption": 0.02,
+      "height_mm": 180.0,
+      "wheel_torque_Nm": 0.09819779165000024,
+      "hip_absolute_sum_Nm": 0.6187709905046278,
+      "knee_absolute_sum_Nm": 1.8838756552787725,
+      "method": "Distributed static gravity plus conservative total-mass horizontal demand and wheel-housing couple; omits wheel/link inertias"
+    },
+    {
+      "acceleration_m_s2": 1.0,
+      "Crr_assumption": 0.02,
+      "height_mm": 180.0,
+      "wheel_torque_Nm": 0.1687219166500004,
+      "hip_absolute_sum_Nm": 0.9431819655046284,
+      "knee_absolute_sum_Nm": 2.0583249144801616,
+      "method": "Distributed static gravity plus conservative total-mass horizontal demand and wheel-housing couple; omits wheel/link inertias"
+    }
+  ],
+  "takeoff_speed_scenarios": [
+    {
+      "takeoff_leg_length_mm": 160.0,
+      "ideal_ballistic_rise_mm": 50.0,
+      "required_vertical_speed_m_s": 0.9904544411531507,
+      "knee_rpm": 111.26893623423985,
+      "hip_rpm": 42.866792328523054,
+      "exceeds_200rpm_no_load_limit": false,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 160.0,
+      "ideal_ballistic_rise_mm": 100.0,
+      "required_vertical_speed_m_s": 1.4007141035914503,
+      "knee_rpm": 157.3580386932891,
+      "hip_rpm": 60.62279908642825,
+      "exceeds_200rpm_no_load_limit": false,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 160.0,
+      "ideal_ballistic_rise_mm": 150.0,
+      "required_vertical_speed_m_s": 1.7155174146594956,
+      "knee_rpm": 192.72345086184504,
+      "hip_rpm": 74.24746227050571,
+      "exceeds_200rpm_no_load_limit": false,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 180.0,
+      "ideal_ballistic_rise_mm": 50.0,
+      "required_vertical_speed_m_s": 0.9904544411531507,
+      "knee_rpm": 126.43293326722875,
+      "hip_rpm": 51.7536042424883,
+      "exceeds_200rpm_no_load_limit": false,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 180.0,
+      "ideal_ballistic_rise_mm": 100.0,
+      "required_vertical_speed_m_s": 1.4007141035914503,
+      "knee_rpm": 178.80316895712735,
+      "hip_rpm": 73.1906490214167,
+      "exceeds_200rpm_no_load_limit": false,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 180.0,
+      "ideal_ballistic_rise_mm": 150.0,
+      "required_vertical_speed_m_s": 1.7155174146594956,
+      "knee_rpm": 218.9882641688055,
+      "hip_rpm": 89.63987202280192,
+      "exceeds_200rpm_no_load_limit": true,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 200.0,
+      "ideal_ballistic_rise_mm": 50.0,
+      "required_vertical_speed_m_s": 0.9904544411531507,
+      "knee_rpm": 154.51724030414883,
+      "hip_rpm": 65.91126031723846,
+      "exceeds_200rpm_no_load_limit": false,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 200.0,
+      "ideal_ballistic_rise_mm": 100.0,
+      "required_vertical_speed_m_s": 1.4007141035914503,
+      "knee_rpm": 218.52037685858988,
+      "hip_rpm": 93.21259825374221,
+      "exceeds_200rpm_no_load_limit": true,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 200.0,
+      "ideal_ballistic_rise_mm": 150.0,
+      "required_vertical_speed_m_s": 1.7155174146594956,
+      "knee_rpm": 267.6317108521152,
+      "hip_rpm": 114.16165166035536,
+      "exceeds_200rpm_no_load_limit": true,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 215.0,
+      "ideal_ballistic_rise_mm": 50.0,
+      "required_vertical_speed_m_s": 0.9904544411531507,
+      "knee_rpm": 200.75698522516763,
+      "hip_rpm": 87.62081507664159,
+      "exceeds_200rpm_no_load_limit": true,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 215.0,
+      "ideal_ballistic_rise_mm": 100.0,
+      "required_vertical_speed_m_s": 1.4007141035914503,
+      "knee_rpm": 283.91325124656714,
+      "hip_rpm": 123.91454502757149,
+      "exceeds_200rpm_no_load_limit": true,
+      "below_no_load_does_not_establish_loaded_torque": true
+    },
+    {
+      "takeoff_leg_length_mm": 215.0,
+      "ideal_ballistic_rise_mm": 150.0,
+      "required_vertical_speed_m_s": 1.7155174146594956,
+      "knee_rpm": 347.7212983843447,
+      "hip_rpm": 151.7637035133403,
+      "exceeds_200rpm_no_load_limit": true,
+      "below_no_load_does_not_establish_loaded_torque": true
+    }
+  ],
+  "landing_scenarios": [
+    {
+      "fall_height_mm": 50.0,
+      "stopping_stroke_mm": 30.0,
+      "end_leg_length_mm": 185.0,
+      "displacement_average_load_multiple": 2.666666666666667,
+      "knee_torque_at_average_force_Nm": 5.298012754643836,
+      "AC_force_at_average_N": 120.99957550270301,
+      "B_force_at_average_N": 187.01666037814877,
+      "note": "Displacement-average force times end-stroke arm; not a peak impact or time-average torque"
+    },
+    {
+      "fall_height_mm": 50.0,
+      "stopping_stroke_mm": 50.0,
+      "end_leg_length_mm": 164.99999999999997,
+      "displacement_average_load_multiple": 2.0,
+      "knee_torque_at_average_force_Nm": 4.577228516922288,
+      "AC_force_at_average_N": 101.74964303636389,
+      "B_force_at_average_N": 148.68264049066295,
+      "note": "Displacement-average force times end-stroke arm; not a peak impact or time-average torque"
+    },
+    {
+      "fall_height_mm": 50.0,
+      "stopping_stroke_mm": 80.0,
+      "end_leg_length_mm": 135.0,
+      "displacement_average_load_multiple": 1.625,
+      "knee_torque_at_average_force_Nm": 4.250240470797453,
+      "AC_force_at_average_N": 101.04304829305579,
+      "B_force_at_average_N": 135.91067429248278,
+      "note": "Displacement-average force times end-stroke arm; not a peak impact or time-average torque"
+    },
+    {
+      "fall_height_mm": 100.0,
+      "stopping_stroke_mm": 30.0,
+      "end_leg_length_mm": 185.0,
+      "displacement_average_load_multiple": 4.333333333333334,
+      "knee_torque_at_average_force_Nm": 8.609270726296234,
+      "AC_force_at_average_N": 196.6243101918924,
+      "B_force_at_average_N": 303.90207311449177,
+      "note": "Displacement-average force times end-stroke arm; not a peak impact or time-average torque"
+    },
+    {
+      "fall_height_mm": 100.0,
+      "stopping_stroke_mm": 50.0,
+      "end_leg_length_mm": 164.99999999999997,
+      "displacement_average_load_multiple": 3.0,
+      "knee_torque_at_average_force_Nm": 6.865842775383432,
+      "AC_force_at_average_N": 152.62446455454585,
+      "B_force_at_average_N": 223.02396073599445,
+      "note": "Displacement-average force times end-stroke arm; not a peak impact or time-average torque"
+    },
+    {
+      "fall_height_mm": 100.0,
+      "stopping_stroke_mm": 80.0,
+      "end_leg_length_mm": 135.0,
+      "displacement_average_load_multiple": 2.25,
+      "knee_torque_at_average_force_Nm": 5.884948344181089,
+      "AC_force_at_average_N": 139.9057591750003,
+      "B_force_at_average_N": 188.18401055882228,
+      "note": "Displacement-average force times end-stroke arm; not a peak impact or time-average torque"
+    },
+    {
+      "fall_height_mm": 200.0,
+      "stopping_stroke_mm": 30.0,
+      "end_leg_length_mm": 185.0,
+      "displacement_average_load_multiple": 7.666666666666667,
+      "knee_torque_at_average_force_Nm": 15.231786669601028,
+      "AC_force_at_average_N": 347.8737795702711,
+      "B_force_at_average_N": 537.6728985871777,
+      "note": "Displacement-average force times end-stroke arm; not a peak impact or time-average torque"
+    },
+    {
+      "fall_height_mm": 200.0,
+      "stopping_stroke_mm": 50.0,
+      "end_leg_length_mm": 164.99999999999997,
+      "displacement_average_load_multiple": 5.0,
+      "knee_torque_at_average_force_Nm": 11.443071292305719,
+      "AC_force_at_average_N": 254.37410759090974,
+      "B_force_at_average_N": 371.70660122665737,
+      "note": "Displacement-average force times end-stroke arm; not a peak impact or time-average torque"
+    },
+    {
+      "fall_height_mm": 200.0,
+      "stopping_stroke_mm": 80.0,
+      "end_leg_length_mm": 135.0,
+      "displacement_average_load_multiple": 3.5,
+      "knee_torque_at_average_force_Nm": 9.154364090948361,
+      "AC_force_at_average_N": 217.6311809388894,
+      "B_force_at_average_N": 292.73068309150136,
+      "note": "Displacement-average force times end-stroke arm; not a peak impact or time-average torque"
+    }
+  ],
+  "wheel_rated_speed_m_s": 0.6283185307179586,
+  "wheel_no_load_speed_m_s": 1.6755160819145563,
+  "limitations": [
+    "The supplied 24 V performance image is not a full 7 Nm torque-speed-duration envelope",
+    "Motor rotor and stator are treated as one rigid envelope for gravity; internal inertias are not modelled",
+    "Uniform-volume motor centres approximate unknown internal mass distribution",
+    "No thermal, peak-current-duration, voltage-sag, battery-discharge or free-balance verification",
+    "r=45 mm reduces linkage axial force; it does not itself reduce the motor-to-CW angular ratio",
+    "Wheel-housing torque acts on the CW body and therefore contributes to both motor coordinates",
+    "CAD beta-pose validation is kinematic only and does not establish its collision-free operating range"
+  ],
+  "native_validation": {
+    "heights_mm": [
+      100.0,
+      180.0,
+      215.0
+    ],
+    "beta_deg": [
+      -10,
+      0,
+      10
+    ],
+    "maximum_COM_error_mm": 9.800597115467527e-14,
+    "maximum_angle_error_deg": 2.842170943040401e-14,
+    "maximum_gravity_effort_error_Nm": 2.9753976921176317e-09,
+    "gravity_checks": [
+      {
+        "height_mm": 100.0,
+        "native_hip_Nm": -0.23150237535851656,
+        "native_knee_Nm": -2.2587479562219688,
+        "effort_error_Nm": 7.993606054856883e-10
+      },
+      {
+        "height_mm": 180.0,
+        "native_hip_Nm": -0.16706115117948173,
+        "native_knee_Nm": -1.640972507724995,
+        "effort_error_Nm": 2.2648549702353193e-09
+      },
+      {
+        "height_mm": 215.0,
+        "native_hip_Nm": -0.10400763570395098,
+        "native_knee_Nm": -1.0332480449757397,
+        "effort_error_Nm": 2.9753976921176317e-09
+      }
+    ],
+    "saved_document_modified": false,
+    "scope": "FreeCAD native Placement expressions applied to actual CAD-derived local centres, checked against independent analytic transforms and constrained gravity; does not establish collision clearance at beta ±10 degrees"
+  },
+  "formula_validation": {
+    "samples": 16,
+    "fk_central_difference_max_error_m_per_rad": 3.0083657787116636e-11,
+    "inverse_kinematics_max_error_m": 7.632783294297951e-17,
+    "parallelogram_vector_closure_error_m": 3.3480163086352377e-16,
+    "virtual_work_max_error_W": 6.407752384252063e-10,
+    "vertical_ik_derivative_max_error_rad_per_m": 5.067767062882922e-06,
+    "note": "Vector closure validates the chosen parallelogram algebra, not CAD tolerances or assembly accessibility.",
+    "V5_same_method_regression": [
+      {
+        "height_mm": 120.0,
+        "effort_error_Nm": 2.220446049250313e-10
+      },
+      {
+        "height_mm": 160.0,
+        "effort_error_Nm": 4.440892098500626e-10
+      },
+      {
+        "height_mm": 183.84776310850236,
+        "effort_error_Nm": 4.440892098500626e-10
+      },
+      {
+        "height_mm": 200.0,
+        "effort_error_Nm": 4.440892098500626e-10
+      },
+      {
+        "height_mm": 225.0,
+        "effort_error_Nm": 4.440892098500626e-10
+      }
+    ],
+    "point_payload_virtual_work_max_error_Nm": 9.653078336668841e-11
+  }
+}

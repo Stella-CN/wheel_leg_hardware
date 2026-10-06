@@ -1,0 +1,359 @@
+{
+  "status": "manufacturer_interface_confirmed; current two-piece coupling geometry locally verified; strength not validated",
+  "units": "mm",
+  "sources": [
+    {
+      "path": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/3D模型/DM-J4310-2EC-V1.1_3d_20260228_1.stp",
+      "sha256": "596fdb1d78232f4f4a30676451b2d03ee25be044e1de78c9396e3a454d86675e",
+      "pages_reviewed": null
+    },
+    {
+      "path": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/2D图纸/DM_J4310_V1.1 减速电机 Ver.B20230904.PDF",
+      "sha256": "d58268e0aab310e941f5e7d431b2b36593bca8d41fe3fa962b6c9469e47134aa",
+      "pages_reviewed": [
+        1
+      ]
+    },
+    {
+      "path": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/2D图纸/DM_J4310_V1.1 减速电机 标注.PDF",
+      "sha256": "74e51a06ef012ccf0e03b9f9d76e12a849388c37c93ecb4a38459759f3a22a03",
+      "pages_reviewed": [
+        1
+      ]
+    },
+    {
+      "path": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.1 减速电机使用说明书V1.2 2026-09-08.pdf",
+      "sha256": "3b27dffe4c0a2a5c5872a80dfb7eab1830399af86adafa2e130057779d9e0ee3",
+      "pages_reviewed": [
+        9
+      ]
+    },
+    {
+      "path": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.2 减速电机使用说明书 V1.3 2026-09-08.pdf",
+      "sha256": "c2600a1fba7a6453556f9c319d047a896c9c7249121763c806ced1fe85e65bcd",
+      "pages_reviewed": [
+        9
+      ]
+    }
+  ],
+  "coordinate_convention": {
+    "source": "Y motor axis; X=r*cos(theta), Z=r*sin(theta)",
+    "right_robot_transform": "rotation X=180 deg; Y translation hip=72.5, knee=139.5",
+    "source_to_robot_phase": "theta -> -theta modulo 360"
+  },
+  "motor_envelope": {
+    "outer_diameter": 57,
+    "rotor_output_diameter": 35,
+    "source_rotor_face_y": -0.5,
+    "source_front_stator_face_y": 0.5,
+    "source_rear_stator_face_y": 45.5,
+    "stator_body_length": 45,
+    "total_length": 46,
+    "rotor_projection_beyond_front_stator_face": 1,
+    "same_axis": true,
+    "same_front_face_height": false
+  },
+  "rotor_dowel_holes": {
+    "quantity": 3,
+    "nominal_diameter": 4,
+    "drawing_diameter_min": 4.02,
+    "drawing_diameter_max": 4.04,
+    "pcd": 24.3,
+    "source_phase_deg": [
+      30,
+      150,
+      270
+    ],
+    "right_robot_phase_deg": [
+      90,
+      210,
+      330
+    ],
+    "depth_from_step": 4,
+    "depth_explicitly_dimensioned_in_pdf": false,
+    "source_y_range": [
+      -0.5,
+      3.5
+    ],
+    "source_centers_xz": [
+      [
+        10.52220865598,
+        6.075
+      ],
+      [
+        -10.52220865598,
+        6.075
+      ],
+      [
+        0,
+        -12.15
+      ]
+    ],
+    "interpretation": "smooth round locating holes, distinct from six threaded rotor holes",
+    "proposed_pin_diameter": 4,
+    "proposed_projection_into_motor": 3,
+    "proposed_bottom_clearance": 1,
+    "whole_motor_void_probe": "source/motor_review/pin_insertion_probe.json",
+    "void_probe_diameter": 3.98,
+    "void_probe_insertion": 3,
+    "void_probe_collisions": 0,
+    "note": "Model nominal hole D4 omits drawing positive tolerance; machining must use drawing tolerance and physical pattern, not mesh face identity."
+  },
+  "rotor_fastener_holes": {
+    "quantity": 6,
+    "thread": "M3",
+    "pcd": 27,
+    "source_phase_deg": [
+      0,
+      60,
+      120,
+      180,
+      240,
+      300
+    ],
+    "depth": 5
+  },
+  "front_stator_fastener_holes": {
+    "quantity": 6,
+    "thread": "M3",
+    "pcd": 50,
+    "source_phase_deg": [
+      30,
+      90,
+      150,
+      210,
+      270,
+      330
+    ],
+    "depth": 5
+  },
+  "front_stator_dowel_holes": {
+    "quantity": 2,
+    "nominal_diameter": 3,
+    "drawing_diameter_min": 3.02,
+    "drawing_diameter_max": 3.04,
+    "pcd_from_step": 50,
+    "source_phase_deg": [
+      75,
+      255
+    ],
+    "depth": 5
+  },
+  "rear_stator_fastener_holes": {
+    "quantity": 4,
+    "thread": "M3",
+    "pcd": 38,
+    "source_phase_deg": [
+      45,
+      135,
+      225,
+      315
+    ],
+    "depth": 4,
+    "source_y_range": [
+      41.5,
+      45.5
+    ],
+    "not_to_confuse_with": "four larger outer motor-cover assembly screw recesses"
+  },
+  "version_crosscheck": {
+    "v11_manual_20260908_p9_matches_verB_drawing": true,
+    "v12_manual_20260908_p9_mounting_dimensions_match_v11": true,
+    "step_filename_version": "V1.1",
+    "interchangeability_beyond_these_mounting_dimensions": "not asserted"
+  },
+  "limits": [
+    "No manufacturer positional tolerances for the complete 3-pin pattern are given on the supplied sheet; verify physical motor pattern before pressing three close-fit dowels.",
+    "Do not increase manufacturer blind-hole engagement beyond its depth; retain machining and screw length tolerance margin.",
+    "Clearance and solid validity do not establish torque capacity, fatigue life, or PETG structural capacity.",
+    "The whole motor STEP is a multi-solid assembly; face numbers change by import route and should not be used as persistent identifiers."
+  ],
+  "candidate_rejected": [
+    {
+      "reason": "Superseded by D39 neck / D43 male spigot / D57 cup and four radial M3 screws. The old six-hole D39 socket candidate had 0.5156 mm cup ligament.",
+      "dimensions": {
+        "proposed_by": "root implementation planning",
+        "status": "candidate; not final geometry signoff",
+        "small_flange_od": 39,
+        "small_flange_y": [
+          72.2,
+          87.5
+        ],
+        "cup_od": 57,
+        "cup_y": [
+          80.5,
+          94
+        ],
+        "socket_diameter": 39.05,
+        "socket_y": [
+          80.5,
+          87.5
+        ],
+        "hip_rotor_face_y": 73,
+        "knee_rear_stator_face_y": 94,
+        "hip_mount_max_y": 80,
+        "cup_to_hip_mount_nominal_clearance": 0.5,
+        "radial_lock_quantity": 6,
+        "radial_lock_phase_deg": [
+          30,
+          90,
+          150,
+          210,
+          270,
+          330
+        ],
+        "radial_lock_center_y": 84,
+        "radial_lock_clearance_diameter": 3.4,
+        "radial_lock_counterbore_diameter": 5.8,
+        "radial_lock_head_seat_radius": 25.3,
+        "radial_lock_screw": "M3x10 socket head",
+        "small_flange_radial_tap": "M3x0.5",
+        "radial_tap_radius_range": [
+          14.5,
+          19.5
+        ],
+        "nominal_radial_thread_engagement": 4.2,
+        "radial_screw_tip_radius": 15.3,
+        "radial_tap_bottom_clearance": 0.8,
+        "hip_axial_screw": "M3x12",
+        "hip_axial_head_seat_y": 82,
+        "hip_axial_grip": 9,
+        "hip_axial_thread_engagement": 3,
+        "knee_axial_screw": "M3x6",
+        "knee_axial_head_seat_y": 91.5,
+        "knee_axial_grip": 2.5,
+        "knee_axial_thread_engagement": 3.5,
+        "pin_flange_embed_y": [
+          73,
+          79
+        ],
+        "pin_motor_insert_y": [
+          70,
+          73
+        ]
+      },
+      "review": {
+        "radial_counterbore_to_cup_front_edge_mm": 0.6,
+        "rear_screw_head_access_requires_four_axial_scallops": true,
+        "rear_screw_counterbore_axis_radius": 19,
+        "rear_screw_counterbore_radius": 2.9,
+        "rear_screw_access_max_radius": 21.9,
+        "minimum_cup_material_between_rear_access_and_radial_holes_mm": 0.5155969337700108,
+        "intersection_mm3": 0,
+        "evidence": "source/motor_review/candidate_cup_access_web.json",
+        "recommendation": "Do not silently retain a 0.516-mm internal knife edge as a qualified load path. Redesign access or deliberately relieve the thin web, then report remaining complete radial bearing wall. Full radial hole support outside R21.9 until head seat R25.3 is 3.4 mm geometrically; no load rating is inferred.",
+        "assembly_order": [
+          "Fasten the small flange to the hip rotor with locating pins inserted and the six axial M3 screws.",
+          "Fasten the cup flange to the knee rear stator using four axial M3 screws and modeled head/tool access.",
+          "Slide the cup over the small flange, align six radial locking holes, and install the six radial screws."
+        ]
+      },
+      "historical_evidence_preserved": "source/motor_review/candidate_cup_access_web.json"
+    }
+  ],
+  "current_two_piece_coupling": {
+    "source": "coupling_review.json",
+    "dimensions": {
+      "rotor_flange_diameter": 43,
+      "rotor_neck_diameter": 39,
+      "rotor_neck_y": [
+        72.2,
+        80.5
+      ],
+      "rotor_spigot_y": [
+        80.5,
+        87.5
+      ],
+      "rotor_flange_y": [
+        72.2,
+        87.5
+      ],
+      "rotor_register_diameter": 35.05,
+      "rotor_register_depth": 0.8,
+      "rotor_dowels": {
+        "count": 3,
+        "diameter": 4,
+        "pcd": 24.3,
+        "angles_deg": [
+          90,
+          210,
+          330
+        ],
+        "y": [
+          70,
+          79
+        ],
+        "motor_engagement": 3,
+        "flange_engagement": 6
+      },
+      "stator_cup_diameter": 57,
+      "stator_cup_y": [
+        80.5,
+        94
+      ],
+      "nesting_diameter": 43.05,
+      "nesting_depth": 7,
+      "radial_screws": {
+        "count": 4,
+        "angles_deg": [
+          15,
+          105,
+          195,
+          285
+        ],
+        "thread": "M3x0.5",
+        "nominal_screw_length": 8,
+        "head_seat_radius": 25.3,
+        "head_height": 3.0,
+        "tap_drill_diameter": 2.5,
+        "tap_drill_cylindrical_depth": 5,
+        "drill_point_included_angle": 118,
+        "full_thread_depth_min": 4.2,
+        "bottoming_tap_finish_required": true,
+        "engagement_in_male": 4.199999999999999
+      }
+    },
+    "minimum_geometric_webs": {
+      "cup_axial_tool_channel_to_radial_clearance_mm": 6.335699304464951,
+      "rotor_counterbore_to_radial_tap_mm": 1.2240031057226415
+    },
+    "collisions_over_0_001_mm3": [],
+    "hardware_outside_D57_envelope": [],
+    "driver_intersection_volumes_mm3": {
+      "knee_axial_driver_0": 0.0,
+      "knee_axial_driver_1": 0.0,
+      "knee_axial_driver_2": 0.0,
+      "knee_axial_driver_3": 0.0,
+      "hip_axial_driver_0": 0.0,
+      "hip_axial_driver_1": 0.0,
+      "hip_axial_driver_2": 0.0,
+      "hip_axial_driver_3": 0.0,
+      "hip_axial_driver_4": 0.0,
+      "hip_axial_driver_5": 0.0,
+      "radial_driver_0": 0.0,
+      "radial_driver_1": 0.0,
+      "radial_driver_2": 0.0,
+      "radial_driver_3": 0.0
+    },
+    "thread_model": "tapping drill in manufactured parts; only unengaged screw lengths in assembly",
+    "strength_validated": false,
+    "radial_tap_geometry": {
+      "outer_radius": 21.5,
+      "cylindrical_bottom_radius": 16.5,
+      "cylindrical_depth": 5,
+      "drill_diameter": 2.5,
+      "point_angle_deg": 118,
+      "tip_radial_length": 0.7510757737844503,
+      "screw_tip_radius": 17.3,
+      "cylindrical_bottom_clearance": 0.8,
+      "full_thread_depth_min": 4.2,
+      "note": "STEP has tap drills and conical drill points, no helical thread. Bottoming tap, gauge and actual screw fit are required."
+    },
+    "current_assembly_order": [
+      "Fit the three D4 locating pins to the hip rotor flange and fasten it to the hip rotor with six M3x12 screws.",
+      "Fasten the D57 cup to the knee rear stator with four M3x6 screws through its axial access channels.",
+      "Nest the D43 spigot in the D43.05 cup; align and fit four radial M3x8 screws at 15,105,195,285 degrees."
+    ],
+    "source_motor_coordinate_changes": "hip/knee translations remain 72.5/139.5; wheel position comes from finalized design_parameters.json and is outside this coupling review"
+  }
+}

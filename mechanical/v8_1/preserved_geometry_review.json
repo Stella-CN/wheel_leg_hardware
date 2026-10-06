@@ -1,0 +1,260 @@
+{
+  "all_pass": true,
+  "objects": [
+    {
+      "name": "hip_stator_mount_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "hip_stator_mount_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "knee_stator_cnc_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "knee_stator_cnc_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "OB_inner_carrier_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "OB_inner_carrier_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "OB_outer_shell_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "OB_outer_shell_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "OA_one_piece_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "OA_one_piece_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "AC_bearing_link_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "AC_bearing_link_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "CW_one_piece_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "CW_one_piece_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "wheel_rim_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "wheel_rim_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "J4310_hip_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "J4310_hip_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "J4310_knee_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "J4310_knee_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "H6215_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "H6215_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "elastic_tyre_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "elastic_tyre_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "H6215_stator_M3x8_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "H6215_stator_M3x8_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "H6215_stator_M3x8_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "H6215_stator_M3x8_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "H6215_stator_M3x8_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    },
+    {
+      "name": "H6215_stator_M3x8_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expressions_same": true,
+      "pass": true
+    }
+  ],
+  "parameters_unchanged": {
+    "rod_length": 130.0,
+    "lower_length": 105.0,
+    "crank_length": 45.0,
+    "leg_length": 180.0,
+    "beta_deg": 0.0,
+    "hip_stator_face_y": 72.0,
+    "hip_output_face_y": 73.0,
+    "hub_stator_face_y": 148.1,
+    "knee_motor_translation_y": 132.6,
+    "wheel_center_y": 174.1,
+    "wheel_track": 348.2
+  },
+  "allowed_changes": "Rotor-flange dowel blind depth, custom shaft internal threads, combined bushes, hardware and local body mounting details; not claimed unchanged.",
+  "scope": "Main five links per leg, hip seats, knee cups, rims, motors and tyres: volume, area, bounds, expressions. Exact source geometry retained for these objects."
+}

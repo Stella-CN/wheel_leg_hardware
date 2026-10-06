@@ -1,0 +1,29 @@
+{
+  "filename": "wheel_leg_assembly.stl",
+  "units": "mm",
+  "purpose": "assembled multi-shell reference; CNC uses cnc/*.step; individual PETG parts use print/*.stl",
+  "objects": 242,
+  "facets": 1723230,
+  "file_bytes": 86161584,
+  "dimensions_mm": [
+    235.16685485839844,
+    391.20001220703125,
+    318.8149108886719
+  ],
+  "coordinates": "X forward, Y lateral, Z up; hip axis at Z=0",
+  "linear_deflection_mm": 0.12,
+  "includes": [
+    "custom CNC structure",
+    "PETG electronics enclosure and trays",
+    "approximate payload envelopes",
+    "original motor STEP geometry",
+    "NSK626ZZ1 single per A/B/C, mechanically retained; not load rated",
+    "modelled joint fasteners and spacers",
+    "elastic tyre reference"
+  ],
+  "not_modelled": [
+    "unmodelled motor and chassis fasteners",
+    "cables",
+    "actual battery and controller"
+  ]
+}

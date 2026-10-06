@@ -1,0 +1,121 @@
+{
+  "units": "mm",
+  "right_leg_axial_direction": "+Y",
+  "joint_stacks": [
+    {
+      "name": "A",
+      "inner": [
+        150,
+        158
+      ],
+      "outer": [
+        174,
+        182
+      ],
+      "pin": [
+        148.5,
+        183.5
+      ],
+      "grooves": [
+        149,
+        182.2
+      ],
+      "ear_radius": 13,
+      "fork": "OA 双耳",
+      "tongue": "AC 活动舌",
+      "subtitle": "OA 两侧耳板 → 铜套 / 钢销 → AC 双轴承舌"
+    },
+    {
+      "name": "B",
+      "inner": [
+        139,
+        147
+      ],
+      "outer": [
+        184,
+        192
+      ],
+      "pin": [
+        137.5,
+        193.5
+      ],
+      "grooves": [
+        138,
+        192.2
+      ],
+      "ear_radius": 17,
+      "fork": "完整 OB 双板",
+      "tongue": "CW 活动舌",
+      "subtitle": "完整 OB 内 / 外板 → 铜套 / 钢销 → CW 双轴承舌"
+    },
+    {
+      "name": "C",
+      "inner": [
+        150,
+        158
+      ],
+      "outer": [
+        174,
+        182
+      ],
+      "pin": [
+        148.5,
+        183.5
+      ],
+      "grooves": [
+        149,
+        182.2
+      ],
+      "ear_radius": 13,
+      "fork": "CW 双耳",
+      "tongue": "AC 活动舌",
+      "subtitle": "CW 两侧耳板 → 铜套 / 钢销 → AC 双轴承舌"
+    }
+  ],
+  "bronze_sleeve": {
+    "outside_diameter": 8,
+    "inside_diameter": 6.05,
+    "length": 8
+  },
+  "tongue_span_y": [
+    159,
+    173
+  ],
+  "central_web_relief_diameter": 16.8,
+  "race_contact_hardware_outside_diameter": 8.4,
+  "race_contact_hardware_inside_diameter": 6.2,
+  "bearing_spans_y": [
+    [
+      159,
+      165
+    ],
+    [
+      167,
+      173
+    ]
+  ],
+  "inner_race_spacer_span_y": [
+    165,
+    167
+  ],
+  "race_washer_spans_y": [
+    [
+      158,
+      159
+    ],
+    [
+      173,
+      174
+    ]
+  ],
+  "B_extra_standoff_spans_y": [
+    [
+      147,
+      158
+    ],
+    [
+      174,
+      184
+    ]
+  ]
+}

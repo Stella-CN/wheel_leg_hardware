@@ -1,0 +1,11 @@
+{
+  "part": "dowel_D4_L9",
+  "quantity": 6,
+  "diameter_nominal_mm": 4,
+  "length_mm": 9,
+  "material": "steel locating dowel",
+  "motor_insertion_mm": 3,
+  "flange_insertion_mm": 6,
+  "fit": "Confirm fixed fit in CNC flange and removable fit in motor D4(+0.02/+0.04) holes",
+  "source": "motor_interface_review.json; full insertion checked in coupling_review.json"
+}

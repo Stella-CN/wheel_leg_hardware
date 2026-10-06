@@ -1,0 +1,36 @@
+{
+  "aliases": [
+    {
+      "canonical": "chassis_front_crossframe",
+      "instances": [
+        "chassis_front_crossframe",
+        "chassis_rear_crossframe"
+      ],
+      "quantity": 2,
+      "transform": "rotation180degrees_about_worldZ",
+      "symmetric_difference_mm3": 0.0,
+      "passed": true
+    },
+    {
+      "canonical": "shoulder_fairing_right",
+      "instances": [
+        "shoulder_fairing_right",
+        "shoulder_fairing_left"
+      ],
+      "quantity": 2,
+      "transform": "rotation180degrees_about_worldZ",
+      "symmetric_difference_mm3": 0.0,
+      "passed": true
+    }
+  ],
+  "source_hashes": {
+    "cad_v81_chassis.py": "77e8a94d61a4c7ba322da5c54e41e91ea94139933ad6cefec330a1b8461192be",
+    "cad_v81_payload.py": "f24964e22ecf4aa1764f95eb660760543a7a995d2e66f5ae19df2278d28ecddb",
+    "cad_v81_display.py": "3b470dbd68c9d608b80e734fd7358d899c37b44891c33ec7ebf16631017c6a02",
+    "cad_v81_battery.py": "2a67f62c7e2537ee2a0aef3f5c21423cf4af724e49d40569a179abf292258e8e",
+    "cad_v6_chassis.py": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b",
+    "cad_v6_jetson_mount.py": "465955c2eff340851ef9380ff2d76503026318f09a0466d4238e4e3478dcd5fa",
+    "cad_v7_payload.py": "78baeb7fdb1f7b9f1e71a4d1bc8541b61844f4c48a405faf72b76b4bb356ec29"
+  },
+  "note": "One manufacturing SKU, two assembly instances. Other mirrored parts remain separate."
+}

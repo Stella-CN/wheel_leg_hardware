@@ -1,0 +1,36 @@
+{
+  "filename": "wheel_leg_assembly.stl",
+  "units": "mm",
+  "purpose": "assembled multi-shell reference; CNC uses cnc/*.step; individual PETG parts use print/*.stl",
+  "objects": 273,
+  "mesh_objects": [
+    "D435_official_ROS_mesh"
+  ],
+  "facets": 2951880,
+  "file_bytes": 147594084,
+  "dimensions_mm": [
+    225.36573028564453,
+    393.20001220703125,
+    311.9794616699219
+  ],
+  "coordinates": "X forward, Y lateral, Z up; hip axis at Z=0",
+  "linear_deflection_mm": 0.12,
+  "includes": [
+    "custom CNC structure",
+    "PETG electronics enclosure and trays",
+    "original motor STEP geometry",
+    "NSK626ZZ1 single per A/B/C, mechanically retained; not load rated",
+    "modelled joint fasteners and spacers",
+    "elastic tyre reference",
+    "NVIDIA official developer-kit STEP solids",
+    "RealSense official D435 ROS visualization mesh",
+    "assumed 400g battery and unselected IMU envelopes"
+  ],
+  "not_modelled": [
+    "unmodelled motor and chassis fasteners",
+    "cables and connector plugs",
+    "actual battery and selected IMU geometry",
+    "power distribution and DC/DC hardware"
+  ],
+  "mesh_scope": "Assembly visualization; vendor camera mesh may contain open surfaces. Individual manufactured-part meshes validated separately."
+}

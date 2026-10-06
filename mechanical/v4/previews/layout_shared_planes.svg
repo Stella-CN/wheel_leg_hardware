@@ -1,0 +1,193 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1750" viewBox="0 0 1600 1750">
+<style>text{font-family:"PingFang SC","Noto Sans CJK SC",sans-serif}</style>
+<rect x="0" y="0" width="1600" height="1750" rx="0" fill="#f4f7fa" stroke="none"/>
+<text x="60" y="66" font-size="35" font-weight="650" fill="#24364b" text-anchor="start">V4 · 33 mm 共层布局与真实轴向剖面</text>
+<text x="60" y="107" font-size="20" font-weight="400" fill="#24364b" text-anchor="start">右腿 Y 坐标 / mm。紫色为 CNC 6061-T6；绿、红、青色为 PETG。轴承为 NSK 686AZZ1。</text>
+<rect x="60" y="138" width="1480" height="452" rx="12" fill="white" stroke="#d8e0e8"/>
+<rect x="1100" y="158" width="150" height="411" rx="6" fill="#e9e4f5" stroke="none"/>
+<text x="80" y="180" font-size="23" font-weight="650" fill="#24364b" text-anchor="start">各零件实际厚度区间</text>
+<line x1="425" y1="190" x2="425" y2="574" stroke="#d2dce6" stroke-width="1.5" stroke-dasharray="3 5"/>
+<text x="425" y="174" font-size="16" font-weight="500" fill="#24364b" text-anchor="middle">139</text>
+<line x1="575" y1="190" x2="575" y2="574" stroke="#d2dce6" stroke-width="1.5" stroke-dasharray="3 5"/>
+<text x="575" y="174" font-size="16" font-weight="500" fill="#24364b" text-anchor="middle">145</text>
+<line x1="750" y1="190" x2="750" y2="574" stroke="#d2dce6" stroke-width="1.5" stroke-dasharray="3 5"/>
+<text x="750" y="174" font-size="16" font-weight="500" fill="#24364b" text-anchor="middle">152</text>
+<line x1="775" y1="190" x2="775" y2="574" stroke="#d2dce6" stroke-width="1.5" stroke-dasharray="3 5"/>
+<text x="775" y="193" font-size="16" font-weight="500" fill="#24364b" text-anchor="middle">153</text>
+<line x1="1075" y1="190" x2="1075" y2="574" stroke="#d2dce6" stroke-width="1.5" stroke-dasharray="3 5"/>
+<text x="1075" y="174" font-size="16" font-weight="500" fill="#24364b" text-anchor="middle">165</text>
+<line x1="1100" y1="190" x2="1100" y2="574" stroke="#d2dce6" stroke-width="1.5" stroke-dasharray="3 5"/>
+<text x="1100" y="193" font-size="16" font-weight="500" fill="#24364b" text-anchor="middle">166</text>
+<line x1="1250" y1="190" x2="1250" y2="574" stroke="#d2dce6" stroke-width="1.5" stroke-dasharray="3 5"/>
+<text x="1250" y="174" font-size="16" font-weight="500" fill="#24364b" text-anchor="middle">172</text>
+<text x="80" y="240" font-size="19" font-weight="500" fill="#24364b" text-anchor="start">OB 完整内板</text>
+<rect x="425" y="215" width="150" height="31" rx="4" fill="#8acb83" stroke="#54677c"/>
+<text x="590" y="238" font-size="18" font-weight="400" fill="#24364b" text-anchor="start">139–145 / 厚 6</text>
+<text x="80" y="284" font-size="19" font-weight="500" fill="#24364b" text-anchor="start">C 内耳</text>
+<rect x="600" y="259" width="150" height="31" rx="4" fill="#77c9c6" stroke="#54677c"/>
+<text x="765" y="282" font-size="18" font-weight="400" fill="#24364b" text-anchor="start">146–152 / 厚 6</text>
+<text x="80" y="328" font-size="19" font-weight="500" fill="#24364b" text-anchor="start">A CNC 内耳</text>
+<rect x="675" y="303" width="75" height="31" rx="4" fill="#9185d1" stroke="#54677c"/>
+<text x="765" y="326" font-size="18" font-weight="400" fill="#24364b" text-anchor="start">149–152 / 厚 3</text>
+<text x="80" y="372" font-size="19" font-weight="500" fill="#24364b" text-anchor="start">AC / B 中央轴承舌</text>
+<rect x="775" y="347" width="300" height="31" rx="4" fill="#e58b87" stroke="#54677c"/>
+<text x="1090" y="370" font-size="18" font-weight="400" fill="#24364b" text-anchor="start">153–165 / 厚 12</text>
+<text x="80" y="416" font-size="19" font-weight="500" fill="#24364b" text-anchor="start">OB 完整外板</text>
+<rect x="1100" y="391" width="150" height="31" rx="4" fill="#8acb83" stroke="#54677c"/>
+<text x="1265" y="414" font-size="18" font-weight="400" fill="#24364b" text-anchor="start">166–172 / 厚 6</text>
+<text x="80" y="460" font-size="19" font-weight="500" fill="#24364b" text-anchor="start">CW 的 C 外帽</text>
+<rect x="1100" y="435" width="150" height="31" rx="4" fill="#77c9c6" stroke="#54677c"/>
+<text x="1265" y="458" font-size="18" font-weight="400" fill="#24364b" text-anchor="start">166–172 / 厚 6</text>
+<text x="80" y="504" font-size="19" font-weight="500" fill="#24364b" text-anchor="start">OA CNC 外耳</text>
+<rect x="1100" y="479" width="75" height="31" rx="4" fill="#9185d1" stroke="#54677c"/>
+<text x="1190" y="502" font-size="18" font-weight="400" fill="#24364b" text-anchor="start">166–169 / 厚 3</text>
+<text x="80" y="548" font-size="19" font-weight="500" fill="#24364b" text-anchor="start">OA CNC 中心盘</text>
+<rect x="1075" y="523" width="125" height="31" rx="4" fill="#9185d1" stroke="#54677c"/>
+<text x="1215" y="546" font-size="18" font-weight="400" fill="#24364b" text-anchor="start">165–170 / 厚 5</text>
+<text x="60" y="628" font-size="23" font-weight="650" fill="#24364b" text-anchor="start">同层 ≠ 相交：OB / OA / CW 外件在 XZ 平面各占不同位置；外耳无需再向外堆叠。</text>
+<text x="60" y="663" font-size="20" font-weight="400" fill="#24364b" text-anchor="start">OA 中心盘嵌入到 Y=165，沉孔底 Y=167，保留 2 mm 铝承压层；A 两耳各厚 3 mm。</text>
+<rect x="60" y="704" width="1480" height="258" rx="12" fill="white" stroke="#d8e0e8"/>
+<text x="80" y="748" font-size="27" font-weight="650" fill="#24364b" text-anchor="start">A 关节</text>
+<text x="80" y="780" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">OA 双耳夹 AC</text>
+<text x="80" y="810" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">Ø6 光轴 L23</text>
+<text x="80" y="841" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">铜套 L3 × 2</text>
+<text x="80" y="880" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">耳厚 3 + 中舌 12 + 耳厚 3</text>
+<line x1="375" y1="839" x2="1325" y2="839" stroke="#d3dce6" stroke-width="1.5" stroke-dasharray="5 6"/>
+<rect x="425" y="804" width="150" height="70" rx="4" fill="#8acb83" stroke="#536578"/>
+<text x="500" y="903" font-size="17" font-weight="500" fill="#24364b" text-anchor="middle">OB 内板</text>
+<text x="590" y="931" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">轴端已在 OB 之外，无需旧浅槽</text>
+<rect x="675" y="787" width="75" height="104" rx="4" fill="#9185d1" stroke="#536578"/>
+<rect x="675" y="822.9" width="75" height="32.2" rx="0" fill="white" stroke="none"/>
+<rect x="675" y="823" width="75" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="675" y="851.1" width="75" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="1100" y="787" width="75" height="104" rx="4" fill="#9185d1" stroke="#536578"/>
+<rect x="1100" y="822.9" width="75" height="32.2" rx="0" fill="white" stroke="none"/>
+<rect x="1100" y="823" width="75" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="1100" y="851.1" width="75" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="775" y="791" width="300" height="96" rx="5" fill="#e58b87" stroke="#536578"/>
+<rect x="775" y="812.7" width="300" height="52.6" rx="0" fill="white" stroke="none"/>
+<rect x="901.2500000000002" y="791" width="47.5" height="24.4" rx="0" fill="#e58b87" stroke="none"/>
+<rect x="901.2500000000002" y="862.6" width="47.5" height="24.4" rx="0" fill="#e58b87" stroke="none"/>
+<rect x="775" y="813.0" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="775" y="851" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="950" y="813.0" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="950" y="851" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="900" y="824.6" width="50" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="900" y="851.4" width="50" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="750" y="824.6" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="750" y="851.4" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1075" y="824.6" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1075" y="851.4" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="637.5" y="827" width="575" height="24" rx="2" fill="#8d9bac" stroke="#536578"/>
+<rect x="670.0000000000002" y="819" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="670.0000000000002" y="851.4" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1175" y="819" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1175" y="851.4" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="652.4999999999999" y="815" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<rect x="652.4999999999999" y="850.4" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<rect x="1179.9999999999998" y="815" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<rect x="1179.9999999999998" y="850.4" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<text x="712.5" y="918" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">149–152</text>
+<text x="925.0" y="918" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">5 + 2 + 5</text>
+<text x="1137.5" y="918" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">166–169</text>
+<text x="925" y="751" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">686AZZ1：6×13×5，双轴承</text>
+<text x="1350" y="819" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">内圈接触</text>
+<text x="1350" y="848" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">OD 7.2</text>
+<text x="1350" y="877" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">ID 6.2</text>
+<rect x="60" y="1014" width="1480" height="258" rx="12" fill="white" stroke="#d8e0e8"/>
+<text x="80" y="1058" font-size="27" font-weight="650" fill="#24364b" text-anchor="start">B 关节</text>
+<text x="80" y="1090" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">OB 两板夹 CW</text>
+<text x="80" y="1120" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">Ø6 光轴 L36</text>
+<text x="80" y="1151" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">铜套 L6 × 2</text>
+<text x="80" y="1190" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">耳厚 6 + 中舌 12 + 耳厚 6</text>
+<line x1="375" y1="1149" x2="1325" y2="1149" stroke="#d3dce6" stroke-width="1.5" stroke-dasharray="5 6"/>
+<rect x="425" y="1081" width="150" height="136" rx="4" fill="#8acb83" stroke="#536578"/>
+<rect x="425" y="1132.9" width="150" height="32.2" rx="0" fill="white" stroke="none"/>
+<rect x="425" y="1133" width="150" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="425" y="1161.1" width="150" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="1100" y="1081" width="150" height="136" rx="4" fill="#8acb83" stroke="#536578"/>
+<rect x="1100" y="1132.9" width="150" height="32.2" rx="0" fill="white" stroke="none"/>
+<rect x="1100" y="1133" width="150" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="1100" y="1161.1" width="150" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="775" y="1081" width="300" height="136" rx="5" fill="#77c9c6" stroke="#536578"/>
+<rect x="775" y="1122.7" width="300" height="52.6" rx="0" fill="white" stroke="none"/>
+<rect x="901.2500000000002" y="1081" width="47.5" height="44.4" rx="0" fill="#77c9c6" stroke="none"/>
+<rect x="901.2500000000002" y="1172.6" width="47.5" height="44.4" rx="0" fill="#77c9c6" stroke="none"/>
+<rect x="775" y="1123.0" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="775" y="1161" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="950" y="1123.0" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="950" y="1161" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="900" y="1134.6" width="50" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="900" y="1161.4" width="50" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="750" y="1134.6" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="750" y="1161.4" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1075" y="1134.6" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1075" y="1161.4" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="575" y="1129" width="175" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="575" y="1161.4" width="175" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="387.5" y="1137" width="900" height="24" rx="2" fill="#8d9bac" stroke="#536578"/>
+<rect x="420.0000000000003" y="1129" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="420.0000000000003" y="1161.4" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1250" y="1129" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1250" y="1161.4" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="402.4999999999999" y="1125" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<rect x="402.4999999999999" y="1160.4" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<rect x="1254.9999999999998" y="1125" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<rect x="1254.9999999999998" y="1160.4" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<text x="500.0" y="1244" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">139–145</text>
+<text x="925.0" y="1244" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">5 + 2 + 5</text>
+<text x="1175.0" y="1244" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">166–172</text>
+<text x="925" y="1061" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">686AZZ1：6×13×5，双轴承</text>
+<text x="662.5" y="1235" font-size="17" font-weight="400" fill="#24364b" text-anchor="middle">7 mm 隔套</text>
+<text x="1350" y="1129" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">内圈接触</text>
+<text x="1350" y="1158" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">OD 7.2</text>
+<text x="1350" y="1187" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">ID 6.2</text>
+<rect x="60" y="1324" width="1480" height="258" rx="12" fill="white" stroke="#d8e0e8"/>
+<text x="80" y="1368" font-size="27" font-weight="650" fill="#24364b" text-anchor="start">C 关节</text>
+<text x="80" y="1400" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">CW 双耳夹 AC</text>
+<text x="80" y="1430" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">Ø6 光轴 L29</text>
+<text x="80" y="1461" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">铜套 L6 × 2</text>
+<text x="80" y="1500" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">耳厚 6 + 中舌 12 + 耳厚 6</text>
+<line x1="375" y1="1459" x2="1325" y2="1459" stroke="#d3dce6" stroke-width="1.5" stroke-dasharray="5 6"/>
+<rect x="600" y="1411" width="150" height="96" rx="4" fill="#77c9c6" stroke="#536578"/>
+<rect x="600" y="1442.9" width="150" height="32.2" rx="0" fill="white" stroke="none"/>
+<rect x="600" y="1443" width="150" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="600" y="1471.1" width="150" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="1100" y="1411" width="150" height="96" rx="4" fill="#77c9c6" stroke="#536578"/>
+<rect x="1100" y="1442.9" width="150" height="32.2" rx="0" fill="white" stroke="none"/>
+<rect x="1100" y="1443" width="150" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="1100" y="1471.1" width="150" height="3.9000000000000004" rx="0" fill="#c79b56" stroke="#576878"/>
+<rect x="775" y="1411" width="300" height="96" rx="5" fill="#e58b87" stroke="#536578"/>
+<rect x="775" y="1432.7" width="300" height="52.6" rx="0" fill="white" stroke="none"/>
+<rect x="901.2500000000002" y="1411" width="47.5" height="24.4" rx="0" fill="#e58b87" stroke="none"/>
+<rect x="901.2500000000002" y="1482.6" width="47.5" height="24.4" rx="0" fill="#e58b87" stroke="none"/>
+<rect x="775" y="1433.0" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="775" y="1471" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="950" y="1433.0" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="950" y="1471" width="125" height="14.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="900" y="1444.6" width="50" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="900" y="1471.4" width="50" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="750" y="1444.6" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="750" y="1471.4" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1075" y="1444.6" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1075" y="1471.4" width="25" height="2.0" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="562.5" y="1447" width="725" height="24" rx="2" fill="#8d9bac" stroke="#536578"/>
+<rect x="595.0000000000002" y="1439" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="595.0000000000002" y="1471.4" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1250" y="1439" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="1250" y="1471.4" width="4.999999999999716" height="7.6" rx="0" fill="#aeb8c3" stroke="#576878"/>
+<rect x="577.4999999999999" y="1435" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<rect x="577.4999999999999" y="1470.4" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<rect x="1254.9999999999998" y="1435" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<rect x="1254.9999999999998" y="1470.4" width="17.499999999999716" height="12.6" rx="0" fill="#57687b" stroke="#576878"/>
+<text x="675.0" y="1534" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">146–152</text>
+<text x="925.0" y="1534" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">5 + 2 + 5</text>
+<text x="1175.0" y="1534" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">166–172</text>
+<text x="925" y="1371" font-size="18" font-weight="500" fill="#24364b" text-anchor="middle">686AZZ1：6×13×5，双轴承</text>
+<text x="1350" y="1439" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">内圈接触</text>
+<text x="1350" y="1468" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">OD 7.2</text>
+<text x="1350" y="1497" font-size="17" font-weight="400" fill="#24364b" text-anchor="start">ID 6.2</text>
+<text x="60" y="1641" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">坐标与比例说明：轴向按同一比例绘制，径向为清晰显示而放大；挡圈为安装包络，不是采购件加工图。</text>
+<text x="60" y="1683" font-size="19" font-weight="400" fill="#24364b" text-anchor="start">中央止肩孔 Ø11.8，内圈隔套/垫片 Ø7.2；不得用旧 626 的大垫片压到小轴承防尘盖。</text>
+<text x="60" y="1723" font-size="19" font-weight="400" fill="#66788c" text-anchor="start">完整零件外形与所有紧固细节见 FCStd / STEP；此图用于理解承载层面和装配次序。</text>
+</svg>

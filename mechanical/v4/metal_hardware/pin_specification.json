@@ -1,0 +1,44 @@
+[
+  {
+    "part": "ground_pin_D6_L23",
+    "quantity": 2,
+    "diameter_nominal": 6,
+    "fit": "g6 recommended; confirm actual fit",
+    "length": 23,
+    "groove_start_from_end": 0.5,
+    "end_land_min": 0.5,
+    "groove_width": 0.8,
+    "groove_diameter": 5.7,
+    "groove_diameter_tolerance": "0/-0.04",
+    "groove_width_tolerance": "+0.10/0",
+    "ring": "steel STWN6 / DIN471-6 t0.7"
+  },
+  {
+    "part": "ground_pin_D6_L29",
+    "quantity": 2,
+    "diameter_nominal": 6,
+    "fit": "g6 recommended; confirm actual fit",
+    "length": 29,
+    "groove_start_from_end": 0.5,
+    "end_land_min": 0.5,
+    "groove_width": 0.8,
+    "groove_diameter": 5.7,
+    "groove_diameter_tolerance": "0/-0.04",
+    "groove_width_tolerance": "+0.10/0",
+    "ring": "steel STWN6 / DIN471-6 t0.7"
+  },
+  {
+    "part": "ground_pin_D6_L36",
+    "quantity": 2,
+    "diameter_nominal": 6,
+    "fit": "g6 recommended; confirm actual fit",
+    "length": 36,
+    "groove_start_from_end": 0.5,
+    "end_land_min": 0.5,
+    "groove_width": 0.8,
+    "groove_diameter": 5.7,
+    "groove_diameter_tolerance": "0/-0.04",
+    "groove_width_tolerance": "+0.10/0",
+    "ring": "steel STWN6 / DIN471-6 t0.7"
+  }
+]

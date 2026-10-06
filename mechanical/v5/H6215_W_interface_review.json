@@ -1,0 +1,84 @@
+{
+  "source_step": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/3D\u6a21\u578b/6215_\u8f6e\u6bc2\u7535\u673a3D\u6a21\u578b20240821.stp",
+  "source_sha256": "a299d68f3efaf03a3b4c9a2d3e3ff373c1c78db477a86509a64b4ca2b5cb9253",
+  "raw_motor_bounds_y_mm": [
+    -2.5,
+    42
+  ],
+  "cavity": {
+    "diameter_mm": 12.9,
+    "y_mm": [
+      35.25,
+      42
+    ],
+    "kind": "recess, not a boss protruding beyond mounting face"
+  },
+  "native_radial_outlet": {
+    "x_mm": [
+      -3.25,
+      3.25
+    ],
+    "y_mm": [
+      38.25,
+      42
+    ],
+    "radial_direction": "+Z",
+    "width_mm": 6.5,
+    "axial_depth_mm": 3.75
+  },
+  "mounted_radial_outlet": {
+    "face_y_mm": 147.1,
+    "radial_direction": "-Z from W",
+    "y_range_mm": [
+      147.1,
+      150.85
+    ]
+  },
+  "clearance_probe": {
+    "width_x_mm": 6.4,
+    "axial_depth_y_mm": 3.65,
+    "radial_extent_from_W_mm": [
+      0,
+      18
+    ],
+    "margin_to_housing_slot_each_side_mm": 0.05,
+    "real_step_intersection_mm3": 0.0,
+    "candidate_CW_intersection_mm3": 0.0
+  },
+  "candidate_CW": {
+    "valid": true,
+    "solids": 1,
+    "motor_intersection_mm3": 0.0,
+    "added_volume_mm3": 1079.4664947816782,
+    "face_y_mm": 147.1
+  },
+  "bolt_seats": [
+    {
+      "index": 0,
+      "annular_probe_volume_mm3": 0.1467909167389937,
+      "old_contact_mm3": 0.13480157768806694,
+      "new_contact_mm3": 0.1467909167389937,
+      "new_support_fraction": 1.0
+    },
+    {
+      "index": 1,
+      "annular_probe_volume_mm3": 0.14679091673899378,
+      "old_contact_mm3": 0.1348015776881374,
+      "new_contact_mm3": 0.14679091673899378,
+      "new_support_fraction": 1.0
+    },
+    {
+      "index": 2,
+      "annular_probe_volume_mm3": 0.14679091673899375,
+      "old_contact_mm3": 0.1348015776880112,
+      "new_contact_mm3": 0.14679091673899375,
+      "new_support_fraction": 1.0
+    }
+  ],
+  "leg_source_sha256": "307f6673125dda29f26f4fe6a7e96fa4618e5c085840a1b6c3c6f5a5b715c4a0",
+  "limits": [
+    "Cable diameter, connector envelope and minimum bend radius are not dimensioned in the supplied material.",
+    "Probe documents unused space in the original stator slot; it is not a modeled cable or proof of bending/service-loop fit.",
+    "Keep mounting face, wheel track, all other leg solids and hardware unchanged."
+  ]
+}

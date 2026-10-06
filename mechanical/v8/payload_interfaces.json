@@ -1,0 +1,218 @@
+{
+  "units": "mm",
+  "status": "Official Jetson STEP solids + official D435 ROS mesh; camera analytic clearance volume checked independently",
+  "jetson": {
+    "mass_g": 175,
+    "ports_facing": "+X",
+    "forward_plug_allowance": 35,
+    "source": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/orin_nano/docs/jetson_orin_nano_devkit_3d_step_model.zip/",
+    "model_revision": "20230320, P3766-P3768SKU4-P3767ENVELOPE",
+    "model_dimensions_mm": [
+      103.379004121345,
+      91.052502061514,
+      34.90451112444
+    ],
+    "mounting_bottom_plane_z_mm": 33,
+    "top_z_mm": 67.766,
+    "vertical_translation_mm": 37.9,
+    "source_solids": 1393,
+    "mounting": "Retain original plastic base; removable perimeter retention and tray, not assumed through-base holes",
+    "placed_BRep_bounds_xyz_mm": [
+      -70.52625103033625,
+      -51.68950206067251,
+      32.86148887556,
+      20.5262510311781,
+      51.68950206067251,
+      67.766
+    ],
+    "placed_BRep_dimensions_xyz_mm": [
+      91.05250206151436,
+      103.37900412134502,
+      34.904511124440006
+    ],
+    "bounds_basis": "Conservative bounds of installed official solid BRep; actual foot datum, not control-box minimum, is on trayZ33."
+  },
+  "d435": {
+    "envelope_dimensions": [
+      90.15,
+      25.15,
+      25.05
+    ],
+    "mass_g": 75,
+    "rear_mount_pitch": 45,
+    "rear_thread": "M3x0.5",
+    "manufacturer_max_insertion": 3,
+    "selected_screw": "M3x6 with 1mm removable metal shim",
+    "bracket_grip": 4,
+    "nominal_insertion": 2,
+    "manufacturer_recommended_mounting_torque_Nm": 0.4,
+    "source": "https://realsenseai.com/wp-content/uploads/2025/09/Intel-RealSense-D400-Series-Datasheet-October-2025.pdf",
+    "rear_mounting_plane_x": 91.95,
+    "center_z": 61,
+    "chassis_bracket_holes_z": [
+      53.5,
+      69.5
+    ],
+    "bracket_contact_plane_x": 90.95,
+    "model_drawing_difference": "2018 official ROS mesh depth25.05 versus 2025 manufacturer drawing26.05; no mesh scaling used",
+    "alternate_current_drawing_configuration": "Remove1mm shims and selectM3x5 for26.05mm-deep camera; nominal engagement2mm. Measure supplied hardware before installation.",
+    "official_CAD_source": "https://dev.realsenseai.com/download/41950",
+    "official_CAD_format": "D435_Solid.SLDPRT; retained as supplied, not read by this FreeCAD installation",
+    "assembly_visual_source": "https://github.com/realsenseai/realsense-ros/blob/ros2-master/realsense2_description/meshes/d435.dae",
+    "model_in_FCStd_and_STL": "Official ROS mesh, original metres converted to mm; not a reverse-engineered box",
+    "STEP_representation": "Conservative analytic clearance volume; official SolidWorks source provided separately",
+    "front_face_x": 117,
+    "bracket_grip_stack": "3mm PETG plus1mm removable metal shim for25.05mm camera",
+    "alternate_26p05_rear_mounting_plane_x": 90.95
+  },
+  "battery": {
+    "mass_g": 400,
+    "dimensions_assumed": [
+      110,
+      50,
+      35
+    ]
+  },
+  "imu": {
+    "model": "HI13R2-USB-000",
+    "vendor_family_STEP": "HI13XX-USB.STEP",
+    "datasheet_revision": "1.5, 2026-03-14",
+    "source_STEP_file_date": "2026-03-16",
+    "source_STEP_sha256": "567f8fdfa9e1f4827b2d41bca9dce2127b86db4c251c0d58d586d6a56d4821f8",
+    "source_STEP_solids": 2,
+    "manufacturer_envelope_mm": [
+      26,
+      24,
+      12
+    ],
+    "main_housing_mm": [
+      24,
+      24,
+      12
+    ],
+    "source_STEP_IMU_point_mm": [
+      -40.00155697274189,
+      1.47316173360338,
+      0.0
+    ],
+    "robot_IMU_point_mm": [
+      0.0,
+      0.0,
+      85.0
+    ],
+    "robot_mounting_plane_z_mm": 79.0,
+    "mass_budget_g": 11.0,
+    "mass_basis": "Manufacturer specifies <11g; use11g conservative purchased-component mass.",
+    "mounting": {
+      "hole_centres_XY_mm": [
+        [
+          10.1,
+          -10.1
+        ],
+        [
+          -10.1,
+          10.1
+        ]
+      ],
+      "bore_diameter_mm": 2.6,
+      "bore_range_mm": [
+        2.55,
+        2.65
+      ],
+      "hole_pitch_XY_mm": [
+        20.2,
+        20.2
+      ],
+      "pitch_range_mm": [
+        20.0,
+        20.4
+      ],
+      "screw_nominal": "M2.5",
+      "screw_head_seat_z_mm": 89.4,
+      "head_corner_relief_radius_mm": 2.3,
+      "bridge_3mm_fastener_example": "M2.5x16, bridge clearance2.7mm, underside nut2mm; verify actual head/nut dimensions.",
+      "front_2xM2": "Type-C locking plate holes, 15mm pitch; not the vertical mounting holes."
+    },
+    "origin_evidence": {
+      "page": 17,
+      "figure": "9: HI13 mechanical dimensions and IMU position",
+      "nominal": "Red IMU dot: D4=12,E3=12,A3=6 from body datum edges/bottom.",
+      "dimension_table_ranges_mm": {
+        "D4": [
+          11.8,
+          12.2
+        ],
+        "E3": [
+          11.8,
+          12.2
+        ],
+        "A3": [
+          5.8,
+          6.2
+        ]
+      },
+      "limit": "Published nominal module datum, not per-unit calibrated die-centre metrology; assembly and sensor extrinsic calibration remain required."
+    },
+    "orientation": {
+      "type_c_exit_robot_axis": "-X",
+      "vendor_default_body_axes": "RFU: Right/Forward/Up",
+      "sensor_X_in_robot": [
+        0,
+        1,
+        0
+      ],
+      "sensor_Y_in_robot": [
+        -1,
+        0,
+        0
+      ],
+      "sensor_Z_in_robot": [
+        0,
+        0,
+        1
+      ],
+      "sensor_vector_to_robot_matrix": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "proper_rotation_determinant": 1,
+      "note": "Directions refer to existing numerical CAD axes. Matrix must be applied to raw vectors; attitude conversion needs explicit frame convention. No reflections."
+    },
+    "interface": {
+      "type": "USB Type-C, internal UART bridge",
+      "supply_V": [
+        4.5,
+        5.5
+      ],
+      "typical_power_mW": 300
+    },
+    "sensor_configuration": "R2 has accelerometer+gyroscope, no magnetometer, no barometer.",
+    "mounting_guidance": "Rigid flat mounting; avoid concentrated heat and cable stress; validate vibration on assembled robot. Do not add unqualified soft isolation in control IMU path.",
+    "usb_keep_out": "Design allowance20x12x9mm only, not measured cable geometry."
+  },
+  "manufacturing": "PETG camera bracket uses captive metal M3 nuts. No printed load-bearing leg joints.",
+  "limits": "Display active area, mass, casing front-rim contact, plugs and cable geometry await physical measurement. Jetson and HI13R2 use official solid CAD; D435 uses official ROS mesh in FCStd/STL and an analysis envelope in STEP; display/battery are dimensional envelopes.",
+  "display": {
+    "file": "display_interface.json",
+    "size_inches": 5,
+    "mass_assumption_g": 200,
+    "mass_sensitivity_range_g": [
+      100,
+      350
+    ],
+    "mass_source": "Not supplied; engineering scenarios only"
+  }
+}

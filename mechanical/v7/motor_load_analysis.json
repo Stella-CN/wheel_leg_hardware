@@ -1,0 +1,4091 @@
+{
+  "version": "V7",
+  "geometry_mm": {
+    "OB": 130,
+    "AC": 130,
+    "BW": 105,
+    "OA": 45,
+    "BC": 45
+  },
+  "nominal_leg_length_mm": 180.0,
+  "mass_kg": 6.267823000000007,
+  "motor_specs": {
+    "J4310": {
+      "voltage_V": 24,
+      "driver_version": "V1.1",
+      "rated_Nm": 3,
+      "peak_Nm": 7,
+      "rated_rpm": 120,
+      "no_load_rpm": 200
+    },
+    "H6215": {
+      "voltage_V": 24,
+      "rated_Nm": 1,
+      "peak_Nm": 2
+    }
+  },
+  "nominal": {
+    "leg_length_mm": 180.0,
+    "bend_deg": 80.56553321384833,
+    "hip_deg": -35.13066242227375,
+    "knee_relative_deg": -99.43446678615167,
+    "hip_gravity_Nm": -0.16706115291142964,
+    "knee_gravity_Nm": -1.8706321975869855,
+    "hip_magnitude_Nm": 0.16706115291142964,
+    "knee_magnitude_Nm": 1.8706321975869855,
+    "knee_rated_utilization": 0.6235440658623285,
+    "knee_with_25_percent_allowance_Nm": 2.338290246983732,
+    "finite_difference_convergence_Nm": 1.4210852494755954e-09
+  },
+  "worst_sample": {
+    "leg_length_mm": 100.0,
+    "bend_deg": 131.04058118926147,
+    "hip_deg": -52.36877004133025,
+    "knee_relative_deg": -48.959418810738526,
+    "hip_gravity_Nm": -0.23150237682401098,
+    "knee_gravity_Nm": -2.5748185104035315,
+    "hip_magnitude_Nm": 0.23150237682401098,
+    "knee_magnitude_Nm": 2.5748185104035315,
+    "knee_rated_utilization": 0.8582728368011772,
+    "knee_with_25_percent_allowance_Nm": 3.2185231380044144,
+    "finite_difference_convergence_Nm": 1.4876988807532854e-09
+  },
+  "distributed_gravity": {
+    "rows": [
+      {
+        "leg_length_mm": 100.0,
+        "bend_deg": 131.04058118926147,
+        "hip_deg": -52.36877004133025,
+        "knee_relative_deg": -48.959418810738526,
+        "hip_gravity_Nm": -0.23150237682401098,
+        "knee_gravity_Nm": -2.5748185104035315,
+        "hip_magnitude_Nm": 0.23150237682401098,
+        "knee_magnitude_Nm": 2.5748185104035315,
+        "knee_rated_utilization": 0.8582728368011772,
+        "knee_with_25_percent_allowance_Nm": 3.2185231380044144,
+        "finite_difference_convergence_Nm": 1.4876988807532854e-09
+      },
+      {
+        "leg_length_mm": 101.0,
+        "bend_deg": 130.483630248326,
+        "hip_deg": -52.25227864285744,
+        "knee_relative_deg": -49.51636975167402,
+        "hip_gravity_Nm": -0.23112930236379725,
+        "knee_gravity_Nm": -2.570773575572005,
+        "hip_magnitude_Nm": 0.23112930236379725,
+        "knee_magnitude_Nm": 2.570773575572005,
+        "knee_rated_utilization": 0.8569245251906684,
+        "knee_with_25_percent_allowance_Nm": 3.2134669694650064,
+        "finite_difference_convergence_Nm": 1.3100631690576847e-09
+      },
+      {
+        "leg_length_mm": 102.0,
+        "bend_deg": 129.92578914252428,
+        "hip_deg": -52.13241981398486,
+        "knee_relative_deg": -50.074210857475734,
+        "hip_gravity_Nm": -0.23074457078386956,
+        "knee_gravity_Nm": -2.5666007483771125,
+        "hip_magnitude_Nm": 0.23074457078386956,
+        "knee_magnitude_Nm": 2.5666007483771125,
+        "knee_rated_utilization": 0.8555335827923708,
+        "knee_with_25_percent_allowance_Nm": 3.2082509354713906,
+        "finite_difference_convergence_Nm": 7.771561449931852e-10
+      },
+      {
+        "leg_length_mm": 103.0,
+        "bend_deg": 129.3670273417947,
+        "hip_deg": -52.009269478942734,
+        "knee_relative_deg": -50.63297265820528,
+        "hip_gravity_Nm": -0.2303483392918082,
+        "knee_gravity_Nm": -2.5623017423370698,
+        "hip_magnitude_Nm": 0.2303483392918082,
+        "knee_magnitude_Nm": 2.5623017423370698,
+        "knee_rated_utilization": 0.8541005807790233,
+        "knee_with_25_percent_allowance_Nm": 3.202877177921337,
+        "finite_difference_convergence_Nm": 4.174438572590589e-09
+      },
+      {
+        "leg_length_mm": 104.0,
+        "bend_deg": 128.80731439100683,
+        "hip_deg": -51.882899954803,
+        "knee_relative_deg": -51.19268560899317,
+        "hip_gravity_Nm": -0.22994075110638335,
+        "knee_gravity_Nm": -2.557878175935002,
+        "hip_magnitude_Nm": 0.22994075110638335,
+        "knee_magnitude_Nm": 2.557878175935002,
+        "knee_rated_utilization": 0.8526260586450007,
+        "knee_with_25_percent_allowance_Nm": 3.1973477199187528,
+        "finite_difference_convergence_Nm": 3.530509218307998e-09
+      },
+      {
+        "leg_length_mm": 105.0,
+        "bend_deg": 128.24661987834497,
+        "hip_deg": -51.75338012165502,
+        "knee_relative_deg": -51.75338012165501,
+        "hip_gravity_Nm": -0.22952195388725727,
+        "knee_gravity_Nm": -2.553331515331436,
+        "hip_magnitude_Nm": 0.22952195388725727,
+        "knee_magnitude_Nm": 2.553331515331436,
+        "knee_rated_utilization": 0.8511105051104787,
+        "knee_with_25_percent_allowance_Nm": 3.1916643941642953,
+        "finite_difference_convergence_Nm": 2.9976021942434983e-09
+      },
+      {
+        "leg_length_mm": 106.0,
+        "bend_deg": 127.68491340472299,
+        "hip_deg": -51.620775582027875,
+        "knee_relative_deg": -52.315086595277,
+        "hip_gravity_Nm": -0.22909205976695546,
+        "knee_gravity_Nm": -2.548663153634223,
+        "hip_magnitude_Nm": 0.22909205976695546,
+        "knee_magnitude_Nm": 2.548663153634223,
+        "knee_rated_utilization": 0.849554384544741,
+        "knee_with_25_percent_allowance_Nm": 3.1858289420427788,
+        "finite_difference_convergence_Nm": 3.042011087472929e-09
+      },
+      {
+        "leg_length_mm": 107.0,
+        "bend_deg": 127.12216455411507,
+        "hip_deg": -51.48514881030389,
+        "knee_relative_deg": -52.87783544588492,
+        "hip_gravity_Nm": -0.22865120219428547,
+        "knee_gravity_Nm": -2.543874374261179,
+        "hip_magnitude_Nm": 0.22865120219428547,
+        "knee_magnitude_Nm": 2.543874374261179,
+        "knee_rated_utilization": 0.8479581247537263,
+        "knee_with_25_percent_allowance_Nm": 3.179842967826474,
+        "finite_difference_convergence_Nm": 2.5091040634084294e-09
+      },
+      {
+        "leg_length_mm": 108.0,
+        "bend_deg": 126.55834286469681,
+        "hip_deg": -51.34655929280642,
+        "knee_relative_deg": -53.44165713530318,
+        "hip_gravity_Nm": -0.22819947420593678,
+        "knee_gravity_Nm": -2.538966346499194,
+        "hip_magnitude_Nm": 0.22819947420593678,
+        "knee_magnitude_Nm": 2.538966346499194,
+        "knee_rated_utilization": 0.8463221154997314,
+        "knee_with_25_percent_allowance_Nm": 3.1737079331239926,
+        "finite_difference_convergence_Nm": 2.5313084683897813e-09
+      },
+      {
+        "leg_length_mm": 109.0,
+        "bend_deg": 125.99341780069645,
+        "hip_deg": -51.20506365918984,
+        "knee_relative_deg": -54.00658219930355,
+        "hip_gravity_Nm": -0.22773699259737157,
+        "knee_gravity_Nm": -2.5339401654722593,
+        "hip_magnitude_Nm": 0.22773699259737157,
+        "knee_magnitude_Nm": 2.5339401654722593,
+        "knee_rated_utilization": 0.8446467218240864,
+        "knee_with_25_percent_allowance_Nm": 3.167425206840324,
+        "finite_difference_convergence_Nm": 2.6201263381153694e-09
+      },
+      {
+        "leg_length_mm": 110.0,
+        "bend_deg": 125.4273587248625,
+        "hip_deg": -51.060715805708504,
+        "knee_relative_deg": -54.5726412751375,
+        "hip_gravity_Nm": -0.227263837082603,
+        "knee_gravity_Nm": -2.528796833267677,
+        "hip_magnitude_Nm": 0.227263837082603,
+        "knee_magnitude_Nm": 2.528796833267677,
+        "knee_rated_utilization": 0.8429322777558923,
+        "knee_with_25_percent_allowance_Nm": 3.160996041584596,
+        "finite_difference_convergence_Nm": 1.532107773982716e-09
+      },
+      {
+        "leg_length_mm": 111.0,
+        "bend_deg": 124.86013487145989,
+        "hip_deg": -50.913567010896095,
+        "knee_relative_deg": -55.139865128540116,
+        "hip_gravity_Nm": -0.22678009559129464,
+        "knee_gravity_Nm": -2.523537254051078,
+        "hip_magnitude_Nm": 0.22678009559129464,
+        "knee_magnitude_Nm": 2.523537254051078,
+        "knee_rated_utilization": 0.8411790846836927,
+        "knee_with_25_percent_allowance_Nm": 3.1544215675638476,
+        "finite_difference_convergence_Nm": 2.109423719032222e-09
+      },
+      {
+        "leg_length_mm": 112.0,
+        "bend_deg": 124.29171531971001,
+        "hip_deg": -50.76366604414348,
+        "knee_relative_deg": -55.70828468028999,
+        "hip_gravity_Nm": -0.2262858505019949,
+        "knee_gravity_Nm": -2.5181622675951587,
+        "hip_magnitude_Nm": 0.2262858505019949,
+        "knee_magnitude_Nm": 2.5181622675951587,
+        "knee_rated_utilization": 0.8393874225317196,
+        "knee_with_25_percent_allowance_Nm": 3.1477028344939484,
+        "finite_difference_convergence_Nm": 5.551115123125783e-10
+      },
+      {
+        "leg_length_mm": 113.0,
+        "bend_deg": 123.72206896759633,
+        "hip_deg": -50.61105926762589,
+        "knee_relative_deg": -56.277931032403664,
+        "hip_gravity_Nm": -0.22578116665172843,
+        "knee_gravity_Nm": -2.5126726306279323,
+        "hip_magnitude_Nm": 0.22578116665172843,
+        "knee_magnitude_Nm": 2.5126726306279323,
+        "knee_rated_utilization": 0.8375575435426441,
+        "knee_with_25_percent_allowance_Nm": 3.1408407882849154,
+        "finite_difference_convergence_Nm": 1.5543122622307948e-09
+      },
+      {
+        "leg_length_mm": 114.0,
+        "bend_deg": 123.15116450595869,
+        "hip_deg": -50.45579073199396,
+        "knee_relative_deg": -56.84883549404131,
+        "hip_gravity_Nm": -0.22526610510276157,
+        "knee_gravity_Nm": -2.5070690179429533,
+        "hip_magnitude_Nm": 0.22526610510276157,
+        "knee_magnitude_Nm": 2.5070690179429533,
+        "knee_rated_utilization": 0.8356896726476511,
+        "knee_with_25_percent_allowance_Nm": 3.1338362724286917,
+        "finite_difference_convergence_Nm": 1.5543122344752192e-10
+      },
+      {
+        "leg_length_mm": 115.0,
+        "bend_deg": 122.57897039280414,
+        "hip_deg": -50.29790226621118,
+        "knee_relative_deg": -57.42102960719586,
+        "hip_gravity_Nm": -0.22474073047007437,
+        "knee_gravity_Nm": -2.5013520383865284,
+        "hip_magnitude_Nm": 0.22474073047007437,
+        "knee_magnitude_Nm": 2.5013520383865284,
+        "knee_rated_utilization": 0.8337840127955095,
+        "knee_with_25_percent_allowance_Nm": 3.1266900479831605,
+        "finite_difference_convergence_Nm": 5.240252676230739e-09
+      },
+      {
+        "leg_length_mm": 116.0,
+        "bend_deg": 122.00545482776425,
+        "hip_deg": -50.13743356189071,
+        "knee_relative_deg": -57.99454517223575,
+        "hip_gravity_Nm": -0.2242050820555619,
+        "knee_gravity_Nm": -2.495522245293813,
+        "hip_magnitude_Nm": 0.2242050820555619,
+        "knee_magnitude_Nm": 2.495522245293813,
+        "knee_rated_utilization": 0.831840748431271,
+        "knee_with_25_percent_allowance_Nm": 3.1194028066172663,
+        "finite_difference_convergence_Nm": 6.217248937900877e-10
+      },
+      {
+        "leg_length_mm": 117.0,
+        "bend_deg": 121.43058572663124,
+        "hip_deg": -49.974422252456996,
+        "knee_relative_deg": -58.56941427336877,
+        "hip_gravity_Nm": -0.22365920937517103,
+        "knee_gravity_Nm": -2.489580099185318,
+        "hip_magnitude_Nm": 0.22365920937517103,
+        "knee_magnitude_Nm": 2.489580099185318,
+        "knee_rated_utilization": 0.8298600330617726,
+        "knee_with_25_percent_allowance_Nm": 3.1119751239816473,
+        "finite_difference_convergence_Nm": 3.3750779671049003e-09
+      },
+      {
+        "leg_length_mm": 118.0,
+        "bend_deg": 120.85433069590701,
+        "hip_deg": -49.80890398743272,
+        "knee_relative_deg": -59.145669304093,
+        "hip_gravity_Nm": -0.22310315839213501,
+        "knee_gravity_Nm": -2.483526007956982,
+        "hip_magnitude_Nm": 0.22310315839213501,
+        "knee_magnitude_Nm": 2.483526007956982,
+        "knee_rated_utilization": 0.8278420026523273,
+        "knee_with_25_percent_allowance_Nm": 3.1044075099462276,
+        "finite_difference_convergence_Nm": 7.327471962526033e-10
+      },
+      {
+        "leg_length_mm": 119.0,
+        "bend_deg": 120.27665700730114,
+        "hip_deg": -49.640912502128074,
+        "knee_relative_deg": -59.72334299269886,
+        "hip_gravity_Nm": -0.22253695330931578,
+        "knee_gravity_Nm": -2.477360325991995,
+        "hip_magnitude_Nm": 0.22253695330931578,
+        "knee_magnitude_Nm": 2.477360325991995,
+        "knee_rated_utilization": 0.825786775330665,
+        "knee_with_25_percent_allowance_Nm": 3.096700407489994,
+        "finite_difference_convergence_Nm": 6.883382752675971e-10
+      },
+      {
+        "leg_length_mm": 120.0,
+        "bend_deg": 119.69753157211497,
+        "hip_deg": -49.47047968298855,
+        "knee_relative_deg": -60.30246842788504,
+        "hip_gravity_Nm": -0.22196062143819972,
+        "knee_gravity_Nm": -2.4710833346208716,
+        "hip_magnitude_Nm": 0.22196062143819972,
+        "knee_magnitude_Nm": 2.4710833346208716,
+        "knee_rated_utilization": 0.8236944448736239,
+        "knee_with_25_percent_allowance_Nm": 3.0888541682760895,
+        "finite_difference_convergence_Nm": 3.9968028886505635e-10
+      },
+      {
+        "leg_length_mm": 121.0,
+        "bend_deg": 119.11692091544937,
+        "hip_deg": -49.29763562883711,
+        "knee_relative_deg": -60.88307908455064,
+        "hip_gravity_Nm": -0.22137418853596103,
+        "knee_gravity_Nm": -2.4646952654361343,
+        "hip_magnitude_Nm": 0.22137418853596103,
+        "knee_magnitude_Nm": 2.4646952654361343,
+        "knee_rated_utilization": 0.8215650884787115,
+        "knee_with_25_percent_allowance_Nm": 3.080869081795168,
+        "finite_difference_convergence_Nm": 5.995204332975845e-10
+      },
+      {
+        "leg_length_mm": 122.0,
+        "bend_deg": 118.53479115017544,
+        "hip_deg": -49.12240870822884,
+        "knee_relative_deg": -61.46520884982457,
+        "hip_gravity_Nm": -0.22077766659300835,
+        "knee_gravity_Nm": -2.4581962856373707,
+        "hip_magnitude_Nm": 0.22077766659300835,
+        "knee_magnitude_Nm": 2.4581962856373707,
+        "knee_rated_utilization": 0.8193987618791235,
+        "knee_with_25_percent_allowance_Nm": 3.0727453570467134,
+        "finite_difference_convergence_Nm": 5.551114845570027e-10
+      },
+      {
+        "leg_length_mm": 123.0,
+        "bend_deg": 117.95110795060616,
+        "hip_deg": -48.94482561311869,
+        "knee_relative_deg": -62.04889204939384,
+        "hip_gravity_Nm": -0.22017107115246404,
+        "knee_gravity_Nm": -2.4515865133523107,
+        "hip_magnitude_Nm": 0.22017107115246404,
+        "knee_magnitude_Nm": 2.4515865133523107,
+        "knee_rated_utilization": 0.8171955044507703,
+        "knee_with_25_percent_allowance_Nm": 3.0644831416903884,
+        "finite_difference_convergence_Nm": 2.4646951146678475e-09
+      },
+      {
+        "leg_length_mm": 124.0,
+        "bend_deg": 117.36583652580862,
+        "hip_deg": -48.76491140902759,
+        "knee_relative_deg": -62.63416347419139,
+        "hip_gravity_Nm": -0.21955440843157703,
+        "knee_gravity_Nm": -2.444866017858871,
+        "hip_magnitude_Nm": 0.21955440843157703,
+        "knee_magnitude_Nm": 2.444866017858871,
+        "knee_rated_utilization": 0.8149553392862904,
+        "knee_with_25_percent_allowance_Nm": 3.056082522323589,
+        "finite_difference_convergence_Nm": 2.4646951146678475e-09
+      },
+      {
+        "leg_length_mm": 125.0,
+        "bend_deg": 116.77894159249492,
+        "hip_deg": -48.58268958187748,
+        "knee_relative_deg": -63.221058407505076,
+        "hip_gravity_Nm": -0.2189276822051056,
+        "knee_gravity_Nm": -2.438034792717758,
+        "hip_magnitude_Nm": 0.2189276822051056,
+        "knee_magnitude_Nm": 2.438034792717758,
+        "knee_rated_utilization": 0.8126782642392527,
+        "knee_with_25_percent_allowance_Nm": 3.0475434908971977,
+        "finite_difference_convergence_Nm": 1.931788090603348e-09
+      },
+      {
+        "leg_length_mm": 126.0,
+        "bend_deg": 116.1903873474299,
+        "hip_deg": -48.39818208165185,
+        "knee_relative_deg": -63.809612652570095,
+        "hip_gravity_Nm": -0.21829087804015046,
+        "knee_gravity_Nm": -2.4310928057325043,
+        "hip_magnitude_Nm": 0.21829087804015046,
+        "knee_magnitude_Nm": 2.4310928057325043,
+        "knee_rated_utilization": 0.8103642685775014,
+        "knee_with_25_percent_allowance_Nm": 3.0388660071656304,
+        "finite_difference_convergence_Nm": 4.196643005327516e-09
+      },
+      {
+        "leg_length_mm": 127.0,
+        "bend_deg": 115.60013743929306,
+        "hip_deg": -48.21140936302596,
+        "knee_relative_deg": -64.39986256070694,
+        "hip_gravity_Nm": -0.21764400703894182,
+        "knee_gravity_Nm": -2.4240399663089107,
+        "hip_magnitude_Nm": 0.21764400703894182,
+        "knee_magnitude_Nm": 2.4240399663089107,
+        "knee_rated_utilization": 0.8080133221029703,
+        "knee_with_25_percent_allowance_Nm": 3.0300499578861384,
+        "finite_difference_convergence_Nm": 1.2212452993320966e-09
+      },
+      {
+        "leg_length_mm": 128.0,
+        "bend_deg": 115.00815493993014,
+        "hip_deg": -48.0223904230987,
+        "knee_relative_deg": -64.99184506006986,
+        "hip_gravity_Nm": -0.21698704499861776,
+        "knee_gravity_Nm": -2.4168761232346014,
+        "hip_magnitude_Nm": 0.21698704499861776,
+        "knee_magnitude_Nm": 2.4168761232346014,
+        "knee_rated_utilization": 0.8056253744115338,
+        "knee_with_25_percent_allowance_Nm": 3.021095154043252,
+        "finite_difference_convergence_Nm": 1.9095836023552692e-09
+      },
+      {
+        "leg_length_mm": 129.0,
+        "bend_deg": 114.41440231492957,
+        "hip_deg": -47.83114283634693,
+        "knee_relative_deg": -65.58559768507043,
+        "hip_gravity_Nm": -0.21631998037285882,
+        "knee_gravity_Nm": -2.4096010955432234,
+        "hip_magnitude_Nm": 0.21631998037285882,
+        "knee_magnitude_Nm": 2.4096010955432234,
+        "knee_rated_utilization": 0.8032003651810745,
+        "knee_with_25_percent_allowance_Nm": 3.0120013694290293,
+        "finite_difference_convergence_Nm": 2.55351295663786e-09
+      },
+      {
+        "leg_length_mm": 130.0,
+        "bend_deg": 113.81884139345622,
+        "hip_deg": -47.637682786912436,
+        "knee_relative_deg": -66.18115860654378,
+        "hip_gravity_Nm": -0.2156427865163124,
+        "knee_gravity_Nm": -2.4022146276614365,
+        "hip_magnitude_Nm": 0.2156427865163124,
+        "knee_magnitude_Nm": 2.4022146276614365,
+        "knee_rated_utilization": 0.8007382092204788,
+        "knee_with_25_percent_allowance_Nm": 3.0027682845767956,
+        "finite_difference_convergence_Nm": 1.0658141036401503e-09
+      },
+      {
+        "leg_length_mm": 131.0,
+        "bend_deg": 113.22143333727347,
+        "hip_deg": -47.44202509832176,
+        "knee_relative_deg": -66.77856666272653,
+        "hip_gravity_Nm": -0.21495544566541014,
+        "knee_gravity_Nm": -2.394716443365752,
+        "hip_magnitude_Nm": 0.21495544566541014,
+        "knee_magnitude_Nm": 2.394716443365752,
+        "knee_rated_utilization": 0.7982388144552507,
+        "knee_with_25_percent_allowance_Nm": 2.99339555420719,
+        "finite_difference_convergence_Nm": 1.865174681370263e-09
+      },
+      {
+        "leg_length_mm": 132.0,
+        "bend_deg": 112.62213860888214,
+        "hip_deg": -47.24418326072952,
+        "knee_relative_deg": -67.37786139111786,
+        "hip_gravity_Nm": -0.2142579220709706,
+        "knee_gravity_Nm": -2.387106201595657,
+        "hip_magnitude_Nm": 0.2142579220709706,
+        "knee_magnitude_Nm": 2.387106201595657,
+        "knee_rated_utilization": 0.7957020671985523,
+        "knee_with_25_percent_allowance_Nm": 2.983882751994571,
+        "finite_difference_convergence_Nm": 2.1316282072803006e-09
+      },
+      {
+        "leg_length_mm": 133.0,
+        "bend_deg": 112.02091693870206,
+        "hip_deg": -47.04416945576705,
+        "knee_relative_deg": -67.97908306129794,
+        "hip_gravity_Nm": -0.21355018486879374,
+        "knee_gravity_Nm": -2.3793835186580736,
+        "hip_magnitude_Nm": 0.21355018486879374,
+        "knee_magnitude_Nm": 2.3793835186580736,
+        "knee_rated_utilization": 0.7931278395526912,
+        "knee_with_25_percent_allowance_Nm": 2.974229398322592,
+        "finite_difference_convergence_Nm": 7.549516567451064e-10
+      },
+      {
+        "leg_length_mm": 134.0,
+        "bend_deg": 111.41772729121925,
+        "hip_deg": -46.84199457906917,
+        "knee_relative_deg": -68.58227270878075,
+        "hip_gravity_Nm": -0.21283219364676143,
+        "knee_gravity_Nm": -2.3715479702257625,
+        "hip_magnitude_Nm": 0.21283219364676143,
+        "knee_magnitude_Nm": 2.3715479702257625,
+        "knee_rated_utilization": 0.7905159900752542,
+        "knee_with_25_percent_allowance_Nm": 2.964434962782203,
+        "finite_difference_convergence_Nm": 2.7089441523298063e-09
+      },
+      {
+        "leg_length_mm": 135.0,
+        "bend_deg": 110.81252783001827,
+        "hip_deg": -46.63766826054431,
+        "knee_relative_deg": -69.18747216998173,
+        "hip_gravity_Nm": -0.2121039137659153,
+        "knee_gravity_Nm": -2.3635990769044213,
+        "hip_magnitude_Nm": 0.2121039137659153,
+        "knee_magnitude_Nm": 2.3635990769044213,
+        "knee_rated_utilization": 0.7878663589681404,
+        "knee_with_25_percent_allowance_Nm": 2.9544988461305266,
+        "finite_difference_convergence_Nm": 1.5543122344752192e-10
+      },
+      {
+        "leg_length_mm": 136.0,
+        "bend_deg": 110.20527588161549,
+        "hip_deg": -46.43119888244437,
+        "knee_relative_deg": -69.79472411838451,
+        "hip_gravity_Nm": -0.211365291491461,
+        "knee_gravity_Nm": -2.3555363186655853,
+        "hip_magnitude_Nm": 0.211365291491461,
+        "knee_magnitude_Nm": 2.3555363186655853,
+        "knee_rated_utilization": 0.7851787728885284,
+        "knee_with_25_percent_allowance_Nm": 2.9444203983319817,
+        "finite_difference_convergence_Nm": 1.5543122344752192e-09
+      },
+      {
+        "leg_length_mm": 137.0,
+        "bend_deg": 109.59592789800519,
+        "hip_deg": -46.222593595284,
+        "knee_relative_deg": -70.40407210199481,
+        "hip_gravity_Nm": -0.21061627886176382,
+        "knee_gravity_Nm": -2.3473591217459955,
+        "hip_magnitude_Nm": 0.21061627886176382,
+        "knee_magnitude_Nm": 2.3473591217459955,
+        "knee_rated_utilization": 0.7824530405819985,
+        "knee_with_25_percent_allowance_Nm": 2.9341989021824944,
+        "finite_difference_convergence_Nm": 3.108624496706014e-09
+      },
+      {
+        "leg_length_mm": 138.0,
+        "bend_deg": 108.98443941782558,
+        "hip_deg": -46.011858331650586,
+        "knee_relative_deg": -71.01556058217442,
+        "hip_gravity_Nm": -0.20985681659091426,
+        "knee_gravity_Nm": -2.339066871082096,
+        "hip_magnitude_Nm": 0.20985681659091426,
+        "knee_magnitude_Nm": 2.339066871082096,
+        "knee_rated_utilization": 0.7796889570273654,
+        "knee_with_25_percent_allowance_Nm": 2.92383358885262,
+        "finite_difference_convergence_Nm": 3.752553823233029e-09
+      },
+      {
+        "leg_length_mm": 139.0,
+        "bend_deg": 108.37076502604705,
+        "hip_deg": -45.79899781793968,
+        "knee_relative_deg": -71.62923497395295,
+        "hip_gravity_Nm": -0.2090868451709582,
+        "knee_gravity_Nm": -2.330658914750927,
+        "hip_magnitude_Nm": 0.2090868451709582,
+        "knee_magnitude_Nm": 2.330658914750927,
+        "knee_rated_utilization": 0.7768863049169757,
+        "knee_with_25_percent_allowance_Nm": 2.913323643438659,
+        "finite_difference_convergence_Nm": 2.0872192585397187e-09
+      },
+      {
+        "leg_length_mm": 140.0,
+        "bend_deg": 107.75485831207946,
+        "hip_deg": -45.58401558404294,
+        "knee_relative_deg": -72.24514168792054,
+        "hip_gravity_Nm": -0.20830631042301206,
+        "knee_gravity_Nm": -2.3221345273327643,
+        "hip_magnitude_Nm": 0.20830631042301206,
+        "knee_magnitude_Nm": 2.3221345273327643,
+        "knee_rated_utilization": 0.7740448424442548,
+        "knee_with_25_percent_allowance_Nm": 2.9026681591659553,
+        "finite_difference_convergence_Nm": 1.9984014443252818e-09
+      },
+      {
+        "leg_length_mm": 141.0,
+        "bend_deg": 107.13667182618936,
+        "hip_deg": -45.36691397100893,
+        "knee_relative_deg": -72.86332817381064,
+        "hip_gravity_Nm": -0.20751514262506987,
+        "knee_gravity_Nm": -2.3134929669765825,
+        "hip_magnitude_Nm": 0.20751514262506987,
+        "knee_magnitude_Nm": 2.3134929669765825,
+        "knee_rated_utilization": 0.7711643223255275,
+        "knee_with_25_percent_allowance_Nm": 2.891866208720728,
+        "finite_difference_convergence_Nm": 4.2188475213311705e-09
+      },
+      {
+        "leg_length_mm": 142.0,
+        "bend_deg": 106.51615703411133,
+        "hip_deg": -45.147694136689616,
+        "knee_relative_deg": -73.48384296588867,
+        "hip_gravity_Nm": -0.20671325229315585,
+        "knee_gravity_Nm": -2.304733417446414,
+        "hip_magnitude_Nm": 0.20671325229315585,
+        "knee_magnitude_Nm": 2.304733417446414,
+        "knee_rated_utilization": 0.768244472482138,
+        "knee_with_25_percent_allowance_Nm": 2.8809167718080175,
+        "finite_difference_convergence_Nm": 3.952393939909982e-09
+      },
+      {
+        "leg_length_mm": 143.0,
+        "bend_deg": 105.89326426973096,
+        "hip_deg": -44.926356059379124,
+        "knee_relative_deg": -74.10673573026904,
+        "hip_gravity_Nm": -0.20590058813496626,
+        "knee_gravity_Nm": -2.2958550309759573,
+        "hip_magnitude_Nm": 0.20590058813496626,
+        "knee_magnitude_Nm": 2.2958550309759573,
+        "knee_rated_utilization": 0.7652850103253191,
+        "knee_with_25_percent_allowance_Nm": 2.8698187887199467,
+        "finite_difference_convergence_Nm": 1.7319479184152442e-09
+      },
+      {
+        "leg_length_mm": 144.0,
+        "bend_deg": 105.2679426857084,
+        "hip_deg": -44.70289853944319,
+        "knee_relative_deg": -74.7320573142916,
+        "hip_gravity_Nm": -0.20507705666972242,
+        "knee_gravity_Nm": -2.2868569087286517,
+        "hip_magnitude_Nm": 0.20507705666972242,
+        "knee_magnitude_Nm": 2.2868569087286517,
+        "knee_rated_utilization": 0.7622856362428839,
+        "knee_with_25_percent_allowance_Nm": 2.8585711359108146,
+        "finite_difference_convergence_Nm": 2.5091040634084294e-09
+      },
+      {
+        "leg_length_mm": 145.0,
+        "bend_deg": 104.64014020190399,
+        "hip_deg": -44.477319198931845,
+        "knee_relative_deg": -75.35985979809601,
+        "hip_gravity_Nm": -0.2042425655268687,
+        "knee_gravity_Nm": -2.2777380936922498,
+        "hip_magnitude_Nm": 0.2042425655268687,
+        "knee_magnitude_Nm": 2.2777380936922498,
+        "knee_rated_utilization": 0.75924603123075,
+        "knee_with_25_percent_allowance_Nm": 2.847172617115312,
+        "finite_difference_convergence_Nm": 1.5987211277046498e-09
+      },
+      {
+        "leg_length_mm": 146.0,
+        "bend_deg": 104.00980345145723,
+        "hip_deg": -44.24961447915937,
+        "knee_relative_deg": -75.99019654854277,
+        "hip_gravity_Nm": -0.2033970381010164,
+        "knee_gravity_Nm": -2.2684975928832785,
+        "hip_magnitude_Nm": 0.2033970381010164,
+        "knee_magnitude_Nm": 2.2684975928832785,
+        "knee_rated_utilization": 0.7561658642944261,
+        "knee_with_25_percent_allowance_Nm": 2.835621991104098,
+        "finite_difference_convergence_Nm": 3.9968028886505635e-09
+      },
+      {
+        "leg_length_mm": 147.0,
+        "bend_deg": 103.37687772436105,
+        "hip_deg": -44.01977963622883,
+        "knee_relative_deg": -76.62312227563895,
+        "hip_gravity_Nm": -0.2025403711414242,
+        "knee_gravity_Nm": -2.259134337156965,
+        "hip_magnitude_Nm": 0.2025403711414242,
+        "knee_magnitude_Nm": 2.259134337156965,
+        "knee_rated_utilization": 0.7530447790523217,
+        "knee_with_25_percent_allowance_Nm": 2.8239179214462062,
+        "finite_difference_convergence_Nm": 1.2434497598245997e-09
+      },
+      {
+        "leg_length_mm": 148.0,
+        "bend_deg": 102.74130690836174,
+        "hip_deg": -43.787808734470936,
+        "knee_relative_deg": -77.25869309163826,
+        "hip_gravity_Nm": -0.2016724689468674,
+        "knee_gravity_Nm": -2.2496472382727006,
+        "hip_magnitude_Nm": 0.2016724689468674,
+        "knee_magnitude_Nm": 2.2496472382727006,
+        "knee_rated_utilization": 0.7498824127575668,
+        "knee_with_25_percent_allowance_Nm": 2.812059047840876,
+        "finite_difference_convergence_Nm": 3.708144902248023e-09
+      },
+      {
+        "leg_length_mm": 149.0,
+        "bend_deg": 102.1030334270032,
+        "hip_deg": -43.55369463775804,
+        "knee_relative_deg": -77.8969665729968,
+        "hip_gravity_Nm": -0.20079322582411407,
+        "knee_gravity_Nm": -2.24003512472315,
+        "hip_magnitude_Nm": 0.20079322582411407,
+        "knee_magnitude_Nm": 2.24003512472315,
+        "knee_rated_utilization": 0.7466783749077166,
+        "knee_with_25_percent_allowance_Nm": 2.8000439059039373,
+        "finite_difference_convergence_Nm": 2.2426505097428162e-09
+      },
+      {
+        "leg_length_mm": 150.0,
+        "bend_deg": 101.46199817462137,
+        "hip_deg": -43.317428998647266,
+        "knee_relative_deg": -78.53800182537863,
+        "hip_gravity_Nm": -0.199902533415397,
+        "knee_gravity_Nm": -2.2302967881415725,
+        "hip_magnitude_Nm": 0.199902533415397,
+        "knee_magnitude_Nm": 2.2302967881415725,
+        "knee_rated_utilization": 0.7434322627138575,
+        "knee_with_25_percent_allowance_Nm": 2.7878709851769656,
+        "finite_difference_convergence_Nm": 2.4868995751603507e-09
+      },
+      {
+        "leg_length_mm": 151.0,
+        "bend_deg": 100.81814044807936,
+        "hip_deg": -43.079002245296564,
+        "knee_relative_deg": -79.18185955192064,
+        "hip_gravity_Nm": -0.19900027448116475,
+        "knee_gravity_Nm": -2.220430958654873,
+        "hip_magnitude_Nm": 0.19900027448116475,
+        "knee_magnitude_Nm": 2.220430958654873,
+        "knee_rated_utilization": 0.7401436528849578,
+        "knee_with_25_percent_allowance_Nm": 2.7755386983185915,
+        "finite_difference_convergence_Nm": 3.064215547965432e-09
+      },
+      {
+        "leg_length_mm": 152.0,
+        "bend_deg": 100.17139787501948,
+        "hip_deg": -42.83840356608955,
+        "knee_relative_deg": -79.82860212498052,
+        "hip_gravity_Nm": -0.1980863291173307,
+        "knee_gravity_Nm": -2.210436298000218,
+        "hip_magnitude_Nm": 0.1980863291173307,
+        "knee_magnitude_Nm": 2.210436298000218,
+        "knee_rated_utilization": 0.736812099333406,
+        "knee_with_25_percent_allowance_Nm": 2.7630453725002724,
+        "finite_difference_convergence_Nm": 7.527312106958561e-09
+      },
+      {
+        "leg_length_mm": 153.0,
+        "bend_deg": 99.52170633839044,
+        "hip_deg": -42.59562089189462,
+        "knee_relative_deg": -80.47829366160956,
+        "hip_gravity_Nm": -0.1971605820827449,
+        "knee_gravity_Nm": -2.200311448818937,
+        "hip_magnitude_Nm": 0.1971605820827449,
+        "knee_magnitude_Nm": 2.200311448818937,
+        "knee_rated_utilization": 0.7334371496063122,
+        "knee_with_25_percent_allowance_Nm": 2.750389311023671,
+        "finite_difference_convergence_Nm": 2.4646951146678475e-09
+      },
+      {
+        "leg_length_mm": 154.0,
+        "bend_deg": 98.86899989698935,
+        "hip_deg": -42.350640875873765,
+        "knee_relative_deg": -81.13100010301065,
+        "hip_gravity_Nm": -0.19622288660592346,
+        "knee_gravity_Nm": -2.1900549336262287,
+        "hip_magnitude_Nm": 0.19622288660592346,
+        "knee_magnitude_Nm": 2.1900549336262287,
+        "knee_rated_utilization": 0.7300183112087429,
+        "knee_with_25_percent_allowance_Nm": 2.737568667032786,
+        "finite_difference_convergence_Nm": 1.8207657326296811e-09
+      },
+      {
+        "leg_length_mm": 155.0,
+        "bend_deg": 98.21321070173819,
+        "hip_deg": -42.10344887074584,
+        "knee_relative_deg": -81.78678929826181,
+        "hip_gravity_Nm": -0.1952731245591366,
+        "knee_gravity_Nm": -2.1796652620587054,
+        "hip_magnitude_Nm": 0.1952731245591366,
+        "knee_magnitude_Nm": 2.1796652620587054,
+        "knee_rated_utilization": 0.7265550873529018,
+        "knee_with_25_percent_allowance_Nm": 2.7245815775733817,
+        "finite_difference_convergence_Nm": 3.730349390496102e-09
+      },
+      {
+        "leg_length_mm": 156.0,
+        "bend_deg": 97.55426890739126,
+        "hip_deg": -41.85402890339666,
+        "knee_relative_deg": -82.44573109260874,
+        "hip_gravity_Nm": -0.19431113740253636,
+        "knee_gravity_Nm": -2.169140849161977,
+        "hip_magnitude_Nm": 0.19431113740253636,
+        "knee_magnitude_Nm": 2.169140849161977,
+        "knee_rated_utilization": 0.723046949720659,
+        "knee_with_25_percent_allowance_Nm": 2.711426061452471,
+        "finite_difference_convergence_Nm": 1.931788090603348e-09
+      },
+      {
+        "leg_length_mm": 157.0,
+        "bend_deg": 96.89210257934637,
+        "hip_deg": -41.602363646716626,
+        "knee_relative_deg": -83.10789742065363,
+        "hip_gravity_Nm": -0.1933367863582447,
+        "knee_gravity_Nm": -2.15848005824526,
+        "hip_magnitude_Nm": 0.1933367863582447,
+        "knee_magnitude_Nm": 2.15848005824526,
+        "knee_rated_utilization": 0.7194933527484201,
+        "knee_with_25_percent_allowance_Nm": 2.698100072806575,
+        "finite_difference_convergence_Nm": 2.0650148535583668e-09
+      },
+      {
+        "leg_length_mm": 158.0,
+        "bend_deg": 96.22663759520474,
+        "hip_deg": -41.34843438853207,
+        "knee_relative_deg": -83.77336240479526,
+        "hip_gravity_Nm": -0.1923499142186813,
+        "knee_gravity_Nm": -2.1476811802312312,
+        "hip_magnitude_Nm": 0.1923499142186813,
+        "knee_magnitude_Nm": 2.1476811802312312,
+        "knee_rated_utilization": 0.7158937267437437,
+        "knee_with_25_percent_allowance_Nm": 2.684601475289039,
+        "finite_difference_convergence_Nm": 4.685141163918161e-09
+      },
+      {
+        "leg_length_mm": 159.0,
+        "bend_deg": 95.55779754069535,
+        "hip_deg": -41.09222099748248,
+        "knee_relative_deg": -84.44220245930465,
+        "hip_gravity_Nm": -0.19135035822515079,
+        "knee_gravity_Nm": -2.1367424427598536,
+        "hip_magnitude_Nm": 0.19135035822515079,
+        "knee_magnitude_Nm": 2.1367424427598536,
+        "knee_rated_utilization": 0.7122474809199512,
+        "knee_with_25_percent_allowance_Nm": 2.670928053449817,
+        "finite_difference_convergence_Nm": 2.2648549424797437e-09
+      },
+      {
+        "leg_length_mm": 160.0,
+        "bend_deg": 94.88550359954706,
+        "hip_deg": -40.833701885679545,
+        "knee_relative_deg": -85.11449640045294,
+        "hip_gravity_Nm": -0.19033795561895772,
+        "knee_gravity_Nm": -2.1256619797682674,
+        "hip_magnitude_Nm": 0.19033795561895772,
+        "knee_magnitude_Nm": 2.1256619797682674,
+        "knee_rated_utilization": 0.7085539932560891,
+        "knee_with_25_percent_allowance_Nm": 2.6570774747103343,
+        "finite_difference_convergence_Nm": 3.907985018924975e-09
+      },
+      {
+        "leg_length_mm": 161.0,
+        "bend_deg": 94.2096744368552,
+        "hip_deg": -40.57285396796671,
+        "knee_relative_deg": -85.7903255631448,
+        "hip_gravity_Nm": -0.18931253320531027,
+        "knee_gravity_Nm": -2.1144378641313466,
+        "hip_magnitude_Nm": 0.18931253320531027,
+        "knee_magnitude_Nm": 2.1144378641313466,
+        "knee_rated_utilization": 0.7048126213771155,
+        "knee_with_25_percent_allowance_Nm": 2.6430473301641833,
+        "finite_difference_convergence_Nm": 2.842170915284825e-09
+      },
+      {
+        "leg_length_mm": 162.0,
+        "bend_deg": 93.53022607545029,
+        "hip_deg": -40.30965261757872,
+        "knee_relative_deg": -86.46977392454971,
+        "hip_gravity_Nm": -0.188273909129677,
+        "knee_gravity_Nm": -2.10306808989813,
+        "hip_magnitude_Nm": 0.188273909129677,
+        "knee_magnitude_Nm": 2.10306808989813,
+        "knee_rated_utilization": 0.7010226966327101,
+        "knee_with_25_percent_allowance_Nm": 2.6288351123726628,
+        "finite_difference_convergence_Nm": 6.217249215456633e-10
+      },
+      {
+        "leg_length_mm": 163.0,
+        "bend_deg": 92.8470717647329,
+        "hip_deg": -40.04407161798056,
+        "knee_relative_deg": -87.1529282352671,
+        "hip_gravity_Nm": -0.187221887770761,
+        "knee_gravity_Nm": -2.091550558525057,
+        "hip_magnitude_Nm": 0.187221887770761,
+        "knee_magnitude_Nm": 2.091550558525057,
+        "knee_rated_utilization": 0.6971835195083523,
+        "knee_with_25_percent_allowance_Nm": 2.6144381981563214,
+        "finite_difference_convergence_Nm": 7.105427357601002e-10
+      },
+      {
+        "leg_length_mm": 164.0,
+        "bend_deg": 92.16012184138987,
+        "hip_deg": -39.77608311064176,
+        "knee_relative_deg": -87.83987815861013,
+        "hip_gravity_Nm": -0.1861562788363358,
+        "knee_gravity_Nm": -2.0798830999702034,
+        "hip_magnitude_Nm": 0.1861562788363358,
+        "knee_magnitude_Nm": 2.0798830999702034,
+        "knee_rated_utilization": 0.6932943666567345,
+        "knee_with_25_percent_allowance_Nm": 2.599853874962754,
+        "finite_difference_convergence_Nm": 4.440892098500626e-09
+      },
+      {
+        "leg_length_mm": 165.0,
+        "bend_deg": 91.46928358135378,
+        "hip_deg": -39.50565753847736,
+        "knee_relative_deg": -88.53071641864622,
+        "hip_gravity_Nm": -0.18507687071789292,
+        "knee_gravity_Nm": -2.068063431170941,
+        "hip_magnitude_Nm": 0.18507687071789292,
+        "knee_magnitude_Nm": 2.068063431170941,
+        "knee_rated_utilization": 0.6893544770569804,
+        "knee_with_25_percent_allowance_Nm": 2.5850792889636764,
+        "finite_difference_convergence_Nm": 2.4868995751603507e-09
+      },
+      {
+        "leg_length_mm": 166.0,
+        "bend_deg": 90.77446104230896,
+        "hip_deg": -39.23276358465973,
+        "knee_relative_deg": -89.22553895769104,
+        "hip_gravity_Nm": -0.18398345869030663,
+        "knee_gravity_Nm": -2.056089198010369,
+        "hip_magnitude_Nm": 0.18398345869030663,
+        "knee_magnitude_Nm": 2.056089198010369,
+        "knee_rated_utilization": 0.6853630660034563,
+        "knee_with_25_percent_allowance_Nm": 2.5701114975129613,
+        "finite_difference_convergence_Nm": 3.3750780226160515e-09
+      },
+      {
+        "leg_length_mm": 167.0,
+        "bend_deg": 90.0755548959805,
+        "hip_deg": -38.95736810647426,
+        "knee_relative_deg": -89.9244451040195,
+        "hip_gravity_Nm": -0.18287580827447414,
+        "knee_gravity_Nm": -2.0439579380138184,
+        "hip_magnitude_Nm": 0.18287580827447414,
+        "knee_magnitude_Nm": 2.0439579380138184,
+        "knee_rated_utilization": 0.6813193126712728,
+        "knee_with_25_percent_allowance_Nm": 2.554947422517273,
+        "finite_difference_convergence_Nm": 2.1316282072803006e-09
+      },
+      {
+        "leg_length_mm": 168.0,
+        "bend_deg": 89.37246224937094,
+        "hip_deg": -38.679436063859185,
+        "knee_relative_deg": -90.62753775062905,
+        "hip_gravity_Nm": -0.18175370053441497,
+        "knee_gravity_Nm": -2.0316670950037974,
+        "hip_magnitude_Nm": 0.18175370053441497,
+        "knee_magnitude_Nm": 2.0316670950037974,
+        "knee_rated_utilization": 0.6772223650012658,
+        "knee_with_25_percent_allowance_Nm": 2.5395838687547467,
+        "finite_difference_convergence_Nm": 7.105427080045246e-10
+      },
+      {
+        "leg_length_mm": 169.0,
+        "bend_deg": 88.66507645402672,
+        "hip_deg": -38.398930442231844,
+        "knee_relative_deg": -91.33492354597328,
+        "hip_gravity_Nm": -0.1806168903328853,
+        "knee_gravity_Nm": -2.019213992010549,
+        "hip_magnitude_Nm": 0.1806168903328853,
+        "knee_magnitude_Nm": 2.019213992010549,
+        "knee_rated_utilization": 0.673071330670183,
+        "knee_with_25_percent_allowance_Nm": 2.524017490013186,
+        "finite_difference_convergence_Nm": 1.9984014443252818e-09
+      },
+      {
+        "leg_length_mm": 170.0,
+        "bend_deg": 87.9532869023274,
+        "hip_deg": -38.11581216916307,
+        "knee_relative_deg": -92.0467130976726,
+        "hip_gravity_Nm": -0.17946511743360816,
+        "knee_gravity_Nm": -2.0065958423742813,
+        "hip_magnitude_Nm": 0.17946511743360816,
+        "knee_magnitude_Nm": 2.0065958423742813,
+        "knee_rated_utilization": 0.6688652807914272,
+        "knee_with_25_percent_allowance_Nm": 2.5082448029678517,
+        "finite_difference_convergence_Nm": 3.3750779671049003e-09
+      },
+      {
+        "leg_length_mm": 171.0,
+        "bend_deg": 87.2369788096885,
+        "hip_deg": -37.83004002441447,
+        "knee_relative_deg": -92.7630211903115,
+        "hip_gravity_Nm": -0.17829813359071522,
+        "knee_gravity_Nm": -1.9938097577387737,
+        "hip_magnitude_Nm": 0.17829813359071522,
+        "knee_magnitude_Nm": 1.9938097577387737,
+        "knee_rated_utilization": 0.6646032525795912,
+        "knee_with_25_percent_allowance_Nm": 2.492262197173467,
+        "finite_difference_convergence_Nm": 1.643130048689656e-09
+      },
+      {
+        "leg_length_mm": 172.0,
+        "bend_deg": 86.51603298145596,
+        "hip_deg": -37.54157054280298,
+        "knee_relative_deg": -93.48396701854404,
+        "hip_gravity_Nm": -0.17711566169253956,
+        "knee_gravity_Nm": -1.980852705862901,
+        "hip_magnitude_Nm": 0.17711566169253956,
+        "knee_magnitude_Nm": 1.980852705862901,
+        "knee_rated_utilization": 0.6602842352876337,
+        "knee_with_25_percent_allowance_Nm": 2.4760658823286263,
+        "finite_difference_convergence_Nm": 2.8421709707959764e-09
+      },
+      {
+        "leg_length_mm": 173.0,
+        "bend_deg": 85.7903255631448,
+        "hip_deg": -37.250357909298735,
+        "knee_relative_deg": -94.2096744368552,
+        "hip_gravity_Nm": -0.1759174055315782,
+        "knee_gravity_Nm": -1.9677215341573628,
+        "hip_magnitude_Nm": 0.1759174055315782,
+        "knee_magnitude_Nm": 1.9677215341573628,
+        "knee_rated_utilization": 0.6559071780524542,
+        "knee_with_25_percent_allowance_Nm": 2.4596519176967035,
+        "finite_difference_convergence_Nm": 2.042810587354893e-09
+      },
+      {
+        "leg_length_mm": 174.0,
+        "bend_deg": 85.059727772531,
+        "hip_deg": -36.95635384569904,
+        "knee_relative_deg": -94.940272227469,
+        "hip_gravity_Nm": -0.17470307822620157,
+        "knee_gravity_Nm": -1.9544129439275082,
+        "hip_magnitude_Nm": 0.17470307822620157,
+        "knee_magnitude_Nm": 1.9544129439275082,
+        "knee_rated_utilization": 0.6514709813091694,
+        "knee_with_25_percent_allowance_Nm": 2.4430161799093852,
+        "finite_difference_convergence_Nm": 3.8191669826659336e-09
+      },
+      {
+        "leg_length_mm": 175.0,
+        "bend_deg": 84.32410561194766,
+        "hip_deg": -36.65950748814803,
+        "knee_relative_deg": -95.67589438805234,
+        "hip_gravity_Nm": -0.1734723658053383,
+        "knee_gravity_Nm": -1.9409235183509566,
+        "hip_magnitude_Nm": 0.1734723658053383,
+        "knee_magnitude_Nm": 1.9409235183509566,
+        "knee_rated_utilization": 0.6469745061169855,
+        "knee_with_25_percent_allowance_Nm": 2.4261543979386957,
+        "finite_difference_convergence_Nm": 2.4868997972049556e-09
+      },
+      {
+        "leg_length_mm": 176.0,
+        "bend_deg": 83.58331955895608,
+        "hip_deg": -36.35976525469166,
+        "knee_relative_deg": -96.41668044104392,
+        "hip_gravity_Nm": -0.1722249463043113,
+        "knee_gravity_Nm": -1.9272496483146995,
+        "hip_magnitude_Nm": 0.1722249463043113,
+        "knee_magnitude_Nm": 1.9272496483146995,
+        "knee_rated_utilization": 0.6424165494382331,
+        "knee_with_25_percent_allowance_Nm": 2.4090620603933743,
+        "finite_difference_convergence_Nm": 1.4654946145498116e-09
+      },
+      {
+        "leg_length_mm": 177.0,
+        "bend_deg": 82.83722423336074,
+        "hip_deg": -36.05707070196543,
+        "knee_relative_deg": -97.16277576663926,
+        "hip_gravity_Nm": -0.17096047200126918,
+        "knee_gravity_Nm": -1.9133875892585195,
+        "hip_magnitude_Nm": 0.17096047200126918,
+        "knee_magnitude_Nm": 1.9133875892585195,
+        "knee_rated_utilization": 0.6377958630861732,
+        "knee_with_25_percent_allowance_Nm": 2.3917344865731494,
+        "finite_difference_convergence_Nm": 4.618527754685076e-09
+      },
+      {
+        "leg_length_mm": 178.0,
+        "bend_deg": 82.0856680383077,
+        "hip_deg": -35.75136437000977,
+        "knee_relative_deg": -97.9143319616923,
+        "hip_gravity_Nm": -0.1696786053884125,
+        "knee_gravity_Nm": -1.8993334345296375,
+        "hip_magnitude_Nm": 0.1696786053884125,
+        "knee_magnitude_Nm": 1.8993334345296375,
+        "knee_rated_utilization": 0.6331111448432125,
+        "knee_with_25_percent_allowance_Nm": 2.374166793162047,
+        "finite_difference_convergence_Nm": 3.2862603749350683e-09
+      },
+      {
+        "leg_length_mm": 179.0,
+        "bend_deg": 81.32849277294729,
+        "hip_deg": -35.442583614091,
+        "knee_relative_deg": -98.67150722705271,
+        "hip_gravity_Nm": -0.16837895877586107,
+        "knee_gravity_Nm": -1.8850830665329,
+        "hip_magnitude_Nm": 0.16837895877586107,
+        "knee_magnitude_Nm": 1.8850830665329,
+        "knee_rated_utilization": 0.6283610221776333,
+        "knee_with_25_percent_allowance_Nm": 2.356353833166125,
+        "finite_difference_convergence_Nm": 1.865174903414868e-09
+      },
+      {
+        "leg_length_mm": 180.0,
+        "bend_deg": 80.56553321384833,
+        "hip_deg": -35.13066242227375,
+        "knee_relative_deg": -99.43446678615167,
+        "hip_gravity_Nm": -0.16706115291142964,
+        "knee_gravity_Nm": -1.8706321975869855,
+        "hip_magnitude_Nm": 0.16706115291142964,
+        "knee_magnitude_Nm": 1.8706321975869855,
+        "knee_rated_utilization": 0.6235440658623285,
+        "knee_with_25_percent_allowance_Nm": 2.338290246983732,
+        "finite_difference_convergence_Nm": 1.4210852494755954e-09
+      },
+      {
+        "leg_length_mm": 181.0,
+        "bend_deg": 79.79661666201625,
+        "hip_deg": -34.81553121734003,
+        "knee_relative_deg": -100.20338333798375,
+        "hip_gravity_Nm": -0.16572477834486676,
+        "knee_gravity_Nm": -1.8559763446113209,
+        "hip_magnitude_Nm": 0.16572477834486676,
+        "knee_magnitude_Nm": 1.8559763446113209,
+        "knee_rated_utilization": 0.618658781537107,
+        "knee_with_25_percent_allowance_Nm": 2.319970430764151,
+        "finite_difference_convergence_Nm": 2.575717417130363e-09
+      },
+      {
+        "leg_length_mm": 182.0,
+        "bend_deg": 79.02156245198731,
+        "hip_deg": -34.49711664147955,
+        "knee_relative_deg": -100.97843754801269,
+        "hip_gravity_Nm": -0.16436940297737124,
+        "knee_gravity_Nm": -1.8411107802762672,
+        "hip_magnitude_Nm": 0.16436940297737124,
+        "knee_magnitude_Nm": 1.8411107802762672,
+        "knee_rated_utilization": 0.6137035934254224,
+        "knee_with_25_percent_allowance_Nm": 2.301388475345334,
+        "finite_difference_convergence_Nm": 2.3092638912203256e-09
+      },
+      {
+        "leg_length_mm": 183.0,
+        "bend_deg": 78.24018141903537,
+        "hip_deg": -34.17534132197952,
+        "knee_relative_deg": -101.75981858096463,
+        "hip_gravity_Nm": -0.16299459382196346,
+        "knee_gravity_Nm": -1.826030581408844,
+        "hip_magnitude_Nm": 0.16299459382196346,
+        "knee_magnitude_Nm": 1.826030581408844,
+        "knee_rated_utilization": 0.6086768604696147,
+        "knee_with_25_percent_allowance_Nm": 2.282538226761055,
+        "finite_difference_convergence_Nm": 3.1974425329650558e-09
+      },
+      {
+        "leg_length_mm": 184.0,
+        "bend_deg": 77.45227532002993,
+        "hip_deg": -33.85012361591907,
+        "knee_relative_deg": -102.54772467997007,
+        "hip_gravity_Nm": -0.16159987303865364,
+        "knee_gravity_Nm": -1.8107305495007608,
+        "hip_magnitude_Nm": 0.16159987303865364,
+        "knee_magnitude_Nm": 1.8107305495007608,
+        "knee_rated_utilization": 0.603576849833587,
+        "knee_with_25_percent_allowance_Nm": 2.263413186875951,
+        "finite_difference_convergence_Nm": 3.0198066269804258e-09
+      },
+      {
+        "leg_length_mm": 185.0,
+        "bend_deg": 76.65763620291176,
+        "hip_deg": -33.521377331615994,
+        "knee_relative_deg": -103.34236379708824,
+        "hip_gravity_Nm": -0.16018474502388358,
+        "knee_gravity_Nm": -1.7952052440151078,
+        "hip_magnitude_Nm": 0.16018474502388358,
+        "knee_magnitude_Nm": 1.7952052440151078,
+        "knee_rated_utilization": 0.598401748005036,
+        "knee_with_25_percent_allowance_Nm": 2.244006555018885,
+        "finite_difference_convergence_Nm": 6.66133592730489e-10
+      },
+      {
+        "leg_length_mm": 186.0,
+        "bend_deg": 75.85604571909472,
+        "hip_deg": -33.189011424278725,
+        "knee_relative_deg": -104.14395428090528,
+        "hip_gravity_Nm": -0.15874869507825906,
+        "knee_gravity_Nm": -1.7794489366451671,
+        "hip_magnitude_Nm": 0.15874869507825906,
+        "knee_magnitude_Nm": 1.7794489366451671,
+        "knee_rated_utilization": 0.593149645548389,
+        "knee_with_25_percent_allowance_Nm": 2.224311170806459,
+        "finite_difference_convergence_Nm": 8.570921528061604e-09
+      },
+      {
+        "leg_length_mm": 187.0,
+        "bend_deg": 75.04727437234187,
+        "hip_deg": -32.85292966297444,
+        "knee_relative_deg": -104.95272562765813,
+        "hip_gravity_Nm": -0.15729118807428222,
+        "knee_gravity_Nm": -1.7634556299661597,
+        "hip_magnitude_Nm": 0.15729118807428222,
+        "knee_magnitude_Nm": 1.7634556299661597,
+        "knee_rated_utilization": 0.5878185433220532,
+        "knee_with_25_percent_allowance_Nm": 2.2043195374576996,
+        "finite_difference_convergence_Nm": 4.307665557590212e-09
+      },
+      {
+        "leg_length_mm": 188.0,
+        "bend_deg": 74.23108069678575,
+        "hip_deg": -32.513030265630675,
+        "knee_relative_deg": -105.76891930321425,
+        "hip_gravity_Nm": -0.15581163692601763,
+        "knee_gravity_Nm": -1.7472189495215673,
+        "hip_magnitude_Nm": 0.15581163692601763,
+        "knee_magnitude_Nm": 1.7472189495215673,
+        "knee_rated_utilization": 0.5824063165071891,
+        "knee_with_25_percent_allowance_Nm": 2.184023686901959,
+        "finite_difference_convergence_Nm": 4.618528004485256e-09
+      },
+      {
+        "leg_length_mm": 189.0,
+        "bend_deg": 73.40721035574187,
+        "hip_deg": -32.169205498329596,
+        "knee_relative_deg": -106.59278964425813,
+        "hip_gravity_Nm": -0.1543094332312478,
+        "knee_gravity_Nm": -1.7307322135451386,
+        "hip_magnitude_Nm": 0.1543094332312478,
+        "knee_magnitude_Nm": 1.7307322135451386,
+        "knee_rated_utilization": 0.5769107378483795,
+        "knee_with_25_percent_allowance_Nm": 2.1634152669314233,
+        "finite_difference_convergence_Nm": 4.130029651605582e-09
+      },
+      {
+        "leg_length_mm": 190.0,
+        "bend_deg": 72.57539515177682,
+        "hip_deg": -31.82134123462124,
+        "knee_relative_deg": -107.42460484822318,
+        "hip_gravity_Nm": -0.15278395748552498,
+        "knee_gravity_Nm": -1.7139883903283248,
+        "hip_magnitude_Nm": 0.15278395748552498,
+        "knee_magnitude_Nm": 1.7139883903283248,
+        "knee_rated_utilization": 0.5713294634427749,
+        "knee_with_25_percent_allowance_Nm": 2.142485487910406,
+        "finite_difference_convergence_Nm": 1.8207659824298617e-09
+      },
+      {
+        "leg_length_mm": 191.0,
+        "bend_deg": 71.73535193710525,
+        "hip_deg": -31.469316469960166,
+        "knee_relative_deg": -108.26464806289475,
+        "hip_gravity_Nm": -0.15123451913012786,
+        "knee_gravity_Nm": -1.696980001408832,
+        "hip_magnitude_Nm": 0.15123451913012786,
+        "knee_magnitude_Nm": 1.696980001408832,
+        "knee_rated_utilization": 0.5656600004696107,
+        "knee_with_25_percent_allowance_Nm": 2.12122500176104,
+        "finite_difference_convergence_Nm": 4.440891876456021e-09
+      },
+      {
+        "leg_length_mm": 192.0,
+        "bend_deg": 70.88678141176533,
+        "hip_deg": -31.113002785640994,
+        "knee_relative_deg": -109.11321858823467,
+        "hip_gravity_Nm": -0.149660412507302,
+        "knee_gravity_Nm": -1.6796991872958245,
+        "hip_magnitude_Nm": 0.149660412507302,
+        "knee_magnitude_Nm": 1.6796991872958245,
+        "knee_rated_utilization": 0.5598997290986082,
+        "knee_with_25_percent_allowance_Nm": 2.0996239841197806,
+        "finite_difference_convergence_Nm": 3.6859402197109148e-09
+      },
+      {
+        "leg_length_mm": 193.0,
+        "bend_deg": 70.02936679511122,
+        "hip_deg": -30.752263755751724,
+        "knee_relative_deg": -109.97063320488878,
+        "hip_gravity_Nm": -0.14806087955676617,
+        "knee_gravity_Nm": -1.6621375968917107,
+        "hip_magnitude_Nm": 0.14806087955676617,
+        "knee_magnitude_Nm": 1.6621375968917107,
+        "knee_rated_utilization": 0.5540458656305702,
+        "knee_with_25_percent_allowance_Nm": 2.0776719961146384,
+        "finite_difference_convergence_Nm": 2.886579864025407e-09
+      },
+      {
+        "leg_length_mm": 194.0,
+        "bend_deg": 69.16277235390751,
+        "hip_deg": -30.38695428965332,
+        "knee_relative_deg": -110.83722764609249,
+        "hip_gravity_Nm": -0.14643512535883474,
+        "knee_gravity_Nm": -1.6442863839394306,
+        "hip_magnitude_Nm": 0.14643512535883474,
+        "knee_magnitude_Nm": 1.6442863839394306,
+        "knee_rated_utilization": 0.5480954613131436,
+        "knee_with_25_percent_allowance_Nm": 2.0553579799242883,
+        "finite_difference_convergence_Nm": 3.1086242469058334e-09
+      },
+      {
+        "leg_length_mm": 195.0,
+        "bend_deg": 68.28664176764082,
+        "hip_deg": -30.01691990129689,
+        "knee_relative_deg": -111.71335823235918,
+        "hip_gravity_Nm": -0.14478229370951112,
+        "knee_gravity_Nm": -1.6261361679426045,
+        "hip_magnitude_Nm": 0.14478229370951112,
+        "knee_magnitude_Nm": 1.6261361679426045,
+        "knee_rated_utilization": 0.5420453893142015,
+        "knee_with_25_percent_allowance_Nm": 2.0326702099282556,
+        "finite_difference_convergence_Nm": 1.376676772579799e-09
+      },
+      {
+        "leg_length_mm": 196.0,
+        "bend_deg": 67.40059630849032,
+        "hip_deg": -29.641995895267808,
+        "knee_relative_deg": -112.59940369150968,
+        "hip_gravity_Nm": -0.14310148355178853,
+        "knee_gravity_Nm": -1.6076769626671705,
+        "hip_magnitude_Nm": 0.14310148355178853,
+        "knee_magnitude_Nm": 1.6076769626671705,
+        "knee_rated_utilization": 0.5358923208890568,
+        "knee_with_25_percent_allowance_Nm": 2.009596203333963,
+        "finite_difference_convergence_Nm": 4.796163688425281e-09
+      },
+      {
+        "leg_length_mm": 197.0,
+        "bend_deg": 66.50423280961036,
+        "hip_deg": -29.26200645774754,
+        "knee_relative_deg": -113.49576719038964,
+        "hip_gravity_Nm": -0.14139172987981397,
+        "knee_gravity_Nm": -1.5888981375056233,
+        "hip_magnitude_Nm": 0.14139172987981397,
+        "knee_magnitude_Nm": 1.5888981375056233,
+        "knee_rated_utilization": 0.5296327125018744,
+        "knee_with_25_percent_allowance_Nm": 1.986122671882029,
+        "finite_difference_convergence_Nm": 5.417888360170764e-09
+      },
+      {
+        "leg_length_mm": 198.0,
+        "bend_deg": 65.59712139083588,
+        "hip_deg": -28.87676363854858,
+        "knee_relative_deg": -114.40287860916412,
+        "hip_gravity_Nm": -0.13965202549925948,
+        "knee_gravity_Nm": -1.569788381949877,
+        "hip_magnitude_Nm": 0.13965202549925948,
+        "knee_magnitude_Nm": 1.569788381949877,
+        "knee_rated_utilization": 0.5232627939832923,
+        "knee_with_25_percent_allowance_Nm": 1.9622354774373463,
+        "finite_difference_convergence_Nm": 5.062616770246109e-09
+      },
+      {
+        "leg_length_mm": 199.0,
+        "bend_deg": 64.6788029054513,
+        "hip_deg": -28.486066207926285,
+        "knee_relative_deg": -115.32119709454871,
+        "hip_gravity_Nm": -0.13788125219349467,
+        "knee_gravity_Nm": -1.5503356096679966,
+        "hip_magnitude_Nm": 0.13788125219349467,
+        "knee_magnitude_Nm": 1.5503356096679966,
+        "knee_rated_utilization": 0.5167785365559988,
+        "knee_with_25_percent_allowance_Nm": 1.9379195120849957,
+        "finite_difference_convergence_Nm": 6.794565132750563e-09
+      },
+      {
+        "leg_length_mm": 200.0,
+        "bend_deg": 63.748786065044236,
+        "hip_deg": -28.089698368905484,
+        "knee_relative_deg": -116.25121393495576,
+        "hip_gravity_Nm": -0.13607824689287895,
+        "knee_gravity_Nm": -1.5305268523668758,
+        "hip_magnitude_Nm": 0.13607824689287895,
+        "knee_magnitude_Nm": 1.5305268523668758,
+        "knee_rated_utilization": 0.5101756174556252,
+        "knee_with_25_percent_allowance_Nm": 1.9131585654585948,
+        "finite_difference_convergence_Nm": 3.0198066269804258e-09
+      },
+      {
+        "leg_length_mm": 201.0,
+        "bend_deg": 62.806544191414964,
+        "hip_deg": -27.687428302252744,
+        "knee_relative_deg": -117.19345580858503,
+        "hip_gravity_Nm": -0.13424176348308947,
+        "knee_gravity_Nm": -1.5103482655653977,
+        "hip_magnitude_Nm": 0.13424176348308947,
+        "knee_magnitude_Nm": 1.5103482655653977,
+        "knee_rated_utilization": 0.5034494218551325,
+        "knee_with_25_percent_allowance_Nm": 1.8879353319567471,
+        "finite_difference_convergence_Nm": 3.907984824635946e-09
+      },
+      {
+        "leg_length_mm": 202.0,
+        "bend_deg": 61.851511534672646,
+        "hip_deg": -27.279006516816455,
+        "knee_relative_deg": -118.14848846532738,
+        "hip_gravity_Nm": -0.13237044926839303,
+        "knee_gravity_Nm": -1.489784974051389,
+        "hip_magnitude_Nm": 0.13237044926839303,
+        "knee_magnitude_Nm": 1.489784974051389,
+        "knee_rated_utilization": 0.49659499135046303,
+        "knee_with_25_percent_allowance_Nm": 1.8622312175642364,
+        "finite_difference_convergence_Nm": 8.082423841315745e-09
+      },
+      {
+        "leg_length_mm": 203.0,
+        "bend_deg": 60.88307908455064,
+        "hip_deg": -26.864163972536982,
+        "knee_relative_deg": -119.11692091544937,
+        "hip_gravity_Nm": -0.13046284941253816,
+        "knee_gravity_Nm": -1.46882092622036,
+        "hip_magnitude_Nm": 0.13046284941253816,
+        "knee_magnitude_Nm": 1.46882092622036,
+        "knee_rated_utilization": 0.48960697540678666,
+        "knee_with_25_percent_allowance_Nm": 1.83602615777545,
+        "finite_difference_convergence_Nm": 2.2648551922799243e-09
+      },
+      {
+        "leg_length_mm": 204.0,
+        "bend_deg": 59.90058978701448,
+        "hip_deg": -26.44260993672825,
+        "knee_relative_deg": -120.09941021298553,
+        "hip_gravity_Nm": -0.1285174100473796,
+        "knee_gravity_Nm": -1.4474388665419724,
+        "hip_magnitude_Nm": 0.1285174100473796,
+        "knee_magnitude_Nm": 1.4474388665419724,
+        "knee_rated_utilization": 0.4824796221806575,
+        "knee_with_25_percent_allowance_Nm": 1.8092985831774655,
+        "finite_difference_convergence_Nm": 1.7319479184152442e-09
+      },
+      {
+        "leg_length_mm": 205.0,
+        "bend_deg": 58.90333305962272,
+        "hip_deg": -26.01402952589461,
+        "knee_relative_deg": -121.0966669403773,
+        "hip_gravity_Nm": -0.12653243119942204,
+        "knee_gravity_Nm": -1.4256201259499335,
+        "hip_magnitude_Nm": 0.12653243119942204,
+        "knee_magnitude_Nm": 1.4256201259499335,
+        "knee_rated_utilization": 0.4752067086499778,
+        "knee_with_25_percent_allowance_Nm": 1.7820251574374169,
+        "finite_difference_convergence_Nm": 2.1316284293249055e-09
+      },
+      {
+        "leg_length_mm": 206.0,
+        "bend_deg": 57.89053847578825,
+        "hip_deg": -25.578080874905616,
+        "knee_relative_deg": -122.10946152421177,
+        "hip_gravity_Nm": -0.12450609787606481,
+        "knee_gravity_Nm": -1.4033444739602885,
+        "hip_magnitude_Nm": 0.12450609787606481,
+        "knee_magnitude_Nm": 1.4033444739602885,
+        "knee_rated_utilization": 0.46778149132009617,
+        "knee_with_25_percent_allowance_Nm": 1.7541805924503606,
+        "finite_difference_convergence_Nm": 9.192646865940901e-09
+      },
+      {
+        "leg_length_mm": 207.0,
+        "bend_deg": 56.861368458684225,
+        "hip_deg": -25.134391862182508,
+        "knee_relative_deg": -123.13863154131579,
+        "hip_gravity_Nm": -0.12243639169184917,
+        "knee_gravity_Nm": -1.380589909505403,
+        "hip_magnitude_Nm": 0.12243639169184917,
+        "knee_magnitude_Nm": 1.380589909505403,
+        "knee_rated_utilization": 0.46019663650180104,
+        "knee_with_25_percent_allowance_Nm": 1.7257373868817538,
+        "finite_difference_convergence_Nm": 7.549518787897114e-10
+      },
+      {
+        "leg_length_mm": 208.0,
+        "bend_deg": 55.81490978817533,
+        "hip_deg": -24.682556302817893,
+        "knee_relative_deg": -124.18509021182467,
+        "hip_gravity_Nm": -0.12032116813998073,
+        "knee_gravity_Nm": -1.3573325055027397,
+        "hip_magnitude_Nm": 0.12032116813998073,
+        "knee_magnitude_Nm": 1.3573325055027397,
+        "knee_rated_utilization": 0.45244416850091324,
+        "knee_with_25_percent_allowance_Nm": 1.6966656318784246,
+        "finite_difference_convergence_Nm": 5.906386477128045e-09
+      },
+      {
+        "leg_length_mm": 209.0,
+        "bend_deg": 54.75016367629844,
+        "hip_deg": -24.222129500120463,
+        "knee_relative_deg": -125.24983632370154,
+        "hip_gravity_Nm": -0.11815806688630914,
+        "knee_gravity_Nm": -1.333546100656946,
+        "hip_magnitude_Nm": 0.11815806688630914,
+        "knee_magnitude_Nm": 1.333546100656946,
+        "knee_rated_utilization": 0.4445153668856487,
+        "knee_with_25_percent_allowance_Nm": 1.6669326258211825,
+        "finite_difference_convergence_Nm": 1.3589129821411916e-08
+      },
+      {
+        "leg_length_mm": 210.0,
+        "bend_deg": 53.66603410499647,
+        "hip_deg": -23.752623018395365,
+        "knee_relative_deg": -126.33396589500352,
+        "hip_gravity_Nm": -0.11594446247542578,
+        "knee_gravity_Nm": -1.309201954402539,
+        "hip_magnitude_Nm": 0.11594446247542578,
+        "knee_magnitude_Nm": 1.309201954402539,
+        "knee_rated_utilization": 0.436400651467513,
+        "knee_with_25_percent_allowance_Nm": 1.6365024430031738,
+        "finite_difference_convergence_Nm": 3.730349348862738e-09
+      },
+      {
+        "leg_length_mm": 211.0,
+        "bend_deg": 52.5613140392195,
+        "hip_deg": -23.273498503688945,
+        "knee_relative_deg": -127.4386859607805,
+        "hip_gravity_Nm": -0.11367751939772575,
+        "knee_gravity_Nm": -1.2842685221947647,
+        "hip_magnitude_Nm": 0.11367751939772575,
+        "knee_magnitude_Nm": 1.2842685221947647,
+        "knee_rated_utilization": 0.4280895073982549,
+        "knee_with_25_percent_allowance_Nm": 1.605335652743456,
+        "finite_difference_convergence_Nm": 3.019806613102638e-09
+      },
+      {
+        "leg_length_mm": 212.0,
+        "bend_deg": 51.43466902241916,
+        "hip_deg": -22.784160331730586,
+        "knee_relative_deg": -128.56533097758083,
+        "hip_gravity_Nm": -0.11135408106710543,
+        "knee_gravity_Nm": -1.2587109194939217,
+        "hip_magnitude_Nm": 0.11135408106710543,
+        "knee_magnitude_Nm": 1.2587109194939217,
+        "knee_rated_utilization": 0.4195703064979739,
+        "knee_with_25_percent_allowance_Nm": 1.573388649367402,
+        "finite_difference_convergence_Nm": 5.595524057988577e-09
+      },
+      {
+        "leg_length_mm": 213.0,
+        "bend_deg": 50.284617520323636,
+        "hip_deg": -22.283946799122017,
+        "knee_relative_deg": -129.71538247967638,
+        "hip_gravity_Nm": -0.10897062185932782,
+        "knee_gravity_Nm": -1.2324904541394233,
+        "hip_magnitude_Nm": 0.10897062185932782,
+        "knee_magnitude_Nm": 1.2324904541394233,
+        "knee_rated_utilization": 0.4108301513798078,
+        "knee_with_25_percent_allowance_Nm": 1.540613067674279,
+        "finite_difference_convergence_Nm": 3.6859404417555197e-09
+      },
+      {
+        "leg_length_mm": 214.0,
+        "bend_deg": 49.10950718896569,
+        "hip_deg": -21.77211948881157,
+        "knee_relative_deg": -130.8904928110343,
+        "hip_gravity_Nm": -0.10652326798421541,
+        "knee_gravity_Nm": -1.2055640308261673,
+        "hip_magnitude_Nm": 0.10652326798421541,
+        "knee_magnitude_Nm": 1.2055640308261673,
+        "knee_rated_utilization": 0.40185467694205573,
+        "knee_with_25_percent_allowance_Nm": 1.506955038532709,
+        "finite_difference_convergence_Nm": 5.595524044110789e-09
+      },
+      {
+        "leg_length_mm": 215.0,
+        "bend_deg": 47.907485984208236,
+        "hip_deg": -21.247850325084485,
+        "knee_relative_deg": -132.09251401579178,
+        "hip_gravity_Nm": -0.10400763228446408,
+        "knee_gravity_Nm": -1.177883353964404,
+        "hip_magnitude_Nm": 0.10400763228446408,
+        "knee_magnitude_Nm": 1.177883353964404,
+        "knee_rated_utilization": 0.39262778465480136,
+        "knee_with_25_percent_allowance_Nm": 1.472354192455505,
+        "finite_difference_convergence_Nm": 3.375077980982688e-09
+      }
+    ],
+    "scan_step_mm": 1,
+    "constraint": "Ground-fixed wheels; left/right coordinates varied together; fixed chassis pitch. Joint efforts omit the external pitch-constraint reaction and are not proof of free balance."
+  },
+  "V6_comparison": {
+    "mass_kg": 5.641930000000013,
+    "mass_delta_kg": 0.6258929999999943,
+    "nominal": {
+      "leg_length_mm": 180.0,
+      "bend_deg": 80.56553321384833,
+      "hip_deg": -35.13066242227375,
+      "knee_relative_deg": -99.43446678615167,
+      "hip_gravity_Nm": -0.16706114891462676,
+      "knee_gravity_Nm": -1.640972506766758,
+      "hip_magnitude_Nm": 0.16706114891462676,
+      "knee_magnitude_Nm": 1.640972506766758,
+      "knee_rated_utilization": 0.5469908355889194,
+      "knee_with_25_percent_allowance_Nm": 2.0512156334584475,
+      "finite_difference_convergence_Nm": 2.2648549702353193e-09
+    },
+    "worst_sample": {
+      "leg_length_mm": 100.0,
+      "bend_deg": 131.04058118926147,
+      "hip_deg": -52.36877004133025,
+      "knee_relative_deg": -48.959418810738526,
+      "hip_gravity_Nm": -0.23150237615787717,
+      "knee_gravity_Nm": -2.258747956673801,
+      "hip_magnitude_Nm": 0.23150237615787717,
+      "knee_magnitude_Nm": 2.258747956673801,
+      "knee_rated_utilization": 0.7529159855579337,
+      "knee_with_25_percent_allowance_Nm": 2.8234349458422514,
+      "finite_difference_convergence_Nm": 7.993606054856883e-10
+    },
+    "nominal_balance": {
+      "height_mm": 180.0,
+      "COM_from_hip_mm": [
+        -6.245668702345624,
+        -0.02782558835585777,
+        -44.76041130929128
+      ],
+      "COM_to_contact_x_mm": -6.245668702345624,
+      "COM_height_above_ground_mm": 185.23958869070867,
+      "COM_height_above_axle_mm": 135.23958869070867,
+      "gravity_pitch_moment_about_contact_Nm": -0.34568110735010255,
+      "locked_shape_balance_lean_deg": -2.644169340857911,
+      "locked_shape_lean_residual_x_mm": 0.0,
+      "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)",
+      "level_chassis_leg_beta_candidate": {
+        "angle_deg": -2.669242987790052,
+        "search_bound_deg": 30.0,
+        "residual_COM_to_contact_x_mm": -2.6020852139652106e-14,
+        "wheel_x_from_hip_mm": -8.382641174008276,
+        "hip_height_above_axle_mm": 179.80470329484658,
+        "sign_convention": "Positive Beta moves the wheel forwards (+X) relative to the level chassis",
+        "note": "Static geometric balance candidate only; no collision, actuator, friction or control validation at this Beta"
+      }
+    },
+    "COM_from_hip_delta_mm": [
+      7.893174494661672,
+      0.002782036760348588,
+      8.617989104541003
+    ],
+    "same_height_rows": [
+      {
+        "height_mm": 100.0,
+        "V7_knee_Nm": 2.5748185104035315,
+        "V6_knee_Nm": 2.258747956673801
+      },
+      {
+        "height_mm": 101.0,
+        "V7_knee_Nm": 2.570773575572005,
+        "V6_knee_Nm": 2.2551991201158472
+      },
+      {
+        "height_mm": 102.0,
+        "V7_knee_Nm": 2.5666007483771125,
+        "V6_knee_Nm": 2.2515380906362736
+      },
+      {
+        "height_mm": 103.0,
+        "V7_knee_Nm": 2.5623017423370698,
+        "V6_knee_Nm": 2.2477663788045277
+      },
+      {
+        "height_mm": 104.0,
+        "V7_knee_Nm": 2.557878175935002,
+        "V6_knee_Nm": 2.2438853879425125
+      },
+      {
+        "height_mm": 105.0,
+        "V7_knee_Nm": 2.553331515331436,
+        "V6_knee_Nm": 2.2398964278913525
+      },
+      {
+        "height_mm": 106.0,
+        "V7_knee_Nm": 2.548663153634223,
+        "V6_knee_Nm": 2.2358006988021373
+      },
+      {
+        "height_mm": 107.0,
+        "V7_knee_Nm": 2.543874374261179,
+        "V6_knee_Nm": 2.2315993402077794
+      },
+      {
+        "height_mm": 108.0,
+        "V7_knee_Nm": 2.538966346499194,
+        "V6_knee_Nm": 2.2272933761779967
+      },
+      {
+        "height_mm": 109.0,
+        "V7_knee_Nm": 2.5339401654722593,
+        "V6_knee_Nm": 2.222883758840055
+      },
+      {
+        "height_mm": 110.0,
+        "V7_knee_Nm": 2.528796833267677,
+        "V6_knee_Nm": 2.218371378370776
+      },
+      {
+        "height_mm": 111.0,
+        "V7_knee_Nm": 2.523537254051078,
+        "V6_knee_Nm": 2.213757019919882
+      },
+      {
+        "height_mm": 112.0,
+        "V7_knee_Nm": 2.5181622675951587,
+        "V6_knee_Nm": 2.209041423784086
+      },
+      {
+        "height_mm": 113.0,
+        "V7_knee_Nm": 2.5126726306279323,
+        "V6_knee_Nm": 2.204225253876757
+      },
+      {
+        "height_mm": 114.0,
+        "V7_knee_Nm": 2.5070690179429533,
+        "V6_knee_Nm": 2.1993090966176965
+      },
+      {
+        "height_mm": 115.0,
+        "V7_knee_Nm": 2.5013520383865284,
+        "V6_knee_Nm": 2.1942934942398296
+      },
+      {
+        "height_mm": 116.0,
+        "V7_knee_Nm": 2.495522245293813,
+        "V6_knee_Nm": 2.1891789261374583
+      },
+      {
+        "height_mm": 117.0,
+        "V7_knee_Nm": 2.489580099185318,
+        "V6_knee_Nm": 2.183965799096299
+      },
+      {
+        "height_mm": 118.0,
+        "V7_knee_Nm": 2.483526007956982,
+        "V6_knee_Nm": 2.178654469719987
+      },
+      {
+        "height_mm": 119.0,
+        "V7_knee_Nm": 2.477360325991995,
+        "V6_knee_Nm": 2.1732452524236834
+      },
+      {
+        "height_mm": 120.0,
+        "V7_knee_Nm": 2.4710833346208716,
+        "V6_knee_Nm": 2.1677383856832932
+      },
+      {
+        "height_mm": 121.0,
+        "V7_knee_Nm": 2.4646952654361343,
+        "V6_knee_Nm": 2.1621340837718606
+      },
+      {
+        "height_mm": 122.0,
+        "V7_knee_Nm": 2.4581962856373707,
+        "V6_knee_Nm": 2.156432482358639
+      },
+      {
+        "height_mm": 123.0,
+        "V7_knee_Nm": 2.4515865133523107,
+        "V6_knee_Nm": 2.1506336931320646
+      },
+      {
+        "height_mm": 124.0,
+        "V7_knee_Nm": 2.444866017858871,
+        "V6_knee_Nm": 2.1447377724914674
+      },
+      {
+        "height_mm": 125.0,
+        "V7_knee_Nm": 2.438034792717758,
+        "V6_knee_Nm": 2.138744714219598
+      },
+      {
+        "height_mm": 126.0,
+        "V7_knee_Nm": 2.4310928057325043,
+        "V6_knee_Nm": 2.1326544932254166
+      },
+      {
+        "height_mm": 127.0,
+        "V7_knee_Nm": 2.4240399663089107,
+        "V6_knee_Nm": 2.126467027796508
+      },
+      {
+        "height_mm": 128.0,
+        "V7_knee_Nm": 2.4168761232346014,
+        "V6_knee_Nm": 2.120182188480868
+      },
+      {
+        "height_mm": 129.0,
+        "V7_knee_Nm": 2.4096010955432234,
+        "V6_knee_Nm": 2.1137998111875334
+      },
+      {
+        "height_mm": 130.0,
+        "V7_knee_Nm": 2.4022146276614365,
+        "V6_knee_Nm": 2.1073196763143898
+      },
+      {
+        "height_mm": 131.0,
+        "V7_knee_Nm": 2.394716443365752,
+        "V6_knee_Nm": 2.100741536725792
+      },
+      {
+        "height_mm": 132.0,
+        "V7_knee_Nm": 2.387106201595657,
+        "V6_knee_Nm": 2.094065100655129
+      },
+      {
+        "height_mm": 133.0,
+        "V7_knee_Nm": 2.3793835186580736,
+        "V6_knee_Nm": 2.087290023711219
+      },
+      {
+        "height_mm": 134.0,
+        "V7_knee_Nm": 2.3715479702257625,
+        "V6_knee_Nm": 2.0804159357457053
+      },
+      {
+        "height_mm": 135.0,
+        "V7_knee_Nm": 2.3635990769044213,
+        "V6_knee_Nm": 2.073442421313132
+      },
+      {
+        "height_mm": 136.0,
+        "V7_knee_Nm": 2.3555363186655853,
+        "V6_knee_Nm": 2.066369017894587
+      },
+      {
+        "height_mm": 137.0,
+        "V7_knee_Nm": 2.3473591217459955,
+        "V6_knee_Nm": 2.0591952236692634
+      },
+      {
+        "height_mm": 138.0,
+        "V7_knee_Nm": 2.339066871082096,
+        "V6_knee_Nm": 2.0519205010671726
+      },
+      {
+        "height_mm": 139.0,
+        "V7_knee_Nm": 2.330658914750927,
+        "V6_knee_Nm": 2.0445442765471
+      },
+      {
+        "height_mm": 140.0,
+        "V7_knee_Nm": 2.3221345273327643,
+        "V6_knee_Nm": 2.0370659139512526
+      },
+      {
+        "height_mm": 141.0,
+        "V7_knee_Nm": 2.3134929669765825,
+        "V6_knee_Nm": 2.029484763133027
+      },
+      {
+        "height_mm": 142.0,
+        "V7_knee_Nm": 2.304733417446414,
+        "V6_knee_Nm": 2.0218001053340373
+      },
+      {
+        "height_mm": 143.0,
+        "V7_knee_Nm": 2.2958550309759573,
+        "V6_knee_Nm": 2.014011201589838
+      },
+      {
+        "height_mm": 144.0,
+        "V7_knee_Nm": 2.2868569087286517,
+        "V6_knee_Nm": 2.006117259867324
+      },
+      {
+        "height_mm": 145.0,
+        "V7_knee_Nm": 2.2777380936922498,
+        "V6_knee_Nm": 1.9981174423922
+      },
+      {
+        "height_mm": 146.0,
+        "V7_knee_Nm": 2.2684975928832785,
+        "V6_knee_Nm": 1.9900108749748568
+      },
+      {
+        "height_mm": 147.0,
+        "V7_knee_Nm": 2.259134337156965,
+        "V6_knee_Nm": 1.9817966241397755
+      },
+      {
+        "height_mm": 148.0,
+        "V7_knee_Nm": 2.2496472382727006,
+        "V6_knee_Nm": 1.9734737302101735
+      },
+      {
+        "height_mm": 149.0,
+        "V7_knee_Nm": 2.24003512472315,
+        "V6_knee_Nm": 1.9650411713367788
+      },
+      {
+        "height_mm": 150.0,
+        "V7_knee_Nm": 2.2302967881415725,
+        "V6_knee_Nm": 1.9564978803732203
+      },
+      {
+        "height_mm": 151.0,
+        "V7_knee_Nm": 2.220430958654873,
+        "V6_knee_Nm": 1.9478427497610085
+      },
+      {
+        "height_mm": 152.0,
+        "V7_knee_Nm": 2.210436298000218,
+        "V6_knee_Nm": 1.9390746026637373
+      },
+      {
+        "height_mm": 153.0,
+        "V7_knee_Nm": 2.200311448818937,
+        "V6_knee_Nm": 1.9301922478121014
+      },
+      {
+        "height_mm": 154.0,
+        "V7_knee_Nm": 2.1900549336262287,
+        "V6_knee_Nm": 1.921194391796277
+      },
+      {
+        "height_mm": 155.0,
+        "V7_knee_Nm": 2.1796652620587054,
+        "V6_knee_Nm": 1.9120797227767383
+      },
+      {
+        "height_mm": 156.0,
+        "V7_knee_Nm": 2.169140849161977,
+        "V6_knee_Nm": 1.9028468540849275
+      },
+      {
+        "height_mm": 157.0,
+        "V7_knee_Nm": 2.15848005824526,
+        "V6_knee_Nm": 1.8934943508686075
+      },
+      {
+        "height_mm": 158.0,
+        "V7_knee_Nm": 2.1476811802312312,
+        "V6_knee_Nm": 1.8840207085535354
+      },
+      {
+        "height_mm": 159.0,
+        "V7_knee_Nm": 2.1367424427598536,
+        "V6_knee_Nm": 1.8744243759361012
+      },
+      {
+        "height_mm": 160.0,
+        "V7_knee_Nm": 2.1256619797682674,
+        "V6_knee_Nm": 1.8647037147712098
+      },
+      {
+        "height_mm": 161.0,
+        "V7_knee_Nm": 2.1144378641313466,
+        "V6_knee_Nm": 1.854857035077373
+      },
+      {
+        "height_mm": 162.0,
+        "V7_knee_Nm": 2.10306808989813,
+        "V6_knee_Nm": 1.844882579815632
+      },
+      {
+        "height_mm": 163.0,
+        "V7_knee_Nm": 2.091550558525057,
+        "V6_knee_Nm": 1.834778502241008
+      },
+      {
+        "height_mm": 164.0,
+        "V7_knee_Nm": 2.0798830999702034,
+        "V6_knee_Nm": 1.8245429036500838
+      },
+      {
+        "height_mm": 165.0,
+        "V7_knee_Nm": 2.068063431170941,
+        "V6_knee_Nm": 1.8141737778698541
+      },
+      {
+        "height_mm": 166.0,
+        "V7_knee_Nm": 2.056089198010369,
+        "V6_knee_Nm": 1.8036690643263853
+      },
+      {
+        "height_mm": 167.0,
+        "V7_knee_Nm": 2.0439579380138184,
+        "V6_knee_Nm": 1.7930265969745562
+      },
+      {
+        "height_mm": 168.0,
+        "V7_knee_Nm": 2.0316670950037974,
+        "V6_knee_Nm": 1.7822441369386155
+      },
+      {
+        "height_mm": 169.0,
+        "V7_knee_Nm": 2.019213992010549,
+        "V6_knee_Nm": 1.7713193318780185
+      },
+      {
+        "height_mm": 170.0,
+        "V7_knee_Nm": 2.0065958423742813,
+        "V6_knee_Nm": 1.7602497461854938
+      },
+      {
+        "height_mm": 171.0,
+        "V7_knee_Nm": 1.9938097577387737,
+        "V6_knee_Nm": 1.7490328310110215
+      },
+      {
+        "height_mm": 172.0,
+        "V7_knee_Nm": 1.980852705862901,
+        "V6_knee_Nm": 1.7376659497969626
+      },
+      {
+        "height_mm": 173.0,
+        "V7_knee_Nm": 1.9677215341573628,
+        "V6_knee_Nm": 1.7261463074458305
+      },
+      {
+        "height_mm": 174.0,
+        "V7_knee_Nm": 1.9544129439275082,
+        "V6_knee_Nm": 1.7144710380279093
+      },
+      {
+        "height_mm": 175.0,
+        "V7_knee_Nm": 1.9409235183509566,
+        "V6_knee_Nm": 1.7026371232908843
+      },
+      {
+        "height_mm": 176.0,
+        "V7_knee_Nm": 1.9272496483146995,
+        "V6_knee_Nm": 1.6906414075368303
+      },
+      {
+        "height_mm": 177.0,
+        "V7_knee_Nm": 1.9133875892585195,
+        "V6_knee_Nm": 1.6784806107228434
+      },
+      {
+        "height_mm": 178.0,
+        "V7_knee_Nm": 1.8993334345296375,
+        "V6_knee_Nm": 1.6661512862725658
+      },
+      {
+        "height_mm": 179.0,
+        "V7_knee_Nm": 1.8850830665329,
+        "V6_knee_Nm": 1.6536498406161115
+      },
+      {
+        "height_mm": 180.0,
+        "V7_knee_Nm": 1.8706321975869855,
+        "V6_knee_Nm": 1.640972506766758
+      },
+      {
+        "height_mm": 181.0,
+        "V7_knee_Nm": 1.8559763446113209,
+        "V6_knee_Nm": 1.6281153474295706
+      },
+      {
+        "height_mm": 182.0,
+        "V7_knee_Nm": 1.8411107802762672,
+        "V6_knee_Nm": 1.6150742214726677
+      },
+      {
+        "height_mm": 183.0,
+        "V7_knee_Nm": 1.826030581408844,
+        "V6_knee_Nm": 1.6018448087962156
+      },
+      {
+        "height_mm": 184.0,
+        "V7_knee_Nm": 1.8107305495007608,
+        "V6_knee_Nm": 1.5884225490481185
+      },
+      {
+        "height_mm": 185.0,
+        "V7_knee_Nm": 1.7952052440151078,
+        "V6_knee_Nm": 1.5748026689355044
+      },
+      {
+        "height_mm": 186.0,
+        "V7_knee_Nm": 1.7794489366451671,
+        "V6_knee_Nm": 1.5609801451432759
+      },
+      {
+        "height_mm": 187.0,
+        "V7_knee_Nm": 1.7634556299661597,
+        "V6_knee_Nm": 1.54694970189162
+      },
+      {
+        "height_mm": 188.0,
+        "V7_knee_Nm": 1.7472189495215673,
+        "V6_knee_Nm": 1.5327057651948195
+      },
+      {
+        "height_mm": 189.0,
+        "V7_knee_Nm": 1.7307322135451386,
+        "V6_knee_Nm": 1.5182424815129991
+      },
+      {
+        "height_mm": 190.0,
+        "V7_knee_Nm": 1.7139883903283248,
+        "V6_knee_Nm": 1.5035536513607894
+      },
+      {
+        "height_mm": 191.0,
+        "V7_knee_Nm": 1.696980001408832,
+        "V6_knee_Nm": 1.4886327470708949
+      },
+      {
+        "height_mm": 192.0,
+        "V7_knee_Nm": 1.6796991872958245,
+        "V6_knee_Nm": 1.4734728432941324
+      },
+      {
+        "height_mm": 193.0,
+        "V7_knee_Nm": 1.6621375968917107,
+        "V6_knee_Nm": 1.458066633652777
+      },
+      {
+        "height_mm": 194.0,
+        "V7_knee_Nm": 1.6442863839394306,
+        "V6_knee_Nm": 1.4424063565776635
+      },
+      {
+        "height_mm": 195.0,
+        "V7_knee_Nm": 1.6261361679426045,
+        "V6_knee_Nm": 1.42648377376986
+      },
+      {
+        "height_mm": 196.0,
+        "V7_knee_Nm": 1.6076769626671705,
+        "V6_knee_Nm": 1.410290127790148
+      },
+      {
+        "height_mm": 197.0,
+        "V7_knee_Nm": 1.5888981375056233,
+        "V6_knee_Nm": 1.393816111860957
+      },
+      {
+        "height_mm": 198.0,
+        "V7_knee_Nm": 1.569788381949877,
+        "V6_knee_Nm": 1.3770517757194511
+      },
+      {
+        "height_mm": 199.0,
+        "V7_knee_Nm": 1.5503356096679966,
+        "V6_knee_Nm": 1.3599865207325479
+      },
+      {
+        "height_mm": 200.0,
+        "V7_knee_Nm": 1.5305268523668758,
+        "V6_knee_Nm": 1.342608996868222
+      },
+      {
+        "height_mm": 201.0,
+        "V7_knee_Nm": 1.5103482655653977,
+        "V6_knee_Nm": 1.3249070396348372
+      },
+      {
+        "height_mm": 202.0,
+        "V7_knee_Nm": 1.489784974051389,
+        "V6_knee_Nm": 1.3068675785987693
+      },
+      {
+        "height_mm": 203.0,
+        "V7_knee_Nm": 1.46882092622036,
+        "V6_knee_Nm": 1.2884765747678273
+      },
+      {
+        "height_mm": 204.0,
+        "V7_knee_Nm": 1.4474388665419724,
+        "V6_knee_Nm": 1.2697188687127436
+      },
+      {
+        "height_mm": 205.0,
+        "V7_knee_Nm": 1.4256201259499335,
+        "V6_knee_Nm": 1.250578075762121
+      },
+      {
+        "height_mm": 206.0,
+        "V7_knee_Nm": 1.4033444739602885,
+        "V6_knee_Nm": 1.2310364536638474
+      },
+      {
+        "height_mm": 207.0,
+        "V7_knee_Nm": 1.380589909505403,
+        "V6_knee_Nm": 1.2110747276139477
+      },
+      {
+        "height_mm": 208.0,
+        "V7_knee_Nm": 1.3573325055027397,
+        "V6_knee_Nm": 1.1906718699883356
+      },
+      {
+        "height_mm": 209.0,
+        "V7_knee_Nm": 1.333546100656946,
+        "V6_knee_Nm": 1.1698049542374633
+      },
+      {
+        "height_mm": 210.0,
+        "V7_knee_Nm": 1.309201954402539,
+        "V6_knee_Nm": 1.1484487525414977
+      },
+      {
+        "height_mm": 211.0,
+        "V7_knee_Nm": 1.2842685221947647,
+        "V6_knee_Nm": 1.126575608800806
+      },
+      {
+        "height_mm": 212.0,
+        "V7_knee_Nm": 1.2587109194939217,
+        "V6_knee_Nm": 1.1041549079493507
+      },
+      {
+        "height_mm": 213.0,
+        "V7_knee_Nm": 1.2324904541394233,
+        "V6_knee_Nm": 1.0811527140219823
+      },
+      {
+        "height_mm": 214.0,
+        "V7_knee_Nm": 1.2055640308261673,
+        "V6_knee_Nm": 1.0575312070493226
+      },
+      {
+        "height_mm": 215.0,
+        "V7_knee_Nm": 1.177883353964404,
+        "V6_knee_Nm": 1.0332480440133907
+      }
+    ]
+  },
+  "sagittal_balance": {
+    "nominal": {
+      "height_mm": 180.0,
+      "COM_from_hip_mm": [
+        1.6475057923160483,
+        -0.02504355159550918,
+        -36.142422204750275
+      ],
+      "COM_to_contact_x_mm": 1.6475057923160483,
+      "COM_height_above_ground_mm": 193.8575777952497,
+      "COM_height_above_axle_mm": 143.85757779524968,
+      "gravity_pitch_moment_about_contact_Nm": 0.10130075478455239,
+      "locked_shape_balance_lean_deg": 0.6561420229846836,
+      "locked_shape_lean_residual_x_mm": 0.0,
+      "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)",
+      "level_chassis_leg_beta_candidate": {
+        "angle_deg": 0.6813912827559998,
+        "search_bound_deg": 30.0,
+        "residual_COM_to_contact_x_mm": 1.9949319973733282e-14,
+        "wheel_x_from_hip_mm": 2.1406033889675853,
+        "hip_height_above_axle_mm": 179.9872712641956,
+        "sign_convention": "Positive Beta moves the wheel forwards (+X) relative to the level chassis",
+        "note": "Static geometric balance candidate only; no collision, actuator, friction or control validation at this Beta"
+      }
+    },
+    "rows": [
+      {
+        "height_mm": 100.0,
+        "COM_from_hip_mm": [
+          -0.44857513439257224,
+          -0.02504355159550918,
+          -19.251922811848925
+        ],
+        "COM_to_contact_x_mm": -0.44857513439257224,
+        "COM_height_above_ground_mm": 130.74807718815111,
+        "COM_height_above_axle_mm": 80.7480771881511,
+        "gravity_pitch_moment_about_contact_Nm": -0.027581693432269554,
+        "locked_shape_balance_lean_deg": -0.3182886640347063,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 101.0,
+        "COM_from_hip_mm": [
+          -0.4364401635122747,
+          -0.02504355159550918,
+          -19.453742623689546
+        ],
+        "COM_to_contact_x_mm": -0.4364401635122886,
+        "COM_height_above_ground_mm": 131.54625737631048,
+        "COM_height_above_axle_mm": 81.54625737631046,
+        "gravity_pitch_moment_about_contact_Nm": -0.026835546307813506,
+        "locked_shape_balance_lean_deg": -0.306647311902195,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 102.0,
+        "COM_from_hip_mm": [
+          -0.4239259755807147,
+          -0.02504355159550918,
+          -19.655979986587635
+        ],
+        "COM_to_contact_x_mm": -0.4239259755807286,
+        "COM_height_above_ground_mm": 132.34402001341235,
+        "COM_height_above_axle_mm": 82.34402001341236,
+        "gravity_pitch_moment_about_contact_Nm": -0.026066082134215275,
+        "locked_shape_balance_lean_deg": -0.2949692599081178,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 103.0,
+        "COM_from_hip_mm": [
+          -0.4110377186477234,
+          -0.02504355159550918,
+          -19.858622702119174
+        ],
+        "COM_to_contact_x_mm": -0.41103771864770955,
+        "COM_height_above_ground_mm": 133.14137729788084,
+        "COM_height_above_axle_mm": 83.14137729788084,
+        "gravity_pitch_moment_about_contact_Nm": -0.025273617451383002,
+        "locked_shape_balance_lean_deg": -0.2832588946111636,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 104.0,
+        "COM_from_hip_mm": [
+          -0.3977801852209763,
+          -0.02504355159550918,
+          -20.06165904004863
+        ],
+        "COM_to_contact_x_mm": -0.3977801852209763,
+        "COM_height_above_ground_mm": 133.93834095995138,
+        "COM_height_above_axle_mm": 83.93834095995138,
+        "gravity_pitch_moment_about_contact_Nm": -0.024458446937887245,
+        "locked_shape_balance_lean_deg": -0.2715202006205853,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 105.0,
+        "COM_from_hip_mm": [
+          -0.3841578306261483,
+          -0.02504355159550918,
+          -20.265077716043294
+        ],
+        "COM_to_contact_x_mm": -0.3841578306261483,
+        "COM_height_above_ground_mm": 134.73492228395668,
+        "COM_height_above_axle_mm": 84.73492228395668,
+        "gravity_pitch_moment_about_contact_Nm": -0.023620844539865342,
+        "locked_shape_balance_lean_deg": -0.2597567917559306,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 106.0,
+        "COM_from_hip_mm": [
+          -0.3701747900306191,
+          -0.02504355159550918,
+          -20.468867870647035
+        ],
+        "COM_to_contact_x_mm": -0.3701747900306191,
+        "COM_height_above_ground_mm": 135.53113212935298,
+        "COM_height_above_axle_mm": 85.53113212935295,
+        "gravity_pitch_moment_about_contact_Nm": -0.0227610645177758,
+        "locked_shape_balance_lean_deg": -0.24797193955354024,
+        "locked_shape_lean_residual_x_mm": 5.421010862427522e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 107.0,
+        "COM_from_hip_mm": [
+          -0.35583489423192327,
+          -0.02504355159550918,
+          -20.673019049431446
+        ],
+        "COM_to_contact_x_mm": -0.35583489423192327,
+        "COM_height_above_ground_mm": 136.32698095056855,
+        "COM_height_above_axle_mm": 86.32698095056855,
+        "gravity_pitch_moment_about_contact_Nm": -0.021879342417182996,
+        "locked_shape_balance_lean_deg": -0.23616859936165477,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 108.0,
+        "COM_from_hip_mm": [
+          -0.3411416843027434,
+          -0.02504355159550918,
+          -20.87752118424809
+        ],
+        "COM_to_contact_x_mm": -0.34114168430275726,
+        "COM_height_above_ground_mm": 137.1224788157519,
+        "COM_height_above_axle_mm": 87.1224788157519,
+        "gravity_pitch_moment_about_contact_Nm": -0.020975895969240637,
+        "locked_shape_balance_lean_deg": -0.22434943424223833,
+        "locked_shape_lean_residual_x_mm": -1.0842021724855044e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 109.0,
+        "COM_from_hip_mm": [
+          -0.32609842517647025,
+          -0.02504355159550918,
+          -21.082364575510912
+        ],
+        "COM_to_contact_x_mm": -0.3260984251764564,
+        "COM_height_above_ground_mm": 137.9176354244891,
+        "COM_height_above_axle_mm": 87.91763542448908,
+        "gravity_pitch_moment_about_contact_Nm": -0.020050925926026638,
+        "locked_shape_balance_lean_deg": -0.21251683687587852,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 110.0,
+        "COM_from_hip_mm": [
+          -0.3107081182496486,
+          -0.02504355159550918,
+          -21.28753987544382
+        ],
+        "COM_to_contact_x_mm": -0.3107081182496625,
+        "COM_height_above_ground_mm": 138.71246012455617,
+        "COM_height_above_axle_mm": 88.71246012455617,
+        "gravity_pitch_moment_about_contact_Nm": -0.01910461683544769,
+        "locked_shape_balance_lean_deg": -0.20067294964704138,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 111.0,
+        "COM_from_hip_mm": [
+          -0.2949735130714495,
+          -0.02504355159550918,
+          -21.49303807223224
+        ],
+        "COM_to_contact_x_mm": -0.29497351307146336,
+        "COM_height_above_ground_mm": 139.50696192776775,
+        "COM_height_above_axle_mm": 89.50696192776773,
+        "gravity_pitch_moment_about_contact_Nm": -0.018137137759973387,
+        "locked_shape_balance_lean_deg": -0.18881968306922012,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 112.0,
+        "COM_from_hip_mm": [
+          -0.2788971181836384,
+          -0.02504355159550918,
+          -21.698850475022475
+        ],
+        "COM_to_contact_x_mm": -0.2788971181836106,
+        "COM_height_above_ground_mm": 140.30114952497752,
+        "COM_height_above_axle_mm": 90.30114952497753,
+        "gravity_pitch_moment_about_contact_Nm": -0.017148642943172407,
+        "locked_shape_balance_lean_deg": -0.17695873269499732,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 113.0,
+        "COM_from_hip_mm": [
+          -0.26248121116958345,
+          -0.02504355159550918,
+          -21.904968699715592
+        ],
+        "COM_to_contact_x_mm": -0.26248121116958345,
+        "COM_height_above_ground_mm": 141.0950313002844,
+        "COM_height_above_axle_mm": 91.09503130028442,
+        "gravity_pitch_moment_about_contact_Nm": -0.01613927242760279,
+        "locked_shape_balance_lean_deg": -0.16509159464134276,
+        "locked_shape_lean_residual_x_mm": -5.421010862427522e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 114.0,
+        "COM_from_hip_mm": [
+          -0.24572784796560593,
+          -0.02504355159550918,
+          -22.1113846555088
+        ],
+        "COM_to_contact_x_mm": -0.2457278479656198,
+        "COM_height_above_ground_mm": 141.8886153444912,
+        "COM_height_above_axle_mm": 91.88861534449119,
+        "gravity_pitch_moment_about_contact_Nm": -0.01510915262732248,
+        "locked_shape_balance_lean_deg": -0.15321957984832288,
+        "locked_shape_lean_residual_x_mm": -5.421010862427522e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 115.0,
+        "COM_from_hip_mm": [
+          -0.22863887148322115,
+          -0.02504355159550918,
+          -22.31809053213666
+        ],
+        "COM_to_contact_x_mm": -0.22863887148322115,
+        "COM_height_above_ground_mm": 142.6819094678633,
+        "COM_height_above_axle_mm": 92.6819094678633,
+        "gravity_pitch_moment_about_contact_Nm": -0.014058396858064242,
+        "locked_shape_balance_lean_deg": -0.14134382717885258,
+        "locked_shape_lean_residual_x_mm": 2.710505431213761e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 116.0,
+        "COM_from_hip_mm": [
+          -0.2112159195870205,
+          -0.02504355159550918,
+          -22.525078787771644
+        ],
+        "COM_to_contact_x_mm": -0.2112159195870205,
+        "COM_height_above_ground_mm": 143.4749212122283,
+        "COM_height_above_axle_mm": 93.47492121222834,
+        "gravity_pitch_moment_about_contact_Nm": -0.012987105827773592,
+        "locked_shape_balance_lean_deg": -0.12946531545619297,
+        "locked_shape_lean_residual_x_mm": 2.710505431213761e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 117.0,
+        "COM_from_hip_mm": [
+          -0.19346043246895622,
+          -0.02504355159550918,
+          -22.73234213754363
+        ],
+        "COM_to_contact_x_mm": -0.19346043246895622,
+        "COM_height_above_ground_mm": 144.2676578624564,
+        "COM_height_above_axle_mm": 94.26765786245639,
+        "gravity_pitch_moment_about_contact_Nm": -0.011895368090027133,
+        "locked_shape_balance_lean_deg": -0.11758487452743561,
+        "locked_shape_lean_residual_x_mm": -2.710505431213761e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 118.0,
+        "COM_from_hip_mm": [
+          -0.1753736594562531,
+          -0.02504355159550918,
+          -22.939873542642456
+        ],
+        "COM_to_contact_x_mm": -0.1753736594562531,
+        "COM_height_above_ground_mm": 145.06012645735754,
+        "COM_height_above_axle_mm": 95.06012645735754,
+        "gravity_pitch_moment_about_contact_Nm": -0.010783260462637246,
+        "locked_shape_balance_lean_deg": -0.1057031954331181,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 119.0,
+        "COM_from_hip_mm": [
+          -0.15695666528705857,
+          -0.02504355159550918,
+          -23.147666199967937
+        ],
+        "COM_to_contact_x_mm": -0.15695666528705857,
+        "COM_height_above_ground_mm": 145.85233380003203,
+        "COM_height_above_axle_mm": 95.85233380003206,
+        "gravity_pitch_moment_about_contact_Nm": -0.009650848413524274,
+        "locked_shape_balance_lean_deg": -0.09382083975550813,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 120.0,
+        "COM_from_hip_mm": [
+          -0.13821033588504578,
+          -0.02504355159550918,
+          -23.355713532297003
+        ],
+        "COM_to_contact_x_mm": -0.13821033588505965,
+        "COM_height_above_ground_mm": 146.64428646770298,
+        "COM_height_above_axle_mm": 96.64428646770297,
+        "gravity_pitch_moment_about_contact_Nm": -0.008498186415782392,
+        "locked_shape_balance_lean_deg": -0.08193824821174345,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 121.0,
+        "COM_from_hip_mm": [
+          -0.1191353836614028,
+          -0.02504355159550918,
+          -23.56400917893676
+        ],
+        "COM_to_contact_x_mm": -0.1191353836614028,
+        "COM_height_above_ground_mm": 147.43599082106323,
+        "COM_height_above_axle_mm": 97.43599082106321,
+        "gravity_pitch_moment_about_contact_Nm": -0.00732531827368057,
+        "locked_shape_balance_lean_deg": -0.07005574855184742,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 122.0,
+        "COM_from_hip_mm": [
+          -0.09973235237016222,
+          -0.02504355159550918,
+          -23.77254698683643
+        ],
+        "COM_to_contact_x_mm": -0.09973235237016222,
+        "COM_height_above_ground_mm": 148.2274530131636,
+        "COM_height_above_axle_mm": 98.22745301316357,
+        "gravity_pitch_moment_about_contact_Nm": -0.006132277421212417,
+        "locked_shape_balance_lean_deg": -0.05817356281648669,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 123.0,
+        "COM_from_hip_mm": [
+          -0.08000162154062888,
+          -0.02504355159550918,
+          -23.981321002131263
+        ],
+        "COM_to_contact_x_mm": -0.08000162154062888,
+        "COM_height_above_ground_mm": 149.01867899786876,
+        "COM_height_above_axle_mm": 99.01867899786873,
+        "gravity_pitch_moment_about_contact_Nm": -0.004919087194625864,
+        "locked_shape_balance_lean_deg": -0.04629181400403725,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 124.0,
+        "COM_from_hip_mm": [
+          -0.05994341050839439,
+          -0.02504355159550918,
+          -24.190325462094915
+        ],
+        "COM_to_contact_x_mm": -0.05994341050839439,
+        "COM_height_above_ground_mm": 149.8096745379051,
+        "COM_height_above_axle_mm": 99.80967453790508,
+        "gravity_pitch_moment_about_contact_Nm": -0.003685761080283803,
+        "locked_shape_balance_lean_deg": -0.03441053219257909,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 125.0,
+        "COM_from_hip_mm": [
+          -0.039557782064564,
+          -0.02504355159550918,
+          -24.399554787476628
+        ],
+        "COM_to_contact_x_mm": -0.03955778206457788,
+        "COM_height_above_ground_mm": 150.60044521252337,
+        "COM_height_above_axle_mm": 100.60044521252334,
+        "gravity_pitch_moment_about_contact_Nm": -0.0024323029390453535,
+        "locked_shape_balance_lean_deg": -0.022529660158022984,
+        "locked_shape_lean_residual_x_mm": -6.776263578034403e-18,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 126.0,
+        "COM_from_hip_mm": [
+          -0.018844645740956296,
+          -0.02504355159550918,
+          -24.60900357520222
+        ],
+        "COM_to_contact_x_mm": -0.018844645740956296,
+        "COM_height_above_ground_mm": 151.39099642479778,
+        "COM_height_above_axle_mm": 101.39099642479778,
+        "gravity_pitch_moment_about_contact_Nm": -0.0011587072082597971,
+        "locked_shape_balance_lean_deg": -0.010649058526060351,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 127.0,
+        "COM_from_hip_mm": [
+          0.0021962392527324383,
+          -0.02504355159550918,
+          -24.818666591418644
+        ],
+        "COM_to_contact_x_mm": 0.0021962392527046827,
+        "COM_height_above_ground_mm": 152.18133340858134,
+        "COM_height_above_axle_mm": 102.18133340858134,
+        "gravity_pitch_moment_about_contact_Nm": 0.00013504091762474738,
+        "locked_shape_balance_lean_deg": 0.0012314895075639998,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 128.0,
+        "COM_from_hip_mm": [
+          0.023565261425228155,
+          -0.02504355159550918,
+          -25.028538764863743
+        ],
+        "COM_to_contact_x_mm": 0.023565261425242033,
+        "COM_height_above_ground_mm": 152.97146123513627,
+        "COM_height_above_axle_mm": 102.97146123513626,
+        "gravity_pitch_moment_about_contact_Nm": 0.001448965326984642,
+        "locked_shape_balance_lean_deg": 0.013112273857455453,
+        "locked_shape_lean_residual_x_mm": -3.3881317890172014e-18,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 129.0,
+        "COM_from_hip_mm": [
+          0.04526295472073341,
+          -0.02504355159550918,
+          -25.238615180542183
+        ],
+        "COM_to_contact_x_mm": 0.04526295472074729,
+        "COM_height_above_ground_mm": 153.7613848194578,
+        "COM_height_above_axle_mm": 103.76138481945779,
+        "gravity_pitch_moment_about_contact_Nm": 0.0027830988506237224,
+        "locked_shape_balance_lean_deg": 0.024993653600573797,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 130.0,
+        "COM_from_hip_mm": [
+          0.06728999654486584,
+          -0.02504355159550918,
+          -25.44889107369349
+        ],
+        "COM_to_contact_x_mm": 0.06728999654485196,
+        "COM_height_above_ground_mm": 154.55110892630648,
+        "COM_height_above_axle_mm": 104.5511089263065,
+        "gravity_pitch_moment_about_contact_Nm": 0.00413748314041483,
+        "locked_shape_balance_lean_deg": 0.036876053374427516,
+        "locked_shape_lean_residual_x_mm": -1.3552527156068805e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 131.0,
+        "COM_from_hip_mm": [
+          0.08964720608958754,
+          -0.02504355159550918,
+          -25.659361824033347
+        ],
+        "COM_to_contact_x_mm": 0.08964720608958754,
+        "COM_height_above_ground_mm": 155.34063817596666,
+        "COM_height_above_axle_mm": 105.34063817596666,
+        "gravity_pitch_moment_about_contact_Nm": 0.005512168566299904,
+        "locked_shape_balance_lean_deg": 0.04875996009724901,
+        "locked_shape_lean_residual_x_mm": 1.3552527156068805e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 132.0,
+        "COM_from_hip_mm": [
+          0.11233554294808296,
+          -0.02504355159550918,
+          -25.870022950256917
+        ],
+        "COM_to_contact_x_mm": 0.11233554294808296,
+        "COM_height_above_ground_mm": 156.12997704974308,
+        "COM_height_above_axle_mm": 106.12997704974309,
+        "gravity_pitch_moment_about_contact_Nm": 0.006907214131111407,
+        "locked_shape_balance_lean_deg": 0.060645919988655074,
+        "locked_shape_lean_residual_x_mm": -1.3552527156068805e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 133.0,
+        "COM_from_hip_mm": [
+          0.13535610601176537,
+          -0.02504355159550918,
+          -26.08087010478742
+        ],
+        "COM_to_contact_x_mm": 0.1353561060117515,
+        "COM_height_above_ground_mm": 156.91912989521256,
+        "COM_height_above_axle_mm": 106.91912989521256,
+        "gravity_pitch_moment_about_contact_Nm": 0.008322687402763282,
+        "locked_shape_balance_lean_deg": 0.07253453587132572,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 134.0,
+        "COM_from_hip_mm": [
+          0.15871013264300493,
+          -0.02504355159550918,
+          -26.291899068759612
+        ],
+        "COM_to_contact_x_mm": 0.15871013264299105,
+        "COM_height_above_ground_mm": 157.70810093124038,
+        "COM_height_above_axle_mm": 107.7081009312404,
+        "gravity_pitch_moment_about_contact_Nm": 0.009758664463382482,
+        "locked_shape_balance_lean_deg": 0.08442646473558901,
+        "locked_shape_lean_residual_x_mm": 2.710505431213761e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 135.0,
+        "COM_from_hip_mm": [
+          0.18239899811802612,
+          -0.02504355159550918,
+          -26.503105747223866
+        ],
+        "COM_to_contact_x_mm": 0.18239899811801225,
+        "COM_height_above_ground_mm": 158.49689425277614,
+        "COM_height_above_axle_mm": 108.49689425277612,
+        "gravity_pitch_moment_about_contact_Nm": 0.011215229875049955,
+        "locked_shape_balance_lean_deg": 0.09632241555070283,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 136.0,
+        "COM_from_hip_mm": [
+          0.206424215335622,
+          -0.02504355159550918,
+          -26.714486164560565
+        ],
+        "COM_to_contact_x_mm": 0.20642421533560812,
+        "COM_height_above_ground_mm": 159.28551383543942,
+        "COM_height_above_axle_mm": 109.28551383543945,
+        "gravity_pitch_moment_about_contact_Nm": 0.012692476661893666,
+        "locked_shape_balance_lean_deg": 0.10822314730820058,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 137.0,
+        "COM_from_hip_mm": [
+          0.23078743478833508,
+          -0.02504355159550918,
+          -26.926036460094263
+        ],
+        "COM_to_contact_x_mm": 0.23078743478833508,
+        "COM_height_above_ground_mm": 160.07396353990578,
+        "COM_height_above_axle_mm": 110.07396353990576,
+        "gravity_pitch_moment_about_contact_Nm": 0.014190506308316591,
+        "locked_shape_balance_lean_deg": 0.12012946728385773,
+        "locked_shape_lean_residual_x_mm": 5.421010862427522e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 138.0,
+        "COM_from_hip_mm": [
+          0.25549044479388366,
+          -0.02504355159550918,
+          -27.137752883896272
+        ],
+        "COM_to_contact_x_mm": 0.2554904447938698,
+        "COM_height_above_ground_mm": 160.86224711610376,
+        "COM_height_above_axle_mm": 110.86224711610373,
+        "gravity_pitch_moment_about_contact_Nm": 0.015709428773222234,
+        "locked_shape_balance_lean_deg": 0.1320422295062744,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 139.0,
+        "COM_from_hip_mm": [
+          0.2805351719853604,
+          -0.02504355159550918,
+          -27.34963179276706
+        ],
+        "COM_to_contact_x_mm": 0.2805351719853604,
+        "COM_height_above_ground_mm": 161.65036820723293,
+        "COM_height_above_axle_mm": 111.65036820723296,
+        "gravity_pitch_moment_about_contact_Nm": 0.01724936252016502,
+        "locked_shape_balance_lean_deg": 0.14396233342129736,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 140.0,
+        "COM_from_hip_mm": [
+          0.3059236820601823,
+          -0.02504355159550918,
+          -27.561669646389127
+        ],
+        "COM_to_contact_x_mm": 0.3059236820601684,
+        "COM_height_above_ground_mm": 162.4383303536109,
+        "COM_height_above_axle_mm": 112.4383303536109,
+        "gravity_pitch_moment_about_contact_Nm": 0.018810434563388462,
+        "locked_shape_balance_lean_deg": 0.15589072274240837,
+        "locked_shape_lean_residual_x_mm": 5.421010862427522e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 141.0,
+        "COM_from_hip_mm": [
+          0.3316581807881752,
+          -0.02504355159550918,
+          -27.77386300364151
+        ],
+        "COM_to_contact_x_mm": 0.3316581807881891,
+        "COM_height_above_ground_mm": 163.22613699635846,
+        "COM_height_above_axle_mm": 113.22613699635848,
+        "gravity_pitch_moment_about_contact_Nm": 0.02039278052982407,
+        "locked_shape_balance_lean_deg": 0.16782838447866424,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 142.0,
+        "COM_from_hip_mm": [
+          0.3577410152808581,
+          -0.02504355159550918,
+          -27.98620851906868
+        ],
+        "COM_to_contact_x_mm": 0.35774101528083035,
+        "COM_height_above_ground_mm": 164.0137914809313,
+        "COM_height_above_axle_mm": 114.01379148093132,
+        "gravity_pitch_moment_about_contact_Nm": 0.02199654473711752,
+        "locked_shape_balance_lean_deg": 0.1797763481321922,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 143.0,
+        "COM_from_hip_mm": [
+          0.38417467552423085,
+          -0.02504355159550918,
+          -28.198702939494765
+        ],
+        "COM_to_contact_x_mm": 0.38417467552423085,
+        "COM_height_above_ground_mm": 164.8012970605052,
+        "COM_height_above_axle_mm": 114.80129706050519,
+        "gravity_pitch_moment_about_contact_Nm": 0.02362188028790216,
+        "locked_shape_balance_lean_deg": 0.19173568505893124,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 144.0,
+        "COM_from_hip_mm": [
+          0.4109617961793002,
+          -0.02504355159550918,
+          -28.411343100777678
+        ],
+        "COM_to_contact_x_mm": 0.41096179617931405,
+        "COM_height_above_ground_mm": 165.58865689922231,
+        "COM_height_above_axle_mm": 115.5886568992223,
+        "gravity_pitch_moment_about_contact_Nm": 0.025268949180479533,
+        "locked_shape_balance_lean_deg": 0.2037075079861705,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 145.0,
+        "COM_from_hip_mm": [
+          0.4381051586547173,
+          -0.02504355159550918,
+          -28.624125924694788
+        ],
+        "COM_to_contact_x_mm": 0.4381051586546895,
+        "COM_height_above_ground_mm": 166.37587407530518,
+        "COM_height_above_axle_mm": 116.37587407530519,
+        "gravity_pitch_moment_about_contact_Nm": 0.026937922436276594,
+        "locked_shape_balance_lean_deg": 0.21569297068246787,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 146.0,
+        "COM_from_hip_mm": [
+          0.46560769345761455,
+          -0.02504355159550918,
+          -28.837048415954534
+        ],
+        "COM_to_contact_x_mm": 0.4656076934576284,
+        "COM_height_above_ground_mm": 167.16295158404546,
+        "COM_height_above_axle_mm": 117.16295158404546,
+        "gravity_pitch_moment_about_contact_Nm": 0.028628980244400935,
+        "locked_shape_balance_lean_deg": 0.2276932677753864,
+        "locked_shape_lean_residual_x_mm": -5.421010862427522e-17,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 147.0,
+        "COM_from_hip_mm": [
+          0.4934724828297918,
+          -0.02504355159550918,
+          -29.050107659327733
+        ],
+        "COM_to_contact_x_mm": 0.4934724828297918,
+        "COM_height_above_ground_mm": 167.94989234067228,
+        "COM_height_above_axle_mm": 117.94989234067228,
+        "gravity_pitch_moment_about_contact_Nm": 0.030342312123704716,
+        "locked_shape_balance_lean_deg": 0.23970963471343787,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 148.0,
+        "COM_from_hip_mm": [
+          0.5217027636770459,
+          -0.02504355159550918,
+          -29.2633008168923
+        ],
+        "COM_to_contact_x_mm": 0.5217027636770598,
+        "COM_height_above_ground_mm": 168.73669918310767,
+        "COM_height_above_axle_mm": 118.7366991831077,
+        "gravity_pitch_moment_about_contact_Nm": 0.0320781171029321,
+        "locked_shape_balance_lean_deg": 0.2517433478701023,
+        "locked_shape_lean_residual_x_mm": 1.0842021724855044e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 149.0,
+        "COM_from_hip_mm": [
+          0.5503019308015163,
+          -0.02504355159550918,
+          -29.476625125386885
+        ],
+        "COM_to_contact_x_mm": 0.5503019308015163,
+        "COM_height_above_ground_mm": 169.5233748746131,
+        "COM_height_above_axle_mm": 119.52337487461311,
+        "gravity_pitch_moment_about_contact_Nm": 0.03383660391944536,
+        "locked_shape_balance_lean_deg": 0.26379572478728514,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 150.0,
+        "COM_from_hip_mm": [
+          0.5792735404473052,
+          -0.02504355159550918,
+          -29.69007789366724
+        ],
+        "COM_to_contact_x_mm": 0.579273540447319,
+        "COM_height_above_ground_mm": 170.30992210633278,
+        "COM_height_above_axle_mm": 120.30992210633276,
+        "gravity_pitch_moment_about_contact_Nm": 0.03561799123725105,
+        "locked_shape_balance_lean_deg": 0.27586812455746407,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 151.0,
+        "COM_from_hip_mm": [
+          0.6086213141718296,
+          -0.02504355159550918,
+          -29.903656500260634
+        ],
+        "COM_to_contact_x_mm": 0.6086213141718158,
+        "COM_height_above_ground_mm": 171.09634349973933,
+        "COM_height_above_axle_mm": 121.09634349973936,
+        "gravity_pitch_moment_about_contact_Nm": 0.037422507885024665,
+        "locked_shape_balance_lean_deg": 0.2879619483436398,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 152.0,
+        "COM_from_hip_mm": [
+          0.638349143056028,
+          -0.02504355159550918,
+          -30.117358391013994
+        ],
+        "COM_to_contact_x_mm": 0.638349143056028,
+        "COM_height_above_ground_mm": 171.882641608986,
+        "COM_height_above_axle_mm": 121.882641608986,
+        "gravity_pitch_moment_about_contact_Nm": 0.039250393115002065,
+        "locked_shape_balance_lean_deg": 0.30007864003755025,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 153.0,
+        "COM_from_hip_mm": [
+          0.6684610922687916,
+          -0.02504355159550918,
+          -30.331181076831008
+        ],
+        "COM_to_contact_x_mm": 0.6684610922687916,
+        "COM_height_above_ground_mm": 172.668818923169,
+        "COM_height_above_axle_mm": 122.66881892316898,
+        "gravity_pitch_moment_about_contact_Nm": 0.041101896883616366,
+        "locked_shape_balance_lean_deg": 0.3122196870566634,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 154.0,
+        "COM_from_hip_mm": [
+          0.6989614060020437,
+          -0.02504355159550918,
+          -30.54512213149399
+        ],
+        "COM_to_contact_x_mm": 0.6989614060020576,
+        "COM_height_above_ground_mm": 173.45487786850606,
+        "COM_height_above_axle_mm": 123.45487786850603,
+        "gravity_pitch_moment_about_contact_Nm": 0.042977280154956506,
+        "locked_shape_balance_lean_deg": 0.3243866212819269,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 155.0,
+        "COM_from_hip_mm": [
+          0.7298545127951196,
+          -0.02504355159550918,
+          -30.759179189566172
+        ],
+        "COM_to_contact_x_mm": 0.7298545127951473,
+        "COM_height_above_ground_mm": 174.24082081043386,
+        "COM_height_above_axle_mm": 124.24082081043386,
+        "gravity_pitch_moment_about_contact_Nm": 0.044876815228141506,
+        "locked_shape_balance_lean_deg": 0.3365810201382872,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 156.0,
+        "COM_from_hip_mm": [
+          0.7611450312686959,
+          -0.02504355159550918,
+          -30.973349944371225
+        ],
+        "COM_to_contact_x_mm": 0.7611450312687098,
+        "COM_height_above_ground_mm": 175.02665005562878,
+        "COM_height_above_axle_mm": 125.02665005562876,
+        "gravity_pitch_moment_about_contact_Nm": 0.04680078608988631,
+        "locked_shape_balance_lean_deg": 0.34880450782124556,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 157.0,
+        "COM_from_hip_mm": [
+          0.7928377762906915,
+          -0.02504355159550918,
+          -31.187632146045637
+        ],
+        "COM_to_contact_x_mm": 0.7928377762906915,
+        "COM_height_above_ground_mm": 175.81236785395438,
+        "COM_height_above_axle_mm": 125.81236785395436,
+        "gravity_pitch_moment_about_contact_Nm": 0.04874948879363088,
+        "locked_shape_balance_lean_deg": 0.36105875667326054,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 158.0,
+        "COM_from_hip_mm": [
+          0.8249377655988769,
+          -0.02504355159550918,
+          -31.40202359966123
+        ],
+        "COM_to_contact_x_mm": 0.8249377655988769,
+        "COM_height_above_ground_mm": 176.59797640033875,
+        "COM_height_above_axle_mm": 126.59797640033877,
+        "gravity_pitch_moment_about_contact_Nm": 0.050723231866742595,
+        "locked_shape_balance_lean_deg": 0.37334548871464324,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 159.0,
+        "COM_from_hip_mm": [
+          0.8574502269072212,
+          -0.02504355159550918,
+          -31.61652216341296
+        ],
+        "COM_to_contact_x_mm": 0.857450226907235,
+        "COM_height_above_ground_mm": 177.38347783658702,
+        "COM_height_above_axle_mm": 127.38347783658705,
+        "gravity_pitch_moment_about_contact_Nm": 0.052722336747466694,
+        "locked_shape_balance_lean_deg": 0.38566647733455206,
+        "locked_shape_lean_residual_x_mm": 1.0842021724855044e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 160.0,
+        "COM_from_hip_mm": [
+          0.8903806055256663,
+          -0.02504355159550918,
+          -31.831125746871233
+        ],
+        "COM_to_contact_x_mm": 0.8903806055256525,
+        "COM_height_above_ground_mm": 178.16887425312876,
+        "COM_height_above_axle_mm": 128.1688742531288,
+        "gravity_pitch_moment_about_contact_Nm": 0.05474713825344333,
+        "locked_shape_balance_lean_deg": 0.3980235491484851,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 161.0,
+        "COM_from_hip_mm": [
+          0.9237345725259525,
+          -0.02504355159550918,
+          -32.045832309292756
+        ],
+        "COM_to_contact_x_mm": 0.9237345725259664,
+        "COM_height_above_ground_mm": 178.95416769070727,
+        "COM_height_above_axle_mm": 128.95416769070724,
+        "gravity_pitch_moment_about_contact_Nm": 0.05679798508381532,
+        "locked_shape_balance_lean_deg": 0.4104185860298157,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 162.0,
+        "COM_from_hip_mm": [
+          0.9575180334893791,
+          -0.02504355159550918,
+          -32.26063985798939
+        ],
+        "COM_to_contact_x_mm": 0.9575180334893653,
+        "COM_height_above_ground_mm": 179.73936014201058,
+        "COM_height_above_axle_mm": 129.73936014201058,
+        "gravity_pitch_moment_about_contact_Nm": 0.05887524035708251,
+        "locked_shape_balance_lean_deg": 0.4228535273235216,
+        "locked_shape_lean_residual_x_mm": -1.0842021724855044e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 163.0,
+        "COM_from_hip_mm": [
+          0.9917371378754791,
+          -0.02504355159550918,
+          -32.47554644675097
+        ],
+        "COM_to_contact_x_mm": 0.9917371378754514,
+        "COM_height_above_ground_mm": 180.52445355324903,
+        "COM_height_above_axle_mm": 130.524453553249,
+        "gravity_pitch_moment_about_contact_Nm": 0.060979282187180635,
+        "locked_shape_balance_lean_deg": 0.43533037225214494,
+        "locked_shape_lean_residual_x_mm": 2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 164.0,
+        "COM_from_hip_mm": [
+          1.026398289054905,
+          -0.02504355159550918,
+          -32.69055017431924
+        ],
+        "COM_to_contact_x_mm": 1.0263982890549188,
+        "COM_height_above_ground_mm": 181.30944982568076,
+        "COM_height_above_axle_mm": 131.30944982568076,
+        "gravity_pitch_moment_about_contact_Nm": 0.06311050430036394,
+        "locked_shape_balance_lean_deg": 0.44785118252426886,
+        "locked_shape_lean_residual_x_mm": -2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 165.0,
+        "COM_from_hip_mm": [
+          1.0615081550536505,
+          -0.02504355159550918,
+          -32.90564918291076
+        ],
+        "COM_to_contact_x_mm": 1.0615081550536227,
+        "COM_height_above_ground_mm": 182.09435081708924,
+        "COM_height_above_axle_mm": 132.09435081708924,
+        "gravity_pitch_moment_about_contact_Nm": 0.0652693166958295,
+        "locked_shape_balance_lean_deg": 0.46041808515783267,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 166.0,
+        "COM_from_hip_mm": [
+          1.097073680060313,
+          -0.02504355159550918,
+          -33.12084165678652
+        ],
+        "COM_to_contact_x_mm": 1.0970736800602992,
+        "COM_height_above_ground_mm": 182.8791583432135,
+        "COM_height_above_axle_mm": 132.8791583432135,
+        "gravity_pitch_moment_about_contact_Nm": 0.06745614635329637,
+        "locked_shape_balance_lean_deg": 0.47303327553195545,
+        "locked_shape_lean_residual_x_mm": 2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 167.0,
+        "COM_from_hip_mm": [
+          1.1331020967537153,
+          -0.02504355159550918,
+          -33.336125820864034
+        ],
+        "COM_to_contact_x_mm": 1.1331020967537013,
+        "COM_height_above_ground_mm": 183.663874179136,
+        "COM_height_above_axle_mm": 133.663874179136,
+        "gravity_pitch_moment_about_contact_Nm": 0.06967143799096842,
+        "locked_shape_balance_lean_deg": 0.48569902068179516,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 168.0,
+        "COM_from_hip_mm": [
+          1.169600939513144,
+          -0.02504355159550918,
+          -33.55149993937218
+        ],
+        "COM_to_contact_x_mm": 1.169600939513144,
+        "COM_height_above_ground_mm": 184.4485000606278,
+        "COM_height_above_axle_mm": 134.4485000606278,
+        "gravity_pitch_moment_about_contact_Nm": 0.07191565487781561,
+        "locked_shape_balance_lean_deg": 0.49841766285380135,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 169.0,
+        "COM_from_hip_mm": [
+          1.206578058580426,
+          -0.02504355159550918,
+          -33.76696231454402
+        ],
+        "COM_to_contact_x_mm": 1.206578058580412,
+        "COM_height_above_ground_mm": 185.23303768545597,
+        "COM_height_above_axle_mm": 135.23303768545597,
+        "gravity_pitch_moment_about_contact_Nm": 0.07418927970435214,
+        "locked_shape_balance_lean_deg": 0.5111916233395871,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 170.0,
+        "COM_from_hip_mm": [
+          1.2440416352495258,
+          -0.02504355159550918,
+          -33.98251128534647
+        ],
+        "COM_to_contact_x_mm": 1.244041635249498,
+        "COM_height_above_ground_mm": 186.01748871465352,
+        "COM_height_above_axle_mm": 136.01748871465352,
+        "gravity_pitch_moment_about_contact_Nm": 0.0764928155166131,
+        "locked_shape_balance_lean_deg": 0.5240234066093885,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 171.0,
+        "COM_from_hip_mm": [
+          1.2820001981675804,
+          -0.02504355159550918,
+          -34.198145226244414
+        ],
+        "COM_to_contact_x_mm": 1.2820001981675526,
+        "COM_height_above_ground_mm": 186.80185477375554,
+        "COM_height_above_axle_mm": 136.80185477375557,
+        "gravity_pitch_moment_about_contact_Nm": 0.0788267867184565,
+        "locked_shape_balance_lean_deg": 0.5369156047680123,
+        "locked_shape_lean_residual_x_mm": 2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 172.0,
+        "COM_from_hip_mm": [
+          1.32046264083957,
+          -0.02504355159550918,
+          -34.41386254599691
+        ],
+        "COM_to_contact_x_mm": 1.32046264083957,
+        "COM_height_above_ground_mm": 187.5861374540031,
+        "COM_height_above_axle_mm": 137.58613745400308,
+        "gravity_pitch_moment_about_contact_Nm": 0.08119174014788001,
+        "locked_shape_balance_lean_deg": 0.5498709023589338,
+        "locked_shape_lean_residual_x_mm": -2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 173.0,
+        "COM_from_hip_mm": [
+          1.3594382404388767,
+          -0.02504355159550918,
+          -34.629661686482734
+        ],
+        "COM_to_contact_x_mm": 1.3594382404388627,
+        "COM_height_above_ground_mm": 188.37033831351724,
+        "COM_height_above_axle_mm": 138.37033831351724,
+        "gravity_pitch_moment_about_contact_Nm": 0.08358824623362701,
+        "locked_shape_balance_lean_deg": 0.5628920815449824,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 174.0,
+        "COM_from_hip_mm": [
+          1.3989366780365673,
+          -0.02504355159550918,
+          -34.84554112155447
+        ],
+        "COM_to_contact_x_mm": 1.3989366780365813,
+        "COM_height_above_ground_mm": 189.1544588784455,
+        "COM_height_above_axle_mm": 139.15445887844552,
+        "gravity_pitch_moment_about_contact_Nm": 0.08601690023904604,
+        "locked_shape_balance_lean_deg": 0.5759820276973855,
+        "locked_shape_lean_residual_x_mm": 2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 175.0,
+        "COM_from_hip_mm": [
+          1.4389680603747883,
+          -0.02504355159550918,
+          -35.06149935591685
+        ],
+        "COM_to_contact_x_mm": 1.4389680603747605,
+        "COM_height_above_ground_mm": 189.93850064408312,
+        "COM_height_above_axle_mm": 139.93850064408315,
+        "gravity_pitch_moment_about_contact_Nm": 0.0884783236008576,
+        "locked_shape_balance_lean_deg": 0.5891437354280994,
+        "locked_shape_lean_residual_x_mm": -2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 176.0,
+        "COM_from_hip_mm": [
+          1.4795429433229743,
+          -0.02504355159550918,
+          -35.277534924029375
+        ],
+        "COM_to_contact_x_mm": 1.4795429433229605,
+        "COM_height_above_ground_mm": 190.72246507597063,
+        "COM_height_above_axle_mm": 140.7224650759706,
+        "gravity_pitch_moment_about_contact_Nm": 0.09097316537144058,
+        "locked_shape_balance_lean_deg": 0.6023803151051534,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 177.0,
+        "COM_from_hip_mm": [
+          1.5206723571715015,
+          -0.02504355159550918,
+          -35.49364638902869
+        ],
+        "COM_to_contact_x_mm": 1.52067235717146,
+        "COM_height_above_ground_mm": 191.5063536109713,
+        "COM_height_above_axle_mm": 141.50635361097127,
+        "gravity_pitch_moment_about_contact_Nm": 0.09350210377404376,
+        "locked_shape_balance_lean_deg": 0.6156949998941731,
+        "locked_shape_lean_residual_x_mm": 2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 178.0,
+        "COM_from_hip_mm": [
+          1.562367833934488,
+          -0.02504355159550918,
+          -35.70983234166999
+        ],
+        "COM_to_contact_x_mm": 1.562367833934474,
+        "COM_height_above_ground_mm": 192.29016765833,
+        "COM_height_above_axle_mm": 142.29016765833,
+        "gravity_pitch_moment_about_contact_Nm": 0.09606584788158788,
+        "locked_shape_balance_lean_deg": 0.6290911533756091,
+        "locked_shape_lean_residual_x_mm": 2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 179.0,
+        "COM_from_hip_mm": [
+          1.6046414368534856,
+          -0.02504355159550918,
+          -35.926091399284424
+        ],
+        "COM_to_contact_x_mm": 1.6046414368534718,
+        "COM_height_above_ground_mm": 193.07390860071555,
+        "COM_height_above_axle_mm": 143.07390860071555,
+        "gravity_pitch_moment_about_contact_Nm": 0.09866513943074648,
+        "locked_shape_balance_lean_deg": 0.6425722777916678,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 180.0,
+        "COM_from_hip_mm": [
+          1.6475057923160483,
+          -0.02504355159550918,
+          -36.142422204750275
+        ],
+        "COM_to_contact_x_mm": 1.6475057923160483,
+        "COM_height_above_ground_mm": 193.8575777952497,
+        "COM_height_above_axle_mm": 143.85757779524968,
+        "gravity_pitch_moment_about_contact_Nm": 0.10130075478455239,
+        "locked_shape_balance_lean_deg": 0.6561420229846836,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 181.0,
+        "COM_from_hip_mm": [
+          1.6909741244287835,
+          -0.02504355159550918,
+          -36.35882342547458
+        ],
+        "COM_to_contact_x_mm": 1.6909741244287697,
+        "COM_height_above_ground_mm": 194.6411765745254,
+        "COM_height_above_axle_mm": 144.64117657452542,
+        "gravity_pitch_moment_about_contact_Nm": 0.10397350705819025,
+        "locked_shape_balance_lean_deg": 0.6698041960950815,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 182.0,
+        "COM_from_hip_mm": [
+          1.735060292513352,
+          -0.02504355159550918,
+          -36.575293752383324
+        ],
+        "COM_to_contact_x_mm": 1.735060292513338,
+        "COM_height_above_ground_mm": 195.42470624761665,
+        "COM_height_above_axle_mm": 145.42470624761665,
+        "gravity_pitch_moment_about_contact_Nm": 0.10668424842453605,
+        "locked_shape_balance_lean_deg": 0.6835627720963263,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 183.0,
+        "COM_from_hip_mm": [
+          1.7797788318271954,
+          -0.02504355159550918,
+          -36.791831898917394
+        ],
+        "COM_to_contact_x_mm": 1.7797788318271814,
+        "COM_height_above_ground_mm": 196.2081681010826,
+        "COM_height_above_axle_mm": 146.2081681010826,
+        "gravity_pitch_moment_about_contact_Nm": 0.109433872617958,
+        "locked_shape_balance_lean_deg": 0.6974219052533553,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 184.0,
+        "COM_from_hip_mm": [
+          1.825144997848437,
+          -0.02504355159550918,
+          -37.00843660002998
+        ],
+        "COM_to_contact_x_mm": 1.825144997848423,
+        "COM_height_above_ground_mm": 196.99156339996998,
+        "COM_height_above_axle_mm": 146.99156339997,
+        "gravity_pitch_moment_about_contact_Nm": 0.11222331765728173,
+        "locked_shape_balance_lean_deg": 0.7113859416024364,
+        "locked_shape_lean_residual_x_mm": 2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 185.0,
+        "COM_from_hip_mm": [
+          1.8711748145081744,
+          -0.02504355159550918,
+          -37.22510661118358
+        ],
+        "COM_to_contact_x_mm": 1.8711748145081606,
+        "COM_height_above_ground_mm": 197.77489338881642,
+        "COM_height_above_axle_mm": 147.77489338881642,
+        "gravity_pitch_moment_about_contact_Nm": 0.1150535688114649,
+        "locked_shape_balance_lean_deg": 0.7254594325628871,
+        "locked_shape_lean_residual_x_mm": -2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 186.0,
+        "COM_from_hip_mm": [
+          1.917885126803208,
+          -0.02504355159550918,
+          -37.441840707341896
+        ],
+        "COM_to_contact_x_mm": 1.917885126803194,
+        "COM_height_above_ground_mm": 198.55815929265808,
+        "COM_height_above_axle_mm": 148.55815929265808,
+        "gravity_pitch_moment_about_contact_Nm": 0.11792566183461425,
+        "locked_shape_balance_lean_deg": 0.7396471498057737,
+        "locked_shape_lean_residual_x_mm": 2.1684043449710089e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 187.0,
+        "COM_from_hip_mm": [
+          1.9652936582801144,
+          -0.02504355159550918,
+          -37.65863768195395
+        ],
+        "COM_to_contact_x_mm": 1.9652936582801144,
+        "COM_height_above_ground_mm": 199.34136231804607,
+        "COM_height_above_axle_mm": 149.34136231804607,
+        "gravity_pitch_moment_about_contact_Nm": 0.12084068650052932,
+        "locked_shape_balance_lean_deg": 0.7539541015215971,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 188.0,
+        "COM_from_hip_mm": [
+          2.0134190739482714,
+          -0.02504355159550918,
+          -37.87549634592425
+        ],
+        "COM_to_contact_x_mm": 2.0134190739482714,
+        "COM_height_above_ground_mm": 200.12450365407574,
+        "COM_height_above_axle_mm": 150.12450365407577,
+        "gravity_pitch_moment_about_contact_Nm": 0.12379979047105388,
+        "locked_shape_balance_lean_deg": 0.7683855502484392,
+        "locked_shape_lean_residual_x_mm": -4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 189.0,
+        "COM_from_hip_mm": [
+          2.062281049256936,
+          -0.02504355159550918,
+          -38.09241552656663
+        ],
+        "COM_to_contact_x_mm": 2.062281049256936,
+        "COM_height_above_ground_mm": 200.9075844734334,
+        "COM_height_above_axle_mm": 150.90758447343336,
+        "gravity_pitch_moment_about_contact_Nm": 0.1268041835372983,
+        "locked_shape_balance_lean_deg": 0.7829470324448462,
+        "locked_shape_lean_residual_x_mm": -4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 190.0,
+        "COM_from_hip_mm": [
+          2.1119003458616676,
+          -0.02504355159550918,
+          -38.309394066534296
+        ],
+        "COM_to_contact_x_mm": 2.1119003458616676,
+        "COM_height_above_ground_mm": 201.69060593346572,
+        "COM_height_above_axle_mm": 151.6906059334657,
+        "gravity_pitch_moment_about_contact_Nm": 0.12985514227831235,
+        "locked_shape_balance_lean_deg": 0.7976443800179487,
+        "locked_shape_lean_residual_x_mm": 4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 191.0,
+        "COM_from_hip_mm": [
+          2.162298895010523,
+          -0.02504355159550918,
+          -38.5264308227217
+        ],
+        "COM_to_contact_x_mm": 2.1622988950105086,
+        "COM_height_above_ground_mm": 202.47356917727834,
+        "COM_height_above_axle_mm": 152.4735691772783,
+        "gravity_pitch_moment_about_contact_Nm": 0.1329540151882806,
+        "locked_shape_balance_lean_deg": 0.8124837440483135,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 192.0,
+        "COM_from_hip_mm": [
+          2.213499889503759,
+          -0.02504355159550918,
+          -38.74352466513103
+        ],
+        "COM_to_contact_x_mm": 2.2134998895037867,
+        "COM_height_above_ground_mm": 203.25647533486895,
+        "COM_height_above_axle_mm": 153.25647533486898,
+        "gravity_pitch_moment_about_contact_Nm": 0.13610222833088653,
+        "locked_shape_balance_lean_deg": 0.8274716209891377,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 193.0,
+        "COM_from_hip_mm": [
+          2.2655278853257497,
+          -0.02504355159550918,
+          -38.960674475695384
+        ],
+        "COM_to_contact_x_mm": 2.265527885325736,
+        "COM_height_above_ground_mm": 204.0393255243046,
+        "COM_height_above_axle_mm": 154.03932552430462,
+        "gravity_pitch_moment_about_contact_Nm": 0.1393012915883709,
+        "locked_shape_balance_lean_deg": 0.8426148816597577,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 194.0,
+        "COM_from_hip_mm": [
+          2.3184089142181734,
+          -0.02504355159550918,
+          -39.17787914705144
+        ],
+        "COM_to_contact_x_mm": 2.3184089142181734,
+        "COM_height_above_ground_mm": 204.82212085294853,
+        "COM_height_above_axle_mm": 154.82212085294856,
+        "gravity_pitch_moment_about_contact_Nm": 0.14255280558338818,
+        "locked_shape_balance_lean_deg": 0.8579208034041013,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 195.0,
+        "COM_from_hip_mm": [
+          2.372170608666634,
+          -0.02504355159550918,
+          -39.39513758125036
+        ],
+        "COM_to_contact_x_mm": 2.3721706086666483,
+        "COM_height_above_ground_mm": 205.60486241874963,
+        "COM_height_above_axle_mm": 155.60486241874966,
+        "gravity_pitch_moment_about_contact_Nm": 0.14585846936407262,
+        "locked_shape_balance_lean_deg": 0.8733971058433814,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 196.0,
+        "COM_from_hip_mm": [
+          2.4268423410121525,
+          -0.02504355159550918,
+          -39.612448688396064
+        ],
+        "COM_to_contact_x_mm": 2.4268423410121245,
+        "COM_height_above_ground_mm": 206.38755131160397,
+        "COM_height_above_axle_mm": 156.38755131160394,
+        "gravity_pitch_moment_about_contact_Nm": 0.14922008895764632,
+        "locked_shape_balance_lean_deg": 0.8890519907239522,
+        "locked_shape_lean_residual_x_mm": 4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 197.0,
+        "COM_from_hip_mm": [
+          2.482455378686667,
+          -0.02504355159550918,
+          -39.82981138519897
+        ],
+        "COM_to_contact_x_mm": 2.4824553786866397,
+        "COM_height_above_ground_mm": 207.17018861480102,
+        "COM_height_above_axle_mm": 157.17018861480102,
+        "gravity_pitch_moment_about_contact_Nm": 0.15263958691544735,
+        "locked_shape_balance_lean_deg": 0.9048941864451677,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 198.0,
+        "COM_from_hip_mm": [
+          2.539043057915055,
+          -0.02504355159550918,
+          -40.04722459342855
+        ],
+        "COM_to_contact_x_mm": 2.5390430579150274,
+        "COM_height_above_ground_mm": 207.95277540657142,
+        "COM_height_above_axle_mm": 157.95277540657142,
+        "gravity_pitch_moment_about_contact_Nm": 0.15611901299338746,
+        "locked_shape_balance_lean_deg": 0.9209329979533986,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 199.0,
+        "COM_from_hip_mm": [
+          2.5966409786400124,
+          -0.02504355159550918,
+          -40.26468723824772
+        ],
+        "COM_to_contact_x_mm": 2.596640978640026,
+        "COM_height_above_ground_mm": 208.73531276175228,
+        "COM_height_above_axle_mm": 158.73531276175228,
+        "gravity_pitch_moment_about_contact_Nm": 0.15966055613737895,
+        "locked_shape_balance_lean_deg": 0.9371783628109689,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 200.0,
+        "COM_from_hip_mm": [
+          2.6552872239269534,
+          -0.02504355159550918,
+          -40.48219824640845
+        ],
+        "COM_to_contact_x_mm": 2.6552872239269325,
+        "COM_height_above_ground_mm": 209.51780175359158,
+        "COM_height_above_axle_mm": 159.51780175359156,
+        "gravity_pitch_moment_about_contact_Nm": 0.16326655797394424,
+        "locked_shape_balance_lean_deg": 0.9536409143959684,
+        "locked_shape_lean_residual_x_mm": -4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 201.0,
+        "COM_from_hip_mm": [
+          2.715022607714354,
+          -0.02504355159550918,
+          -40.699756544283865
+        ],
+        "COM_to_contact_x_mm": 2.715022607714354,
+        "COM_height_above_ground_mm": 210.30024345571613,
+        "COM_height_above_axle_mm": 160.30024345571613,
+        "gravity_pitch_moment_about_contact_Nm": 0.16693952804375137,
+        "locked_shape_balance_lean_deg": 0.9703320533694253,
+        "locked_shape_lean_residual_x_mm": 4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 202.0,
+        "COM_from_hip_mm": [
+          2.775890955519329,
+          -0.02504355159550918,
+          -40.9173610557073
+        ],
+        "COM_to_contact_x_mm": 2.775890955519315,
+        "COM_height_above_ground_mm": 211.08263894429268,
+        "COM_height_above_axle_mm": 161.0826389442927,
+        "gravity_pitch_moment_about_contact_Nm": 0.17068216106142536,
+        "locked_shape_balance_lean_deg": 0.9872640287656101,
+        "locked_shape_lean_residual_x_mm": -4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 203.0,
+        "COM_from_hip_mm": [
+          2.837939423621387,
+          -0.02504355159550918,
+          -41.135010699583844
+        ],
+        "COM_to_contact_x_mm": 2.837939423621373,
+        "COM_height_above_ground_mm": 211.8649893004162,
+        "COM_height_above_axle_mm": 161.86498930041617,
+        "gravity_pitch_moment_about_contact_Nm": 0.1744973565413317,
+        "locked_shape_balance_lean_deg": 1.0044500303327328,
+        "locked_shape_lean_residual_x_mm": 4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 204.0,
+        "COM_from_hip_mm": [
+          2.9012188633780522,
+          -0.02504355159550918,
+          -41.352704387232905
+        ],
+        "COM_to_contact_x_mm": 2.901218863378066,
+        "COM_height_above_ground_mm": 212.64729561276712,
+        "COM_height_above_axle_mm": 162.64729561276712,
+        "gravity_pitch_moment_about_contact_Nm": 0.17838824119836538,
+        "locked_shape_balance_lean_deg": 1.021904294085351,
+        "locked_shape_lean_residual_x_mm": -4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 205.0,
+        "COM_from_hip_mm": [
+          2.965784238730663,
+          -0.02504355159550918,
+          -41.570441019410204
+        ],
+        "COM_to_contact_x_mm": 2.9657842387306768,
+        "COM_height_above_ground_mm": 213.42955898058975,
+        "COM_height_above_axle_mm": 163.42955898058975,
+        "gravity_pitch_moment_about_contact_Nm": 0.18235819461927127,
+        "locked_shape_balance_lean_deg": 1.0396422234471216,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 206.0,
+        "COM_from_hip_mm": [
+          3.031695106718648,
+          -0.02504355159550918,
+          -41.788219482948065
+        ],
+        "COM_to_contact_x_mm": 3.031695106718648,
+        "COM_height_above_ground_mm": 214.21178051705192,
+        "COM_height_above_axle_mm": 164.21178051705192,
+        "gravity_pitch_moment_about_contact_Nm": 0.18641087880819926,
+        "locked_shape_balance_lean_deg": 1.0576805288848492,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 207.0,
+        "COM_from_hip_mm": [
+          3.09901617303896,
+          -0.02504355159550918,
+          -42.00603864693956
+        ],
+        "COM_to_contact_x_mm": 3.099016173038988,
+        "COM_height_above_ground_mm": 214.99396135306048,
+        "COM_height_above_axle_mm": 164.99396135306046,
+        "gravity_pitch_moment_about_contact_Nm": 0.19055027234657598,
+        "locked_shape_balance_lean_deg": 1.0760373895938442,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 208.0,
+        "COM_from_hip_mm": [
+          3.1678179375055073,
+          -0.02504355159550918,
+          -42.223897358371566
+        ],
+        "COM_to_contact_x_mm": 3.1678179375054865,
+        "COM_height_above_ground_mm": 215.7761026416284,
+        "COM_height_above_axle_mm": 165.7761026416284,
+        "gravity_pitch_moment_about_contact_Nm": 0.19478071008067793,
+        "locked_shape_balance_lean_deg": 1.0947326416328615,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 209.0,
+        "COM_from_hip_mm": [
+          3.23817744787196,
+          -0.02504355159550918,
+          -42.441794437093385
+        ],
+        "COM_to_contact_x_mm": 3.238177447871939,
+        "COM_height_above_ground_mm": 216.55820556290655,
+        "COM_height_above_axle_mm": 166.55820556290658,
+        "gravity_pitch_moment_about_contact_Nm": 0.19910692947221853,
+        "locked_shape_balance_lean_deg": 1.1137879979814411,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 210.0,
+        "COM_from_hip_mm": [
+          3.3101791851409166,
+          -0.02504355159550918,
+          -42.659728669975436
+        ],
+        "COM_to_contact_x_mm": 3.3101791851408886,
+        "COM_height_above_ground_mm": 217.34027133002454,
+        "COM_height_above_axle_mm": 167.3402713300245,
+        "gravity_pitch_moment_about_contact_Nm": 0.20353412503363144,
+        "locked_shape_balance_lean_deg": 1.1332273073800134,
+        "locked_shape_lean_residual_x_mm": -8.673617379884035e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 211.0,
+        "COM_from_hip_mm": [
+          3.383916109554959,
+          -0.02504355159550918,
+          -42.87769880407643
+        ],
+        "COM_to_contact_x_mm": 3.383916109554959,
+        "COM_height_above_ground_mm": 218.1223011959235,
+        "COM_height_above_axle_mm": 168.12230119592354,
+        "gravity_pitch_moment_about_contact_Nm": 0.20806801264329874,
+        "locked_shape_balance_lean_deg": 1.1530768606251793,
+        "locked_shape_lean_residual_x_mm": 4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 212.0,
+        "COM_from_hip_mm": [
+          3.4594909044562363,
+          -0.02504355159550918,
+          -43.09570353858557
+        ],
+        "COM_to_contact_x_mm": 3.4594909044562225,
+        "COM_height_above_ground_mm": 218.90429646141442,
+        "COM_height_above_axle_mm": 168.90429646141442,
+        "gravity_pitch_moment_about_contact_Nm": 0.2127149060271595,
+        "locked_shape_balance_lean_deg": 1.1733657553769807,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 213.0,
+        "COM_from_hip_mm": [
+          3.5370174658285762,
+          -0.02504355159550918,
+          -43.31374151524351
+        ],
+        "COM_to_contact_x_mm": 3.537017465828597,
+        "COM_height_above_ground_mm": 219.68625848475648,
+        "COM_height_above_axle_mm": 169.68625848475648,
+        "gravity_pitch_moment_about_contact_Nm": 0.21748180834671496,
+        "locked_shape_balance_lean_deg": 1.1941263337108736,
+        "locked_shape_lean_residual_x_mm": 0.0,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 214.0,
+        "COM_from_hip_mm": [
+          3.6166226996323187,
+          -0.02504355159550918,
+          -43.531811306854564
+        ],
+        "COM_to_contact_x_mm": 3.6166226996322837,
+        "COM_height_above_ground_mm": 220.46818869314538,
+        "COM_height_above_axle_mm": 170.4681886931454,
+        "gravity_pitch_moment_about_contact_Nm": 0.22237652271234876,
+        "locked_shape_balance_lean_deg": 1.2153947109216106,
+        "locked_shape_lean_residual_x_mm": 4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      },
+      {
+        "height_mm": 215.0,
+        "COM_from_hip_mm": [
+          3.6984487085103206,
+          -0.02504355159550918,
+          -43.749911403378576
+        ],
+        "COM_to_contact_x_mm": 3.6984487085103415,
+        "COM_height_above_ground_mm": 221.25008859662142,
+        "COM_height_above_axle_mm": 171.25008859662145,
+        "gravity_pitch_moment_about_contact_Nm": 0.22740778663810532,
+        "locked_shape_balance_lean_deg": 1.2372114199143762,
+        "locked_shape_lean_residual_x_mm": 4.3368086899420177e-16,
+        "lean_sign_convention": "Positive lean moves points above the axle towards -X (nose up); x'=x*cos(theta)-z*sin(theta)"
+      }
+    ],
+    "assumptions": "Circular wheels on level ground; contact points share the axle X. COM estimates use uniform CAD mass distribution. The locked-shape lean rotates geometry about the wheel axle; the level-body Beta candidate instead changes both hip angles. Neither is dynamic stability or collision validation."
+  },
+  "flat_driving": [
+    {
+      "acceleration_m_s2": 0.0,
+      "Crr_assumption": 0.02,
+      "wheel_torque_Nm": 0.030743671815000036,
+      "hip_absolute_sum_Nm": 0.3084820432604298,
+      "knee_absolute_sum_Nm": 1.9466800857849231
+    },
+    {
+      "acceleration_m_s2": 0.5,
+      "Crr_assumption": 0.02,
+      "wheel_torque_Nm": 0.10909145931500014,
+      "hip_absolute_sum_Nm": 0.6688818657604301,
+      "knee_absolute_sum_Nm": 2.1404820434758953
+    },
+    {
+      "acceleration_m_s2": 1.0,
+      "Crr_assumption": 0.02,
+      "wheel_torque_Nm": 0.1874392468150002,
+      "hip_absolute_sum_Nm": 1.0292816882604303,
+      "knee_absolute_sum_Nm": 2.334284001166868
+    }
+  ],
+  "takeoff_speed_scenarios": [
+    {
+      "takeoff_leg_length_mm": 160.0,
+      "ideal_ballistic_rise_mm": 100,
+      "knee_rpm": 157.3580386932891,
+      "hip_rpm": 60.62279908642825,
+      "exceeds_200rpm_no_load": false
+    },
+    {
+      "takeoff_leg_length_mm": 180.0,
+      "ideal_ballistic_rise_mm": 100,
+      "knee_rpm": 178.80316895712735,
+      "hip_rpm": 73.1906490214167,
+      "exceeds_200rpm_no_load": false
+    },
+    {
+      "takeoff_leg_length_mm": 200.0,
+      "ideal_ballistic_rise_mm": 100,
+      "knee_rpm": 218.52037685858988,
+      "hip_rpm": 93.21259825374221,
+      "exceeds_200rpm_no_load": true
+    },
+    {
+      "takeoff_leg_length_mm": 215.0,
+      "ideal_ballistic_rise_mm": 100,
+      "knee_rpm": 283.91325124656714,
+      "hip_rpm": 123.91454502757149,
+      "exceeds_200rpm_no_load": true
+    }
+  ],
+  "limitations": [
+    "Actual forward screen placement affects global pitch moment even when constrained hip effort changes little",
+    "Balance angles are reported estimates only; no changes are applied to leg geometry, saved joint pose, MuJoCo or control parameters",
+    "Motor mass is supplied mass with approximate CAD-volume centre; equipment internal COM is unknown",
+    "HI13R2 uses the 11 g upper mass bound, not a measurement; LCD assembly uses 265 g",
+    "No full torque-speed-duration, thermal, battery-sag, free-balance, landing or jump validation",
+    "200 rpm no-load and 7 Nm peak cannot be assumed simultaneous",
+    "Scan range is a force calculation; use the separate CAD interference report to determine permitted motion"
+  ],
+  "native_validation": {
+    "heights_mm": [
+      100.0,
+      180.0,
+      215.0
+    ],
+    "beta_deg": [
+      -10,
+      0,
+      10
+    ],
+    "maximum_COM_error_mm": 9.800597115467527e-14,
+    "maximum_angle_error_deg": 2.842170943040401e-14,
+    "maximum_gravity_effort_error_Nm": 3.4194869019676943e-09,
+    "gravity_checks": [
+      {
+        "height_mm": 100.0,
+        "native_hip_Nm": -0.2315023753363121,
+        "native_knee_Nm": -2.5748185096477583,
+        "effort_error_Nm": 1.4876988807532854e-09
+      },
+      {
+        "height_mm": 180.0,
+        "native_hip_Nm": -0.16706115166797986,
+        "native_knee_Nm": -1.8706322000087445,
+        "effort_error_Nm": 2.421759015547309e-09
+      },
+      {
+        "height_mm": 215.0,
+        "native_hip_Nm": -0.10400763570395098,
+        "native_knee_Nm": -1.1778833536447508,
+        "effort_error_Nm": 3.4194869019676943e-09
+      }
+    ],
+    "saved_document_modified": false,
+    "scope": "FreeCAD native Placement expressions applied to actual CAD-derived local centres, checked against independent analytic transforms and constrained gravity; does not establish collision clearance at beta ±10 degrees"
+  },
+  "formula_validation": {
+    "samples": 8,
+    "fk_central_difference_max_error_m_per_rad": 1.5349985171830838e-11,
+    "inverse_kinematics_max_error_m": 7.632783294297951e-17,
+    "parallelogram_vector_closure_error_m": 2.732189474663471e-16,
+    "virtual_work_max_error_W": 4.874608494631616e-10,
+    "vertical_ik_derivative_max_error_rad_per_m": 5.067767062882922e-06,
+    "note": "Vector closure validates the chosen parallelogram algebra, not CAD tolerances or assembly accessibility.",
+    "V6_same_method_max_error_Nm": 0.0,
+    "point_payload_beta_error_deg": 3.552713678800501e-15,
+    "point_payload_lean_error_deg": 1.7763568394002505e-15,
+    "fixed_payload_fore_aft_joint_effort_change_Nm": 0.0,
+    "fixed_payload_fore_aft_global_pitch_moment_change_Nm": 0.7848,
+    "scope": "Formula validation and V6 regression only; no V7 CAD has been read"
+  }
+}

@@ -1,0 +1,181 @@
+{
+  "revision": "V8.2 independent layout candidate review",
+  "baseline": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_mujoco/mechanical/v8_1/wheel_leg_v8_1.FCStd",
+  "baseline_sha256": "21e3a0f0798b8ba26f5caed24ba5345bd427a464dc6701318fca0c893f921dd4",
+  "units": "mm",
+  "axes": {
+    "forward": "+X",
+    "up": "+Z",
+    "rear_view_right": "-Y"
+  },
+  "status": "Candidate package envelopes checked against baseline Part::Feature solids at nominal assembly pose; support brackets, selected cables and panel cutouts not modeled by this review.",
+  "objects": {
+    "USB2CANFD_Dual": {
+      "bounds": [
+        24,
+        -42,
+        43.5,
+        74,
+        -16,
+        53
+      ],
+      "basis": "Conservative 50x26x9.5 supplied STEP overall envelope; exact bare PCB and connector datums to be resolved by model review agent."
+    },
+    "custom_distribution_PCB": {
+      "bounds": [
+        33,
+        14,
+        43.5,
+        65.07336,
+        53.091,
+        50.6704
+      ],
+      "basis": "Supplied STEP extents translated, no scaling; source bounds[-0.0819915,-39.1033782,-0.3999492,31.991364,-0.0127000,6.7703934]."
+    },
+    "DCDC_24_to_19": {
+      "bounds": [
+        22,
+        -70,
+        50,
+        80,
+        -45,
+        70
+      ],
+      "body_bounds": [
+        28.5,
+        -70,
+        50,
+        73.5,
+        -45,
+        70
+      ],
+      "mount_hole_centres": [
+        [
+          25.5,
+          -57.5,
+          50
+        ],
+        [
+          76.5,
+          -57.5,
+          50
+        ]
+      ],
+      "mount_hole_diameter": 4,
+      "basis": "User dimensions: total58/body45,width25,height20,pitch51; uniform body/ear height envelope conservatively used for check."
+    },
+    "M16_switch": {
+      "axis_xy": [
+        60,
+        0
+      ],
+      "conservative_bounds": [
+        49.25,
+        -10.75,
+        52.5,
+        70.75,
+        10.75,
+        100
+      ],
+      "radius": 10.75,
+      "installed_tail_z": 52.5,
+      "basis": "47.5 mm connector-inclusive depth below top Z100; maximum nut across-corners21.5 used conservatively through full depth; flange above Z100 separately."
+    },
+    "USB_A_hub": {
+      "bounds": [
+        -94,
+        -52,
+        0,
+        -64,
+        52,
+        10
+      ],
+      "ports_face_normal": [
+        -1,
+        0,
+        0
+      ],
+      "basis": "User104x30x10, long axisY, depthX; body mating front is rear outer faceX-94."
+    },
+    "rear_DC_reserve": {
+      "axis_origin": [
+        -94,
+        -46,
+        -25
+      ],
+      "axis_direction": [
+        1,
+        0,
+        0
+      ],
+      "reserve_radius": 7,
+      "reserve_depth": 24,
+      "basis": "Unselected connector: analytical reserve only, not machining hole specification. Replaceable insert after final DC jack model chosen."
+    }
+  },
+  "baseline_collision_results_mm3": {
+    "USB2CANFD_Dual": [],
+    "custom_distribution_PCB": [],
+    "DCDC_24_to_19": [],
+    "M16_switch": [
+      [
+        "chassis_front_shell",
+        1089.151
+      ]
+    ],
+    "USB_A_hub": [
+      [
+        "chassis_rear_cover",
+        3120.0
+      ]
+    ],
+    "rear_DC_reserve": [
+      [
+        "chassis_rear_cover",
+        461.814
+      ]
+    ]
+  },
+  "pairwise_new_envelope_collisions": [],
+  "cutout_only_intersections": [
+    "M16_switch/top shell",
+    "USB_A_hub/rear shell",
+    "rear_DC_reserve/rear shell"
+  ],
+  "rejected_DC_candidate": {
+    "axis_origin": [
+      -94,
+      -60,
+      -32
+    ],
+    "collisions_mm3": [
+      [
+        "chassis_rear_crossframe",
+        885.899
+      ],
+      [
+        "chassis_rear_cover",
+        553.97
+      ],
+      [
+        "rear_cover_M3x12_0",
+        10.871
+      ]
+    ]
+  },
+  "layout_requirements": [
+    "Keep board positions clear of central Y-16..14 corridor for switch tail.",
+    "Do not fill entire electronics-board bounding rectangle with a solid high shelf: preserve central cable drop X48..72/Y-12..12.",
+    "Converter ears on two isolated support pads, metal body open to air; avoid insulating its entire base.",
+    "Hub and charge interface are mounted to removable rear module; unplug hub USB before cover removal.",
+    "Preserve IMU origin(0,0,85), bridge and leg interfaces.",
+    "Do not equate cable envelope checks with verified bend-radius, electrical suitability or current rating."
+  ],
+  "check_method": {
+    "native_object_filter": "TypeId == Part::Feature, excluding App::Part aggregate Shapes to avoid double count",
+    "intersection_volume_threshold_mm3": 0.001,
+    "selected_module_pose": "existing nominal180 mm leg assembly",
+    "broadphase": "BoundBox.intersect",
+    "narrowphase": "candidate.common(existing.Shape).Volume"
+  }
+}

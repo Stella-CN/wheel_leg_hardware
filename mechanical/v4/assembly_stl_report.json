@@ -1,0 +1,28 @@
+{
+  "filename": "wheel_leg_assembly.stl",
+  "units": "mm",
+  "purpose": "assembled multi-shell reference; use print/*.stl for individual PETG parts",
+  "objects": 194,
+  "facets": 1653720,
+  "file_bytes": 82686084,
+  "dimensions_mm": [
+    246.71205139160156,
+    427.0,
+    283.8149108886719
+  ],
+  "coordinates": "X forward, Y lateral, Z up; hip axis at Z=0",
+  "linear_deflection_mm": 0.12,
+  "includes": [
+    "printed structure",
+    "custom CNC parts",
+    "original motor STEP geometry",
+    "NSK 686AZZ1 6x13x5; two per joint; not open 686A",
+    "modelled joint fasteners and spacers",
+    "elastic tyre reference"
+  ],
+  "not_modelled": [
+    "unmodelled motor and chassis fasteners",
+    "cables",
+    "actual battery and controller"
+  ]
+}

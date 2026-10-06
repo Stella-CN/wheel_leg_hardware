@@ -1,0 +1,18 @@
+{
+  "manufacturer": "NBK",
+  "source_url": "https://www.nbk1560.com/images/en-US/product/lowsmallheadscrew/SLH-SD/SLH-SD_1.pdf",
+  "pdf_sha256": "f6b22f72d778e47bba9061c59a0103c98bac0b893fa41b4fb5abee20adaad9c6",
+  "selected": [
+    "SLH-M3-6-SD",
+    "SLH-M3-8-SD"
+  ],
+  "head_diameter": 4.5,
+  "head_diameter_tolerance": "+/-0.1",
+  "head_height": 2,
+  "hex_AF": 2,
+  "socket_depth": 1.5,
+  "property_class": "8.8",
+  "maximum_screw_body_torque_Nm": 1.4,
+  "joint_torque_confirmed": false,
+  "primary_note": "Manufacturer requires seating pressure to be considered for reduced head bearing area."
+}

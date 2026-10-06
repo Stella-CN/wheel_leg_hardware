@@ -1,0 +1,53 @@
+{
+  "rotor": {
+    "part": "ISO4762 M3x8",
+    "head_diameter": 5.5,
+    "head_height": 3,
+    "engagement": 3,
+    "grip": 5
+  },
+  "knee": {
+    "part": "NBK SLH-M3-6-SD",
+    "head_diameter": 4.5,
+    "head_height": 2,
+    "engagement": 3.5,
+    "grip": 2.5,
+    "screw_head_y": [
+      82.6,
+      84.6
+    ]
+  },
+  "radial": {
+    "part": "NBK SLH-M3-8-SD",
+    "head_diameter": 4.5,
+    "head_height": 2,
+    "engagement": 3.2,
+    "grip": 4.8,
+    "tap_drill_diameter": 2.5,
+    "tap_drill_cylindrical_depth": 4.5,
+    "drill_point_angle": 118,
+    "full_thread_depth_min": 3.5,
+    "head_bearing_area_mm2": 6.8251100399238265
+  },
+  "low_head_primary_source": "https://www.nbk1560.com/images/en-US/product/lowsmallheadscrew/SLH-SD/SLH-SD_1.pdf",
+  "low_head_property_class": "8.8",
+  "low_head_diameter_tolerance": "+/-0.1",
+  "low_head_diameter_max": 4.6,
+  "low_head_hex_AF": 2,
+  "low_head_socket_depth": 1.5,
+  "manufacturer_screw_max_torque_Nm": 1.4,
+  "joint_torque_status": "NOT a joint torque specification; verify aluminum head bearing pressure and proof load",
+  "dowels": {
+    "count": 3,
+    "diameter": 4,
+    "pcd": 24.3,
+    "phase_degrees": [
+      90,
+      210,
+      330
+    ],
+    "length": 9,
+    "motor_engagement": 3,
+    "flange_engagement": 6
+  }
+}

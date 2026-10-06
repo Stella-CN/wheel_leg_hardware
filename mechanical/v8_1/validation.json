@@ -1,0 +1,53 @@
+{
+  "freecad_version": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "units": "mm",
+  "sampled_lengths": [
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180,
+    185,
+    190,
+    195,
+    200,
+    205,
+    210,
+    215
+  ],
+  "beta_deg": 0,
+  "solids_valid": true,
+  "exported_stl_closed": true,
+  "live_pose_expressions_checked_at_mm": [
+    100.0,
+    180.0,
+    215.0
+  ],
+  "collision_threshold_mm3": 0.05,
+  "collisions": [],
+  "scope": "Original 24-pose pair sweep plus changed battery/tray against every native solid. See battery_integration_review.json and unchanged-object evidence. Beta=0, discrete nominal rigid-body geometry only.",
+  "hardware_pair_check": true,
+  "strength_validated": false,
+  "battery_update_evidence": "battery_integration_review.json"
+}

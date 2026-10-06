@@ -1,0 +1,68 @@
+{
+  "scope": "Independent delivery-document audit; no CAD construction, placement or source geometry changed by this review.",
+  "files_sha256": {
+    "README.md": "6bb8bd483dd05dba50098bde50fba57296531cd811ea19dab30b352b36c5efc0",
+    "CHASSIS.md": "2382682a46a10a4a240aa482bfc7540631ebcb210dd1fd42d6493e4f44f068de",
+    "DISPLAY.md": "493d64f3ffe04bd22363e9d39bf2b49a03209ee93dedc46e3d8f130874222aa0",
+    "IMU.md": "8062c36f8ecb71f1b4723cda27fbfb948566a7c2c27013138ec20cbaaad30abe",
+    "payload_interfaces.json": "ead020956ff58b053179d771922d3feec6b05af9d84879488775a475835bfbaa",
+    "display_interface.json": "e48255570d2c645ec5d02c13934f0cf57ac745450f11dacec5fcf056507758e2",
+    "imu_interface.json": "e5e00e4b750ac87fac767360bcf5326a05b4da69cffe7136be1f226978245ee4",
+    "previews/display_dimensions.svg": "a9c33c083c816758df428a6f68a0e621f40a7f65b1990ad246a7441514fb994f",
+    "previews/display_dimensions.png": "9c540fccea80c81f9b24f6d41a5bb207a34cf73d2e61f3fc66a9adb1abc0e3ba"
+  },
+  "geometry_source_chassis_sha256": "74157de9316fb0f5476eecd2b17378cad7675e887551d7dda1222af52d60d92f",
+  "evidence": [
+    "User supplier PDF page2 rendered image visually inspected: selected5in case122x78x14.5; no mounting-hole/AA/mass specification.",
+    "display_dimensions.svg XML/text cross-checked; renderedPNG visually inspected with no clipped dimension annotations.",
+    "V8 chassis constants and reported exact-contact chains, payload_independent_review.json and maintenance_access_review.json.",
+    "Vendor HI13R2 provenance and matching imu_interface.json/payload_interfaces.json."
+  ],
+  "checks": [
+    {
+      "name": "selected_screen_dimensions_and_own_mount_holes",
+      "pass": true,
+      "notes": "Own134x60 M3 cradle pattern explicitly distinguished from unprovided device holes; old7in parameters excluded."
+    },
+    {
+      "name": "camera_current_placement_and_two_depth_configurations",
+      "pass": true,
+      "notes": "25.05 depth: shim1+M3x6;26.05: no shim+M3x5. PETG rear crossbar3;2mm nominal insertion; manufacturer max3."
+    },
+    {
+      "name": "imu_references_equal_and_explicit_centre_datum",
+      "pass": true,
+      "notes": "Motion datum hip midpointX0/Y0; enclosure-bounding-box centreX11.5/Y0 is not substituted. Roof inner97 vs highest screw91.9."
+    },
+    {
+      "name": "jetson_legacy_maximum_removed",
+      "pass": true,
+      "notes": "Current official BRep conservative installed bounds given; actual foot seatedZ33, different from control-box min32.8615."
+    },
+    {
+      "name": "whole_face_mounting_arrays_and_installation_sequence",
+      "pass": true,
+      "notes": "CHASSIS gives3 distinct panel arrays:136x132/M3x12,134x60/M3x22,100x16/M3x10; allØ3.4. Connect cables before closing; open nut traps provide antirotation, not guaranteed axial retention."
+    },
+    {
+      "name": "printing_and_service_limits",
+      "pass": true,
+      "notes": "Manufacturing STLs reoriented; assembly coordinates in FCStd/STEP. Front installation planes down for face/cradles/camera bracket, removable support required for shells. Jetson module must lift4 before rear extraction."
+    },
+    {
+      "name": "front_corner_contact_dimension_correction",
+      "pass": true,
+      "notes": "Feature length4 but nominal case contact length3.5, width0.5, total7mm². Actual metal rim remains unknown."
+    },
+    {
+      "name": "drawing_numeric_and_visual_audit",
+      "pass": true,
+      "notes": "122x78x14.5, own134x60 hole array,Y±67,Z−34/26,cameraX117/Z61,screenX114/Z−4; no AA boundary invented."
+    }
+  ],
+  "manual_delivery_notes": [
+    "README.md, CHASSIS.md, IMU.md and final DISPLAY.md include curated delivery instructions. Do not overwrite them by rerunning inherited note exporters after this audit.",
+    "No claim of physical screen-rim suitability, cable compatibility, continuous motion clearance, impact or thermal qualification."
+  ],
+  "failures": []
+}

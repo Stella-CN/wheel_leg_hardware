@@ -1,0 +1,378 @@
+{
+  "source_sha256": "5af7333d3a9b8623692ec25f08dfbe90bae6bd692b2889038fed5336695c51bb",
+  "units": "mm",
+  "parts": {
+    "OA_inner_hub": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 27058.985107262928
+    },
+    "OA_outer_cheek": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 7926.184762872857
+    }
+  },
+  "collisions": [],
+  "motor_collisions": [],
+  "head_bearing_thickness": [
+    2.0000000000000004,
+    2.000000000000001,
+    2.0,
+    2.0,
+    2.0,
+    2.0000000000000004
+  ],
+  "pilot_cylinder_faces": [
+    {
+      "part": "OA_inner_hub",
+      "diameter": 35.05,
+      "y": [
+        139.2,
+        140.0
+      ]
+    }
+  ],
+  "axial_hole_faces": [
+    {
+      "part": "OA_inner_hub",
+      "diameter": 3.4,
+      "x": -13.5,
+      "z": 1.6532731788489269e-15,
+      "y": [
+        140.0,
+        165.0
+      ]
+    },
+    {
+      "part": "OA_inner_hub",
+      "diameter": 3.4,
+      "x": -6.750000000000006,
+      "z": -11.691342951089919,
+      "y": [
+        140.0,
+        165.0
+      ]
+    },
+    {
+      "part": "OA_inner_hub",
+      "diameter": 3.4,
+      "x": -6.749999999999997,
+      "z": 11.691342951089922,
+      "y": [
+        140.0,
+        165.0
+      ]
+    },
+    {
+      "part": "OA_inner_hub",
+      "diameter": 3.4,
+      "x": 6.750000000000002,
+      "z": -11.69134295108992,
+      "y": [
+        140.0,
+        165.0
+      ]
+    },
+    {
+      "part": "OA_inner_hub",
+      "diameter": 3.4,
+      "x": 13.5,
+      "z": 0.0,
+      "y": [
+        140.0,
+        165.0
+      ]
+    },
+    {
+      "part": "OA_inner_hub",
+      "diameter": 3.4,
+      "x": 6.750000000000002,
+      "z": 11.69134295108992,
+      "y": [
+        140.0,
+        165.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 6.2,
+      "x": -6.750000000000006,
+      "z": -11.691342951089919,
+      "y": [
+        167.0,
+        170.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 6.2,
+      "x": -13.5,
+      "z": 1.6532731788489269e-15,
+      "y": [
+        167.0,
+        170.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 6.2,
+      "x": -6.749999999999997,
+      "z": 11.691342951089922,
+      "y": [
+        167.0,
+        170.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 6.2,
+      "x": 6.750000000000002,
+      "z": -11.69134295108992,
+      "y": [
+        167.0,
+        170.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 6.2,
+      "x": 13.5,
+      "z": 0.0,
+      "y": [
+        167.0,
+        170.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 6.2,
+      "x": 6.750000000000002,
+      "z": 11.69134295108992,
+      "y": [
+        167.0,
+        170.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 3.4,
+      "x": -13.5,
+      "z": 1.6532731788489269e-15,
+      "y": [
+        165.0,
+        167.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 3.4,
+      "x": -6.750000000000006,
+      "z": -11.691342951089919,
+      "y": [
+        165.0,
+        167.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 3.4,
+      "x": -6.749999999999997,
+      "z": 11.691342951089922,
+      "y": [
+        165.0,
+        167.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 3.4,
+      "x": 6.750000000000002,
+      "z": -11.69134295108992,
+      "y": [
+        165.0,
+        167.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 3.4,
+      "x": 13.5,
+      "z": 0.0,
+      "y": [
+        165.0,
+        167.0
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 3.4,
+      "x": 6.750000000000002,
+      "z": 11.69134295108992,
+      "y": [
+        165.0,
+        167.0
+      ]
+    }
+  ],
+  "A_support_bores": [
+    {
+      "part": "OA_inner_hub",
+      "diameter": 8.0,
+      "y": [
+        149.00000000000003,
+        151.99999999999997
+      ]
+    },
+    {
+      "part": "OA_outer_cheek",
+      "diameter": 8.0,
+      "y": [
+        166.0,
+        168.99999999999997
+      ]
+    }
+  ],
+  "minimum_walls": {
+    "OA_inner_hub_Y140.1_bolt_to_outline": 4.299999999999999,
+    "OA_inner_hub_Y146.5_bolt_to_outline": 6.799999999999998,
+    "OA_inner_hub_Y150.5_bolt_to_outline": 6.799999999999998,
+    "OA_inner_hub_Y160_bolt_to_outline": 2.799999999999999,
+    "OA_outer_cheek_Y165.5_bolt_to_outline": 6.799999999999998,
+    "OA_outer_cheek_Y168_bolt_to_outline": 5.399999999999998,
+    "OA_inner_hub_A_bore_to_outline": 9.0,
+    "OA_outer_cheek_A_bore_to_outline": 9.0,
+    "outer_counterbore_to_D12_center": 4.4,
+    "adjacent_outer_counterbores": 7.3
+  },
+  "tool_intersections": {
+    "hex_2_5_path_0": 0.0,
+    "hex_2_5_path_1": 0.0,
+    "hex_2_5_path_2": 0.0,
+    "hex_2_5_path_3": 0.0,
+    "hex_2_5_path_4": 0.0,
+    "hex_2_5_path_5": 0.0
+  },
+  "pin_bushing_bearing_layers": {
+    "686AZZ1_A_0": {
+      "y": [
+        153.0,
+        158.0
+      ],
+      "x": [
+        -6.5,
+        6.5
+      ]
+    },
+    "686AZZ1_A_7": {
+      "y": [
+        160.0,
+        165.0
+      ],
+      "x": [
+        -6.5,
+        6.5
+      ]
+    },
+    "inner_race_spacer_A": {
+      "y": [
+        158.0,
+        160.0
+      ],
+      "x": [
+        -3.6,
+        3.6
+      ]
+    },
+    "ground_pin_A_23": {
+      "y": [
+        147.5,
+        170.5
+      ],
+      "x": [
+        -3.0,
+        3.0
+      ]
+    },
+    "bronze_sleeve_A_inner": {
+      "y": [
+        149.0,
+        152.0
+      ],
+      "x": [
+        -4.0,
+        4.0
+      ]
+    },
+    "bronze_sleeve_A_outer": {
+      "y": [
+        166.0,
+        169.0
+      ],
+      "x": [
+        -4.0,
+        4.0
+      ]
+    },
+    "end_shim_A_inner": {
+      "y": [
+        148.8,
+        149.0
+      ],
+      "x": [
+        -5.0,
+        5.0
+      ]
+    },
+    "end_shim_A_outer": {
+      "y": [
+        169.0,
+        169.2
+      ],
+      "x": [
+        -5.0,
+        5.0
+      ]
+    },
+    "circlip_A_inner": {
+      "y": [
+        148.1,
+        148.79999999999998
+      ],
+      "x": [
+        -6.0,
+        5.96992462263972
+      ]
+    },
+    "circlip_A_outer": {
+      "y": [
+        169.2,
+        169.89999999999998
+      ],
+      "x": [
+        -6.0,
+        5.96992462263972
+      ]
+    },
+    "race_washer_A_inner": {
+      "y": [
+        152.0,
+        153.0
+      ],
+      "x": [
+        -3.6,
+        3.6
+      ]
+    },
+    "race_washer_A_outer": {
+      "y": [
+        165.0,
+        166.0
+      ],
+      "x": [
+        -3.6,
+        3.6
+      ]
+    }
+  }
+}

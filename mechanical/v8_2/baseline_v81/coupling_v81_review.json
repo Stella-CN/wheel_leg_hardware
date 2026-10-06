@@ -1,0 +1,78 @@
+{
+  "revision": "v8_1",
+  "parameters": {
+    "hip_motor_translation_y": 72.5,
+    "hip_stator_front_y": 72.0,
+    "hip_rotor_face_y": 73.0,
+    "knee_motor_translation_y": 132.6,
+    "knee_stator_back_y": 87.1,
+    "knee_stator_front_y": 132.1,
+    "knee_rotor_face_y": 133.1,
+    "coupling_front_y": 72.2,
+    "knee_rear_face_y": 87.1,
+    "knee_stator_face_y": 132.1,
+    "knee_output_face_y": 133.1,
+    "coupler_nesting_y": [
+      75.5,
+      82.5
+    ],
+    "coupling_cup_front_y": 75.5,
+    "coupling_male_end_y": 82.5,
+    "coupling_axial_span": 14.9,
+    "coupling_sleeve_depth": 7.0,
+    "coupling_cup_outer_diameter": 57.0,
+    "coupling_male_diameter": 43.0,
+    "coupling_sleeve_diameter": 43.05,
+    "coupling_radial_screw": "NBK SLH-M3-8-SD",
+    "coupling_knee_screw": "NBK SLH-M3-6-SD",
+    "coupling_rotor_screw": "ISO4762 M3x8",
+    "coupling_radial_plane_y": 79.5,
+    "coupling_material": "6061-T6 CNC",
+    "coupling_dowel": "DIN6325 D4m6x10 hardened ground steel",
+    "coupling_dowel_flange_engagement": 7.0,
+    "coupling_dowel_motor_engagement": 3.0,
+    "coupling_dowel_flat_bottom_y": 80.2
+  },
+  "collisions": [],
+  "changed_features": "Only three flange dowel blind bores: bottom Y79 to Y80.2.",
+  "pin_nominal_y": [
+    70,
+    80
+  ],
+  "motor_hole_y_from_STEP": [
+    69,
+    73
+  ],
+  "motor_hole_bottom_clearance_mm": 1.0,
+  "pin_to_flange_bottom_clearance_mm": 0.2,
+  "pin_tolerance_review": {
+    "incoming_length_acceptance_mm": [
+      9.75,
+      10.25
+    ],
+    "controlled_flange_insertion_mm": [
+      6.95,
+      7.05
+    ],
+    "effective_flange_bore_depth_mm": [
+      7.15,
+      7.25
+    ],
+    "resulting_motor_insertion_mm": [
+      2.7,
+      3.3
+    ],
+    "worst_motor_bottom_clearance_mm": 0.7,
+    "worst_flange_bottom_clearance_mm": 0.1,
+    "instruction": "Control flange insertion depth, not simultaneous exact insertion and protrusion; standard pin length has a tolerance."
+  },
+  "minimum_webs_mm": {
+    "blind_bottom_to_flange_end": 2.299999999999997,
+    "dowel_bore_to_radial_tap": 3.4879473172215247,
+    "dowel_bore_to_rotor_counterbore": 1.8655647427627784
+  },
+  "bore_process": "D4 H7 effective cylindrical bore to Y80.2; flat-bottom CNC interpolation. Do not substitute a 118deg drill tip without reviewing residual wall.",
+  "fit_scope": "DIN6325 m6 pin; verify all three pin locations against the actual motor. Motor drawing D4 +0.02/+0.04.",
+  "preserved_datums": true,
+  "strength_validated": false
+}

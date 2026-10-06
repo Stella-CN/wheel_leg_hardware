@@ -1,0 +1,28 @@
+{
+  "filename": "wheel_leg_assembly.stl",
+  "units": "mm",
+  "purpose": "assembled multi-shell reference; use print/*.stl for individual PETG parts",
+  "objects": 162,
+  "facets": 1636316,
+  "file_bytes": 81815884,
+  "dimensions_mm": [
+    232.66880798339844,
+    443.0,
+    283.8149108886719
+  ],
+  "coordinates": "X forward, Y lateral, Z up; hip axis at Z=0",
+  "linear_deflection_mm": 0.12,
+  "includes": [
+    "printed structure",
+    "CNC coupling",
+    "original motor STEP geometry",
+    "626 bearings",
+    "modelled joint fasteners and spacers",
+    "elastic tyre reference"
+  ],
+  "not_modelled": [
+    "unmodelled motor and chassis fasteners",
+    "cables",
+    "actual battery and controller"
+  ]
+}

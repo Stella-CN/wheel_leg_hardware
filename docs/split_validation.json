@@ -1,0 +1,249 @@
+{
+  "date": "2026-10-06",
+  "migration": {
+    "entries": 2306,
+    "bytes": 6684047545,
+    "initial_transfer_hash_check": "all matched before intentional edits",
+    "final_check": "all retained files present; all unedited hashes match; authorized cleanup recorded",
+    "intentional_edits": [
+      {
+        "path": "mechanical/v1/INTERFACES.md",
+        "before_sha256": "9bef511d7e9ddaf88f02fe241433a29a906c298dc6178c9764d9eb2be8f5561b",
+        "after_sha256": "936118d945a8881dcae55f9322077d17c49fd6521a374fb81b52852d7bba694d"
+      },
+      {
+        "path": "mechanical/v2/INTERFACES.md",
+        "before_sha256": "9bef511d7e9ddaf88f02fe241433a29a906c298dc6178c9764d9eb2be8f5561b",
+        "after_sha256": "936118d945a8881dcae55f9322077d17c49fd6521a374fb81b52852d7bba694d"
+      },
+      {
+        "path": "mechanical/v3/INTERFACES.md",
+        "before_sha256": "e98681e8e796a051bf82b52ee77dd8a447b0777453a247da0a673e50c292168a",
+        "after_sha256": "bb43494e921b5b2c30c7eef4c15e2de29d653c7b2d3479c476a88962617ea746"
+      },
+      {
+        "path": "mechanical/v4/INTERFACES.md",
+        "before_sha256": "cfe9c84b67b05ae95e38356cf284cc1fbb86f6df72057633e44c8bdc2b49bf34",
+        "after_sha256": "2758d73c8c31c8c0f8e51bde9401917984332a355ccf7de48070f11317c75d2b"
+      },
+      {
+        "path": "mechanical/v5/INTERFACES.md",
+        "before_sha256": "aa2e13f51655543a1ef2a2fe59fd6ed2fc16d6e93ed10408536e61f1155cafc7",
+        "after_sha256": "cf8e89c948c9aeaa6a8958cc0d695abc549c5c157291e4daa5d9f7d4c3fc6878"
+      },
+      {
+        "path": "mechanical/v5/MOTOR_LOAD.md",
+        "before_sha256": "32657434ae91a48b1fe553144ed596e84526f7be47f143d5e7adcc6ef4b0923a",
+        "after_sha256": "053c8b4c075d2126c884839645fa72e751fed8480f5ec0803698049123125b4f"
+      },
+      {
+        "path": "mechanical/v6/INTERFACES.md",
+        "before_sha256": "0a00080e8fcaeb3a7916cda8a2cc915211fd8129639a3722aa8450fd430765af",
+        "after_sha256": "666e0a9fc3f982f0e05d851a249c02561d76c983113e2ea4d5b8c1cd4c99f309"
+      },
+      {
+        "path": "mechanical/v6/MOTOR_LOAD.md",
+        "before_sha256": "e8e1c9dcaa0121a0240eea3bf17791f9efaefc564aeb9c0bbeba7e190828813d",
+        "after_sha256": "f8846e61630dc1120b045517807a5522e37ed70c130643e9a00a1d070185b5f5"
+      },
+      {
+        "path": "mechanical/v6/proportion_study.md",
+        "before_sha256": "a8694cef54d83b3d9c72702056c145898573ad65751d9a2b63946f8a5b3e6347",
+        "after_sha256": "8a7d9efc2dd0de7aba274091bf6e69061f379e80d58487784529a4a82d9c296c"
+      },
+      {
+        "path": "mechanical/v8_1/MOTOR_LOAD.md",
+        "before_sha256": "67b51a9e8012b1a9f53f1851030f9b0ddee633b234b57e8b13e3f773211d292a",
+        "after_sha256": "86188ac9f01a7806b7ad4a2bbcba5486c356b8e0ed1c12030cff31b96d02ef44"
+      },
+      {
+        "path": "tools/analyze_v5_motor_load.py",
+        "before_sha256": "394aed97f91eed0f39cbe6a4c736d041ca9f31ab4ae63825f485ff8bf8276443",
+        "after_sha256": "0c4b51a14f4f48cc13fcc8e2123df68167e7ecfe8dd64efbdbe72c1e87f72698"
+      },
+      {
+        "path": "tools/analyze_v6_motor_load.py",
+        "before_sha256": "f4d89bd904ca40f486aa36560a67f7cb480cdcf88c5012ccc331b9d55f8d5694",
+        "after_sha256": "35a772b5c12001cc67f7f7503174f2b63fe4e5b8e15732d0744d346c3aa9ff62"
+      },
+      {
+        "path": "tools/analyze_v6_proportions.py",
+        "before_sha256": "7af6c123bccc060e7a79aff046c54df5bf70ef4d768a45c728becb9b3301a52e",
+        "after_sha256": "353a21210a961bd9a9c1dd59caacff28e166a6de1ac543d7500880badb68b3c6"
+      },
+      {
+        "path": "tools/analyze_v81_motor_load.py",
+        "before_sha256": "9b01746566e075dca8d3bc0831e4c35492d20c061b53d4999b56fecc3d1fc105",
+        "after_sha256": "fe7b7e7ff1247c8e6ac19c0ee6bebd77bdf83222d755b2cc783ae37bae04b199"
+      },
+      {
+        "path": "tools/build_compact_robot.py",
+        "before_sha256": "47e8b23d1fcf3714a27bfe5b24e7cf8b249a8329156e706aef765fdf5bcde0a6",
+        "after_sha256": "78c70b6b16f4ea2aea5c189e5b862ca13b91a1f631df366429f4435f719ae2af"
+      },
+      {
+        "path": "tools/build_enclosed_robot.py",
+        "before_sha256": "bc4af62fdcd54dda66cd1316733baf628c6b9bd7c6bf22b15b675786fbc48c4a",
+        "after_sha256": "5fd88a7b46f2eb965019d6c8b4b04f0bf2291602d09a348a34c22a19674a4417"
+      },
+      {
+        "path": "tools/build_printable_robot.py",
+        "before_sha256": "a8e5a1a8320c94eba38558cb6d5d6ebf215171f7e5f5f0e474eb2c5271494393",
+        "after_sha256": "b1f36fe4cc2adbfd45bdfd1001592f1dcf707f381bdd97285582c95b0ea502a0"
+      },
+      {
+        "path": "tools/build_v82_electrical.py",
+        "before_sha256": "5737bd93fce436fea649fd101ec369d3fb858ab17350f87fd7bdaec340157a57",
+        "after_sha256": "506ea091350ad4add09c35cbda8eafc6f8efabd31a3064be51bad16d4ec40af9"
+      },
+      {
+        "path": "tools/build_v83_shell.py",
+        "before_sha256": "f08000cc8e1e1f5cbbe97f6aa07fb5ca030c60be63c8938ac36a3f01f0ab5aa2",
+        "after_sha256": "e8ae832c551ab4467d23fce71d6be9549c55fad767c1d20e0dc06716911e9364"
+      },
+      {
+        "path": "tools/cad_v3_profiles.py",
+        "before_sha256": "c42db1a82ba6e3b79c23036b5544e6c98e7784d93776e03883c6f48b8907fd3b",
+        "after_sha256": "89a57358129aa6ad2b5fc11afbc708a1a0f2dc5ef4d85d514e7be14fb5b95803"
+      },
+      {
+        "path": "tools/cad_v4_coupling.py",
+        "before_sha256": "1932efb330c2f607612bc2e39f1421aacae2552c18b0416dcc1b9e689dcc2241",
+        "after_sha256": "514c5a207e158eecd2364ac7eaab538be5675d950accd9b718b41a34bea77826"
+      },
+      {
+        "path": "tools/cad_v5_coupling.py",
+        "before_sha256": "09f9921c891a79dac08b2faabbb424ef15b77259ee9389e6ec9e3671556cf2c9",
+        "after_sha256": "7404a3c37b10ada466ffeeaf6c9963e30d01c6636b45a5aed57e70e944666e71"
+      },
+      {
+        "path": "tools/cad_v81_battery.py",
+        "before_sha256": "2a67f62c7e2537ee2a0aef3f5c21423cf4af724e49d40569a179abf292258e8e",
+        "after_sha256": "17f6e523cc52cc921fc7dfb5ef9f3cc93b925b120a4c737c7cafbea95b76c82b"
+      },
+      {
+        "path": "tools/convert_cad_models.py",
+        "before_sha256": "184f3587e1aed171405ed4f03fab679831d28ad797591b3bf8251add624d203b",
+        "after_sha256": "b59a2deb38864f86405fd2a09e052d77a13df3ebff304c485cdc868a4eae18b6"
+      },
+      {
+        "path": "tools/export_v81_leg_bom.py",
+        "before_sha256": "ca638148d2f5f35f482fbd52141ed88bd4d4d5c3260b1c11b35f4f1b90ea731f",
+        "after_sha256": "41964f338b49e387d9d36a34f5361a3a2904ff145ee68f64b0f1ddf1752abb87"
+      },
+      {
+        "path": "tools/inspect_v82_board_models.py",
+        "before_sha256": "4663e0ecb9076fdb56fbd10b9d7a8f37bdb3e92ef29f3dd8535e59caabfbdfb2",
+        "after_sha256": "813c4a0d94f1d2f1395f0ede1866d8816fb48600dcb605490d55fda8e99d04dc"
+      },
+      {
+        "path": "tools/package_v82_electrical.py",
+        "before_sha256": "e0cfcc4445a13d3ef47ce0d2b0c2171b155ff460819c13d468ca5a45f4cdb779",
+        "after_sha256": "dbfc7dba910f5a2662b51c6f51865fdc06ae9d71726a4de119224b375d8311ef"
+      },
+      {
+        "path": "tools/review_v82_final_cuts.py",
+        "before_sha256": "ea33597a26cb92c95cff7eb54a1c28251cfb2c3904f4e56304dc7aad6c301e2b",
+        "after_sha256": "62381d9ad587092cf6b127db97ef6d01d2739e30361fe6fdb7ba5f204d2dcd67"
+      },
+      {
+        "path": "tools/review_v82_final_delta.py",
+        "before_sha256": "f3333a88dea81da54ec3984d420215afa563f9370b83dc8152ad379ee311f257",
+        "after_sha256": "82b75f6078cf36d620a764d363d9739a331fc355a0582885478de1e3e36bf0a6"
+      }
+    ]
+  },
+  "cleanup": {
+    "removed_entries": 321,
+    "removed_bytes": 782144551,
+    "manifest": "cleanup_manifest.json"
+  },
+  "external_dependencies": {
+    "entries": 116,
+    "bytes": 246998399,
+    "copy_count": 94,
+    "move_count": 22,
+    "hash_check": "passed",
+    "unavailable_originals": [
+      {
+        "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-8935aa2f-7f4a-4dd6-92b4-57229b34a82a.png",
+        "status": "recovered_from_project_copy",
+        "replacement": "references/user_supplied/switch_user_drawing.png"
+      },
+      {
+        "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-fd2aee35-d75b-40d0-9c88-0da018dbc983.png",
+        "status": "recovered_from_project_copy",
+        "replacement": "references/user_supplied/converter_user_drawing.png"
+      },
+      {
+        "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-c287c164-40d0-4ef6-b615-10718adaeb4b.png",
+        "status": "recovered_from_project_copy",
+        "replacement": "references/user_supplied/wiring_user_drawing.png"
+      },
+      {
+        "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-5cd66bf6-8dff-4c48-bf38-27e903aac1bc.png",
+        "status": "recovered_from_project_copy",
+        "replacement": "references/user_supplied/hub_user_drawing.png"
+      },
+      {
+        "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-6559bcef-96ee-488c-a3e4-1c15639cf2a0.png",
+        "status": "recovered_from_project_copy",
+        "replacement": "references/user_supplied/WHEELTEC_battery_user_drawing.png"
+      },
+      {
+        "original": "/tmp/v82_validated_pre_routes.FCStd",
+        "status": "original_not_found"
+      },
+      {
+        "original": "/tmp/v82_hub_clamp_before_clearance.brep",
+        "status": "original_not_found"
+      }
+    ]
+  },
+  "simulation": {
+    "baseline_unittest": "21 tests passed, 8.936 s",
+    "post_split_unittest": "21 tests passed, 8.986 s",
+    "check_model": "passed, 1681 configurations",
+    "check_biped_model": "passed, 441 configurations",
+    "mujoco_version": "3.2.7",
+    "compiled_models": [
+      {
+        "file": "biped_wheel_leg.xml",
+        "nq": 10,
+        "nv": 10,
+        "nu": 6,
+        "neq": 2
+      },
+      {
+        "file": "ground_robot.xml",
+        "nq": 17,
+        "nv": 16,
+        "nu": 6,
+        "neq": 2
+      },
+      {
+        "file": "wheel_leg.xml",
+        "nq": 5,
+        "nv": 5,
+        "nu": 3,
+        "neq": 1
+      }
+    ],
+    "external_mesh_dependencies": false,
+    "fresh_model_compile": "passed",
+    "final_post_dependency_and_cleanup_unittest": "21 tests passed, 8.997 s"
+  },
+  "hardware": {
+    "python_syntax_checked": 92,
+    "javascript_syntax_checked": 3,
+    "converter_local_sources": "both motor STEP sources and STL outputs exist",
+    "simulation_package_imports": false,
+    "cad_or_release_rebuild": "not performed"
+  },
+  "limitations": [
+    "Historical pre-route V8.2 CAD baseline is absent; exact hash not found in CAD/FCBak/release archives.",
+    "Original temporary hub clamp BREP is absent; saved per-part pre-cut geometry remains available.",
+    "Software runtimes remain externally installed as requested.",
+    "Historical release source hashes are not rewritten to conceal active-tool path changes."
+  ]
+}

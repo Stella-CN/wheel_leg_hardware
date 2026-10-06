@@ -1,0 +1,135 @@
+{
+  "units": "mm",
+  "threshold_mm3": 0.001,
+  "checks": [
+    {
+      "name": "valid_single_solids",
+      "passed": true,
+      "rows": [
+        {
+          "name": "battery_tray",
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 21192.15709640331
+        },
+        {
+          "name": "battery_envelope",
+          "valid": true,
+          "solids": 1,
+          "volume_mm3": 234646.71999999997
+        }
+      ]
+    },
+    {
+      "name": "battery_seated_in_tray",
+      "passed": true,
+      "overlap_mm3": 0.0
+    },
+    {
+      "name": "battery_tray_to_native_assembly",
+      "passed": true,
+      "hits": []
+    },
+    {
+      "name": "battery_envelope_to_native_assembly",
+      "passed": true,
+      "hits": []
+    },
+    {
+      "name": "declared_connector_design_allowance",
+      "passed": true,
+      "hits": []
+    },
+    {
+      "name": "single_layer_underfloor_straps",
+      "passed": true,
+      "hits": []
+    },
+    {
+      "name": "nominal_clearances",
+      "passed": true,
+      "values_mm": {
+        "tray_bottom_to_belly": 1.79999999999999,
+        "underfloor_strap_to_belly": 0.7999999999999972,
+        "battery_to_electronics_tray": 12.199999999999989,
+        "connector_allowance_to_electronics_tray": 1.1999999999999922,
+        "tray_to_hip_motor_left": 6.165427802975114,
+        "tray_to_hip_motor_right": 6.165427802975118
+      },
+      "note": "Rigid nominal solids only; manufacturing tolerances, warpage, straps and plug variations require trial fitting."
+    },
+    {
+      "name": "complete_battery_module_vertical_insertion",
+      "passed": true,
+      "hits": [],
+      "continuous_vertical_travel_mm": 100.0,
+      "background_objects": 241,
+      "assembly_state": "Metal frame and complete legs installed at180mm,beta0; electronics tray/Jetson,IMU,front face and outer shells absent; four tray screws installed after lowering.",
+      "route_contents": "Tray+battery+single-layer underfloor strap allowance; no unselected plug,buckle or cable geometry."
+    },
+    {
+      "name": "four_M3x8_top_driver_access_after_module_insertion",
+      "passed": true,
+      "tool_diameter_mm": 3.0,
+      "tip_z": -33.0,
+      "rows": [
+        {
+          "x": -70.0,
+          "y": -20.0,
+          "hits": []
+        },
+        {
+          "x": -70.0,
+          "y": 20.0,
+          "hits": []
+        },
+        {
+          "x": 70.0,
+          "y": -20.0,
+          "hits": []
+        },
+        {
+          "x": 70.0,
+          "y": 20.0,
+          "hits": []
+        }
+      ],
+      "assembly_state": "Same open-body state as vertical insertion."
+    },
+    {
+      "name": "unchanged_four_mounting_datums",
+      "passed": true,
+      "centres_xy": [
+        [
+          -70.0,
+          -20.0
+        ],
+        [
+          -70.0,
+          20.0
+        ],
+        [
+          70.0,
+          -20.0
+        ],
+        [
+          70.0,
+          20.0
+        ]
+      ],
+      "screw": "ISO4762M3x8",
+      "grip_mm": 3.0,
+      "nominal_metal_engagement_mm": 5.0
+    }
+  ],
+  "failures": [],
+  "source_sha256": "2a67f62c7e2537ee2a0aef3f5c21423cf4af724e49d40569a179abf292258e8e",
+  "background_fcstd_sha256": "97f3e9a7653099362e837d69166212b28f392388d27a2d14ddbef963b2ec220d",
+  "all_pass": true,
+  "limitations": [
+    "No strength, impact or strap load certification.",
+    "DC location and plug not dimensioned; only declared11mm top design allowance checked.",
+    "Full assembly motion sweep is recorded separately by parent integration script.",
+    "Body electronics must be removed before reversing the battery-module insertion path."
+  ]
+}

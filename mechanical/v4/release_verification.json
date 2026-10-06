@@ -1,0 +1,49 @@
+{
+  "revision": "v4",
+  "units": "mm",
+  "structural_width_mm": 33,
+  "leg_source_sha256": "5af7333d3a9b8623692ec25f08dfbe90bae6bd692b2889038fed5336695c51bb",
+  "checks": {
+    "sampled_poses": 22,
+    "intersection_threshold_mm3": 0.05,
+    "intersections_above_threshold": 0,
+    "print_stl_files": 17,
+    "print_meshes_all_passed": true,
+    "native_hardware_objects": 160,
+    "native_hardware_poses": [
+      120,
+      183.8477631085,
+      225
+    ],
+    "native_hardware_errors": 0
+  },
+  "assembly_stl": {
+    "filename": "wheel_leg_assembly.stl",
+    "units": "mm",
+    "purpose": "assembled multi-shell reference; use print/*.stl for individual PETG parts",
+    "objects": 194,
+    "facets": 1653720,
+    "file_bytes": 82686084,
+    "dimensions_mm": [
+      246.71205139160156,
+      427.0,
+      283.8149108886719
+    ],
+    "coordinates": "X forward, Y lateral, Z up; hip axis at Z=0",
+    "linear_deflection_mm": 0.12,
+    "includes": [
+      "printed structure",
+      "custom CNC parts",
+      "original motor STEP geometry",
+      "NSK 686AZZ1 6x13x5; two per joint; not open 686A",
+      "modelled joint fasteners and spacers",
+      "elastic tyre reference"
+    ],
+    "not_modelled": [
+      "unmodelled motor and chassis fasteners",
+      "cables",
+      "actual battery and controller"
+    ]
+  },
+  "scope": "Geometric and discrete pose verification only; manufacturing fits and structural load capacity require physical validation."
+}

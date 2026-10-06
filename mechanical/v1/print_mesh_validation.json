@@ -1,0 +1,90 @@
+[
+  {
+    "file": "active_arm_OA.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 4896
+  },
+  {
+    "file": "battery_tray.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 3652
+  },
+  {
+    "file": "bearing_fit_coupon.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 1148
+  },
+  {
+    "file": "chassis_lid.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 2908
+  },
+  {
+    "file": "chassis_lower_shell.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 16012
+  },
+  {
+    "file": "coupler_AC.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 2266
+  },
+  {
+    "file": "electronics_tray.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 4340
+  },
+  {
+    "file": "fixed_arm_OB.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 4962
+  },
+  {
+    "file": "hip_stator_mount.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 6224
+  },
+  {
+    "file": "output_BCW.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 4482
+  },
+  {
+    "file": "wheel_rim.stl",
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_orientation": false,
+    "facets": 4718
+  }
+]

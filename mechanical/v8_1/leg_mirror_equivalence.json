@@ -1,0 +1,137 @@
+{
+  "tolerance_mm3": 0.0001,
+  "results": [
+    {
+      "part": "hip_stator_mount",
+      "assembly_instances": 2,
+      "shape_volume_mm3": 14900.879871576582,
+      "rigid_rotation_equivalence": [
+        {
+          "axis_xz_degrees": 0,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "axis_xz_degrees": 90,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        }
+      ],
+      "shared_manufacturing_sku": true
+    },
+    {
+      "part": "hip_rotor_cnc",
+      "assembly_instances": 2,
+      "shape_volume_mm3": 11985.280330612151,
+      "rigid_rotation_equivalence": [
+        {
+          "axis_xz_degrees": 150,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        }
+      ],
+      "shared_manufacturing_sku": true
+    },
+    {
+      "part": "knee_stator_cnc",
+      "assembly_instances": 2,
+      "shape_volume_mm3": 18837.70277802956,
+      "rigid_rotation_equivalence": [],
+      "shared_manufacturing_sku": false
+    },
+    {
+      "part": "OB_inner_carrier",
+      "assembly_instances": 2,
+      "shape_volume_mm3": 15493.035216379412,
+      "rigid_rotation_equivalence": [],
+      "shared_manufacturing_sku": false
+    },
+    {
+      "part": "OB_outer_shell",
+      "assembly_instances": 2,
+      "shape_volume_mm3": 35214.607262092046,
+      "rigid_rotation_equivalence": [],
+      "shared_manufacturing_sku": false
+    },
+    {
+      "part": "OA_one_piece",
+      "assembly_instances": 2,
+      "shape_volume_mm3": 26061.498485070937,
+      "rigid_rotation_equivalence": [
+        {
+          "axis_xz_degrees": 90,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        }
+      ],
+      "shared_manufacturing_sku": true
+    },
+    {
+      "part": "AC_bearing_link",
+      "assembly_instances": 2,
+      "shape_volume_mm3": 17625.133372022,
+      "rigid_rotation_equivalence": [
+        {
+          "axis_xz_degrees": 0,
+          "axis_point_mm": [
+            0,
+            0,
+            -65
+          ],
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0,
+          "method": "A/C ends exchanged, measured two directional boolean cuts"
+        }
+      ],
+      "shared_manufacturing_sku": true
+    },
+    {
+      "part": "CW_one_piece",
+      "assembly_instances": 2,
+      "shape_volume_mm3": 42448.68524188544,
+      "rigid_rotation_equivalence": [],
+      "shared_manufacturing_sku": false
+    },
+    {
+      "part": "wheel_rim",
+      "assembly_instances": 2,
+      "shape_volume_mm3": 52682.873601724685,
+      "rigid_rotation_equivalence": [
+        {
+          "axis_xz_degrees": 0,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "axis_xz_degrees": 30,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "axis_xz_degrees": 60,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "axis_xz_degrees": 90,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "axis_xz_degrees": 120,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        },
+        {
+          "axis_xz_degrees": 150,
+          "rotation_degrees": 180,
+          "symmetric_difference_mm3": 0.0
+        }
+      ],
+      "shared_manufacturing_sku": true
+    }
+  ],
+  "manufacturing_sku_count_before": 17,
+  "manufacturing_sku_count_after": 13,
+  "structural_parts_count_whole_robot": 18
+}

@@ -1,0 +1,230 @@
+{
+  "units": "mm",
+  "results": [
+    {
+      "file": "B_outer_cheek.stl",
+      "facets": 1296,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        27.989464258775115,
+        88.0,
+        8.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "active_arm_OA.stl",
+      "facets": 5148,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        43.97110668942332,
+        68.98831881396472,
+        24.799999237060547
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "battery_tray.stl",
+      "facets": 3652,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        153.9929514657706,
+        58.0,
+        10.399999618530273
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "bearing_fit_coupon.stl",
+      "facets": 1148,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        100.0,
+        30.0,
+        6.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "chassis_lid.stl",
+      "facets": 2908,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        200.0,
+        150.0,
+        7.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "chassis_lower_shell.stl",
+      "facets": 16012,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        200.0,
+        150.0,
+        96.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "coupler_AC.stl",
+      "facets": 2348,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        31.99154738569632,
+        162.0,
+        14.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "electronics_tray.stl",
+      "facets": 4340,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        188.0,
+        46.0,
+        3.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "fixed_arm_OB.stl",
+      "facets": 6504,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        73.9999729693227,
+        184.98187255859375,
+        28.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "fixed_arm_OB_left.stl",
+      "facets": 6504,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        73.9999729693227,
+        184.98187519796193,
+        28.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "hip_stator_mount.stl",
+      "facets": 6224,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        78.0,
+        78.0,
+        8.000000000000014
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "output_BCW.stl",
+      "facets": 5784,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        47.99100377364084,
+        201.0,
+        14.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "output_BCW_left.stl",
+      "facets": 5784,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        47.99100377364084,
+        201.0,
+        14.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "wheel_rim.stl",
+      "facets": 5406,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        89.98533362708986,
+        89.97066429257393,
+        40.5
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

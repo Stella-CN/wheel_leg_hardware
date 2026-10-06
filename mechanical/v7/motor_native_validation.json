@@ -1,0 +1,37 @@
+{
+  "heights_mm": [
+    100.0,
+    180.0,
+    215.0
+  ],
+  "beta_deg": [
+    -10,
+    0,
+    10
+  ],
+  "maximum_COM_error_mm": 9.800597115467527e-14,
+  "maximum_angle_error_deg": 2.842170943040401e-14,
+  "maximum_gravity_effort_error_Nm": 3.4194869019676943e-09,
+  "gravity_checks": [
+    {
+      "height_mm": 100.0,
+      "native_hip_Nm": -0.2315023753363121,
+      "native_knee_Nm": -2.5748185096477583,
+      "effort_error_Nm": 1.4876988807532854e-09
+    },
+    {
+      "height_mm": 180.0,
+      "native_hip_Nm": -0.16706115166797986,
+      "native_knee_Nm": -1.8706322000087445,
+      "effort_error_Nm": 2.421759015547309e-09
+    },
+    {
+      "height_mm": 215.0,
+      "native_hip_Nm": -0.10400763570395098,
+      "native_knee_Nm": -1.1778833536447508,
+      "effort_error_Nm": 3.4194869019676943e-09
+    }
+  ],
+  "saved_document_modified": false,
+  "scope": "FreeCAD native Placement expressions applied to actual CAD-derived local centres, checked against independent analytic transforms and constrained gravity; does not establish collision clearance at beta ±10 degrees"
+}

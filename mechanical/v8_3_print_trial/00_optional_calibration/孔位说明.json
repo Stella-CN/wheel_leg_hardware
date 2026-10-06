@@ -1,0 +1,107 @@
+{
+  "file": "00_optional_calibration/CALI_hole_coupon_108x92_x01.stl",
+  "quantity": 1,
+  "holes": [
+    {
+      "x_mm": 14,
+      "y_mm": 15,
+      "nominal_mm": 4,
+      "diameter_mm": 4.0,
+      "diameter_addition_mm": 0.0
+    },
+    {
+      "x_mm": 37,
+      "y_mm": 15,
+      "nominal_mm": 6,
+      "diameter_mm": 6.0,
+      "diameter_addition_mm": 0.0
+    },
+    {
+      "x_mm": 60,
+      "y_mm": 15,
+      "nominal_mm": 8,
+      "diameter_mm": 8.0,
+      "diameter_addition_mm": 0.0
+    },
+    {
+      "x_mm": 90,
+      "y_mm": 15,
+      "nominal_mm": 19,
+      "diameter_mm": 19.0,
+      "diameter_addition_mm": 0.0
+    },
+    {
+      "x_mm": 14,
+      "y_mm": 44,
+      "nominal_mm": 4,
+      "diameter_mm": 4.15,
+      "diameter_addition_mm": 0.15
+    },
+    {
+      "x_mm": 37,
+      "y_mm": 44,
+      "nominal_mm": 6,
+      "diameter_mm": 6.15,
+      "diameter_addition_mm": 0.15
+    },
+    {
+      "x_mm": 60,
+      "y_mm": 44,
+      "nominal_mm": 8,
+      "diameter_mm": 8.15,
+      "diameter_addition_mm": 0.15
+    },
+    {
+      "x_mm": 90,
+      "y_mm": 44,
+      "nominal_mm": 19,
+      "diameter_mm": 19.15,
+      "diameter_addition_mm": 0.15
+    },
+    {
+      "x_mm": 14,
+      "y_mm": 73,
+      "nominal_mm": 4,
+      "diameter_mm": 4.3,
+      "diameter_addition_mm": 0.3
+    },
+    {
+      "x_mm": 37,
+      "y_mm": 73,
+      "nominal_mm": 6,
+      "diameter_mm": 6.3,
+      "diameter_addition_mm": 0.3
+    },
+    {
+      "x_mm": 60,
+      "y_mm": 73,
+      "nominal_mm": 8,
+      "diameter_mm": 8.3,
+      "diameter_addition_mm": 0.3
+    },
+    {
+      "x_mm": 90,
+      "y_mm": 73,
+      "nominal_mm": 19,
+      "diameter_mm": 19.3,
+      "diameter_addition_mm": 0.3
+    }
+  ],
+  "orientation": "槽口朝左上：下/中/上排分别增加直径0/.15/.30；从左到右名义4/6/8/19mm",
+  "note": "先用同一喷嘴/材料/参数测试；与实际标准销、轴承比较。不能将某孔结果用作整件缩放比例。",
+  "validation": {
+    "closed": true,
+    "non_manifold": false,
+    "self_intersections": false,
+    "inconsistent_normals": false,
+    "on_bed": true,
+    "fits_bed": true,
+    "facets": 5108,
+    "dimensions_mm": [
+      108.0,
+      92.0,
+      4.0
+    ],
+    "passed": true
+  }
+}

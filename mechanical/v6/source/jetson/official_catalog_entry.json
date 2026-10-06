@@ -1,0 +1,32 @@
+{
+  "title": "Jetson Orin Nano Developer Kit 3D CAD STEP model",
+  "key": "jetson-orin-nano-developer-kit-3d-cad-step-model-20230320",
+  "url": "/embedded/jetpack",
+  "date": "2023/03/21",
+  "version": "20230320",
+  "description": "<p>3D CAD STEP model of Jetson Orin Nano Developer Kit (P3766 = P3767 module [envelop] + P3768 carrier board.)</p>",
+  "files": [
+    {
+      "iconClass": "fa-download",
+      "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/orin_nano/docs/jetson_orin_nano_devkit_3d_step_model.zip/",
+      "name": "Jetson Orin Nano Developer Kit 3D CAD STEP model"
+    }
+  ],
+  "hardware": [],
+  "product": [
+    "jetson_orin_nano"
+  ],
+  "software": [],
+  "libraries": [],
+  "developer_documentation": [],
+  "tools": [],
+  "gameworks": [],
+  "target": [],
+  "physx_sdk": [],
+  "graphics_api": [],
+  "development_platform": [],
+  "application": [],
+  "activity": [],
+  "additional": [],
+  "priority": 0
+}

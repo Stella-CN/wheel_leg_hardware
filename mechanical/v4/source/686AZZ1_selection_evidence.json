@@ -1,0 +1,47 @@
+{
+  "manufacturer": "NSK",
+  "selected_designation": "686AZZ1",
+  "source_url": "https://www.nsk.com/content/dam/nsk/common/catalogs/ctrgPdf/bearings/e1103c_partc.pdf",
+  "source_pdf_sha256": "3c1acfda536bb6a77487d1fcf6812618e31c62582fb20089659d20b7af07a6e2",
+  "source_pdf_page_1_based": 31,
+  "printed_pages": "C060/C061",
+  "render": "NSK_686AZZ1_abutment_C060_C061.png",
+  "units": "mm",
+  "shielded_dimensions": {
+    "bore_d": 6,
+    "outer_D": 13,
+    "width_B1": 5,
+    "chamfer_r1_min": 0.15
+  },
+  "open_model_not_selected": {
+    "designation": "686A",
+    "width_B": 3.5
+  },
+  "abutment_dimensions": {
+    "open_da_min": 7.2,
+    "shielded_db_max": 7.4,
+    "open_Da_max": 11.8,
+    "shielded_Db_min": 11.7,
+    "shielded_rb_max": 0.15
+  },
+  "selected_stack_proposal": {
+    "two_bearing_widths": 10,
+    "inner_spacer_length": 2,
+    "total_tongue_width": 12,
+    "inner_contact_spacer_and_washer_OD": 7.2,
+    "inner_contact_spacer_and_washer_ID": 6.2,
+    "inner_contact_radial_wall": 0.5,
+    "printed_outer_race_shoulder_relief_diameter": 11.8,
+    "central_web_after_two_5_05_deep_seats": 1.9,
+    "nominal_outer_ring_shoulder_radial_contact_width": 0.6,
+    "note": "Contact piece and shoulder dimensions are nominal proposals; tolerance and actual bearing must preserve db<=7.4 and Db>=11.7. Metal contact parts; do not substitute current OD8.4 spacers."
+  },
+  "catalogue_basic_load_ratings_N": {
+    "selected_686AZZ1_Cr": 1190,
+    "selected_686AZZ1_C0r": 440,
+    "previous_626ZZ1_Cr": 2570,
+    "previous_626ZZ1_C0r": 885
+  },
+  "capacity_note": "Catalogue individual bearing ratings are lower after downsizing and are not a robot load rating. Pair count and smaller width do not establish equal capacity or moment capacity.",
+  "verified": "source table visually inspected at full page and fresh 4200px render"
+}

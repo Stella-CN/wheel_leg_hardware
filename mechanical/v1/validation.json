@@ -1,0 +1,49 @@
+{
+  "freecad_version": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "units": "mm",
+  "sampled_lengths": [
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180,
+    185,
+    190,
+    195,
+    200,
+    205,
+    210,
+    215,
+    220,
+    225
+  ],
+  "beta_deg": 0,
+  "solids_valid": true,
+  "exported_stl_closed": true,
+  "live_pose_expressions_checked_at_mm": [
+    120,
+    183.8477631085,
+    225
+  ],
+  "collision_threshold_mm3": 0.05,
+  "collisions": [],
+  "scope": "Right leg, all printed/CNC geometry and original motor STEP solids; left is mirror. Fasteners, wires and dynamic deflection not part of this sweep. Shoulder hardware is present in the assembly but must be checked separately.",
+  "strength_validated": false
+}

@@ -1,0 +1,49 @@
+{
+  "units": "mm",
+  "status": "packaging envelopes, not vendor solids",
+  "jetson": {
+    "maximum_dimensions": [
+      103.2,
+      90.7,
+      35.86
+    ],
+    "mass_g": 175,
+    "ports_facing": "+X",
+    "forward_plug_allowance": 35,
+    "source": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/orin_nano/docs/jetson_orin_nano_devkit_carrier_board_specification_sp.pdf"
+  },
+  "d435": {
+    "envelope_dimensions": [
+      90.15,
+      25.15,
+      26.1
+    ],
+    "mass_g": 75,
+    "rear_mount_pitch": 45,
+    "rear_thread": "M3x0.5",
+    "manufacturer_max_insertion": 3,
+    "selected_screw": "M3x5",
+    "bracket_grip": 3,
+    "nominal_insertion": 2,
+    "manufacturer_recommended_mounting_torque_Nm": 0.4,
+    "source": "https://realsenseai.com/wp-content/uploads/2025/09/Intel-RealSense-D400-Series-Datasheet-October-2025.pdf"
+  },
+  "battery": {
+    "mass_g": 400,
+    "dimensions_assumed": [
+      110,
+      50,
+      35
+    ]
+  },
+  "imu": {
+    "mass_g_assumed": 20,
+    "dimensions_assumed": [
+      25,
+      30,
+      12
+    ]
+  },
+  "manufacturing": "PETG camera bracket uses captive metal M3 nuts. No printed load-bearing leg joints.",
+  "limits": "Device envelopes reserve space; final board standoffs, straps, USB/DC plug shapes, ventilation flow and cable retention require actual devices."
+}

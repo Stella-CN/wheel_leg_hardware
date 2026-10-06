@@ -1,0 +1,68 @@
+{
+  "revision": "v3_nested_double_shear",
+  "units": "mm",
+  "rod_length": 130.0,
+  "crank_length": 35.0,
+  "leg_length": 183.8477631085,
+  "beta_deg": 0.0,
+  "operating_leg_length": [
+    120.0,
+    225.0
+  ],
+  "print_bed": [
+    220.0,
+    220.0,
+    250.0
+  ],
+  "material": "PETG",
+  "nozzle": 0.4,
+  "layer_height": 0.2,
+  "bearing": "NSK 626ZZ1 6x19x6, or equivalent matching abutment dimensions",
+  "bearing_bore": 19.15,
+  "hip_stator_face_y": 72.0,
+  "hip_output_face_y": 73.0,
+  "coupler_split_y": 88.0,
+  "knee_rear_face_y": 94.0,
+  "knee_stator_face_y": 139.0,
+  "knee_output_face_y": 140.0,
+  "carrier_y": [
+    139,
+    147
+  ],
+  "driven_links_y": [
+    159,
+    173
+  ],
+  "coupler_link_y": [
+    159,
+    173
+  ],
+  "hub_stator_face_y": 173,
+  "wheel_center_y": 199,
+  "wheel_track": 398,
+  "cnc_material": "6061-T6 aluminum, two bolted halves per hip-knee coupling",
+  "cnc_register_diameter": 35.05,
+  "print_register_diameter": 35.3,
+  "validation_scope": "prototype geometry/assembly review; no validated jump, impact or fatigue rating",
+  "truss_corner_radius": 2.0,
+  "profile_corner_radius": 1.5,
+  "reference_image": "User supplied annotated leg: no hip roll; W replaced with H6215",
+  "outer_OB_y": [
+    184,
+    192
+  ],
+  "fork_inner_y": [
+    150,
+    158
+  ],
+  "fork_outer_y": [
+    174,
+    182
+  ],
+  "joint_support": "B: full OB plates straddle CW; A/C: full clevises straddle AC",
+  "profile": "tangent circular arcs and cubic Bezier rails",
+  "bushing_bore": 8.05,
+  "bearing_web_bore": 16.8,
+  "inner_race_spacer_outer_diameter": 8.4,
+  "shaft": "ground D6 pins: 35mm A/C, 56mm B, paired external steel circlips"
+}

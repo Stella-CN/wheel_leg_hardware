@@ -1,0 +1,532 @@
+{
+  "units": "mm",
+  "sources_before": {
+    "cad_v8_payload.py": "e2c6512d2f1070d49760fbe3591d9ba2bc4a0354a028252e6d2959d71bb25710",
+    "cad_v8_display.py": "2c2179be8fd2bd116f1c03b478b452c7c565ee7695a7a464a9bc9848fedc0107",
+    "cad_v8_chassis.py": "74157de9316fb0f5476eecd2b17378cad7675e887551d7dda1222af52d60d92f",
+    "cad_v7_imu.py": "b96c061cb0660e597c7a46729b3196a18f9267b1e918e4edb41ad4813b5b81a4",
+    "cad_v7_payload.py": "78baeb7fdb1f7b9f1e71a4d1bc8541b61844f4c48a405faf72b76b4bb356ec29",
+    "cad_v6_payload.py": "aab10d7f8257b0df8017cbadc6b2ffb334ed1c6f110767d1f638ab89ee815d93"
+  },
+  "checks": [
+    {
+      "name": "official_IMU_origin_and_support",
+      "pass": true,
+      "datum_world": [
+        0.0,
+        0.0,
+        85.0
+      ],
+      "IMU_to_bridge_z79_mm2": 563.6904874312534,
+      "IMU_bridge_collision_mm3": 0.0,
+      "bridge_Jetson_collision_mm3": 0.0,
+      "bridge_Jetson_min_distance_mm": 8.795668478901375,
+      "IMU_Jetson_min_distance_mm": 14.42060368035377
+    },
+    {
+      "name": "IMU_two_actual_hole_fastener_chains",
+      "pass": true,
+      "chains": [
+        {
+          "index": 0,
+          "hole_XY": [
+            10.1,
+            -10.1
+          ],
+          "head_IMU_contact_mm2": 9.433922423893328,
+          "nut_bridge_contact_mm2": 15.925082483443571,
+          "shaft_in_IMU_mm3": 0.0,
+          "shaft_in_bridge_mm3": 0.0,
+          "nut_in_IMU_or_bridge_mm3": 0.0,
+          "nut_Jetson_gap_mm": 17.974021835660928
+        },
+        {
+          "index": 1,
+          "hole_XY": [
+            -10.1,
+            10.1
+          ],
+          "head_IMU_contact_mm2": 9.43392242389362,
+          "nut_bridge_contact_mm2": 15.925082483443571,
+          "shaft_in_IMU_mm3": 0.0,
+          "shaft_in_bridge_mm3": 0.0,
+          "nut_in_IMU_or_bridge_mm3": 0.0,
+          "nut_Jetson_gap_mm": 10.458256083141375
+        }
+      ]
+    },
+    {
+      "name": "bridge_four_sideframe_mounts",
+      "pass": true,
+      "chains": [
+        {
+          "XY": [
+            -10,
+            -68
+          ],
+          "pilot_probe_collision_mm3": 0.0,
+          "foot_clearance_probe_collision_mm3": 0.0,
+          "thread_surround_material_mm3": 11.59247689174633,
+          "head_seat_area_mm2": 14.679091673898316,
+          "foot_sideframe_contact_mm2": 215.841594462251,
+          "grip_collisions_mm3": 0.0
+        },
+        {
+          "XY": [
+            -10,
+            68
+          ],
+          "pilot_probe_collision_mm3": 0.0,
+          "foot_clearance_probe_collision_mm3": 0.0,
+          "thread_surround_material_mm3": 11.592476891746333,
+          "head_seat_area_mm2": 14.679091673898316,
+          "foot_sideframe_contact_mm2": 215.841594462251,
+          "grip_collisions_mm3": 0.0
+        },
+        {
+          "XY": [
+            10,
+            -68
+          ],
+          "pilot_probe_collision_mm3": 0.0,
+          "foot_clearance_probe_collision_mm3": 0.0,
+          "thread_surround_material_mm3": 11.592476891746333,
+          "head_seat_area_mm2": 14.679091673898316,
+          "foot_sideframe_contact_mm2": 215.841594462251,
+          "grip_collisions_mm3": 0.0
+        },
+        {
+          "XY": [
+            10,
+            68
+          ],
+          "pilot_probe_collision_mm3": 0.0,
+          "foot_clearance_probe_collision_mm3": 0.0,
+          "thread_surround_material_mm3": 11.592476891746333,
+          "head_seat_area_mm2": 14.679091673898316,
+          "foot_sideframe_contact_mm2": 215.841594462251,
+          "grip_collisions_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "name": "IMU_and_USB_allowance_inside_shell",
+      "pass": true,
+      "pairs": [
+        {
+          "item": "IMU",
+          "shell": "front",
+          "collision_mm3": 0.0,
+          "distance_mm": 6.0
+        },
+        {
+          "item": "IMU",
+          "shell": "rear",
+          "collision_mm3": 0.0,
+          "distance_mm": 10.307764064044152
+        },
+        {
+          "item": "bridge",
+          "shell": "front",
+          "collision_mm3": 0.0,
+          "distance_mm": 5.70087712549569
+        },
+        {
+          "item": "bridge",
+          "shell": "rear",
+          "collision_mm3": 0.0,
+          "distance_mm": 8.246211251235321
+        },
+        {
+          "item": "USB_design_allowance",
+          "shell": "front",
+          "collision_mm3": 0.0,
+          "distance_mm": 6.0
+        },
+        {
+          "item": "USB_design_allowance",
+          "shell": "rear",
+          "collision_mm3": 0.0,
+          "distance_mm": 8.0
+        }
+      ]
+    },
+    {
+      "name": "five_inch_envelope_and_external_case_support",
+      "pass": true,
+      "pairs": [
+        {
+          "part": "chassis_belly_plate",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "chassis_hip_frame_right",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "chassis_hip_frame_left",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "chassis_front_crossframe",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "chassis_rear_crossframe",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "chassis_front_shell",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "chassis_rear_cover",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "display_front_bezel",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "shoulder_fairing_right",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "shoulder_fairing_left",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "battery_tray",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "electronics_tray",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "Jetson_base_retainer_right",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "Jetson_base_retainer_left",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "D435_embedded_bracket",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "HI13R2_rigid_bridge",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "display_case_cradle_right",
+          "collision_mm3": 0.0
+        },
+        {
+          "part": "display_case_cradle_left",
+          "collision_mm3": 0.0
+        }
+      ],
+      "supplied_width_height_depth_mm": [
+        122,
+        78,
+        14.5
+      ],
+      "device_mount_holes": "Not specified; none invented",
+      "screen_front_corner_stop_contact_mm2": 6.999999999999998,
+      "front_rim_contact_is_provisional": true,
+      "bottom_support_mm2": 142.99999999999994,
+      "top_clearance_mm": 0.5
+    },
+    {
+      "name": "screen_four_complete_fastener_chains",
+      "pass": true,
+      "chains": [
+        {
+          "YZ": [
+            -67.0,
+            -34.0
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "cradle_panel_X114_mm2": 193.30445440263284,
+          "nut_cradle_X99_mm2": 17.118065695604713,
+          "panel_to_shell_X114_mm2": 1838.282423243529,
+          "screw_overlap_mm3": 0.0,
+          "nut_overlap_mm3": 0.0,
+          "screw_rear_X_mm": 95.0
+        },
+        {
+          "YZ": [
+            -67.0,
+            26.0
+          ],
+          "head_panel_X117_mm2": 14.679091673898316,
+          "cradle_panel_X114_mm2": 193.30445440263284,
+          "nut_cradle_X99_mm2": 17.118065695604773,
+          "panel_to_shell_X114_mm2": 1838.282423243529,
+          "screw_overlap_mm3": 0.0,
+          "nut_overlap_mm3": 0.0,
+          "screw_rear_X_mm": 95.0
+        },
+        {
+          "YZ": [
+            67.0,
+            -34.0
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "cradle_panel_X114_mm2": 193.30445440263287,
+          "nut_cradle_X99_mm2": 17.118065695604713,
+          "panel_to_shell_X114_mm2": 1838.282423243529,
+          "screw_overlap_mm3": 0.0,
+          "nut_overlap_mm3": 0.0,
+          "screw_rear_X_mm": 95.0
+        },
+        {
+          "YZ": [
+            67.0,
+            26.0
+          ],
+          "head_panel_X117_mm2": 14.679091673898316,
+          "cradle_panel_X114_mm2": 193.30445440263287,
+          "nut_cradle_X99_mm2": 17.118065695604773,
+          "panel_to_shell_X114_mm2": 1838.282423243529,
+          "screw_overlap_mm3": 0.0,
+          "nut_overlap_mm3": 0.0,
+          "screw_rear_X_mm": 95.0
+        }
+      ]
+    },
+    {
+      "name": "all_shell_and_payload_hardware_clear_of_cradles",
+      "pass": true,
+      "collisions": []
+    },
+    {
+      "name": "whole_front_face_four_fastener_chains",
+      "pass": true,
+      "chains": [
+        {
+          "YZ": [
+            -68.0,
+            -44.0
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "nut_shell_X109p6_mm2": 17.118065695604713,
+          "panel_shell_X114_mm2": 1838.282423243529,
+          "screw_overlap_mm3": 0.0,
+          "nut_overlap_mm3": 0.0
+        },
+        {
+          "YZ": [
+            -68.0,
+            88.0
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "nut_shell_X109p6_mm2": 17.118065695604713,
+          "panel_shell_X114_mm2": 1838.282423243529,
+          "screw_overlap_mm3": 0.0,
+          "nut_overlap_mm3": 0.0
+        },
+        {
+          "YZ": [
+            68.0,
+            -44.0
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "nut_shell_X109p6_mm2": 17.118065695604713,
+          "panel_shell_X114_mm2": 1838.282423243529,
+          "screw_overlap_mm3": 0.0,
+          "nut_overlap_mm3": 0.0
+        },
+        {
+          "YZ": [
+            68.0,
+            88.0
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "nut_shell_X109p6_mm2": 17.118065695604713,
+          "panel_shell_X114_mm2": 1838.282423243529,
+          "screw_overlap_mm3": 0.0,
+          "nut_overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "name": "camera_two_rear_mount_chains",
+      "pass": true,
+      "chains": [
+        {
+          "Y": -22.5,
+          "shim_camera_X91p95_mm2": 41.18627968856218,
+          "shim_bracket_X90p95_mm2": 41.18627968856218,
+          "head_bracket_X87p95_mm2": 14.679091673898316,
+          "overlap_mm3": 0.0,
+          "insertion_mm": 2.0,
+          "manufacturer_max_insertion_mm": 3.0
+        },
+        {
+          "Y": 22.5,
+          "shim_camera_X91p95_mm2": 41.18627968856218,
+          "shim_bracket_X90p95_mm2": 41.18627968856218,
+          "head_bracket_X87p95_mm2": 14.679091673898316,
+          "overlap_mm3": 0.0,
+          "insertion_mm": 2.0,
+          "manufacturer_max_insertion_mm": 3.0
+        }
+      ],
+      "camera_front_X_mm": 117.0,
+      "camera_center_Z_mm": 61.0,
+      "camera_body_overlap_mm3": 0.0
+    },
+    {
+      "name": "alternate_camera_26p05_depth_without_shim",
+      "pass": true,
+      "chains": [
+        {
+          "Y": -22.5,
+          "insertion_mm": 2.0,
+          "contact_mm2": 883.3415944622508,
+          "screw_camera_overlap_mm3": 0.0,
+          "screw_bracket_overlap_mm3": 0.0
+        },
+        {
+          "Y": 22.5,
+          "insertion_mm": 2.0,
+          "contact_mm2": 883.3415944622508,
+          "screw_camera_overlap_mm3": 0.0,
+          "screw_bracket_overlap_mm3": 0.0
+        }
+      ],
+      "body_overlap_mm3": 0.0,
+      "configuration": "26.05 mm camera: remove1mm shims and useM3x5; measure actual camera."
+    },
+    {
+      "name": "camera_four_front_panel_fastener_chains",
+      "pass": true,
+      "chains": [
+        {
+          "YZ": [
+            -50.0,
+            53.5
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "bracket_panel_X114_mm2": 219.68318892450202,
+          "nut_bracket_X110_mm2": 17.118065695604713,
+          "overlap_mm3": 0.0
+        },
+        {
+          "YZ": [
+            -50.0,
+            69.5
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "bracket_panel_X114_mm2": 219.68318892450202,
+          "nut_bracket_X110_mm2": 17.118065695604713,
+          "overlap_mm3": 0.0
+        },
+        {
+          "YZ": [
+            50.0,
+            53.5
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "bracket_panel_X114_mm2": 219.68318892450202,
+          "nut_bracket_X110_mm2": 17.118065695604713,
+          "overlap_mm3": 0.0
+        },
+        {
+          "YZ": [
+            50.0,
+            69.5
+          ],
+          "head_panel_X117_mm2": 14.67909167389828,
+          "bracket_panel_X114_mm2": 219.68318892450202,
+          "nut_bracket_X110_mm2": 17.118065695604713,
+          "overlap_mm3": 0.0
+        }
+      ]
+    },
+    {
+      "name": "rear_screen_design_allowance_not_vendor_plug",
+      "pass": true,
+      "design_allowance_xyz": [
+        86.5,
+        -50,
+        -24,
+        99.5,
+        50,
+        16
+      ],
+      "depth_mm": 13.0,
+      "collisions": [],
+      "limitation": "Only allocated empty volume. Connector coordinates, plug orientation and cable bending must be measured; no plug-fit claim."
+    },
+    {
+      "name": "complete_front_module_removal_six_poses",
+      "pass": true,
+      "samples": [
+        {
+          "front_module_translation_X_mm": 0,
+          "collisions": []
+        },
+        {
+          "front_module_translation_X_mm": 1,
+          "collisions": []
+        },
+        {
+          "front_module_translation_X_mm": 3,
+          "collisions": []
+        },
+        {
+          "front_module_translation_X_mm": 10,
+          "collisions": []
+        },
+        {
+          "front_module_translation_X_mm": 30,
+          "collisions": []
+        },
+        {
+          "front_module_translation_X_mm": 70,
+          "collisions": []
+        }
+      ],
+      "sequence": "Disconnect cables; remove four front face fixing screws; lift complete screen+camera+panel module forward(+X).",
+      "limits": "Six sampled poses only; unknown plugs/cables and tool/finger envelopes excluded."
+    },
+    {
+      "name": "manufacturer_data_and_unknowns_separated",
+      "pass": true,
+      "dimension_page_pdf": 2,
+      "selected_inches": 5,
+      "mass_is_assumed": true,
+      "device_holes": null,
+      "active_area": null,
+      "unresolved": [
+        "Actual mass and centre of mass.",
+        "Front corner contact must be metal case, not LCD/glass; replace stop pads after measuring if necessary.",
+        "Case dimensional tolerances and front glass extent.",
+        "Actual rear/side plug clearances and cable bending.",
+        "Unknown purchased-device case load limits; not jump-qualified."
+      ]
+    }
+  ],
+  "failures": [],
+  "limits": [
+    "No strength, thermal, fatigue, jump or cable-routing qualification.",
+    "Display is the supplier5-inch outside envelope; active area, mass, front rim contact and actual plugs are unknown.",
+    "Camera STEP collision proxy and ROS visualization differ in age; both documented camera depth configurations checked.",
+    "V6 geometry is read as an inherited subsystem and is not rewritten by this review."
+  ],
+  "sources_after": {
+    "cad_v8_payload.py": "e2c6512d2f1070d49760fbe3591d9ba2bc4a0354a028252e6d2959d71bb25710",
+    "cad_v8_display.py": "2c2179be8fd2bd116f1c03b478b452c7c565ee7695a7a464a9bc9848fedc0107",
+    "cad_v8_chassis.py": "74157de9316fb0f5476eecd2b17378cad7675e887551d7dda1222af52d60d92f",
+    "cad_v7_imu.py": "b96c061cb0660e597c7a46729b3196a18f9267b1e918e4edb41ad4813b5b81a4",
+    "cad_v7_payload.py": "78baeb7fdb1f7b9f1e71a4d1bc8541b61844f4c48a405faf72b76b4bb356ec29",
+    "cad_v6_payload.py": "aab10d7f8257b0df8017cbadc6b2ffb334ed1c6f110767d1f638ab89ee815d93"
+  },
+  "source_unchanged": true,
+  "v6_files_unchanged": true,
+  "pass": true
+}

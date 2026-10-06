@@ -1,0 +1,470 @@
+{
+  "revision": "V8.1",
+  "scope": "M03/M04/M05/M06 body only; excludes M01/M02 legs including8 hip-to-frameM4 sets counted in leg BOM",
+  "standard_rows": [
+    {
+      "key": "DIN7991|M3x8|010.9|steel|black|headD6_k1.7",
+      "category": "standard",
+      "standard": "DIN 7991, Bossard BN20 dimensional series",
+      "size": "M3x0.5 x 8",
+      "material": "steel",
+      "grade": "010.9",
+      "finish": "black",
+      "quantity": 16,
+      "unit": "pcs",
+      "usages": [
+        {
+          "module": "M03",
+          "location": "belly plate to lower side-frame ledges",
+          "quantity": 8,
+          "cad_names": [
+            "belly_frame_DIN7991_M3x8_0",
+            "belly_frame_DIN7991_M3x8_1",
+            "belly_frame_DIN7991_M3x8_2",
+            "belly_frame_DIN7991_M3x8_3",
+            "belly_frame_DIN7991_M3x8_4",
+            "belly_frame_DIN7991_M3x8_5",
+            "belly_frame_DIN7991_M3x8_6",
+            "belly_frame_DIN7991_M3x8_7"
+          ],
+          "modeled": true,
+          "note": "3 mm total metal grip; 5 mm nominal insertion; head included in screw length"
+        },
+        {
+          "module": "M03",
+          "location": "side frames to front/rear crossframe rails",
+          "quantity": 8,
+          "cad_names": [
+            "crossframe_DIN7991_M3x8_-1_0",
+            "crossframe_DIN7991_M3x8_-1_1",
+            "crossframe_DIN7991_M3x8_-1_2",
+            "crossframe_DIN7991_M3x8_-1_3",
+            "crossframe_DIN7991_M3x8_1_0",
+            "crossframe_DIN7991_M3x8_1_1",
+            "crossframe_DIN7991_M3x8_1_2",
+            "crossframe_DIN7991_M3x8_1_3"
+          ],
+          "modeled": true,
+          "note": "3 mm total metal grip; 5 mm nominal insertion"
+        }
+      ],
+      "notes": "Select actual head diameter 6 mm / height 1.7 mm / 90-degree head. Do NOT substitute unrestricted ISO10642; its M3 head can reach 6.72 mm. Body clearance countersink D6.4. Modeled free grip and head, engaged threads omitted."
+    },
+    {
+      "key": "ISO4762|M3x8|8.8|steel|black",
+      "category": "standard",
+      "standard": "ISO 4762",
+      "size": "M3x0.5 x 8",
+      "material": "steel",
+      "grade": "8.8",
+      "finish": "black",
+      "quantity": 14,
+      "unit": "pcs",
+      "usages": [
+        {
+          "module": "M04",
+          "location": "battery tray to belly posts",
+          "quantity": 4,
+          "cad_names": [
+            "battery_tray_M3x8_0",
+            "battery_tray_M3x8_1",
+            "battery_tray_M3x8_2",
+            "battery_tray_M3x8_3"
+          ],
+          "modeled": true,
+          "note": "3 mm PETG grip + 5 mm nominal metal insertion"
+        },
+        {
+          "module": "M04",
+          "location": "preassembled electronics tray to metal shelves",
+          "quantity": 4,
+          "cad_names": [
+            "electronics_tray_M3x8_0",
+            "electronics_tray_M3x8_1",
+            "electronics_tray_M3x8_2",
+            "electronics_tray_M3x8_3"
+          ],
+          "modeled": true,
+          "note": "3 mm PETG grip + 5 mm nominal metal insertion; access reliefs in Jetson retainers"
+        },
+        {
+          "module": "M04",
+          "location": "IMU bridge feet to upper side-frame beams",
+          "quantity": 4,
+          "cad_names": [
+            "IMU_bridge_M3x8_0",
+            "IMU_bridge_M3x8_1",
+            "IMU_bridge_M3x8_2",
+            "IMU_bridge_M3x8_3"
+          ],
+          "modeled": true,
+          "note": "3 mm aluminium grip + 5 mm nominal insertion"
+        },
+        {
+          "module": "M05",
+          "location": "D435 rear manufacturer M3 holes",
+          "quantity": 2,
+          "cad_names": [
+            "D435_rear_M3x8_0",
+            "D435_rear_M3x8_1"
+          ],
+          "modeled": true,
+          "note": "6 mm integral bracket, nominal camera insertion2 mm; max3 mm; same screw for selected25.05/26.05 depth bracket"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "ISO4762|M3x10|8.8|steel|black",
+      "category": "standard",
+      "standard": "ISO 4762",
+      "size": "M3x0.5 x 10",
+      "material": "steel",
+      "grade": "8.8",
+      "finish": "black",
+      "quantity": 8,
+      "unit": "pcs",
+      "usages": [
+        {
+          "module": "M04",
+          "location": "Jetson peripheral retainers to electronics tray",
+          "quantity": 4,
+          "cad_names": [
+            "Jetson_retainer_M3x10_1",
+            "Jetson_retainer_M3x10_2",
+            "Jetson_retainer_M3x10_3",
+            "Jetson_retainer_M3x10_4"
+          ],
+          "modeled": true,
+          "note": "6 mm structural grip + 0.5 mm washer + 2.4 mm nut;1.1 mm nominal tip projection"
+        },
+        {
+          "module": "M05",
+          "location": "D435 bracket to front face",
+          "quantity": 4,
+          "cad_names": [
+            "D435_frame_M3x10_0",
+            "D435_frame_M3x10_1",
+            "D435_frame_M3x10_2",
+            "D435_frame_M3x10_3"
+          ],
+          "modeled": true,
+          "note": "7 mm grip to nut shoulderX110, nut2.4, projection0.6 mm"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "ISO4762|M3x12|8.8|steel|black",
+      "category": "standard",
+      "standard": "ISO 4762",
+      "size": "M3x0.5 x 12",
+      "material": "steel",
+      "grade": "8.8",
+      "finish": "black",
+      "quantity": 12,
+      "unit": "pcs",
+      "usages": [
+        {
+          "module": "M06",
+          "location": "front shell to metal front crossframe, final assembly",
+          "quantity": 4,
+          "cad_names": [
+            "front_shell_M3x12_0",
+            "front_shell_M3x12_1",
+            "front_shell_M3x12_2",
+            "front_shell_M3x12_3"
+          ],
+          "modeled": true,
+          "note": "6 mm PETG grip + 6 mm metal insertion; head seatX92"
+        },
+        {
+          "module": "M06",
+          "location": "rear cover to metal rear crossframe, final assembly",
+          "quantity": 4,
+          "cad_names": [
+            "rear_cover_M3x12_0",
+            "rear_cover_M3x12_1",
+            "rear_cover_M3x12_2",
+            "rear_cover_M3x12_3"
+          ],
+          "modeled": true,
+          "note": "6 mm PETG grip + 6 mm metal insertion; head seatX-92, D6.4x2 recess"
+        },
+        {
+          "module": "M05",
+          "location": "complete front face to shell, final assembly",
+          "quantity": 4,
+          "cad_names": [
+            "front_face_M3x12_0",
+            "front_face_M3x12_1",
+            "front_face_M3x12_2",
+            "front_face_M3x12_3"
+          ],
+          "modeled": true,
+          "note": "7.4 mm grip to nut shoulderX109.6, nut2.4, projection2.2 mm"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "ISO4762|M3x20|8.8|steel|black",
+      "category": "standard",
+      "standard": "ISO 4762",
+      "size": "M3x0.5 x 20",
+      "material": "steel",
+      "grade": "8.8",
+      "finish": "black",
+      "quantity": 8,
+      "unit": "pcs",
+      "usages": [
+        {
+          "module": "M06",
+          "location": "shoulder covers through shell into metal bosses, final assembly",
+          "quantity": 4,
+          "cad_names": [
+            "shoulder_-1_M3x20_0",
+            "shoulder_-1_M3x20_1",
+            "shoulder_1_M3x20_0",
+            "shoulder_1_M3x20_1"
+          ],
+          "modeled": true,
+          "note": "14 mm total plastic grip + 6 mm nominal metal insertion"
+        },
+        {
+          "module": "M05",
+          "location": "display external case cradles to front face",
+          "quantity": 4,
+          "cad_names": [
+            "display_case_M3x20_0",
+            "display_case_M3x20_1",
+            "display_case_M3x20_2",
+            "display_case_M3x20_3"
+          ],
+          "modeled": true,
+          "note": "16 mm grip to nut shoulderX101; nut2.4; projection1.6 mm; no cut screws"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "key": "ISO4762|M2.5x16|8.8|steel|black|smooth_headD4.5",
+      "category": "standard",
+      "standard": "ISO 4762; selected smooth head",
+      "size": "M2.5x0.45 x 16",
+      "material": "steel",
+      "grade": "8.8",
+      "finish": "black",
+      "quantity": 2,
+      "unit": "pcs",
+      "usages": [
+        {
+          "module": "M04",
+          "location": "HI13R2 through manufacturer mounting holes to rigid bridge",
+          "quantity": 2,
+          "cad_names": [
+            "HI13R2_M2p5x16_0",
+            "HI13R2_M2p5x16_1"
+          ],
+          "modeled": true,
+          "note": "10.4 mm device grip +3 mm bridge +2 mm nut;0.6 mm projection"
+        }
+      ],
+      "notes": "Select smooth head diameter <=4.5 mm, height<=2.5 mm, AF2. Manufacturer relief radius2.3 mm; unrestricted knurled/oversize head is not accepted."
+    },
+    {
+      "key": "ISO4032|M3|8|steel|zinc|AF5.5_t2.4",
+      "category": "standard",
+      "standard": "ISO 4032",
+      "size": "M3x0.5; AF5.5 x t2.4",
+      "material": "steel",
+      "grade": "8",
+      "finish": "zinc",
+      "quantity": 16,
+      "unit": "pcs",
+      "usages": [
+        {
+          "module": "M04",
+          "location": "Jetson retainers, below tray and M3 washers",
+          "quantity": 4,
+          "cad_names": [
+            "Jetson_retainer_M3_nut_1",
+            "Jetson_retainer_M3_nut_2",
+            "Jetson_retainer_M3_nut_3",
+            "Jetson_retainer_M3_nut_4"
+          ],
+          "modeled": true,
+          "note": ""
+        },
+        {
+          "module": "M05",
+          "location": "D435 bracket rear-loaded captured pockets",
+          "quantity": 4,
+          "cad_names": [
+            "D435_frame_M3_nut_0",
+            "D435_frame_M3_nut_1",
+            "D435_frame_M3_nut_2",
+            "D435_frame_M3_nut_3"
+          ],
+          "modeled": true,
+          "note": ""
+        },
+        {
+          "module": "M05",
+          "location": "5-inch display cradles rear-loaded captured pockets",
+          "quantity": 4,
+          "cad_names": [
+            "display_case_M3_nut_0",
+            "display_case_M3_nut_1",
+            "display_case_M3_nut_2",
+            "display_case_M3_nut_3"
+          ],
+          "modeled": true,
+          "note": ""
+        },
+        {
+          "module": "M05",
+          "location": "front face shell captive pockets, final assembly",
+          "quantity": 4,
+          "cad_names": [
+            "front_face_M3_nut_0",
+            "front_face_M3_nut_1",
+            "front_face_M3_nut_2",
+            "front_face_M3_nut_3"
+          ],
+          "modeled": true,
+          "note": ""
+        }
+      ],
+      "notes": "Nominal CAD matches AF5.5/max thickness2.4; supplier dimensional range AF5.32..5.5, height2.15..2.4. Printed nut pockets AF5.8 are process starting dimensions, not guaranteed press fits."
+    },
+    {
+      "key": "ISO4032|M2.5|8|steel|zinc|AF5_t2",
+      "category": "standard",
+      "standard": "ISO 4032",
+      "size": "M2.5x0.45; AF5 x t2",
+      "material": "steel",
+      "grade": "8",
+      "finish": "zinc",
+      "quantity": 2,
+      "unit": "pcs",
+      "usages": [
+        {
+          "module": "M04",
+          "location": "HI13R2 below IMU bridge",
+          "quantity": 2,
+          "cad_names": [
+            "HI13R2_M2p5_nut_0",
+            "HI13R2_M2p5_nut_1"
+          ],
+          "modeled": true,
+          "note": ""
+        }
+      ],
+      "notes": "Use regular-height metal nut; maximum height2 mm and AF5. Do not replace with tall nyloc nut without clearance check."
+    },
+    {
+      "key": "ISO7089|M3_3.2x7x0.5|200HV|steel|zinc",
+      "category": "standard",
+      "standard": "ISO 7089, non-chamfered",
+      "size": "M3; ID3.2 x OD7 x t0.5",
+      "material": "steel",
+      "grade": "200 HV",
+      "finish": "zinc",
+      "quantity": 4,
+      "unit": "pcs",
+      "usages": [
+        {
+          "module": "M04",
+          "location": "Jetson retainer nuts below electronics tray",
+          "quantity": 4,
+          "cad_names": [
+            "Jetson_retainer_washer_1",
+            "Jetson_retainer_washer_2",
+            "Jetson_retainer_washer_3",
+            "Jetson_retainer_washer_4"
+          ],
+          "modeled": true,
+          "note": ""
+        }
+      ],
+      "notes": "These four spreading washers are intentional; not improvised grip-length correction. Incoming ID3.2..3.38/OD6.64..7/t0.45..0.55 mm."
+    }
+  ],
+  "consumables": [
+    {
+      "key": "screen_soft_pad|4x8x0.5",
+      "category": "cut_consumable",
+      "module": "M05",
+      "quantity": 4,
+      "unit": "pcs",
+      "material": "thin compliant adhesive pad; final material subject to compatibility",
+      "size": "4 x 8 x 0.5 mm",
+      "modeled": false,
+      "cad_names": [],
+      "notes": "Cut from one sheet; metal case rear support only; do not load display glass. Nominal final compressed stack0.5 mm, verify sample."
+    },
+    {
+      "key": "battery_strap|10x300|single_layer<=1mm",
+      "category": "cut_consumable",
+      "module": "M04",
+      "quantity": 2,
+      "unit": "pcs",
+      "material": "non-conductive thin hook-and-loop battery strap; no bulky buckle",
+      "size": "10 x 300 mm cut-to-fit; straight single-layer thickness<=1.0 mm",
+      "modeled": false,
+      "cad_names": [],
+      "notes": "Two loops at X±24: conservative rectangular centreline231mm plus>=50mm top overlap. Install on tray off robot; keep overlap away from undimensioned DC port and actual selected plug/cable. Whole assembly400g mass budget, case85.6x61.6x42mm including base44.5mm thickness; retention under jump remains unqualified."
+    }
+  ],
+  "standard_sku_count": 9,
+  "standard_piece_count": 82,
+  "sources": [
+    {
+      "topic": "DIN7991 BN20/010.9/black and no automatic ISO10642 replacement",
+      "url": "https://www.bossard.com/it-it/eshop/viti-normalizzate-con-manovra-interna/viti-a-testa-svasata-piana-con-esagono-incassato-interamente-filettate/p/20/"
+    },
+    {
+      "topic": "ISO10642 larger head envelopes",
+      "url": "https://eshop.boellhoff.de/out/media/pdf/ISO_10642_Stahl_8.8___de.pdf"
+    },
+    {
+      "topic": "ISO4762 M3 head/length example12 mm",
+      "url": "https://www.accu.co.uk/metric-cap-head-screws/653138-SSCF-M3-12-TI5-R360",
+      "note": "Dimensions reference only; this titanium item is NOT the selected steel BOM material."
+    },
+    {
+      "topic": "M3 x20 actual ISO4762 product and knurled head5.68 possibility",
+      "url": "https://www.accu.co.uk/metric-cap-head-screws/642449-SSC-M3-20-HK-12-9",
+      "note": "Availability/dimensions evidence only, BOM selects8.8 steel not12.9."
+    },
+    {
+      "topic": "M2.5 x16 smooth4.5 head dimensional product",
+      "url": "https://www.accu.co.uk/metric-cap-head-screws/250534-SSCF-M2-5-16-A4-R360",
+      "note": "Dimension example only; selected BOM is8.8 steel. Verify head diameter on ordered article."
+    },
+    {
+      "topic": "ISO4032 M3 AF5.5/t2.4",
+      "url": "https://eshop.boellhoff.de/out/media/pdf/ISO_4032_Stahl_8___en.pdf"
+    },
+    {
+      "topic": "M2.5 nut AF5/t2 dimensions",
+      "url": "https://www.aspenfasteners.com/content/pdf/Metric_ISO_4032_spec.pdf"
+    },
+    {
+      "topic": "M3 washer dimensions",
+      "url": "https://www.aspenfasteners.com/m3-din-125-type-a-iso-7089-7090-metric-standard-flat-washers-steel-zinc-plated/"
+    },
+    {
+      "topic": "Thermoplastic insert hole design, no generic PETG guarantee",
+      "url": "https://www.spirol.com/resources/white-papers/how-to-design-the-proper-hole-for-heat-ultrasonic-inserts/"
+    }
+  ],
+  "source_hashes": {
+    "cad_v81_chassis.py": "77e8a94d61a4c7ba322da5c54e41e91ea94139933ad6cefec330a1b8461192be",
+    "cad_v81_payload.py": "f24964e22ecf4aa1764f95eb660760543a7a995d2e66f5ae19df2278d28ecddb",
+    "cad_v81_display.py": "3b470dbd68c9d608b80e734fd7358d899c37b44891c33ec7ebf16631017c6a02",
+    "cad_v81_battery.py": "2a67f62c7e2537ee2a0aef3f5c21423cf4af724e49d40569a179abf292258e8e"
+  },
+  "purchase_note": "Quantity is for one installed prototype, no spares included. CAD hardware models free grip/head and nominal nut/washer envelopes; omitted threaded engagement is documented. Custom parts are in root manufacturing list. No catalog electrical harness BOM is implied."
+}

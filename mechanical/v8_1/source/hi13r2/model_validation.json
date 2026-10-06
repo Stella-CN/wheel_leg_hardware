@@ -1,0 +1,35 @@
+{
+  "official_solids_retained": true,
+  "valid_shape": true,
+  "envelope_mm": [
+    26.00000000000002,
+    24.000000000000036,
+    12.0
+  ],
+  "bottom_plane_z_mm": 79.0,
+  "top_plane_z_mm": 91.0,
+  "published_sensor_point_world_mm": [
+    -8.881784197001252e-15,
+    0.0,
+    85.0
+  ],
+  "hole_axis_geometry": [
+    {
+      "XY_mm": [
+        10.1,
+        -10.1
+      ],
+      "bore_probe_collision_mm3": 0.0,
+      "seat_annulus_material_mm3": 0.40716398793911757
+    },
+    {
+      "XY_mm": [
+        -10.1,
+        10.1
+      ],
+      "bore_probe_collision_mm3": 0.0,
+      "seat_annulus_material_mm3": 0.4071639879390516
+    }
+  ],
+  "pass": true
+}

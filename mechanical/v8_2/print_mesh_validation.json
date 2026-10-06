@@ -1,0 +1,246 @@
+{
+  "units": "mm",
+  "results": [
+    {
+      "file": "D435_embedded_bracket.stl",
+      "facets": 1876,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        24.000000000000007,
+        108.0,
+        28.049999237060547
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "DC_charge_replaceable_plate.stl",
+      "facets": 1152,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        2.5,
+        34.0,
+        22.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "Jetson_base_retainer_left.stl",
+      "facets": 2458,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        125.5,
+        22.200000762939453,
+        9.399999618530273
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "Jetson_base_retainer_right.stl",
+      "facets": 2458,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        125.5,
+        22.200000762939453,
+        9.399999618530273
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "USB_hub_rear_clamp.stl",
+      "facets": 1180,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        12.5,
+        104.5,
+        13.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "battery_tray.stl",
+      "facets": 2252,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        153.99294518493116,
+        54.0,
+        14.399999618530273
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "chassis_front_shell.stl",
+      "facets": 12168,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        140.99999999999994,
+        172.0,
+        155.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "chassis_rear_cover.stl",
+      "facets": 15116,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        74.0,
+        172.0,
+        155.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "display_case_cradle_left.stl",
+      "facets": 1246,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        81.5,
+        15.999992738827132,
+        17.500000000000014
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "display_case_cradle_right.stl",
+      "facets": 1246,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        81.5,
+        15.999992370605469,
+        17.500000000000014
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "display_front_bezel.stl",
+      "facets": 4068,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        144.0,
+        148.0,
+        3.000000000000014
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "electrical_service_carrier.stl",
+      "facets": 7758,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        59.0,
+        110.99649810791016,
+        70.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "electronics_tray.stl",
+      "facets": 4168,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        152.0,
+        108.0,
+        3.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "shoulder_fairing_left.stl",
+      "facets": 1720,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        106.98914638767019,
+        38.5,
+        51.79999923706055
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "shoulder_fairing_right.stl",
+      "facets": 1720,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        106.98914638767019,
+        38.5,
+        51.79999923706055
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

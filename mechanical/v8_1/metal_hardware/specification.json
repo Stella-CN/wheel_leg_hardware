@@ -1,0 +1,66 @@
+[
+  {
+    "part": "OA_angular_stop_M3_D4",
+    "quantity": 2,
+    "material": "steel",
+    "supply_type": "custom",
+    "thread": "M3x3",
+    "shoulder_diameter": 4,
+    "shoulder_length": 4.2,
+    "head_diameter": 7,
+    "head_height": 1,
+    "caution": "Assembly stop only; not a rated landing or powered impact stop"
+  },
+  {
+    "part": "female_pin_D6_L14_05",
+    "quantity": 6,
+    "material": "steel",
+    "supply_type": "custom",
+    "outer_diameter": 6,
+    "length": 14.05,
+    "full_thread_depth_min_mm": 4.3,
+    "flat_cylindrical_pilot_depth_mm": 4.6,
+    "nominal_center_web_mm": 4.85,
+    "end_threads": "M2x0.4 each end",
+    "screw_nominal_engagement_mm": 3.8
+  },
+  {
+    "part": "bearing_keeper_D28_D16_8_t0_8",
+    "quantity": 6,
+    "material": "stainless steel",
+    "supply_type": "custom",
+    "outer_diameter": 28,
+    "inner_diameter": 16.8,
+    "thickness": 0.8,
+    "holes": "3 D2.2 PCD24"
+  },
+  {
+    "part": "flanged_bush_inner_D8_D8p4_L3p75",
+    "quantity": 6,
+    "material": "bearing bronze",
+    "supply_type": "custom",
+    "sleeve": "OD8 ID6.05 L2.50",
+    "flange": "OD8.4 ID6.2 L1.25",
+    "overall_length": 3.75
+  },
+  {
+    "part": "flanged_bush_outer_D8_D8p4_L4p20",
+    "quantity": 6,
+    "material": "bearing bronze",
+    "supply_type": "custom",
+    "sleeve": "OD8 ID6.05 L2.50",
+    "flange": "OD8.4 ID6.2 L1.70",
+    "overall_length": 4.2,
+    "bearing_inner_race_gap_nominal": 0.05
+  },
+  {
+    "part": "axis_washer_D9_d2_2_t0_2",
+    "quantity": 12,
+    "material": "steel shim",
+    "supply_type": "custom",
+    "outer_diameter": 9,
+    "inner_diameter": 2.2,
+    "thickness": 0.2,
+    "classification": "Custom axial retention plate, not a standard purchase washer"
+  }
+]

@@ -1,0 +1,62 @@
+{
+  "physical_cad_objects": 370,
+  "excluded_routing_objects": [
+    "CAN_DUAL_PCB",
+    "LEG_LEFT_BUNDLE",
+    "LEG_RIGHT_BUNDLE",
+    "POWER_19V_JETSON",
+    "POWER_BAT_SWITCH",
+    "POWER_CHARGE_BRANCH",
+    "POWER_DCDC_IN",
+    "POWER_SWITCH_PCB",
+    "USB_CAMERA",
+    "USB_CAN",
+    "USB_DISPLAY",
+    "USB_HUB_EXTENSION",
+    "USB_IMU",
+    "VIDEO_DISPLAY"
+  ],
+  "covered_objects": 370,
+  "missing": [],
+  "duplicate": {},
+  "totals": {
+    "3D打印件": {
+      "types": 14,
+      "pieces": 15,
+      "unknown_quantity_rows": 0
+    },
+    "厂家目录件": {
+      "types": 4,
+      "pieces": 64,
+      "unknown_quantity_rows": 0
+    },
+    "外购耗材": {
+      "types": 4,
+      "pieces": 9,
+      "unknown_quantity_rows": 0
+    },
+    "外购设备": {
+      "types": 13,
+      "pieces": 18,
+      "unknown_quantity_rows": 0
+    },
+    "定制金属件": {
+      "types": 24,
+      "pieces": 62,
+      "unknown_quantity_rows": 0
+    },
+    "待选型附件": {
+      "types": 5,
+      "pieces": 4,
+      "unknown_quantity_rows": 3
+    },
+    "标准件": {
+      "types": 19,
+      "pieces": 210,
+      "unknown_quantity_rows": 0
+    }
+  },
+  "baseline_bom_sha256": "b4df9c9adf78fc29246b2d536b161598eb55c560e58e54a117632e16c704a79f",
+  "native_sha256": "44ae8e5e32b553f4ae15e895c0b00e2c2ab878b36f9c37177b7182003815b944",
+  "note": "D435分析包络与官方mesh属于同一采购相机；原厂设备内部件不拆计。线束占位不算实物。"
+}

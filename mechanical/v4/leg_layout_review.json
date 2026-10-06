@@ -1,0 +1,242 @@
+{
+  "structural_width_mm": 33,
+  "shared_outer_layer": [
+    166,
+    172
+  ],
+  "parameters": {
+    "carrier_y": [
+      139,
+      145
+    ],
+    "outer_OB_y": [
+      166,
+      172
+    ],
+    "fork_inner_y": [
+      146,
+      152
+    ],
+    "fork_outer_y": [
+      166,
+      172
+    ],
+    "A_fork_inner_y": [
+      149,
+      152
+    ],
+    "A_fork_outer_y": [
+      166,
+      169
+    ],
+    "OA_center_outer_y": [
+      165,
+      170
+    ],
+    "OA_center_bridge_end": 165,
+    "OA_material": "6061-T6 CNC",
+    "oa_register_diameter": 35.05,
+    "driven_links_y": [
+      153,
+      165
+    ],
+    "coupler_link_y": [
+      153,
+      165
+    ],
+    "hub_stator_face_y": 165,
+    "wheel_center_y": 191,
+    "wheel_track": 382,
+    "bearing_bore": 13.15,
+    "bearing_web_bore": 11.8,
+    "bushing_bore": 8.05,
+    "cnc_bushing_bore": 8.0,
+    "inner_race_spacer_outer_diameter": 7.2,
+    "bearing": "NSK 686AZZ1 6x13x5; two per joint; not open 686A",
+    "leg_structure_width": 33,
+    "joint_bushing_length": 6,
+    "A_bushing_length": 3,
+    "shaft": "ground D6: A L23, C L29, B L36; steel external circlips",
+    "joint_support": "OB outer / OA outer / CW C cap co-planar; A/B/C double shear",
+    "C_fork_fasteners": [
+      [
+        -23,
+        24
+      ],
+      [
+        -23,
+        46
+      ]
+    ],
+    "ob_open_head_clearance_sector_degrees": [
+      116,
+      248
+    ]
+  },
+  "parts": {
+    "OB_inner_full": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 40959.54696864327,
+      "y_range": [
+        139.0,
+        145.0
+      ]
+    },
+    "OB_outer_full": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 31845.988220234733,
+      "y_range": [
+        166.0,
+        172.0
+      ]
+    },
+    "OA_inner_hub": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 27058.985107262928,
+      "y_range": [
+        139.2,
+        165.0
+      ]
+    },
+    "OA_outer_cheek": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 7926.184762872857,
+      "y_range": [
+        165.0,
+        170.0
+      ]
+    },
+    "AC_bearing_link": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 25229.25717657218,
+      "y_range": [
+        153.0,
+        165.0
+      ]
+    },
+    "CW_main_inner": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 80197.1786181341,
+      "y_range": [
+        146.0,
+        166.0
+      ]
+    },
+    "CW_outer_fork": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 4955.203453790098,
+      "y_range": [
+        166.0,
+        172.0
+      ]
+    }
+  },
+  "collisions": [],
+  "minimum_clearances": {
+    "OB_inner_full/OB_outer_full": 21.0,
+    "OB_inner_full/OA_inner_hub": 0.6999999999999947,
+    "OB_inner_full/OA_outer_cheek": 20.0,
+    "OB_inner_full/AC_bearing_link": 8.0,
+    "OB_inner_full/CW_main_inner": 1.0,
+    "OB_inner_full/CW_outer_fork": 21.035789555196025,
+    "OB_outer_full/OA_inner_hub": 5.590169943749469,
+    "OB_outer_full/OA_outer_cheek": 1.4999999999999942,
+    "OB_outer_full/AC_bearing_link": 1.582542956919095,
+    "OB_outer_full/CW_main_inner": 0.9999999999999716,
+    "OB_outer_full/CW_outer_fork": 1.2265570555396987,
+    "OA_inner_hub/OA_outer_cheek": 0.0,
+    "OA_inner_hub/AC_bearing_link": 1.0,
+    "OA_inner_hub/CW_main_inner": 67.35418215059303,
+    "OA_inner_hub/CW_outer_fork": 83.77648551788401,
+    "OA_outer_cheek/AC_bearing_link": 0.9999999999999968,
+    "OA_outer_cheek/CW_main_inner": 67.34675829745086,
+    "OA_outer_cheek/CW_outer_fork": 82.59842326417757,
+    "AC_bearing_link/CW_main_inner": 1.0,
+    "AC_bearing_link/CW_outer_fork": 1.0,
+    "CW_main_inner/CW_outer_fork": 0.0
+  },
+  "sampled_lengths_mm": [
+    120,
+    125,
+    150,
+    183.8477631085,
+    210,
+    225
+  ],
+  "scope": "7 leg bodies; sampled leg-versus-leg only; full assembly and strength external",
+  "hardware_against_leg_validation": {
+    "sampled_lengths_mm": [
+      120,
+      183.8477631085,
+      225
+    ],
+    "threshold_mm3": 0.05,
+    "collisions": [],
+    "scope": "All leg.hardware() objects against seven leg bodies; full assembly check external"
+  },
+  "resolved_findings": [
+    {
+      "problem": "Separate OB and A/C outer layers caused excess axial thickness",
+      "change": "OB_outer166..172, C_cap166..172 and OA_outer_A166..169 share Y layer at separate XZ footprints",
+      "result": "33 mm overall custom leg width; local minimum clearances OB/OA1.5 and OB/Ccap1.226557 mm"
+    },
+    {
+      "problem": "B bridge could rub co-planar OB B boss",
+      "change": "B annulus and side bridge stop at165; only remote C cap fastening lands reach166",
+      "result": "Minimum1 mm clearance in six reviewed poses"
+    },
+    {
+      "problem": "CNC OA 4 mm center starting166 would leave only1 mm under screw head at167",
+      "change": "Central outer disc nests inward to165..170, inner bridge ends165; head seat stays167",
+      "result": "2 mm under head; M3x30 has27 mm grip +3 mm engagement"
+    },
+    {
+      "problem": "35 mm candidate A pin interfered with inner OB, requiring shallow track",
+      "change": "Final CNC A ears149..152 and166..169 useL23 pin147.5..170.5; old track removed",
+      "result": "Full6 mm inner OB restored, A pin starts2.5 mm outside OB face"
+    },
+    {
+      "problem": "New R12 AC eyes initially retained old R16 Bezier tangent constant",
+      "change": "tangent_drop=1.5*8/sqrt(12^2-8^2)",
+      "result": "Exact circle/Bezier tangent direction preserved"
+    }
+  ],
+  "bearing_installation": {
+    "part": "NSK 686AZZ1",
+    "dimensions_mm": [
+      6,
+      13,
+      5
+    ],
+    "bearings_per_joint": 2,
+    "total_robot_quantity": 12,
+    "internal_spacer_length": 2,
+    "db_max": 7.4,
+    "Db_min": 11.7,
+    "contact_OD": 7.2,
+    "contact_ID": 6.2,
+    "web_bore": 11.8,
+    "source": "https://www.nsk.com/content/dam/nsk/common/catalogs/ctrgPdf/bearings/e1103c_partc.pdf",
+    "source_table": "C060/C061, 686AZZ1 (shielded); open686A is not equivalent"
+  },
+  "nominal_material_margins_mm": {
+    "OB_complete_inner_thickness": 6,
+    "OB_right_head_radial_width": 16.5,
+    "OB_head_post_D4_4_hole_to_outer_circle": 4.558459722810677,
+    "C_cap_countersink_to_outer": 2.8,
+    "C_nut_access_to_outer": 2.6513684387001706,
+    "C_bushing_to_outer": 7.975,
+    "AC_eye_to_bearing_bore": 5.425,
+    "OA_counterbore_floor_thickness": 2,
+    "OA_ear_thickness": 3
+  },
+  "material_margin_scope": "Nominal local simple-feature geometry; not global min wall nor a load rating. Independent CNC dimensional review is separate.",
+  "source_sha256": "5af7333d3a9b8623692ec25f08dfbe90bae6bd692b2889038fed5336695c51bb"
+}

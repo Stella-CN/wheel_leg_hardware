@@ -1,0 +1,10 @@
+{
+  "official_catalog": "https://dev.realsenseai.com/docs/cad-files/",
+  "official_download": "https://dev.realsenseai.com/download/41950",
+  "retrieved_local_date": "2026-09-22",
+  "source_cad": "D435_Solid.SLDPRT",
+  "source_cad_sha256": "4c8ad6aa34e203f3fd687b6534d4dbec580f8d7ddf75329f728d572cbc92d164",
+  "archive_sha256": "31d176bd773f0e25c76c0af2d68c0575fdb550bceb60ffe9da72f92f2a53ca73",
+  "archive_entry_date": "2023-10-17 16:39",
+  "status": "Original SolidWorks source preserved. FreeCAD assembly uses a separately sourced official ROS mesh; this SLDPRT has not been converted or dimensionally inspected."
+}

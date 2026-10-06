@@ -1,0 +1,371 @@
+{
+  "units": "mm",
+  "status": "Final board positions checked against electrical_build.json; screw heads checked by exact common-volume against board geometry. Cable routes remain planning geometry, no pin-level wiring or selected plug certification.",
+  "jetson_source": "mechanical/v6/source/jetson/P3766-P3768SKU4-P3767ENVELOPE.stp",
+  "jetson_transform": "Rotate source Z +90deg; then translate(+1.66325103033625,-46,+37.9). Assembly coordinates X front/Y left/Z up.",
+  "connector_center_status": "Approximate route datums only; full BRep connector bounds verified. Not connector manufacturing drawings.",
+  "ports": [
+    {
+      "name": "USB-A negative-Y stack",
+      "source_solid_index": 564,
+      "face_x": 20.313251,
+      "center_y": -7.4,
+      "approximate_port_centers_z": [
+        43.6,
+        52.2
+      ],
+      "bounds": [
+        1.613251,
+        -15.875,
+        37.096,
+        20.313251,
+        1.075,
+        56.051
+      ],
+      "mating_outward_xyz": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "USB-A positive-Y stack",
+      "source_solid_index": 587,
+      "face_x": 20.313251,
+      "center_y": 9.6,
+      "approximate_port_centers_z": [
+        43.6,
+        52.2
+      ],
+      "bounds": [
+        1.613251,
+        1.125,
+        37.096,
+        20.313251,
+        18.075,
+        56.051
+      ],
+      "mating_outward_xyz": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "DisplayPort",
+      "source_solid_index": 526,
+      "approximate_mouth_xyz": [
+        20.526,
+        -27.24,
+        41.88
+      ],
+      "bounds": [
+        5.488,
+        -36.19,
+        37.546,
+        20.526,
+        -18.29,
+        46.206
+      ],
+      "mating_outward_xyz": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "USB Type-C",
+      "source_solid_index": 726,
+      "approximate_mouth_xyz": [
+        20.23,
+        41.975,
+        40.24
+      ],
+      "bounds": [
+        9.43,
+        36.935,
+        37.646,
+        20.23,
+        47.015,
+        42.831
+      ],
+      "mating_outward_xyz": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "DC barrel power",
+      "source_solid_index": 523,
+      "approximate_mouth_xyz": [
+        20.163,
+        -44.0,
+        45.97
+      ],
+      "bounds": [
+        5.663,
+        -48.5,
+        35.97,
+        20.163,
+        -38.42,
+        50.47
+      ],
+      "mating_outward_xyz": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "Ethernet",
+      "source_solid_index": 682,
+      "approximate_mouth_xyz": [
+        20.413,
+        26.95,
+        46.37
+      ],
+      "bounds": [
+        -1.187,
+        18.85,
+        35.67,
+        20.413,
+        35.05,
+        53.12
+      ],
+      "mating_outward_xyz": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "official_usb_and_video_source": "https://docs.nvidia.com/jetson/orin-nano-devkit/user-guide/latest/hardware_layout.html",
+  "official_facts": [
+    "4 USB Type-A host ports in 2 stacked pairs",
+    "Each stacked pair VBUS current limit 3A total",
+    "USB-C supports Host, Device, Recovery; data only",
+    "DisplayPort is the sole display output; DP-to-HDMI required for HDMI screen"
+  ],
+  "allocated_ports": {
+    "USB_A_1": "D435 camera",
+    "USB_A_2": "USB2CANFD Dual",
+    "USB_A_3": "Screen USB supply/touch",
+    "USB_A_4": "Rear 4-port hub upstream",
+    "USB_C": "HI13R2 via data-capable Type-C lead",
+    "DP": "Screen HDMI via DP-to-HDMI cable"
+  },
+  "hardware_initial_check": {
+    "revision": "Initial 15:33 native, before orientation update",
+    "CAN_M1_6_head_overlap_mm3": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "PCB_M2_5_head_overlap_mm3": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "PCB_D6_washer_overlap_mm3": [
+      0.000949929,
+      0.000949929,
+      0.000971999,
+      0.269621483
+    ],
+    "resolution_agreed": "Remove all four D6 PCB washers; use direct D4.5 screw heads, insulating support beneath. Use actual PCB thickness1.600051 for head seat."
+  },
+  "revised_layout_review": {
+    "CAN": "Source Z90deg, translation(60,-27,40). PCB bottom42; TypeC -Y, GH +Y. Final position confirmed in electrical_build.json.",
+    "PCB": "Board normal+X at X66; sourceX->-Y, sourceY->-Z, sourceZ->+X; source translation(66,36.99136398272801,-13.01270002540005). Overall Y5..37.0734,Z-13..26.0907; power XT30 +Z, GH -Y, leg connectors +-Y.",
+    "limits": [
+      "Jetson plug lane X20.3..47 requires low-profile/right-angle plugs or a measured complete straight-plug-and-bend envelope. Do not assume generic straight molded plugs fit.",
+      "Earlier downward XT30 interfered with battery-tray ear clearance. Revised in-plane180deg orientation routes power upward; front planeX66 gives power connector bodyX~67.6..72.6 beyond metal tray edgeX66. Final plug body and cable bend still require measurement.",
+      "CAN TypeC end nearY-51; inner shellY~79 gives about28mm for plug/bend. Converter overhead startsZ54 while CAN maximum~48.",
+      "Separate switching/high-current loops from IMU cable; retain HI13 sensor origin and rigid mount; no routing across fan intake."
+    ]
+  },
+  "hub_route_candidate": {
+    "points_xyz": [
+      [
+        -76,
+        52,
+        5
+      ],
+      [
+        -78,
+        64,
+        55
+      ],
+      [
+        -55,
+        68,
+        70
+      ],
+      [
+        25,
+        68,
+        70
+      ],
+      [
+        38,
+        23,
+        61
+      ],
+      [
+        37,
+        9.6,
+        52.2
+      ],
+      [
+        20.313251,
+        9.6,
+        52.2
+      ]
+    ],
+    "polyline_length_mm": 239.654,
+    "status": "Unvalidated routing corridor sketch; bends and actual cable diameter not collision-tested. Do not use as final cable length.",
+    "upstream_cable_mm": 150,
+    "added_USB3_extension_mm": 250,
+    "reason": "150mm is insufficiently supported once avoiding hip motor/tray and retaining connector bend/strain relief. Short upstream joins extension in side-rear service zone."
+  },
+  "assembly_notes": [
+    "Mount PCB/CAN onto carrier and check screw torque/insulation outside robot.",
+    "Insert all Jetson facing+X plugs before seating electronics carrier and front-panel module.",
+    "Provide service slack and removable module harness connectors; do not route unplug operations behind fixed shell.",
+    "Verify hardware/plug envelopes after final geometry freeze; no pin assignments inferred from STEP."
+  ],
+  "revised_hardware_check": {
+    "native_sha256": "d35408105a0689bd59c183aedc95a6e91b170502f41906df2e71bff9944febaa",
+    "threshold_mm3": 0.001,
+    "results": [
+      {
+        "hardware": "V82_CAN_screw_0",
+        "target": "USB2CANFD_Dual_bare_official",
+        "overlap_mm3": 0.0
+      },
+      {
+        "hardware": "V82_CAN_screw_1",
+        "target": "USB2CANFD_Dual_bare_official",
+        "overlap_mm3": 0.0
+      },
+      {
+        "hardware": "V82_CAN_screw_2",
+        "target": "USB2CANFD_Dual_bare_official",
+        "overlap_mm3": 0.0
+      },
+      {
+        "hardware": "V82_CAN_screw_3",
+        "target": "USB2CANFD_Dual_bare_official",
+        "overlap_mm3": 0.0
+      },
+      {
+        "hardware": "V82_PCB_screw_0",
+        "target": "Distribution_PCB1_user_STEP",
+        "overlap_mm3": 0.0
+      },
+      {
+        "hardware": "V82_PCB_screw_1",
+        "target": "Distribution_PCB1_user_STEP",
+        "overlap_mm3": 0.0
+      },
+      {
+        "hardware": "V82_PCB_screw_2",
+        "target": "Distribution_PCB1_user_STEP",
+        "overlap_mm3": 0.0
+      },
+      {
+        "hardware": "V82_PCB_screw_3",
+        "target": "Distribution_PCB1_user_STEP",
+        "overlap_mm3": 0.0
+      }
+    ],
+    "all_below_threshold": true
+  },
+  "final_board_interfaces": {
+    "can_holes_xy": [
+      [
+        69.0,
+        -40.05
+      ],
+      [
+        51.0,
+        -40.05
+      ],
+      [
+        69.0,
+        -13.05
+      ],
+      [
+        51.0,
+        -13.05
+      ]
+    ],
+    "pcb_holes_yz": [
+      [
+        34.57835898272801,
+        -10.47269502540005
+      ],
+      [
+        34.57835898272801,
+        23.56337297459995
+      ],
+      [
+        7.527304982728012,
+        -10.47269502540005
+      ],
+      [
+        7.527304982728012,
+        23.56337297459995
+      ]
+    ],
+    "carrier_holes": [
+      [
+        49.0,
+        -30.0
+      ],
+      [
+        62.0,
+        -30.0
+      ],
+      [
+        49.0,
+        47.0
+      ],
+      [
+        62.0,
+        47.0
+      ]
+    ],
+    "can_rotation_z_deg": 90.0,
+    "can_translation": [
+      60,
+      -27,
+      40
+    ],
+    "pcb_rotation_axis": [
+      1,
+      1,
+      1
+    ],
+    "pcb_rotation_deg": 120.0,
+    "pcb_additional_rotation_x_deg": 180.0,
+    "pcb_translation": [
+      66.0,
+      36.99136398272801,
+      -13.01270002540005
+    ],
+    "dcdc_holes": [
+      [
+        25.5,
+        -55.5
+      ],
+      [
+        76.5,
+        -55.5
+      ]
+    ]
+  }
+}

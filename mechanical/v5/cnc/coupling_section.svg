@@ -1,0 +1,153 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1770" viewBox="0 0 1800 1770"><defs>
+<marker id="dim" markerWidth="7" markerHeight="7" refX="3.5" refY="3.5" orient="auto-start-reverse"><path d="M7 0 L0 3.5 L7 7" fill="none" stroke="#526273" stroke-width="1"/></marker>
+<pattern id="hatchBlue" patternUnits="userSpaceOnUse" width="9" height="9"><rect width="9" height="9" fill="#e0f0f6"/><path d="M-1 1 L1 -1 M0 9 L9 0 M8 10 L10 8" stroke="#528ca5" stroke-width=".75"/></pattern>
+<pattern id="hatchGold" patternUnits="userSpaceOnUse" width="9" height="9"><rect width="9" height="9" fill="#fcf0d7"/><path d="M-1 1 L1 -1 M0 9 L9 0 M8 10 L10 8" stroke="#b2985f" stroke-width=".75"/></pattern>
+</defs><rect width="1800" height="1770" fill="#f3f6f9"/><g font-family="PingFang SC">
+<text x="50" y="65" font-size="37" fill="#15344a" font-weight="700" text-anchor="start">V5 · 14.9 mm 紧凑嵌套电机法兰</text>
+<text x="50" y="108" font-size="22" fill="#597486" font-weight="400" text-anchor="start">CNC 6061-T6 / mm / 右腿件；左右件相位按相应 STEP 制造</text>
+<rect x="1190" y="32" width="560" height="91" rx="12" fill="#fff1da" stroke="#eacb91"/>
+<text x="1215" y="66" font-size="21" fill="#83561f" font-weight="600" text-anchor="start">制造审查图</text>
+<text x="1215" y="96" font-size="21" fill="#83561f" font-weight="600" text-anchor="start">配合公差与承载尚待验证，不作加工放行</text>
+<text x="50" y="151" font-size="21" fill="#203040" font-weight="400" text-anchor="start">蓝＝髋转子法兰 P1；金＝膝后壳杯件 P2。轴向跨度由 V4 的21.8减至14.9，缩短6.9。</text>
+<rect x="30" y="174" width="850" height="560" rx="16" fill="#fff" stroke="#d6dfe7"/>
+<rect x="900" y="174" width="870" height="560" rx="16" fill="#fff" stroke="#d6dfe7"/>
+<text x="58" y="216" font-size="25" fill="#23495f" font-weight="700" text-anchor="start">A  两个零件 · 轴向剖面与套入方向</text>
+<text x="58" y="251" font-size="19" fill="#617c8e" font-weight="400" text-anchor="start">截面角θ=15°，直接取自最终FreeCAD实体。</text>
+<path d="M 248.790,332.150 L 228.000,332.150 L 228.000,344.593 L 233.040,344.593 L 233.040,565.408 L 228.000,565.408 L 228.000,577.850 L 248.790,577.850 L 248.790,590.450 L 266.115,590.450 L 266.115,562.100 L 273.990,557.368 L 281.865,562.100 L 281.865,590.450 L 292.890,590.450 L 292.890,319.550 L 281.865,319.550 L 281.865,347.900 L 273.990,352.632 L 266.115,347.900 L 266.115,319.550 L 248.790,319.550 L 248.790,332.150 Z" fill="url(#hatchBlue)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 538.080,275.450 L 528.000,275.450 L 528.000,308.407 L 528.000,319.392 L 542.490,319.392 L 542.490,289.310 L 538.080,289.310 L 538.080,275.450 Z" fill="url(#hatchGold)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 601.080,275.450 L 568.320,275.450 L 568.320,285.845 L 568.320,289.310 L 563.910,289.310 L 563.910,319.392 L 572.100,319.392 L 572.100,590.608 L 563.910,590.608 L 563.910,620.690 L 568.320,620.690 L 568.320,634.550 L 601.080,634.550 L 601.080,275.450 Z" fill="url(#hatchGold)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 528.000,590.608 L 528.000,634.550 L 538.080,634.550 L 538.080,620.690 L 542.490,620.690 L 542.490,590.608 L 528.000,590.608 Z" fill="url(#hatchGold)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<line x1="130" y1="455" x2="691" y2="455" stroke="#8196a5" stroke-width="1" stroke-dasharray="12 4 2 4"/>
+<text x="260" y="294" font-size="23" fill="#246c89" font-weight="600" text-anchor="middle">P1</text>
+<text x="565" y="252" font-size="23" fill="#967225" font-weight="600" text-anchor="middle">P2</text>
+<line x1="228" y1="332.15" x2="178" y2="332.15" stroke="#8996a3" stroke-width="1"/>
+<line x1="228" y1="577.85" x2="178" y2="577.85" stroke="#8996a3" stroke-width="1"/>
+<line x1="183" y1="332.15" x2="183" y2="577.85" stroke="#526273" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="171" y="455.0" text-anchor="middle" font-size="20" fill="#526273" transform="rotate(-90 171 455.0)">D39</text>
+<line x1="601" y1="275.45000000000005" x2="662" y2="275.45000000000005" stroke="#8996a3" stroke-width="1"/>
+<line x1="601" y1="634.55" x2="662" y2="634.55" stroke="#8996a3" stroke-width="1"/>
+<line x1="667" y1="275.45000000000005" x2="667" y2="634.55" stroke="#526273" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="655" y="455.0" text-anchor="middle" font-size="20" fill="#526273" transform="rotate(-90 655 455.0)">D57</text>
+<line x1="404" y1="402" x2="479" y2="402" stroke="#4c6d84" stroke-width="3"/>
+<path d="M404 402 l15 -8 v16z" fill="#4c6d84"/>
+<text x="442" y="382" font-size="20" fill="#203040" font-weight="400" text-anchor="middle">套合 7</text>
+<line x1="228" y1="590.45" x2="228" y2="661" stroke="#8996a3" stroke-width="1"/>
+<line x1="292.89" y1="590.45" x2="292.89" y2="661" stroke="#8996a3" stroke-width="1"/>
+<line x1="228" y1="656" x2="292.89" y2="656" stroke="#526273" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="260.445" y="646" font-size="20" fill="#203040" font-weight="400" text-anchor="middle">10.3</text>
+<line x1="528" y1="634.55" x2="528" y2="676" stroke="#8996a3" stroke-width="1"/>
+<line x1="601.08" y1="634.55" x2="601.08" y2="676" stroke="#8996a3" stroke-width="1"/>
+<line x1="528" y1="671" x2="601.08" y2="671" stroke="#526273" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="564.54" y="661" font-size="20" fill="#203040" font-weight="400" text-anchor="middle">11.6</text>
+<polyline points="228,344.59250000000003 143,314 68,314" fill="none" stroke="#36495e" stroke-width="1.5"/>
+<circle cx="228" cy="344.59250000000003" r="2.5" fill="#36495e" stroke="#36495e" stroke-width="1.5"/>
+<text x="62" y="290" font-size="19" fill="#36495e" font-weight="400" text-anchor="start">定位D35.05×0.8</text>
+<polyline points="265.8,319.55 324,302 338,302" fill="none" stroke="#36495e" stroke-width="1.5"/>
+<circle cx="265.8" cy="319.55" r="2.5" fill="#36495e" stroke="#36495e" stroke-width="1.5"/>
+<text x="343" y="307" font-size="19" fill="#36495e" font-weight="400" text-anchor="start">D43芯</text>
+<polyline points="528,319.39250000000004 510,331 481,331" fill="none" stroke="#36495e" stroke-width="1.5"/>
+<circle cx="528" cy="319.39250000000004" r="2.5" fill="#36495e" stroke="#36495e" stroke-width="1.5"/>
+<text x="343" y="336" font-size="19" fill="#36495e" font-weight="400" text-anchor="start">D43.05杯孔</text>
+<text x="58" y="707" font-size="20" fill="#536f82" font-weight="400" text-anchor="start">P1前颈72.2～75.5；芯75.5～82.5。P2底盘厚4.6。</text>
+<text x="930" y="216" font-size="25" fill="#23495f" font-weight="700" text-anchor="start">B  装配后 · 新电机基准</text>
+<path d="M 1112.440,299.400 L 1090.000,299.400 L 1090.000,312.830 L 1095.440,312.830 L 1095.440,551.170 L 1090.000,551.170 L 1090.000,564.600 L 1112.440,564.600 L 1112.440,578.200 L 1131.140,578.200 L 1131.140,547.600 L 1139.640,542.493 L 1148.140,547.600 L 1148.140,578.200 L 1160.040,578.200 L 1160.040,285.800 L 1148.140,285.800 L 1148.140,316.400 L 1139.640,321.507 L 1131.140,316.400 L 1131.140,285.800 L 1112.440,285.800 L 1112.440,299.400 Z" fill="url(#hatchBlue)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 1123.320,238.200 L 1112.440,238.200 L 1112.440,273.773 L 1112.440,285.630 L 1128.080,285.630 L 1128.080,253.160 L 1123.320,253.160 L 1123.320,238.200 Z" fill="url(#hatchGold)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 1191.320,238.200 L 1155.960,238.200 L 1155.960,249.420 L 1155.960,253.160 L 1151.200,253.160 L 1151.200,285.630 L 1160.040,285.630 L 1160.040,578.370 L 1151.200,578.370 L 1151.200,610.840 L 1155.960,610.840 L 1155.960,625.800 L 1191.320,625.800 L 1191.320,238.200 Z" fill="url(#hatchGold)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 1112.440,578.370 L 1112.440,625.800 L 1123.320,625.800 L 1123.320,610.840 L 1128.080,610.840 L 1128.080,578.370 L 1112.440,578.370 Z" fill="url(#hatchGold)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 1129.440,253.160 L 1129.440,285.800 L 1149.840,285.800 L 1149.840,253.160 L 1154.940,253.160 L 1154.940,239.560 L 1146.576,239.560 L 1146.576,249.760 L 1132.704,249.760 L 1132.704,239.560 L 1124.340,239.560 L 1124.340,253.160 L 1129.440,253.160 Z" fill="#bec9d0" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 1149.840,610.840 L 1149.840,578.200 L 1129.440,578.200 L 1129.440,610.840 L 1124.340,610.840 L 1124.340,624.440 L 1132.704,624.440 L 1132.704,614.240 L 1146.576,614.240 L 1146.576,624.440 L 1154.940,624.440 L 1154.940,610.840 L 1149.840,610.840 Z" fill="#bec9d0" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<line x1="994" y1="432" x2="1290" y2="432" stroke="#8196a5" stroke-width="1" stroke-dasharray="12 4 2 4"/>
+<line x1="1090" y1="625.8" x2="1090" y2="669" stroke="#8996a3" stroke-width="1"/>
+<line x1="1191.32" y1="625.8" x2="1191.32" y2="669" stroke="#8996a3" stroke-width="1"/>
+<line x1="1090" y1="664" x2="1191.32" y2="664" stroke="#526273" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="1140.6599999999999" y="654" font-size="20" fill="#203040" font-weight="400" text-anchor="middle">总长14.9</text>
+<text x="1325" y="313" font-size="22" fill="#34596f" font-weight="500" text-anchor="start">髋转子面 Y73</text>
+<text x="1325" y="350" font-size="22" fill="#34596f" font-weight="500" text-anchor="start">膝后壳面 Y87.1</text>
+<text x="1325" y="387" font-size="22" fill="#34596f" font-weight="500" text-anchor="start">膝电机平移 Y132.6</text>
+<text x="1325" y="424" font-size="22" fill="#34596f" font-weight="500" text-anchor="start">膝前定子面 Y132.1</text>
+<text x="1325" y="461" font-size="22" fill="#34596f" font-weight="500" text-anchor="start">膝转子面 Y133.1</text>
+<text x="1325" y="540" font-size="21" fill="#526f82" font-weight="400" text-anchor="start">侧孔中心 Y79.5</text>
+<text x="1325" y="572" font-size="21" fill="#526f82" font-weight="400" text-anchor="start">杯口 Y75.5</text>
+<text x="1325" y="604" font-size="21" fill="#526f82" font-weight="400" text-anchor="start">相对髋支架保持0.5间隔</text>
+<text x="930" y="707" font-size="20" fill="#536f82" font-weight="400" text-anchor="start">3根D4×L9销仍匹配原孔：PCD24.30，入电机3、入法兰6。</text>
+<rect x="30" y="754" width="850" height="497" rx="16" fill="#fff" stroke="#d6dfe7"/>
+<rect x="900" y="754" width="870" height="497" rx="16" fill="#fff" stroke="#d6dfe7"/>
+<text x="58" y="796" font-size="25" fill="#23495f" font-weight="700" text-anchor="start">C  孔系 · 保留真实转子销孔与螺孔</text>
+<circle cx="240" cy="970" r="81.7" fill="#deedf4" stroke="#556d7c" stroke-width="1.8"/>
+<line x1="115" y1="970" x2="370" y2="970" stroke="#8196a5" stroke-width="1" stroke-dasharray="10 4 2 4"/>
+<line x1="240" y1="844" x2="240" y2="1100" stroke="#8196a5" stroke-width="1" stroke-dasharray="10 4 2 4"/>
+<circle cx="240" cy="970" r="51.3" fill="none" stroke="#39866c" stroke-width="1.1" stroke-dasharray="7 5"/>
+<circle cx="291.3" cy="970.0" r="11.02" fill="white" stroke="#39866c" stroke-width="1.8"/>
+<circle cx="265.65" cy="925.5728967858583" r="11.02" fill="white" stroke="#39866c" stroke-width="1.8"/>
+<circle cx="214.35000000000002" cy="925.5728967858583" r="11.02" fill="white" stroke="#39866c" stroke-width="1.8"/>
+<circle cx="188.7" cy="970.0" r="11.02" fill="white" stroke="#39866c" stroke-width="1.8"/>
+<circle cx="214.34999999999997" cy="1014.4271032141417" r="11.02" fill="white" stroke="#39866c" stroke-width="1.8"/>
+<circle cx="265.65" cy="1014.4271032141417" r="11.02" fill="white" stroke="#39866c" stroke-width="1.8"/>
+<circle cx="240" cy="970" r="46.17" fill="none" stroke="#9751a8" stroke-width="1.1" stroke-dasharray="7 5"/>
+<circle cx="240.0" cy="923.83" r="7.6" fill="none" stroke="#9751a8" stroke-width="1.8" stroke-dasharray="5 4"/>
+<circle cx="200.01560710727247" cy="993.085" r="7.6" fill="none" stroke="#9751a8" stroke-width="1.8" stroke-dasharray="5 4"/>
+<circle cx="279.9843928927275" cy="993.085" r="7.6" fill="none" stroke="#9751a8" stroke-width="1.8" stroke-dasharray="5 4"/>
+<text x="240" y="840" font-size="21" fill="#316880" font-weight="400" text-anchor="middle">P1 · 外端孔系叠合</text>
+<line x1="240" y1="970" x2="318.91614000781686" y2="948.8544840151241" stroke="#bb4554" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="240" y1="970" x2="218.85448401512406" y2="891.0838599921831" stroke="#bb4554" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="240" y1="970" x2="161.08385999218314" y2="991.1455159848759" stroke="#bb4554" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="240" y1="970" x2="261.1455159848759" y2="1048.916140007817" stroke="#bb4554" stroke-width="1.5" stroke-dasharray="6 4"/>
+<circle cx="636" cy="970" r="108.3" fill="#faedd1" stroke="#556d7c" stroke-width="1.8"/>
+<line x1="511" y1="970" x2="766" y2="970" stroke="#8196a5" stroke-width="1" stroke-dasharray="10 4 2 4"/>
+<line x1="636" y1="844" x2="636" y2="1100" stroke="#8196a5" stroke-width="1" stroke-dasharray="10 4 2 4"/>
+<circle cx="636" cy="970" r="81.79499999999999" fill="none" stroke="#bd9949" stroke-width="1.3"/>
+<circle cx="636" cy="970" r="72.2" fill="none" stroke="#ad822b" stroke-width="1.1" stroke-dasharray="7 5"/>
+<circle cx="687.0531096016688" cy="918.9468903983313" r="9.12" fill="white" stroke="#ad822b" stroke-width="1.8"/>
+<circle cx="584.9468903983313" cy="918.9468903983312" r="9.12" fill="white" stroke="#ad822b" stroke-width="1.8"/>
+<circle cx="584.9468903983312" cy="1021.0531096016687" r="9.12" fill="white" stroke="#ad822b" stroke-width="1.8"/>
+<circle cx="687.0531096016687" cy="1021.0531096016688" r="9.12" fill="white" stroke="#ad822b" stroke-width="1.8"/>
+<text x="636" y="840" font-size="21" fill="#95752e" font-weight="400" text-anchor="middle">P2 · 开口侧</text>
+<line x1="636" y1="970" x2="740.6097669871061" y2="941.969897415397" stroke="#bb4554" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="636" y1="970" x2="607.969897415397" y2="865.3902330128939" stroke="#bb4554" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="636" y1="970" x2="531.3902330128939" y2="998.030102584603" stroke="#bb4554" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="636" y1="970" x2="664.0301025846029" y2="1074.609766987106" stroke="#bb4554" stroke-width="1.5" stroke-dasharray="6 4"/>
+<text x="58" y="1123" font-size="19" fill="#376d75" font-weight="400" text-anchor="start">6×M3x8，PCD27，θ=0°+60°i</text>
+<text x="58" y="1152" font-size="19" fill="#376d75" font-weight="400" text-anchor="start">3×D4销，PCD24.30</text>
+<text x="58" y="1181" font-size="19" fill="#376d75" font-weight="400" text-anchor="start">θ=90° / 210° / 330°</text>
+<text x="475" y="1123" font-size="19" fill="#8b692b" font-weight="400" text-anchor="start">4×SLH-M3-6-SD，PCD38</text>
+<text x="475" y="1152" font-size="19" fill="#8b692b" font-weight="400" text-anchor="start">θ=45°+90°i；D4.8沉孔</text>
+<text x="475" y="1181" font-size="19" fill="#8b692b" font-weight="400" text-anchor="start">头孔完全落在杯孔内，取消轴向缺口</text>
+<text x="58" y="1227" font-size="18" fill="#aa4354" font-weight="400" text-anchor="start">四径向孔：θ=15° / 105° / 195° / 285°；杯通孔，小法兰攻M3×0.5。</text>
+<text x="930" y="796" font-size="25" fill="#23495f" font-weight="700" text-anchor="start">D  小头低头螺钉 · 径向锁紧剖面</text>
+<text x="930" y="835" font-size="20" fill="#5a7487" font-weight="400" text-anchor="start">NBK SLH-M3-8-SD：头D4.5±0.1×高2，内六角2。</text>
+<path d="M 1132.500,970.250 L 1132.500,925.700 L 984.000,925.700 L 984.000,1082.300 L 1132.500,1082.300 L 1132.500,1037.750 L 1011.000,1037.750 L 990.721,1004.000 L 1011.000,970.250 L 1132.500,970.250 Z" fill="url(#hatchBlue)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 1321.500,939.200 L 1321.500,925.700 L 1180.256,925.700 L 1133.175,925.700 L 1133.175,958.100 L 1262.100,958.100 L 1262.100,939.200 L 1321.500,939.200 Z" fill="url(#hatchGold)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 1321.500,1082.300 L 1321.500,1068.800 L 1262.100,1068.800 L 1262.100,1049.900 L 1133.175,1049.900 L 1133.175,1082.300 L 1321.500,1082.300 Z" fill="url(#hatchGold)" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<path d="M 1262.100,963.500 L 1132.500,963.500 L 1132.500,1044.500 L 1262.100,1044.500 L 1262.100,1064.750 L 1316.100,1064.750 L 1316.100,1031.540 L 1275.600,1031.540 L 1275.600,976.460 L 1316.100,976.460 L 1316.100,943.250 L 1262.100,943.250 L 1262.100,963.500 Z" fill="#bec9d0" stroke="#314657" stroke-width="1.8" fill-rule="evenodd"/>
+<line x1="961" y1="1004" x2="1390" y2="1004" stroke="#7d93a3" stroke-width="1" stroke-dasharray="10 4 2 4"/>
+<line x1="1046.1" y1="963.5" x2="1132.5" y2="963.5" stroke="#bd4556" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="1046.1" y1="1044.5" x2="1132.5" y2="1044.5" stroke="#bd4556" stroke-width="1.5" stroke-dasharray="6 4"/>
+<line x1="1011" y1="1083" x2="1011" y2="1133" stroke="#8996a3" stroke-width="1"/>
+<line x1="1132.5" y1="1083" x2="1132.5" y2="1133" stroke="#8996a3" stroke-width="1"/>
+<line x1="1011" y1="1128" x2="1132.5" y2="1128" stroke="#526273" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="1071.75" y="1118" font-size="20" fill="#203040" font-weight="400" text-anchor="middle">D2.5底孔4.5</text>
+<line x1="1046.1" y1="1083" x2="1046.1" y2="1175" stroke="#8996a3" stroke-width="1"/>
+<line x1="1132.5" y1="1083" x2="1132.5" y2="1175" stroke="#8996a3" stroke-width="1"/>
+<line x1="1046.1" y1="1170" x2="1132.5" y2="1170" stroke="#526273" stroke-width="1.5" marker-start="url(#dim)" marker-end="url(#dim)"/>
+<text x="1089.3" y="1160" font-size="20" fill="#203040" font-weight="400" text-anchor="middle">名义入牙3.2</text>
+<text x="1415" y="900" font-size="19" fill="#455f72" font-weight="400" text-anchor="start">完整螺纹≥3.5</text>
+<text x="1415" y="932" font-size="19" fill="#455f72" font-weight="400" text-anchor="start">118°钻尖</text>
+<text x="1415" y="964" font-size="19" fill="#455f72" font-weight="400" text-anchor="start">沉孔D4.8</text>
+<text x="1415" y="996" font-size="19" fill="#455f72" font-weight="400" text-anchor="start">头下承压R26.3</text>
+<text x="1415" y="1028" font-size="19" fill="#455f72" font-weight="400" text-anchor="start">头顶R28.3</text>
+<text x="1415" y="1060" font-size="19" fill="#455f72" font-weight="400" text-anchor="start">杯前唇余肉1.6</text>
+<text x="930" y="1227" font-size="18" fill="#8c5c30" font-weight="400" text-anchor="start">所有头均在D57内；厂家1.4N·m为螺钉本体上限，铝座承压须另定扭矩。</text>
+<rect x="30" y="1272" width="1740" height="425" rx="16" fill="#eaf1f5" stroke="#d6e0e7"/>
+<text x="58" y="1314" font-size="25" fill="#244b64" font-weight="700" text-anchor="start">制造与装配</text>
+<text x="58" y="1354" font-size="21" fill="#385c72" font-weight="400" text-anchor="start">1  3根定位销固定于P1；以6×ISO4762 M3×8固定髋转子（夹持5，名义入牙3）。</text>
+<text x="58" y="1391" font-size="21" fill="#385c72" font-weight="400" text-anchor="start">2  从杯口装4×SLH-M3-6-SD固定膝后壳：头82.6～84.6，铝承压2.5，名义入牙3.5。</text>
+<text x="58" y="1428" font-size="21" fill="#385c72" font-weight="400" text-anchor="start">3  对齐四侧孔套入7mm；最后装4×SLH-M3-8-SD，对边均匀锁紧。拆卸先卸四颗侧螺钉。</text>
+<line x1="58" y1="1457" x2="1740" y2="1457" stroke="#bcced8" stroke-width="1"/>
+<text x="58" y="1495" font-size="20" fill="#3c667c" font-weight="400" text-anchor="start">已检查：2个CNC零件、17个硬件、双原厂电机零&gt;.001mm³相交；14条工具路径畅通。</text>
+<text x="58" y="1528" font-size="20" fill="#3c667c" font-weight="400" text-anchor="start">轴向套入0～8mm的6个位置均无相交；与V5实际髋板/硬件也无相交，径向工具最小距板0.5。</text>
+<text x="58" y="1561" font-size="20" fill="#3c667c" font-weight="400" text-anchor="start">最小实测孔壁：转子沉孔↔径向底孔1.652；销孔↔转子沉孔1.866；销底余肉3.5。</text>
+<text x="58" y="1614" font-size="20" fill="#607b8e" font-weight="400" text-anchor="start">审查范围为几何与装配；定位销实配、公差、铝螺纹/小头承压和负载疲劳仍需实物验证。</text>
+<text x="58" y="1658" font-size="18" fill="#6b8293" font-weight="400" text-anchor="start">依据：原厂J4310 STEP；NBK SLH-SD官方数据。详见coupling_review.json、coupling_fasteners.json。</text>
+<text x="50" y="1741" font-size="20" fill="#536f82" font-weight="400" text-anchor="start">髋膝连接法兰每腿两件、全机四件；低头螺钉不可直接换成普通高头螺钉。左右杯件不能直接翻面互换。</text>
+<text x="1750" y="1766" font-size="15" fill="#718596" font-weight="400" text-anchor="end">V5 COUPLING · CNC REVIEW</text>
+</g></svg>

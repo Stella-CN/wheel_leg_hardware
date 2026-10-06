@@ -1,0 +1,32 @@
+[
+  {
+    "part": "ground_pin_D6_L35",
+    "quantity": 4,
+    "diameter_nominal": 6,
+    "fit": "g6 recommended; confirm bearing fit",
+    "length": 35,
+    "groove_start_from_end": 0.5,
+    "end_land_min": 0.5,
+    "groove_width": 0.8,
+    "groove_diameter": 5.7,
+    "groove_diameter_tolerance": "0/-0.04",
+    "groove_width_tolerance": "+0.10/0",
+    "ring": "steel STWN6 / DIN471-6 t0.7",
+    "material": "ground steel shaft; machine grooves before final inspection"
+  },
+  {
+    "part": "ground_pin_D6_L56",
+    "quantity": 2,
+    "diameter_nominal": 6,
+    "fit": "g6 recommended; confirm bearing fit",
+    "length": 56,
+    "groove_start_from_end": 0.5,
+    "end_land_min": 0.5,
+    "groove_width": 0.8,
+    "groove_diameter": 5.7,
+    "groove_diameter_tolerance": "0/-0.04",
+    "groove_width_tolerance": "+0.10/0",
+    "ring": "steel STWN6 / DIN471-6 t0.7",
+    "material": "ground steel shaft; machine grooves before final inspection"
+  }
+]

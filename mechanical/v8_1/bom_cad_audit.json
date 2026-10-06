@@ -1,0 +1,37 @@
+{
+  "physical_cad_objects": 326,
+  "covered_objects": 326,
+  "missing": [],
+  "duplicate": {},
+  "totals": {
+    "3D打印件": {
+      "types": 11,
+      "pieces": 12
+    },
+    "厂家目录件": {
+      "types": 4,
+      "pieces": 64
+    },
+    "外购耗材": {
+      "types": 2,
+      "pieces": 6
+    },
+    "外购设备": {
+      "types": 8,
+      "pieces": 13
+    },
+    "定制金属件": {
+      "types": 24,
+      "pieces": 62
+    },
+    "待选型附件": {
+      "types": 4,
+      "pieces": 0
+    },
+    "标准件": {
+      "types": 16,
+      "pieces": 174
+    }
+  },
+  "note": "D435 mesh and analysis solid are one purchased camera, not two. Vendor-internal components are not counted separately."
+}

@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1130" viewBox="0 0 1600 1130">
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10z" fill="#475569"/></marker></defs>
+<g font-family="PingFang SC, Noto Sans CJK SC, Arial, sans-serif">
+<rect x="0" y="0" width="1600" height="1130" rx="0" fill="#f3f6f9" stroke="none" stroke-width="2"/>
+<text x="40" y="54" font-size="34" fill="#25374b" font-weight="650">V6 参考图拆件：内座 → OA → 整体外壳套合</text>
+<text x="40" y="92" font-size="21" fill="#657488" font-weight="400">130 / 105 / 45 mm · 主宽 23 mm；隐藏结构为本机设计决定，示意非加工图。</text>
+<rect x="30" y="120" width="1540" height="420" rx="16" fill="white" stroke="#d4dce4" stroke-width="2"/>
+<text x="52" y="157" font-size="24" fill="#25374b" font-weight="600">五个主要制造件</text>
+<rect x="119" y="266" width="102" height="170" rx="25" fill="#acd685" stroke="#344657" stroke-width="2"/>
+<circle cx="170" cy="247" r="76" fill="#acd685" stroke="#344657" stroke-width="2"/>
+<circle cx="170" cy="247" r="53.9" fill="white" stroke="#344657" stroke-width="2"/>
+<circle cx="170" cy="435" r="28" fill="#acd685" stroke="#344657" stroke-width="2"/>
+<circle cx="170" cy="435" r="11" fill="white" stroke="#344657" stroke-width="2"/>
+<circle cx="227.76389443242206" cy="280.35" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="170.0" cy="313.7" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="112.23610556757794" cy="280.35" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="112.23610556757794" cy="213.64999999999998" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="170.0" cy="180.3" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="227.76389443242203" cy="213.64999999999998" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<path d="M140 334 L140 393 L190 393 Z" fill="white" stroke="#344657" stroke-width="2"/>
+<text x="75" y="488" font-size="21" fill="#25374b" font-weight="600">① OB 内座 / 内臂</text>
+<text x="65" y="520" font-size="20" fill="#25374b" font-weight="400">Ø57 环面先连定子</text>
+<path d="M452 262 Q423 225 385 205 Q365 183 379 164 Q394 149 416 163 L480 214 Z" fill="#8e83dc" stroke="#344657" stroke-width="2"/>
+<circle cx="459" cy="247" r="50" fill="#8e83dc" stroke="#344657" stroke-width="2"/>
+<circle cx="459" cy="247" r="16" fill="white" stroke="#344657" stroke-width="2"/>
+<circle cx="397" cy="182" r="18" fill="#8e83dc" stroke="#344657" stroke-width="2"/>
+<circle cx="397" cy="182" r="7" fill="white" stroke="#344657" stroke-width="2"/>
+<circle cx="496.0" cy="247.0" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="477.5" cy="279.0429399400242" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="440.5" cy="279.0429399400242" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="422.0" cy="247.0" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="440.5" cy="214.9570600599758" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<circle cx="477.5" cy="214.9570600599758" r="4" fill="white" stroke="#344657" stroke-width="1"/>
+<text x="419" y="340" font-size="24" fill="#7264ca" font-weight="600">O</text>
+<text x="365" y="160" font-size="24" fill="#7264ca" font-weight="600">A</text>
+<text x="366" y="391" font-size="20" fill="#25374b" font-weight="400">轮毂穿过内座圆口</text>
+<text x="366" y="423" font-size="20" fill="#25374b" font-weight="400">A 臂由侧窗伸出</text>
+<text x="365" y="488" font-size="21" fill="#25374b" font-weight="600">② OA 一体曲柄</text>
+<text x="375" y="520" font-size="20" fill="#25374b" font-weight="400">转子驱动件</text>
+<path d="M773 172 A76 76 0 0 1 849 248 L827 427 Q823 454 781 454 L719 448 L739 176 Z" fill="#c5dfb4" stroke="#344657" stroke-width="2"/>
+<path d="M809.74 300.74 C800 314 811 385 810 420 Q808 445 773 445 Q737 445 734 420 C729 365 719 315 702.26 300.74 A76 76 0 1 1 809.74 300.74 Z" fill="#78bd7d" stroke="#344657" stroke-width="2"/>
+<circle cx="756" cy="247" r="50" fill="white" stroke="#344657" stroke-width="2"/>
+<path d="M713.4 202.9 A61.3 61.3 0 0 0 712.6 290.4" fill="none" stroke="#344657" stroke-width="13" stroke-linecap="round"/>
+<path d="M713.4 202.9 A61.3 61.3 0 0 0 712.6 290.4" fill="none" stroke="white" stroke-width="10" stroke-linecap="round"/>
+<circle cx="696" cy="236" r="5" fill="#8e83dc" stroke="#344657" stroke-width="1"/>
+<circle cx="773" cy="430" r="12" fill="white" stroke="#344657" stroke-width="2"/>
+<path d="M747 335 L751 384 L792 377 Z" fill="white" stroke="#344657" stroke-width="2"/>
+<path d="M776 315 L755 326 L782 355 Z" fill="white" stroke="#344657" stroke-width="2"/>
+<line x1="825" y1="358" x2="885" y2="347" stroke="#475569" stroke-width="2" stroke-dasharray="" marker-end="url(#arrow)"/>
+<text x="848" y="387" font-size="19" fill="#25374b" font-weight="400">侧壁</text>
+<text x="669" y="488" font-size="21" fill="#25374b" font-weight="600">③ OB 包覆式外壳</text>
+<text x="670" y="520" font-size="19" fill="#25374b" font-weight="400">一体前壁、侧壁与台阶</text>
+<rect x="1017" y="223" width="42" height="205" rx="17" fill="#e98e95" stroke="#344657" stroke-width="2"/>
+<circle cx="1038" cy="222" r="29" fill="#e98e95" stroke="#344657" stroke-width="2"/>
+<circle cx="1038" cy="428" r="29" fill="#e98e95" stroke="#344657" stroke-width="2"/>
+<circle cx="1038" cy="222" r="15" fill="white" stroke="#344657" stroke-width="2"/>
+<circle cx="1038" cy="428" r="15" fill="white" stroke="#344657" stroke-width="2"/>
+<text x="990" y="191" font-size="22" fill="#25374b" font-weight="400">A</text>
+<text x="990" y="443" font-size="22" fill="#25374b" font-weight="400">C</text>
+<text x="956" y="488" font-size="21" fill="#25374b" font-weight="600">④ AC 轴承连杆</text>
+<text x="960" y="520" font-size="19" fill="#25374b" font-weight="400">两端插入相应叉口</text>
+<path d="M1284 203 Q1291 184 1308 198 L1351 270 L1418 431 Q1431 454 1411 468 Q1391 478 1380 456 L1304 292 L1281 224 Q1277 212 1284 203 Z" fill="#80d5ce" stroke="#344657" stroke-width="2"/>
+<circle cx="1298" cy="211" r="21" fill="#80d5ce" stroke="#344657" stroke-width="2"/>
+<circle cx="1298" cy="211" r="7" fill="white" stroke="#344657" stroke-width="2"/>
+<circle cx="1328" cy="281" r="29" fill="#80d5ce" stroke="#344657" stroke-width="2"/>
+<circle cx="1328" cy="281" r="15" fill="white" stroke="#344657" stroke-width="2"/>
+<circle cx="1398" cy="444" r="26" fill="#80d5ce" stroke="#344657" stroke-width="2"/>
+<circle cx="1398" cy="444" r="8" fill="white" stroke="#344657" stroke-width="2"/>
+<path d="M1348 353 L1374 405 L1386 399 Z" fill="white" stroke="#344657" stroke-width="2"/>
+<text x="1257" y="191" font-size="22" fill="#25374b" font-weight="400">C</text>
+<text x="1287" y="295" font-size="22" fill="#25374b" font-weight="400">B</text>
+<text x="1438" y="452" font-size="22" fill="#25374b" font-weight="400">W</text>
+<text x="1261" y="488" font-size="21" fill="#25374b" font-weight="600">⑤ CW 一体下连杆</text>
+<text x="1261" y="520" font-size="19" fill="#25374b" font-weight="400">C 叉、B 舌、W 轮端</text>
+<rect x="30" y="563" width="790" height="374" rx="16" fill="white" stroke="#d4dce4" stroke-width="2"/>
+<text x="52" y="602" font-size="24" fill="#25374b" font-weight="600">轴向套合原理：外壳朝电机侧开腔</text>
+<rect x="66" y="690" width="180" height="146" rx="5" fill="#ced3d9" stroke="#758391" stroke-width="2"/>
+<rect x="219" y="726" width="41" height="74" rx="0" fill="#8b96a5" stroke="#758391" stroke-width="2"/>
+<rect x="259" y="672" width="22" height="49" rx="0" fill="#acd685" stroke="#344657" stroke-width="2"/>
+<rect x="259" y="805" width="22" height="78" rx="0" fill="#acd685" stroke="#344657" stroke-width="2"/>
+<rect x="263" y="725" width="160" height="32" rx="0" fill="#8e83dc" stroke="#344657" stroke-width="2"/>
+<rect x="263" y="769" width="160" height="32" rx="0" fill="#8e83dc" stroke="#344657" stroke-width="2"/>
+<rect x="389" y="710" width="31" height="107" rx="0" fill="#8e83dc" stroke="#344657" stroke-width="2"/>
+<rect x="280" y="643" width="193" height="18" rx="0" fill="#78bd7d" stroke="#344657" stroke-width="2"/>
+<rect x="280" y="865" width="193" height="18" rx="0" fill="#78bd7d" stroke="#344657" stroke-width="2"/>
+<rect x="453" y="643" width="20" height="92" rx="0" fill="#78bd7d" stroke="#344657" stroke-width="2"/>
+<rect x="453" y="792" width="20" height="91" rx="0" fill="#78bd7d" stroke="#344657" stroke-width="2"/>
+<line x1="64" y1="763" x2="505" y2="763" stroke="#a1adba" stroke-width="1" stroke-dasharray="7 7"/>
+<text x="79" y="867" font-size="20" fill="#25374b" font-weight="400">膝电机</text>
+<line x1="269" y1="666" x2="332" y2="626" stroke="#475569" stroke-width="2" stroke-dasharray=""/>
+<text x="346" y="631" font-size="19" fill="#25374b" font-weight="400">内座 0～4</text>
+<line x1="351" y1="722" x2="516" y2="693" stroke="#475569" stroke-width="2" stroke-dasharray=""/>
+<text x="526" y="699" font-size="21" fill="#7264ca" font-weight="400">OA 主桥至 +20.6</text>
+<line x1="463" y1="802" x2="516" y2="813" stroke="#475569" stroke-width="2" stroke-dasharray=""/>
+<text x="526" y="819" font-size="21" fill="#438657" font-weight="400">圆口 Ø35.4 / 颈 Ø35</text>
+<line x1="358" y1="874" x2="516" y2="868" stroke="#475569" stroke-width="2" stroke-dasharray=""/>
+<text x="526" y="874" font-size="21" fill="#438657" font-weight="400">外壳前壁 +20～23</text>
+<text x="528" y="748" font-size="21" fill="#25374b" font-weight="600">先锁 OA，再套外壳</text>
+<line x1="653" y1="765" x2="500" y2="765" stroke="#475569" stroke-width="3" stroke-dasharray="" marker-end="url(#arrow)"/>
+<text x="52" y="917" font-size="18" fill="#657488" font-weight="400">示意剖面未画活动侧窗；并非四周封死的闭合圆杯。</text>
+<rect x="840" y="563" width="730" height="374" rx="16" fill="white" stroke="#d4dce4" stroke-width="2"/>
+<text x="864" y="602" font-size="24" fill="#25374b" font-weight="600">Ø57 圆面只能包轮毂，不能包 A 全扫掠</text>
+<circle cx="1050" cy="757" r="74.1" fill="#e7f4e7" stroke="#438657" stroke-width="3"/>
+<circle cx="1050" cy="757" r="117" fill="none" stroke="#b8accf" stroke-width="1.5"/>
+<circle cx="1050" cy="757" r="117" fill="none" stroke="#b8accf" stroke-width="2" stroke-dasharray="7 6"/>
+<line x1="1050" y1="757" x2="967.27" y2="674.27" stroke="#8e83dc" stroke-width="28" stroke-dasharray=""/>
+<circle cx="1050" cy="757" r="45.5" fill="#8e83dc" stroke="#344657" stroke-width="2"/>
+<circle cx="1050" cy="757" r="14" fill="white" stroke="#344657" stroke-width="2"/>
+<circle cx="967.27" cy="674.27" r="24" fill="#8e83dc" stroke="#344657" stroke-width="2"/>
+<circle cx="967.27" cy="674.27" r="7" fill="white" stroke="#344657" stroke-width="2"/>
+<text x="940" y="638" font-size="22" fill="#7264ca" font-weight="600">A</text>
+<text x="1099" y="802" font-size="22" fill="#7264ca" font-weight="600">O</text>
+<text x="1202" y="687" font-size="23" fill="#25374b" font-weight="600">OA = 45 mm</text>
+<text x="1202" y="728" font-size="22" fill="#25374b" font-weight="400">电机半径 = 28.5 mm</text>
+<text x="1202" y="769" font-size="22" fill="#438657" font-weight="600">A 必须从侧窗伸出</text>
+<text x="1202" y="810" font-size="21" fill="#25374b" font-weight="400">不能再用放大圆盖遮住</text>
+<text x="864" y="917" font-size="18" fill="#657488" font-weight="400">圆口单边间隙0.2；另设 R23 × 宽4.6 弧槽与可拆 Ø4 肩销。</text>
+<rect x="30" y="960" width="1540" height="137" rx="14" fill="#e6edf4" stroke="none" stroke-width="2"/>
+<text x="53" y="999" font-size="23" fill="#25374b" font-weight="600">装配顺序</text>
+<text x="220" y="1000" font-size="23" fill="#25374b" font-weight="400">内座锁定子</text>
+<text x="520" y="1000" font-size="23" fill="#25374b" font-weight="400">OA 穿圆口锁转子</text>
+<text x="882" y="1000" font-size="23" fill="#25374b" font-weight="400">B 舌对入内支撑</text>
+<text x="1230" y="1000" font-size="23" fill="#25374b" font-weight="400">外壳轴向套合</text>
+<line x1="380" y1="991" x2="490" y2="991" stroke="#475569" stroke-width="3" stroke-dasharray="" marker-end="url(#arrow)"/>
+<line x1="736" y1="991" x2="850" y2="991" stroke="#475569" stroke-width="3" stroke-dasharray="" marker-end="url(#arrow)"/>
+<line x1="1090" y1="991" x2="1205" y2="991" stroke="#475569" stroke-width="3" stroke-dasharray="" marker-end="url(#arrow)"/>
+<text x="53" y="1062" font-size="22" fill="#25374b" font-weight="400">核验项：真实电机孔系 · 定子螺钉小径头余肉 · 轴向装入 · 工具通路 · 全角域侧窗间隙 · B 双剪支承</text>
+</g></svg>

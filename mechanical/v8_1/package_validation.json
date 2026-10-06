@@ -1,0 +1,10 @@
+{
+  "package": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_mujoco/mechanical/wheel_leg_v8_1_prototype.zip",
+  "file_count": 282,
+  "bytes": 202420876,
+  "sha256": "2cf08d86f47ec25882d608a0e17bacc2aa30cfc3e26d0fe154f7cca3032a60f7",
+  "crc_pass": true,
+  "required_deliverables_present": true,
+  "current_bom_reconciled": true,
+  "baseline_v8_unchanged": true
+}

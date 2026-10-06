@@ -1,0 +1,189 @@
+{
+  "revision": "v4",
+  "status": "manufacturing_review_prototype",
+  "units": "mm",
+  "motor_source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/3D\u6a21\u578b/DM-J4310-2EC-V1.1_3d_20260228_1.stp",
+  "dimensions": {
+    "rotor_flange_diameter": 43,
+    "rotor_neck_diameter": 39,
+    "rotor_neck_y": [
+      72.2,
+      80.5
+    ],
+    "rotor_spigot_y": [
+      80.5,
+      87.5
+    ],
+    "rotor_flange_y": [
+      72.2,
+      87.5
+    ],
+    "rotor_register_diameter": 35.05,
+    "rotor_register_depth": 0.8,
+    "rotor_dowels": {
+      "count": 3,
+      "diameter": 4,
+      "pcd": 24.3,
+      "angles_deg": [
+        90,
+        210,
+        330
+      ],
+      "y": [
+        70,
+        79
+      ],
+      "motor_engagement": 3,
+      "flange_engagement": 6
+    },
+    "stator_cup_diameter": 57,
+    "stator_cup_y": [
+      80.5,
+      94
+    ],
+    "nesting_diameter": 43.05,
+    "nesting_depth": 7,
+    "radial_screws": {
+      "count": 4,
+      "angles_deg": [
+        15,
+        105,
+        195,
+        285
+      ],
+      "thread": "M3x0.5",
+      "nominal_screw_length": 8,
+      "head_seat_radius": 25.3,
+      "head_height": 3.0,
+      "tap_drill_diameter": 2.5,
+      "tap_drill_cylindrical_depth": 5,
+      "drill_point_included_angle": 118,
+      "full_thread_depth_min": 4.2,
+      "bottoming_tap_finish_required": true,
+      "engagement_in_male": 4.199999999999999
+    }
+  },
+  "minimum_geometric_webs": {
+    "cup_axial_tool_channel_to_radial_clearance_mm": 6.335699304464951,
+    "rotor_counterbore_to_radial_tap_mm": 1.2240031057226415
+  },
+  "solids": {
+    "hip_rotor_cnc": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17617.22919
+    },
+    "knee_stator_cnc": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 23253.387145
+    },
+    "coupling_rotor_M3x12_0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 134.892135
+    },
+    "coupling_rotor_M3x12_1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 134.892135
+    },
+    "coupling_rotor_M3x12_2": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 134.892135
+    },
+    "coupling_rotor_M3x12_3": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 134.892135
+    },
+    "coupling_rotor_M3x12_4": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 134.892135
+    },
+    "coupling_rotor_M3x12_5": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 134.892135
+    },
+    "coupling_rotor_dowel_D4_L9_0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 113.097336
+    },
+    "coupling_rotor_dowel_D4_L9_1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 113.097336
+    },
+    "coupling_rotor_dowel_D4_L9_2": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 113.097336
+    },
+    "coupling_knee_M3x6_0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 88.946342
+    },
+    "coupling_knee_M3x6_1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 88.946342
+    },
+    "coupling_knee_M3x6_2": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 88.946342
+    },
+    "coupling_knee_M3x6_3": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 88.946342
+    },
+    "coupling_radial_M3x8_0": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 98.135501
+    },
+    "coupling_radial_M3x8_1": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 98.135501
+    },
+    "coupling_radial_M3x8_2": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 98.135501
+    },
+    "coupling_radial_M3x8_3": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 98.135501
+    }
+  },
+  "collisions_over_0_001_mm3": [],
+  "hardware_outside_D57_envelope": [],
+  "driver_intersection_volumes_mm3": {
+    "knee_axial_driver_0": 0.0,
+    "knee_axial_driver_1": 0.0,
+    "knee_axial_driver_2": 0.0,
+    "knee_axial_driver_3": 0.0,
+    "hip_axial_driver_0": 0.0,
+    "hip_axial_driver_1": 0.0,
+    "hip_axial_driver_2": 0.0,
+    "hip_axial_driver_3": 0.0,
+    "hip_axial_driver_4": 0.0,
+    "hip_axial_driver_5": 0.0,
+    "radial_driver_0": 0.0,
+    "radial_driver_1": 0.0,
+    "radial_driver_2": 0.0,
+    "radial_driver_3": 0.0
+  },
+  "thread_model": "tapping drill in manufactured parts; only unengaged screw lengths in assembly",
+  "full_motor_dowel_geometry_checked_here": true,
+  "global_hardware_omits_dowel_inside_rotor": true,
+  "strength_validated": false
+}

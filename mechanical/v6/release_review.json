@@ -1,0 +1,124 @@
+{
+  "revision": "V6",
+  "main_geometry": "D57 pocketed OB shell; OB/AC130, BW105, OA/BC45;23mm main width",
+  "geometric_poses": 24,
+  "collisions": [],
+  "hardware_objects": 230,
+  "native_motor_validation": {
+    "heights_mm": [
+      100.0,
+      180.0,
+      215.0
+    ],
+    "beta_deg": [
+      -10,
+      0,
+      10
+    ],
+    "maximum_COM_error_mm": 9.800597115467527e-14,
+    "maximum_angle_error_deg": 2.842170943040401e-14,
+    "maximum_gravity_effort_error_Nm": 2.9753976921176317e-09,
+    "gravity_checks": [
+      {
+        "height_mm": 100.0,
+        "native_hip_Nm": -0.23150237535851656,
+        "native_knee_Nm": -2.2587479562219688,
+        "effort_error_Nm": 7.993606054856883e-10
+      },
+      {
+        "height_mm": 180.0,
+        "native_hip_Nm": -0.16706115117948173,
+        "native_knee_Nm": -1.640972507724995,
+        "effort_error_Nm": 2.2648549702353193e-09
+      },
+      {
+        "height_mm": 215.0,
+        "native_hip_Nm": -0.10400763570395098,
+        "native_knee_Nm": -1.0332480449757397,
+        "effort_error_Nm": 2.9753976921176317e-09
+      }
+    ],
+    "saved_document_modified": false,
+    "scope": "FreeCAD native Placement expressions applied to actual CAD-derived local centres, checked against independent analytic transforms and constrained gravity; does not establish collision clearance at beta \u00b110 degrees"
+  },
+  "body_interface_checks": {
+    "valid_single_solid_custom_parts": true,
+    "all_frame_shell_camera_fastener_chains_supported": true,
+    "both_camera_depth_configurations_fit": true,
+    "front_camera_module_has_no_internal_interference": true,
+    "jetson_final_tray_contact_and_fastener_support": true,
+    "sampled_front_install_and_rear_service_paths_clear": true,
+    "crossframe_reinforcement_delta": true
+  },
+  "maintenance_checks": {
+    "rear_crossframe_sampled_withdrawal_clear": true,
+    "upward4mm_conservative_sweeps_clear": true,
+    "backward180mm_raised_module_conservative_sweep_clear": true
+  },
+  "mass_kg": 5.641930000000013,
+  "assembly_stl": {
+    "filename": "wheel_leg_assembly.stl",
+    "units": "mm",
+    "purpose": "assembled multi-shell reference; CNC uses cnc/*.step; individual PETG parts use print/*.stl",
+    "objects": 273,
+    "mesh_objects": [
+      "D435_official_ROS_mesh"
+    ],
+    "facets": 2951880,
+    "file_bytes": 147594084,
+    "dimensions_mm": [
+      225.36573028564453,
+      393.20001220703125,
+      311.9794616699219
+    ],
+    "coordinates": "X forward, Y lateral, Z up; hip axis at Z=0",
+    "linear_deflection_mm": 0.12,
+    "includes": [
+      "custom CNC structure",
+      "PETG electronics enclosure and trays",
+      "original motor STEP geometry",
+      "NSK626ZZ1 single per A/B/C, mechanically retained; not load rated",
+      "modelled joint fasteners and spacers",
+      "elastic tyre reference",
+      "NVIDIA official developer-kit STEP solids",
+      "RealSense official D435 ROS visualization mesh",
+      "assumed 400g battery and unselected IMU envelopes"
+    ],
+    "not_modelled": [
+      "unmodelled motor and chassis fasteners",
+      "cables and connector plugs",
+      "actual battery and selected IMU geometry",
+      "power distribution and DC/DC hardware"
+    ],
+    "mesh_scope": "Assembly visualization; vendor camera mesh may contain open surfaces. Individual manufactured-part meshes validated separately."
+  },
+  "source_hashes": {
+    "build_sleeved_robot.py": "67a65914f8f66c13b073dac8766f9a12379b8db5788e5d39009df99be0b9287d",
+    "cad_v6_leg.py": "abe2646d426fe4bd03c0f8ec4aa000e7cea71a055b00763f20e39e32ead2f091",
+    "cad_v6_chassis.py": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b",
+    "cad_v6_payload.py": "aab10d7f8257b0df8017cbadc6b2ffb334ed1c6f110767d1f638ab89ee815d93",
+    "cad_v6_jetson_mount.py": "465955c2eff340851ef9380ff2d76503026318f09a0466d4238e4e3478dcd5fa",
+    "analyze_v6_proportions.py": "7af6c123bccc060e7a79aff046c54df5bf70ef4d768a45c728becb9b3301a52e",
+    "analyze_v6_motor_load.py": "f4d89bd904ca40f486aa36560a67f7cb480cdcf88c5012ccc331b9d55f8d5694",
+    "render_sleeved_robot.py": "0c7fccbd1949e90122ca7c5fa9ddaa893ee185b9ff8c7b190bceaf808268099b",
+    "inspect_v6_jetson.py": "7b75e50b3c38492052079cdd250ba7c096f26b7ddefb330b31ca3a442f05ca37",
+    "inspect_v6_d435_mesh.py": "918a0d13660285b3815d02e399d9141eba5e053927f257b9cac21642b90f0eed",
+    "package_sleeved_robot.py": "2ad6e4f1e69f4e74389d76d2a6e6bc41c4c2b6ef72dec017356792b46c82ca9d",
+    "orient_v6_prints.py": "5bf2279b4ea95d90de84a9f5ab89b81625b89063437375403c97177d5975c3d6",
+    "build_enclosed_robot.py": "bc4af62fdcd54dda66cd1316733baf628c6b9bd7c6bf22b15b675786fbc48c4a",
+    "cad_v5_leg.py": "307f6673125dda29f26f4fe6a7e96fa4618e5c085840a1b6c3c6f5a5b715c4a0",
+    "cad_v5_chassis.py": "36402a87e09af281b11213371b4636179b61c5c8520334041f673548cc7a75d5",
+    "cad_v5_coupling.py": "09f9921c891a79dac08b2faabbb424ef15b77259ee9389e6ec9e3671556cf2c9",
+    "cad_v5_payload.py": "b218ed31748c907ebb0f367b67411fd2d7d13d43e0acde7cd8547ebfc8b3f917",
+    "build_printable_robot.py": "a8e5a1a8320c94eba38558cb6d5d6ebf215171f7e5f5f0e474eb2c5271494393",
+    "cad_chassis.py": "f92ef80ab47c039b3a239b16879fdcc54a7374f1fc7442cfaed197a76dfd8405",
+    "cad_v3_profiles.py": "c42db1a82ba6e3b79c23036b5544e6c98e7784d93776e03883c6f48b8907fd3b",
+    "build_reference_robot.py": "e43629396b1c8227dcb7999b0e1bb75c517fdf4ca981e889e087314e471b3afa",
+    "build_nested_robot.py": "5e3eb562cd59eee9245e8867bfc3028a801bb0d8d9a30e92bd3145b07a5e80be",
+    "render_nested_robot.py": "3ecc0a130259c794908dee808216a79b6548ae2b1b9ec674b4abfbddba5884e2",
+    "render_compact_robot.py": "02cd2e8f7e2e79c96fe8150d74323469dd6c291b1b6917a98fe0dfca571c5574",
+    "export_robot_assembly_stl.py": "934e5e8a89e59fb9203edba651c195194078841703a347840aad7a235e489ffe",
+    "validate_print_meshes.py": "edff02ac5a464ebc6c8209fd5e7c9accd0ca9ac87df1ab87a8ee6eff889ed022"
+  },
+  "limits": "Reviewable prototype. No jump, fatigue, thermal or manufacturing qualification; camera mesh is a dated official visualization with documented1mm depth discrepancy."
+}

@@ -1,0 +1,142 @@
+[
+  {
+    "rear_phase": 45,
+    "radial_distances": [
+      {
+        "radial_phase": 30,
+        "distance_mm": 0.5155969344649595,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 90,
+        "distance_mm": 10.60403108821387,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 150,
+        "distance_mm": 26.823371911309113,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 210,
+        "distance_mm": 35.177314526224706,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 270,
+        "distance_mm": 32.18647564075348,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 330,
+        "distance_mm": 19.488348564083097,
+        "overlap_mm3": 0.0
+      }
+    ]
+  },
+  {
+    "rear_phase": 135,
+    "radial_distances": [
+      {
+        "radial_phase": 30,
+        "distance_mm": 26.82337190987829,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 90,
+        "distance_mm": 10.604031088213867,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 150,
+        "distance_mm": 0.5155969337700108,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 210,
+        "distance_mm": 19.488348566744346,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 270,
+        "distance_mm": 32.186475627669004,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 330,
+        "distance_mm": 35.17731451618821,
+        "overlap_mm3": 0.0
+      }
+    ]
+  },
+  {
+    "rear_phase": 225,
+    "radial_distances": [
+      {
+        "radial_phase": 30,
+        "distance_mm": 35.177314526224706,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 90,
+        "distance_mm": 32.18647562758884,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 150,
+        "distance_mm": 19.488348564083086,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 210,
+        "distance_mm": 0.5155969344649531,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 270,
+        "distance_mm": 10.604031088213873,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 330,
+        "distance_mm": 26.82337191122818,
+        "overlap_mm3": 0.0
+      }
+    ]
+  },
+  {
+    "rear_phase": 315,
+    "radial_distances": [
+      {
+        "radial_phase": 30,
+        "distance_mm": 19.488348566744353,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 90,
+        "distance_mm": 32.18647562766901,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 150,
+        "distance_mm": 35.17731451618821,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 210,
+        "distance_mm": 26.8233719098783,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 270,
+        "distance_mm": 10.604031083043765,
+        "overlap_mm3": 0.0
+      },
+      {
+        "radial_phase": 330,
+        "distance_mm": 0.5155969339037834,
+        "overlap_mm3": 0.0
+      }
+    ]
+  }
+]

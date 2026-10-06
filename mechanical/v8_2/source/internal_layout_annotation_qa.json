@@ -1,0 +1,35 @@
+{
+  "source_images": [
+    {
+      "source_image": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_mujoco/mechanical/v8_2/previews/internal_cutaway.png",
+      "sha256": "74a6347de00d87a33dc2b86dafc1a31df107b1cbe7fa0a2f7c24c14f2010bf15",
+      "crop_box": [
+        397,
+        364,
+        1736,
+        1472
+      ]
+    },
+    {
+      "source_image": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_mujoco/mechanical/v8_2/previews/internal_cutaway_rear.png",
+      "sha256": "939803c7d0d338e5ccc3a97e65d51d302c974f514e79e153106a877082e1e8d0",
+      "crop_box": [
+        453,
+        202,
+        1810,
+        1566
+      ]
+    }
+  ],
+  "annotation_count": 10,
+  "canvas_size": [
+    3000,
+    2290
+  ],
+  "anchors_reviewed_in_source_pixels": true,
+  "svg": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_mujoco/mechanical/v8_2/previews/internal_structure_annotated.svg",
+  "png": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_mujoco/mechanical/v8_2/previews/internal_structure_annotated.png",
+  "native_sha256": "44ae8e5e32b553f4ae15e895c0b00e2c2ab878b36f9c37177b7182003815b944",
+  "final_visual_qa": "Passed: 10 numbered callouts checked against actual CAD geometry; Chinese labels legible.",
+  "native_saved": false
+}

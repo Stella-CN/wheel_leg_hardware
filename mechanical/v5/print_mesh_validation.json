@@ -1,0 +1,86 @@
+{
+  "units": "mm",
+  "results": [
+    {
+      "file": "D435_embedded_bracket.stl",
+      "facets": 1876,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        26.100000381469727,
+        108.0,
+        24.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "battery_tray.stl",
+      "facets": 3652,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        153.9929514657706,
+        58.0,
+        10.399999618530273
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "chassis_lid.stl",
+      "facets": 7440,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        200.0,
+        150.0,
+        3.000000000000014
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "chassis_upper_shell.stl",
+      "facets": 11380,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        200.0,
+        150.0,
+        35.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    },
+    {
+      "file": "electronics_tray.stl",
+      "facets": 3772,
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "dimensions_mm": [
+        188.0,
+        108.0,
+        3.0
+      ],
+      "on_bed": true,
+      "fits_bed": true,
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

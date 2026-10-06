@@ -1,0 +1,137 @@
+{
+  "standard_types": 23,
+  "standard_pieces": 274,
+  "source_rows_accounted": 83,
+  "covered_partition": {
+    "standard": 23,
+    "owned": 12,
+    "unresolved": 10,
+    "custom": 38
+  },
+  "formula_tests": [
+    {
+      "description": "标准件总量",
+      "actual": 274,
+      "expected": 274
+    },
+    {
+      "description": "LH01 库存和备件",
+      "actual": 47,
+      "expected": 47
+    },
+    {
+      "description": "LH01 库存足够",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "description": "LH01 缺库存",
+      "actual": "待核实",
+      "expected": "待核实"
+    },
+    {
+      "description": "LH01 总计保持待核实",
+      "actual": "待核实",
+      "expected": "待核实"
+    },
+    {
+      "description": "LH12 库存和备件",
+      "actual": 7,
+      "expected": 7
+    },
+    {
+      "description": "LH12 库存足够",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "description": "LH12 缺库存",
+      "actual": "待核实",
+      "expected": "待核实"
+    },
+    {
+      "description": "LH12 总计保持待核实",
+      "actual": "待核实",
+      "expected": "待核实"
+    },
+    {
+      "description": "EH03 库存和备件",
+      "actual": 5,
+      "expected": 5
+    },
+    {
+      "description": "EH03 库存足够",
+      "actual": 0,
+      "expected": 0
+    },
+    {
+      "description": "EH03 缺库存",
+      "actual": "待核实",
+      "expected": "待核实"
+    },
+    {
+      "description": "EH03 总计保持待核实",
+      "actual": "待核实",
+      "expected": "待核实"
+    },
+    {
+      "description": "轮胎库存未填",
+      "actual": "待核实",
+      "expected": "待核实"
+    },
+    {
+      "description": "轮胎库存明确为零",
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "description": "轮胎库存状态同步",
+      "actual": "需补齐数量",
+      "expected": "需补齐数量"
+    },
+    {
+      "description": "轮胎数量齐状态同步",
+      "actual": "数量已齐",
+      "expected": "数量已齐"
+    },
+    {
+      "description": "未知需求不能变零",
+      "actual": "待定",
+      "expected": "待定"
+    },
+    {
+      "description": "还原标准件总量",
+      "actual": 274,
+      "expected": 274
+    },
+    {
+      "description": "已有设备不采购",
+      "actual": 0,
+      "expected": 0
+    }
+  ],
+  "formula_errors": [],
+  "inspection": "{\"kind\":\"table\",\"sheet\":\"标准件采购\",\"address\":\"E8:I13\",\"rows\":6,\"cols\":5,\"values\":[[\"需求/件\",\"在手/件\",\"备件/件\",\"需购买/件\",\"使用模块\"],[46,0,0,46,\"M01、M02、M04、M05、M07\"],[14,0,0,14,\"M01、M02、M06\"],[20,0,0,20,\"M01、M02\"],[8,0,0,8,\"M01、M02\"],[30,0,0,30,\"M01、M02\"]]}",
+  "error_scan": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "verification_engine": "@oai/artifact-tool",
+  "native_excel_opened": false,
+  "inventory_defaults": "Standard 0; spare 0; unresolved inventory blank",
+  "visual_review": {
+    "all_worksheets_reviewed": true,
+    "previews_reviewed": [
+      "standard_top.png",
+      "standard_bottom.png",
+      "pending.png",
+      "optional_alternatives.png",
+      "owned.png"
+    ],
+    "result": "legible"
+  },
+  "saved_xlsx_readback": {
+    "engine": "openpyxl read only",
+    "passed": true,
+    "formula_cells": 39,
+    "tables": 3,
+    "cached_standard_total": 274
+  }
+}

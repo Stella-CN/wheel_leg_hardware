@@ -1,0 +1,487 @@
+{
+  "source_url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/orin_nano/docs/jetson_orin_nano_devkit_3d_step_model.zip/",
+  "referring_official_forum": "https://forums.developer.nvidia.com/t/nvidia-orin-nx-fitment-to-sodimm-connector-on-carrier-pcb/344045/5",
+  "official_catalog_url": "https://developer.nvidia.com/embedded/downloads.json",
+  "retrieved_local_date": "2026-09-22",
+  "anonymous_HTTP_status": 200,
+  "catalog_entry": {
+    "title": "Jetson Orin Nano Developer Kit 3D CAD STEP model",
+    "key": "jetson-orin-nano-developer-kit-3d-cad-step-model-20230320",
+    "url": "/embedded/jetpack",
+    "date": "2023/03/21",
+    "version": "20230320",
+    "description": "<p>3D CAD STEP model of Jetson Orin Nano Developer Kit (P3766 = P3767 module [envelop] + P3768 carrier board.)</p>",
+    "files": [
+      {
+        "iconClass": "fa-download",
+        "url": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/orin_nano/docs/jetson_orin_nano_devkit_3d_step_model.zip/",
+        "name": "Jetson Orin Nano Developer Kit 3D CAD STEP model"
+      }
+    ],
+    "hardware": [],
+    "product": [
+      "jetson_orin_nano"
+    ],
+    "software": [],
+    "libraries": [],
+    "developer_documentation": [],
+    "tools": [],
+    "gameworks": [],
+    "target": [],
+    "physx_sdk": [],
+    "graphics_api": [],
+    "development_platform": [],
+    "application": [],
+    "activity": [],
+    "additional": [],
+    "priority": 0
+  },
+  "archive": {
+    "file": "jetson_orin_nano_devkit_3d_step_model.zip",
+    "sha256": "9f00ff9b7fc36265842e6463bee6954350c461d4b0cd52c87aef3872baf8fe1c",
+    "bytes": 12998544
+  },
+  "STEP_header_timestamp": "2023-02-03T12:47:27",
+  "source_inspection": {
+    "file": "P3766-P3768SKU4-P3767ENVELOPE.stp",
+    "sha256": "02dafef626d5ac6ee029d1ead431d6096c27c7c51fef6b49d5189e1765fb9d2f",
+    "valid": true,
+    "solids": 1393,
+    "shells": 1925,
+    "faces": 57716,
+    "bounds_mm": [
+      -5.689502060672508,
+      97.68950206067251,
+      -18.876875,
+      72.18950206067251,
+      -5.038511124439999,
+      29.866000000000003
+    ],
+    "dimensions_mm": [
+      103.37900412134502,
+      91.06637706067251,
+      34.904511124440006
+    ]
+  },
+  "solid_only_cache": {
+    "file": "jetson_devkit_solids.brep",
+    "sha256": "cc28604269625d769ff3916b10ea22f3a35850f018e0473eaf6a597f23da7185",
+    "valid": true,
+    "solids": 1393,
+    "shells": 1398,
+    "faces": 55450,
+    "omitted_non_solid_shells": 527,
+    "derivation": "Part.makeCompound(original_shape.Solids); no solid geometry resized or substituted",
+    "bounds_mm": [
+      -5.689502060672508,
+      97.68950206067251,
+      -18.863000000841847,
+      72.18950206067251,
+      -5.038511124439999,
+      29.866000000000003
+    ],
+    "dimensions_mm": [
+      103.37900412134502,
+      91.05250206151436,
+      34.904511124440006
+    ]
+  },
+  "product_names": [
+    "000_ARVALA_TLA_ASM",
+    "032-0681-000_1",
+    "032-0696-000_1",
+    "032-0796-000_1",
+    "0402_H040",
+    "0402_H060",
+    "0603_H060",
+    "0603_H100",
+    "064-0267-000_1",
+    "064-0404-000_1",
+    "064-0437-000_1",
+    "065-0738-000_1",
+    "074-0221-000_3",
+    "074-0239-000_1",
+    "080-1243-000_3",
+    "080-1263-000_1_OBSOLETE",
+    "080-1263-000_2",
+    "080-1483-000_2",
+    "080-1655-000_3",
+    "080-1656-000_3",
+    "080-1890-000_1",
+    "080-1898-000_1",
+    "080-2191-000_1",
+    "0805_H140",
+    "0805_H150",
+    "0805_H160",
+    "085-0347-000_1",
+    "086-0311-000_1",
+    "090-0155-000_1",
+    "090-0172-000_1",
+    "090-0243-000_1",
+    "090-0296-000_2",
+    "090-0343-000_1",
+    "090-0377-000_1",
+    "090-0378-000_1",
+    "091-0022-000_1",
+    "092-0073-000_1",
+    "095-0180-000-TS1",
+    "095-0180-000-TS1_ASM",
+    "115-0085-000_1",
+    "115-0138-000_1",
+    "115-0655-000_3",
+    "115-1921-000_3",
+    "115-2177-000_2",
+    "115-2544-000_1",
+    "115-2747-000_1",
+    "115-2766-000_1",
+    "115-2791-000_1",
+    "115-2838-000_1",
+    "115-3110-000_1",
+    "1206_H180",
+    "130-1221-000_1",
+    "130-1404-000_1",
+    "142-13526-1000-A01-SKU0000",
+    "142-13526-1000-A01-SKU0000_ASM",
+    "155-0576-000",
+    "155-0697-000_2_AF0",
+    "155-0697-000_2_AF1",
+    "155-0697-000_2_AF2",
+    "155-0899-000",
+    "155-0900-000",
+    "155-0901-000",
+    "155-GROGU-000",
+    "174-0159-000_2",
+    "195-3883-000_1",
+    "300-0518-000_1",
+    "300-0859-000_1",
+    "300-0868-000_3",
+    "300-0906-000_1",
+    "300-1070-000_3",
+    "300-1133-000_1",
+    "300-1185-000_1",
+    "300-1253-000_1",
+    "300-1278-000_1",
+    "315-0992-000_1",
+    "315-1022-000_1",
+    "316-0538-000_1",
+    "316-0703-000_1",
+    "320-1004-000_2",
+    "330-0266-000_M2_WIFI_MODULE_ASM",
+    "330-0266-000_MODULE_BOARD",
+    "3514-IMPELLER-J441-346-2_6",
+    "3514_18",
+    "3514_ASM_1112_ASM",
+    "3514_ASM_2_ASM",
+    "375-0137-000",
+    "600-13768-0000-A04",
+    "600-13768-0000-A04_ASM",
+    "BGA234_055_750X1050_1",
+    "C0201_1",
+    "C0402_1XX",
+    "COAXIAL_CABLE_WIFI_LEFT_P3526",
+    "COAXIAL_CABLE_WIFI_P3526",
+    "DFN2X2-8_1",
+    "FID_40_80SM",
+    "GROGU_MODULE_BOARD_ME",
+    "LEAFSPRING-P3767-CG",
+    "LL_VENDOR_DATECODE_TOP_SML",
+    "LOGO_LABEL_699_PPID_0050X0050",
+    "LOGO_LABEL_PPID_0180X0050",
+    "LOGO_SILK_180_I560",
+    "LOGO_SILK_HF_I0185X0120",
+    "LTPT025C",
+    "LTPT071C125D",
+    "LTPT089C125D",
+    "L_2016_1",
+    "L_MAMK2520_1",
+    "M1_6_0_35PITX4MM_MACHINE",
+    "M2-M_GF_75P_88X22_1",
+    "MECH_RECT_01000X00790_HOLES_C_AF0",
+    "MULTI_QFN020R_P050_0025X00_GREY",
+    "NAND_BGA272_1",
+    "NVME-M-2_ASM",
+    "P3526_WIFI_ANT_LEFT_ASM",
+    "P3526_WIFI_ANT_MODULE_ASM",
+    "P3767-GROGU_ASM",
+    "P3767_ASM",
+    "P4M8A_VA_20220418C_1",
+    "P4M8A_VA_20220418C_ASM_1_ASM",
+    "QFN020Q_P050_0030_T018X018",
+    "QFN6_2X2MM_1",
+    "R0201_1",
+    "R0402_1XX",
+    "TP40MIL_1",
+    "VIRTUAL_SHORT",
+    "VSB_071C125D",
+    "VST_071C125D",
+    "VTB_045CT071CB125D020P",
+    "WIFI_ANTENNA_P3526",
+    "WIRE_FAN_P3518",
+    "WLP6_050_156X106_1",
+    "XTAL-20X16_1"
+  ],
+  "completeness": {
+    "carrier_board": "600-13768-0000-A04_ASM / P3768",
+    "module": "P3767 module envelope, as declared by NVIDIA",
+    "heatsink": "095-0180-000-TS1_ASM",
+    "fan": "3514_ASM_1112_ASM",
+    "base": "Included source solid index1266",
+    "optional_contents": [
+      "NVME-M-2_ASM",
+      "330-0266-000_M2_WIFI_MODULE_ASM",
+      "WiFi antenna assemblies"
+    ],
+    "limitation": "Full developer-kit mechanical reference, not a detailed internal thermal/inertial model; optional CAD contents need not equal the user's installed configuration"
+  },
+  "recommended_pose": {
+    "rotation_axis": [
+      0,
+      0,
+      1
+    ],
+    "rotation_deg": 90,
+    "translation_mm": [
+      1.66325103075716,
+      -46.0,
+      37.9
+    ],
+    "rule": "Rotate about source origin first, then translate; source front connector face -Y points to robot +X. Place physical base support plane sourceZ=-4.9 at globalZ=33, not the lower B-rep control bounding box.",
+    "resulting_BRep_control_bounds_mm": [
+      -70.52625102991534,
+      20.526251031599,
+      -51.68950206067251,
+      51.68950206067251,
+      32.86148887556,
+      67.766
+    ],
+    "actual_source_base_support_plane_z_mm": -4.9,
+    "actual_global_base_support_plane_z_mm": 33.0,
+    "actual_global_top_z_mm": 67.766,
+    "source_BRep_bbox_underreach_mm": 0.13851112444
+  },
+  "mounting": {
+    "carrier_through_hole_diameter_mm": 2.75,
+    "carrier_hole_spacing_mm": [
+      86.0,
+      58.0
+    ],
+    "carrier_hole_centres_source_mm": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        86,
+        0,
+        0
+      ],
+      [
+        0,
+        58,
+        0
+      ],
+      [
+        86,
+        58,
+        0
+      ]
+    ],
+    "source_surface_measurements": [
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          75.8,
+          58.5,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          75.8,
+          58.5,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          12.2,
+          58.5,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          12.2,
+          58.5,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          92.0,
+          0.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          92.0,
+          0.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          92.0,
+          58.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          92.0,
+          58.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          0.0,
+          58.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          0.0,
+          58.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          86.0,
+          58.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          86.0,
+          58.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          86.0,
+          0.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      },
+      {
+        "radius_mm": 1.375,
+        "centre_mm": [
+          86.0,
+          0.0,
+          0.0
+        ],
+        "z_range_mm": [
+          0.0,
+          1.57
+        ]
+      }
+    ],
+    "limitation": "Carrier holes already fasten to the original base. Base has blind/moulded details underneath; these are not verified through-mount holes for the whole kit. Retain base and use a separate peripheral cradle/retainer unless the physical fastener stack is verified.",
+    "recommended_chassis_fasteners": "M3 for the new peripheral cradle only; no unverified replacement NVIDIA screw size is claimed"
+  }
+}

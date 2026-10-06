@@ -1,0 +1,57 @@
+{
+  "process": "PETG, noncritical electronics restraint",
+  "custom_parts": 2,
+  "retained_original_kit": "Complete official NVIDIA base and carrier assembly, unmodified",
+  "tray_holes": {
+    "diameter_mm": 3.4,
+    "centres_xy_mm": [
+      [
+        -78.0,
+        -38.0
+      ],
+      [
+        -78.0,
+        38.0
+      ],
+      [
+        38.0,
+        -38.0
+      ],
+      [
+        38.0,
+        38.0
+      ]
+    ],
+    "z_range_mm": [
+      30,
+      33
+    ]
+  },
+  "fasteners": {
+    "screws": "4\u00d7ISO4762 M3\u00d710, headD5.5\u00d73, AF2.5",
+    "washers": "4\u00d7M3 washer OD7/ID3.2\u00d70.5",
+    "nuts": "4\u00d7M3 hex nut AF5.5\u00d72.4",
+    "structural_grip_mm": 6,
+    "washer_thickness_mm": 0.5,
+    "nominal_grip_mm": 6.5,
+    "nut_engagement_mm": 2.4,
+    "tip_projection_mm": 1.1
+  },
+  "retention": {
+    "side_wall_inner_y_abs_mm": 52.2,
+    "lip_inner_y_abs_mm": 50.7,
+    "lip_underside_z_mm": 40.0,
+    "front_stop_inner_x_mm": 21.0,
+    "rear_stop_inner_x_mm": -71.0,
+    "nominal_lip_to_max_base_rim_clearance_mm": 0.5
+  },
+  "assembly": [
+    "Install tray and accessible underside M3 washers/nuts; leave retainer screws loose",
+    "Position the complete NVIDIA kit on trayZ33 at the source-derived transform",
+    "Bring each retainer in from its side, engaging its lip above the plastic rim",
+    "Tighten the four M3 screws through the tray into underside nuts; verify the PCB and connector bodies remain untouched",
+    "Check the actual factory base fit and use thin removable soft pads if needed; never transmit clamp preload through the PCB"
+  ],
+  "print": "Bottom faceZ33 down, >=4 perimeters; small1.5mm retaining-lip overhang may need local support; do not use as robot load-bearing structure",
+  "limitations": "Restraint geometry and interface clearance checked; PETG creep, vibration and jump shock retention need physical validation"
+}

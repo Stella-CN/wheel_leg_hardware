@@ -1,0 +1,519 @@
+{
+  "reviewer": "Independent v3_joint_review agent",
+  "review_date": "2026-09-22",
+  "units": "mm",
+  "result": "No open geometric assembly blocker in the locally reviewed scope; manufacture remains conditional on fit calibration and load validation.",
+  "scope": "Read-only independent review of current native FreeCAD solids, A/B/C axial stacks, selected corrected interferences, fastener access, pin retention and manufacturer bearing abutment dimensions. This is not a repeat of the complete assembly sweep and is not a strength certification.",
+  "freecad_version": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "source_sha256": {
+    "tools/build_nested_robot.py": "0108291bcfa1cc8868b6b960d9750faac1b456de63bd461f949564c771c4fb87",
+    "tools/cad_v3_profiles.py": "c42db1a82ba6e3b79c23036b5544e6c98e7784d93776e03883c6f48b8907fd3b",
+    "tools/build_printable_robot.py": "11511d7930ee03b0e03640f0d25f712a40c8774e38e2f1458a2e94f8e7da5f51",
+    "mechanical/v3/design_parameters.json": "158d859ba6df936e58dfdc8005c85bca300ac5cfe85035c3de6e49157ef098e8"
+  },
+  "native_solid_checks": {
+    "OB_inner_full": {
+      "valid": true,
+      "solid_count": 1
+    },
+    "OB_outer_full": {
+      "valid": true,
+      "solid_count": 1
+    },
+    "OA_inner_hub": {
+      "valid": true,
+      "solid_count": 1
+    },
+    "OA_outer_cheek": {
+      "valid": true,
+      "solid_count": 1
+    },
+    "AC_bearing_link": {
+      "valid": true,
+      "solid_count": 1
+    },
+    "CW_main_inner": {
+      "valid": true,
+      "solid_count": 1
+    },
+    "CW_outer_fork": {
+      "valid": true,
+      "solid_count": 1
+    }
+  },
+  "nested_joint_sections": {
+    "A": {
+      "inner_ear": "OA_inner_hub",
+      "outer_ear": "OA_outer_cheek",
+      "ear_centre_z": -35,
+      "ear_y": [
+        [
+          150,
+          158
+        ],
+        [
+          174,
+          182
+        ]
+      ],
+      "tongue": "AC_bearing_link",
+      "tongue_local_z": 0,
+      "tongue_y": [
+        159,
+        173
+      ],
+      "pin_y": [
+        148.5,
+        183.5
+      ],
+      "section_witnesses": {
+        "inner_ear_material_at_local_x5": true,
+        "outer_ear_material_at_local_x5": true,
+        "tongue_material_at_local_x12": true
+      },
+      "support_geometry": "Metal pin crosses two 8 mm long metal sleeves on opposite sides of the bearing tongue.",
+      "unfilled_plastic_face_gap_mm": [
+        1,
+        1
+      ],
+      "gap_occupants": "One 1 mm steel inner-race washer each side; plastic faces retain a 1 mm nominal separation."
+    },
+    "C": {
+      "inner_ear": "CW_main_inner",
+      "outer_ear": "CW_outer_fork",
+      "ear_centre_z": 35,
+      "ear_y": [
+        [
+          150,
+          158
+        ],
+        [
+          174,
+          182
+        ]
+      ],
+      "tongue": "AC_bearing_link",
+      "tongue_local_z": -130,
+      "tongue_y": [
+        159,
+        173
+      ],
+      "pin_y": [
+        148.5,
+        183.5
+      ],
+      "section_witnesses": {
+        "inner_ear_material_at_local_x5": true,
+        "outer_ear_material_at_local_x5": true,
+        "tongue_material_at_local_x12": true
+      },
+      "support_geometry": "Metal pin crosses two 8 mm long metal sleeves on opposite sides of the bearing tongue.",
+      "unfilled_plastic_face_gap_mm": [
+        1,
+        1
+      ],
+      "gap_occupants": "One 1 mm steel inner-race washer each side; plastic faces retain a 1 mm nominal separation."
+    },
+    "B": {
+      "inner_ear": "OB_inner_full",
+      "outer_ear": "OB_outer_full",
+      "ear_centre_z": -130,
+      "ear_y": [
+        [
+          139,
+          147
+        ],
+        [
+          184,
+          192
+        ]
+      ],
+      "tongue": "CW_main_inner",
+      "tongue_local_z": 0,
+      "tongue_y": [
+        159,
+        173
+      ],
+      "pin_y": [
+        137.5,
+        193.5
+      ],
+      "section_witnesses": {
+        "inner_ear_material_at_local_x5": true,
+        "outer_ear_material_at_local_x5": true,
+        "tongue_material_at_local_x12": true
+      },
+      "support_geometry": "Metal pin crosses two 8 mm long metal sleeves on opposite sides of the bearing tongue.",
+      "unfilled_plastic_face_gap_mm": [
+        12,
+        11
+      ],
+      "gap_occupants": "A/C: one 1 mm steel inner-race washer each side. B: inner 11 mm tube plus 1 mm washer; outer 1 mm washer plus 10 mm tube."
+    }
+  },
+  "OB_complete_plate_evidence": {
+    "both_are_single_continuous_solids": true,
+    "both_extend_from_O_head_to_B": true,
+    "both_head_to_tail_z_range": [
+      -147.0,
+      40.0
+    ],
+    "outer_plate_is_full_length_not_short_B_cap": true,
+    "ties_per_leg": 4,
+    "metal_tube_length": 37,
+    "tie_centres_xz": [
+      [
+        31,
+        12
+      ],
+      [
+        31,
+        -12
+      ],
+      [
+        0,
+        -66
+      ],
+      [
+        0,
+        -93
+      ]
+    ]
+  },
+  "pin_retention": {
+    "A_C": {
+      "quantity_whole_robot": 4,
+      "diameter_nominal": 6,
+      "length": 35,
+      "assembly_y": [
+        148.5,
+        183.5
+      ],
+      "grooves_y": [
+        [
+          149,
+          149.8
+        ],
+        [
+          182.2,
+          183
+        ]
+      ],
+      "circlips_y": [
+        [
+          149.1,
+          149.8
+        ],
+        [
+          182.2,
+          182.9
+        ]
+      ],
+      "end_shims_y": [
+        [
+          149.8,
+          150
+        ],
+        [
+          182,
+          182.2
+        ]
+      ]
+    },
+    "B": {
+      "quantity_whole_robot": 2,
+      "diameter_nominal": 6,
+      "length": 56,
+      "assembly_y": [
+        137.5,
+        193.5
+      ],
+      "grooves_y": [
+        [
+          138,
+          138.8
+        ],
+        [
+          192.2,
+          193
+        ]
+      ],
+      "circlips_y": [
+        [
+          138.1,
+          138.8
+        ],
+        [
+          192.2,
+          192.9
+        ]
+      ],
+      "end_shims_y": [
+        [
+          138.8,
+          139
+        ],
+        [
+          192,
+          192.2
+        ]
+      ]
+    },
+    "groove_diameter": 5.7,
+    "groove_width": 0.8,
+    "steel_circlip_thickness": 0.7,
+    "maximum_circlip_clearance_envelope_diameter": 12,
+    "end_land_nominal": 0.5,
+    "note": "Circlips retain the shaft axially without screw preload. Groove, shim, bearing and print tolerances must be measured together; exact running endplay is not certified. Pins require machined grooves and deburring."
+  },
+  "bearing_and_sleeve_fit": {
+    "selected_bearing": "NSK 626ZZ1, 6 x 19 x 6; an alternative must satisfy the same abutment dimensions",
+    "manufacturer_inner_shoulder_db_max": 8.5,
+    "steel_inner_race_contact_od": 8.4,
+    "steel_inner_race_contact_id": 6.2,
+    "manufacturer_housing_shoulder_Db_min": 16.5,
+    "printed_central_web_relief_diameter": 16.8,
+    "nominal_radial_outer_ring_support_width": 1.174999999999999,
+    "bearing_seat_diameter": 19.15,
+    "sleeve_id": 6.05,
+    "sleeve_od": 8,
+    "sleeve_length": 8,
+    "printed_sleeve_bore_default": 8.05,
+    "coupon_bores": [
+      8,
+      8.05,
+      8.1,
+      8.15
+    ],
+    "nominal_sleeve_diametral_clearance": 0.05000000000000071,
+    "fit_note": "The CAD compensation is not a guaranteed interference fit. Select and calibrate the printed bore for a light press fit with no perceptible sleeve rocking or free rotation; reject a loose fit and reprint/calibrate. OD10 end shims and inner contact washers/tubes provide axial capture of the OD8 sleeves. Adhesive is optional only after PETG-metal compatibility tests, on the outer sleeve surface only; it is not a substitute for fit calibration."
+  },
+  "resolved_findings": [
+    {
+      "id": "C_fastener_blind_overlap",
+      "before": "Each M4x25 screw intersected the inner C cheek by 12.5664 mm3 because the clearance hole began at y158 while the tip began at157.",
+      "after": "Through clearance extends149..175; accessible captive-nut well extends149.9..162.3.",
+      "verified_common_volume_mm3": {
+        "C_fork_M4x25_0": 0.0,
+        "C_fork_M4x25_1": 0.0
+      }
+    },
+    {
+      "id": "AC_CW_middle_corner_overlap",
+      "before": "The straight middle-layer CW cutoff near C overlapped AC at the compressed 120 mm pose.",
+      "after": "CW middle arm ends at B z0 and is joined to a full circular R17 bearing boss.",
+      "local_rechecks": [
+        {
+          "leg_length_mm": 120,
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 1.0
+        },
+        {
+          "leg_length_mm": 121,
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 1.0
+        },
+        {
+          "leg_length_mm": 125,
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 1.0
+        },
+        {
+          "leg_length_mm": 150,
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 1.0
+        },
+        {
+          "leg_length_mm": 183.8477631085,
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 1.0
+        },
+        {
+          "leg_length_mm": 225,
+          "common_volume_mm3": 0.0,
+          "minimum_distance_mm": 1.0
+        }
+      ]
+    },
+    {
+      "id": "shielded_bearing_abutment",
+      "before": "Generic OD10 inner-race washers and a D10.4 central printed web could contact the shields of a 626ZZ1; a ring-envelope collision model could not reveal this.",
+      "after": "Selected NSK626ZZ1; adjacent steel contact OD8.4 and central printed relief D16.8 satisfy manufacturer db_max8.5 and Db_min16.5. B long OD10 tubes remain separated from each bearing by a 1 mm OD8.4 washer."
+    }
+  ],
+  "measured_hole_margins": {
+    "C_M4_hex_access_wells": [
+      {
+        "centre_xz": [
+          -9,
+          -20
+        ],
+        "hex_to_outer_mm": 3.095323388491943,
+        "hex_to_nearest_window_mm": 5.418954111023968
+      },
+      {
+        "centre_xz": [
+          9,
+          -20
+        ],
+        "hex_to_outer_mm": 3.361479303520957,
+        "hex_to_nearest_window_mm": 7.192858528404848
+      }
+    ],
+    "OB_M4_hex_nut_pockets": [
+      {
+        "centre_xz": [
+          31,
+          12
+        ],
+        "hex_to_outer_mm": 2.5882476096835996
+      },
+      {
+        "centre_xz": [
+          31,
+          -12
+        ],
+        "hex_to_outer_mm": 2.5882476096836076
+      },
+      {
+        "centre_xz": [
+          0,
+          -66
+        ],
+        "hex_to_outer_mm": 14.258175231095468
+      },
+      {
+        "centre_xz": [
+          0,
+          -93
+        ],
+        "hex_to_outer_mm": 13.773923320752726
+      }
+    ],
+    "curved_profile_windows": {
+      "OB": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3_at_t8": 67232.23796749204,
+        "minimum_window_to_outer_mm": 7.163748630826212,
+        "minimum_between_windows_mm": 17.5,
+        "window_radius_mm": 2.0,
+        "curve_types": [
+          "BSplineCurve",
+          "Circle"
+        ],
+        "minimum_tie_hole_to_window_mm": 6.299999999999997
+      },
+      "CW": {
+        "valid": true,
+        "solids": 1,
+        "volume_mm3_at_t8": 48649.21250903296,
+        "minimum_window_to_outer_mm": 6.149427369124525,
+        "minimum_between_windows_mm": 7.0,
+        "window_radius_mm": 2.0,
+        "curve_types": [
+          "BSplineCurve",
+          "Circle"
+        ]
+      }
+    },
+    "note": "Measured boundary distances are geometry evidence, not an allowable-stress calculation."
+  },
+  "whole_robot_reviewed_hardware_quantities": {
+    "626ZZ1": 12,
+    "ground_pin_D6_L35": 4,
+    "ground_pin_D6_L56": 2,
+    "steel_circlip_6mm": 12,
+    "bronze_sleeve_6p05_8_L8": 12,
+    "inner_race_spacer_OD8p4_ID6p2_L2": 6,
+    "inner_race_washer_OD8p4_ID6p2_t1": 12,
+    "shaft_end_shim_OD10_ID6p2_t0p2": 12,
+    "B_tube_OD10_ID6p2_L11": 2,
+    "B_tube_OD10_ID6p2_L10": 2,
+    "OB_tube_OD10_ID4p3_L37": 8,
+    "OB_M4x55": 8,
+    "OB_M4_nut": 8,
+    "OB_M4_washer": 8,
+    "C_fork_M4x25_90deg_countersunk": 4,
+    "C_fork_M4_nut": 4,
+    "OA_rotor_M3x40": 12
+  },
+  "fastener_checks": {
+    "OA_M3x40": {
+      "head_seat_y": 177,
+      "rotor_face_y": 140,
+      "clamped_length": 37,
+      "nominal_thread_engagement": 3,
+      "modeled_exposed_shaft_y": [
+        140,
+        177
+      ],
+      "thread_omission_note": "The 3 mm motor-engaged thread is omitted from the animated collision envelope because the supplied motor STEP has a rigid rotor. Interface engagement is checked analytically."
+    },
+    "OB_M4x55": {
+      "head_under_y": 192.8,
+      "tip_y": 137.8,
+      "nut_y": [
+        139,
+        142.2
+      ],
+      "tip_extension_past_nut_inner_face": 1.2
+    },
+    "C_M4x25": {
+      "overall_top_y": 182,
+      "tip_y": 157,
+      "nut_y": [
+        159,
+        162.2
+      ],
+      "tip_extension_past_nut_inner_face": 2,
+      "head": "90 degree countersunk, nominally at or below outside face; select actual head dimensions and seat depth."
+    }
+  },
+  "physical_limits": [
+    "No static-load, fatigue, impact or thermal-creep rating has been established for the printed links, metal pins, screw joints or hollow body.",
+    "Double-sided support reduces cantilever loading but does not eliminate pin bending or unequal reactions; the B tongue is not perfectly centred between the OB plates.",
+    "The fit coupon must be used with the actual printer, PETG, bearing and sleeve; nominal CAD diameters alone do not establish bearing retention or zero play.",
+    "Complete-assembly motion results belong to validation.json; this review only rechecks the listed local poses. Dynamic deflection, wire routing, circlip plier access under every possible assembly order and arbitrary poses outside the verified range are not certified.",
+    "Printed full-length OB outer heads are tied by four metal tubes; metal fasteners still load PETG locally and require controlled assembly and later preload/creep inspection."
+  ],
+  "references": [
+    {
+      "title": "NSK Rolling Bearings for Industrial Machinery — miniature metric 626/626ZZ1 abutments",
+      "url": "https://www.nsk.com/content/dam/nsk/common/catalogs/ctrgPdf/bearings/e1103c_partc.pdf",
+      "pdf_page_one_based": 31,
+      "printed_pages": "C060 / C061",
+      "visual_evidence": "source/NSK_626ZZ1_abutment_table_C060_C061.png",
+      "verified_values": {
+        "db_max": 8.5,
+        "Db_min": 16.5,
+        "d": 6,
+        "D": 19,
+        "B": 6
+      }
+    },
+    {
+      "title": "MISUMI External C-Rings STWN6",
+      "url": "https://us.c.misumi-ec.com/book/usa_2019_msm_fa/pdf/2629.pdf",
+      "verified_values": {
+        "shaft_diameter": 6,
+        "groove_diameter": 5.7,
+        "groove_width": 0.8,
+        "steel_ring_thickness": 0.7,
+        "minimum_end_land": 0.5,
+        "clearance_outer_diameter": 12
+      }
+    }
+  ],
+  "open_geometric_blockers": [],
+  "strength_validated": false
+}

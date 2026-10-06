@@ -1,0 +1,111 @@
+{
+  "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/3D\u6a21\u578b/DM-J4310-2EC-V1.1_3d_20260228_1.stp",
+  "source_sha256": "596fdb1d78232f4f4a30676451b2d03ee25be044e1de78c9396e3a454d86675e",
+  "code_sha256": "36402a87e09af281b11213371b4636179b61c5c8520334041f673548cc7a75d5",
+  "transform": "X180; translation Y72.5 mm",
+  "checks": [
+    {
+      "part": "chassis_side_right",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_stator_mount",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_stator_M3x6_CS_0",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_stator_M3x6_CS_1",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_stator_M3x6_CS_2",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_stator_M3x6_CS_3",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_stator_M3x6_CS_4",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_stator_M3x6_CS_5",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4x12_CS_0",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4_washer_0",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4_nut_0",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4x12_CS_1",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4_washer_1",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4_nut_1",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4x12_CS_2",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4_washer_2",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4_nut_2",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4x12_CS_3",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4_washer_3",
+      "overlap_mm3": 0.0,
+      "pass": true
+    },
+    {
+      "part": "hip_case_M4_nut_3",
+      "overlap_mm3": 0.0,
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "threads": "Exposed hardware only; engaged motor thread regions omitted from CAD; no real helical threads",
+  "threshold_mm3": 0.001
+}

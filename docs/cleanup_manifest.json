@@ -1,0 +1,1929 @@
+{
+  "date": "2026-10-06",
+  "policy": "Keep final deliverables for every revision, required source inputs and final report evidence; remove intermediate workspaces, redundant exports, caches, backups and iteration logs.",
+  "removed": [
+    {
+      "path": "tmp/fitprint_baseline/00_optional_calibration/CALI_hole_coupon_108x92_x01.stl",
+      "reason": "temporary workspace",
+      "size": 255484,
+      "sha256": "f743717666e8104b1571fbdebab00ec7fb1092bfbc5b42ff02bc61479ac37dc4"
+    },
+    {
+      "path": "tmp/fitprint_baseline/00_optional_calibration/孔位说明.json",
+      "reason": "temporary workspace",
+      "size": 2238,
+      "sha256": "8848853eb5f0fd1535d68358aab55c5d97d39da9cead0fd54dd3f7bf925cdfee"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/LC01_bearing_keeper_D28_D16_8_t0_8.step",
+      "reason": "temporary workspace",
+      "size": 9450,
+      "sha256": "808699c8277ddd5fb034573026f5622db1d6a77006bdfefbb0a68692faef257b"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/LC02_female_pin_D6_L14_05.step",
+      "reason": "temporary workspace",
+      "size": 6901,
+      "sha256": "e3d0de2acaa71f2b2286b1d823e1eff0c28ab3610721480ae5014db771d140f2"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/LC03_flanged_bush_inner_D8_D8p4_L3p75.step",
+      "reason": "temporary workspace",
+      "size": 8393,
+      "sha256": "9820482d1c4b7724d3aa85830fa7b0f9bf59415396b4ac4aa08c23234fa0fa6e"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/LC04_flanged_bush_outer_D8_D8p4_L4p20.step",
+      "reason": "temporary workspace",
+      "size": 8388,
+      "sha256": "77f07d3dbe94aa3069b241368aa079ac01ae1d99d0badc555d3ae9538f5689c7"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/LC05_axis_washer_D9_d2_2_t0_2.step",
+      "reason": "temporary workspace",
+      "size": 4964,
+      "sha256": "54f25991e6b2113a94dc01a6eddfb3a0ccd86c832380b6e95d0df0b25b2cafea"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/LC06_OA_angular_stop_M3_D4.step",
+      "reason": "temporary workspace",
+      "size": 12058,
+      "sha256": "7c6d1a5e7cc41214a8cf26ee960a1a215b5a455d6a3aa68d407e487c76565e45"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P01_chassis_belly_plate.step",
+      "reason": "temporary workspace",
+      "size": 66305,
+      "sha256": "cfc62e9d9a0528a36ab79db8c122c725149c2c5998a4a39c90107eedf19f3126"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P02_chassis_hip_frame_right.step",
+      "reason": "temporary workspace",
+      "size": 103292,
+      "sha256": "270e670141c3a6520480dc35877a31aaf3a150e97acf33e1fe95ab649f1d1296"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P03_chassis_hip_frame_left.step",
+      "reason": "temporary workspace",
+      "size": 104015,
+      "sha256": "b7526885f773d82620757716b67d1345d982c615d8d9a365c1dcae9eddccf316"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P04_chassis_front_crossframe.step",
+      "reason": "temporary workspace",
+      "size": 58774,
+      "sha256": "3bc95e766ea16ddc7071ffec639679be768e5c9c1a3d9559eb2eff26e7faac6b"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P05_chassis_front_shell.step",
+      "reason": "temporary workspace",
+      "size": 334902,
+      "sha256": "09ceca0592701c41d0306fa1ba4d9b0d14bf8fb7f676ab36aed6f93cff0f69f1"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P06_chassis_rear_cover.step",
+      "reason": "temporary workspace",
+      "size": 349504,
+      "sha256": "eefdc9c3b992458e489080099c51e454a0979255723819cc132c7a476ae7cbfd"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P07_display_front_bezel.step",
+      "reason": "temporary workspace",
+      "size": 57733,
+      "sha256": "0576082df0dd7c4a6fcdadd7303e8dfde458b486532d2c2f65d6b25c9ba089ce"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P08_shoulder_fairing_right.step",
+      "reason": "temporary workspace",
+      "size": 55688,
+      "sha256": "2101e7362f18960dfdffad1b60587887c82cf18ffcf1153efe622085dc2cd589"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P09_battery_tray.step",
+      "reason": "temporary workspace",
+      "size": 99404,
+      "sha256": "c4fa795b9be4fe2bdef5f3a497725006161891ed1967a68ee3a14fa8f1204393"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P10_electronics_tray.step",
+      "reason": "temporary workspace",
+      "size": 42167,
+      "sha256": "6144c513ea761f75c0b4ddae465cf3c4be74178c839b88a2dbcc998fd9846fa8"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P11_Jetson_base_retainer_right.step",
+      "reason": "temporary workspace",
+      "size": 68706,
+      "sha256": "a139aa71d85bb9a734d54ec473ad63c348d274dfcb430dd9341fa89980a546b3"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P12_Jetson_base_retainer_left.step",
+      "reason": "temporary workspace",
+      "size": 69315,
+      "sha256": "6182029b4ae1cd0eed0b5b6764c72770a5f81d590212067b82bfe0d5b53a3b2d"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P13_D435_embedded_bracket.step",
+      "reason": "temporary workspace",
+      "size": 70354,
+      "sha256": "6a9b56e2df4393b21a4d25fed67da2deca8a1675b6922f5c136e7cb5008a47cb"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P14_HI13R2_rigid_bridge.step",
+      "reason": "temporary workspace",
+      "size": 51292,
+      "sha256": "e600aff57ea780664a64bbd4c41c4c3ea3eac80534b03ce7d44139cd1ae65271"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P15_display_case_cradle_right.step",
+      "reason": "temporary workspace",
+      "size": 63709,
+      "sha256": "f1638be000002f1a881b6a66e8707829e76d6b70b54950f5931977a7420dade5"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P16_display_case_cradle_left.step",
+      "reason": "temporary workspace",
+      "size": 64338,
+      "sha256": "4be76d58f6c2349a3644abbd924c6752950439ea17fd2f60b526e598efc09aba"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P17_hip_stator_mount.step",
+      "reason": "temporary workspace",
+      "size": 37458,
+      "sha256": "f056e54a1e63352a3de8f25dca6fdf5f0250f80dcd0f489b433335777110fd86"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P18_hip_rotor_cnc.step",
+      "reason": "temporary workspace",
+      "size": 57717,
+      "sha256": "59c97c581fba651194cffe9dbab272d74734fe2892370c1095207e939e5f7dc3"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P19_knee_stator_cnc.step",
+      "reason": "temporary workspace",
+      "size": 67313,
+      "sha256": "f195515311b51e56a4244055e8b65b58286869b357a078e1cca39667c37b50d4"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P20_knee_stator_cnc_left.step",
+      "reason": "temporary workspace",
+      "size": 67575,
+      "sha256": "09d64238ffe17d3d5401043d94c315cae8f4e343063109189575745f5b269283"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P21_OB_inner_carrier.step",
+      "reason": "temporary workspace",
+      "size": 150950,
+      "sha256": "09a7b1546de9d8a4b5ac8fe70d4e64bca3bec4eafba912a5c4d76ef9d8117faa"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P22_OB_inner_carrier_left.step",
+      "reason": "temporary workspace",
+      "size": 152213,
+      "sha256": "2a15db33d2a52131c3b76bed8660883cb5859c873278f1607e00a78c8da5994c"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P23_OB_outer_shell.step",
+      "reason": "temporary workspace",
+      "size": 135870,
+      "sha256": "a52fa8b1b265aeb97b5e6fbe13e4f701fb3a833b099f7821c2ade4554b49d7ab"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P24_OB_outer_shell_left.step",
+      "reason": "temporary workspace",
+      "size": 137179,
+      "sha256": "830d6397494fda915d685189514e872f627854e9c6a9e3612dc53a85e31c987c"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P25_OA_one_piece.step",
+      "reason": "temporary workspace",
+      "size": 65237,
+      "sha256": "d3b7e8408f13f7bbb549cd11fc78c7b696651860cde6e2a248f40db38b5ea3fb"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P26_AC_bearing_link.step",
+      "reason": "temporary workspace",
+      "size": 40413,
+      "sha256": "c82f765f1b57708f9d1e5d68e2f17336b0e9e34a212e5a2de597b9da6a4aa62b"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P27_CW_one_piece.step",
+      "reason": "temporary workspace",
+      "size": 95510,
+      "sha256": "f1cbdf930836bca11b0368a8686693291f5393e2a0c08c3ba473033cd2f64890"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P28_CW_one_piece_left.step",
+      "reason": "temporary workspace",
+      "size": 96376,
+      "sha256": "0075cf105429f824444864ff0366a06870a5926a893c5044152fe666b353cf79"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P29_wheel_rim.step",
+      "reason": "temporary workspace",
+      "size": 30637,
+      "sha256": "7aa110dd29d574d918925f9073114c4b26f3512fee33f459eab4b4d6af733e58"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P30_electrical_service_carrier.step",
+      "reason": "temporary workspace",
+      "size": 100491,
+      "sha256": "214bae05ac4ae6922dde385aff0ff73790cbb2b45d80990d1482a1394d32e496"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P31_USB_hub_rear_clamp.step",
+      "reason": "temporary workspace",
+      "size": 45234,
+      "sha256": "ac52aef6effdbf8314d10ab1b89b3bae829c03771441c88cfd7ea93d56af4da7"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STEP_reference/P32_DC_charge_replaceable_plate.step",
+      "reason": "temporary workspace",
+      "size": 16829,
+      "sha256": "b8dc9cd95897ed572564fdb55ef03235282d8e93886bd6f0a45664a6d67ae9bb"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/LC01_bearing_keeper_D28_D16_8_t0_8_x06.stl",
+      "reason": "temporary workspace",
+      "size": 105684,
+      "sha256": "a2da78f91a9df8673bbd91cab56a9f5fdbe83904054f2a6c77ae967d75d38a6a"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/LC02_female_pin_D6_L14_05_x06.stl",
+      "reason": "temporary workspace",
+      "size": 62884,
+      "sha256": "83f69ca196ab63c3b7344da85689ddf16ba4cc1341db5b22725e9e148aefdd40"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/LC03_flanged_bush_inner_D8_D8p4_L3p75_x06.stl",
+      "reason": "temporary workspace",
+      "size": 84084,
+      "sha256": "988b0f1179c446cd12cd1d4413d1d1e4f005dc6e10ce5d7876b74cc7a00735cc"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/LC04_flanged_bush_outer_D8_D8p4_L4p20_x06.stl",
+      "reason": "temporary workspace",
+      "size": 84084,
+      "sha256": "d1448b6349da1e856d850b8a098b0706b87a9f6ddebff14f0c46a72289c09732"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/LC05_axis_washer_D9_d2_2_t0_2_x12.stl",
+      "reason": "temporary workspace",
+      "size": 42084,
+      "sha256": "13b7dd0123ef99f8e5b0ac802ca8c23bc18b339c31386a792f7ec6c348fcbb43"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/LC06_OA_angular_stop_M3_D4_x02.stl",
+      "reason": "temporary workspace",
+      "size": 63484,
+      "sha256": "3b1a5fa5dedeff813fb51a0ce416fd995308305c0af113e6b7a8ae1bdc2e9901"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/P17_hip_stator_mount_x02.stl",
+      "reason": "temporary workspace",
+      "size": 541484,
+      "sha256": "2856c5e896060d8f3901509becd6b3d075339beedb635c02cdb8b6f7cdc24cf3"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/P18_hip_rotor_cnc_x02.stl",
+      "reason": "temporary workspace",
+      "size": 574684,
+      "sha256": "3b046fc7bdc8d11461d49c46368bde1e541ce600210298e86b8409d3a578dbce"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/P25_OA_one_piece_x02.stl",
+      "reason": "temporary workspace",
+      "size": 577284,
+      "sha256": "2551f71b9422f6334028376c3abeb8e1e837da1769273e4a6feb361856cd5305"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/P26_AC_bearing_link_x02.stl",
+      "reason": "temporary workspace",
+      "size": 371984,
+      "sha256": "3bd3094b155c7b196a947cff46523c3858a36f266732dc8d94a3fe4560d85257"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/00_shared_leg_parts/P29_wheel_rim_x02.stl",
+      "reason": "temporary workspace",
+      "size": 406484,
+      "sha256": "e0fe431e930cd492d30ea720c81375ecaa62016551b4a42a6250b88b89826fff"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/01_left_leg/P20_knee_stator_cnc_left_x01.stl",
+      "reason": "temporary workspace",
+      "size": 395084,
+      "sha256": "8a798819af09232ee0d8329ee4da0214bb8ee465300b5eef098281e2cafc8d9c"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/01_left_leg/P22_OB_inner_carrier_left_x01.stl",
+      "reason": "temporary workspace",
+      "size": 692784,
+      "sha256": "a82641ee59274cbcdfeffcb875ca819ae8e4972d1e10021711f0efd4807924bb"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/01_left_leg/P24_OB_outer_shell_left_x01.stl",
+      "reason": "temporary workspace",
+      "size": 442084,
+      "sha256": "406c4bf87055e6f750bcb102cb85e67cd7d687b8e747fb807fd942843135a49f"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/01_left_leg/P28_CW_one_piece_left_x01.stl",
+      "reason": "temporary workspace",
+      "size": 565284,
+      "sha256": "b92090219740a2187af8b5ff08dbab1422657cb7439e27cff81f1f1582ad3b7a"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/02_right_leg/P19_knee_stator_cnc_x01.stl",
+      "reason": "temporary workspace",
+      "size": 395084,
+      "sha256": "adec33170619e95c96a88722c4ee619ba21d2abc06100b60d819555333e1d37b"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/02_right_leg/P21_OB_inner_carrier_x01.stl",
+      "reason": "temporary workspace",
+      "size": 692884,
+      "sha256": "5193e4d3480fb9ccb85b9f6c480a10279c7f3981befae2f55e13ca661262260d"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/02_right_leg/P23_OB_outer_shell_x01.stl",
+      "reason": "temporary workspace",
+      "size": 441584,
+      "sha256": "226d3e40530795caa0d28c77b668f0ed2696fc620db9345ea3e3b05c1065356b"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/02_right_leg/P27_CW_one_piece_x01.stl",
+      "reason": "temporary workspace",
+      "size": 565284,
+      "sha256": "3c0e80c83f3eec15986ba433fe3fc566c57174533c629208f3e1b354ccb7de68"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/03_chassis/P01_chassis_belly_plate_x01.stl",
+      "reason": "temporary workspace",
+      "size": 783884,
+      "sha256": "9d3b432a824e704e0d2ea47c7fb0cce6ee1f521fa201dc1ce467a2b7a5c699a1"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/03_chassis/P02_chassis_hip_frame_right_x01.stl",
+      "reason": "temporary workspace",
+      "size": 882484,
+      "sha256": "d1b90692ab5f46ddaf038fdb15bc5945724e8d7262ed0973365f0ed54ef52b1d"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/03_chassis/P03_chassis_hip_frame_left_x01.stl",
+      "reason": "temporary workspace",
+      "size": 882484,
+      "sha256": "a22d2430df2176e0194116a2fdd736e765fbb6b453ac68222c5e87dff5b04b32"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/03_chassis/P04_chassis_front_crossframe_x02.stl",
+      "reason": "temporary workspace",
+      "size": 340084,
+      "sha256": "1440dd87f309a5d51b478c9acb7d4193652a4d722437cdb63769e9133a10afeb"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/04_electronics_bay/P09_battery_tray_x01.stl",
+      "reason": "temporary workspace",
+      "size": 162284,
+      "sha256": "17b95460819c9636d68436cca27769cc9757bff80e027a2c5e71b267b071d154"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/04_electronics_bay/P10_electronics_tray_x01.stl",
+      "reason": "temporary workspace",
+      "size": 310284,
+      "sha256": "a12a49943f1caa928696da88f6f2596e90c3f3238d40fba527d49ad582e3f392"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/04_electronics_bay/P11_Jetson_base_retainer_right_x01.stl",
+      "reason": "temporary workspace",
+      "size": 181184,
+      "sha256": "716bcb2d0a55af291461535b815350de0e790f6d2afc47f0702592a6dfb49cef"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/04_electronics_bay/P12_Jetson_base_retainer_left_x01.stl",
+      "reason": "temporary workspace",
+      "size": 181184,
+      "sha256": "e037a3f66aa9636b1bcd7f693bf93dba6d9966983fecb5db03c67939a2340e72"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/04_electronics_bay/P14_HI13R2_rigid_bridge_x01.stl",
+      "reason": "temporary workspace",
+      "size": 175884,
+      "sha256": "8344a810c77da5ae7c58410e06414f3fe2f0ce04e0a3946272034e360c31ebd9"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/05_front_face/P07_display_front_bezel_x01.stl",
+      "reason": "temporary workspace",
+      "size": 301884,
+      "sha256": "db34a71d3700b1fcfddc8a8911c875147aa4daaee565b36ab85c32223c17fded"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/05_front_face/P13_D435_embedded_bracket_x01.stl",
+      "reason": "temporary workspace",
+      "size": 135884,
+      "sha256": "c29609bf46f7c2676dff0d6d423645894f4325530cde1d2e1bc1086f4d1173ef"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/05_front_face/P15_display_case_cradle_right_x01.stl",
+      "reason": "temporary workspace",
+      "size": 88984,
+      "sha256": "e933d813f732e9487ebffd765d11e056cb1a416eae2e69106635fc563c17feda"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/05_front_face/P16_display_case_cradle_left_x01.stl",
+      "reason": "temporary workspace",
+      "size": 88984,
+      "sha256": "7d31aef8f8e296cd36d6754ef8b45d0f25ab38094a7c20995758c6dba55d5490"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/06_shell/P05_chassis_front_shell_x01.stl",
+      "reason": "temporary workspace",
+      "size": 932884,
+      "sha256": "79ea295bc94258a2e669cee0f0ed780775c75ab2c2ccf0af9648fff0a222ff44"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/06_shell/P06_chassis_rear_cover_x01.stl",
+      "reason": "temporary workspace",
+      "size": 1176684,
+      "sha256": "f17d96a126d24c3a8d357881aa6253541adc888fe48a60fd964579e9c5e70ed0"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/06_shell/P08_shoulder_fairing_right_x02.stl",
+      "reason": "temporary workspace",
+      "size": 127284,
+      "sha256": "6b19ed0d09e7d16576bfb537262346c41439a01da051d55059e84b80db7a35e2"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/06_shell/P31_USB_hub_rear_clamp_x01.stl",
+      "reason": "temporary workspace",
+      "size": 85884,
+      "sha256": "34c69a8970ea629ab7b8a2d742459e29ec329435533dc9c8e1ae54b72b53bc36"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/06_shell/P32_DC_charge_replaceable_plate_x01.stl",
+      "reason": "temporary workspace",
+      "size": 85884,
+      "sha256": "193e9806e877a7545926b2e2f7c0b49d8a724386a909017c20ae3d21337d5325"
+    },
+    {
+      "path": "tmp/fitprint_baseline/STL/07_service_carrier/P30_electrical_service_carrier_x01.stl",
+      "reason": "temporary workspace",
+      "size": 576184,
+      "sha256": "b38adfaf107a6fcbca348113f6882ba9678b4fab30f9d2c257b13f6015055b6b"
+    },
+    {
+      "path": "tmp/fitprint_baseline/print_manifest.json",
+      "reason": "temporary workspace",
+      "size": 79492,
+      "sha256": "07abb19024e8e6f8dc70c55b1bd70d0ee27419215a91ec6399de392fa5b41f2e"
+    },
+    {
+      "path": "tmp/fitprint_baseline/print_validation.json",
+      "reason": "temporary workspace",
+      "size": 12480,
+      "sha256": "59ce5194c412e3eeaeedb9000d997998c78dc2510281dfa5ce0144103007ceda"
+    },
+    {
+      "path": "tmp/pdfs/d400.pdf",
+      "reason": "temporary workspace",
+      "size": 5536987,
+      "sha256": "d0156b43a82da64e809c6ae45a5b5d41f34d8697363534ed81f2e4407f38eaa4"
+    },
+    {
+      "path": "tmp/pdfs/d400.txt",
+      "reason": "temporary workspace",
+      "size": 370428,
+      "sha256": "3fe2d822f277864931d026a95c894e9cd0c5080eccd5bb938c956886670f39bf"
+    },
+    {
+      "path": "tmp/pdfs/d435_mount.png",
+      "reason": "temporary workspace",
+      "size": 207303,
+      "sha256": "19f9a367cff65df0ff2f8dea19c6998f8dc750fa4588a563e1d0857445904a41"
+    },
+    {
+      "path": "tmp/pdfs/h6215_specs.png",
+      "reason": "temporary workspace",
+      "size": 173074,
+      "sha256": "6b0428934b710547826226a32352869d516e05463875b14ca6451b6253e6b334"
+    },
+    {
+      "path": "tmp/pdfs/h6215_v2_specs.png",
+      "reason": "temporary workspace",
+      "size": 283886,
+      "sha256": "6b18a1ad30b11c41f4deb8d87625edb69c3d1926a6b31bdafe7b801e8ce2b708"
+    },
+    {
+      "path": "tmp/pdfs/j4310_specs.png",
+      "reason": "temporary workspace",
+      "size": 184959,
+      "sha256": "af379234495b0fdeb3e298b7d6dfdd09f9c1aeca14fb57f2b330657e99569ec5"
+    },
+    {
+      "path": "tmp/pdfs/orin_carrier.pdf",
+      "reason": "temporary workspace",
+      "size": 979573,
+      "sha256": "4a0f7ba948bce4881e176f0f8636ef3dbd40e3df9dd33134e6a7433359d18c02"
+    },
+    {
+      "path": "tmp/pdfs/orin_carrier.txt",
+      "reason": "temporary workspace",
+      "size": 107157,
+      "sha256": "ebc18733869561cd914385304394f24f2526134aa3ecc83bc8ed159a4c9d4b96"
+    },
+    {
+      "path": "tmp/pdfs/orin_full_dimensions.png",
+      "reason": "temporary workspace",
+      "size": 127473,
+      "sha256": "06aef834379a72900d3f5781756744584ebeca3e8f7e45d99bc07ab16559d2d3"
+    },
+    {
+      "path": "tmp/pdfs/v8_screen/page-1.png",
+      "reason": "temporary workspace",
+      "size": 159008,
+      "sha256": "b7095e16e20aa2a27c97d69a19a8c85b5022276f3889320cd40a19b0172a5e98"
+    },
+    {
+      "path": "tmp/pdfs/v8_screen/page-2.png",
+      "reason": "temporary workspace",
+      "size": 467121,
+      "sha256": "4adc17579ebe0b59d0a02db53f1d058afa3c2bc04ab362dde99131ae1c7bbd76"
+    },
+    {
+      "path": "tmp/pdfs/v8_screen/page-3.png",
+      "reason": "temporary workspace",
+      "size": 471430,
+      "sha256": "110582adb49c27dc97be546bf260c94eea0cfc9a9b000a43427b8f77027f0d67"
+    },
+    {
+      "path": "tmp/pdfs/v8_screen/spec.txt",
+      "reason": "temporary workspace",
+      "size": 3946,
+      "sha256": "17303bc8880f3f45a92fad36389f2500d1209d374e803b7f4adf62fc729649ef"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec12/page-11.png",
+      "reason": "temporary workspace",
+      "size": 640878,
+      "sha256": "faf0c1259e48560150df922f6034de41255cb951c64bc14eaa8ee0dc94ee9f19"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec12/page-12.png",
+      "reason": "temporary workspace",
+      "size": 657288,
+      "sha256": "33d7361126d2e6fa5d38adc8b6597fdb17c1681fc5992ae04c65e233bb52b96c"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/contact.png",
+      "reason": "temporary workspace",
+      "size": 736076,
+      "sha256": "73c9565ccb55684e3a4277f615ebb5a33c83de2cb5eb1d14ffed789efc4a22f5"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-01.png",
+      "reason": "temporary workspace",
+      "size": 694787,
+      "sha256": "7b1ca82408ccb1e4d3aec3050c28bb597d5d7d29f19072353b0e94164e6853b6"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-02.png",
+      "reason": "temporary workspace",
+      "size": 224280,
+      "sha256": "09c82b495d1468772ebbbe5170be24aaa7d25071414fd4164f3ba26f19f6c042"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-03.png",
+      "reason": "temporary workspace",
+      "size": 386196,
+      "sha256": "9eec33dcf2f8fba1ded5d38600bcf454a3505a6fb4b6faf856adacd7594f2f4d"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-04.png",
+      "reason": "temporary workspace",
+      "size": 422124,
+      "sha256": "e556232a86be25387e9dfbe0b8bde333d3f750ab85c58bfb36fd51310850153c"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-05.png",
+      "reason": "temporary workspace",
+      "size": 530857,
+      "sha256": "7346a86e28f7c06394609a738c539ab8e5f4f17dd54c4a26c3e851f1ff21fbf8"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-06.png",
+      "reason": "temporary workspace",
+      "size": 427289,
+      "sha256": "d9e36408704c82d3eae2e12e25c940169774e3d97d895e9bca7be38d9ee593b4"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-07.png",
+      "reason": "temporary workspace",
+      "size": 541329,
+      "sha256": "033270df31f587e22eb10d0f559143cbcf26660dd7430eb5eebd49f3952bd643"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-08.png",
+      "reason": "temporary workspace",
+      "size": 529738,
+      "sha256": "9a1134835dfacfde5611a6c6a4591197fd9f54c6889d7fef349e668228935c4e"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-09.png",
+      "reason": "temporary workspace",
+      "size": 445612,
+      "sha256": "09fa23969639916a52921c89f60a606a1ebd6871e6494f5e9f8355a27d431858"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-10.png",
+      "reason": "temporary workspace",
+      "size": 234716,
+      "sha256": "f43042b6429df53b0281cc1bb33fb39edfa4f1a1ef80b806df0ddc6d2c76eb9b"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-11.png",
+      "reason": "temporary workspace",
+      "size": 350887,
+      "sha256": "7b3535cb525de80337254edba0543ffba60870ff25c194809bc929e14390d9a2"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-12.png",
+      "reason": "temporary workspace",
+      "size": 357383,
+      "sha256": "e1b90c78cf05bc18d31a99abba7ee8b1797339b4eda129513251ae8b2a8fa6e6"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-13.png",
+      "reason": "temporary workspace",
+      "size": 335321,
+      "sha256": "d683844e5eb780581673860c7b9c2958944c087812e77141cafdeefb08391289"
+    },
+    {
+      "path": "tmp/pdfs/wheeltec24/page-14.png",
+      "reason": "temporary workspace",
+      "size": 237507,
+      "sha256": "dafb68bfcf6e74c3f80c4946f39bcf628d8c1643a2fea919e4535f4c802b5b48"
+    },
+    {
+      "path": "tmp/v81_bom_workspace/node_modules",
+      "reason": "temporary workspace",
+      "symlink": "/Users/lvjiaqing/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules"
+    },
+    {
+      "path": "tmp/v81_bom_workspace/previews/bom.png",
+      "reason": "temporary workspace",
+      "size": 318450,
+      "sha256": "33d96c2ee0dc9ad30aa461f77f540dc9d4dbc7d1ea87e8bafdbffbeb80bb07d6"
+    },
+    {
+      "path": "tmp/v81_bom_workspace/previews/bom_accessories.png",
+      "reason": "temporary workspace",
+      "size": 451222,
+      "sha256": "d57a1b57d16788ccdd3f1dfc43537d3e528f88341769dcaf2b3fb022e8a30d76"
+    },
+    {
+      "path": "tmp/v81_bom_workspace/previews/catalogue.png",
+      "reason": "temporary workspace",
+      "size": 274102,
+      "sha256": "914736d07629fa35de0a250ae84363e559ab0f481c52c4198b55f830827430b5"
+    },
+    {
+      "path": "tmp/v81_bom_workspace/previews/manufacturing.png",
+      "reason": "temporary workspace",
+      "size": 471406,
+      "sha256": "3f2bf33c04451bb1279a099c5badd43bb159b407356f2bd89e6207686fb59632"
+    },
+    {
+      "path": "tmp/v81_bom_workspace/previews/manufacturing_details.png",
+      "reason": "temporary workspace",
+      "size": 381558,
+      "sha256": "ecfa31883567d26ceadc4efb6690a8e255b54f4dbaace92dfde7754334815335"
+    },
+    {
+      "path": "tmp/v81_bom_workspace/previews/standard.png",
+      "reason": "temporary workspace",
+      "size": 425074,
+      "sha256": "ecdf8aeb0af4ab5fa469c293fec8bfe7a542d388e448eab3b5561b4b7721b33d"
+    },
+    {
+      "path": "tmp/v82_bom_workspace/node_modules",
+      "reason": "temporary workspace",
+      "symlink": "/Users/lvjiaqing/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules"
+    },
+    {
+      "path": "tmp/v82_bom_workspace/previews/bom.png",
+      "reason": "temporary workspace",
+      "size": 329252,
+      "sha256": "4c57d421185af162d61b9fee4faa7c1e89a92c296a2846153ce6e5e1caf015ce"
+    },
+    {
+      "path": "tmp/v82_bom_workspace/previews/bom_accessories.png",
+      "reason": "temporary workspace",
+      "size": 657311,
+      "sha256": "3ed854fa3447693cc9aa7be8ffff896a5a51ac7dfd74ad2819d79cdfc26521c5"
+    },
+    {
+      "path": "tmp/v82_bom_workspace/previews/catalogue.png",
+      "reason": "temporary workspace",
+      "size": 275034,
+      "sha256": "012823a735c589b252a944531574049486533e52d3773952a890912a1cf62ac1"
+    },
+    {
+      "path": "tmp/v82_bom_workspace/previews/manufacturing.png",
+      "reason": "temporary workspace",
+      "size": 510809,
+      "sha256": "09692d30865b2274e8b61a61c6cdcceb4740e4c365b025947009e7a61438e6aa"
+    },
+    {
+      "path": "tmp/v82_bom_workspace/previews/manufacturing_details.png",
+      "reason": "temporary workspace",
+      "size": 330287,
+      "sha256": "fa6d2b54b6fa8aa2c3446d678575010e52bdaba6a2f570c97cf1854e4915aa03"
+    },
+    {
+      "path": "tmp/v82_bom_workspace/previews/standard.png",
+      "reason": "temporary workspace",
+      "size": 437624,
+      "sha256": "69692ec8c50bfff76d2612b50269f6a84bf065fda18818390e518b5422d7d68c"
+    },
+    {
+      "path": "tmp/v83_fitprint_bom/node_modules",
+      "reason": "temporary workspace",
+      "symlink": "/Users/lvjiaqing/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules"
+    },
+    {
+      "path": "outputs/v81_bom_20260928/采购与制造BOM.xlsx",
+      "reason": "duplicate BOM exports verified identical",
+      "size": 27106,
+      "sha256": "fd80d4e74bfb917abd09473ed4b4bc18ed48dcf4202d898dae1d1fd1daf8b6d4"
+    },
+    {
+      "path": "outputs/v81_bom_20260928/采购与制造BOM.xlsx.inspect.ndjson",
+      "reason": "duplicate BOM exports verified identical",
+      "size": 475072,
+      "sha256": "1f54f133d318da48565a045087e3b433ea87090b77ca31fb77559fe9cbf63cd6"
+    },
+    {
+      "path": "outputs/v82_bom_20260928/采购与制造BOM.xlsx",
+      "reason": "duplicate BOM exports verified identical",
+      "size": 30939,
+      "sha256": "6063b04d740451082fac495935d1cadb0ed1b4f5fd76a603f8a1260839502575"
+    },
+    {
+      "path": "outputs/v82_bom_20260928/采购与制造BOM.xlsx.inspect.ndjson",
+      "reason": "duplicate BOM exports verified identical",
+      "size": 552482,
+      "sha256": "1130673eaeac80eb99fcab381822e56e8eec5f4acaf0c019c38af85bf3043123"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/build_compact_robot.py",
+      "reason": "superseded design workspace",
+      "size": 3639,
+      "sha256": "d9f77dce3726d36894262b25932146549fa4d2a473433047da87d0926f9a6849"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/cad_v4_coupling.py",
+      "reason": "superseded design workspace",
+      "size": 10162,
+      "sha256": "1932efb330c2f607612bc2e39f1421aacae2552c18b0416dcc1b9e689dcc2241"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/cad_v4_leg.py",
+      "reason": "superseded design workspace",
+      "size": 13427,
+      "sha256": "82fb04967f84677eb35ba93b3ae2c9adb8aa357e7f46270b5acb8c8fa4ef4175"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/design_parameters.json",
+      "reason": "superseded design workspace",
+      "size": 2058,
+      "sha256": "70171535f582ae6ae22c407aa3786d75c44735ebd8db3b2fec3630fc32f06421"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/joint_hardware_validation.json",
+      "reason": "superseded design workspace",
+      "size": 2266,
+      "sha256": "f2425f3c9fc3701e1975c8fc03bdf986a467c99bf237ca12c1ed3309038ffb5b"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/leg_layout_review.json",
+      "reason": "superseded design workspace",
+      "size": 5581,
+      "sha256": "988c17c5946d157c64353e9310b8edd9ec3e42c1dd29b2bc13623440fd2f3dc5"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/B_standoff_ID6_2_OD10_L7.step",
+      "reason": "superseded design workspace",
+      "size": 4953,
+      "sha256": "ddc9024888d60e29efc91bd6a81c0ed563ab0140e3ba9197784aa3ff898c88eb"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/OB_tube_ID4_3_OD10_L23.step",
+      "reason": "superseded design workspace",
+      "size": 4964,
+      "sha256": "0c716c8ad83c4e1949c7267ba8a22ca05887b11d64f475fe1a051880d66954d2"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/bushing_ID6_05_OD8_L6.step",
+      "reason": "superseded design workspace",
+      "size": 4965,
+      "sha256": "12a476ee280648df47657e0d9c5a0b0d18348d66fc62f3faaa25ed0158fc4d81"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/end_shim_ID6_2_OD10_t0_2.step",
+      "reason": "superseded design workspace",
+      "size": 4958,
+      "sha256": "ce2d5291401eeab569fc7da73fc9dbc4193d635ff00a8be4ed6ae02acc7ed038"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/ground_pin_D6_L31.step",
+      "reason": "superseded design workspace",
+      "size": 10315,
+      "sha256": "403cca23c2867bcb25fe38138c670b2ff7637b136baf1531ed6bdbf8e8a696a9"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/ground_pin_D6_L38.step",
+      "reason": "superseded design workspace",
+      "size": 10315,
+      "sha256": "36aba288559780b9982f837d3638606a655b2eccbd8e25d463c263bda12a4634"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/inner_spacer_ID6_2_OD8_4_L2.step",
+      "reason": "superseded design workspace",
+      "size": 4959,
+      "sha256": "f342e0af7c8aa18dfa389e7f071851172e0a4186cf0463dba17056646eaff7bd"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/pin_specification.json",
+      "reason": "superseded design workspace",
+      "size": 791,
+      "sha256": "edf80961ad688b7c680bee90c18c2af9865d74aaa53932958865a9344d6d5e6e"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/race_washer_ID6_2_OD8_4_t1.step",
+      "reason": "superseded design workspace",
+      "size": 4959,
+      "sha256": "9015769d05549a9dcf6b691e19762af8421aee4f057940741033626e554c97f2"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/metal_hardware/spacer_specification.json",
+      "reason": "superseded design workspace",
+      "size": 992,
+      "sha256": "d13bde61e5e5fb9d576f552de6e8b62f0885eb6f6c3611be0b3f3a5bfc993c46"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/part_manifest.json",
+      "reason": "superseded design workspace",
+      "size": 6705,
+      "sha256": "16d87573afb3a59b3f19942f41d38787283176aa6f8f9ed0a4a0dbe9159f4813"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/parts.csv",
+      "reason": "superseded design workspace",
+      "size": 1043,
+      "sha256": "11a2f663375095655cf1ddb4051f780070017f6ae419f6468e4e3ebe564baf5e"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/AC_bearing_link.stl",
+      "reason": "superseded design workspace",
+      "size": 167284,
+      "sha256": "f7256cd609e511cf05134896998c7474fa21db7d271bea0b442d721256488944"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/CW_main_inner.stl",
+      "reason": "superseded design workspace",
+      "size": 382884,
+      "sha256": "54040b8de1acba0735f0fa03ef8a8f07112f5f63aa208df3c59ba224c8c6809b"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/CW_main_inner_left.stl",
+      "reason": "superseded design workspace",
+      "size": 382884,
+      "sha256": "e717ca32980d6657145fe70d6410987cdbfb4c72d7dd52615b47f8ce1201ba30"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/CW_outer_fork.stl",
+      "reason": "superseded design workspace",
+      "size": 95084,
+      "sha256": "c2a414abd4e74c03a8207f39815b2956534add2ae6814c8c43595ae6f1231910"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/CW_outer_fork_left.stl",
+      "reason": "superseded design workspace",
+      "size": 95084,
+      "sha256": "f86ee74d85363b2f6f01cf1e11204c9900233558866d41d876626a4239386b9d"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/OA_inner_hub.stl",
+      "reason": "superseded design workspace",
+      "size": 172284,
+      "sha256": "565627d7d7cf1cbb09a39c79f86894e397de6f624e22cfc267bb35fabc337cba"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/OA_outer_cheek.stl",
+      "reason": "superseded design workspace",
+      "size": 214284,
+      "sha256": "73bd0a73a3e8b073939fbf90a0ea750b0d6985bae58d90c41d1967f2bd0d2e30"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/OB_inner_full.stl",
+      "reason": "superseded design workspace",
+      "size": 353084,
+      "sha256": "35a49ca4cfa478818d53535b1b7cd48e426805765703c38d4642611c1bec4de3"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/OB_inner_full_left.stl",
+      "reason": "superseded design workspace",
+      "size": 353284,
+      "sha256": "95ad319369510cde4ee51c3c4ae740fc64f28b58ab1690a5ac19efe89325a1b7"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/OB_outer_full.stl",
+      "reason": "superseded design workspace",
+      "size": 146484,
+      "sha256": "bb9eda3801dbb8d46e4e446532fb1b0591c81a783f49171d5dcf15a80a686f6e"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/OB_outer_full_left.stl",
+      "reason": "superseded design workspace",
+      "size": 146484,
+      "sha256": "3c67938d7eab864ee62bd6246efd99ff401ca30623acb7e640ab025ca97e501c"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/battery_tray.stl",
+      "reason": "superseded design workspace",
+      "size": 182684,
+      "sha256": "55a97fb62b62fe7a6f4941089a3fa5f8f0a9de2fa56f528c717cd8739c7b56c8"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/bearing_fit_coupon.stl",
+      "reason": "superseded design workspace",
+      "size": 57484,
+      "sha256": "b6bcdbd0e49bde26f22e39c396145cacebb74c967a0a64ea2e78c881f474357d"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/bushing_fit_coupon.stl",
+      "reason": "superseded design workspace",
+      "size": 57484,
+      "sha256": "e43ae0106ce119434203ef91fe4ad68c1b0567cf3f063b89a921517ccfc951a8"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/chassis_lid.stl",
+      "reason": "superseded design workspace",
+      "size": 145484,
+      "sha256": "eefd6e7196dce234159f4546570002bab23db0468c927e9931fa6018a2620304"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/chassis_lower_shell.stl",
+      "reason": "superseded design workspace",
+      "size": 800684,
+      "sha256": "357f4f4794761d64b17b52467622263bd976c1e349850d5f452d74c6b46b113b"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/electronics_tray.stl",
+      "reason": "superseded design workspace",
+      "size": 217084,
+      "sha256": "3a04caa1a2c4a0f4256433716d00b87865481445afb75fe70bad65e1361c2e75"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/hip_stator_mount.stl",
+      "reason": "superseded design workspace",
+      "size": 311284,
+      "sha256": "8e7adabf6529927e144a62cce5d0a3671763fc7d441f74c4aa2fbaac37e2cadb"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/print/wheel_rim.stl",
+      "reason": "superseded design workspace",
+      "size": 270384,
+      "sha256": "caf39f53f705c4804b732e177f8815fe75cb31b2daa70bf8e077875fda36f178"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/AC_bearing_link.step",
+      "reason": "superseded design workspace",
+      "size": 29795,
+      "sha256": "15b2ba6cd55e81f0bdc76ecebe3a70b9cb9ba03e12611a8dd6a0609ebe1a2ae0"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/CW_main_inner.step",
+      "reason": "superseded design workspace",
+      "size": 155304,
+      "sha256": "e8569e574ea4013fa39b1ff7a1125d8895189da20c4b79c962c0b6a97937d0c4"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/CW_main_inner_left.step",
+      "reason": "superseded design workspace",
+      "size": 156654,
+      "sha256": "84090a4acc18da58cedba9693a41c01390bf5706bf79395737bf2463be3b30f4"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/CW_outer_fork.step",
+      "reason": "superseded design workspace",
+      "size": 20193,
+      "sha256": "a3007a0dc4c2ef37e3f2c32d162cab107143c955c3d9ecd8befbb308853f55e9"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/CW_outer_fork_left.step",
+      "reason": "superseded design workspace",
+      "size": 20361,
+      "sha256": "8c33e0c2660d7d846c8f12e601224e66d32a0d59d07c5f4d7adf04397d08a89c"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/OA_inner_hub.step",
+      "reason": "superseded design workspace",
+      "size": 29645,
+      "sha256": "0a46cf0af1236cff3919b560e23ac0b27af4b04d45e9d27e8228e93b0187b74a"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/OA_outer_cheek.step",
+      "reason": "superseded design workspace",
+      "size": 34981,
+      "sha256": "c2beaf110bbf1fae6f9134c61eea3ec4d599b073140469792d76df5b16e752a0"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/OB_inner_full.step",
+      "reason": "superseded design workspace",
+      "size": 110960,
+      "sha256": "404c37682c8e6431de1c711774239724584ee943c71fc8082991147af0b048d7"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/OB_inner_full_left.step",
+      "reason": "superseded design workspace",
+      "size": 111938,
+      "sha256": "faac477683f47e2083d9629cc40eb99a3f7871fda1ce2b0b0aba6c545c8d879c"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/OB_outer_full.step",
+      "reason": "superseded design workspace",
+      "size": 51140,
+      "sha256": "49cea20ea2327ed979a076b7d04cd6ff7cd5770ca5bef29b3b34f46544baaf7b"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/OB_outer_full_left.step",
+      "reason": "superseded design workspace",
+      "size": 51571,
+      "sha256": "c51fd47be1a2197194cc8b7ec038926b16f0ea755ef7c51136340d84d3af7353"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/battery_tray.step",
+      "reason": "superseded design workspace",
+      "size": 79241,
+      "sha256": "0b8b1641b6c7a5862788fbcd02293b758e2d91e7303b62cc196f0f991a9bca1a"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/bearing_fit_coupon.step",
+      "reason": "superseded design workspace",
+      "size": 12686,
+      "sha256": "cbda9ec1544a26f1c598cab74279619bb442aa1474063b112d4ed5d2e499bd7b"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/bushing_fit_coupon.step",
+      "reason": "superseded design workspace",
+      "size": 12680,
+      "sha256": "8dbdc5d22865eaea0ecd55bf008643cdf0baeab776525717a2eff0f3b21ee698"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/chassis_lid.step",
+      "reason": "superseded design workspace",
+      "size": 75183,
+      "sha256": "fb096d90d26cf63d6efc8af27a34ef99fff71e1553b37bd3a28fe6660cd1f99b"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/chassis_lower_shell.step",
+      "reason": "superseded design workspace",
+      "size": 216903,
+      "sha256": "70ea7e373048aa8d063e4051b6ec7701c2cfc0659ab1fc6799a1e5d2d4c60468"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/electronics_tray.step",
+      "reason": "superseded design workspace",
+      "size": 64439,
+      "sha256": "58217b1feda1f8ce880b2f1cc76eb20eb32b103bdd267252171fa22898928860"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/hip_stator_mount.step",
+      "reason": "superseded design workspace",
+      "size": 39920,
+      "sha256": "5ec30bf999b549067f53fc1e01aa761acec146d80e526f036d68829d91c61c42"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/step/wheel_rim.step",
+      "reason": "superseded design workspace",
+      "size": 45678,
+      "sha256": "ab27e6001880763ca72f9be4cabf4c7fcc8d1fc9f60ad4da8b1027660f3f3ead"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/validation.json",
+      "reason": "superseded design workspace",
+      "size": 967,
+      "sha256": "04c3fafa4ea27d93109a92b73f57060acfa01ad2438f7bcb485209fabf64bb95"
+    },
+    {
+      "path": "mechanical/workbench/v4_35mm_petg/wheel_leg_v4.FCStd",
+      "reason": "superseded design workspace",
+      "size": 46434671,
+      "sha256": "2936c006358c2bce4358b1e43676f0278d4063546619de4f5dbc7fecdd311ecc"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v5_motor_load.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 35391,
+      "sha256": "1ac2f35046d7d8b91776ca117c20c230a1ed332e5f3a93c52bff3ac4d243db42"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v5_motor_load.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 33030,
+      "sha256": "e6948fb75c2415891bc0dcee7518575273ecba3540a0a1fcbc01717b2654cf33"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v6_motor_load.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 50083,
+      "sha256": "571d5d86eec35452d31e23f64e6abd05e0e65eadc07cbb3e66c0a35f82c0d1e6"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v6_motor_load.cpython-312.pyc",
+      "reason": "Python bytecode cache",
+      "size": 43725,
+      "sha256": "3b89445d33a17bb5fcdb51e2d416f64f3d54333f85df802b82665f7c5f1769be"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v6_motor_load.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 46230,
+      "sha256": "513f562ff5b1fb07aa1fcf08b8556cf68fa14fd680d260341f7052c314daebd2"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v6_proportions.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 31143,
+      "sha256": "9bf7348e78f77d5ddf74c7348130ca0efaf28f2bd5d089d44ebb894a25117239"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v6_proportions.cpython-312.pyc",
+      "reason": "Python bytecode cache",
+      "size": 27656,
+      "sha256": "824fac877aac872cfd413abd1996a776f6b8b84730025b54c91b6314ed619632"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v6_proportions.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 30743,
+      "sha256": "774126e88d7e80d7335045c98477d6a1400482938ebd3a2a591d17c39a6d5ad1"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v7_motor_load.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 37262,
+      "sha256": "cf53cd1e97b604b08abd35b796b9248ebf2019afdc617204e55fe5d58c2f98bc"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v7_motor_load.cpython-312.pyc",
+      "reason": "Python bytecode cache",
+      "size": 31906,
+      "sha256": "58805dd4f3ba0ba3417c05ad25e12939abd91b5404419c551f097a700c3ac6f5"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v7_motor_load.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 33659,
+      "sha256": "8867c1f4920fe435603d687f47322add5a9d37ffc893587d18126062a73077a1"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v8_motor_load.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 38654,
+      "sha256": "77cbab062e84566abe3efbc96e6484e7e346bfb3b61d7f0ce4d38d13738e0bf4"
+    },
+    {
+      "path": "tools/__pycache__/analyze_v8_motor_load.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 33977,
+      "sha256": "84826cea18d8ae8d60f359ddd112e15297dd5748ce595e13c1a61f6fe11ca280"
+    },
+    {
+      "path": "tools/__pycache__/build_enclosed_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10581,
+      "sha256": "40cc6a90f6f1c03d8ce73317930d720c44b3ef002a7a89de2b648165350731ad"
+    },
+    {
+      "path": "tools/__pycache__/build_enclosed_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10159,
+      "sha256": "2274ceb6fa1126b89071126b7398baaba674b1c0435d7242064b8a9b8075ed6c"
+    },
+    {
+      "path": "tools/__pycache__/build_faceted_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 6480,
+      "sha256": "7887409bf653c7dc7ff190d1f41b9c754981fe129a546f0ff0840ddafc054b4e"
+    },
+    {
+      "path": "tools/__pycache__/build_faceted_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 6192,
+      "sha256": "7bc65cef64cd38b4a16b6ee474646c2c0fba8c879e4b36757a3e816771f652b3"
+    },
+    {
+      "path": "tools/__pycache__/build_nested_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 23453,
+      "sha256": "c6578764bc5f4daaf0d667e150664aaf9277f89e46a1c8324b66ca25f45aebbe"
+    },
+    {
+      "path": "tools/__pycache__/build_printable_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 49735,
+      "sha256": "2b58c36afa8250f8930ddea9ba0cddeb977e229514f7e34d9643698682735cc5"
+    },
+    {
+      "path": "tools/__pycache__/build_printable_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 43194,
+      "sha256": "eda86331fc6f9caa5d295aa35a7e9d749448aef7a49a624919f4db7bcf277ffa"
+    },
+    {
+      "path": "tools/__pycache__/build_reference_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 15628,
+      "sha256": "66fed457437f2c17d0b9cd7cce869f13d3053c5ac3422b5ea70df1461051dea6"
+    },
+    {
+      "path": "tools/__pycache__/build_rounded_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 6206,
+      "sha256": "c89ea9c14fc26a61e36351307db22a234a2f1ef4d65ac3c63dc8b9977ad0f792"
+    },
+    {
+      "path": "tools/__pycache__/build_rounded_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 5919,
+      "sha256": "9333007dbcc7b37a094f8b8215673c5e1e3627bd1e188eaaf11af82be13177c0"
+    },
+    {
+      "path": "tools/__pycache__/build_sleeved_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 13820,
+      "sha256": "b40b823ae9ab63f9170c294e6fd19a0d35a8b656a23a9ac03fae49b1fa9c7f42"
+    },
+    {
+      "path": "tools/__pycache__/build_sleeved_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 12671,
+      "sha256": "1e8fe2c4429c48294d2d0f4691dcee5eac053cdfdbcf600b38f7405e66180ca5"
+    },
+    {
+      "path": "tools/__pycache__/build_v81_bom_data.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 20163,
+      "sha256": "7ecfbf68a6f12790c134d21817828e57a18cebb836fdab63ff9e61e584ff117c"
+    },
+    {
+      "path": "tools/__pycache__/build_v82_bom_data.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 25356,
+      "sha256": "427a3ad9e1ebae19524ac5f3aaf287f74002f2ebdfbc0ed7d620a22351af3a3c"
+    },
+    {
+      "path": "tools/__pycache__/cad_chassis.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 15954,
+      "sha256": "6aa517c364906e319f869dbb2ac33ab05eb998e53c7cbe26aa01f45f3f1e0e03"
+    },
+    {
+      "path": "tools/__pycache__/cad_v3_profiles.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 24503,
+      "sha256": "e87d58dcdddfdfdc539cf99f053726eec2ce742807999d5142a7d60dcc364d5d"
+    },
+    {
+      "path": "tools/__pycache__/cad_v4_coupling.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 17801,
+      "sha256": "4c46db14a087cc0164286b28b67b8e9ce02b573e776f290a9a02b54c608b7615"
+    },
+    {
+      "path": "tools/__pycache__/cad_v4_leg.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 27163,
+      "sha256": "669a977efc3812816096b4e4860637a1e35a44f1183c046452602ae0bea0a959"
+    },
+    {
+      "path": "tools/__pycache__/cad_v5_chassis.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 37011,
+      "sha256": "72b4fc5003433708688ff3c8b8adc5731de853ce261de66c434805e71003d22f"
+    },
+    {
+      "path": "tools/__pycache__/cad_v5_chassis.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 31987,
+      "sha256": "ab4e8c60eca64df592a62fbb7e4d2c2a9149226307b84027bda67c8dd0b88ca2"
+    },
+    {
+      "path": "tools/__pycache__/cad_v5_coupling.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 27097,
+      "sha256": "12d6fd98923d8565aaa172a5e5ad47ce089ac94d92550568396cf80cbe7d2d71"
+    },
+    {
+      "path": "tools/__pycache__/cad_v5_coupling.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 23645,
+      "sha256": "7b4ea0436def8304da2e77b80866279a7e23affe2b44bb474be9eebe9f166f79"
+    },
+    {
+      "path": "tools/__pycache__/cad_v5_leg.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 31919,
+      "sha256": "88055a3d22b026c0be6ec9e227ef699ef4c22d22d79c1ca77c94c12234ba43eb"
+    },
+    {
+      "path": "tools/__pycache__/cad_v5_leg.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 28177,
+      "sha256": "36c638f89eace329f7942e96ee76b4b9b35827c9df40a8e33e34445acbde90b3"
+    },
+    {
+      "path": "tools/__pycache__/cad_v5_payload.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 8395,
+      "sha256": "c4dab0d71b8aa73ebea9dbcc4f68515a87080f55fd882323c588222dd3036b44"
+    },
+    {
+      "path": "tools/__pycache__/cad_v5_payload.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 7521,
+      "sha256": "5f6cd8f625bd0d122b0319c11e089acf2ce5281aeb85b251bc0103a46c60c39f"
+    },
+    {
+      "path": "tools/__pycache__/cad_v6_chassis.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 29827,
+      "sha256": "26ee5a52a317ffb5a99a8d477a62a1e226a2884131808c9c5e9c92e243198afb"
+    },
+    {
+      "path": "tools/__pycache__/cad_v6_chassis.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 22426,
+      "sha256": "bb2dae676a4e59f8b0b3298bbeb90973f538b3797fc2f659947422ec57785c2e"
+    },
+    {
+      "path": "tools/__pycache__/cad_v6_jetson_mount.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 15632,
+      "sha256": "e655fdde2e3f33a61df2a920f4a4ef619fdbabfc524a4318de9c9779c3a56d27"
+    },
+    {
+      "path": "tools/__pycache__/cad_v6_jetson_mount.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 13648,
+      "sha256": "5475cc96fc91aca73f2a3342654f7b0d9d71ff58dc6521e89f2bfaa9aeab93f5"
+    },
+    {
+      "path": "tools/__pycache__/cad_v6_leg.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 35600,
+      "sha256": "26b82c0ab5fd01db58fe8b14860c4e7aaa4615ea03e3f2f61ff1b8e364317030"
+    },
+    {
+      "path": "tools/__pycache__/cad_v6_leg.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 30878,
+      "sha256": "70890090cd650cc75384d647c5c4d88c52c87a1852af5263cdc587836c181c63"
+    },
+    {
+      "path": "tools/__pycache__/cad_v6_payload.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 11648,
+      "sha256": "199e2f49fb4675b733218986f1c0ec351ef6f4390fe6b8f9c2fb1f71340b75cd"
+    },
+    {
+      "path": "tools/__pycache__/cad_v6_payload.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10789,
+      "sha256": "9925b3facac0daf532373d85b8aadce2556201d5859664aee6cd547fa4a7bcc8"
+    },
+    {
+      "path": "tools/__pycache__/cad_v7_chassis.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 31258,
+      "sha256": "1a9cae6d00e5f0cce34b187bf0d2afe39075a6d70d5a8165c91a4d18be3cfdd9"
+    },
+    {
+      "path": "tools/__pycache__/cad_v7_display.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10918,
+      "sha256": "1309bb3729030ae7a94d796d61c68b669ed2f9dae70cb5d6be52bf1cc6eeb0e4"
+    },
+    {
+      "path": "tools/__pycache__/cad_v7_display.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10421,
+      "sha256": "c5af7dc4c090f1cd38292be3977c7855688544c627201b74446291b789e705cc"
+    },
+    {
+      "path": "tools/__pycache__/cad_v7_imu.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 12096,
+      "sha256": "cbb4e5833d4549e812a64c033d34a7597861826ef9d0f17119b8e267220a117e"
+    },
+    {
+      "path": "tools/__pycache__/cad_v7_payload.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 11843,
+      "sha256": "1ee87340855458f0bb4306e1d0f91e73f589ee7cbd3373db4e3bd1fb097174ef"
+    },
+    {
+      "path": "tools/__pycache__/cad_v7_payload.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10668,
+      "sha256": "7f1e5dacb2276ecf8885c36d5ba6d33c734c9969c60d6b00a5e2f7d255708106"
+    },
+    {
+      "path": "tools/__pycache__/cad_v81_battery.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 26716,
+      "sha256": "321725b0b58106820f78a32ab28f8add458e294382571d4c21177a4a2b82824c"
+    },
+    {
+      "path": "tools/__pycache__/cad_v81_chassis.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 42886,
+      "sha256": "bde46afa5712e18ff045eb14b60133ddcb0318fe7ababf12d48a065b9173232a"
+    },
+    {
+      "path": "tools/__pycache__/cad_v81_coupling.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 8929,
+      "sha256": "f2531feef913ef64d7107475541adbfbda0ea0494c34f5d2ed24dfa4490e3752"
+    },
+    {
+      "path": "tools/__pycache__/cad_v81_display.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 11032,
+      "sha256": "4a216d847aa364823a7bdc497900a6dd74fa98daf194ce66c8fad8fd5331d109"
+    },
+    {
+      "path": "tools/__pycache__/cad_v81_leg.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10831,
+      "sha256": "95a345319ddc63a2c82d6f6a3870431b8637fda4308c597be143726b1ff926cc"
+    },
+    {
+      "path": "tools/__pycache__/cad_v81_payload.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 11455,
+      "sha256": "6eb9a82282e06b826ff93a2bbdc3da565fe9e1468572d36e74a71243718a21cf"
+    },
+    {
+      "path": "tools/__pycache__/cad_v8_chassis.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 26114,
+      "sha256": "048b610945f5160a04c66000740859ee2c4f405ca89c0b03db9ab39b34f99634"
+    },
+    {
+      "path": "tools/__pycache__/cad_v8_display.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10999,
+      "sha256": "dee2f485e4082ab05248d18ac50ad9aac4436423997d70fc27e7a7118ff01f0e"
+    },
+    {
+      "path": "tools/__pycache__/cad_v8_payload.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 6606,
+      "sha256": "fd691caf5e1e70a71556cbf0a7da2c29ca8ad17e753f937cf8aa220a9f0b2cdb"
+    },
+    {
+      "path": "tools/__pycache__/cad_v8_payload.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 5119,
+      "sha256": "f7f1ca7a3c22fa975c3e9ee7d0e3dc0716abefe961716fcf453cce6054839cf3"
+    },
+    {
+      "path": "tools/__pycache__/draw_v82_internal_layout.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 18059,
+      "sha256": "a17bc3d4b712d5790134aa99754ff8d660fb182042ba1d7e3a378b45a4cbbc95"
+    },
+    {
+      "path": "tools/__pycache__/export_robot_assembly_stl.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 5516,
+      "sha256": "fca585a001032c1661d838c185d0ba5bfb09775e1ca74f2c94b407f504552ad4"
+    },
+    {
+      "path": "tools/__pycache__/export_v83_print_trial.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 17646,
+      "sha256": "a217b57fd51f4f71f0ca1e4c6e3e5f925cc25543210f4853f07f2c41411d3f4c"
+    },
+    {
+      "path": "tools/__pycache__/export_v8_hardware.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 2323,
+      "sha256": "1cf04ad9fdb2cc25e8c034b2589537aa14d2dc97e19a47e439d65b0fcebab69f"
+    },
+    {
+      "path": "tools/__pycache__/finish_v82_electrical.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 15976,
+      "sha256": "72fa660f565474ee891460ab48bc4bb8d9dc4f1512f0f6f4e4b720374213e5e1"
+    },
+    {
+      "path": "tools/__pycache__/inspect_v6_d435_mesh.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 16991,
+      "sha256": "050a6154e2392ad369f36e719618dfe6900ed08728398fe54196357905c601ea"
+    },
+    {
+      "path": "tools/__pycache__/inspect_v6_d435_mesh.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 17911,
+      "sha256": "920d509d18f997c4a8e36ba248147b915165f591225d5500bbb885b72db1a805"
+    },
+    {
+      "path": "tools/__pycache__/inspect_v6_jetson.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 12250,
+      "sha256": "a7146fadf2725846b27a88b1d817592fdccb5b6117504dfc0f86e8e0d01f5f38"
+    },
+    {
+      "path": "tools/__pycache__/inspect_v82_board_models.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 17495,
+      "sha256": "c522878bd3ad9058541035e1553f82d7ced6883be4244b945d2855b4fe701f31"
+    },
+    {
+      "path": "tools/__pycache__/orient_v6_prints.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 5014,
+      "sha256": "762d6180c2a9fb380f09868abb8db5e6a2cad351487a8cc0495b6f1e0bc3d391"
+    },
+    {
+      "path": "tools/__pycache__/orient_v7_prints.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 4740,
+      "sha256": "68fa3b552298d90cdb402f2f3c76dca485d94fbb1b5e1cc925c08cd551221bf2"
+    },
+    {
+      "path": "tools/__pycache__/orient_v8_prints.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 5042,
+      "sha256": "c5edfa2df4ffdbbe5f8820cdc5b8661349324b5531c99eca64b627cc64bfb473"
+    },
+    {
+      "path": "tools/__pycache__/orient_v8_prints.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 4748,
+      "sha256": "2e9a5a0be887f879e57e14ad8abada01f2de480465cf0c14c622236d96f3f42b"
+    },
+    {
+      "path": "tools/__pycache__/package_enclosed_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 7016,
+      "sha256": "486f42f08147e91c594716b7a03f7a68836a16cb986fd3623acc9533e4634062"
+    },
+    {
+      "path": "tools/__pycache__/package_sleeved_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10534,
+      "sha256": "19d9acaeb96c9e8ef15955954ec58a99f934e4c6c0508f8cd5d10dc6591f3c9b"
+    },
+    {
+      "path": "tools/__pycache__/package_v81_prototype.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 7261,
+      "sha256": "9651f8c7ee0e4e07cf8d35f048ccdd00aa4068d9d5b320838870230dac1f064d"
+    },
+    {
+      "path": "tools/__pycache__/package_v82_electrical.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 8456,
+      "sha256": "c2db7d0434dcfd1d838c5eb821e3dfd244a4c3f4e621ecdcd1b085f1a14770ea"
+    },
+    {
+      "path": "tools/__pycache__/package_v83_print_trial.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 18942,
+      "sha256": "097fb61cc83bab6b0193fbb73971e5c049d60c2e5f9971af3bfc4dc112ef1c3e"
+    },
+    {
+      "path": "tools/__pycache__/render_compact_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10665,
+      "sha256": "fbdf5d1bb32b5a87609713d3896a655034ed4352c5cf0ccbf28984f893e926c2"
+    },
+    {
+      "path": "tools/__pycache__/render_enclosed_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 9719,
+      "sha256": "0fbca4ff9c86de26a0ea36a94430a2a2e320aac0ff8ac2ebc3d62959e4a46cb2"
+    },
+    {
+      "path": "tools/__pycache__/render_faceted_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10523,
+      "sha256": "f85715a01feccedc72bb7c3708c9c8a38b978db0e04d5617361ced7964428e93"
+    },
+    {
+      "path": "tools/__pycache__/render_faceted_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 8358,
+      "sha256": "346771ebff68a81b9de742574feed8a5bc8643cb8b4b53d6320b7ab91f312763"
+    },
+    {
+      "path": "tools/__pycache__/render_modular_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 11650,
+      "sha256": "5df3b1b1b125de3e6601c6b7a894140f1731150897df5f54257dc32776219ee6"
+    },
+    {
+      "path": "tools/__pycache__/render_nested_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 31559,
+      "sha256": "37ea2523f0547b44970fe3d9268063ec55b7b4bb8561dd2e1513f3e166eade86"
+    },
+    {
+      "path": "tools/__pycache__/render_nested_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 29087,
+      "sha256": "f1b1b1f1e96c5726763b17b585221964fb7a373e191a82bd37e085ce7a6196a5"
+    },
+    {
+      "path": "tools/__pycache__/render_rounded_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 9354,
+      "sha256": "2f5d3ba3c6eb049b48d6a675683ec11b4a177f22af14e83b245d21d3b9b6701e"
+    },
+    {
+      "path": "tools/__pycache__/render_sleeved_robot.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 18068,
+      "sha256": "a58e419891f26ae66f8bbd2980af1f6691a3879a0ff9798fc09719d0e2443228"
+    },
+    {
+      "path": "tools/__pycache__/render_sleeved_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 16814,
+      "sha256": "83f3391b8f0599b72b85c7abbe68ad33cea201129392e2daee369054439a6910"
+    },
+    {
+      "path": "tools/__pycache__/render_v82_robot.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 6466,
+      "sha256": "b2d3d87ae493f601c3927cc375c285c2c7d7f921ea7c478e5a6a726973ba5dab"
+    },
+    {
+      "path": "tools/__pycache__/review_v82_final_delta.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 18873,
+      "sha256": "8cfde8d2ac83cc1a072b860dadc7986981e1f656723e7d40f5dc92b8e7511f51"
+    },
+    {
+      "path": "tools/__pycache__/review_v82_integration.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 19174,
+      "sha256": "6e35181376c4775a5517dcd0becef6f941d92dda8d948988b9f4e9810e2fb00d"
+    },
+    {
+      "path": "tools/__pycache__/review_v8_unchanged_legs.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 6750,
+      "sha256": "2a844de78fc5bf320bd9fe2b00ed868e44eb22c08f66342d97cca2cd2b09760f"
+    },
+    {
+      "path": "tools/__pycache__/update_v81_battery.cpython-314.pyc",
+      "reason": "Python bytecode cache",
+      "size": 10325,
+      "sha256": "8a45567bf33e817980740406bebd22a420c808eabecc6a41819cdaa1337bed82"
+    },
+    {
+      "path": "mechanical/.DS_Store",
+      "reason": "cache or automatic backup",
+      "size": 8196,
+      "sha256": "62441f92fce8ae6c4d4cb4a2c18b06941e48081263ec2a4cc9199acdc4922083"
+    },
+    {
+      "path": "references/DM-J4310-2EC/.DS_Store",
+      "reason": "cache or automatic backup",
+      "size": 8196,
+      "sha256": "6cbb7722055297adc9a29502f318a27582081f613af96d253e9ce53a7dbde0fb"
+    },
+    {
+      "path": "mechanical/v6/leg_exploded_review.20260922-142813.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 25575649,
+      "sha256": "0661ca3bc9e9a612a16c6f5cb0518b9e63feb90e8b838b09725a051f1657b23c"
+    },
+    {
+      "path": "mechanical/v6/wheel_leg_v6.20260922-142829.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 58905758,
+      "sha256": "1885fd90d81b2c007e7ca85cc41d35b06dcd189e64d092e7218dcdbc2e98f3a9"
+    },
+    {
+      "path": "mechanical/v6/part_breakdown.20260922-142818.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 171298,
+      "sha256": "7bbc6c0f165365358940c504cb59cfdd2af811790d06d2f6e81cda9f268e350b"
+    },
+    {
+      "path": "mechanical/v6/OB_shell_inside.20260922-142805.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 64703,
+      "sha256": "32501f8f418f1f1a68d5819b40ec8e93d58c2b7aeb2fb536acf495ff15ec7d0d"
+    },
+    {
+      "path": "mechanical/v1/render.log",
+      "reason": "process log",
+      "size": 618,
+      "sha256": "467709191803729919cc9ca2f7e4390bb20d5b271470e0b8913cd0ea7b76f85a"
+    },
+    {
+      "path": "mechanical/v1/assembly_stl_export.log",
+      "reason": "process log",
+      "size": 680,
+      "sha256": "9ec242931b0cadde615da37e1be1926cb14dbdee53bfe028b057b3a5ab78dcae"
+    },
+    {
+      "path": "mechanical/v1/wheel_leg_v1.20260921-190801.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 46114406,
+      "sha256": "cad7269be397357484cfa8756551b5520387fb6bf00d1179ceedf6cdbc336a77"
+    },
+    {
+      "path": "mechanical/v1/build.log",
+      "reason": "process log",
+      "size": 911,
+      "sha256": "5fd3c11350d60075179e73a09c5ed3d8f85664638afc1e9a0a9f8c09714a61dc"
+    },
+    {
+      "path": "mechanical/v8/wheel_leg_v8.20260922-195656.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 58392882,
+      "sha256": "c67bf9fc744408e86eb16db5144bacaf32e8a73efd751110ce0e20cb896f6b17"
+    },
+    {
+      "path": "mechanical/v8_1/wheel_leg_v8_1.20260928-103952.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 58781321,
+      "sha256": "705e8c48187a632c4cd3b4c2a48403bb86749d19e1ebc4cc63a1e5594b50a870"
+    },
+    {
+      "path": "mechanical/v7/wheel_leg_v7.20260922-184607.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 58549089,
+      "sha256": "f3b90802b52389938b248782f9e8800d440e3d5b17970df7340b45a8231aef34"
+    },
+    {
+      "path": "mechanical/v8_3_print_trial/采购BOM.xlsx.inspect.ndjson",
+      "reason": "spreadsheet intermediate inspection",
+      "size": 189650,
+      "sha256": "3b2f86ac40c942534bbd538e9e5eb2afe398d27f37d59b0ac15237f16f3124e5"
+    },
+    {
+      "path": "mechanical/v2/wheel_leg_v2.20260921-201152.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 46242368,
+      "sha256": "5467ca2cc2659882529e2408db5d0c71dc493f2c465dcd6407369869fbd4436a"
+    },
+    {
+      "path": "mechanical/v8_3/wheel_leg_v8_3.20260928-170351.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 61709889,
+      "sha256": "eb9ada485904cf9e4a6bdd0a990e9ceabaa4c0b6edc454469d328a017145b4eb"
+    },
+    {
+      "path": "mechanical/v5/coupling_local_review.20260922-113942.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 22343472,
+      "sha256": "db631fac41c4eeb9e1571a92855f21fbc471258e20bcf7db683abfd6b5992e2b"
+    },
+    {
+      "path": "mechanical/v5/part_breakdown.20260922-121026.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 119595,
+      "sha256": "998682d2ac4bd86ef87cfd79f9043a942ead5061fdf50db065d0881cff9947e2"
+    },
+    {
+      "path": "mechanical/v5/leg_exploded_review.20260922-121021.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 25512102,
+      "sha256": "4e521bef1dfb4ae12ee7cbdf665fbfa3b8e8a3fb4b9dc1dc4ecc08f39dcc698b"
+    },
+    {
+      "path": "mechanical/v5/wheel_leg_v5.20260922-121035.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 47246538,
+      "sha256": "504bfdb6a415aa15b226afaa61e8af1b145e16e5ae59a3461179b0d606165b6c"
+    },
+    {
+      "path": "mechanical/v4/coupling_local_review.20260922-103122.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 22318742,
+      "sha256": "25969f7da171cf6ad440d4bdef5b45eb802b6d860afbc7dbce192a3115b782ab"
+    },
+    {
+      "path": "mechanical/v4/wheel_leg_v4.20260922-105400.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 47004250,
+      "sha256": "a0e87ebfa80f034a024a6108827b6bf69c65b59a58fa95c9938cf77e259a4fea"
+    },
+    {
+      "path": "mechanical/v8_2/wheel_leg_v8_2.20260928-161532.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 61437069,
+      "sha256": "e014445c865d7db670973499ceaa14e5cbec42168c3a5d641c8c395bd5108e03"
+    },
+    {
+      "path": "mechanical/v3/wheel_leg_v3.20260922-093822.FCBak",
+      "reason": "cache or automatic backup",
+      "size": 46313148,
+      "sha256": "53584d6eb1a5958d2b556c1be63480f754a9d4a1094ab46ace6467595799c113"
+    },
+    {
+      "path": "references/dm-tools/USB2CANFD_Dual/.DS_Store",
+      "reason": "cache or automatic backup",
+      "size": 10244,
+      "sha256": "0e0cf8ef86a00b15b9ce7a148ef05aa6173ba9b0fd8dbcbf3b3df9e31ef0a617"
+    },
+    {
+      "path": "mechanical/v8_2/source/routing_validation.log",
+      "reason": "process log",
+      "size": 22,
+      "sha256": "2a367e94e56ba65936602ef6a47ee6f7b12944af976c87133d03c67b0dc4eafe"
+    },
+    {
+      "path": "mechanical/v8_2/source/final_delta_validation.log",
+      "reason": "process log",
+      "size": 592,
+      "sha256": "9ebda055241722c9f567d2f98581848267a69ca8c371712602f0f652616a6995"
+    },
+    {
+      "path": "mechanical/v8_2/source/final_cut_validation.log",
+      "reason": "process log",
+      "size": 487,
+      "sha256": "3f523bb0ee41782eef367a573bcebd79edfaf06d6b104519db1c6c731344e8c4"
+    },
+    {
+      "path": "mechanical/v8_2/source/electrical_validation_full.log",
+      "reason": "process log",
+      "size": 2627,
+      "sha256": "b6c5940f11eb1f4f954a09f9c0cb44dc34887f520061a3602aaeffb26bb1c59d"
+    },
+    {
+      "path": "mechanical/v8_2/source/electrical_validation_static.log",
+      "reason": "process log",
+      "size": 3355,
+      "sha256": "a4e4c2204084d5cc3bd942e5556096d2a3c0ac3721259ffb5ccfa6eda07b25a2"
+    },
+    {
+      "path": "mechanical/v8_2/source/routes_final_update.log",
+      "reason": "process log",
+      "size": 19,
+      "sha256": "dc8036aebb8cb9e588d1ad58536dea6feb98ced0d3646ebe4934855416eb0b3b"
+    },
+    {
+      "path": "mechanical/v8_2/source/carrier_iteration2_clashes.json",
+      "reason": "superseded iteration diagnostic",
+      "size": 367,
+      "sha256": "82071953e60c05ec7af50c562c7b33c8cc1d4f89206156cee04f9faa446129a7"
+    },
+    {
+      "path": "mechanical/v8_2/source/electrical_validation_iteration1.json",
+      "reason": "superseded iteration diagnostic",
+      "size": 47986,
+      "sha256": "f96f428581569f60ecc98d9bc5e9d5a4f62876f089be21b3865035bd0ba829a4"
+    },
+    {
+      "path": "mechanical/v8_2/source/electrical_validation_iteration3.json",
+      "reason": "superseded iteration diagnostic",
+      "size": 42314,
+      "sha256": "9c08e55150f3e00368f58a18513220cb0805b5780b0a050ef7e29d2043824ff6"
+    },
+    {
+      "path": "mechanical/v8_2/source/routing_diagnostic_initial.json",
+      "reason": "superseded iteration diagnostic",
+      "size": 7065,
+      "sha256": "fe9e806063a6cd74b5156e648db6cc0e47c8e350f7ac5e561722d72d73815f81"
+    },
+    {
+      "path": "references/dm-tools/USB2CANFD_Dual/固件/.DS_Store",
+      "reason": "cache or automatic backup",
+      "size": 8196,
+      "sha256": "f085c26564932ca063902a9ce7378cdfb7218d927a81774b3ad614c7429532a2"
+    },
+    {
+      "path": "mechanical/v6/source/review_baselines/__pycache__/cad_v6_chassis_6c5ca468.cpython-311.pyc",
+      "reason": "Python bytecode cache",
+      "size": 29779,
+      "sha256": "4f7292ff039961dc00567a5e3ce89479b9d4615c864ddbe7d60b53849763505e"
+    },
+    {
+      "path": "references/dm-tools/USB2CANFD_Dual/固件/socketcan/.DS_Store",
+      "reason": "cache or automatic backup",
+      "size": 8196,
+      "sha256": "e36790c949dad733f9f6b9c406dd318ae72255c6d2138168df1d55be8b89b42e"
+    }
+  ]
+}

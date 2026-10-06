@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="810" viewBox="0 0 1100 810">
+<defs><marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#506775"/></marker></defs>
+<rect width="1100" height="810" fill="#f5f7f8"/>
+<g font-family="Arial, sans-serif" fill="#233747">
+<text x="55" y="52" font-size="27">V7 / 7-inch display mounting reference</text>
+<text x="55" y="86" font-size="17">All dimensions in mm · User drawing, not supplier-certified CAD</text>
+<rect x="165.0" y="130.0" width="660.0" height="440.0" rx="6" fill="#dce4e7" stroke="#334c59" stroke-width="2"/>
+<rect x="185.0" y="176.0" width="620.0" height="348.0" fill="#243c4b"/>
+<text x="495.0" y="346.0" text-anchor="middle" fill="white" font-size="23">155 × 87 active area</text>
+<text x="495.0" y="380.0" text-anchor="middle" fill="#bcd5df" font-size="20">1024 × 600 px</text>
+<circle cx="193.7246" cy="163.231" r="6" fill="white" stroke="#c57428" stroke-width="2"/>
+<circle cx="193.7246" cy="536.769" r="6" fill="white" stroke="#c57428" stroke-width="2"/>
+<circle cx="796.2754" cy="163.231" r="6" fill="white" stroke="#c57428" stroke-width="2"/>
+<circle cx="796.2754" cy="536.769" r="6" fill="white" stroke="#c57428" stroke-width="2"/>
+<path d="M193.7246,615 L796.2754,615" stroke="#506775" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="495.0" y="606" text-anchor="middle" font-size="18">150.6377 hole pitch</text>
+<path d="M165.0,663 L825.0,663" stroke="#506775" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="495.0" y="651" text-anchor="middle" font-size="18">165 overall</text>
+<path d="M895,163.231 L895,536.769" stroke="#506775" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="951" y="350.0" text-anchor="middle" font-size="18">93.3845</text>
+<path d="M102,130.0 L102,570.0" stroke="#506775" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<text x="65" y="350.0" text-anchor="middle" font-size="18">110</text>
+<path d="M193.7246,543.769 V624" stroke="#90a0a7"/>
+<path d="M796.2754,543.769 V624" stroke="#90a0a7"/>
+<text x="875" y="185" font-size="19">4 × Ø3</text>
+<text x="875" y="222" font-size="17">Depth: 20</text>
+<text x="875" y="252" font-size="17">Mass: ~265 g</text>
+<text x="55" y="715" font-size="18" fill="#a65f20">Hole-array centre assumed; carrier permits ±2 mm independently in both axes.</text>
+<text x="55" y="748" font-size="17">HDMI / USB exit to rear. Mounting-lug thickness and connector positions remain unmeasured.</text>
+<text x="55" y="779" font-size="17">Screenshot decimal digits are not manufacturing tolerances.</text>
+</g></svg>

@@ -1,0 +1,699 @@
+{
+  "units": "mm",
+  "source_sha256": "d2f66f8edd0fd1711fc2d8934316d8e5b13063e360ac6d05d923f0dd3c479a6b",
+  "architecture": "One full-height faceted enclosure, raked roof and tapered belly, vertical X-20 service split",
+  "parts": {
+    "chassis_belly_plate": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59985.54685498961,
+      "bbox": [
+        -87.0,
+        -72.0,
+        -50.0,
+        87.0,
+        72.0,
+        -39.0
+      ]
+    },
+    "chassis_hip_frame_right": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59335.142194363994,
+      "bbox": [
+        -86.0,
+        43.0,
+        -47.0,
+        86.0,
+        75.00000000000001,
+        47.0
+      ]
+    },
+    "chassis_hip_frame_left": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59335.142194363994,
+      "bbox": [
+        -86.0,
+        -75.00000000000001,
+        -47.0,
+        86.0,
+        -43.0,
+        47.0
+      ]
+    },
+    "chassis_front_crossframe": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 29167.42771896222,
+      "bbox": [
+        78.0,
+        -72.0,
+        -47.0,
+        86.00000000000001,
+        72.0,
+        47.0
+      ]
+    },
+    "chassis_rear_crossframe": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 29167.427718962233,
+      "bbox": [
+        -86.00000000000001,
+        -72.0,
+        -47.0,
+        -78.0,
+        72.0,
+        47.0
+      ]
+    },
+    "chassis_front_shell": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 280261.805967163,
+      "bbox": [
+        -56.00000000000001,
+        -104.0,
+        -55.1,
+        122.00000000000001,
+        104.0,
+        114.0
+      ]
+    },
+    "chassis_rear_cover": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 201377.8768723271,
+      "bbox": [
+        -110.0000000000001,
+        -86.0,
+        -55.2,
+        48.86422693721491,
+        86.0,
+        114.0
+      ]
+    },
+    "display_front_bezel": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 24088.149572199512,
+      "bbox": [
+        118.99999999999996,
+        -94.0,
+        -51.0,
+        122.0,
+        94.0,
+        67.0
+      ]
+    },
+    "shoulder_fairing_right": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 35284.444134681326,
+      "bbox": [
+        -53.5,
+        78.19999999999999,
+        4.999999999999976,
+        53.5,
+        130.0,
+        43.5
+      ]
+    },
+    "shoulder_fairing_left": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 35284.444134681326,
+      "bbox": [
+        -53.5,
+        -130.0,
+        4.999999999999976,
+        53.5,
+        -78.19999999999999,
+        43.5
+      ]
+    },
+    "battery_tray": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 26696.171419047227,
+      "bbox": [
+        -77.0,
+        -29.0,
+        -44.400000000000006,
+        77.0,
+        29.0,
+        -34.0
+      ]
+    },
+    "electronics_tray": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 49006.92213519392,
+      "bbox": [
+        -86.0,
+        -54.0,
+        29.999999999999993,
+        66.0,
+        54.0,
+        33.0
+      ]
+    },
+    "Jetson_base_retainer_right": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5408.051766969097,
+      "bbox": [
+        -82.0,
+        34.0,
+        32.999999999999986,
+        42.0,
+        56.2,
+        42.4
+      ]
+    },
+    "Jetson_base_retainer_left": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5408.051766969097,
+      "bbox": [
+        -82.0,
+        -56.2,
+        32.999999999999986,
+        42.0,
+        -33.99999999999999,
+        42.4
+      ]
+    }
+  },
+  "collisions": [],
+  "hardware_collisions": [],
+  "fasteners": [
+    {
+      "location": "belly plate to CNC side ledges",
+      "quantity": 8,
+      "spec": "DIN7991 M3x8",
+      "grip": 3,
+      "engagement": 5,
+      "access": "underside; unmodeled"
+    },
+    {
+      "location": "side frames to front/rear crossframe rails",
+      "quantity": 8,
+      "spec": "DIN7991 M3x8",
+      "grip": 3,
+      "engagement": 5,
+      "access": "outside before shells; unmodeled"
+    },
+    {
+      "location": "battery tray to belly posts",
+      "quantity": 4,
+      "spec": "M3x8 socket",
+      "grip": 3,
+      "engagement": 5,
+      "access": "rear opening; unmodeled"
+    },
+    {
+      "location": "electronics tray to side-frame shelves",
+      "quantity": 4,
+      "spec": "M3x8 socket",
+      "grip": 3,
+      "engagement": 5,
+      "access": "rear opening; unmodeled",
+      "centres_xy": [
+        [
+          -74.0,
+          -48.0
+        ],
+        [
+          -74.0,
+          48.0
+        ],
+        [
+          38.0,
+          -48.0
+        ],
+        [
+          38.0,
+          48.0
+        ]
+      ]
+    },
+    {
+      "location": "continuous front shell to front crossframe",
+      "quantity": 4,
+      "spec": "M3x14 socket",
+      "grip": 8,
+      "engagement": 6,
+      "access": "through 166 x 111 screen opening before display installation; screen fastener tool path not qualified; modeled grip and head",
+      "head_seat_x": 94,
+      "head_end_x": 97,
+      "screen_rear_x": 99
+    },
+    {
+      "location": "large rear cover to rear crossframe",
+      "quantity": 4,
+      "spec": "M3x30 socket",
+      "grip": 24,
+      "engagement": 6,
+      "access": "rear outside; modeled"
+    },
+    {
+      "location": "shoulder covers through main shell into side-frame bosses",
+      "quantity": 4,
+      "spec": "M3x20 socket",
+      "grip": 14,
+      "engagement": 6,
+      "access": "lateral outside; modeled",
+      "metal_face_y_abs": 75,
+      "body_face_y_abs": 86,
+      "head_seat_y_abs": 89
+    },
+    {
+      "location": "Jetson original-base peripheral retainers",
+      "quantity": 4,
+      "spec": "M3x10 + washer0.5 + M3 nut2.4",
+      "grip": 6,
+      "engagement": 2.4,
+      "access": "rear opening and under tray; modeled",
+      "source": "jetson_mount_specification.json"
+    },
+    {
+      "location": "IMU bridge feet to upper sideframe beams",
+      "quantity": 4,
+      "spec": "M3x8 socket; grip3, engagement5",
+      "centres_xy": [
+        [
+          -10.0,
+          -68.0
+        ],
+        [
+          -10.0,
+          68.0
+        ],
+        [
+          10.0,
+          -68.0
+        ],
+        [
+          10.0,
+          68.0
+        ]
+      ],
+      "tapping_face_z": 47,
+      "tapping_pilot_diameter": 2.5,
+      "tapping_depth": 6,
+      "note": "cylindrical tapping pilot plus drill point modeled; bridge owns fasteners"
+    }
+  ],
+  "display": {
+    "front_panel_x": 122,
+    "front_glass_x": 119,
+    "rear_x": 99,
+    "centre_z": 8,
+    "body_size_yz": [
+      165,
+      110
+    ],
+    "bezel_window_yz": [
+      157,
+      89
+    ],
+    "shell_device_aperture_yz": [
+      166,
+      111
+    ],
+    "bezel_outer_yz": [
+      188,
+      118
+    ],
+    "bezel_x": [
+      119,
+      122
+    ],
+    "pads": [
+      [
+        -89.0,
+        -38.0
+      ],
+      [
+        -89.0,
+        8.0
+      ],
+      [
+        -89.0,
+        54.0
+      ],
+      [
+        89.0,
+        -38.0
+      ],
+      [
+        89.0,
+        8.0
+      ],
+      [
+        89.0,
+        54.0
+      ]
+    ],
+    "pad_contact_x": 116,
+    "pad_thickness": 3,
+    "bezel_thickness": 3,
+    "hole_diameter": 3.4,
+    "assembly_limit": "Only bare 165 x 110 screen envelope insertion is checked. Carrier/washer/fastener/tool sequence remains conditional on actual mounting lugs."
+  },
+  "camera": {
+    "front_x": 122,
+    "centre_z": 88,
+    "window_y": [
+      -45.3,
+      45.3
+    ],
+    "window_z": [
+      75.2,
+      100.8
+    ],
+    "pad_contact_x": 119,
+    "pads": [
+      [
+        -50.0,
+        80.5
+      ],
+      [
+        -50.0,
+        96.5
+      ],
+      [
+        50.0,
+        80.5
+      ],
+      [
+        50.0,
+        96.5
+      ]
+    ]
+  },
+  "electronics": {
+    "tray_x": [
+      -86,
+      66
+    ],
+    "tray_y": [
+      -54,
+      54
+    ],
+    "tray_z": [
+      30,
+      33
+    ],
+    "tray_support_centres": [
+      [
+        -74.0,
+        -48.0
+      ],
+      [
+        -74.0,
+        48.0
+      ],
+      [
+        38.0,
+        -48.0
+      ],
+      [
+        38.0,
+        48.0
+      ]
+    ]
+  },
+  "imu": {
+    "bridge_holes_xy": [
+      [
+        -10.0,
+        -68.0
+      ],
+      [
+        -10.0,
+        68.0
+      ],
+      [
+        10.0,
+        -68.0
+      ],
+      [
+        10.0,
+        68.0
+      ]
+    ],
+    "metal_face_z": 47,
+    "roof_top": 114
+  },
+  "shoulder": {
+    "y_range": [
+      78.2,
+      130
+    ],
+    "motor_clearance_radius": 33,
+    "body_mount_y": 86
+  },
+  "qualification": "Local rigid chassis geometry only; full payload/leg motion checks owned by integrated build. No strength, drop or thermal qualification.",
+  "bare_screen_insertion": {
+    "method": "Exact straight prismatic sweep along X, bezel removed",
+    "screen_rear_x_start": 139,
+    "screen_rear_x_end": 99,
+    "overlap_mm3": 0.0,
+    "pass_geometry": true,
+    "limit": "Bare envelope only; mounted carriers, washers, leads and driver access are not covered."
+  },
+  "side_windows": {
+    "outlines_xz": {
+      "front": [
+        [
+          -10.0,
+          58.0
+        ],
+        [
+          24.0,
+          58.0
+        ],
+        [
+          35.0,
+          68.0
+        ],
+        [
+          35.0,
+          80.0
+        ],
+        [
+          22.0,
+          91.0
+        ],
+        [
+          -10.0,
+          91.0
+        ]
+      ],
+      "rear": [
+        [
+          -81.0,
+          61.0
+        ],
+        [
+          -71.0,
+          53.0
+        ],
+        [
+          -39.0,
+          53.0
+        ],
+        [
+          -34.0,
+          58.0
+        ],
+        [
+          -34.0,
+          86.0
+        ],
+        [
+          -44.0,
+          96.0
+        ],
+        [
+          -75.0,
+          96.0
+        ],
+        [
+          -81.0,
+          88.0
+        ]
+      ]
+    },
+    "front_window_to_split_mm": 10,
+    "rear_window_to_full_thickness_seam_land_mm": 9.7,
+    "sample_method": "Exact Y-directed solid chords beside each window; local checks, not a global wall-thickness or strength qualification",
+    "local_wall_samples": [
+      {
+        "part": "chassis_front_shell",
+        "x": -13,
+        "z": 75,
+        "side": -1,
+        "wall_chords_along_y_mm": [
+          3.2213832002946248
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_front_shell",
+        "x": 0,
+        "z": 55,
+        "side": -1,
+        "wall_chords_along_y_mm": [
+          3.0022181149056166
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_front_shell",
+        "x": 0,
+        "z": 94,
+        "side": -1,
+        "wall_chords_along_y_mm": [
+          3.8162598606361797
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_front_shell",
+        "x": 38,
+        "z": 75,
+        "side": -1,
+        "wall_chords_along_y_mm": [
+          3.2213832002946106
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_front_shell",
+        "x": -13,
+        "z": 75,
+        "side": 1,
+        "wall_chords_along_y_mm": [
+          3.2213832002946248
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_front_shell",
+        "x": 0,
+        "z": 55,
+        "side": 1,
+        "wall_chords_along_y_mm": [
+          3.0022181149056166
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_front_shell",
+        "x": 0,
+        "z": 94,
+        "side": 1,
+        "wall_chords_along_y_mm": [
+          3.8162598606361797
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_front_shell",
+        "x": 38,
+        "z": 75,
+        "side": 1,
+        "wall_chords_along_y_mm": [
+          3.2213832002946106
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_rear_cover",
+        "x": -84,
+        "z": 75,
+        "side": -1,
+        "wall_chords_along_y_mm": [
+          3.24645679685527
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_rear_cover",
+        "x": -55,
+        "z": 50,
+        "side": -1,
+        "wall_chords_along_y_mm": [
+          3.0022181149056166
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_rear_cover",
+        "x": -31,
+        "z": 75,
+        "side": -1,
+        "wall_chords_along_y_mm": [
+          3.2213832002946248
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_rear_cover",
+        "x": -60,
+        "z": 99,
+        "side": -1,
+        "wall_chords_along_y_mm": [
+          4.002072323094126
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_rear_cover",
+        "x": -84,
+        "z": 75,
+        "side": 1,
+        "wall_chords_along_y_mm": [
+          3.246456796855284
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_rear_cover",
+        "x": -55,
+        "z": 50,
+        "side": 1,
+        "wall_chords_along_y_mm": [
+          3.002218114905631
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_rear_cover",
+        "x": -31,
+        "z": 75,
+        "side": 1,
+        "wall_chords_along_y_mm": [
+          3.2213832002946248
+        ],
+        "pass_geometry": true
+      },
+      {
+        "part": "chassis_rear_cover",
+        "x": -60,
+        "z": 99,
+        "side": 1,
+        "wall_chords_along_y_mm": [
+          4.00207232309414
+        ],
+        "pass_geometry": true
+      }
+    ],
+    "all_sampled_wall_chords_at_least_2p9_mm": true,
+    "note": "Open ventilation/inspection windows; no dust or splash protection claim."
+  }
+}

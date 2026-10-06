@@ -1,0 +1,6 @@
+{
+  "pose_leg_length_mm": 183.8477631085,
+  "tested": "626 bearings, shoulder bolt envelopes and steel spacers vs manufactured parts",
+  "excluded": "motor/case/CNC fasteners, nuts, wires, bearing rolling elements",
+  "collisions": []
+}

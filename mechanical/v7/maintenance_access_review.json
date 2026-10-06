@@ -1,0 +1,120 @@
+{
+  "scope": "V7 maintenance access with new IMU bridge and display installed; fixed-orientation geometric path only",
+  "source_sha256": {
+    "cad_v7_chassis.py": "d2f66f8edd0fd1711fc2d8934316d8e5b13063e360ac6d05d923f0dd3c479a6b",
+    "cad_v7_payload.py": "78baeb7fdb1f7b9f1e71a4d1bc8541b61844f4c48a405faf72b76b4bb356ec29",
+    "cad_v7_display.py": "0fecd61e34a2bf85818c866d52954c27557345e5f01889661759d8932158cf78",
+    "cad_v7_imu.py": "b96c061cb0660e597c7a46729b3196a18f9267b1e918e4edb41ad4813b5b81a4",
+    "cad_v6_jetson_mount.py": "465955c2eff340851ef9380ff2d76503026318f09a0466d4238e4e3478dcd5fa"
+  },
+  "removed_before_tests": [
+    "both shoulder covers",
+    "rear cover and its4 M3x30",
+    "electronics-tray4 M3x8",
+    "rear-crossframe4 side-facing DIN7991 M3x8"
+  ],
+  "module": "Original Jetson kit, electronics tray, both retaining rails and their12 hardware objects remain together",
+  "original_kit_conservative_bounds_mm": [
+    -70.52625103033625,
+    -51.68950206067251,
+    32.86148887556,
+    20.5262510311781,
+    51.68950206067251,
+    67.766
+  ],
+  "module_bounds_mm": [
+    -86.0,
+    -56.2,
+    26.0,
+    66.0,
+    56.2,
+    67.766
+  ],
+  "rear_frame_opening_top_z_mm": 35.0,
+  "rear_frame_withdrawal_samples": [
+    {
+      "x_offset_mm": 0.0,
+      "collisions": []
+    },
+    {
+      "x_offset_mm": -0.5,
+      "collisions": []
+    },
+    {
+      "x_offset_mm": -4.0,
+      "collisions": []
+    },
+    {
+      "x_offset_mm": -16.0,
+      "collisions": []
+    },
+    {
+      "x_offset_mm": -40.0,
+      "collisions": []
+    },
+    {
+      "x_offset_mm": -100.0,
+      "collisions": []
+    }
+  ],
+  "straight_withdrawal_diagnostic": [
+    {
+      "moving": "Jetson_retainer_M3x10_3",
+      "target": "hip_motor_left",
+      "mm3": 13.129276658105839
+    },
+    {
+      "moving": "Jetson_retainer_M3_nut_3",
+      "target": "hip_motor_left",
+      "mm3": 25.857494096662222
+    },
+    {
+      "moving": "Jetson_retainer_M3x10_4",
+      "target": "hip_motor_right",
+      "mm3": 13.12927233666006
+    },
+    {
+      "moving": "Jetson_retainer_M3_nut_4",
+      "target": "hip_motor_right",
+      "mm3": 25.857508743537657
+    }
+  ],
+  "lift_height_mm": 4.0,
+  "lift_conservative_sweep_collisions": [],
+  "withdrawal_conservative_sweep_collisions": [],
+  "notes": [
+    "Rear crossframe must be removed: its opening endsZ35, below the kit topZ67.766.",
+    "The source kit envelope is conservative, not a changed or simplified delivered device model.",
+    "The low retainer screws/nuts stay with the module and initially extend down toZ26.",
+    "Lift is covered by each component bounding box swept upward4mm; withdrawal by the whole raised module box swept backward180mm.",
+    "Zero intersection of these conservative sweeps proves clearance over those straight translations at fixed orientation.",
+    "Rear-crossframe removal is checked at discrete positions, not claimed as a complete continuous sweep.",
+    "Cables, plugs, straps, free tool motion, hand access, tilt and physical tolerances are not included. Disconnect and support the module before moving it."
+  ],
+  "raised_module_bounds_mm": [
+    -86.0,
+    -56.2,
+    30.0,
+    66.0,
+    56.2,
+    71.766
+  ],
+  "withdrawal_swept_bounds_mm": [
+    -266.0,
+    -56.2,
+    30.0,
+    66.0,
+    56.2,
+    71.766
+  ],
+  "minimum_raised_module_z_mm": 30.0,
+  "hip_motor_maximum_z_mm": 28.500000000000743,
+  "nominal_vertical_gap_to_hip_motor_mm": 1.4999999999992575,
+  "pass": {
+    "rear_crossframe_sampled_withdrawal_clear": true,
+    "upward4mm_conservative_sweeps_clear": true,
+    "backward180mm_raised_module_conservative_sweep_clear": true
+  },
+  "source_unchanged_during_review": true,
+  "failures": []
+}

@@ -1,0 +1,146 @@
+{
+  "source_sha256": "6c5ca468937e011e070385949ad7fd5618ee7a5eab851bf9e1ed0f6d5753845e",
+  "parts": [
+    {
+      "part": "chassis_front_shell",
+      "mesh_closed": true,
+      "facets": 27404,
+      "dimensions_mm": [
+        124.0,
+        172.0,
+        134.0
+      ],
+      "print_dimensions_mm": [
+        172.0,
+        134.0,
+        124.0
+      ],
+      "orientation": "X-24 guide edge downward, +X upward; removable support under X-20 split rim",
+      "bed_220x220x250": true
+    },
+    {
+      "part": "chassis_rear_cover",
+      "mesh_closed": true,
+      "facets": 23188,
+      "dimensions_mm": [
+        90.0,
+        172.0,
+        134.0
+      ],
+      "print_dimensions_mm": [
+        172.0,
+        134.0,
+        90.0
+      ],
+      "orientation": "X-20 split plane downward, -X upward",
+      "bed_220x220x250": true
+    },
+    {
+      "part": "shoulder_fairing_right",
+      "mesh_closed": true,
+      "facets": 1720,
+      "dimensions_mm": [
+        106.98915100097656,
+        51.80000305175781,
+        38.5
+      ],
+      "print_dimensions_mm": [
+        106.98915100097656,
+        38.5,
+        51.80000305175781
+      ],
+      "orientation": "curved Y end face downward",
+      "bed_220x220x250": true
+    },
+    {
+      "part": "shoulder_fairing_left",
+      "mesh_closed": true,
+      "facets": 1720,
+      "dimensions_mm": [
+        106.98915100097656,
+        51.80000305175781,
+        38.5
+      ],
+      "print_dimensions_mm": [
+        106.98915100097656,
+        38.5,
+        51.80000305175781
+      ],
+      "orientation": "curved Y end face downward",
+      "bed_220x220x250": true
+    },
+    {
+      "part": "battery_tray",
+      "mesh_closed": true,
+      "facets": 3652,
+      "dimensions_mm": [
+        153.99295043945312,
+        58.0,
+        10.400001525878906
+      ],
+      "print_dimensions_mm": [
+        153.99295043945312,
+        58.0,
+        10.400001525878906
+      ],
+      "orientation": "original lowest Z face downward",
+      "bed_220x220x250": true
+    },
+    {
+      "part": "electronics_tray",
+      "mesh_closed": true,
+      "facets": 2572,
+      "dimensions_mm": [
+        152.0,
+        108.0,
+        3.0
+      ],
+      "print_dimensions_mm": [
+        152.0,
+        108.0,
+        3.0
+      ],
+      "orientation": "original lowest Z face downward",
+      "bed_220x220x250": true
+    },
+    {
+      "part": "Jetson_base_retainer_right",
+      "mesh_closed": true,
+      "facets": 1806,
+      "dimensions_mm": [
+        124.0,
+        22.200000762939453,
+        9.400001525878906
+      ],
+      "print_dimensions_mm": [
+        124.0,
+        22.200000762939453,
+        9.400001525878906
+      ],
+      "orientation": "original lowest Z face downward",
+      "bed_220x220x250": true
+    },
+    {
+      "part": "Jetson_base_retainer_left",
+      "mesh_closed": true,
+      "facets": 1806,
+      "dimensions_mm": [
+        124.0,
+        22.200000762939453,
+        9.400001525878906
+      ],
+      "print_dimensions_mm": [
+        124.0,
+        22.200000762939453,
+        9.400001525878906
+      ],
+      "orientation": "original lowest Z face downward",
+      "bed_220x220x250": true
+    }
+  ],
+  "followup_review": {
+    "file": "crossframe_reinforcement_review.json",
+    "source_sha256": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b",
+    "scope": "Four CNC frame pieces changed; all PETG shells, shoulder covers, electronics positions, hip interface geometry and leg geometry remain unchanged. New/changed CNC interfaces were retested in the linked incremental check."
+  }
+}

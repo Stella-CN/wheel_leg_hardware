@@ -1,0 +1,34 @@
+{
+  "filename": "wheel_leg_assembly.stl",
+  "units": "mm",
+  "purpose": "assembled multi-shell reference; CNC uses cnc/*.step; individual PETG parts use print/*.stl",
+  "objects": 302,
+  "mesh_objects": [
+    "D435_official_ROS_mesh"
+  ],
+  "facets": 2963170,
+  "file_bytes": 148158584,
+  "dimensions_mm": [
+    242.36573028564453,
+    393.20001220703125,
+    329.9794616699219
+  ],
+  "coordinates": "X forward, Y lateral, Z up; hip axis at Z=0",
+  "linear_deflection_mm": 0.12,
+  "includes": [
+    "unchanged V6 CNC legs and original motors",
+    "PETG small-radius rectangular body and removable front panel",
+    "NVIDIA official developer-kit STEP solids",
+    "RealSense official D435 ROS visualization mesh",
+    "HiPNUC official HI13XX-USB STEP at centred datum",
+    "GK-HD5 dimensional envelope and assumed400g battery"
+  ],
+  "not_modelled": [
+    "supplier GK-HD5 detailed geometry/active area/actual mass",
+    "unmodelled motor/chassis fasteners",
+    "cables/connector plugs",
+    "actual battery",
+    "power distribution/DC-DC"
+  ],
+  "mesh_scope": "Assembly visualization; vendor camera mesh may contain open surfaces. Individual manufactured-part meshes validated separately."
+}

@@ -1,0 +1,32 @@
+{
+  "source_sha256": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b",
+  "collisions": [],
+  "tested_pairs": 96,
+  "changed_parts": {
+    "chassis_hip_frame_right": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59396.50494634098
+    },
+    "chassis_hip_frame_left": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59396.50494634097
+    },
+    "chassis_front_crossframe": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 29167.42771896222
+    },
+    "chassis_rear_crossframe": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 29167.427718962233
+    }
+  },
+  "scope": "Crossframe rails X78..83 (5mm); side-frame ledges end at +-77.5; rear tray shelf starts X-77.5 with original X-74 hole; shell M3 receiving bores remain through X77.9..86.1. Other geometry unchanged.",
+  "minimum_hole_ligaments_mm": {
+    "crossframe_side_M3_X_edge": 2.75,
+    "rear_tray_shelf_M3_rear_edge": 2.25
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "units": "mm",
+  "source": "User dimensional screenshots and clarification",
+  "product_url": "https://detail.tmall.com/item.htm?id=639709410089&skuId=4607086052833",
+  "product_page_access": "Web fetch unavailable; no additional unverified dimensions inferred",
+  "display_inches": 7,
+  "resolution_px": [
+    1024,
+    600
+  ],
+  "mass_g": 265,
+  "outer_width_height_depth": [
+    165.0,
+    110.0,
+    20.0
+  ],
+  "active_width_height": [
+    155,
+    87
+  ],
+  "face_x": 119.0,
+  "rear_x": 99.0,
+  "center_z": 8.0,
+  "mounting_hole_diameter": 3.0,
+  "nominal_hole_pitch_yz": [
+    150.6377,
+    93.3845
+  ],
+  "nominal_hole_centres_yz": [
+    [
+      -75.31885,
+      -38.69225
+    ],
+    [
+      -75.31885,
+      54.69225
+    ],
+    [
+      75.31885,
+      -38.69225
+    ],
+    [
+      75.31885,
+      54.69225
+    ]
+  ],
+  "centred_array_is_assumption": true,
+  "nominal_edge_offsets": [
+    7.181150000000002,
+    8.307749999999999
+  ],
+  "carrier_adjustment_mm_each_axis": 2.0,
+  "carrier_square_windows": 6.8,
+  "adjustment_washers": [
+    14,
+    14,
+    1
+  ],
+  "rear_spacer": [
+    8,
+    3,
+    2
+  ],
+  "screen_fasteners": "4xM2.5 through screws with metal washers and locknuts. Length selected after measuring mounting-lug thickness; not modelled.",
+  "carrier_fasteners": "6xM3x16 with captiveM3 nuts; all modelled",
+  "connectors": "HDMI/USB/power face rear(-X); exact positions/plug dimensions unknown",
+  "limits": [
+    "Measure hole-array offset and mounting-lug plane before fabrication.",
+    "The screenshot precision is not a machining tolerance.",
+    "Do not tighten through glass/LCD; fasten the actual mounting tabs only.",
+    "2mm spacers are an initial packaging assumption, replace to match the lug datum."
+  ]
+}

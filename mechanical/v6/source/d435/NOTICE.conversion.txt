@@ -1,0 +1,8 @@
+RealSense D435 official ROS mesh conversion
+
+Source: https://github.com/realsenseai/realsense-ros/tree/ros2-master/realsense2_description
+Original d435.dae is retained unchanged.
+Derived d435_official_ros_mm.stl: COLLADA position coordinates multiplied by 1000 (metres to millimetres), original triangle order/winding retained; STL omits COLLADA material/colour data.
+No hole filling, mesh repair, smoothing, decimation, or substitute solid geometry was performed.
+The derived STL is a visualization mesh, not manufacturer solid CAD or a printable structural component.
+Repository/package license: Apache License 2.0; see LICENSE.realsense-ros and realsense2_description.package.xml.

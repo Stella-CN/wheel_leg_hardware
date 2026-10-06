@@ -1,0 +1,17 @@
+{
+  "license": "Apache License 2.0",
+  "license_saved": "LICENSE.realsense-ros",
+  "package_license_evidence": "realsense2_description.package.xml",
+  "notice_checks": [
+    {
+      "url": "https://raw.githubusercontent.com/realsenseai/realsense-ros/ros2-master/NOTICE",
+      "http_status": "404",
+      "curl_status": 0
+    },
+    {
+      "url": "https://raw.githubusercontent.com/realsenseai/realsense-ros/ros2-master/NOTICE.txt",
+      "http_status": "404",
+      "curl_status": 0
+    }
+  ]
+}

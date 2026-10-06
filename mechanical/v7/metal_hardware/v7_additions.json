@@ -1,0 +1,178 @@
+{
+  "custom_metal": [
+    {
+      "part": "display_washer_14x14_t1_d2p8",
+      "quantity": 4,
+      "source_assembly_part": "display_adjustable_washer_0",
+      "material": "steel washer/spacer; dimensional review before purchase"
+    },
+    {
+      "part": "display_spacer_D8_d3_t2",
+      "quantity": 4,
+      "source_assembly_part": "display_spacer_D8_d3_t2_0",
+      "material": "steel washer/spacer; dimensional review before purchase"
+    }
+  ],
+  "added_standard_hardware": [
+    {
+      "part": "M3x16 socket head",
+      "quantity": 6,
+      "location": "display bezel/shell/carriers"
+    },
+    {
+      "part": "M3 hex nut",
+      "quantity": 6,
+      "location": "display carriers"
+    },
+    {
+      "part": "M2.5 through screw, length TBD",
+      "quantity": 4,
+      "location": "screen mounting ears",
+      "status": "Not modelled: measure actual lug thickness/plane first"
+    },
+    {
+      "part": "M2.5 locking nut",
+      "quantity": 4,
+      "location": "screen mounting ears",
+      "status": "length/access selection pending"
+    },
+    {
+      "part": "M3x8 socket head",
+      "quantity": 4,
+      "location": "IMU bridge to metal sideframes",
+      "grip_mm": 3,
+      "thread_engagement_mm": 5
+    },
+    {
+      "part": "M2.5x16 socket head",
+      "quantity": 2,
+      "location": "HI13R2",
+      "head_diameter_mm": 4.5,
+      "head_height_mm": 2.5
+    },
+    {
+      "part": "M2.5 nut, AF5/thickness2",
+      "quantity": 2,
+      "location": "under IMU bridge"
+    }
+  ],
+  "chassis_fasteners": [
+    {
+      "location": "belly plate to CNC side ledges",
+      "quantity": 8,
+      "spec": "DIN7991 M3x8",
+      "grip": 3,
+      "engagement": 5,
+      "access": "underside; unmodeled"
+    },
+    {
+      "location": "side frames to front/rear crossframe rails",
+      "quantity": 8,
+      "spec": "DIN7991 M3x8",
+      "grip": 3,
+      "engagement": 5,
+      "access": "outside before shells; unmodeled"
+    },
+    {
+      "location": "battery tray to belly posts",
+      "quantity": 4,
+      "spec": "M3x8 socket",
+      "grip": 3,
+      "engagement": 5,
+      "access": "rear opening; unmodeled"
+    },
+    {
+      "location": "electronics tray to side-frame shelves",
+      "quantity": 4,
+      "spec": "M3x8 socket",
+      "grip": 3,
+      "engagement": 5,
+      "access": "rear opening; unmodeled",
+      "centres_xy": [
+        [
+          -74.0,
+          -48.0
+        ],
+        [
+          -74.0,
+          48.0
+        ],
+        [
+          38.0,
+          -48.0
+        ],
+        [
+          38.0,
+          48.0
+        ]
+      ]
+    },
+    {
+      "location": "continuous front shell to front crossframe",
+      "quantity": 4,
+      "spec": "M3x14 socket",
+      "grip": 8,
+      "engagement": 6,
+      "access": "through 166 x 111 screen opening before display installation; screen fastener tool path not qualified; modeled grip and head",
+      "head_seat_x": 94,
+      "head_end_x": 97,
+      "screen_rear_x": 99
+    },
+    {
+      "location": "large rear cover to rear crossframe",
+      "quantity": 4,
+      "spec": "M3x30 socket",
+      "grip": 24,
+      "engagement": 6,
+      "access": "rear outside; modeled"
+    },
+    {
+      "location": "shoulder covers through main shell into side-frame bosses",
+      "quantity": 4,
+      "spec": "M3x20 socket",
+      "grip": 14,
+      "engagement": 6,
+      "access": "lateral outside; modeled",
+      "metal_face_y_abs": 75,
+      "body_face_y_abs": 86,
+      "head_seat_y_abs": 89
+    },
+    {
+      "location": "Jetson original-base peripheral retainers",
+      "quantity": 4,
+      "spec": "M3x10 + washer0.5 + M3 nut2.4",
+      "grip": 6,
+      "engagement": 2.4,
+      "access": "rear opening and under tray; modeled",
+      "source": "jetson_mount_specification.json"
+    },
+    {
+      "location": "IMU bridge feet to upper sideframe beams",
+      "quantity": 4,
+      "spec": "M3x8 socket; grip3, engagement5",
+      "centres_xy": [
+        [
+          -10.0,
+          -68.0
+        ],
+        [
+          -10.0,
+          68.0
+        ],
+        [
+          10.0,
+          -68.0
+        ],
+        [
+          10.0,
+          68.0
+        ]
+      ],
+      "tapping_face_z": 47,
+      "tapping_pilot_diameter": 2.5,
+      "tapping_depth": 6,
+      "note": "cylindrical tapping pilot plus drill point modeled; bridge owns fasteners"
+    }
+  ],
+  "limitations": "Visible thread engagement may be omitted in reference solids. Screen fastener lengths are deliberately unresolved; do not infer from the20mm enclosure depth."
+}

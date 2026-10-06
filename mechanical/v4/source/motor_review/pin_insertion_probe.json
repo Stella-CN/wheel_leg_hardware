@@ -1,0 +1,29 @@
+[
+  {
+    "theta": 30,
+    "probe_diameter": 3.98,
+    "y_range": [
+      -0.5,
+      2.5
+    ],
+    "collisions": []
+  },
+  {
+    "theta": 150,
+    "probe_diameter": 3.98,
+    "y_range": [
+      -0.5,
+      2.5
+    ],
+    "collisions": []
+  },
+  {
+    "theta": 270,
+    "probe_diameter": 3.98,
+    "y_range": [
+      -0.5,
+      2.5
+    ],
+    "collisions": []
+  }
+]

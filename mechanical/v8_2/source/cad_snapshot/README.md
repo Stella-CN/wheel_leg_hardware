@@ -1,0 +1,3 @@
+本目录为本次CAD/审查/表格脚本及工程内Python依赖快照，用于追溯。脚本按原工程tools路径组织，重建需要原工程references及已安装FreeCAD，不是独立运行安装包。交付FCStd、STEP和STL可独立查看。
+
+电池几何冻结时尚待确认型号；之后用户明确选E626S。最终采购型号及电气参数以battery_interface.json、BATTERY_SOURCE_REVIEW.md及BOM为准；重新运行早期几何来源写出函数时，应保留最终选型记录。

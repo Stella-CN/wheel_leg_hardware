@@ -1,0 +1,10 @@
+{
+  "hardware_objects": 276,
+  "poses_mm": [
+    100.0,
+    180.0,
+    215.0
+  ],
+  "placement_tolerance_mm": 0.001,
+  "errors": []
+}

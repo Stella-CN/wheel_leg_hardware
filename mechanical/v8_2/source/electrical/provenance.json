@@ -1,0 +1,44 @@
+[
+  {
+    "file": "switch_user_drawing.png",
+    "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-8935aa2f-7f4a-4dd6-92b4-57229b34a82a.png",
+    "sha256": "981bc558570b478f4c7a0fec5ce5d2cad48cff3cb46179924db2bdd1859252ff",
+    "authority": "User supplied drawing"
+  },
+  {
+    "file": "converter_user_drawing.png",
+    "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-fd2aee35-d75b-40d0-9c88-0da018dbc983.png",
+    "sha256": "92b41ab7d782452334f2f9356860d30877c0109dd6f02f9c4b3ff876f098b7cd",
+    "authority": "User supplied drawing"
+  },
+  {
+    "file": "wiring_user_drawing.png",
+    "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-c287c164-40d0-4ef6-b615-10718adaeb4b.png",
+    "sha256": "065fb2a0fb5980641aa0a61eaf5b93feeb049d9204e39a5042a6f8c8fd20f77c",
+    "authority": "User supplied drawing"
+  },
+  {
+    "file": "hub_user_drawing.png",
+    "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-5cd66bf6-8dff-4c48-bf38-27e903aac1bc.png",
+    "sha256": "d45f2b020e9024a8e5a9362edc483444632d0ee72a9c84b044dea014c906bc95",
+    "authority": "User supplied drawing"
+  },
+  {
+    "file": "3D_PCB1_2026-09-28.step",
+    "original": "/Users/lvjiaqing/Downloads/3D_PCB1_2026-09-28.step",
+    "sha256": "dae4fde3a403c3b4f57518a739b74c02b2bf28d3ca17e1c20dff035dfba9b938",
+    "authority": "Provided model or local manufacturer manual"
+  },
+  {
+    "file": "usb2canfd_v2_1-double.stp",
+    "original": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/模型/usb2canfd_v2_1-double.stp",
+    "sha256": "ae103c372e35f404dcd8850467e634c400ee7dbe9f44eec9fb41a5fa9639a40b",
+    "authority": "Provided model or local manufacturer manual"
+  },
+  {
+    "file": "DM-USB2CANFD_Dual 模块使用说明书 V1.0.pdf",
+    "original": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/DM-USB2CANFD_Dual 模块使用说明书 V1.0.pdf",
+    "sha256": "0a0dd3ebe1d1829284417d5e2557a1da265d782913be98dfe756e942261c2f4f",
+    "authority": "Provided model or local manufacturer manual"
+  }
+]

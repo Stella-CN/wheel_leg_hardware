@@ -1,0 +1,19 @@
+{
+  "poses": [
+    {
+      "length_mm": 100,
+      "collisions": []
+    },
+    {
+      "length_mm": 180,
+      "collisions": []
+    },
+    {
+      "length_mm": 215,
+      "collisions": []
+    }
+  ],
+  "custom_quantity": 38,
+  "nominal_axial_gap_mm": 0.05,
+  "center_pin_web_mm": 4.85
+}

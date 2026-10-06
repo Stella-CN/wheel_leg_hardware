@@ -1,0 +1,104 @@
+{
+  "revision": "v5_enclosed_nested",
+  "units": "mm",
+  "rod_length": 130.0,
+  "crank_length": 35.0,
+  "leg_length": 183.8477631085,
+  "beta_deg": 0.0,
+  "operating_leg_length": [
+    120.0,
+    225.0
+  ],
+  "print_bed": [
+    220.0,
+    220.0,
+    250.0
+  ],
+  "material": "6061-T6 load-bearing structure / PETG electronics enclosure",
+  "cnc_material": "6061-T6 aluminum",
+  "nozzle": 0.4,
+  "layer_height": 0.2,
+  "hip_stator_face_y": 72.0,
+  "hip_output_face_y": 73.0,
+  "validation_scope": "discrete geometric checks and approximate motor sizing; no certified jump/impact/fatigue rating",
+  "reference_image": "Supplied annotated mechanism; no hip roll; wheel at W",
+  "profile": "curved CNC frame, complete outer OB cover, internal OA fork",
+  "hip_motor_translation_y": 72.5,
+  "hip_stator_front_y": 72.0,
+  "hip_rotor_face_y": 73.0,
+  "knee_motor_translation_y": 132.6,
+  "knee_stator_back_y": 87.1,
+  "knee_stator_front_y": 132.1,
+  "knee_rotor_face_y": 133.1,
+  "coupling_front_y": 72.2,
+  "knee_rear_face_y": 87.1,
+  "knee_stator_face_y": 132.1,
+  "knee_output_face_y": 133.1,
+  "coupler_nesting_y": [
+    75.5,
+    82.5
+  ],
+  "coupling_cup_front_y": 75.5,
+  "coupling_male_end_y": 82.5,
+  "coupling_axial_span": 14.9,
+  "coupling_sleeve_depth": 7.0,
+  "coupling_cup_outer_diameter": 57.0,
+  "coupling_male_diameter": 43.0,
+  "coupling_sleeve_diameter": 43.05,
+  "coupling_radial_screw": "NBK SLH-M3-8-SD",
+  "coupling_knee_screw": "NBK SLH-M3-6-SD",
+  "coupling_rotor_screw": "ISO4762 M3x8",
+  "coupling_radial_plane_y": 79.5,
+  "coupling_material": "6061-T6 CNC",
+  "carrier_y": [
+    132.1,
+    135.1
+  ],
+  "outer_OB_y": [
+    151.1,
+    154.1
+  ],
+  "fork_inner_y": [
+    135.6,
+    138.6
+  ],
+  "fork_outer_y": [
+    147.6,
+    150.6
+  ],
+  "A_fork_inner_y": [
+    135.6,
+    138.6
+  ],
+  "A_fork_outer_y": [
+    147.6,
+    150.6
+  ],
+  "driven_links_y": [
+    139.1,
+    147.1
+  ],
+  "coupler_link_y": [
+    139.1,
+    147.1
+  ],
+  "hub_stator_face_y": 147.1,
+  "wheel_center_y": 173.1,
+  "wheel_track": 346.2,
+  "bearing": "NSK626ZZ1 single per A/B/C, mechanically retained; not load rated",
+  "bearing_bore": 19.0,
+  "bearing_seat_fit": "19H7; match purchased bearing",
+  "bearing_web_bore": 16.8,
+  "bushing_bore": 8.0,
+  "cnc_bushing_bore": 8.0,
+  "leg_structure_width": 22,
+  "OA_material": "6061-T6 CNC one-piece fork",
+  "oa_register_diameter": 35.05,
+  "joint_bushing_length": 2.5,
+  "inner_race_spacer_outer_diameter": 8.4,
+  "shaft": "D6 steel female M2 both ends, L14.05, two low-head retainers",
+  "joint_support": "Complete OB plates enclose OA; A/C monolithic forks; B inward supports",
+  "axis_retainer": "NBK SETS-M2-4, D4 head x0.5; OD9 t0.2 steel washers",
+  "bearing_retainer": "OD28 ID16.8 t0.8 steel cover, 3 M2 at PCD24",
+  "print_register_diameter": 35.3
+}

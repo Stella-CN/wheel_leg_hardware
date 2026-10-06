@@ -1,0 +1,181 @@
+{
+  "revision": "V5",
+  "main_geometry": "22 mm nested leg;14.9 mm two-piece coupling;W solid bearing face with original motor side outlet",
+  "geometric_poses": 22,
+  "geometric_collisions": 0,
+  "hardware_objects": 202,
+  "native_gravity_review": {
+    "method": "Independent finite differences of native FreeCAD parameter expressions; no role transform or local-COM equations reused.",
+    "potential": "sum m*g*(native_shape_CoM_z + ell*cos(Beta)); SI potential units",
+    "coordinates": "qhip=Beta-alpha; qknee=2alpha-pi; alpha=acos(ell/(2L)); 2 symmetric drives per coordinate",
+    "chain_rule": {
+      "dU_dBeta": "2*tau_hip",
+      "dU_dell": "-2*alpha_prime*tau_hip + 4*alpha_prime*tau_knee",
+      "tau_hip": "0.5*dU_dBeta",
+      "tau_knee": "dU_dell/(4*alpha_prime)+tau_hip/2"
+    },
+    "mass_budget_kg": 5.579728000000008,
+    "objects_with_native_mass_centers": 242,
+    "unmodelled_allowance_g": 200.0,
+    "assembly_snapshot_sha256_before": "3726e8789a92ba1c2070a11543925cd1b87c82b25c49b64aa8534c4e62943ab0",
+    "assembly_snapshot_sha256_after": "3726e8789a92ba1c2070a11543925cd1b87c82b25c49b64aa8534c4e62943ab0",
+    "source_assembly_sha256_after": "3726e8789a92ba1c2070a11543925cd1b87c82b25c49b64aa8534c4e62943ab0",
+    "source_changed_externally_during_review": false,
+    "maximum_cached_native_vs_budget_local_centroid_error_mm": 0.0,
+    "native_centroid_method": "Re-integrate every native solid once; transform cached centroid with perturbed native object Placement. No role-specific transform is reused.",
+    "mass_budget_sha256": "f50cd5a52c141cc17417c22eb30b75b5d279d35492c8859b837e3628fd196d9a",
+    "load_algorithm_sha256": "394aed97f91eed0f39cbe6a4c736d041ca9f31ab4ae63825f485ff8bf8276443",
+    "rows": [
+      {
+        "leg_length_mm": 120.0,
+        "native_energy_J": 5.011848137863293,
+        "native_differences": [
+          {
+            "dell_mm": 0.002,
+            "dbeta_rad": 2e-05,
+            "dU_dell_J_per_mm": 0.040802756365199144,
+            "dU_dbeta_J_per_rad": -0.43768295989732303,
+            "hip_gravity_Nm": -0.21884147994866152,
+            "knee_gravity_Nm": -2.462222449058138
+          },
+          {
+            "dell_mm": 0.001,
+            "dbeta_rad": 1e-05,
+            "dU_dell_J_per_mm": 0.04080275635809372,
+            "dU_dbeta_J_per_rad": -0.43768295938662044,
+            "hip_gravity_Nm": -0.21884147969331022,
+            "knee_gravity_Nm": -2.4622224485207433
+          }
+        ],
+        "analytic_role_based_reference": {
+          "leg_length_mm": 120.0,
+          "hip_gravity_Nm": -0.21884148049267083,
+          "knee_gravity_Nm": -2.46222244704164,
+          "knee_magnitude_Nm": 2.46222244704164,
+          "finite_difference_convergence_Nm": 1.9539925233402755e-09
+        },
+        "hip_error_Nm": 7.993606054856883e-10,
+        "knee_error_Nm": -1.4791035063410618e-09,
+        "native_step_convergence_Nm": 5.3739457328561e-10
+      },
+      {
+        "leg_length_mm": 183.8477631085,
+        "native_energy_J": 7.617124875868499,
+        "native_differences": [
+          {
+            "dell_mm": 0.002,
+            "dbeta_rad": 2e-05,
+            "dU_dell_J_per_mm": 0.04080671183026574,
+            "dU_dbeta_J_per_rad": -0.347360584695977,
+            "hip_gravity_Nm": -0.1736802923479885,
+            "knee_gravity_Nm": -1.9623958186259223
+          },
+          {
+            "dell_mm": 0.001,
+            "dbeta_rad": 1e-05,
+            "dU_dell_J_per_mm": 0.040806711824714625,
+            "dU_dbeta_J_per_rad": -0.3473605846071592,
+            "hip_gravity_Nm": -0.1736802923035796,
+            "knee_gravity_Nm": -1.962395818348578
+          }
+        ],
+        "analytic_role_based_reference": {
+          "leg_length_mm": 183.8477631085,
+          "hip_gravity_Nm": -0.17368029325837142,
+          "knee_gravity_Nm": -1.9623958205094993,
+          "knee_magnitude_Nm": 1.9623958205094993,
+          "finite_difference_convergence_Nm": 2.2648551922799243e-09
+        },
+        "hip_error_Nm": 9.547918289332102e-10,
+        "knee_error_Nm": 2.1609214417850353e-09,
+        "native_step_convergence_Nm": 2.773443696924005e-10
+      },
+      {
+        "leg_length_mm": 225.0,
+        "native_energy_J": 9.296514648153886,
+        "native_differences": [
+          {
+            "dell_mm": 0.002,
+            "dbeta_rad": 2e-05,
+            "dU_dell_J_per_mm": 0.040812705548454176,
+            "dU_dbeta_J_per_rad": -0.2445457989885824,
+            "hip_gravity_Nm": -0.1222728994942912,
+            "knee_gravity_Nm": -1.3904893458442316
+          },
+          {
+            "dell_mm": 0.001,
+            "dbeta_rad": 1e-05,
+            "dU_dell_J_per_mm": 0.04081270553957239,
+            "dU_dbeta_J_per_rad": -0.24454579934385376,
+            "hip_gravity_Nm": -0.12227289967192688,
+            "knee_gravity_Nm": -1.3904893456437515
+          }
+        ],
+        "analytic_role_based_reference": {
+          "leg_length_mm": 225.0,
+          "hip_gravity_Nm": -0.12227289802879682,
+          "knee_gravity_Nm": -1.3904893547689312,
+          "knee_magnitude_Nm": 1.3904893547689312,
+          "finite_difference_convergence_Nm": 8.748557656090838e-09
+        },
+        "hip_error_Nm": -1.6431300625674439e-09,
+        "knee_error_Nm": 9.125179722957455e-09,
+        "native_step_convergence_Nm": 2.0048007698392212e-10
+      }
+    ],
+    "maximum_absolute_error_Nm": 9.125179722957455e-09,
+    "tolerance_Nm": 1e-05,
+    "scope": "Distributed gravity only: no inertia, contact dynamics, true motor internal COM, friction, balance controller or thermal validation.",
+    "passed": true
+  },
+  "mass_kg": 5.579728000000008,
+  "assembly_stl": {
+    "filename": "wheel_leg_assembly.stl",
+    "units": "mm",
+    "purpose": "assembled multi-shell reference; CNC uses cnc/*.step; individual PETG parts use print/*.stl",
+    "objects": 242,
+    "facets": 1723230,
+    "file_bytes": 86161584,
+    "dimensions_mm": [
+      235.16685485839844,
+      391.20001220703125,
+      318.8149108886719
+    ],
+    "coordinates": "X forward, Y lateral, Z up; hip axis at Z=0",
+    "linear_deflection_mm": 0.12,
+    "includes": [
+      "custom CNC structure",
+      "PETG electronics enclosure and trays",
+      "approximate payload envelopes",
+      "original motor STEP geometry",
+      "NSK626ZZ1 single per A/B/C, mechanically retained; not load rated",
+      "modelled joint fasteners and spacers",
+      "elastic tyre reference"
+    ],
+    "not_modelled": [
+      "unmodelled motor and chassis fasteners",
+      "cables",
+      "actual battery and controller"
+    ]
+  },
+  "source_hashes": {
+    "build_enclosed_robot.py": "bc4af62fdcd54dda66cd1316733baf628c6b9bd7c6bf22b15b675786fbc48c4a",
+    "cad_v5_leg.py": "307f6673125dda29f26f4fe6a7e96fa4618e5c085840a1b6c3c6f5a5b715c4a0",
+    "cad_v5_coupling.py": "09f9921c891a79dac08b2faabbb424ef15b77259ee9389e6ec9e3671556cf2c9",
+    "cad_v5_chassis.py": "36402a87e09af281b11213371b4636179b61c5c8520334041f673548cc7a75d5",
+    "cad_v5_payload.py": "b218ed31748c907ebb0f367b67411fd2d7d13d43e0acde7cd8547ebfc8b3f917",
+    "analyze_v5_motor_load.py": "394aed97f91eed0f39cbe6a4c736d041ca9f31ab4ae63825f485ff8bf8276443",
+    "render_enclosed_robot.py": "f0867d0cb9cd9469db02299bd331369a5606f1f67d80982dafea174958dbe50e",
+    "build_printable_robot.py": "50c65de1c4af340c3f1d0a66ebd6a47e078a434a27ca78dd7337935cca848f29",
+    "cad_chassis.py": "f92ef80ab47c039b3a239b16879fdcc54a7374f1fc7442cfaed197a76dfd8405",
+    "cad_v3_profiles.py": "c42db1a82ba6e3b79c23036b5544e6c98e7784d93776e03883c6f48b8907fd3b",
+    "build_reference_robot.py": "e43629396b1c8227dcb7999b0e1bb75c517fdf4ca981e889e087314e471b3afa",
+    "build_nested_robot.py": "5e3eb562cd59eee9245e8867bfc3028a801bb0d8d9a30e92bd3145b07a5e80be",
+    "render_nested_robot.py": "ba3a1da4b1df524ccf5e888c96e34d8ab87bc92a78fba202027f9f75a7d5fa67",
+    "render_compact_robot.py": "02cd2e8f7e2e79c96fe8150d74323469dd6c291b1b6917a98fe0dfca571c5574",
+    "export_robot_assembly_stl.py": "ca8f6b57c754ed4cc97d204b3496f1b931d16956b4d18d0ac51d246dbf2551ed",
+    "validate_print_meshes.py": "bb21ea1fa574498fc836c05ad713e2647e046706857c8e9059a9ba6021f767be",
+    "package_enclosed_robot.py": "8b46f512ed0c57d3d0d6217b89b2e51f0f50133b7d27e83da643e2de9b0b8081"
+  },
+  "scope": "Reviewable mechanical prototype; discrete geometry and first-pass load calculations. No jump, fatigue, thermal, cable-routing or manufacturing-process qualification."
+}

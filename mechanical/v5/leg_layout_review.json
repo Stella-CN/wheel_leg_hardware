@@ -1,0 +1,259 @@
+{
+  "structural_width_mm": 22,
+  "reference_plane": 132.1,
+  "parameters": {
+    "carrier_y": [
+      132.1,
+      135.1
+    ],
+    "outer_OB_y": [
+      151.1,
+      154.1
+    ],
+    "fork_inner_y": [
+      135.6,
+      138.6
+    ],
+    "fork_outer_y": [
+      147.6,
+      150.6
+    ],
+    "A_fork_inner_y": [
+      135.6,
+      138.6
+    ],
+    "A_fork_outer_y": [
+      147.6,
+      150.6
+    ],
+    "driven_links_y": [
+      139.1,
+      147.1
+    ],
+    "coupler_link_y": [
+      139.1,
+      147.1
+    ],
+    "hub_stator_face_y": 147.1,
+    "wheel_center_y": 173.1,
+    "wheel_track": 346.2,
+    "bearing": "NSK626ZZ1 single per A/B/C, mechanically retained; not load rated",
+    "bearing_bore": 19.0,
+    "bearing_seat_fit": "19H7; match purchased bearing",
+    "bearing_web_bore": 16.8,
+    "bushing_bore": 8.0,
+    "cnc_bushing_bore": 8.0,
+    "leg_structure_width": 22,
+    "OA_material": "6061-T6 CNC one-piece fork",
+    "oa_register_diameter": 35.05,
+    "joint_bushing_length": 2.5,
+    "inner_race_spacer_outer_diameter": 8.4,
+    "shaft": "D6 steel female M2 both ends, L14.05, two low-head retainers",
+    "joint_support": "Complete OB plates enclose OA; A/C monolithic forks; B inward supports",
+    "axis_retainer": "NBK SETS-M2-4, D4 head x0.5; OD9 t0.2 steel washers",
+    "bearing_retainer": "OD28 ID16.8 t0.8 steel cover, 3 M2 at PCD24",
+    "print_register_diameter": 35.3
+  },
+  "parts": {
+    "OB_inner_full": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 33072.247701161556,
+      "y_range": [
+        132.1,
+        151.1
+      ]
+    },
+    "OB_outer_full": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 32710.52472302691,
+      "y_range": [
+        147.6,
+        154.10000000000002
+      ]
+    },
+    "OA_one_piece": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 21612.490651676802,
+      "y_range": [
+        132.29999999999998,
+        150.7
+      ]
+    },
+    "AC_bearing_link": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17625.133372021995,
+      "y_range": [
+        139.1,
+        147.1
+      ]
+    },
+    "CW_one_piece": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 46898.74737975233,
+      "y_range": [
+        135.59999999999997,
+        150.6
+      ]
+    }
+  },
+  "collisions": [],
+  "minimum_clearances": {
+    "OB_inner_full/OB_outer_full": 0.0,
+    "OB_inner_full/OA_one_piece": 0.4999999999999716,
+    "OB_inner_full/AC_bearing_link": 4.0,
+    "OB_inner_full/CW_one_piece": 0.5,
+    "OB_outer_full/OA_one_piece": 0.4000000000000057,
+    "OB_outer_full/AC_bearing_link": 4.0,
+    "OB_outer_full/CW_one_piece": 0.5,
+    "OA_one_piece/AC_bearing_link": 0.5,
+    "OA_one_piece/CW_one_piece": 67.34861433745512,
+    "AC_bearing_link/CW_one_piece": 0.4999999999999716
+  },
+  "sampled_lengths_mm": [
+    120,
+    125,
+    150,
+    183.8477631085,
+    210,
+    225
+  ],
+  "scope": "Leg-only bodies and modeled leg hardware; no strength rating",
+  "beam_screening_sections": {
+    "OB_inner_full": {
+      "plate_thickness_mm": 3,
+      "rails_in_plate": 2,
+      "minimum_edge_rail": {
+        "z_mm": -110.0,
+        "side": "left",
+        "width_mm": 7.164532844116131,
+        "interval_x_mm": [
+          -17.164270698564756,
+          -9.999737854448625
+        ]
+      },
+      "conservative_rectangular_rail_area_mm2": 21.493598532348393,
+      "sampled_z_range_mm": [
+        -116,
+        -40
+      ],
+      "sample_spacing_mm": 0.2,
+      "conservative_unbraced_length_mm": 130,
+      "length_assumption": "Pivot span; diagonal ligaments/posts are not credited as fixed lateral supports.",
+      "method": "Exact CAD line/solid intersections at plate mid-thickness every 0.2 mm along Z.",
+      "cautions": "Sampling is not an analytical global minimum. Use rounded-down widths; joint eyes, drilled features and local buckling need separate assessment."
+    },
+    "OB_outer_full": {
+      "plate_thickness_mm": 3,
+      "rails_in_plate": 2,
+      "minimum_edge_rail": {
+        "z_mm": -110.0,
+        "side": "left",
+        "width_mm": 7.164532844116131,
+        "interval_x_mm": [
+          -17.164270698564756,
+          -9.999737854448625
+        ]
+      },
+      "conservative_rectangular_rail_area_mm2": 21.493598532348393,
+      "sampled_z_range_mm": [
+        -116,
+        -40
+      ],
+      "sample_spacing_mm": 0.2,
+      "conservative_unbraced_length_mm": 130,
+      "length_assumption": "Pivot span; diagonal ligaments/posts are not credited as fixed lateral supports.",
+      "method": "Exact CAD line/solid intersections at plate mid-thickness every 0.2 mm along Z.",
+      "cautions": "Sampling is not an analytical global minimum. Use rounded-down widths; joint eyes, drilled features and local buckling need separate assessment."
+    },
+    "AC_bearing_link": {
+      "plate_thickness_mm": 8,
+      "rails_in_plate": 1,
+      "minimum_edge_rail": {
+        "z_mm": -65.0,
+        "side": "left",
+        "width_mm": 12.400000000000006,
+        "interval_x_mm": [
+          -6.200000000000003,
+          6.200000000000003
+        ]
+      },
+      "conservative_rectangular_rail_area_mm2": 99.20000000000005,
+      "sampled_z_range_mm": [
+        -111,
+        -19
+      ],
+      "sample_spacing_mm": 0.2,
+      "conservative_unbraced_length_mm": 130,
+      "length_assumption": "Pivot span; diagonal ligaments/posts are not credited as fixed lateral supports.",
+      "method": "Exact CAD line/solid intersections at plate mid-thickness every 0.2 mm along Z.",
+      "cautions": "Sampling is not an analytical global minimum. Use rounded-down widths; joint eyes, drilled features and local buckling need separate assessment."
+    },
+    "CW_one_piece": {
+      "plate_thickness_mm": 8,
+      "rails_in_plate": 2,
+      "minimum_edge_rail": {
+        "z_mm": -76.4,
+        "side": "left",
+        "width_mm": 6.150479923773418,
+        "interval_x_mm": [
+          -14.150082464979093,
+          -7.999602541205675
+        ]
+      },
+      "conservative_rectangular_rail_area_mm2": 49.20383939018734,
+      "sampled_z_range_mm": [
+        -99,
+        -23
+      ],
+      "sample_spacing_mm": 0.2,
+      "conservative_unbraced_length_mm": 130,
+      "length_assumption": "Pivot span; diagonal ligaments/posts are not credited as fixed lateral supports.",
+      "method": "Exact CAD line/solid intersections at plate mid-thickness every 0.2 mm along Z.",
+      "cautions": "Sampling is not an analytical global minimum. Use rounded-down widths; joint eyes, drilled features and local buckling need separate assessment."
+    },
+    "OB_window_geometry": {
+      "min_window_to_outline_mm": 7.163748630826212,
+      "windows_z_span_mm": [
+        11.31462791162469,
+        12.158688876853262,
+        10.467619242061886
+      ],
+      "max_local_window_span_mm": 12.158688876853262,
+      "max_span_scope": "Window clear height only; diagonal webs are not assumed perfect lateral braces."
+    },
+    "CW_window_geometry": {
+      "min_window_to_outline_mm": 6.149427369124525,
+      "windows_z_span_mm": [
+        10.798058983988966,
+        15.520064412906443,
+        14.360129243746684,
+        16.788083545094736
+      ],
+      "max_local_window_span_mm": 16.788083545094736,
+      "max_span_scope": "Window clear height only; diagonal webs are not assumed perfect lateral braces."
+    }
+  },
+  "source_sha256": "307f6673125dda29f26f4fe6a7e96fa4618e5c085840a1b6c3c6f5a5b715c4a0",
+  "source_file": "tools/cad_v5_leg.py",
+  "local_interface_limits": {
+    "H6215_W": {
+      "closed_center": true,
+      "head_support_fraction": 1.0,
+      "evidence": "H6215_W_interface_review.json",
+      "scope": "Factory radial cable outlet remains clear; actual cable diameter and bend radius unknown."
+    },
+    "OA_bridge": {
+      "minimum_counterbore_outer_wall_mm": 2.1,
+      "scope": "Geometric wall, no torsion or impact capacity rating."
+    },
+    "axis_retainer": {
+      "steel_end_washer_thickness_mm": 0.2,
+      "scope": "Axial retaining feature; side-impact and loosening remain untested."
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "freecad_version": [
+    "1",
+    "1",
+    "3",
+    "20260725 (Git shallow)",
+    "Unknown",
+    "2026/07/25 04:52:02",
+    "grafted,grafted",
+    "145529fe741292ff0b3977a01195bf0247425794"
+  ],
+  "units": "mm",
+  "sampled_lengths": [
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180,
+    185,
+    190,
+    195,
+    200,
+    205,
+    210,
+    215,
+    220,
+    225
+  ],
+  "beta_deg": 0,
+  "solids_valid": true,
+  "exported_stl_closed": true,
+  "live_pose_expressions_checked_at_mm": [
+    120,
+    183.8477631085,
+    225
+  ],
+  "collision_threshold_mm3": 0.05,
+  "collisions": [],
+  "scope": "Right leg, printed/CNC geometry, original motor STEP solids and listed joint hardware against structure/motors; left is mirror. Hardware-hardware pairs, unmodelled fasteners, wires and dynamic deflection excluded. Rigid-relative pairs checked once; moving-relative pairs at all samples.",
+  "strength_validated": false
+}

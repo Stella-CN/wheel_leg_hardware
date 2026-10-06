@@ -1,0 +1,1737 @@
+{
+  "mode": "full",
+  "baseline_native_sha256": "21e3a0f0798b8ba26f5caed24ba5345bd427a464dc6701318fca0c893f921dd4",
+  "baseline_hash_matches_build": true,
+  "native_sha256": "d35408105a0689bd59c183aedc95a6e91b170502f41906df2e71bff9944febaa",
+  "build_json_sha256": "469d25bd390deb79fca9da7a0bc84b5276e31f728789168945dc25014b4ce713",
+  "review_script_sha256": "ddae28eb14281bad2bcdd0e672ec1cb297c2851db1c773ed0c7791ddfe3c5ca3",
+  "threshold_mm3": 0.001,
+  "signature_tolerance": 1e-06,
+  "preservation": {
+    "baseline_physical_objects": 326,
+    "changed_existing": [
+      "chassis_front_shell",
+      "chassis_rear_cover",
+      "electronics_tray"
+    ],
+    "unchanged_objects": [
+      {
+        "name": "chassis_belly_plate",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "chassis_hip_frame_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "chassis_hip_frame_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "chassis_front_crossframe",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "chassis_rear_crossframe",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_front_bezel",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "shoulder_fairing_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "shoulder_fairing_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "battery_tray",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_base_retainer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_base_retainer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_embedded_bracket",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "HI13R2_rigid_bridge",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_cradle_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_cradle_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_mount_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_mount_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_rotor_cnc_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_rotor_cnc_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "knee_stator_cnc_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "knee_stator_cnc_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_inner_carrier_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_inner_carrier_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_outer_shell_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_outer_shell_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_one_piece_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_one_piece_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "AC_bearing_link_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "AC_bearing_link_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "CW_one_piece_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "CW_one_piece_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_Orin_Nano_official",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_clearance_envelope",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "HI13R2_official",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Display_GK_HD_5in_supplier_envelope",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "J4310_hip_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "J4310_hip_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "J4310_knee_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "J4310_knee_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "H6215_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "H6215_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "elastic_tyre_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "elastic_tyre_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_4_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_4_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_5_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_ISO4762_M3x8_5_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_knee_SLH_M3x6_SD_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_knee_SLH_M3x6_SD_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_knee_SLH_M3x6_SD_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_knee_SLH_M3x6_SD_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_knee_SLH_M3x6_SD_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_knee_SLH_M3x6_SD_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_knee_SLH_M3x6_SD_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_knee_SLH_M3x6_SD_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_radial_SLH_M3x8_SD_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_radial_SLH_M3x8_SD_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_radial_SLH_M3x8_SD_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_radial_SLH_M3x8_SD_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_radial_SLH_M3x8_SD_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_radial_SLH_M3x8_SD_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_radial_SLH_M3x8_SD_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_radial_SLH_M3x8_SD_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_DIN6325_D4x10_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_DIN6325_D4x10_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_DIN6325_D4x10_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_DIN6325_D4x10_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_DIN6325_D4x10_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "coupling_rotor_DIN6325_D4x10_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "_626_A_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "_626_A_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "bearing_keeper_A_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "bearing_keeper_A_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_A_SETS_M2x4_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_A_SETS_M2x4_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_A_SETS_M2x4_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_A_SETS_M2x4_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_A_SETS_M2x4_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_A_SETS_M2x4_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_A_inner_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_A_inner_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_A_outer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_A_outer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_A_SETS_M2x4_inner_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_A_SETS_M2x4_inner_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_A_SETS_M2x4_outer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_A_SETS_M2x4_outer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "_626_C_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "_626_C_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "bearing_keeper_C_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "bearing_keeper_C_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_C_SETS_M2x4_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_C_SETS_M2x4_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_C_SETS_M2x4_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_C_SETS_M2x4_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_C_SETS_M2x4_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_C_SETS_M2x4_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_C_inner_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_C_inner_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_C_outer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_C_outer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_C_SETS_M2x4_inner_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_C_SETS_M2x4_inner_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_C_SETS_M2x4_outer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_C_SETS_M2x4_outer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "_626_B_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "_626_B_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "bearing_keeper_B_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "bearing_keeper_B_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_B_SETS_M2x4_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_B_SETS_M2x4_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_B_SETS_M2x4_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_B_SETS_M2x4_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_B_SETS_M2x4_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "keeper_B_SETS_M2x4_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_B_inner_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_B_inner_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_B_outer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_washer_B_outer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_B_SETS_M2x4_inner_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_B_SETS_M2x4_inner_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_B_SETS_M2x4_outer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "axis_B_SETS_M2x4_outer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_angular_stop_shoulder_M3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_angular_stop_shoulder_M3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_shell_DIN7991_M3x10_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_shell_DIN7991_M3x10_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_shell_DIN7991_M3x10_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_shell_DIN7991_M3x10_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_shell_DIN7991_M3x10_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_shell_DIN7991_M3x10_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_shell_DIN7991_M3x10_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_shell_DIN7991_M3x10_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_4_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_4_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_5_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OB_stator_SLH_M3x6_5_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_4_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_4_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_5_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "OA_rotor_M3x16_5_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "H6215_stator_M3x8_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "H6215_stator_M3x8_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "H6215_stator_M3x8_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "H6215_stator_M3x8_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "H6215_stator_M3x8_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "H6215_stator_M3x8_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "female_pin_A_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "female_pin_A_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_A_inner_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_A_inner_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_A_outer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_A_outer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "female_pin_C_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "female_pin_C_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_C_inner_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_C_inner_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_C_outer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_C_outer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "female_pin_B_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "female_pin_B_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_B_inner_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_B_inner_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_B_outer_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "flanged_bush_B_outer_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_4_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_4_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_5_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "wheel_rim_ISO4762_M3x8_5_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_4_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_4_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_5_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_stator_M3x6_CS_5_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4x12_CS_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4x12_CS_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_washer_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_washer_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_nut_0_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_nut_0_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4x12_CS_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4x12_CS_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_washer_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_washer_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_nut_1_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_nut_1_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4x12_CS_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4x12_CS_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_washer_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_washer_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_nut_2_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_nut_2_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4x12_CS_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4x12_CS_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_washer_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_washer_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_nut_3_right",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "hip_case_M4_nut_3_left",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_M3x10_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_washer_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_M3_nut_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_M3x10_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_washer_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_M3_nut_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_M3x10_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_washer_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_M3_nut_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_M3x10_4",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_washer_4",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Jetson_retainer_M3_nut_4",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "belly_frame_DIN7991_M3x8_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "belly_frame_DIN7991_M3x8_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "belly_frame_DIN7991_M3x8_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "belly_frame_DIN7991_M3x8_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "belly_frame_DIN7991_M3x8_4",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "belly_frame_DIN7991_M3x8_5",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "belly_frame_DIN7991_M3x8_6",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "belly_frame_DIN7991_M3x8_7",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "crossframe_DIN7991_M3x8__1_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "crossframe_DIN7991_M3x8__1_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "crossframe_DIN7991_M3x8__1_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "crossframe_DIN7991_M3x8__1_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "crossframe_DIN7991_M3x8_1_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "crossframe_DIN7991_M3x8_1_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "crossframe_DIN7991_M3x8_1_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "crossframe_DIN7991_M3x8_1_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "battery_tray_M3x8_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "battery_tray_M3x8_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "battery_tray_M3x8_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "battery_tray_M3x8_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "electronics_tray_M3x8_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "electronics_tray_M3x8_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "electronics_tray_M3x8_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "electronics_tray_M3x8_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "shoulder__1_M3x20_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "shoulder__1_M3x20_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "shoulder_1_M3x20_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "shoulder_1_M3x20_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_shell_M3x12_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "rear_cover_M3x12_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_shell_M3x12_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "rear_cover_M3x12_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_shell_M3x12_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "rear_cover_M3x12_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_shell_M3x12_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "rear_cover_M3x12_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_face_M3x12_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_face_M3_nut_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_face_M3x12_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_face_M3_nut_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_face_M3x12_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_face_M3_nut_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_face_M3x12_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "front_face_M3_nut_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_rear_M3x8_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_rear_M3x8_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_frame_M3x10_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_frame_M3_nut_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_frame_M3x10_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_frame_M3_nut_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_frame_M3x10_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_frame_M3_nut_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_frame_M3x10_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_frame_M3_nut_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "HI13R2_M2p5x16_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "HI13R2_M2p5_nut_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "HI13R2_M2p5x16_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "HI13R2_M2p5_nut_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "IMU_bridge_M3x8_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "IMU_bridge_M3x8_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "IMU_bridge_M3x8_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "IMU_bridge_M3x8_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_M3x20_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_M3_nut_0",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_M3x20_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_M3_nut_1",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_M3x20_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_M3_nut_2",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_M3x20_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "display_case_M3_nut_3",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "D435_official_ROS_mesh",
+        "passed": true,
+        "differing_fields": []
+      },
+      {
+        "name": "Battery_WHEELTEC_drawing_envelope",
+        "passed": true,
+        "differing_fields": []
+      }
+    ],
+    "missing_objects": [],
+    "all_pass": true
+  },
+  "native_solid_objects": 369,
+  "delta_objects": 47,
+  "delta_object_names": [
+    "DCDC_24_to_19_drawing_envelope",
+    "DC_charge_replaceable_plate",
+    "Distribution_PCB1_user_STEP",
+    "Power_switch_M16_latching",
+    "USB2CANFD_Dual_bare_official",
+    "USB_hub_104x30x10",
+    "USB_hub_rear_clamp",
+    "V82_CAN_nut_0",
+    "V82_CAN_nut_1",
+    "V82_CAN_nut_2",
+    "V82_CAN_nut_3",
+    "V82_CAN_screw_0",
+    "V82_CAN_screw_1",
+    "V82_CAN_screw_2",
+    "V82_CAN_screw_3",
+    "V82_DCDC_nut_0",
+    "V82_DCDC_nut_1",
+    "V82_DCDC_screw_0",
+    "V82_DCDC_screw_1",
+    "V82_DC_plate_nut_0",
+    "V82_DC_plate_nut_1",
+    "V82_DC_plate_screw_0",
+    "V82_DC_plate_screw_1",
+    "V82_PCB_nut_0",
+    "V82_PCB_nut_1",
+    "V82_PCB_nut_2",
+    "V82_PCB_nut_3",
+    "V82_PCB_screw_0",
+    "V82_PCB_screw_1",
+    "V82_PCB_screw_2",
+    "V82_PCB_screw_3",
+    "V82_carrier_nut_0",
+    "V82_carrier_nut_1",
+    "V82_carrier_nut_2",
+    "V82_carrier_nut_3",
+    "V82_carrier_screw_0",
+    "V82_carrier_screw_1",
+    "V82_carrier_screw_2",
+    "V82_carrier_screw_3",
+    "V82_hub_clamp_nut_0",
+    "V82_hub_clamp_nut_1",
+    "V82_hub_clamp_screw_0",
+    "V82_hub_clamp_screw_1",
+    "chassis_front_shell",
+    "chassis_rear_cover",
+    "electrical_service_carrier",
+    "electronics_tray"
+  ],
+  "declared_new_count": 44,
+  "actual_new_count": 44,
+  "undeclared_new_objects": [],
+  "missing_delta_objects": [],
+  "invalid_shapes": [],
+  "validity_scope": "Changed and new shapes; unchanged shapes preserve baseline validity evidence.",
+  "moving_objects": 180,
+  "sampled_lengths_mm": [
+    100,
+    105,
+    110,
+    115,
+    120,
+    125,
+    130,
+    135,
+    140,
+    145,
+    150,
+    155,
+    160,
+    165,
+    170,
+    175,
+    180,
+    185,
+    190,
+    195,
+    200,
+    205,
+    210,
+    215
+  ],
+  "beta_deg": 0,
+  "static_pair_checks": 16215,
+  "collision_pair_checks": 210795,
+  "broadphase_overlap_checks": 1427,
+  "collisions": [],
+  "boolean_errors": [],
+  "largest_collisions": [],
+  "exclusions": [
+    "App::Part aggregate shapes, origin planes and document groups are containers, not physical parts.",
+    "D435 visualization mesh is preserved by topology signature; its existing Part::Feature clearance proxy participates in collision checks.",
+    "Unchanged-to-unchanged pairs retain baseline evidence; this review checks every pair involving a changed or newly added solid.",
+    "No physical pair is excluded merely for being in the same module."
+  ],
+  "scope": "Rigid nominal CAD only. No cable flexibility, thermal test, certified load validation or continuous motion claim.",
+  "elapsed_seconds": 190.6,
+  "all_pass": true
+}

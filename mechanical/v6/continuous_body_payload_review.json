@@ -1,0 +1,10 @@
+{
+  "source_sha256": "6c5ca468937e011e070385949ad7fd5618ee7a5eab851bf9e1ed0f6d5753845e",
+  "collisions": [],
+  "tested_pairs": 125,
+  "followup_review": {
+    "file": "crossframe_reinforcement_review.json",
+    "source_sha256": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b",
+    "scope": "Four CNC frame pieces changed; all PETG shells, shoulder covers, electronics positions, hip interface geometry and leg geometry remain unchanged. New/changed CNC interfaces were retested in the linked incremental check."
+  }
+}

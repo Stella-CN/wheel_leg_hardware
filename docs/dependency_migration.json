@@ -1,0 +1,852 @@
+{
+  "date": "2026-10-06",
+  "files": [
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.DS_Store",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.DS_Store",
+      "sha256": "6cbb7722055297adc9a29502f318a27582081f613af96d253e9ce53a7dbde0fb",
+      "size": 8196,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/HEAD",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/HEAD",
+      "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10",
+      "size": 23,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/config",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/config",
+      "sha256": "c83d29b720660ccdbc77e11082ff9f29cfd714cfaa29ef29c6507fc31df627d6",
+      "size": 313,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/description",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/description",
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "size": 73,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/applypatch-msg.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/applypatch-msg.sample",
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "size": 478,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/commit-msg.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/commit-msg.sample",
+      "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+      "size": 896,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/fsmonitor-watchman.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/fsmonitor-watchman.sample",
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+      "size": 4726,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/post-update.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/post-update.sample",
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "size": 189,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/pre-applypatch.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/pre-applypatch.sample",
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "size": 424,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/pre-commit.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/pre-commit.sample",
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+      "size": 1649,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/pre-merge-commit.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/pre-merge-commit.sample",
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "size": 416,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/pre-push.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/pre-push.sample",
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "size": 1374,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/pre-rebase.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/pre-rebase.sample",
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "size": 4898,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/pre-receive.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/pre-receive.sample",
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "size": 544,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/prepare-commit-msg.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/prepare-commit-msg.sample",
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "size": 1492,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/push-to-checkout.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/push-to-checkout.sample",
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "size": 2783,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/sendemail-validate.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/sendemail-validate.sample",
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+      "size": 2308,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/hooks/update.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/hooks/update.sample",
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "size": 3650,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/index",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/index",
+      "sha256": "bdbed659b787bc70b7de1e9a94b5fef3ccba7e6add54d57942d46d688c6dd41f",
+      "size": 2879,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/info/exclude",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/info/exclude",
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "size": 240,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/logs/HEAD",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/logs/HEAD",
+      "sha256": "8ccdff1b57b86fe21bc68b002936560aac1cef1b58f9e99b788928de7f937083",
+      "size": 182,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/logs/refs/heads/master",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/logs/refs/heads/master",
+      "sha256": "8ccdff1b57b86fe21bc68b002936560aac1cef1b58f9e99b788928de7f937083",
+      "size": 182,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/logs/refs/remotes/origin/HEAD",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/logs/refs/remotes/origin/HEAD",
+      "sha256": "8ccdff1b57b86fe21bc68b002936560aac1cef1b58f9e99b788928de7f937083",
+      "size": 182,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/objects/pack/pack-bfd609d8139af99fe3c83bef79c2b50e97425afd.idx",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/objects/pack/pack-bfd609d8139af99fe3c83bef79c2b50e97425afd.idx",
+      "sha256": "072fc81f5b5eb1ddf18bb080816673bd0c4494e43420233316011c5de42cbc78",
+      "size": 4012,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/objects/pack/pack-bfd609d8139af99fe3c83bef79c2b50e97425afd.pack",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/objects/pack/pack-bfd609d8139af99fe3c83bef79c2b50e97425afd.pack",
+      "sha256": "6b473a83a8b4564e7f266501594c5e0749bfb768826ed52e31fe51a151939554",
+      "size": 62267499,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/objects/pack/pack-bfd609d8139af99fe3c83bef79c2b50e97425afd.rev",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/objects/pack/pack-bfd609d8139af99fe3c83bef79c2b50e97425afd.rev",
+      "sha256": "cfa557205b290f48e819a86b4881e6ded41ed31422ec04f48b75851329e790d2",
+      "size": 472,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/packed-refs",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/packed-refs",
+      "sha256": "77f0262418e3811ece75ecc87b4d2664e9acd015d5ae879e750719bad82ed0ea",
+      "size": 114,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/refs/heads/master",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/refs/heads/master",
+      "sha256": "d2e9bbae60bb8219514f261440e1b3f4610409d33ad52d69c22b63296924fa97",
+      "size": 41,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/.git/refs/remotes/origin/HEAD",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/.git/refs/remotes/origin/HEAD",
+      "sha256": "cdc65e67690c4c6475174e5ec662b70655246a2f3924354778835ab3be70aa76",
+      "size": 32,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/2D图纸/(停产)4310 减速电机-20221019.PDF",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/2D图纸/(停产)4310 减速电机-20221019.PDF",
+      "sha256": "e52c7d368a0f92f29b0e8d48ac9740d78b38450de1e86143980a1fd6540b08dd",
+      "size": 82858,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/2D图纸/DM_J4310_V1.1 减速电机 Ver.B20230904.PDF",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/2D图纸/DM_J4310_V1.1 减速电机 Ver.B20230904.PDF",
+      "sha256": "d58268e0aab310e941f5e7d431b2b36593bca8d41fe3fa962b6c9469e47134aa",
+      "size": 115374,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/2D图纸/DM_J4310_V1.1 减速电机 标注.PDF",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/2D图纸/DM_J4310_V1.1 减速电机 标注.PDF",
+      "sha256": "74e51a06ef012ccf0e03b9f9d76e12a849388c37c93ecb4a38459759f3a22a03",
+      "size": 112770,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/2D图纸/Thumbs.db",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/2D图纸/Thumbs.db",
+      "sha256": "cb4c316ccfca6f7f0e584fc25674d69e17ac21616b1ba1983e285cafe98007e1",
+      "size": 14336,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/3D模型/(停产)DM-J4310 V1.0减速电机 STEP- 20221104.7z",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/3D模型/(停产)DM-J4310 V1.0减速电机 STEP- 20221104.7z",
+      "sha256": "41babd542ca46b7e6efd52e877549ec8c1d810390e516fa79a2bdbee982fca68",
+      "size": 11537513,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/3D模型/DM-J4310-2EC-V1.1_3d_20260228_1.stp",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/3D模型/DM-J4310-2EC-V1.1_3d_20260228_1.stp",
+      "sha256": "596fdb1d78232f4f4a30676451b2d03ee25be044e1de78c9396e3a454d86675e",
+      "size": 16884136,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/README.en.md",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/README.en.md",
+      "sha256": "cc93bfa362e8e311926742eae765741d9a9d72db41ecd6cdbce7edc0c775c0af",
+      "size": 1008,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/README.md",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/README.md",
+      "sha256": "62c10ed86fe5d7b10cd4860889116db7a946aaf4ece1018d0d753135e2a5407d",
+      "size": 873,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/README.zh.md",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/README.zh.md",
+      "sha256": "62c10ed86fe5d7b10cd4860889116db7a946aaf4ece1018d0d753135e2a5407d",
+      "size": 873,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/测试数据/性能曲线/Thumbs.db",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/测试数据/性能曲线/Thumbs.db",
+      "sha256": "85f44aa236e3f3279dd38b35c33a9161d94f2439a846cc3cb1c044bc3c18151c",
+      "size": 12288,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/测试数据/性能曲线/V1.1/4310 电机性能曲线图.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/测试数据/性能曲线/V1.1/4310 电机性能曲线图.png",
+      "sha256": "358022fc08360294a406bb9e9595f3d1983e4a108a756920894ddd3ffd9d62d1",
+      "size": 266549,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/Thumbs.db",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/Thumbs.db",
+      "sha256": "b163cb165c5fc432e9ff369246350143cd9d54293ac7f6498b96dad6747032ac",
+      "size": 12288,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/扭矩效率.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/扭矩效率.png",
+      "sha256": "b5b8a0edb8fa9837c83d89d6fe263f208ccccfbe8236b1ca6a798511de59542f",
+      "size": 80139,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/温升.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/温升.png",
+      "sha256": "bb65aa2049ed5ef617070a59f7dd2b8146f5fd22826e2b856e81b9359d409278",
+      "size": 35067,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/温升_3.5Nm.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/温升_3.5Nm.png",
+      "sha256": "2c3bb34fa5034990b760b95a2faacf152174acdf1c24061198d148e04d84dda7",
+      "size": 35615,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/速度效率.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/测试数据/性能曲线/V1.2/速度效率.png",
+      "sha256": "8eb6789f0b527c8b04254df58b759dbbd4c87cf42bbb66f628431fb5351580e4",
+      "size": 77809,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/版本说明/.gitkeep",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/版本说明/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/说明书/(停产)DM-J4310-2EC减速电机说明书V1.0.pdf",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/说明书/(停产)DM-J4310-2EC减速电机说明书V1.0.pdf",
+      "sha256": "c151046f302d3da2062bdfbeb0227084331688758ac98687b33a0df10c16edbd",
+      "size": 593162,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.1 Geared Motor User Manual V1.2 2026-09-08.pdf",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.1 Geared Motor User Manual V1.2 2026-09-08.pdf",
+      "sha256": "7107b810f2573a82712556030d8e74eec8162cc4835aa19ffcac8c43a223d886",
+      "size": 16869588,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.1 减速电机使用说明书V1.2 2026-09-08.pdf",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.1 减速电机使用说明书V1.2 2026-09-08.pdf",
+      "sha256": "3b27dffe4c0a2a5c5872a80dfb7eab1830399af86adafa2e130057779d9e0ee3",
+      "size": 12958619,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.2 Geared Motor User Manual V1.3 2026-09-08.pdf",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.2 Geared Motor User Manual V1.3 2026-09-08.pdf",
+      "sha256": "6d9b6695a58ca2e9ebd2fa6f661abe1ec5d08cce7589db741ec18ff59376d9a1",
+      "size": 16647828,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.2 减速电机使用说明书 V1.3 2026-09-08.pdf",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/说明书/DM-J4310-2EC V1.2 减速电机使用说明书 V1.3 2026-09-08.pdf",
+      "sha256": "c2600a1fba7a6453556f9c319d047a896c9c7249121763c806ced1fe85e65bcd",
+      "size": 12860491,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/说明书/Thumbs.db",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-J4310-2EC/说明书/Thumbs.db",
+      "sha256": "55b9311b0074bb56e14e6c25d13016a51733fd03a8763540da9532880be5d230",
+      "size": 10240,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/HEAD",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/HEAD",
+      "sha256": "f6f2b945f6c411b02ba3da9c7ace88dcf71b6af65ba2e0d89aa82900042b5a10",
+      "size": 23,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/config",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/config",
+      "sha256": "79796443c409e24caab132dfdfab757fad384d3f09502843e902e4a81f0e9736",
+      "size": 309,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/description",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/description",
+      "sha256": "85ab6c163d43a17ea9cf7788308bca1466f1b0a8d1cc92e26e9bf63da4062aee",
+      "size": 73,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/applypatch-msg.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/applypatch-msg.sample",
+      "sha256": "0223497a0b8b033aa58a3a521b8629869386cf7ab0e2f101963d328aa62193f7",
+      "size": 478,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/commit-msg.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/commit-msg.sample",
+      "sha256": "1f74d5e9292979b573ebd59741d46cb93ff391acdd083d340b94370753d92437",
+      "size": 896,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/fsmonitor-watchman.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/fsmonitor-watchman.sample",
+      "sha256": "e0549964e93897b519bd8e333c037e51fff0f88ba13e086a331592bf801fa1d0",
+      "size": 4726,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/post-update.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/post-update.sample",
+      "sha256": "81765af2daef323061dcbc5e61fc16481cb74b3bac9ad8a174b186523586f6c5",
+      "size": 189,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/pre-applypatch.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/pre-applypatch.sample",
+      "sha256": "e15c5b469ea3e0a695bea6f2c82bcf8e62821074939ddd85b77e0007ff165475",
+      "size": 424,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/pre-commit.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/pre-commit.sample",
+      "sha256": "57185b7b9f05239d7ab52db045f5b89eb31348d7b2177eab214f5eb872e1971b",
+      "size": 1649,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/pre-merge-commit.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/pre-merge-commit.sample",
+      "sha256": "d3825a70337940ebbd0a5c072984e13245920cdf8898bd225c8d27a6dfc9cb53",
+      "size": 416,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/pre-push.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/pre-push.sample",
+      "sha256": "ecce9c7e04d3f5dd9d8ada81753dd1d549a9634b26770042b58dda00217d086a",
+      "size": 1374,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/pre-rebase.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/pre-rebase.sample",
+      "sha256": "4febce867790052338076f4e66cc47efb14879d18097d1d61c8261859eaaa7b3",
+      "size": 4898,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/pre-receive.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/pre-receive.sample",
+      "sha256": "a4c3d2b9c7bb3fd8d1441c31bd4ee71a595d66b44fcf49ddb310252320169989",
+      "size": 544,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/prepare-commit-msg.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/prepare-commit-msg.sample",
+      "sha256": "e9ddcaa4189fddd25ed97fc8c789eca7b6ca16390b2392ae3276f0c8e1aa4619",
+      "size": 1492,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/push-to-checkout.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/push-to-checkout.sample",
+      "sha256": "a53d0741798b287c6dd7afa64aee473f305e65d3f49463bb9d7408ec3b12bf5f",
+      "size": 2783,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/sendemail-validate.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/sendemail-validate.sample",
+      "sha256": "44ebfc923dc5466bc009602f0ecf067b9c65459abfe8868ddc49b78e6ced7a92",
+      "size": 2308,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/hooks/update.sample",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/hooks/update.sample",
+      "sha256": "8d5f2fa83e103cf08b57eaa67521df9194f45cbdbcb37da52ad586097a14d106",
+      "size": 3650,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/index",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/index",
+      "sha256": "0e58fb1e15a1a1bbd79abeed906064e1123359172d00d4caf48f846b3d50936d",
+      "size": 1119,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/info/exclude",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/info/exclude",
+      "sha256": "6671fe83b7a07c8932ee89164d1f2793b2318058eb8b98dc5c06ee0a5a3b0ec1",
+      "size": 240,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/logs/HEAD",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/logs/HEAD",
+      "sha256": "011205f568624c31fc0c32f5126a50d74a7da267d2ba41e617512a8bc89ec88d",
+      "size": 178,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/logs/refs/heads/master",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/logs/refs/heads/master",
+      "sha256": "011205f568624c31fc0c32f5126a50d74a7da267d2ba41e617512a8bc89ec88d",
+      "size": 178,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/logs/refs/remotes/origin/HEAD",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/logs/refs/remotes/origin/HEAD",
+      "sha256": "011205f568624c31fc0c32f5126a50d74a7da267d2ba41e617512a8bc89ec88d",
+      "size": 178,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/objects/pack/pack-8d012abd7f8f2687871cb83ac870d3367b3fee8f.idx",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/objects/pack/pack-8d012abd7f8f2687871cb83ac870d3367b3fee8f.idx",
+      "sha256": "16ba5ed60144ff5d39a0d855aab023a3a75de475e49abb88c042a60ca53d945c",
+      "size": 2696,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/objects/pack/pack-8d012abd7f8f2687871cb83ac870d3367b3fee8f.pack",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/objects/pack/pack-8d012abd7f8f2687871cb83ac870d3367b3fee8f.pack",
+      "sha256": "31eb04599c4c934af3d230544726bc24d3834ab67ddfe7845af0f2e8131d43be",
+      "size": 29266744,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/objects/pack/pack-8d012abd7f8f2687871cb83ac870d3367b3fee8f.rev",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/objects/pack/pack-8d012abd7f8f2687871cb83ac870d3367b3fee8f.rev",
+      "sha256": "d7b79df1412f69b437f25aded5b130bedd5c8c7c5352d6a7158caf79cf964d02",
+      "size": 284,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/packed-refs",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/packed-refs",
+      "sha256": "92fdf1b26834ccce2bc0d17d5b987f33017e730ec294c7c3b9f7b606d276cb6c",
+      "size": 114,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/refs/heads/master",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/refs/heads/master",
+      "sha256": "4fdfb1bc171b77c84e98eff7ba2869a3a58f67e0de8550e428c0935df5c356b6",
+      "size": 41,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/.git/refs/remotes/origin/HEAD",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/.git/refs/remotes/origin/HEAD",
+      "sha256": "cdc65e67690c4c6475174e5ec662b70655246a2f3924354778835ab3be70aa76",
+      "size": 32,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/2D图纸/6215_轮毂电机20251203.PDF",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/2D图纸/6215_轮毂电机20251203.PDF",
+      "sha256": "a9198ad3e6af9f8c9bc604fe4b9fc08cfdaf4286cb91c1070de4aca8d6034806",
+      "size": 60979,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/3D模型/6215_轮毂电机3D模型20240821.stp",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/3D模型/6215_轮毂电机3D模型20240821.stp",
+      "sha256": "a299d68f3efaf03a3b4c9a2d3e3ff373c1c78db477a86509a64b4ca2b5cb9253",
+      "size": 69915,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/README.en.md",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/README.en.md",
+      "sha256": "0102927c20dc926fe34e480037cf9249cb9990bf9f9b38045b63a46133bfc16e",
+      "size": 1000,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/README.md",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/README.md",
+      "sha256": "fd1283f5b1422aeaa634968f65b263f15b28c3790b242952393e87530ddb01d0",
+      "size": 865,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/README.zh.md",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/README.zh.md",
+      "sha256": "fd1283f5b1422aeaa634968f65b263f15b28c3790b242952393e87530ddb01d0",
+      "size": 865,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/测试数据/轮毂电机升级测试步骤.docx",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/测试数据/轮毂电机升级测试步骤.docx",
+      "sha256": "d590c738af3ef64ddf2f8298dfeca96776e6e3a95aa802cfa1aad8514926fdba",
+      "size": 950440,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/版本说明/.gitkeep",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/版本说明/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size": 0,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/说明书/DM-H6215轮毂电机使用教程V2.pdf",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/说明书/DM-H6215轮毂电机使用教程V2.pdf",
+      "sha256": "eec66c865d8fa5e2f3ca3594b281f727c80d5ff7549371950af7232d10416271",
+      "size": 4709106,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-H6215/说明书/DM-H6215轮毂电机说明书V1.0-20240607.pdf",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/DM-H6215/说明书/DM-H6215轮毂电机说明书V1.0-20240607.pdf",
+      "sha256": "a8aa385a8e9c43f1d98f86a6a23a49fccea04c5917512c34037cba44995c90bf",
+      "size": 780537,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/.DS_Store",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/.DS_Store",
+      "sha256": "0e0cf8ef86a00b15b9ce7a148ef05aa6173ba9b0fd8dbcbf3b3df9e31ef0a617",
+      "size": 10244,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/DM-USB2CANFD_Dual 模块使用说明书 V1.0.pdf",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/DM-USB2CANFD_Dual 模块使用说明书 V1.0.pdf",
+      "sha256": "0a0dd3ebe1d1829284417d5e2557a1da265d782913be98dfe756e942261c2f4f",
+      "size": 4440729,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/README.md",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/README.md",
+      "sha256": "2e04cb9cc65c66c4b5d75d990ee64ac848eac707d51f94dc7ff223f656c2332f",
+      "size": 846,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/.DS_Store",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/.DS_Store",
+      "sha256": "f085c26564932ca063902a9ce7378cdfb7218d927a81774b3ad614c7429532a2",
+      "size": 8196,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/socketcan/.DS_Store",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/socketcan/.DS_Store",
+      "sha256": "e36790c949dad733f9f6b9c406dd318ae72255c6d2138168df1d55be8b89b42e",
+      "size": 8196,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/socketcan/FIRMWARE-NOTES.md",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/socketcan/FIRMWARE-NOTES.md",
+      "sha256": "4896d31dd33de6dd3467645f71252e731ed86059914eeb95c1c5080056e51876",
+      "size": 160,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/socketcan/README.md",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/socketcan/README.md",
+      "sha256": "2a0552fc184798a8d64c149feb1ca31a883143f34709cd1aa9bfdf166b7a8ecf",
+      "size": 814,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/socketcan/dm_usb2canfd_dual_gsusb_1004.enc",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/socketcan/dm_usb2canfd_dual_gsusb_1004.enc",
+      "sha256": "3920db65267c1b12b71428ac86ef8ff29af11eeef9f713990bf28821d234fffc",
+      "size": 57344,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/socketcan/历史固件/dm_usb2canfd_dual_gsusb_1001.enc",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/socketcan/历史固件/dm_usb2canfd_dual_gsusb_1001.enc",
+      "sha256": "f915e1d874f586a01225efd23264c8d16bd58124779de8d40a8d5497ebf20210",
+      "size": 81920,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/socketcan/历史固件/dm_usb2canfd_dual_gsusb_1002.enc",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/socketcan/历史固件/dm_usb2canfd_dual_gsusb_1002.enc",
+      "sha256": "ce1da827cffaccac9d0c4601de75810d2266e15f83c96fc5a9b8bfc8ae6e15e0",
+      "size": 61440,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/socketcan/历史固件/dm_usb2fdcan_dual_gsusb.enc",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/socketcan/历史固件/dm_usb2fdcan_dual_gsusb.enc",
+      "sha256": "5dbb029877a942d7f9db4b168344c47b42f8d4508bb1da45d68d89066684035d",
+      "size": 61440,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/dm_usb2canfd_dual_app_1007.enc",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/dm_usb2canfd_dual_app_1007.enc",
+      "sha256": "f4d63dc032b050ab0a4536ee350580f027bf66e00a6602c9c6f34115bf8ae491",
+      "size": 73728,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/历史固件/dm_usb2canfd_dual_app_1000.enc",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/历史固件/dm_usb2canfd_dual_app_1000.enc",
+      "sha256": "1585738070c51c6976a54b070303b05c96cabcd86bde84bd870d5675782ccd35",
+      "size": 94208,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/历史固件/dm_usb2canfd_dual_app_1001.enc",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/历史固件/dm_usb2canfd_dual_app_1001.enc",
+      "sha256": "e18a698a0df6f6f2b232dd739350b72621f584623686342849b3877c95a33d33",
+      "size": 94208,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/历史固件/dm_usb2canfd_dual_app_1003.enc",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/历史固件/dm_usb2canfd_dual_app_1003.enc",
+      "sha256": "0ac6a239f6c8cd12b4df12d88fd188b3a805ebc9ac3f1c2b02b76d5a906e9d41",
+      "size": 94208,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/历史固件/dm_usb2canfd_dual_app_1004.enc",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/固件/出厂固件/历史固件/dm_usb2canfd_dual_app_1004.enc",
+      "sha256": "3853bb1a83494c38e2613acfe4ff452c1055c56eaec3005ccf7724b372a6da5f",
+      "size": 77824,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/模型/usb2canfd_v2_1-double.pdf",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/模型/usb2canfd_v2_1-double.pdf",
+      "sha256": "d4576af96a1e5a28f6b1a2e371d50f067ba0b308f57e500bab85a5efe7b0ce16",
+      "size": 311778,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/模型/usb2canfd_v2_1-double.stp",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/模型/usb2canfd_v2_1-double.stp",
+      "sha256": "ae103c372e35f404dcd8850467e634c400ee7dbe9f44eec9fb41a5fa9639a40b",
+      "size": 23129329,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/dm-tools/USB2CANFD_Dual/模型/usb2canfd_v2_1-double.x_t",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/dm-tools/USB2CANFD_Dual/模型/usb2canfd_v2_1-double.x_t",
+      "sha256": "cbac33713a1b15a692d61a7220e7b5259864a4ac27ee60fc00e8cf4f338a4811",
+      "size": 24164753,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/Downloads/3D_PCB1_2026-09-28.step",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/user_supplied/3D_PCB1_2026-09-28.step",
+      "sha256": "dae4fde3a403c3b4f57518a739b74c02b2bf28d3ca17e1c20dff035dfba9b938",
+      "size": 3138440,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/Downloads/wheel_leg.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/user_supplied/wheel_leg.png",
+      "sha256": "4508ee44211d7c76396a62a72b195956ee4517493fa5e1dce63d558bfc45cafa",
+      "size": 1109344,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/Downloads/wheel_leg_front.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/user_supplied/wheel_leg_front.png",
+      "sha256": "1c3954d8b9f6f4a12cdb7a9872f4178352776685e771128f7f66cbb9d3ca2996",
+      "size": 1156768,
+      "action": "move"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/mechanical/v8_2/source/electrical/switch_user_drawing.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/user_supplied/switch_user_drawing.png",
+      "sha256": "981bc558570b478f4c7a0fec5ce5d2cad48cff3cb46179924db2bdd1859252ff",
+      "size": 368363,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/mechanical/v8_2/source/electrical/converter_user_drawing.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/user_supplied/converter_user_drawing.png",
+      "sha256": "92b41ab7d782452334f2f9356860d30877c0109dd6f02f9c4b3ff876f098b7cd",
+      "size": 137325,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/mechanical/v8_2/source/electrical/wiring_user_drawing.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/user_supplied/wiring_user_drawing.png",
+      "sha256": "065fb2a0fb5980641aa0a61eaf5b93feeb049d9204e39a5042a6f8c8fd20f77c",
+      "size": 73896,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/mechanical/v8_2/source/electrical/hub_user_drawing.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/user_supplied/hub_user_drawing.png",
+      "sha256": "d45f2b020e9024a8e5a9362edc483444632d0ee72a9c84b044dea014c906bc95",
+      "size": 271729,
+      "action": "copy"
+    },
+    {
+      "source": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/mechanical/v8_2/source/battery/WHEELTEC_battery_user_drawing.png",
+      "destination": "/Users/lvjiaqing/MyProjects/MyRobot/wheel_leg_hardware/references/user_supplied/WHEELTEC_battery_user_drawing.png",
+      "sha256": "b98cecfeec97993a836b9dfb05de558123f1c7bc83491f5cd5bb849ce996583d",
+      "size": 579735,
+      "action": "copy"
+    }
+  ],
+  "missing_originals": [
+    {
+      "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-8935aa2f-7f4a-4dd6-92b4-57229b34a82a.png",
+      "status": "recovered_from_project_copy",
+      "replacement": "references/user_supplied/switch_user_drawing.png"
+    },
+    {
+      "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-fd2aee35-d75b-40d0-9c88-0da018dbc983.png",
+      "status": "recovered_from_project_copy",
+      "replacement": "references/user_supplied/converter_user_drawing.png"
+    },
+    {
+      "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-c287c164-40d0-4ef6-b615-10718adaeb4b.png",
+      "status": "recovered_from_project_copy",
+      "replacement": "references/user_supplied/wiring_user_drawing.png"
+    },
+    {
+      "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-5cd66bf6-8dff-4c48-bf38-27e903aac1bc.png",
+      "status": "recovered_from_project_copy",
+      "replacement": "references/user_supplied/hub_user_drawing.png"
+    },
+    {
+      "original": "/var/folders/y_/jjy875ns6p154k68g0dylptr0000gn/T/codex-clipboard-6559bcef-96ee-488c-a3e4-1c15639cf2a0.png",
+      "status": "recovered_from_project_copy",
+      "replacement": "references/user_supplied/WHEELTEC_battery_user_drawing.png"
+    },
+    {
+      "original": "/tmp/v82_validated_pre_routes.FCStd",
+      "status": "original_not_found"
+    },
+    {
+      "original": "/tmp/v82_hub_clamp_before_clearance.brep",
+      "status": "original_not_found"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+{
+  "unchanged": "V6 legs, motor datums, coupling, wheels; V7 rigid IMU bridge and official devices",
+  "updated": "Rounded body, complete removable front panel, GK-HD5 display support and camera placement",
+  "historical_evidence": "source/inherited_v6; subsystem evidence only"
+}

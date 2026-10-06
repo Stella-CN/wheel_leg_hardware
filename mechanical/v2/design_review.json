@@ -1,0 +1,180 @@
+{
+  "reviewer": "independent reference mechanism review",
+  "scope": "V2 source and independently reconstructed BRep; no existing artifact modified",
+  "measurements": {
+    "outer_cheek_to_AC_sweep": [
+      {
+        "leg_length_mm": 120,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 125,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 130,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 135,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 140,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 145,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 150,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 155,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 160,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 165,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 170,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 175,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 180,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 185,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 190,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 195,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 200,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 205,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 210,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 215,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 220,
+        "outer_cheek_to_AC_mm": 5.0
+      },
+      {
+        "leg_length_mm": 225,
+        "outer_cheek_to_AC_mm": 5.0
+      }
+    ],
+    "minimum_outer_cheek_to_AC_mm": 5.0,
+    "AC_profile_after_fillet": [
+      {
+        "from_AC_A_centre_mm": 13,
+        "half_width_mm": 9.327393
+      },
+      {
+        "from_AC_A_centre_mm": 13.85,
+        "half_width_mm": 8.261986
+      },
+      {
+        "from_AC_A_centre_mm": 14,
+        "half_width_mm": 8.171744
+      },
+      {
+        "from_AC_A_centre_mm": 14.5,
+        "half_width_mm": 8.012986
+      },
+      {
+        "from_AC_A_centre_mm": 15,
+        "half_width_mm": 8.0
+      },
+      {
+        "from_AC_A_centre_mm": 15.5,
+        "half_width_mm": 8.0
+      },
+      {
+        "from_AC_A_centre_mm": 16,
+        "half_width_mm": 8.0
+      },
+      {
+        "from_AC_A_centre_mm": 20,
+        "half_width_mm": 8.0
+      }
+    ],
+    "lower_adjacent_window_ribs_mm": [
+      7.435584,
+      7.0,
+      7.435584
+    ],
+    "lower_side_rail_minimum_mm": 7.0,
+    "upper_boss_axial_mm": [
+      147,
+      167
+    ],
+    "B_shoulder_stack_mm": {
+      "shoulder_start_y": 140.5,
+      "head_contact_y": 175.5,
+      "length": 35,
+      "steel_seat_y": [
+        139.5,
+        140.5
+      ],
+      "nut_y": [
+        135.5,
+        139.5
+      ],
+      "thread_end_y": 131,
+      "thread_beyond_nut_mm": 4.5
+    },
+    "AC_profile_note": "The R1.5 blend increases half-width to 8.171744 mm at 14 mm and 8.012986 mm at 14.5 mm from the eye center; half-width is exactly 8 mm by 15 mm. Independently rebuilt BRep cheek-to-AC minimum remains 5.000000 mm across all 22 tested poses from 120 to 225 mm."
+  },
+  "checks": {
+    "B_outer_cheek_bound_to_hip": true,
+    "B_shoulders_bound_to_hip": true,
+    "AC_and_BCW_motion_binding_consistent": true,
+    "asymmetric_OB_BCW_have_left_export_paths": true,
+    "OB_reverse_print_face_places_plate_down_bosses_up": true,
+    "mirror_print_faces_match_left_geometry": true,
+    "bearing_seat_adjustment_requires_actual_shoulder_tolerance": true
+  },
+  "findings": [],
+  "resolved_checks": [
+    {
+      "check": "Handed STL manufacturing instructions",
+      "status": "resolved",
+      "evidence": "README now lists fixed_arm_OB/_left and output_BCW/_left at one each and explicitly prohibits replacing them by a flipped common part."
+    },
+    {
+      "check": "V2 parameter source on rebuild",
+      "status": "resolved",
+      "evidence": "core configure(output_directory) reads selected design_parameters.json; V2 main calls configure(mechanical/v2) before synchronizing L/R and building shapes. V1 is copied only for first-time initialization when V2 configuration is absent."
+    }
+  ],
+  "conclusion": "No unresolved geometry, mirroring, print-orientation, kinematic-binding or shoulder-stack error found within the reviewed scope; two delivery/configuration issues were corrected and re-read."
+}

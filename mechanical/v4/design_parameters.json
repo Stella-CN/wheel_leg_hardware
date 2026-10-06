@@ -1,0 +1,104 @@
+{
+  "revision": "v4_compact_nested",
+  "units": "mm",
+  "rod_length": 130.0,
+  "crank_length": 35.0,
+  "leg_length": 183.8477631085,
+  "beta_deg": 0.0,
+  "operating_leg_length": [
+    120.0,
+    225.0
+  ],
+  "print_bed": [
+    220.0,
+    220.0,
+    250.0
+  ],
+  "material": "PETG",
+  "nozzle": 0.4,
+  "layer_height": 0.2,
+  "bearing": "NSK 686AZZ1 6x13x5; two per joint; not open 686A",
+  "bearing_bore": 13.15,
+  "hip_stator_face_y": 72.0,
+  "hip_output_face_y": 73.0,
+  "knee_rear_face_y": 94.0,
+  "knee_stator_face_y": 139.0,
+  "knee_output_face_y": 140.0,
+  "carrier_y": [
+    139,
+    145
+  ],
+  "driven_links_y": [
+    153,
+    165
+  ],
+  "coupler_link_y": [
+    153,
+    165
+  ],
+  "hub_stator_face_y": 165,
+  "wheel_center_y": 191.0,
+  "wheel_track": 382.0,
+  "cnc_material": "6061-T6 aluminum",
+  "cnc_register_diameter": 35.05,
+  "validation_scope": "prototype geometry/assembly review; no validated jump, impact or fatigue rating",
+  "truss_corner_radius": 2.0,
+  "reference_image": "User supplied annotated leg: no hip roll; W replaced with H6215",
+  "outer_OB_y": [
+    166,
+    172
+  ],
+  "fork_inner_y": [
+    146,
+    152
+  ],
+  "fork_outer_y": [
+    166,
+    172
+  ],
+  "joint_support": "OB outer / OA outer / CW C cap co-planar; A/B/C double shear",
+  "profile": "tangent circular arcs and cubic Bezier rails",
+  "bushing_bore": 8.05,
+  "bearing_web_bore": 11.8,
+  "inner_race_spacer_outer_diameter": 7.2,
+  "shaft": "ground D6: A L23, C L29, B L36; steel external circlips",
+  "leg_structure_width": 33,
+  "joint_bushing_length": 6,
+  "C_fork_fasteners": [
+    [
+      -23,
+      24
+    ],
+    [
+      -23,
+      46
+    ]
+  ],
+  "ob_open_head_clearance_sector_degrees": [
+    116,
+    248
+  ],
+  "coupling": "D39 neck / D43 male spigot in D57 cup; four radial M3 screws",
+  "rotor_dowels": "3 x D4 on PCD24.30; original motor drawing and STEP verified",
+  "A_fork_inner_y": [
+    149,
+    152
+  ],
+  "A_fork_outer_y": [
+    166,
+    169
+  ],
+  "OA_center_outer_y": [
+    165,
+    170
+  ],
+  "OA_center_bridge_end": 165,
+  "OA_material": "6061-T6 CNC",
+  "oa_register_diameter": 35.05,
+  "cnc_bushing_bore": 8.0,
+  "A_bushing_length": 3,
+  "coupler_nesting_y": [
+    80.5,
+    87.5
+  ]
+}

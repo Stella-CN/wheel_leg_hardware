@@ -1,0 +1,696 @@
+{
+  "native_sha256": "e90f7913ac67ba1d87d44dcec6a81c090f7847d495c56b5001cdd5f22bdd76e5",
+  "native_hash_scope": "Historical file identity only; colour/visibility changes do not invalidate the independent route geometry metrics.",
+  "route_geometry_metrics": [
+    {
+      "name": "POWER_BAT_SWITCH",
+      "volume": 627.8447384295903,
+      "area": 770.2636053923272,
+      "bounds": [
+        41.0,
+        -2.0,
+        24.0,
+        62.0,
+        2.0,
+        54.0
+      ]
+    },
+    {
+      "name": "POWER_CHARGE_BRANCH",
+      "volume": 2950.0084993398723,
+      "area": 3176.2031703983375,
+      "bounds": [
+        -92.0,
+        -48.0,
+        -27.0,
+        48.0,
+        2.0,
+        28.0
+      ]
+    },
+    {
+      "name": "POWER_SWITCH_PCB",
+      "volume": 653.0157132379403,
+      "area": 795.4345802006776,
+      "bounds": [
+        59.0,
+        -1.0,
+        26.0,
+        72.0,
+        23.0,
+        55.0
+      ]
+    },
+    {
+      "name": "POWER_DCDC_IN",
+      "volume": 1363.3866236181543,
+      "area": 1664.1625091409803,
+      "bounds": [
+        67.2,
+        -71.8,
+        41.2,
+        84.8,
+        21.8,
+        57.8
+      ]
+    },
+    {
+      "name": "POWER_19V_JETSON",
+      "volume": 377.8533514524866,
+      "area": 607.4770261717787,
+      "bounds": [
+        18.5,
+        -66.5,
+        44.5,
+        43.5,
+        -42.5,
+        57.5
+      ]
+    },
+    {
+      "name": "CAN_DUAL_PCB",
+      "volume": 624.5054071590281,
+      "area": 809.2541790831816,
+      "bounds": [
+        58.2,
+        -2.8,
+        5.2,
+        76.8,
+        4.8,
+        46.8
+      ]
+    },
+    {
+      "name": "LEG_LEFT_BUNDLE",
+      "volume": 5547.527550315663,
+      "area": 3977.9529012388903,
+      "bounds": [
+        66.7,
+        47.7,
+        -2.3,
+        92.3,
+        84.3,
+        85.3
+      ]
+    },
+    {
+      "name": "LEG_RIGHT_BUNDLE",
+      "volume": 7800.436409688758,
+      "area": 5457.392023275171,
+      "bounds": [
+        66.7,
+        -84.3,
+        -2.3,
+        92.3,
+        3.3,
+        85.3
+      ]
+    },
+    {
+      "name": "USB_HUB_EXTENSION",
+      "volume": 5135.038747930078,
+      "area": 4785.875019779361,
+      "bounds": [
+        -79.4,
+        7.199999999999999,
+        2.6,
+        49.4,
+        60.4,
+        73.4
+      ]
+    },
+    {
+      "name": "USB_CAN",
+      "volume": 560.5962119069223,
+      "area": 851.1341734443594,
+      "bounds": [
+        41.5,
+        -57.5,
+        42.5,
+        61.5,
+        -5.9,
+        53.7
+      ]
+    },
+    {
+      "name": "USB_IMU",
+      "volume": 1412.7478113828665,
+      "area": 1719.0082733239938,
+      "bounds": [
+        -21.8,
+        -1.8,
+        38.400000000000006,
+        48.8,
+        49.8,
+        87.8
+      ]
+    },
+    {
+      "name": "USB_CAMERA",
+      "volume": 2300.3782416365734,
+      "area": 2182.383615405744,
+      "bounds": [
+        41.6,
+        7.199999999999999,
+        41.2,
+        100.4,
+        65.4,
+        80.4
+      ]
+    },
+    {
+      "name": "VIDEO_DISPLAY",
+      "volume": 3482.6649334378794,
+      "area": 2930.959364873077,
+      "bounds": [
+        40.2,
+        -39.8,
+        -0.7999999999999998,
+        98.8,
+        -12.2,
+        60.8
+      ]
+    },
+    {
+      "name": "USB_DISPLAY",
+      "volume": 1689.9203179741833,
+      "area": 1874.227086984784,
+      "bounds": [
+        42.0,
+        -30.0,
+        1.0,
+        97.0,
+        19.0,
+        54.0
+      ]
+    }
+  ],
+  "route_geometry_metrics_sha256": "241f6aa91852e7fc11b6fe887a0838723895f077795336e2de4576e28b8498ed",
+  "route_geometry_source": "Native Material=routing_allowance objects",
+  "routes": [
+    {
+      "name": "POWER_BAT_SWITCH",
+      "radius_mm": 2.0,
+      "points_xyz_mm": [
+        [
+          43,
+          0,
+          26
+        ],
+        [
+          51,
+          0,
+          26
+        ],
+        [
+          51,
+          0,
+          47
+        ],
+        [
+          60,
+          0,
+          52
+        ]
+      ],
+      "polyline_length_mm": 39.3,
+      "note": "电池插头区域→托盘D10护线孔→顶部开关；电池真实座位置未给，起点为区域边界。"
+    },
+    {
+      "name": "POWER_CHARGE_BRANCH",
+      "radius_mm": 2.0,
+      "points_xyz_mm": [
+        [
+          43,
+          0,
+          26
+        ],
+        [
+          46,
+          -24,
+          26
+        ],
+        [
+          -48,
+          -24,
+          26
+        ],
+        [
+          -49,
+          -24,
+          -25
+        ],
+        [
+          -73,
+          -46,
+          -25
+        ],
+        [
+          -90,
+          -46,
+          -25
+        ]
+      ],
+      "polyline_length_mm": 218.8,
+      "note": "总开关前充电支路，沿电池外侧后行；母座及实际分线头待选。"
+    },
+    {
+      "name": "POWER_SWITCH_PCB",
+      "radius_mm": 2.0,
+      "points_xyz_mm": [
+        [
+          61,
+          1,
+          53
+        ],
+        [
+          70,
+          10,
+          47
+        ],
+        [
+          70,
+          20,
+          45
+        ],
+        [
+          70,
+          21,
+          28
+        ]
+      ],
+      "polyline_length_mm": 41.3,
+      "note": "开关输出→朝上的PCB电源口；含保护/保险位置待电气选型。"
+    },
+    {
+      "name": "POWER_DCDC_IN",
+      "radius_mm": 1.8,
+      "points_xyz_mm": [
+        [
+          69,
+          20,
+          43
+        ],
+        [
+          69,
+          20,
+          52
+        ],
+        [
+          83,
+          20,
+          52
+        ],
+        [
+          83,
+          -70,
+          52
+        ],
+        [
+          75,
+          -70,
+          56
+        ]
+      ],
+      "polyline_length_mm": 121.9,
+      "note": "开关后母线→侧方转换器，避开主机风扇；模块线根位置尚未标尺寸。"
+    },
+    {
+      "name": "POWER_19V_JETSON",
+      "radius_mm": 1.5,
+      "points_xyz_mm": [
+        [
+          25,
+          -65,
+          56
+        ],
+        [
+          20,
+          -61,
+          51
+        ],
+        [
+          20,
+          -49,
+          49
+        ],
+        [
+          28,
+          -49,
+          49
+        ],
+        [
+          42,
+          -44,
+          46
+        ]
+      ],
+      "polyline_length_mm": 43.5,
+      "note": "转换器19V输出→Jetson DC5.5x2.5；模块出线根坐标未给，起点为模块外连接区域。"
+    },
+    {
+      "name": "CAN_DUAL_PCB",
+      "radius_mm": 1.8,
+      "points_xyz_mm": [
+        [
+          60,
+          0,
+          44
+        ],
+        [
+          72,
+          -1,
+          45
+        ],
+        [
+          75,
+          -1,
+          20
+        ],
+        [
+          70,
+          3,
+          7
+        ]
+      ],
+      "polyline_length_mm": 51.8,
+      "note": "两路CAN通信线到配电板接口区域；实际独立通道/针脚须原理图确认，末端需分线到两座。"
+    },
+    {
+      "name": "LEG_LEFT_BUNDLE",
+      "radius_mm": 3.3,
+      "points_xyz_mm": [
+        [
+          70,
+          51,
+          1
+        ],
+        [
+          74,
+          54.5,
+          28
+        ],
+        [
+          74,
+          54.5,
+          82
+        ],
+        [
+          89,
+          62,
+          82
+        ],
+        [
+          89,
+          74,
+          54
+        ],
+        [
+          89,
+          81,
+          54
+        ]
+      ],
+      "polyline_length_mm": 135.8,
+      "note": "左腿动力+CAN沿托架正Y外缘上升，再从相机支架上方绕至正Y护线孔；机外运动软环需整行程实物布线。"
+    },
+    {
+      "name": "LEG_RIGHT_BUNDLE",
+      "radius_mm": 3.3,
+      "points_xyz_mm": [
+        [
+          70,
+          -9,
+          1
+        ],
+        [
+          74,
+          0,
+          28
+        ],
+        [
+          74,
+          0,
+          82
+        ],
+        [
+          74,
+          -62,
+          82
+        ],
+        [
+          89,
+          -62,
+          82
+        ],
+        [
+          89,
+          -74,
+          54
+        ],
+        [
+          89,
+          -81,
+          54
+        ]
+      ],
+      "polyline_length_mm": 197.2,
+      "note": "右腿动力+CAN穿托架10mm中央槽上升，从转换器上方绕至负Y护线孔；两条总线不得并接，板上接法须按网表确认。"
+    },
+    {
+      "name": "USB_HUB_EXTENSION",
+      "radius_mm": 2.4,
+      "points_xyz_mm": [
+        [
+          -77,
+          53,
+          5
+        ],
+        [
+          -73,
+          38,
+          14
+        ],
+        [
+          -75,
+          25,
+          18
+        ],
+        [
+          -75,
+          25,
+          71
+        ],
+        [
+          -42,
+          58,
+          71
+        ],
+        [
+          10,
+          58,
+          71
+        ],
+        [
+          40,
+          44,
+          65
+        ],
+        [
+          47,
+          23,
+          56
+        ],
+        [
+          45,
+          9.6,
+          52.2
+        ]
+      ],
+      "polyline_length_mm": 255.0,
+      "note": "拓展坞150mm原线+250mm USB-A延长线，沿正Y侧高位绕主机；终点为主机插头尾部预留。"
+    },
+    {
+      "name": "USB_CAN",
+      "radius_mm": 1.5,
+      "points_xyz_mm": [
+        [
+          60,
+          -53,
+          44
+        ],
+        [
+          57,
+          -56,
+          49
+        ],
+        [
+          43,
+          -56,
+          49
+        ],
+        [
+          43,
+          -26,
+          52
+        ],
+        [
+          43,
+          -7.4,
+          52.2
+        ]
+      ],
+      "polyline_length_mm": 69.3,
+      "note": "裸板Type-C朝负Y；使用低头弯向的短USB数据线；端口真实插头待实配。"
+    },
+    {
+      "name": "USB_IMU",
+      "radius_mm": 1.8,
+      "points_xyz_mm": [
+        [
+          43,
+          42,
+          40.2
+        ],
+        [
+          47,
+          48,
+          60
+        ],
+        [
+          33,
+          42,
+          83
+        ],
+        [
+          -20,
+          21,
+          86
+        ],
+        [
+          -19,
+          0,
+          85
+        ]
+      ],
+      "polyline_length_mm": 126.8,
+      "note": "Jetson Type-C Host→HI13R2；末端留软弯，传感器不承受线束拉力。"
+    },
+    {
+      "name": "USB_CAMERA",
+      "radius_mm": 2.4,
+      "points_xyz_mm": [
+        [
+          44,
+          9.6,
+          43.6
+        ],
+        [
+          48,
+          25,
+          54
+        ],
+        [
+          83,
+          63,
+          78
+        ],
+        [
+          95,
+          62,
+          61
+        ],
+        [
+          98,
+          48,
+          61
+        ]
+      ],
+      "polyline_length_mm": 111.1,
+      "note": "D435 USB3直连，沿前上方保留路径；相机插头包络待实配。"
+    },
+    {
+      "name": "VIDEO_DISPLAY",
+      "radius_mm": 2.8,
+      "points_xyz_mm": [
+        [
+          43,
+          -27.2,
+          41.9
+        ],
+        [
+          45,
+          -18,
+          51
+        ],
+        [
+          48,
+          -15,
+          58
+        ],
+        [
+          82,
+          -18,
+          52
+        ],
+        [
+          91,
+          -25,
+          52
+        ],
+        [
+          96,
+          -37,
+          2
+        ]
+      ],
+      "polyline_length_mm": 119.0,
+      "note": "DP转HDMI→屏幕；选短转接线，禁止把长硬转接头塞入预留空间。"
+    },
+    {
+      "name": "USB_DISPLAY",
+      "radius_mm": 2.0,
+      "points_xyz_mm": [
+        [
+          44,
+          -7.4,
+          43.6
+        ],
+        [
+          45,
+          0,
+          50
+        ],
+        [
+          49,
+          13,
+          52
+        ],
+        [
+          84,
+          17,
+          43
+        ],
+        [
+          95,
+          -28,
+          3
+        ]
+      ],
+      "polyline_length_mm": 121.1,
+      "note": "屏幕USB供电/触摸，接口位置以实物为准。"
+    }
+  ],
+  "route_objects": 14,
+  "physical_targets": 369,
+  "threshold_mm3": 0.001,
+  "contacts": [],
+  "all_clear": true,
+  "limitations": [
+    "No automatic port-endpoint contact exclusions.",
+    "Swept illustrative tubes use user/engineering radii and sharp polyline corners; no verified flexible-cable bend radius.",
+    "Nominal assembled-pose diagnosis only; moving joint harnesses and powered thermal/electrical tests are outside scope.",
+    "Common volumes of compound corridor primitives serve clash localization, not cable material/mass calculation."
+  ],
+  "elapsed_seconds": 8.786
+}

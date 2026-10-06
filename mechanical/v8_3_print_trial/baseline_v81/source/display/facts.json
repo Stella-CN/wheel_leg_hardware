@@ -1,0 +1,41 @@
+{
+  "source_file": "显示器规格书.pdf",
+  "sha256": "f895c2682c0a3a7350379cb1d421471bf04abbc52a86e3d671ca078d53c56b96",
+  "selected_variant": "5 inch (explicit user selection; supersedes previous 7 inch)",
+  "model_family": "GK-HD",
+  "spec_revision": "V3",
+  "cover_date": "20240428",
+  "dimension_page_pdf": 2,
+  "confirmed_dimensions_mm": {
+    "width": 122,
+    "height": 78,
+    "depth": 14.5
+  },
+  "shown_interfaces": [
+    "AUDIO",
+    "USB5V",
+    "HDMI",
+    "+Light-",
+    "+SPK-"
+  ],
+  "interface_layout": "Recessed area at left of rear-view illustration; exact coordinate/orientation/plug envelope not dimensioned. Side view depicts three vertically stacked sockets.",
+  "case_description": "Metal housing, recessed connectors, integrated stereo speaker described for product family.",
+  "mounting_holes": "No installation-hole specification on 5-inch drawing. Four corner screw-like marks are visible but not dimensioned; do not treat as mount interfaces. The 75x75 M4 dimensions belong to 7-inch/10-inch alternatives, not selected device.",
+  "not_provided": [
+    "mass",
+    "active display area and its border offsets",
+    "selected 5 inch native resolution",
+    "mounting hole dimensions",
+    "screw penetration limits",
+    "connector coordinates/direction",
+    "dimension tolerances",
+    "front glass versus metal rim contact boundary"
+  ],
+  "retired_parameters_not_applicable": [
+    "165x110x20 mm",
+    "265 g",
+    "150.6377x93.3845 mm holes",
+    "3 mm mounting holes",
+    "7 inch 75x75 M4 pattern"
+  ]
+}

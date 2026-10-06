@@ -1,0 +1,6 @@
+{
+  "source_revision": "V6",
+  "unchanged": "Leg linkage, motor datums, two-piece coupling, wheel, Jetson mounting",
+  "updated": "Body, display, camera placement, IMU and its rigid bridge",
+  "evidence_location": "source/inherited_v6; historical local-subsystem reports only"
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "part": "OA_angular_stop_M3_D4",
+    "quantity": 2,
+    "material": "steel",
+    "thread": "M3x3 into OA, material grade and impact capacity to verify",
+    "shoulder_diameter": 4,
+    "shoulder_length": 4.2,
+    "head_diameter": 7,
+    "head_height": 1,
+    "drive": "Slotted, width 0.8 mm, depth 0.5 mm, 0.5 mm head floor; blade <=0.8 mm",
+    "assembly": "Install after outer shell; nominal 0.7 mm under-head gap to shell face",
+    "caution": "Not rated for powered hard-stop or landing impacts"
+  },
+  {
+    "part": "female_pin_D6_L14_05",
+    "quantity": 6,
+    "material": "steel",
+    "length": 14.05,
+    "outer_diameter": 6,
+    "end_threads": "M2 each end: >=4.0 mm full tap depth; 3.8 mm screw engagement",
+    "axial_end_clearance_nominal": 0.05
+  },
+  {
+    "part": "bearing_keeper_D28_D16_8_t0_8",
+    "quantity": 6,
+    "material": "stainless steel",
+    "outer_diameter": 28,
+    "inner_diameter": 16.8,
+    "thickness": 0.8,
+    "holes": "3 D2.2 PCD24"
+  },
+  {
+    "part": "bronze_bush_D8_d6_05_L2_5",
+    "quantity": 12,
+    "material": "bearing bronze",
+    "outer_diameter": 8,
+    "inner_diameter": 6.05,
+    "length": 2.5
+  },
+  {
+    "part": "race_spacer_D8_4_d6_2_L1_25",
+    "quantity": 6,
+    "material": "steel",
+    "outer_diameter": 8.4,
+    "inner_diameter": 6.2,
+    "length": 1.25
+  },
+  {
+    "part": "race_spacer_D8_4_d6_2_L1_70",
+    "quantity": 6,
+    "material": "steel",
+    "outer_diameter": 8.4,
+    "inner_diameter": 6.2,
+    "length": 1.7
+  },
+  {
+    "part": "axis_washer_D9_d2_2_t0_2",
+    "quantity": 12,
+    "material": "steel shim",
+    "outer_diameter": 9,
+    "inner_diameter": 2.2,
+    "length": 0.2
+  },
+  {
+    "part": "D435_depth_shim_D8_d3p4_t1",
+    "quantity": 2,
+    "material": "steel shim",
+    "outer_diameter": 8,
+    "inner_diameter": 3.4,
+    "thickness": 1,
+    "assembly": "Used with 25.05mm camera model and M3x6; remove for26.05mm camera and use M3x5"
+  }
+]

@@ -1,0 +1,1995 @@
+{
+  "ready_for_workbook": true,
+  "revision": "V8.1",
+  "date": "2026-09-28",
+  "scope_note": "1台样机净用量。标准件与厂家目录件合计238件；备件默认0%。电池选E626S；插头/线束待实物确认。",
+  "modules": {
+    "M01": "左腿预装总成",
+    "M02": "右腿预装总成",
+    "M03": "承力机架与总装接口件",
+    "M04": "电器仓子模块",
+    "M05": "屏幕相机前脸总成",
+    "M06": "外壳套件"
+  },
+  "totals": {
+    "3D打印件": {
+      "types": 11,
+      "pieces": 12
+    },
+    "厂家目录件": {
+      "types": 4,
+      "pieces": 64
+    },
+    "外购耗材": {
+      "types": 2,
+      "pieces": 6
+    },
+    "外购设备": {
+      "types": 8,
+      "pieces": 13
+    },
+    "定制金属件": {
+      "types": 24,
+      "pieces": 62
+    },
+    "待选型附件": {
+      "types": 4,
+      "pieces": 0
+    },
+    "标准件": {
+      "types": 16,
+      "pieces": 174
+    }
+  },
+  "rows": [
+    {
+      "id": "P01",
+      "module": "M03",
+      "name": "机架底板",
+      "spec": "174.0 × 144.0 × 11.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P01_chassis_belly_plate.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "chassis_belly_plate"
+      ],
+      "assembly_part_aliases": [
+        "chassis_belly_plate"
+      ]
+    },
+    {
+      "id": "P02",
+      "module": "M03",
+      "name": "右承力侧框",
+      "spec": "172.0 × 32.0 × 94.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P02_chassis_hip_frame_right.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "chassis_hip_frame_right"
+      ],
+      "assembly_part_aliases": [
+        "chassis_hip_frame_right"
+      ]
+    },
+    {
+      "id": "P03",
+      "module": "M03",
+      "name": "左承力侧框",
+      "spec": "172.0 × 32.0 × 94.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P03_chassis_hip_frame_left.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "chassis_hip_frame_left"
+      ],
+      "assembly_part_aliases": [
+        "chassis_hip_frame_left"
+      ]
+    },
+    {
+      "id": "P04",
+      "module": "M03",
+      "name": "前后通用横框",
+      "spec": "8.0 × 144.0 × 94.0 mm 包络；详见STEP",
+      "quantity": 2,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P04_chassis_front_crossframe.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "model_instances": [
+        "chassis_front_crossframe",
+        "chassis_rear_crossframe"
+      ],
+      "assembly_part_aliases": [
+        "chassis_front_crossframe",
+        "chassis_rear_crossframe"
+      ]
+    },
+    {
+      "id": "P05",
+      "module": "M06",
+      "name": "前主壳",
+      "spec": "155.0 × 172.0 × 141.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P05_chassis_front_shell.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "model_instances": [
+        "chassis_front_shell"
+      ],
+      "assembly_part_aliases": [
+        "chassis_front_shell"
+      ]
+    },
+    {
+      "id": "P06",
+      "module": "M06",
+      "name": "后检修壳",
+      "spec": "155.0 × 172.0 × 74.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P06_chassis_rear_cover.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "model_instances": [
+        "chassis_rear_cover"
+      ],
+      "assembly_part_aliases": [
+        "chassis_rear_cover"
+      ]
+    },
+    {
+      "id": "P07",
+      "module": "M05",
+      "name": "屏幕相机前脸板",
+      "spec": "144.0 × 148.0 × 3.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P07_display_front_bezel.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。5寸GK-HD屏，装机前核实四角接触金属外框。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。5寸GK-HD屏，装机前核实四角接触金属外框。",
+      "model_instances": [
+        "display_front_bezel"
+      ],
+      "assembly_part_aliases": [
+        "display_front_bezel"
+      ]
+    },
+    {
+      "id": "P08",
+      "module": "M06",
+      "name": "左右通用肩罩",
+      "spec": "106.989 × 38.5 × 51.8 mm 包络；详见STEP",
+      "quantity": 2,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P08_shoulder_fairing_right.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "model_instances": [
+        "shoulder_fairing_right",
+        "shoulder_fairing_left"
+      ],
+      "assembly_part_aliases": [
+        "shoulder_fairing_right",
+        "shoulder_fairing_left"
+      ]
+    },
+    {
+      "id": "P09",
+      "module": "M04",
+      "name": "电池托",
+      "spec": "153.993 × 54.0 × 14.4 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P09_battery_tray.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。按WHEELTEC电池85.6×61.6×42、含磁底44.5设计；装拆及穿带见BATTERY.md。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。按WHEELTEC电池85.6×61.6×42、含磁底44.5设计；装拆及穿带见BATTERY.md。",
+      "model_instances": [
+        "battery_tray"
+      ],
+      "assembly_part_aliases": [
+        "battery_tray"
+      ]
+    },
+    {
+      "id": "P10",
+      "module": "M04",
+      "name": "电器托盘",
+      "spec": "152.0 × 108.0 × 3.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P10_electronics_tray.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "model_instances": [
+        "electronics_tray"
+      ],
+      "assembly_part_aliases": [
+        "electronics_tray"
+      ]
+    },
+    {
+      "id": "P11",
+      "module": "M04",
+      "name": "Jetson右夹座",
+      "spec": "125.5 × 22.2 × 9.4 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P11_Jetson_base_retainer_right.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "model_instances": [
+        "Jetson_base_retainer_right"
+      ],
+      "assembly_part_aliases": [
+        "Jetson_base_retainer_right"
+      ]
+    },
+    {
+      "id": "P12",
+      "module": "M04",
+      "name": "Jetson左夹座",
+      "spec": "125.5 × 22.2 × 9.4 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P12_Jetson_base_retainer_left.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "model_instances": [
+        "Jetson_base_retainer_left"
+      ],
+      "assembly_part_aliases": [
+        "Jetson_base_retainer_left"
+      ]
+    },
+    {
+      "id": "P13",
+      "module": "M05",
+      "name": "D435一体后座",
+      "spec": "24.0 × 108.0 × 28.05 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P13_D435_embedded_bracket.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。默认25.05深相机；26.05深相机用alternates替代，二选一，仅计1件。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。默认25.05深相机；26.05深相机用alternates替代，二选一，仅计1件。",
+      "model_instances": [
+        "D435_embedded_bracket"
+      ],
+      "assembly_part_aliases": [
+        "D435_embedded_bracket"
+      ]
+    },
+    {
+      "id": "P14",
+      "module": "M04",
+      "name": "IMU刚性安装桥",
+      "spec": "36.0 × 143.0 × 32.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P14_HI13R2_rigid_bridge.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "HI13R2_rigid_bridge"
+      ],
+      "assembly_part_aliases": [
+        "HI13R2_rigid_bridge"
+      ]
+    },
+    {
+      "id": "P15",
+      "module": "M05",
+      "name": "屏幕右托夹",
+      "spec": "81.5 × 16.0 × 17.5 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P15_display_case_cradle_right.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "model_instances": [
+        "display_case_cradle_right"
+      ],
+      "assembly_part_aliases": [
+        "display_case_cradle_right"
+      ]
+    },
+    {
+      "id": "P16",
+      "module": "M05",
+      "name": "屏幕左托夹",
+      "spec": "81.5 × 16.0 × 17.5 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "PETG",
+      "process": "FDM 3D打印",
+      "supply_type": "3D打印件",
+      "source": "manufacturing/print/P16_display_case_cradle_left.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "manufacturing_notes": "0.4喷嘴PETG；先打印孔/螺母槽试片，参见公差与装配说明。",
+      "model_instances": [
+        "display_case_cradle_left"
+      ],
+      "assembly_part_aliases": [
+        "display_case_cradle_left"
+      ]
+    },
+    {
+      "id": "P17",
+      "module": "M01、M02",
+      "name": "左右通用髋定子座",
+      "spec": "78.0 × 78.0 × 6.0 mm 包络；详见STEP",
+      "quantity": 2,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P17_hip_stator_mount.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "model_instances": [
+        "hip_stator_mount_right",
+        "hip_stator_mount_left"
+      ],
+      "assembly_part_aliases": [
+        "hip_stator_mount",
+        "hip_stator_mount_left"
+      ]
+    },
+    {
+      "id": "P18",
+      "module": "M01、M02",
+      "name": "左右通用髋转子法兰",
+      "spec": "42.957 × 43.0 × 10.3 mm 包络；详见STEP",
+      "quantity": 2,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P18_hip_rotor_cnc.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "model_instances": [
+        "hip_rotor_cnc_right",
+        "hip_rotor_cnc_left"
+      ],
+      "assembly_part_aliases": [
+        "hip_rotor_cnc",
+        "hip_rotor_cnc_left"
+      ]
+    },
+    {
+      "id": "P19",
+      "module": "M02",
+      "name": "右膝定子套杯",
+      "spec": "56.943 × 57.0 × 11.6 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P19_knee_stator_cnc.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "knee_stator_cnc_right"
+      ],
+      "assembly_part_aliases": [
+        "knee_stator_cnc"
+      ]
+    },
+    {
+      "id": "P20",
+      "module": "M01",
+      "name": "左膝定子套杯",
+      "spec": "56.943 × 57.0 × 11.6 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P20_knee_stator_cnc_left.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "knee_stator_cnc_left"
+      ],
+      "assembly_part_aliases": [
+        "knee_stator_cnc_left"
+      ]
+    },
+    {
+      "id": "P21",
+      "module": "M02",
+      "name": "右OB内框",
+      "spec": "57.0 × 173.984 × 7.5 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P21_OB_inner_carrier.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "OB_inner_carrier_right"
+      ],
+      "assembly_part_aliases": [
+        "OB_inner_carrier"
+      ]
+    },
+    {
+      "id": "P22",
+      "module": "M01",
+      "name": "左OB内框",
+      "spec": "57.0 × 173.984 × 7.5 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P22_OB_inner_carrier_left.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "OB_inner_carrier_left"
+      ],
+      "assembly_part_aliases": [
+        "OB_inner_carrier_left"
+      ]
+    },
+    {
+      "id": "P23",
+      "module": "M02",
+      "name": "右OB外包主臂",
+      "spec": "57.0 × 176.482 × 22.8 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P23_OB_outer_shell.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "OB_outer_shell_right"
+      ],
+      "assembly_part_aliases": [
+        "OB_outer_shell"
+      ]
+    },
+    {
+      "id": "P24",
+      "module": "M01",
+      "name": "左OB外包主臂",
+      "spec": "57.0 × 176.482 × 22.8 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P24_OB_outer_shell_left.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "OB_outer_shell_left"
+      ],
+      "assembly_part_aliases": [
+        "OB_outer_shell_left"
+      ]
+    },
+    {
+      "id": "P25",
+      "module": "M01、M02",
+      "name": "左右通用OA曲柄",
+      "spec": "43.996 × 79.987 × 22.8 mm 包络；详见STEP",
+      "quantity": 2,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P25_OA_one_piece.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "model_instances": [
+        "OA_one_piece_right",
+        "OA_one_piece_left"
+      ],
+      "assembly_part_aliases": [
+        "OA_one_piece",
+        "OA_one_piece_left"
+      ]
+    },
+    {
+      "id": "P26",
+      "module": "M01、M02",
+      "name": "左右通用AC轴承连杆",
+      "spec": "30.972 × 161.0 × 8.0 mm 包络；详见STEP",
+      "quantity": 2,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P26_AC_bearing_link.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "model_instances": [
+        "AC_bearing_link_right",
+        "AC_bearing_link_left"
+      ],
+      "assembly_part_aliases": [
+        "AC_bearing_link",
+        "AC_bearing_link_left"
+      ]
+    },
+    {
+      "id": "P27",
+      "module": "M02",
+      "name": "右CW下臂",
+      "spec": "44.0 × 184.978 × 15.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P27_CW_one_piece.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "CW_one_piece_right"
+      ],
+      "assembly_part_aliases": [
+        "CW_one_piece"
+      ]
+    },
+    {
+      "id": "P28",
+      "module": "M01",
+      "name": "左CW下臂",
+      "spec": "44.0 × 184.978 × 15.0 mm 包络；详见STEP",
+      "quantity": 1,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P28_CW_one_piece_left.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。",
+      "model_instances": [
+        "CW_one_piece_left"
+      ],
+      "assembly_part_aliases": [
+        "CW_one_piece_left"
+      ]
+    },
+    {
+      "id": "P29",
+      "module": "M01、M02",
+      "name": "通用轮辋",
+      "spec": "89.985 × 89.971 × 40.5 mm 包络；详见STEP",
+      "quantity": 2,
+      "unit": "件",
+      "material": "6061-T6铝合金",
+      "process": "CNC铣削/车铣",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/P29_wheel_rim.step",
+      "status": "样机首件；按公差说明验收",
+      "notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "manufacturing_notes": "承力或刚性定位件；6061-T6 CNC，螺纹/轴承座/薄耳需精加工；不可直接替换普通钣金或PETG。同一制造型号加工2件，按装配方向翻转；等形证据见别名审查。",
+      "model_instances": [
+        "wheel_rim_left",
+        "wheel_rim_right"
+      ],
+      "assembly_part_aliases": [
+        "wheel_rim"
+      ]
+    },
+    {
+      "id": "LC01",
+      "module": "M01、M02",
+      "name": "轴承外圈压盖",
+      "spec": "Ø28/Ø16.8×0.8；3-Ø2.2 PCD24",
+      "quantity": 6,
+      "unit": "件",
+      "material": "不锈钢板",
+      "process": "精密薄板切割/整平",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/LC01_bearing_keeper_D28_D16_8_t0_8.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "激光/精密板切割后去毛刺整平；薄型结构不够放DIN472槽+保边，保留压盖。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴承外圈压盖",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴承外圈压盖",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "bearing_keeper_A_right",
+        "bearing_keeper_A_left",
+        "bearing_keeper_C_right",
+        "bearing_keeper_C_left",
+        "bearing_keeper_B_right",
+        "bearing_keeper_B_left"
+      ]
+    },
+    {
+      "id": "LC02",
+      "module": "M01、M02",
+      "name": "双端内螺纹关节轴销",
+      "spec": "Ø6×14.05；两端M2×0.4完整牙≥4.3；底孔深4.6",
+      "quantity": 6,
+      "unit": "件",
+      "material": "40Cr调质后精磨；具体硬度按试验定",
+      "process": "CNC车削/精磨/二次加工",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/LC02_female_pin_D6_L14_05.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "六个A/B/C轴同一种；非标准肩螺栓。外形冻结，轴径按轴承实测选配；名义中心实心段4.85 mm。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴销",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴销",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "female_pin_A_right",
+        "female_pin_A_left",
+        "female_pin_C_right",
+        "female_pin_C_left",
+        "female_pin_B_right",
+        "female_pin_B_left"
+      ]
+    },
+    {
+      "id": "LC03",
+      "module": "M01、M02",
+      "name": "内侧一体带肩衬套",
+      "spec": "铜套Ø8/Ø6.05×2.5＋肩Ø8.4/Ø6.2×1.25；总长3.75",
+      "quantity": 6,
+      "unit": "件",
+      "material": "轴承青铜CuSn12",
+      "process": "CNC车削/精磨/二次加工",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/LC03_flanged_bush_inner_D8_D8p4_L3p75.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "精密车削；Ø8段朝内叉耳，Ø8.4肩朝轴承。替代独立铜套+1.25隔圈；轻压装，不用窄肩传递轴承预载。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C嵌套支撑",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C嵌套支撑",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "flanged_bush_A_inner_right",
+        "flanged_bush_A_inner_left",
+        "flanged_bush_C_inner_right",
+        "flanged_bush_C_inner_left",
+        "flanged_bush_B_inner_right",
+        "flanged_bush_B_inner_left"
+      ]
+    },
+    {
+      "id": "LC04",
+      "module": "M01、M02",
+      "name": "外侧一体带肩衬套",
+      "spec": "肩Ø8.4/Ø6.2×1.70＋铜套Ø8/Ø6.05×2.5；总长4.20",
+      "quantity": 6,
+      "unit": "件",
+      "material": "轴承青铜CuSn12",
+      "process": "CNC车削/精磨/二次加工",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/LC04_flanged_bush_outer_D8_D8p4_L4p20.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "精密车削；Ø8段朝外叉耳，Ø8.4肩朝轴承。名义游隙0.05留在肩与轴承内圈之间，避免压盖/轴销锁死轴承。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C嵌套支撑",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C嵌套支撑",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "flanged_bush_A_outer_right",
+        "flanged_bush_A_outer_left",
+        "flanged_bush_C_outer_right",
+        "flanged_bush_C_outer_left",
+        "flanged_bush_B_outer_right",
+        "flanged_bush_B_outer_left"
+      ]
+    },
+    {
+      "id": "LC05",
+      "module": "M01、M02",
+      "name": "轴销薄防脱挡片",
+      "spec": "Ø9/Ø2.2×0.20",
+      "quantity": 12,
+      "unit": "件",
+      "material": "钢精密垫片料",
+      "process": "精密薄板切割/整平",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/LC05_axis_washer_D9_d2_2_t0_2.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "定制功能挡片，不是标准采购垫片。单一规格12件，避免用大/小标准垫片叠层增加散件。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴销防脱",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴销防脱",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "axis_washer_A_inner_right",
+        "axis_washer_A_inner_left",
+        "axis_washer_A_outer_right",
+        "axis_washer_A_outer_left",
+        "axis_washer_C_inner_right",
+        "axis_washer_C_inner_left",
+        "axis_washer_C_outer_right",
+        "axis_washer_C_outer_left",
+        "axis_washer_B_inner_right",
+        "axis_washer_B_inner_left",
+        "axis_washer_B_outer_right",
+        "axis_washer_B_outer_left"
+      ]
+    },
+    {
+      "id": "LC06",
+      "module": "M01、M02",
+      "name": "OA装配限位肩销",
+      "spec": "M3×3；Ø4肩长4.2；Ø7×1头，0.8槽",
+      "quantity": 2,
+      "unit": "件",
+      "material": "钢；强度待验证",
+      "process": "CNC车削/精磨/二次加工",
+      "supply_type": "定制金属件",
+      "source": "manufacturing/metal/LC06_OA_angular_stop_M3_D4.step",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "只做装配角限位；禁止把它当作带电撞停或落地限位件。",
+      "standard_key": null,
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "OA装配角限位",
+          "quantity": 1
+        },
+        {
+          "module": "左腿",
+          "connection": "OA装配角限位",
+          "quantity": 1
+        }
+      ],
+      "model_instances": [
+        "OA_angular_stop_shoulder_M3_right",
+        "OA_angular_stop_shoulder_M3_left"
+      ]
+    },
+    {
+      "id": "LH01",
+      "module": "M01、M02、M04、M05",
+      "name": "内六角圆柱头螺钉",
+      "spec": "ISO4762 M3×8",
+      "quantity": 44,
+      "unit": "件",
+      "material": "钢8.8；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "https://www.norelem.es/medias/07160-ST-Datasheet-32102-Socket-head-screws-DIN-EN-ISO-4762-enhanced-steel-en.pdf?context=bWFzdGVyfHJvb3R8Mjc4MTEzfGFwcGxpY2F0aW9uL3BkZnxhREEyTDJobE5TODVORGt5TmpreE9ERXlNemd5THpBM01UWXdYMU5VWDBSaGRHRnphR1ZsZEY4ek1qRXdNbDlUYjJOclpYUmZhR1ZoWkY5elkzSmxkM05mUkVsT1gwVk9YMGxUVDE4ME56WXlYMlZ1YUdGdVkyVmtYM04wWldWc0xTMWxiaTV3WkdZfGM1Y2MxMzYwMDFiYzUzMDY3ZDQ4NTAxMWJhZmE0NTlmZWI2NjQ4OTY3NGI0MGRjZWY2NjU5MTZjMzJmODI1OTI",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "通用长度；用于髋转子法兰、轮电机定子和轮辋。轮辋12枚为V8.1补齐。 机身用法见BODY_ASSEMBLY.md。",
+      "standard_key": "ISO4762|M3x8|8.8|steel|black",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "髋转子法兰→髋转子",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "髋转子法兰→髋转子",
+          "quantity": 6
+        },
+        {
+          "module": "右腿",
+          "connection": "CW→H6215定子",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "CW→H6215定子",
+          "quantity": 3
+        },
+        {
+          "module": "右腿",
+          "connection": "轮辋→H6215转子",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "轮辋→H6215转子",
+          "quantity": 6
+        },
+        {
+          "module": "M04",
+          "connection": "battery tray to belly posts",
+          "quantity": 4,
+          "notes": "3 mm PETG grip + 5 mm nominal metal insertion"
+        },
+        {
+          "module": "M04",
+          "connection": "preassembled electronics tray to metal shelves",
+          "quantity": 4,
+          "notes": "3 mm PETG grip + 5 mm nominal metal insertion; access reliefs in Jetson retainers"
+        },
+        {
+          "module": "M04",
+          "connection": "IMU bridge feet to upper side-frame beams",
+          "quantity": 4,
+          "notes": "3 mm aluminium grip + 5 mm nominal insertion"
+        },
+        {
+          "module": "M05",
+          "connection": "D435 rear manufacturer M3 holes",
+          "quantity": 2,
+          "notes": "6 mm integral bracket, nominal camera insertion2 mm; max3 mm; same screw for selected25.05/26.05 depth bracket"
+        }
+      ],
+      "model_instances": [
+        "coupling_rotor_ISO4762_M3x8_0_right",
+        "coupling_rotor_ISO4762_M3x8_0_left",
+        "coupling_rotor_ISO4762_M3x8_1_right",
+        "coupling_rotor_ISO4762_M3x8_1_left",
+        "coupling_rotor_ISO4762_M3x8_2_right",
+        "coupling_rotor_ISO4762_M3x8_2_left",
+        "coupling_rotor_ISO4762_M3x8_3_right",
+        "coupling_rotor_ISO4762_M3x8_3_left",
+        "coupling_rotor_ISO4762_M3x8_4_right",
+        "coupling_rotor_ISO4762_M3x8_4_left",
+        "coupling_rotor_ISO4762_M3x8_5_right",
+        "coupling_rotor_ISO4762_M3x8_5_left",
+        "H6215_stator_M3x8_0_right",
+        "H6215_stator_M3x8_0_left",
+        "H6215_stator_M3x8_1_right",
+        "H6215_stator_M3x8_1_left",
+        "H6215_stator_M3x8_2_right",
+        "H6215_stator_M3x8_2_left",
+        "wheel_rim_ISO4762_M3x8_0_right",
+        "wheel_rim_ISO4762_M3x8_0_left",
+        "wheel_rim_ISO4762_M3x8_1_right",
+        "wheel_rim_ISO4762_M3x8_1_left",
+        "wheel_rim_ISO4762_M3x8_2_right",
+        "wheel_rim_ISO4762_M3x8_2_left",
+        "wheel_rim_ISO4762_M3x8_3_right",
+        "wheel_rim_ISO4762_M3x8_3_left",
+        "wheel_rim_ISO4762_M3x8_4_right",
+        "wheel_rim_ISO4762_M3x8_4_left",
+        "wheel_rim_ISO4762_M3x8_5_right",
+        "wheel_rim_ISO4762_M3x8_5_left",
+        "battery_tray_M3x8_0",
+        "battery_tray_M3x8_1",
+        "battery_tray_M3x8_2",
+        "battery_tray_M3x8_3",
+        "electronics_tray_M3x8_0",
+        "electronics_tray_M3x8_1",
+        "electronics_tray_M3x8_2",
+        "electronics_tray_M3x8_3",
+        "IMU_bridge_M3x8_0",
+        "IMU_bridge_M3x8_1",
+        "IMU_bridge_M3x8_2",
+        "IMU_bridge_M3x8_3",
+        "D435_rear_M3x8_0",
+        "D435_rear_M3x8_1"
+      ]
+    },
+    {
+      "id": "LH02",
+      "module": "M01、M02",
+      "name": "内六角圆柱头螺钉",
+      "spec": "ISO4762 M3×16",
+      "quantity": 12,
+      "unit": "件",
+      "material": "钢8.8；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "https://www.norelem.es/medias/07160-ST-Datasheet-32102-Socket-head-screws-DIN-EN-ISO-4762-enhanced-steel-en.pdf?context=bWFzdGVyfHJvb3R8Mjc4MTEzfGFwcGxpY2F0aW9uL3BkZnxhREEyTDJobE5TODVORGt5TmpreE9ERXlNemd5THpBM01UWXdYMU5VWDBSaGRHRnphR1ZsZEY4ek1qRXdNbDlUYjJOclpYUmZhR1ZoWkY5elkzSmxkM05mUkVsT1gwVk9YMGxUVDE4ME56WXlYMlZ1YUdGdVkyVmtYM04wWldWc0xTMWxiaTV3WkdZfGM1Y2MxMzYwMDFiYzUzMDY3ZDQ4NTAxMWJhZmE0NTlmZWI2NjQ4OTY3NGI0MGRjZWY2NjU5MTZjMzJmODI1OTI",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "OA到膝转子；夹持12、啮合4 mm，不可用M3×8代替。",
+      "standard_key": "ISO4762|M3x16|8.8|steel|black",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "OA→膝转子",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "OA→膝转子",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "OA_rotor_M3x16_0_right",
+        "OA_rotor_M3x16_0_left",
+        "OA_rotor_M3x16_1_right",
+        "OA_rotor_M3x16_1_left",
+        "OA_rotor_M3x16_2_right",
+        "OA_rotor_M3x16_2_left",
+        "OA_rotor_M3x16_3_right",
+        "OA_rotor_M3x16_3_left",
+        "OA_rotor_M3x16_4_right",
+        "OA_rotor_M3x16_4_left",
+        "OA_rotor_M3x16_5_right",
+        "OA_rotor_M3x16_5_left"
+      ]
+    },
+    {
+      "id": "LH03",
+      "module": "M01、M02",
+      "name": "低头小头螺钉",
+      "spec": "NBK SLH-M3-6-SD；头Ø4.5×2，内六角2",
+      "quantity": 20,
+      "unit": "件",
+      "material": "SWCH45K；8.8；发黑",
+      "process": "采购",
+      "supply_type": "厂家目录件",
+      "source": "https://www.nbk1560.com/images/en-US/product/lowsmallheadscrew/SLH-SD/SLH-SD_1.pdf",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "膝后定子4/侧及OB前定子6/侧；保留小头以避让紧凑孔壁，非普通ISO4762。",
+      "standard_key": "NBK|SLH-M3-6-SD|8.8|black_oxide",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "定子杯→膝定子后端",
+          "quantity": 4
+        },
+        {
+          "module": "左腿",
+          "connection": "定子杯→膝定子后端",
+          "quantity": 4
+        },
+        {
+          "module": "右腿",
+          "connection": "OB内框→膝定子前端",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "OB内框→膝定子前端",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "coupling_knee_SLH_M3x6_SD_0_right",
+        "coupling_knee_SLH_M3x6_SD_0_left",
+        "coupling_knee_SLH_M3x6_SD_1_right",
+        "coupling_knee_SLH_M3x6_SD_1_left",
+        "coupling_knee_SLH_M3x6_SD_2_right",
+        "coupling_knee_SLH_M3x6_SD_2_left",
+        "coupling_knee_SLH_M3x6_SD_3_right",
+        "coupling_knee_SLH_M3x6_SD_3_left",
+        "OB_stator_SLH_M3x6_0_right",
+        "OB_stator_SLH_M3x6_0_left",
+        "OB_stator_SLH_M3x6_1_right",
+        "OB_stator_SLH_M3x6_1_left",
+        "OB_stator_SLH_M3x6_2_right",
+        "OB_stator_SLH_M3x6_2_left",
+        "OB_stator_SLH_M3x6_3_right",
+        "OB_stator_SLH_M3x6_3_left",
+        "OB_stator_SLH_M3x6_4_right",
+        "OB_stator_SLH_M3x6_4_left",
+        "OB_stator_SLH_M3x6_5_right",
+        "OB_stator_SLH_M3x6_5_left"
+      ]
+    },
+    {
+      "id": "LH04",
+      "module": "M01、M02",
+      "name": "低头小头螺钉",
+      "spec": "NBK SLH-M3-8-SD；头Ø4.5×2，内六角2",
+      "quantity": 8,
+      "unit": "件",
+      "material": "SWCH45K；8.8；发黑",
+      "process": "采购",
+      "supply_type": "厂家目录件",
+      "source": "https://www.nbk1560.com/images/en-US/product/lowsmallheadscrew/SLH-SD/SLH-SD_1.pdf",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "两法兰侧向锁紧。厂家1.4 N·m是螺钉上限，不是该铝接头装配扭矩。",
+      "standard_key": "NBK|SLH-M3-8-SD|8.8|black_oxide",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "两法兰径向锁紧",
+          "quantity": 4
+        },
+        {
+          "module": "左腿",
+          "connection": "两法兰径向锁紧",
+          "quantity": 4
+        }
+      ],
+      "model_instances": [
+        "coupling_radial_SLH_M3x8_SD_0_right",
+        "coupling_radial_SLH_M3x8_SD_0_left",
+        "coupling_radial_SLH_M3x8_SD_1_right",
+        "coupling_radial_SLH_M3x8_SD_1_left",
+        "coupling_radial_SLH_M3x8_SD_2_right",
+        "coupling_radial_SLH_M3x8_SD_2_left",
+        "coupling_radial_SLH_M3x8_SD_3_right",
+        "coupling_radial_SLH_M3x8_SD_3_left"
+      ]
+    },
+    {
+      "id": "LH05",
+      "module": "M01、M02",
+      "name": "超薄头内六角花形螺钉",
+      "spec": "NBK SETS-M2-4；头Ø4×0.5，TX4",
+      "quantity": 30,
+      "unit": "件",
+      "material": "SUSXM7；A2；原厂本色",
+      "process": "采购",
+      "supply_type": "厂家目录件",
+      "source": "https://www.nbk1560.com/en-US/products/specialscrew/nedzicom/spacesaving/SETS/",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "轴承压盖18枚+轴销两端防脱12枚。原厂最大0.15 N·m不可直接当成铝压盖或薄挡片的最终扭矩。",
+      "standard_key": "NBK|SETS-M2-4|SUSXM7_A2|plain",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴承外圈压盖",
+          "quantity": 9
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴承外圈压盖",
+          "quantity": 9
+        },
+        {
+          "module": "右腿",
+          "connection": "A/B/C轴销两端防脱",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C轴销两端防脱",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "keeper_A_SETS_M2x4_0_right",
+        "keeper_A_SETS_M2x4_0_left",
+        "keeper_A_SETS_M2x4_1_right",
+        "keeper_A_SETS_M2x4_1_left",
+        "keeper_A_SETS_M2x4_2_right",
+        "keeper_A_SETS_M2x4_2_left",
+        "axis_A_SETS_M2x4_inner_right",
+        "axis_A_SETS_M2x4_inner_left",
+        "axis_A_SETS_M2x4_outer_right",
+        "axis_A_SETS_M2x4_outer_left",
+        "keeper_C_SETS_M2x4_0_right",
+        "keeper_C_SETS_M2x4_0_left",
+        "keeper_C_SETS_M2x4_1_right",
+        "keeper_C_SETS_M2x4_1_left",
+        "keeper_C_SETS_M2x4_2_right",
+        "keeper_C_SETS_M2x4_2_left",
+        "axis_C_SETS_M2x4_inner_right",
+        "axis_C_SETS_M2x4_inner_left",
+        "axis_C_SETS_M2x4_outer_right",
+        "axis_C_SETS_M2x4_outer_left",
+        "keeper_B_SETS_M2x4_0_right",
+        "keeper_B_SETS_M2x4_0_left",
+        "keeper_B_SETS_M2x4_1_right",
+        "keeper_B_SETS_M2x4_1_left",
+        "keeper_B_SETS_M2x4_2_right",
+        "keeper_B_SETS_M2x4_2_left",
+        "axis_B_SETS_M2x4_inner_right",
+        "axis_B_SETS_M2x4_inner_left",
+        "axis_B_SETS_M2x4_outer_right",
+        "axis_B_SETS_M2x4_outer_left"
+      ]
+    },
+    {
+      "id": "LH06",
+      "module": "M01、M02",
+      "name": "沉头内六角螺钉",
+      "spec": "DIN7991 M3×10；头≤Ø6×1.7，90°，内六角2",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢010.9；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-flat-countersunk-head-screws-fully-threaded/p/20/",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "OB内框到外壳；DIN已撤销但仍有目录件。不得不检查就换ISO10642大头。",
+      "standard_key": "DIN7991|M3x10|010.9|steel|black|headD6_k1.7",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "OB内框→OB外壳",
+          "quantity": 4
+        },
+        {
+          "module": "左腿",
+          "connection": "OB内框→OB外壳",
+          "quantity": 4
+        }
+      ],
+      "model_instances": [
+        "OB_shell_DIN7991_M3x10_0_right",
+        "OB_shell_DIN7991_M3x10_0_left",
+        "OB_shell_DIN7991_M3x10_1_right",
+        "OB_shell_DIN7991_M3x10_1_left",
+        "OB_shell_DIN7991_M3x10_2_right",
+        "OB_shell_DIN7991_M3x10_2_left",
+        "OB_shell_DIN7991_M3x10_3_right",
+        "OB_shell_DIN7991_M3x10_3_left"
+      ]
+    },
+    {
+      "id": "LH07",
+      "module": "M01、M02",
+      "name": "沉头内六角螺钉",
+      "spec": "DIN7991 M3×6；头≤Ø6×1.7，90°，内六角2",
+      "quantity": 12,
+      "unit": "件",
+      "material": "钢010.9；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-flat-countersunk-head-screws-fully-threaded/p/20/",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "髋电机定子到髋座；深5的电机孔中名义啮合3。",
+      "standard_key": "DIN7991|M3x6|010.9|steel|black|headD6_k1.7",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "髋定子→髋座",
+          "quantity": 6
+        },
+        {
+          "module": "左腿",
+          "connection": "髋定子→髋座",
+          "quantity": 6
+        }
+      ],
+      "model_instances": [
+        "hip_stator_M3x6_CS_0_right",
+        "hip_stator_M3x6_CS_0_left",
+        "hip_stator_M3x6_CS_1_right",
+        "hip_stator_M3x6_CS_1_left",
+        "hip_stator_M3x6_CS_2_right",
+        "hip_stator_M3x6_CS_2_left",
+        "hip_stator_M3x6_CS_3_right",
+        "hip_stator_M3x6_CS_3_left",
+        "hip_stator_M3x6_CS_4_right",
+        "hip_stator_M3x6_CS_4_left",
+        "hip_stator_M3x6_CS_5_right",
+        "hip_stator_M3x6_CS_5_left"
+      ]
+    },
+    {
+      "id": "LH08",
+      "module": "M01、M02",
+      "name": "沉头内六角螺钉",
+      "spec": "DIN7991 M4×12；头≤Ø8×2.3，90°，内六角2.5",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢010.9；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "https://www.bossard.com/us-en/eshop/screws-and-bolts-with-internal-drive/hex-socket-flat-countersunk-head-screws-fully-threaded/p/20/",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "腿模块到机身侧框；每侧4枚，整机总装时使用，机身BOM不要重复。",
+      "standard_key": "DIN7991|M4x12|010.9|steel|black|headD8_k2.3",
+      "usage": [
+        {
+          "module": "腿-机身总装",
+          "connection": "髋座→机身侧框",
+          "quantity": 8
+        }
+      ],
+      "model_instances": [
+        "hip_case_M4x12_CS_0_right",
+        "hip_case_M4x12_CS_0_left",
+        "hip_case_M4x12_CS_1_right",
+        "hip_case_M4x12_CS_1_left",
+        "hip_case_M4x12_CS_2_right",
+        "hip_case_M4x12_CS_2_left",
+        "hip_case_M4x12_CS_3_right",
+        "hip_case_M4x12_CS_3_left"
+      ]
+    },
+    {
+      "id": "LH09",
+      "module": "M03",
+      "name": "普通平垫圈",
+      "spec": "ISO7089 M4；Ø4.3/Ø9×0.8",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢200HV；镀锌",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "https://www.obo.de/de-de/produkte/unterlegscheibe-9-4-3-0-8-m4-3402045.html",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "外形来源为厂家DIN125A表；采购选200HV等级，不能拿未标硬度或软塑料垫圈替换。每个M4接口一片。",
+      "standard_key": "ISO7089|M4|200HV|steel|zinc",
+      "usage": [
+        {
+          "module": "腿-机身总装",
+          "connection": "髋座→机身侧框",
+          "quantity": 8
+        }
+      ],
+      "model_instances": [
+        "hip_case_M4_washer_0_right",
+        "hip_case_M4_washer_0_left",
+        "hip_case_M4_washer_1_right",
+        "hip_case_M4_washer_1_left",
+        "hip_case_M4_washer_2_right",
+        "hip_case_M4_washer_2_left",
+        "hip_case_M4_washer_3_right",
+        "hip_case_M4_washer_3_left"
+      ]
+    },
+    {
+      "id": "LH10",
+      "module": "M03",
+      "name": "六角螺母",
+      "spec": "ISO4032 M4；AF7×3.2",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢8级；镀锌",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "https://www.norelem.com/doc/hu/hu/did.294335/Normenuebersicht-der-Verbindungselemente-NLM_HU.pdf",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "髋座总装用；与M4沉头螺钉配对，现场防松工艺确认后做扭矩标记。",
+      "standard_key": "ISO4032|M4|8|steel|zinc",
+      "usage": [
+        {
+          "module": "腿-机身总装",
+          "connection": "髋座→机身侧框",
+          "quantity": 8
+        }
+      ],
+      "model_instances": [
+        "hip_case_M4_nut_0_right",
+        "hip_case_M4_nut_0_left",
+        "hip_case_M4_nut_1_right",
+        "hip_case_M4_nut_1_left",
+        "hip_case_M4_nut_2_right",
+        "hip_case_M4_nut_2_left",
+        "hip_case_M4_nut_3_right",
+        "hip_case_M4_nut_3_left"
+      ]
+    },
+    {
+      "id": "LH11",
+      "module": "M01、M02",
+      "name": "定位圆柱销",
+      "spec": "DIN6325 Ø4m6×10（Norelem03320-04X10）",
+      "quantity": 6,
+      "unit": "件",
+      "material": "工具钢；淬硬磨削60±2HRC；本色",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "https://www.norelem.mx/doc/mx/es/did.97191/03320_Datasheet_2785_Pasadores_cil_ndricos_DIN_6325--es.pdf",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "3/髋法兰；取代旧定制9mm。只控制装入法兰7.00±0.05；外露名义3、随实际长度变化（详公差文档），三销按实物检具确认，禁止螺钉强拉。",
+      "standard_key": "DIN6325|4m6x10|hardened_60HRC|ground_plain",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "髋转子法兰定位",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "髋转子法兰定位",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "coupling_rotor_DIN6325_D4x10_0_right",
+        "coupling_rotor_DIN6325_D4x10_0_left",
+        "coupling_rotor_DIN6325_D4x10_1_right",
+        "coupling_rotor_DIN6325_D4x10_1_left",
+        "coupling_rotor_DIN6325_D4x10_2_right",
+        "coupling_rotor_DIN6325_D4x10_2_left"
+      ]
+    },
+    {
+      "id": "LH12",
+      "module": "M01、M02",
+      "name": "深沟球轴承",
+      "spec": "NSK626ZZ1；6×19×6；金属防尘盖",
+      "quantity": 6,
+      "unit": "件",
+      "material": "原厂轴承钢",
+      "process": "采购",
+      "supply_type": "厂家目录件",
+      "source": "https://www.nsk.com/jp-ja/engineering/products/bearings/ball-bearings/deep-groove-ball-bearings/extra-small-ball-bearings-and-miniature-ball-bearings-metric-series/626zz1-esm-md.html",
+      "status": "原型装配规格；未验证跳跃强度",
+      "notes": "A、B、C各1/腿，普通游隙版本；不得仅按626尺寸采购C3/MC3等异游隙版本。额定载荷不等于整机跳跃能力。",
+      "standard_key": "NSK|626ZZ1|standard_clearance|ZZ",
+      "usage": [
+        {
+          "module": "右腿",
+          "connection": "A/B/C关节",
+          "quantity": 3
+        },
+        {
+          "module": "左腿",
+          "connection": "A/B/C关节",
+          "quantity": 3
+        }
+      ],
+      "model_instances": [
+        "_626_A_right",
+        "_626_A_left",
+        "_626_C_right",
+        "_626_C_left",
+        "_626_B_right",
+        "_626_B_left"
+      ]
+    },
+    {
+      "id": "BH01",
+      "module": "M03",
+      "name": "沉头内六角螺钉",
+      "spec": "DIN7991 M3x0.5 x 8",
+      "quantity": 16,
+      "unit": "件",
+      "material": "钢010.9；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "BODY_ASSEMBLY.md；body_hardware_bom.json",
+      "status": "按列明头径/强度等级采购",
+      "notes": "Select actual head diameter 6 mm / height 1.7 mm / 90-degree head. Do NOT substitute unrestricted ISO10642; its M3 head can reach 6.72 mm. Body clearance countersink D6.4. Modeled free grip and head, engaged threads omitted.",
+      "standard_key": "DIN7991|M3x8|010.9|steel|black|headD6_k1.7",
+      "usage": [
+        {
+          "module": "M03",
+          "connection": "belly plate to lower side-frame ledges",
+          "quantity": 8,
+          "notes": "3 mm total metal grip; 5 mm nominal insertion; head included in screw length"
+        },
+        {
+          "module": "M03",
+          "connection": "side frames to front/rear crossframe rails",
+          "quantity": 8,
+          "notes": "3 mm total metal grip; 5 mm nominal insertion"
+        }
+      ],
+      "model_instances": [
+        "belly_frame_DIN7991_M3x8_0",
+        "belly_frame_DIN7991_M3x8_1",
+        "belly_frame_DIN7991_M3x8_2",
+        "belly_frame_DIN7991_M3x8_3",
+        "belly_frame_DIN7991_M3x8_4",
+        "belly_frame_DIN7991_M3x8_5",
+        "belly_frame_DIN7991_M3x8_6",
+        "belly_frame_DIN7991_M3x8_7",
+        "crossframe_DIN7991_M3x8__1_0",
+        "crossframe_DIN7991_M3x8__1_1",
+        "crossframe_DIN7991_M3x8__1_2",
+        "crossframe_DIN7991_M3x8__1_3",
+        "crossframe_DIN7991_M3x8_1_0",
+        "crossframe_DIN7991_M3x8_1_1",
+        "crossframe_DIN7991_M3x8_1_2",
+        "crossframe_DIN7991_M3x8_1_3"
+      ]
+    },
+    {
+      "id": "BH03",
+      "module": "M04、M05",
+      "name": "内六角圆柱头螺钉",
+      "spec": "ISO4762 M3x0.5 x 10",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢8.8；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "BODY_ASSEMBLY.md；body_hardware_bom.json",
+      "status": "按列明头径/强度等级采购",
+      "notes": "",
+      "standard_key": "ISO4762|M3x10|8.8|steel|black",
+      "usage": [
+        {
+          "module": "M04",
+          "connection": "Jetson peripheral retainers to electronics tray",
+          "quantity": 4,
+          "notes": "6 mm structural grip + 0.5 mm washer + 2.4 mm nut;1.1 mm nominal tip projection"
+        },
+        {
+          "module": "M05",
+          "connection": "D435 bracket to front face",
+          "quantity": 4,
+          "notes": "7 mm grip to nut shoulderX110, nut2.4, projection0.6 mm"
+        }
+      ],
+      "model_instances": [
+        "Jetson_retainer_M3x10_1",
+        "Jetson_retainer_M3x10_2",
+        "Jetson_retainer_M3x10_3",
+        "Jetson_retainer_M3x10_4",
+        "D435_frame_M3x10_0",
+        "D435_frame_M3x10_1",
+        "D435_frame_M3x10_2",
+        "D435_frame_M3x10_3"
+      ]
+    },
+    {
+      "id": "BH04",
+      "module": "M05、M06",
+      "name": "内六角圆柱头螺钉",
+      "spec": "ISO4762 M3x0.5 x 12",
+      "quantity": 12,
+      "unit": "件",
+      "material": "钢8.8；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "BODY_ASSEMBLY.md；body_hardware_bom.json",
+      "status": "按列明头径/强度等级采购",
+      "notes": "",
+      "standard_key": "ISO4762|M3x12|8.8|steel|black",
+      "usage": [
+        {
+          "module": "M06",
+          "connection": "front shell to metal front crossframe, final assembly",
+          "quantity": 4,
+          "notes": "6 mm PETG grip + 6 mm metal insertion; head seatX92"
+        },
+        {
+          "module": "M06",
+          "connection": "rear cover to metal rear crossframe, final assembly",
+          "quantity": 4,
+          "notes": "6 mm PETG grip + 6 mm metal insertion; head seatX-92, D6.4x2 recess"
+        },
+        {
+          "module": "M05",
+          "connection": "complete front face to shell, final assembly",
+          "quantity": 4,
+          "notes": "7.4 mm grip to nut shoulderX109.6, nut2.4, projection2.2 mm"
+        }
+      ],
+      "model_instances": [
+        "front_shell_M3x12_0",
+        "front_shell_M3x12_1",
+        "front_shell_M3x12_2",
+        "front_shell_M3x12_3",
+        "rear_cover_M3x12_0",
+        "rear_cover_M3x12_1",
+        "rear_cover_M3x12_2",
+        "rear_cover_M3x12_3",
+        "front_face_M3x12_0",
+        "front_face_M3x12_1",
+        "front_face_M3x12_2",
+        "front_face_M3x12_3"
+      ]
+    },
+    {
+      "id": "BH05",
+      "module": "M05、M06",
+      "name": "内六角圆柱头螺钉",
+      "spec": "ISO4762 M3x0.5 x 20",
+      "quantity": 8,
+      "unit": "件",
+      "material": "钢8.8；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "BODY_ASSEMBLY.md；body_hardware_bom.json",
+      "status": "按列明头径/强度等级采购",
+      "notes": "",
+      "standard_key": "ISO4762|M3x20|8.8|steel|black",
+      "usage": [
+        {
+          "module": "M06",
+          "connection": "shoulder covers through shell into metal bosses, final assembly",
+          "quantity": 4,
+          "notes": "14 mm total plastic grip + 6 mm nominal metal insertion"
+        },
+        {
+          "module": "M05",
+          "connection": "display external case cradles to front face",
+          "quantity": 4,
+          "notes": "16 mm grip to nut shoulderX101; nut2.4; projection1.6 mm; no cut screws"
+        }
+      ],
+      "model_instances": [
+        "shoulder__1_M3x20_0",
+        "shoulder__1_M3x20_1",
+        "shoulder_1_M3x20_0",
+        "shoulder_1_M3x20_1",
+        "display_case_M3x20_0",
+        "display_case_M3x20_1",
+        "display_case_M3x20_2",
+        "display_case_M3x20_3"
+      ]
+    },
+    {
+      "id": "BH06",
+      "module": "M04",
+      "name": "内六角圆柱头螺钉",
+      "spec": "ISO4762 M2.5x0.45 x 16",
+      "quantity": 2,
+      "unit": "件",
+      "material": "钢8.8；发黑",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "BODY_ASSEMBLY.md；body_hardware_bom.json",
+      "status": "按列明头径/强度等级采购",
+      "notes": "Select smooth head diameter <=4.5 mm, height<=2.5 mm, AF2. Manufacturer relief radius2.3 mm; unrestricted knurled/oversize head is not accepted.",
+      "standard_key": "ISO4762|M2.5x16|8.8|steel|black|smooth_headD4.5",
+      "usage": [
+        {
+          "module": "M04",
+          "connection": "HI13R2 through manufacturer mounting holes to rigid bridge",
+          "quantity": 2,
+          "notes": "10.4 mm device grip +3 mm bridge +2 mm nut;0.6 mm projection"
+        }
+      ],
+      "model_instances": [
+        "HI13R2_M2p5x16_0",
+        "HI13R2_M2p5x16_1"
+      ]
+    },
+    {
+      "id": "BH07",
+      "module": "M04、M05、M06",
+      "name": "六角螺母",
+      "spec": "ISO4032 M3x0.5; AF5.5 x t2.4",
+      "quantity": 16,
+      "unit": "件",
+      "material": "钢8；镀锌",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "BODY_ASSEMBLY.md；body_hardware_bom.json",
+      "status": "按列明头径/强度等级采购",
+      "notes": "Nominal CAD matches AF5.5/max thickness2.4; supplier dimensional range AF5.32..5.5, height2.15..2.4. Printed nut pockets AF5.8 are process starting dimensions, not guaranteed press fits.",
+      "standard_key": "ISO4032|M3|8|steel|zinc|AF5.5_t2.4",
+      "usage": [
+        {
+          "module": "M04",
+          "connection": "Jetson retainers, below tray and M3 washers",
+          "quantity": 4,
+          "notes": ""
+        },
+        {
+          "module": "M05",
+          "connection": "D435 bracket rear-loaded captured pockets",
+          "quantity": 4,
+          "notes": ""
+        },
+        {
+          "module": "M05",
+          "connection": "5-inch display cradles rear-loaded captured pockets",
+          "quantity": 4,
+          "notes": ""
+        },
+        {
+          "module": "M05",
+          "connection": "front face shell captive pockets, final assembly",
+          "quantity": 4,
+          "notes": ""
+        }
+      ],
+      "model_instances": [
+        "Jetson_retainer_M3_nut_1",
+        "Jetson_retainer_M3_nut_2",
+        "Jetson_retainer_M3_nut_3",
+        "Jetson_retainer_M3_nut_4",
+        "D435_frame_M3_nut_0",
+        "D435_frame_M3_nut_1",
+        "D435_frame_M3_nut_2",
+        "D435_frame_M3_nut_3",
+        "display_case_M3_nut_0",
+        "display_case_M3_nut_1",
+        "display_case_M3_nut_2",
+        "display_case_M3_nut_3",
+        "front_face_M3_nut_0",
+        "front_face_M3_nut_1",
+        "front_face_M3_nut_2",
+        "front_face_M3_nut_3"
+      ]
+    },
+    {
+      "id": "BH08",
+      "module": "M04",
+      "name": "六角螺母",
+      "spec": "ISO4032 M2.5x0.45; AF5 x t2",
+      "quantity": 2,
+      "unit": "件",
+      "material": "钢8；镀锌",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "BODY_ASSEMBLY.md；body_hardware_bom.json",
+      "status": "按列明头径/强度等级采购",
+      "notes": "Use regular-height metal nut; maximum height2 mm and AF5. Do not replace with tall nyloc nut without clearance check.",
+      "standard_key": "ISO4032|M2.5|8|steel|zinc|AF5_t2",
+      "usage": [
+        {
+          "module": "M04",
+          "connection": "HI13R2 below IMU bridge",
+          "quantity": 2,
+          "notes": ""
+        }
+      ],
+      "model_instances": [
+        "HI13R2_M2p5_nut_0",
+        "HI13R2_M2p5_nut_1"
+      ]
+    },
+    {
+      "id": "BH09",
+      "module": "M04",
+      "name": "普通平垫圈",
+      "spec": "ISO7089 M3; ID3.2 x OD7 x t0.5",
+      "quantity": 4,
+      "unit": "件",
+      "material": "钢200 HV；镀锌",
+      "process": "采购",
+      "supply_type": "标准件",
+      "source": "BODY_ASSEMBLY.md；body_hardware_bom.json",
+      "status": "按列明头径/强度等级采购",
+      "notes": "These four spreading washers are intentional; not improvised grip-length correction. Incoming ID3.2..3.38/OD6.64..7/t0.45..0.55 mm.",
+      "standard_key": "ISO7089|M3_3.2x7x0.5|200HV|steel|zinc",
+      "usage": [
+        {
+          "module": "M04",
+          "connection": "Jetson retainer nuts below electronics tray",
+          "quantity": 4,
+          "notes": ""
+        }
+      ],
+      "model_instances": [
+        "Jetson_retainer_washer_1",
+        "Jetson_retainer_washer_2",
+        "Jetson_retainer_washer_3",
+        "Jetson_retainer_washer_4"
+      ]
+    },
+    {
+      "id": "E01",
+      "module": "M01、M02",
+      "name": "J4310关节电机",
+      "spec": "DM-J4310-2EC，24V，V1.1驱动",
+      "quantity": 4,
+      "unit": "件",
+      "material": "原厂总成",
+      "process": "整件采购",
+      "supply_type": "外购设备",
+      "source": "source/hardware/j4310_drawing.txt",
+      "status": "按指定版本采购并测量",
+      "notes": "电机内部零件与紧固件不拆计。",
+      "model_instances": [
+        "J4310_hip_left",
+        "J4310_hip_right",
+        "J4310_knee_left",
+        "J4310_knee_right"
+      ]
+    },
+    {
+      "id": "E02",
+      "module": "M01、M02",
+      "name": "轮毂电机",
+      "spec": "DM-H6215",
+      "quantity": 2,
+      "unit": "件",
+      "material": "原厂总成",
+      "process": "整件采购",
+      "supply_type": "外购设备",
+      "source": "source/hardware/h6215_drawing.txt",
+      "status": "按指定版本采购并测量",
+      "notes": "轮辋紧固螺钉已计入LH01。",
+      "model_instances": [
+        "H6215_left",
+        "H6215_right"
+      ]
+    },
+    {
+      "id": "E03",
+      "module": "M04",
+      "name": "开发套件",
+      "spec": "Jetson Orin Nano官方开发套件",
+      "quantity": 1,
+      "unit": "件",
+      "material": "原厂总成",
+      "process": "整件采购",
+      "supply_type": "外购设备",
+      "source": "payload_interfaces.json",
+      "status": "按指定版本采购并测量",
+      "notes": "含原厂底座/散热器；按实际版本核对接口。",
+      "model_instances": [
+        "Jetson_Orin_Nano_official"
+      ]
+    },
+    {
+      "id": "E04",
+      "module": "M05",
+      "name": "深度相机",
+      "spec": "RealSense D435",
+      "quantity": 1,
+      "unit": "件",
+      "material": "原厂总成",
+      "process": "整件采购",
+      "supply_type": "外购设备",
+      "source": "payload_interfaces.json",
+      "status": "按指定版本采购并测量",
+      "notes": "一个设备，两种CAD表达；后座深度按实物25.05/26.05二选一。",
+      "model_instances": [
+        "D435_clearance_envelope",
+        "D435_official_ROS_mesh"
+      ]
+    },
+    {
+      "id": "E05",
+      "module": "M04",
+      "name": "惯性测量单元",
+      "spec": "超核HI13R2 USB版",
+      "quantity": 1,
+      "unit": "件",
+      "material": "原厂总成",
+      "process": "整件采购",
+      "supply_type": "外购设备",
+      "source": "https://www.hipnuc.com/hi13.html",
+      "status": "按指定版本采购并测量",
+      "notes": "俯视名义原点在机体中心；安装后标定轴向。",
+      "model_instances": [
+        "HI13R2_official"
+      ]
+    },
+    {
+      "id": "E06",
+      "module": "M05",
+      "name": "5寸显示器",
+      "spec": "GK-HD V3，122×78×14.5 mm",
+      "quantity": 1,
+      "unit": "件",
+      "material": "原厂总成",
+      "process": "整件采购",
+      "supply_type": "外购设备",
+      "source": "source/display/显示器规格书.pdf，第2页",
+      "status": "按指定版本采购并测量",
+      "notes": "采用外壳托夹；供应商未给5寸安装孔。200g为质量估计。",
+      "model_instances": [
+        "Display_GK_HD_5in_supplier_envelope"
+      ]
+    },
+    {
+      "id": "E07",
+      "module": "M04",
+      "name": "E626S电池包及磁吸底座",
+      "spec": "用户确认24V等级E626S；本体85.6×61.6×42 mm，含磁底44.5 mm",
+      "quantity": 1,
+      "unit": "件",
+      "material": "原厂封装电池/磁吸底座",
+      "process": "整件采购",
+      "supply_type": "外购设备",
+      "source": "source/battery/WHEELTEC_battery_user_drawing.png；source/battery/WHEELTEC_24V_manual.pdf",
+      "status": "型号用户已确认；含底质量/插头待测",
+      "notes": "用户确认选E626S；官方337g/22.2V/2550mAh/6A持续/13A瞬时。337g是否含底座未明，安装仍按400g预算。DC5.5-2.1充放共口，插头及脉冲时长需复核。",
+      "model_instances": [
+        "Battery_WHEELTEC_drawing_envelope"
+      ]
+    },
+    {
+      "id": "E08",
+      "module": "M01、M02",
+      "name": "弹性轮胎",
+      "spec": "外径100/内径86/宽32 mm",
+      "quantity": 2,
+      "unit": "件",
+      "material": "橡胶/弹性体待选",
+      "process": "整件采购",
+      "supply_type": "外购设备",
+      "source": "design_parameters.json",
+      "status": "规格待选定",
+      "notes": "按轮辋匹配；硬度、摩擦、固定方式和跳跃耐久需样件确认。",
+      "model_instances": [
+        "elastic_tyre_left",
+        "elastic_tyre_right"
+      ]
+    },
+    {
+      "id": "C01",
+      "module": "M05",
+      "name": "屏幕后软垫",
+      "spec": "4×8×0.5 mm，4块",
+      "quantity": 4,
+      "unit": "件",
+      "material": "薄弹性自粘片",
+      "process": "采购/裁切",
+      "supply_type": "外购耗材",
+      "source": "body_hardware_bom.json",
+      "status": "装机实配",
+      "notes": "0.5为最终压缩厚度目标；仅支撑金属外框，不挤压屏幕玻璃。",
+      "model_instances": []
+    },
+    {
+      "id": "C02",
+      "module": "M04",
+      "name": "电池束带",
+      "spec": "10×300 mm；底部单层厚≤1.0 mm",
+      "quantity": 2,
+      "unit": "件",
+      "material": "绝缘魔术贴束带",
+      "process": "采购/裁切",
+      "supply_type": "外购耗材",
+      "source": "body_hardware_bom.json",
+      "status": "装机实配",
+      "notes": "机外穿带固定；保守绕行231mm加顶部搭接≥50mm；扣头/搭接避DC口并核实真实厚度。",
+      "model_instances": []
+    },
+    {
+      "id": "T01",
+      "module": "整机",
+      "name": "电源转换与配电",
+      "spec": "待电气方案与实物确认",
+      "quantity": null,
+      "unit": "待定",
+      "material": "待定",
+      "process": "选型/采购",
+      "supply_type": "待选型附件",
+      "source": "本次设计待定项",
+      "status": "未选型，不计入已定数量",
+      "notes": "需按Jetson/屏幕/相机实际供电确定DC-DC、配电板与安装空间。",
+      "model_instances": []
+    },
+    {
+      "id": "T02",
+      "module": "整机",
+      "name": "保险丝、开关与急停",
+      "spec": "待电气方案与实物确认",
+      "quantity": null,
+      "unit": "待定",
+      "material": "待定",
+      "process": "选型/采购",
+      "supply_type": "待选型附件",
+      "source": "本次设计待定项",
+      "status": "未选型，不计入已定数量",
+      "notes": "按电池最大电流、导线及驱动器电压电流规格选择。",
+      "model_instances": []
+    },
+    {
+      "id": "T03",
+      "module": "整机",
+      "name": "线束、插头与绝缘护线件",
+      "spec": "待电气方案与实物确认",
+      "quantity": null,
+      "unit": "待定",
+      "material": "待定",
+      "process": "选型/采购",
+      "supply_type": "待选型附件",
+      "source": "本次设计待定项",
+      "status": "未选型，不计入已定数量",
+      "notes": "CAN/USB/HDMI/电源线长度、弯曲半径、腿线活动余量及电池绝缘垫材需实物布线确认。",
+      "model_instances": []
+    },
+    {
+      "id": "T04",
+      "module": "整机",
+      "name": "螺纹防松与标记耗材",
+      "spec": "待电气方案与实物确认",
+      "quantity": null,
+      "unit": "待定",
+      "material": "待定",
+      "process": "选型/采购",
+      "supply_type": "待选型附件",
+      "source": "本次设计待定项",
+      "status": "未选型，不计入已定数量",
+      "notes": "选与铝、钢及邻近塑料兼容的可拆防松工艺；扭矩经样件验证。",
+      "model_instances": []
+    }
+  ]
+}

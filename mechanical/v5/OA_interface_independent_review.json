@@ -1,0 +1,83 @@
+{
+  "status": "independent geometry review, not strength approval",
+  "source_sha256": "b79a32db9826ad51b8b96e25fa24430d3e29677d7b46b32fbf5d6f46e8750c3f",
+  "motor_source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/3D\u6a21\u578b/DM-J4310-2EC-V1.1_3d_20260228_1.stp",
+  "motor_solids": 26,
+  "oa_valid": true,
+  "oa_solids": 1,
+  "S": 132.1,
+  "dimensions_mm": {
+    "register_diameter": 35.05,
+    "register_depth": 0.8,
+    "neck_outer_diameter": 39,
+    "bridge_outer_diameter": 37,
+    "center_bore_diameter": 12,
+    "rotor_holes": "6 M3 clearance D3.4 PCD27 phase0; D5.8 counterbore",
+    "counterbore_floor_y": 145.1,
+    "neck_to_OB_radial_clearance": 0.7,
+    "bridge_to_counterbore_radial_web": 2.1,
+    "counterbore_to_center_hole_web": 4.6,
+    "motor_thread_depth": 5,
+    "M3x16_grip": 12,
+    "M3x16_engagement": 4,
+    "thread_end_margin": 1,
+    "head_bearing_axial_thickness": 12
+  },
+  "intersections_mm3": {
+    "oa_vs_motor": 0.0,
+    "ob_vs_oa": 0.0
+  },
+  "tools": [
+    {
+      "index": 0,
+      "oa_common": 0.0,
+      "ob_inner_common": 0.0,
+      "motor_common": 0.0
+    },
+    {
+      "index": 1,
+      "oa_common": 0.0,
+      "ob_inner_common": 0.0,
+      "motor_common": 0.0
+    },
+    {
+      "index": 2,
+      "oa_common": 0.0,
+      "ob_inner_common": 0.0,
+      "motor_common": 0.0
+    },
+    {
+      "index": 3,
+      "oa_common": 0.0,
+      "ob_inner_common": 0.0,
+      "motor_common": 0.0
+    },
+    {
+      "index": 4,
+      "oa_common": 0.0,
+      "ob_inner_common": 0.0,
+      "motor_common": 0.0
+    },
+    {
+      "index": 5,
+      "oa_common": 0.0,
+      "ob_inner_common": 0.0,
+      "motor_common": 0.0
+    }
+  ],
+  "motor_thread_core_probes": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "notes": [
+    "Tool access is before OB outer cover installation. OA hardware heads are modeled without hex recess; tool check stops at nominal standard socket depth and excludes its own screw head.",
+    "M3 motor engagement is checked with a D2.4 smooth core probe, not the true helical thread. Actual manufacturer depth5 leaves nominal1 bottom clearance.",
+    "2.1 radial web around six deep counterbores is geometric clearance only. Torsion, fatigue and tightening-bearing capacity require material/fillet/preload analysis.",
+    "O neck and bearing load path include 1.975 radial pilot lip before y=S+1. That lip locates; axial screw load passes through the 12mm hub after the cup floor.",
+    "No separate locating dowel has been added to OA by this review; supplied D35 pilot plus bolt circle aligns the current crank design."
+  ]
+}

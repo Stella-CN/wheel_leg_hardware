@@ -1,0 +1,277 @@
+{
+  "chassis_source_sha256": "6c5ca468937e011e070385949ad7fd5618ee7a5eab851bf9e1ed0f6d5753845e",
+  "source": "/Users/lvjiaqing/MyProjects/MyRobot/references/DM-J4310-2EC/3D\u6a21\u578b/DM-J4310-2EC-V1.1_3d_20260228_1.stp",
+  "collisions": [],
+  "samples": [
+    {
+      "length": null,
+      "part": "hip_motor",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 7.7201036262167655
+    },
+    {
+      "length": null,
+      "part": "hip_mount",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 0.20000000000000284
+    },
+    {
+      "length": 100,
+      "part": "knee_motor",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.499999940475871
+    },
+    {
+      "length": 100,
+      "part": "OB_inner_carrier",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.965883607174047
+    },
+    {
+      "length": 100,
+      "part": "OB_outer_shell",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 5.723567132116808
+    },
+    {
+      "length": 100,
+      "part": "OA_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 6.599999999999994
+    },
+    {
+      "length": 100,
+      "part": "AC_bearing_link",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 10.099999999999994
+    },
+    {
+      "length": 100,
+      "part": "CW_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 79.76862536344001
+    },
+    {
+      "length": 120,
+      "part": "knee_motor",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.499999940475869
+    },
+    {
+      "length": 120,
+      "part": "OB_inner_carrier",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.965883607174048
+    },
+    {
+      "length": 120,
+      "part": "OB_outer_shell",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 6.922941095293933
+    },
+    {
+      "length": 120,
+      "part": "OA_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 6.599999999999994
+    },
+    {
+      "length": 120,
+      "part": "AC_bearing_link",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 10.099999999999994
+    },
+    {
+      "length": 120,
+      "part": "CW_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 89.35046378416233
+    },
+    {
+      "length": 140,
+      "part": "knee_motor",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.49999994047587
+    },
+    {
+      "length": 140,
+      "part": "OB_inner_carrier",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.965883607174048
+    },
+    {
+      "length": 140,
+      "part": "OB_outer_shell",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 7.7420927403383475
+    },
+    {
+      "length": 140,
+      "part": "OA_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 6.599999999999994
+    },
+    {
+      "length": 140,
+      "part": "AC_bearing_link",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 10.099999999999994
+    },
+    {
+      "length": 140,
+      "part": "CW_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 94.96583849888239
+    },
+    {
+      "length": 160,
+      "part": "knee_motor",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.49999994047587
+    },
+    {
+      "length": 160,
+      "part": "OB_inner_carrier",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.965883607174046
+    },
+    {
+      "length": 160,
+      "part": "OB_outer_shell",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 7.74209274033835
+    },
+    {
+      "length": 160,
+      "part": "OA_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 6.599999999999994
+    },
+    {
+      "length": 160,
+      "part": "AC_bearing_link",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 10.099999999999994
+    },
+    {
+      "length": 160,
+      "part": "CW_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 97.76005724724466
+    },
+    {
+      "length": 180,
+      "part": "knee_motor",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.499999940475868
+    },
+    {
+      "length": 180,
+      "part": "OB_inner_carrier",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.965883607174048
+    },
+    {
+      "length": 180,
+      "part": "OB_outer_shell",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 7.742092740338349
+    },
+    {
+      "length": 180,
+      "part": "OA_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 6.599999999999994
+    },
+    {
+      "length": 180,
+      "part": "AC_bearing_link",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 10.099999999999994
+    },
+    {
+      "length": 180,
+      "part": "CW_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 94.14581644506937
+    },
+    {
+      "length": 200,
+      "part": "knee_motor",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.499999940475868
+    },
+    {
+      "length": 200,
+      "part": "OB_inner_carrier",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.965883607174048
+    },
+    {
+      "length": 200,
+      "part": "OB_outer_shell",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 7.74209274033835
+    },
+    {
+      "length": 200,
+      "part": "OA_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 6.599999999999994
+    },
+    {
+      "length": 200,
+      "part": "AC_bearing_link",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 10.099999999999994
+    },
+    {
+      "length": 200,
+      "part": "CW_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 85.19626644422023
+    },
+    {
+      "length": 215,
+      "part": "knee_motor",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.499999940475867
+    },
+    {
+      "length": 215,
+      "part": "OB_inner_carrier",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 4.965883607174044
+    },
+    {
+      "length": 215,
+      "part": "OB_outer_shell",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 7.74209274033835
+    },
+    {
+      "length": 215,
+      "part": "OA_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 6.599999999999994
+    },
+    {
+      "length": 215,
+      "part": "AC_bearing_link",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 10.099999999999994
+    },
+    {
+      "length": 215,
+      "part": "CW_one_piece",
+      "intersection_mm3": 0.0,
+      "minimum_distance": 78.86666128077611
+    }
+  ],
+  "scope": "Right shoulder cover against original 26-solid J4310 models, hip mount and five leg solids at discrete beta0 poses",
+  "followup_review": {
+    "file": "crossframe_reinforcement_review.json",
+    "source_sha256": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b",
+    "scope": "Four CNC frame pieces changed; all PETG shells, shoulder covers, electronics positions, hip interface geometry and leg geometry remain unchanged. New/changed CNC interfaces were retested in the linked incremental check."
+  }
+}

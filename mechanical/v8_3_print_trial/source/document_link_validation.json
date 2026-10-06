@@ -1,0 +1,285 @@
+{
+  "all_passed": true,
+  "links": [
+    {
+      "document": "打印清单.md",
+      "target": "STL/03_chassis/P01_chassis_belly_plate_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/03_chassis/P02_chassis_hip_frame_right_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/03_chassis/P03_chassis_hip_frame_left_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/03_chassis/P04_chassis_front_crossframe_x02.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/06_shell/P05_chassis_front_shell_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/06_shell/P06_chassis_rear_cover_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/05_front_face/P07_display_front_bezel_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/06_shell/P08_shoulder_fairing_right_x02.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/04_electronics_bay/P09_battery_tray_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/04_electronics_bay/P10_electronics_tray_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/04_electronics_bay/P11_Jetson_base_retainer_right_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/04_electronics_bay/P12_Jetson_base_retainer_left_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/05_front_face/P13_D435_embedded_bracket_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/04_electronics_bay/P14_HI13R2_rigid_bridge_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/05_front_face/P15_display_case_cradle_right_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/05_front_face/P16_display_case_cradle_left_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/P17_hip_stator_mount_x02.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/P18_hip_rotor_cnc_x02.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/02_right_leg/P19_knee_stator_cnc_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/01_left_leg/P20_knee_stator_cnc_left_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/02_right_leg/P21_OB_inner_carrier_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/01_left_leg/P22_OB_inner_carrier_left_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/02_right_leg/P23_OB_outer_shell_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/01_left_leg/P24_OB_outer_shell_left_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/P25_OA_one_piece_x02.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/P26_AC_bearing_link_x02.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/02_right_leg/P27_CW_one_piece_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/01_left_leg/P28_CW_one_piece_left_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/P29_wheel_rim_x02.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/LC01_bearing_keeper_D28_D16_8_t0_8_x06.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/LC02_female_pin_D6_L14_05_x06.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/LC03_flanged_bush_inner_D8_D8p4_L3p75_x06.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/LC04_flanged_bush_outer_D8_D8p4_L4p20_x06.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/LC05_axis_washer_D9_d2_2_t0_2_x12.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/00_shared_leg_parts/LC06_OA_angular_stop_M3_D4_x02.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/07_service_carrier/P30_electrical_service_carrier_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/06_shell/P31_USB_hub_rear_clamp_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "STL/06_shell/P32_DC_charge_replaceable_plate_x01.stl"
+    },
+    {
+      "document": "打印清单.md",
+      "target": "FIT_NOTES.md"
+    },
+    {
+      "document": "README.md",
+      "target": "打印清单.md"
+    },
+    {
+      "document": "README.md",
+      "target": "制造工艺分类.md"
+    },
+    {
+      "document": "README.md",
+      "target": "采购BOM.xlsx"
+    },
+    {
+      "document": "README.md",
+      "target": "采购清单.csv"
+    },
+    {
+      "document": "README.md",
+      "target": "FIT_NOTES.md"
+    },
+    {
+      "document": "README.md",
+      "target": "MODULE_ASSEMBLY.md"
+    },
+    {
+      "document": "README.md",
+      "target": "00_optional_calibration/孔位图.svg"
+    },
+    {
+      "document": "README.md",
+      "target": "DESIGN_CHANGES.md"
+    },
+    {
+      "document": "ELECTRICAL_INTEGRATION.md",
+      "target": "FIT_NOTES.md"
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "FIT_NOTES.md"
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "baseline_v81/LEG_ASSEMBLY.md"
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "baseline_v81/LEG_FITS.md"
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "baseline_v81/BATTERY.md"
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "baseline_v81/MODULE_ASSEMBLY.md"
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "ELECTRICAL_INTEGRATION.md"
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "routing_validation.json"
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "electrical_final_validation.json"
+    },
+    {
+      "document": "MODULE_ASSEMBLY.md",
+      "target": "previews/internal_structure_annotated.png"
+    },
+    {
+      "document": "baseline_v81/LEG_ASSEMBLY.md",
+      "target": "../FIT_NOTES.md"
+    },
+    {
+      "document": "baseline_v81/IMU.md",
+      "target": "../FIT_NOTES.md"
+    },
+    {
+      "document": "baseline_v81/IMU.md",
+      "target": "source/hi13r2/PROVENANCE.md"
+    },
+    {
+      "document": "baseline_v81/IMU.md",
+      "target": "imu_interface.json"
+    },
+    {
+      "document": "baseline_v81/BODY_ASSEMBLY.md",
+      "target": "../FIT_NOTES.md"
+    },
+    {
+      "document": "baseline_v81/BODY_ASSEMBLY.md",
+      "target": "MODULE_ASSEMBLY.md"
+    },
+    {
+      "document": "baseline_v81/BODY_ASSEMBLY.md",
+      "target": "maintenance_access_review.json"
+    },
+    {
+      "document": "baseline_v81/LEG_FITS.md",
+      "target": "../FIT_NOTES.md"
+    },
+    {
+      "document": "baseline_v81/DISPLAY.md",
+      "target": "../FIT_NOTES.md"
+    },
+    {
+      "document": "baseline_v81/BATTERY_SOURCE_REVIEW.md",
+      "target": "../FIT_NOTES.md"
+    },
+    {
+      "document": "baseline_v81/BATTERY.md",
+      "target": "../FIT_NOTES.md"
+    },
+    {
+      "document": "baseline_v81/MODULE_ASSEMBLY.md",
+      "target": "../FIT_NOTES.md"
+    },
+    {
+      "document": "baseline_v81/source/hi13r2/PROVENANCE.md",
+      "target": "../../../FIT_NOTES.md"
+    }
+  ]
+}

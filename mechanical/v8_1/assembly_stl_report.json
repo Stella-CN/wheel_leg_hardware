@@ -1,0 +1,36 @@
+{
+  "filename": "wheel_leg_assembly.stl",
+  "units": "mm",
+  "purpose": "assembled multi-shell reference; CNC uses cnc/*.step; individual PETG parts use print/*.stl",
+  "objects": 324,
+  "mesh_objects": [
+    "D435_official_ROS_mesh"
+  ],
+  "facets": 2981818,
+  "file_bytes": 149090984,
+  "dimensions_mm": [
+    242.36573028564453,
+    399.20001220703125,
+    329.9794616699219
+  ],
+  "coordinates": "X forward, Y lateral, Z up; hip axis at Z=0",
+  "linear_deflection_mm": 0.12,
+  "includes": [
+    "V8 leg kinematics and principal structure; V8.1 standardized hardware and integrated bushes",
+    "PETG small-radius rectangular body and removable front panel",
+    "NVIDIA official developer-kit STEP solids",
+    "RealSense official D435 ROS visualization mesh",
+    "HiPNUC official HI13XX-USB STEP at centred datum",
+    "GK-HD5 dimensional envelope and assumed400g battery",
+    "All external mounting hardware listed in the mechanical BOM; motor engaged thread portions simplified",
+    "WHEELTEC drawing-based battery envelope85.6X x44.5Y x61.6Z including magnetic base; mass remains400g budget"
+  ],
+  "not_modelled": [
+    "supplier GK-HD5 detailed geometry/active area/actual mass",
+    "cables/connector plugs",
+    "battery internals and exact DC socket geometry",
+    "power distribution/DC-DC",
+    "soft adhesive pads and battery straps"
+  ],
+  "mesh_scope": "Assembly visualization; vendor camera mesh may contain open surfaces. Individual manufactured-part meshes validated separately."
+}

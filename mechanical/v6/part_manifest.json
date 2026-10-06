@@ -1,0 +1,533 @@
+[
+  {
+    "part": "chassis_belly_plate",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      174.0,
+      144.0,
+      11.0
+    ],
+    "volume_mm3": 59985.547,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 9322,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 162.0
+  },
+  {
+    "part": "chassis_hip_frame_right",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      172.0,
+      32.0,
+      94.0
+    ],
+    "volume_mm3": 59396.505,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 9098,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 160.4
+  },
+  {
+    "part": "chassis_hip_frame_left",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      172.0,
+      32.0,
+      94.0
+    ],
+    "volume_mm3": 59396.505,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 9098,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 160.4
+  },
+  {
+    "part": "chassis_front_crossframe",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      8.0,
+      144.0,
+      94.0
+    ],
+    "volume_mm3": 29167.428,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 3998,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 78.8
+  },
+  {
+    "part": "chassis_rear_crossframe",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      8.0,
+      144.0,
+      94.0
+    ],
+    "volume_mm3": 29167.428,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 3998,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 78.8
+  },
+  {
+    "part": "chassis_front_shell",
+    "process": "PETG",
+    "quantity": 1,
+    "dimensions_mm": [
+      134.0,
+      172.0,
+      124.0
+    ],
+    "volume_mm3": 167565.025,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 27298,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 212.8,
+    "print_orientation": "service opening down; rear guide edge on bed; removable internal support required"
+  },
+  {
+    "part": "chassis_rear_cover",
+    "process": "PETG",
+    "quantity": 1,
+    "dimensions_mm": [
+      134.0,
+      172.0,
+      90.0
+    ],
+    "volume_mm3": 159422.653,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 23272,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 202.5,
+    "print_orientation": "service opening down; removable internal support required"
+  },
+  {
+    "part": "shoulder_fairing_right",
+    "process": "PETG",
+    "quantity": 1,
+    "dimensions_mm": [
+      106.989,
+      38.5,
+      51.8
+    ],
+    "volume_mm3": 16573.296,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 1720,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 21.0,
+    "print_orientation": "outboard annular end down"
+  },
+  {
+    "part": "shoulder_fairing_left",
+    "process": "PETG",
+    "quantity": 1,
+    "dimensions_mm": [
+      106.989,
+      38.5,
+      51.8
+    ],
+    "volume_mm3": 16573.296,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 1720,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 21.0,
+    "print_orientation": "outboard annular end down"
+  },
+  {
+    "part": "battery_tray",
+    "process": "PETG",
+    "quantity": 1,
+    "dimensions_mm": [
+      153.993,
+      58.0,
+      10.4
+    ],
+    "volume_mm3": 26696.171,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 3652,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 33.9
+  },
+  {
+    "part": "electronics_tray",
+    "process": "PETG",
+    "quantity": 1,
+    "dimensions_mm": [
+      152.0,
+      108.0,
+      3.0
+    ],
+    "volume_mm3": 49006.922,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 2572,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 62.2
+  },
+  {
+    "part": "Jetson_base_retainer_right",
+    "process": "PETG",
+    "quantity": 1,
+    "dimensions_mm": [
+      124.0,
+      22.2,
+      9.4
+    ],
+    "volume_mm3": 5408.052,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 1806,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 6.9
+  },
+  {
+    "part": "Jetson_base_retainer_left",
+    "process": "PETG",
+    "quantity": 1,
+    "dimensions_mm": [
+      124.0,
+      22.2,
+      9.4
+    ],
+    "volume_mm3": 5408.052,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 1806,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 6.9
+  },
+  {
+    "part": "D435_embedded_bracket",
+    "process": "PETG",
+    "quantity": 1,
+    "dimensions_mm": [
+      26.05,
+      108.0,
+      24.0
+    ],
+    "volume_mm3": 7043.519,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 1876,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 8.9
+  },
+  {
+    "part": "hip_stator_mount",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      78.0,
+      78.0,
+      6.0
+    ],
+    "volume_mm3": 14900.88,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 6504,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 40.2
+  },
+  {
+    "part": "hip_stator_mount_left",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      78.0,
+      78.0,
+      6.0
+    ],
+    "volume_mm3": 14900.88,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 6504,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 40.2
+  },
+  {
+    "part": "hip_rotor_cnc",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      42.957,
+      43.0,
+      10.3
+    ],
+    "volume_mm3": 12030.519,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 7196,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 32.5
+  },
+  {
+    "part": "hip_rotor_cnc_left",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      42.957,
+      43.0,
+      10.3
+    ],
+    "volume_mm3": 12030.519,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 7196,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 32.5
+  },
+  {
+    "part": "knee_stator_cnc",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      56.943,
+      57.0,
+      11.6
+    ],
+    "volume_mm3": 18837.703,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 5348,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 50.9
+  },
+  {
+    "part": "knee_stator_cnc_left",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      56.943,
+      57.0,
+      11.6
+    ],
+    "volume_mm3": 18837.703,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 5348,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 50.9
+  },
+  {
+    "part": "OB_inner_carrier",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      57.0,
+      173.984,
+      7.5
+    ],
+    "volume_mm3": 15493.035,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 9052,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 41.8
+  },
+  {
+    "part": "OB_inner_carrier_left",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      57.0,
+      173.984,
+      7.5
+    ],
+    "volume_mm3": 15493.035,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 9052,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 41.8
+  },
+  {
+    "part": "OB_outer_shell",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      57.0,
+      176.482,
+      22.8
+    ],
+    "volume_mm3": 35214.607,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 5746,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 95.1
+  },
+  {
+    "part": "OB_outer_shell_left",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      57.0,
+      176.482,
+      22.8
+    ],
+    "volume_mm3": 35214.607,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 5748,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 95.1
+  },
+  {
+    "part": "OA_one_piece",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      43.996,
+      79.987,
+      22.8
+    ],
+    "volume_mm3": 26061.498,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 7716,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 70.4
+  },
+  {
+    "part": "OA_one_piece_left",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      43.996,
+      79.987,
+      22.8
+    ],
+    "volume_mm3": 26061.498,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 7716,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 70.4
+  },
+  {
+    "part": "AC_bearing_link",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      30.972,
+      161.0,
+      8.0
+    ],
+    "volume_mm3": 17625.133,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 4680,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 47.6
+  },
+  {
+    "part": "AC_bearing_link_left",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      30.972,
+      161.0,
+      8.0
+    ],
+    "volume_mm3": 17625.133,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 4674,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 47.6
+  },
+  {
+    "part": "CW_one_piece",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      44.0,
+      184.978,
+      15.0
+    ],
+    "volume_mm3": 42448.685,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 7500,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 114.6
+  },
+  {
+    "part": "CW_one_piece_left",
+    "process": "CNC",
+    "quantity": 1,
+    "dimensions_mm": [
+      44.0,
+      184.978,
+      15.0
+    ],
+    "volume_mm3": 42448.685,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 7500,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 114.6
+  },
+  {
+    "part": "wheel_rim",
+    "process": "CNC",
+    "quantity": 2,
+    "dimensions_mm": [
+      89.985,
+      89.971,
+      40.5
+    ],
+    "volume_mm3": 52682.874,
+    "solids": 1,
+    "brep_valid": true,
+    "mesh_closed": true,
+    "facets": 5388,
+    "fits_bed": true,
+    "nominal_solid_mass_g": 142.2
+  }
+]

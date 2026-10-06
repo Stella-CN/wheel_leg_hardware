@@ -1,0 +1,525 @@
+{
+  "units": "mm",
+  "source_sha256": "77e8a94d61a4c7ba322da5c54e41e91ea94139933ad6cefec330a1b8461192be",
+  "battery_source_sha256": "2a67f62c7e2537ee2a0aef3f5c21423cf4af724e49d40569a179abf292258e8e",
+  "architecture": "Six planar main faces; small R5 edge fillets; one full-height enclosure; vertical X-20 service split; detachable complete front face",
+  "body": {
+    "bounds": [
+      -94.0,
+      -82.0,
+      -55.0,
+      117.0,
+      82.0,
+      100.0
+    ],
+    "size": [
+      211,
+      164,
+      155
+    ],
+    "edge_radius": 5,
+    "wall": 3,
+    "roof_inner_z": 97,
+    "face_panel_bounds": [
+      114,
+      -74,
+      -49,
+      117,
+      74,
+      95
+    ]
+  },
+  "parts": {
+    "chassis_belly_plate": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59985.54685498961,
+      "bbox": [
+        -87.0,
+        -72.0,
+        -50.0,
+        87.0,
+        72.0,
+        -39.0
+      ]
+    },
+    "chassis_hip_frame_right": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59335.142194363994,
+      "bbox": [
+        -86.0,
+        43.0,
+        -47.0,
+        86.0,
+        75.00000000000001,
+        47.0
+      ]
+    },
+    "chassis_hip_frame_left": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59335.142194363994,
+      "bbox": [
+        -86.0,
+        -75.00000000000001,
+        -47.0,
+        86.0,
+        -43.0,
+        47.0
+      ]
+    },
+    "chassis_front_crossframe": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 29167.42771896222,
+      "bbox": [
+        78.0,
+        -72.0,
+        -47.0,
+        86.00000000000001,
+        72.0,
+        47.0
+      ]
+    },
+    "chassis_rear_crossframe": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 29167.427718962233,
+      "bbox": [
+        -86.00000000000001,
+        -72.0,
+        -47.0,
+        -78.0,
+        72.0,
+        47.0
+      ]
+    },
+    "chassis_front_shell": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 222851.76860534144,
+      "bbox": [
+        -24.000000000000373,
+        -86.0,
+        -55.0,
+        117.0,
+        86.0,
+        100.0
+      ]
+    },
+    "chassis_rear_cover": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 171519.74646855588,
+      "bbox": [
+        -94.0,
+        -86.0,
+        -55.0,
+        -19.99999999999999,
+        86.0,
+        100.0
+      ]
+    },
+    "display_front_bezel": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 27507.096917676303,
+      "bbox": [
+        113.99999999999999,
+        -74.0,
+        -49.0,
+        117.00000000000001,
+        74.0,
+        95.0
+      ]
+    },
+    "shoulder_fairing_right": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 16573.296292693518,
+      "bbox": [
+        -53.5,
+        78.2,
+        4.999999999999999,
+        53.5,
+        130.0,
+        43.5
+      ]
+    },
+    "shoulder_fairing_left": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 16573.296292693518,
+      "bbox": [
+        -53.5,
+        -130.0,
+        4.999999999999999,
+        53.5,
+        -78.2,
+        43.5
+      ]
+    },
+    "battery_tray": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 21192.15709640331,
+      "bbox": [
+        -77.0,
+        -27.0,
+        -46.2,
+        77.0,
+        27.0,
+        -31.799999999999997
+      ]
+    },
+    "electronics_tray": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 49006.92213519392,
+      "bbox": [
+        -86.0,
+        -54.0,
+        29.999999999999993,
+        66.0,
+        54.0,
+        33.0
+      ]
+    },
+    "Jetson_base_retainer_right": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5290.544080930236,
+      "bbox": [
+        -82.0,
+        34.0,
+        32.999999999999986,
+        43.5,
+        56.2,
+        42.4
+      ]
+    },
+    "Jetson_base_retainer_left": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 5290.544080930264,
+      "bbox": [
+        -82.0,
+        -56.2,
+        32.999999999999986,
+        43.5,
+        -33.99999999999999,
+        42.4
+      ]
+    }
+  },
+  "collisions": [],
+  "hardware_collisions": [],
+  "fasteners": [
+    {
+      "location": "belly plate to CNC side ledges",
+      "quantity": 8,
+      "spec": "DIN7991 M3x8; selected headD6 k1.7, not unrestricted ISO10642",
+      "grip": 3,
+      "engagement": 5,
+      "access": "underside; modeled free grip/head"
+    },
+    {
+      "location": "side frames to front/rear crossframe rails",
+      "quantity": 8,
+      "spec": "DIN7991 M3x8; selected headD6 k1.7, not unrestricted ISO10642",
+      "grip": 3,
+      "engagement": 5,
+      "access": "outside before shells; modeled free grip/head"
+    },
+    {
+      "location": "battery tray to belly posts",
+      "quantity": 4,
+      "spec": "ISO4762 M3x8",
+      "grip": 3,
+      "engagement": 5,
+      "access": "rear opening; modeled free grip/head"
+    },
+    {
+      "location": "electronics tray to side-frame shelves",
+      "quantity": 4,
+      "spec": "ISO4762 M3x8",
+      "grip": 3,
+      "engagement": 5,
+      "access": "rear opening; modeled free grip/head",
+      "centres_xy": [
+        [
+          -74.0,
+          -48.0
+        ],
+        [
+          -74.0,
+          48.0
+        ],
+        [
+          38.0,
+          -48.0
+        ],
+        [
+          38.0,
+          48.0
+        ]
+      ]
+    },
+    {
+      "location": "continuous front shell to front crossframe",
+      "quantity": 4,
+      "spec": "ISO4762 M3x12",
+      "grip": 6,
+      "engagement": 6,
+      "access": "through whole front face before screen/camera panel installation; modeled grip and head",
+      "head_seat_x": 92,
+      "head_end_x": 95,
+      "screen_rear_x": 99.5
+    },
+    {
+      "location": "large rear cover to rear crossframe",
+      "quantity": 4,
+      "spec": "ISO4762 M3x12",
+      "grip": 6,
+      "engagement": 6,
+      "access": "rear outside, D6.4x2 recess; modeled grip and head",
+      "head_seat_x": -92
+    },
+    {
+      "location": "shoulder covers through main shell into side-frame bosses",
+      "quantity": 4,
+      "spec": "M3x20 socket",
+      "grip": 14,
+      "engagement": 6,
+      "access": "lateral outside; modeled",
+      "metal_face_y_abs": 75,
+      "body_face_y_abs": 86,
+      "head_seat_y_abs": 89
+    },
+    {
+      "location": "Jetson original-base peripheral retainers",
+      "quantity": 4,
+      "spec": "M3x10 + washer0.5 + M3 nut2.4",
+      "grip": 6,
+      "engagement": 2.4,
+      "access": "rear opening and under tray; modeled",
+      "source": "jetson_mount_specification.json"
+    },
+    {
+      "location": "complete front face to shell",
+      "quantity": 4,
+      "spec": "M3x12 socket + captive AF5.5 M3 nut thickness2.4",
+      "centres_yz": [
+        [
+          -68.0,
+          -44.0
+        ],
+        [
+          -68.0,
+          88.0
+        ],
+        [
+          68.0,
+          -44.0
+        ],
+        [
+          68.0,
+          88.0
+        ]
+      ],
+      "panel_x": [
+        114,
+        117
+      ],
+      "boss_x": [
+        107,
+        114
+      ],
+      "nut_x": [
+        107.2,
+        109.6
+      ],
+      "hole_diameter": 3.4,
+      "access": "front outside; load captive nuts before panel; modeled"
+    },
+    {
+      "location": "IMU bridge feet to upper sideframe beams",
+      "quantity": 4,
+      "spec": "M3x8 socket; grip3, engagement5",
+      "centres_xy": [
+        [
+          -10.0,
+          -68.0
+        ],
+        [
+          -10.0,
+          68.0
+        ],
+        [
+          10.0,
+          -68.0
+        ],
+        [
+          10.0,
+          68.0
+        ]
+      ],
+      "tapping_face_z": 47,
+      "tapping_pilot_diameter": 2.5,
+      "tapping_depth": 6,
+      "note": "V7 holes retained; bridge module owns fasteners"
+    }
+  ],
+  "display": {
+    "front_panel_x": 117,
+    "front_glass_x": 114,
+    "rear_x": 99.5,
+    "centre_z": -4,
+    "body_size_yz": [
+      122,
+      78
+    ],
+    "thickness": 14.5,
+    "device_aperture_yz": [
+      123,
+      79
+    ],
+    "full_front_panel_yz": [
+      148,
+      144
+    ],
+    "pads": [
+      [
+        -67.0,
+        -34.0
+      ],
+      [
+        -67.0,
+        26.0
+      ],
+      [
+        67.0,
+        -34.0
+      ],
+      [
+        67.0,
+        26.0
+      ]
+    ],
+    "pad_contact_x": 114,
+    "hole_diameter": 3.4,
+    "front_corner_stop_case_overlap": 0.5,
+    "unknowns": "No active-area, mounting-hole, rim or connector coordinates supplied. Four provisional stops require a metal rim and must not press glass; verify on actual unit before manufacture."
+  },
+  "camera": {
+    "front_x": 117,
+    "centre_z": 61,
+    "window_y": [
+      -45.3,
+      45.3
+    ],
+    "window_z": [
+      48.2,
+      73.8
+    ],
+    "pad_contact_x": 114,
+    "pads": [
+      [
+        -50.0,
+        53.5
+      ],
+      [
+        -50.0,
+        69.5
+      ],
+      [
+        50.0,
+        53.5
+      ],
+      [
+        50.0,
+        69.5
+      ]
+    ]
+  },
+  "electronics": {
+    "tray_x": [
+      -86,
+      66
+    ],
+    "tray_y": [
+      -54,
+      54
+    ],
+    "tray_z": [
+      30,
+      33
+    ],
+    "tray_support_centres": [
+      [
+        -74.0,
+        -48.0
+      ],
+      [
+        -74.0,
+        48.0
+      ],
+      [
+        38.0,
+        -48.0
+      ],
+      [
+        38.0,
+        48.0
+      ]
+    ]
+  },
+  "imu": {
+    "bridge_holes_xy": [
+      [
+        -10.0,
+        -68.0
+      ],
+      [
+        -10.0,
+        68.0
+      ],
+      [
+        10.0,
+        -68.0
+      ],
+      [
+        10.0,
+        68.0
+      ]
+    ],
+    "metal_face_z": 47,
+    "nominal_origin_xyz": [
+      0,
+      0,
+      85
+    ],
+    "roof_inner_z": 97
+  },
+  "shoulder": {
+    "y_range": [
+      78.2,
+      130
+    ],
+    "inner_radius": 33,
+    "outer_radius": 36,
+    "body_mount_y": 86,
+    "geometry": "V6 smooth arc unchanged"
+  },
+  "qualification": "Local rigid chassis geometry only; full payload and leg checks belong to integrated build. Not a strength, impact, print-fit or thermal qualification.",
+  "bare_screen_insertion": {
+    "method": "Exact 122 x78 case sweep along X with front face removed; carrier/camera integrated path checked separately",
+    "overlap_mm3": 0.0,
+    "pass_geometry": true
+  },
+  "metal_geometry_retained": {
+    "base": "V6 metal parts plus the identical V7 four M3 IMU bridge pilot holes",
+    "legs": "No leg, flange, wheel or motor transform edited by this module"
+  }
+}

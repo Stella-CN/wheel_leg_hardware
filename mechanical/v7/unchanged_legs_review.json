@@ -1,0 +1,1366 @@
+{
+  "pass_all": true,
+  "source_hashes": {
+    "cad_v6_leg.py": {
+      "current": "abe2646d426fe4bd03c0f8ec4aa000e7cea71a055b00763f20e39e32ead2f091",
+      "released": "abe2646d426fe4bd03c0f8ec4aa000e7cea71a055b00763f20e39e32ead2f091"
+    },
+    "cad_v5_coupling.py": {
+      "current": "09f9921c891a79dac08b2faabbb424ef15b77259ee9389e6ec9e3671556cf2c9",
+      "released": "09f9921c891a79dac08b2faabbb424ef15b77259ee9389e6ec9e3671556cf2c9"
+    },
+    "build_enclosed_robot.py": {
+      "current": "bc4af62fdcd54dda66cd1316733baf628c6b9bd7c6bf22b15b675786fbc48c4a",
+      "released": "bc4af62fdcd54dda66cd1316733baf628c6b9bd7c6bf22b15b675786fbc48c4a"
+    },
+    "cad_v6_chassis.py": {
+      "current": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b",
+      "released": "fc0d9345bf1fdbc5d7881829e0c8524ccb98c861bebb8f8e219bffdf6d431f1b"
+    },
+    "build_printable_robot.py": {
+      "current": "a8e5a1a8320c94eba38558cb6d5d6ebf215171f7e5f5f0e474eb2c5271494393",
+      "released": "a8e5a1a8320c94eba38558cb6d5d6ebf215171f7e5f5f0e474eb2c5271494393"
+    },
+    "cad_v3_profiles.py": {
+      "current": "c42db1a82ba6e3b79c23036b5544e6c98e7784d93776e03883c6f48b8907fd3b",
+      "released": "c42db1a82ba6e3b79c23036b5544e6c98e7784d93776e03883c6f48b8907fd3b"
+    }
+  },
+  "parameters": {
+    "rod_length": [
+      130.0,
+      130.0
+    ],
+    "lower_length": [
+      105.0,
+      105.0
+    ],
+    "crank_length": [
+      45.0,
+      45.0
+    ],
+    "leg_length": [
+      180.0,
+      180.0
+    ],
+    "beta_deg": [
+      0.0,
+      0.0
+    ],
+    "hip_stator_face_y": [
+      72.0,
+      72.0
+    ],
+    "hip_output_face_y": [
+      73.0,
+      73.0
+    ],
+    "hub_stator_face_y": [
+      148.1,
+      148.1
+    ],
+    "knee_motor_translation_y": [
+      132.6,
+      132.6
+    ],
+    "wheel_center_y": [
+      174.1,
+      174.1
+    ],
+    "wheel_track": [
+      348.2,
+      348.2
+    ]
+  },
+  "objects": [
+    {
+      "name": "hip_stator_mount_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "hip_stator_mount_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "hip_rotor_cnc_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "hip_rotor_cnc_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "knee_stator_cnc_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "knee_stator_cnc_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_inner_carrier_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_inner_carrier_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_outer_shell_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_outer_shell_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_one_piece_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_one_piece_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "AC_bearing_link_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "AC_bearing_link_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "CW_one_piece_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "CW_one_piece_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "wheel_rim_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "wheel_rim_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "J4310_hip_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "J4310_hip_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "J4310_knee_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "J4310_knee_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "H6215_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "H6215_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "elastic_tyre_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "elastic_tyre_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_3_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_3_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_4_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_4_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_5_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_ISO4762_M3x8_5_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_dowel_D4_L9_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_dowel_D4_L9_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_dowel_D4_L9_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_dowel_D4_L9_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_dowel_D4_L9_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_rotor_dowel_D4_L9_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_knee_SLH_M3x6_SD_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_knee_SLH_M3x6_SD_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_knee_SLH_M3x6_SD_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_knee_SLH_M3x6_SD_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_knee_SLH_M3x6_SD_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_knee_SLH_M3x6_SD_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_knee_SLH_M3x6_SD_3_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_knee_SLH_M3x6_SD_3_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_radial_SLH_M3x8_SD_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_radial_SLH_M3x8_SD_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_radial_SLH_M3x8_SD_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_radial_SLH_M3x8_SD_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_radial_SLH_M3x8_SD_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_radial_SLH_M3x8_SD_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_radial_SLH_M3x8_SD_3_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "coupling_radial_SLH_M3x8_SD_3_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "_626_A_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "_626_A_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bearing_keeper_A_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bearing_keeper_A_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_A_SETS_M2x4_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_A_SETS_M2x4_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_A_SETS_M2x4_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_A_SETS_M2x4_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_A_SETS_M2x4_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_A_SETS_M2x4_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "female_pin_A_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "female_pin_A_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_A_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_A_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_A_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_A_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_A_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_A_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_A_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_A_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_A_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_A_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_A_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_A_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_A_SETS_M2x4_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_A_SETS_M2x4_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_A_SETS_M2x4_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_A_SETS_M2x4_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "_626_C_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "_626_C_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bearing_keeper_C_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bearing_keeper_C_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_C_SETS_M2x4_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_C_SETS_M2x4_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_C_SETS_M2x4_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_C_SETS_M2x4_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_C_SETS_M2x4_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_C_SETS_M2x4_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "female_pin_C_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "female_pin_C_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_C_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_C_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_C_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_C_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_C_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_C_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_C_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_C_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_C_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_C_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_C_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_C_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_C_SETS_M2x4_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_C_SETS_M2x4_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_C_SETS_M2x4_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_C_SETS_M2x4_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "_626_B_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "_626_B_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bearing_keeper_B_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bearing_keeper_B_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_B_SETS_M2x4_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_B_SETS_M2x4_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_B_SETS_M2x4_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_B_SETS_M2x4_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_B_SETS_M2x4_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "keeper_B_SETS_M2x4_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "female_pin_B_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "female_pin_B_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_B_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_B_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_B_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "bronze_sleeve_B_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_B_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_B_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_B_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "race_spacer_B_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_B_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_B_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_B_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_washer_B_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_B_SETS_M2x4_inner_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_B_SETS_M2x4_inner_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_B_SETS_M2x4_outer_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "axis_B_SETS_M2x4_outer_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_angular_stop_shoulder_M3_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_angular_stop_shoulder_M3_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_shell_DIN7991_M3x10_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_shell_DIN7991_M3x10_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_shell_DIN7991_M3x10_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_shell_DIN7991_M3x10_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_shell_DIN7991_M3x10_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_shell_DIN7991_M3x10_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_shell_DIN7991_M3x10_3_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_shell_DIN7991_M3x10_3_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_3_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_3_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_4_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_4_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_5_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OB_stator_SLH_M3x6_5_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_3_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_3_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_4_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_4_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_5_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "OA_rotor_M3x16_5_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "H6215_stator_M3x8_0_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "H6215_stator_M3x8_0_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "H6215_stator_M3x8_1_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "H6215_stator_M3x8_1_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "H6215_stator_M3x8_2_right",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    },
+    {
+      "name": "H6215_stator_M3x8_2_left",
+      "volume_error_mm3": 0.0,
+      "area_error_mm2": 0.0,
+      "bounds_error_mm": 0.0,
+      "expression_engine_unchanged": true
+    }
+  ],
+  "scope": "Identical inherited source hashes and motion parameters; native object volume, area, bounds and expressions agree. Body paint/visibility excluded."
+}

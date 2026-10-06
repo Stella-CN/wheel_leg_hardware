@@ -1,0 +1,117 @@
+{
+  "review_date": "2026-09-28",
+  "requested_item_id": "652194595520",
+  "requested_sku_id": "5811076916462",
+  "requested_url": "https://item.taobao.com/item.htm?id=652194595520&skuId=5811076916462",
+  "exact_sku_mapping": "WEB UNCONFIRMED: web fetch failed and browser site-safety policy blocked opening; no login, bypass or purchase attempted. User separately confirmed E626S,24V class.",
+  "official_download_listing": "https://wheeltec.net/down/class/index.php?catid=2&page=%7Bpage%7D",
+  "official_manual_url": "https://wheeltec.net/24-DC.pdf",
+  "official_manual_title": "24V安全锂电池手册",
+  "official_manual_pdf_metadata_modified_date": "2025-01-16; not a printed revision identifier",
+  "official_manual_local_path": "source/battery/WHEELTEC_24V_manual.pdf",
+  "official_manual_sha256": "29d61c232052dace7349b435a29070142d4290eb21476f4cf060e00928340f78",
+  "user_drawing_local_path": "source/battery/user_battery_dimension_drawing.png",
+  "user_drawing_sha256": "b98cecfeec97993a836b9dfb05de558123f1c7bc83491f5cd5bb849ce996583d",
+  "model_match": {
+    "model": "E626S",
+    "basis": "User-confirmed selection plus official24V manual physicalpage12; dimensions match user drawing, but not uniquely:12V E351S has the same case dimensions."
+  },
+  "official_E626S": {
+    "physical_pdf_page": 12,
+    "dimensions_mm": [
+      85.6,
+      61.6,
+      42.0
+    ],
+    "listed_mass_g": 337,
+    "listed_mass_includes_magnetic_base": null,
+    "market_voltage_class_V": 24,
+    "nominal_voltage_V": 22.2,
+    "full_charge_voltage_V": 25.2,
+    "cutoff_voltage_V": 18,
+    "rated_capacity_mAh": 2550,
+    "minimum_capacity_mAh": 2500,
+    "maximum_continuous_discharge_A": 6,
+    "maximum_instantaneous_discharge_A": 13,
+    "instantaneous_duration_s": null,
+    "recommended_charge_current_A": 1,
+    "chemistry": "ternary lithium",
+    "housing_material": "plastic",
+    "connector": "DC5.5-2.1 female",
+    "connector_function": "shared charging and discharging port",
+    "connector_polarity": null
+  },
+  "drawing_confirmed": {
+    "unit": "mm",
+    "body_dimensions": [
+      85.6,
+      61.6,
+      42.0
+    ],
+    "with_magnetic_base_thickness": 44.5,
+    "base_added_thickness": 2.5,
+    "dc_face_dimensions": [
+      85.6,
+      42.0
+    ],
+    "dc_axis_parallel_dimension": 61.6,
+    "dc_position_qualitative": "Near one85.6-length end and nearer magnetic-base side; no centre coordinates or connector outer outline dimensions supplied.",
+    "magnetic_base_face_dimensions": [
+      85.6,
+      61.6
+    ],
+    "battery_patent_printed": "202421289531.2",
+    "base_patent_printed": "202420584730.X"
+  },
+  "magnetic_base_official": {
+    "physical_pdf_page": 9,
+    "described_function": "Mechanical magnetic fixation with lower locating blocks. Steel surfaces may attach directly; aluminum/plastic can use supplied adhesive magnetic sheet.",
+    "mounting_hole_pattern_mm": null,
+    "electrical_contacts": null,
+    "electrical_contacts_note": "No electrical contacts are described or shown as an interface; do not invent a pogo-pin/power interface.",
+    "rated_holding_force_N": null,
+    "manufacturer_limitation": "Do not suspend battery using magnetic base."
+  },
+  "cad_implications": {
+    "orientation_candidate": "85.6X x44.5Y x61.6Z puts the DC side face upward; magnetic base then lies on a Y-facing broad side.",
+    "connector_clearance": "Reserve space above the entire possible port face until coordinates and selected male plug/body/cable bend are measured.11mm top allowance is an engineering placeholder, not a manufacturer-certified plug envelope.",
+    "base_mounting": "No manufacturer mounting-hole dimensions are known; do not fabricate them from pixels. Positive restraint for dynamic robot retention remains necessary.",
+    "budget_mass_g": 400,
+    "budget_mass_status": "Retained engineering allowance for battery+base/accessories; not vendor mass.",
+    "power_qualification": "User-selectedE626S6A continuous/13A instantaneous is not evidence that this robot can jump or regenerate safely; pulse duration,BMS trip/recovery and actual electrical load are unresolved."
+  },
+  "unresolved": [
+    "Delivered label agrees with user-confirmedE626S and actual Taobao bundle contents",
+    "337g bare pack versus magnetic-base included mass",
+    "Magnetic base/adhesive sheet hole geometry and mass",
+    "DC jack centre coordinates, polarity and selected mating plug dimensions/rating",
+    "13A pulse duration and BMS overcurrent recovery",
+    "Regeneration/charging acceptance under motor deceleration"
+  ],
+  "selected_model_confirmation": {
+    "model": "E626S",
+    "basis": "User explicitly confirmed24V-classE626S,nominal22.2V/full25.2V after dimension ambiguity was identified.",
+    "confirmation_date": "2026-09-28",
+    "not_claimed": "Taobao SKU page was not read; bundle contents and delivered label remain unchecked."
+  },
+  "comparison_only_not_selected_E351S": {
+    "official_manual_url": "https://wheeltec.net/12-DC.pdf",
+    "local_path": "source/battery/WHEELTEC_12V_comparison_manual.pdf",
+    "sha256": "c128aa48b8354c36e5b19cdf80cea8bfbd7fcc66e46f61cd30988eeef9ae3ebc",
+    "physical_pdf_page": 11,
+    "dimensions_mm": [
+      85.6,
+      61.6,
+      42.0
+    ],
+    "market_voltage_class_V": 12,
+    "nominal_voltage_V": 10.8,
+    "full_charge_voltage_V": 12.6,
+    "cutoff_voltage_V": 9,
+    "rated_capacity_mAh": 5100,
+    "listed_mass_g": 377,
+    "maximum_continuous_discharge_A": 8,
+    "maximum_instantaneous_discharge_A": 15,
+    "use": "Disambiguation evidence only: identical case dimensions cannot identify voltage. Excluded from this robot mass/power budget."
+  }
+}

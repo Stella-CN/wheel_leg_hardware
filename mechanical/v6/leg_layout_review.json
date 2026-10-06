@@ -1,0 +1,141 @@
+{
+  "structural_width_mm": 23,
+  "reference_plane": 132.1,
+  "parameters": {
+    "carrier_y": [
+      132.1,
+      136.1
+    ],
+    "outer_OB_y": [
+      132.29999999999998,
+      155.1
+    ],
+    "fork_inner_y": [
+      136.6,
+      139.6
+    ],
+    "fork_outer_y": [
+      148.6,
+      151.6
+    ],
+    "A_fork_inner_y": [
+      136.6,
+      139.6
+    ],
+    "A_fork_outer_y": [
+      148.6,
+      151.6
+    ],
+    "driven_links_y": [
+      140.1,
+      148.1
+    ],
+    "coupler_link_y": [
+      140.1,
+      148.1
+    ],
+    "hub_stator_face_y": 148.1,
+    "wheel_center_y": 174.1,
+    "wheel_track": 348.2,
+    "bearing": "NSK626ZZ1 single per A/B/C, mechanically retained; not load rated",
+    "bearing_bore": 19.0,
+    "bearing_seat_fit": "19H7; match purchased bearing",
+    "bearing_web_bore": 16.8,
+    "bushing_bore": 8.0,
+    "cnc_bushing_bore": 8.0,
+    "leg_structure_width": 23,
+    "OA_material": "6061-T6 CNC one-piece fork",
+    "oa_register_diameter": 35.05,
+    "joint_bushing_length": 2.5,
+    "inner_race_spacer_outer_diameter": 8.4,
+    "shaft": "D6 steel female M2 both ends, L14.05, two low-head retainers",
+    "joint_support": "OB deep-pocket outer shell encloses inner frame; A/C forks and B inward supports",
+    "axis_retainer": "NBK SETS-M2-4, D4 head x0.5; OD9 t0.2 steel washers",
+    "bearing_retainer": "OD28 ID16.8 t0.8 steel cover, 3 M2 at PCD24",
+    "ob_motor_head_diameter": 57,
+    "oa_nose_diameter": 35,
+    "ob_nose_clearance_diameter": 35.4,
+    "ob_seat_step_diameter": 50,
+    "ob_shell_pocket_depth": 19.8,
+    "oa_stop_track_radius": 23,
+    "oa_stop_slot_width": 4.6,
+    "oa_stop_track_xz_degrees": [
+      135,
+      221.5
+    ],
+    "oa_stop_track_motor_relative_degrees": [
+      -135,
+      -48.5
+    ],
+    "oa_stop_pin_shoulder_diameter": 4,
+    "oa_stop_pin_head_diameter": 7,
+    "oa_stop_pin_outer_offset": 24.7,
+    "oa_stop_scope": "Assembly limit only; impact strength and controller limits must be validated"
+  },
+  "parts": {
+    "OB_inner_carrier": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 15493.035216379412,
+      "y_range": [
+        132.09999999999997,
+        139.6
+      ]
+    },
+    "OB_outer_shell": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 35214.607262092046,
+      "y_range": [
+        132.29999939999996,
+        155.1
+      ]
+    },
+    "OA_one_piece": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 26061.498485070937,
+      "y_range": [
+        132.29999999999998,
+        155.1
+      ]
+    },
+    "AC_bearing_link": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 17625.133372022,
+      "y_range": [
+        140.1,
+        148.1
+      ]
+    },
+    "CW_one_piece": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 42448.68524188544,
+      "y_range": [
+        136.59999999999997,
+        151.6
+      ]
+    }
+  },
+  "collisions": [],
+  "minimum_clearances": {
+    "OB_inner_carrier/OB_outer_shell": 0.0,
+    "OB_inner_carrier/OA_one_piece": 0.19999999999999257,
+    "OB_inner_carrier/AC_bearing_link": 4.0,
+    "OB_inner_carrier/CW_one_piece": 0.5,
+    "OB_outer_shell/OA_one_piece": 0.19999999999999454,
+    "OB_outer_shell/AC_bearing_link": 1.2302679240058914,
+    "OB_outer_shell/CW_one_piece": 0.4999999999999716,
+    "OA_one_piece/AC_bearing_link": 0.5,
+    "OA_one_piece/CW_one_piece": 55.432486243152574,
+    "AC_bearing_link/CW_one_piece": 0.5
+  },
+  "sampled_lengths_mm": [
+    100,
+    180,
+    215
+  ],
+  "scope": "Leg-only bodies and modeled leg hardware; no strength rating"
+}

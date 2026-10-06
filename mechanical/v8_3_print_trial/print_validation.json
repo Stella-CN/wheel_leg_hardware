@@ -1,0 +1,616 @@
+{
+  "all_passed": true,
+  "records": [
+    {
+      "id": "P01",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 15676,
+      "dimensions_mm": [
+        174.0,
+        144.0,
+        11.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P02",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 17648,
+      "dimensions_mm": [
+        172.0,
+        94.0,
+        32.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P03",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 17648,
+      "dimensions_mm": [
+        172.0,
+        94.0,
+        32.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P04",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 6800,
+      "dimensions_mm": [
+        94.0,
+        144.0,
+        8.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P05",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 90766,
+      "dimensions_mm": [
+        161.0,
+        208.0,
+        193.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P06",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 28844,
+      "dimensions_mm": [
+        154.4919,
+        172.0,
+        74.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P07",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 7828,
+      "dimensions_mm": [
+        144.0,
+        148.0,
+        4.4
+      ],
+      "passed": true
+    },
+    {
+      "id": "P08",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 2544,
+      "dimensions_mm": [
+        106.9952,
+        51.8,
+        38.5
+      ],
+      "passed": true
+    },
+    {
+      "id": "P09",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 3244,
+      "dimensions_mm": [
+        153.9969,
+        54.0,
+        14.4
+      ],
+      "passed": true
+    },
+    {
+      "id": "P10",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 6204,
+      "dimensions_mm": [
+        152.0,
+        108.0,
+        3.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P11",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 3622,
+      "dimensions_mm": [
+        125.5,
+        9.4,
+        22.2
+      ],
+      "passed": true
+    },
+    {
+      "id": "P12",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 3622,
+      "dimensions_mm": [
+        125.5,
+        9.4,
+        22.2
+      ],
+      "passed": true
+    },
+    {
+      "id": "P13",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 2716,
+      "dimensions_mm": [
+        24.0,
+        108.0,
+        28.05
+      ],
+      "passed": true
+    },
+    {
+      "id": "P14",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 3516,
+      "dimensions_mm": [
+        36.0,
+        143.0,
+        32.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P15",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 1778,
+      "dimensions_mm": [
+        81.5,
+        15.9984,
+        17.5
+      ],
+      "passed": true
+    },
+    {
+      "id": "P16",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 1778,
+      "dimensions_mm": [
+        81.5,
+        15.9984,
+        17.5
+      ],
+      "passed": true
+    },
+    {
+      "id": "P17",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 10828,
+      "dimensions_mm": [
+        78.0,
+        78.0,
+        6.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P18",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 11492,
+      "dimensions_mm": [
+        42.9952,
+        42.9904,
+        10.3
+      ],
+      "passed": true
+    },
+    {
+      "id": "P19",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 7900,
+      "dimensions_mm": [
+        56.9939,
+        56.9877,
+        11.6
+      ],
+      "passed": true
+    },
+    {
+      "id": "P20",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 7900,
+      "dimensions_mm": [
+        56.9939,
+        56.9877,
+        11.6
+      ],
+      "passed": true
+    },
+    {
+      "id": "P21",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 13856,
+      "dimensions_mm": [
+        56.9939,
+        173.9932,
+        7.5
+      ],
+      "passed": true
+    },
+    {
+      "id": "P22",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 13854,
+      "dimensions_mm": [
+        56.9939,
+        173.9932,
+        7.5
+      ],
+      "passed": true
+    },
+    {
+      "id": "P23",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 8830,
+      "dimensions_mm": [
+        56.989,
+        176.4921,
+        22.8
+      ],
+      "passed": true
+    },
+    {
+      "id": "P24",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 8840,
+      "dimensions_mm": [
+        56.989,
+        176.4921,
+        22.8
+      ],
+      "passed": true
+    },
+    {
+      "id": "P25",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 11544,
+      "dimensions_mm": [
+        43.9958,
+        79.9942,
+        22.8
+      ],
+      "passed": true
+    },
+    {
+      "id": "P26",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 7438,
+      "dimensions_mm": [
+        30.9975,
+        160.9862,
+        8.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P27",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 11304,
+      "dimensions_mm": [
+        44.0,
+        184.9903,
+        15.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P28",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 11304,
+      "dimensions_mm": [
+        44.0,
+        184.9903,
+        15.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P29",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 8128,
+      "dimensions_mm": [
+        89.9753,
+        90.0,
+        40.5
+      ],
+      "passed": true
+    },
+    {
+      "id": "LC01",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 2112,
+      "dimensions_mm": [
+        27.9969,
+        27.9937,
+        0.8
+      ],
+      "passed": true
+    },
+    {
+      "id": "LC02",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 1256,
+      "dimensions_mm": [
+        5.9993,
+        5.9987,
+        14.05
+      ],
+      "passed": true
+    },
+    {
+      "id": "LC03",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 1680,
+      "dimensions_mm": [
+        8.3991,
+        8.3981,
+        3.75
+      ],
+      "passed": true
+    },
+    {
+      "id": "LC04",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 1680,
+      "dimensions_mm": [
+        8.3991,
+        8.3981,
+        4.2
+      ],
+      "passed": true
+    },
+    {
+      "id": "LC05",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 840,
+      "dimensions_mm": [
+        8.999,
+        8.998,
+        0.2
+      ],
+      "passed": true
+    },
+    {
+      "id": "LC06",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 1268,
+      "dimensions_mm": [
+        7.0,
+        6.9985,
+        8.2
+      ],
+      "passed": true
+    },
+    {
+      "id": "P30",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 11522,
+      "dimensions_mm": [
+        59.0,
+        110.9999,
+        70.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P31",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 1716,
+      "dimensions_mm": [
+        12.5,
+        104.5,
+        13.0
+      ],
+      "passed": true
+    },
+    {
+      "id": "P32",
+      "closed": true,
+      "non_manifold": false,
+      "self_intersections": false,
+      "inconsistent_normals": false,
+      "on_bed": true,
+      "fits_bed": true,
+      "facets": 1716,
+      "dimensions_mm": [
+        22.0,
+        34.0,
+        2.5
+      ],
+      "passed": true
+    }
+  ],
+  "part_types": 38,
+  "required_pieces": 77,
+  "scope": "STL topology, nominal dimensions, rigid reorientation and build-volume checks; not a slicer/support/strength qualification"
+}

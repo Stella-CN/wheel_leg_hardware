@@ -1,0 +1,58 @@
+[
+  {
+    "part": "inner_spacer_ID6_2_OD7_2_L2",
+    "inner_diameter": 6.2,
+    "outer_diameter": 7.2,
+    "length": 2,
+    "quantity": 6,
+    "material": "steel"
+  },
+  {
+    "part": "race_washer_ID6_2_OD7_2_t1",
+    "inner_diameter": 6.2,
+    "outer_diameter": 7.2,
+    "length": 1,
+    "quantity": 12,
+    "material": "steel"
+  },
+  {
+    "part": "B_standoff_ID6_2_OD10_L7",
+    "inner_diameter": 6.2,
+    "outer_diameter": 10,
+    "length": 7,
+    "quantity": 2,
+    "material": "steel"
+  },
+  {
+    "part": "OB_tube_ID4_3_OD10_L21",
+    "inner_diameter": 4.3,
+    "outer_diameter": 10,
+    "length": 21,
+    "quantity": 8,
+    "material": "metal"
+  },
+  {
+    "part": "end_shim_ID6_2_OD10_t0_2",
+    "inner_diameter": 6.2,
+    "outer_diameter": 10,
+    "length": 0.2,
+    "quantity": 12,
+    "material": "steel"
+  },
+  {
+    "part": "bushing_ID6_05_OD8_L6",
+    "inner_diameter": 6.05,
+    "outer_diameter": 8,
+    "length": 6,
+    "quantity": 8,
+    "material": "bearing bronze"
+  },
+  {
+    "part": "bushing_ID6_05_OD8_L3",
+    "inner_diameter": 6.05,
+    "outer_diameter": 8,
+    "length": 3,
+    "quantity": 4,
+    "material": "bearing bronze"
+  }
+]

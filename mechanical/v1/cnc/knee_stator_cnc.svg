@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1000" viewBox="0 0 1400 1000">
+<defs><pattern id="hatch" width="10" height="10" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><line x1="0" y1="0" x2="0" y2="10" stroke="#bed0df" stroke-width="1"/></pattern><marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 Z" fill="#334155"/></marker></defs>
+<rect width="1400" height="1000" fill="white"/>
+<style>text{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif;fill:#172b45}.title{font-size:28px;font-weight:bold}.sub{font-size:16px;fill:#53687c}.head{font-size:19px;font-weight:bold}.note{font-size:16px}.small{font-size:14px}.dim{stroke:#53687c;stroke-width:1;fill:none;marker-start:url(#arrow);marker-end:url(#arrow)}.ext{stroke:#9baabd;stroke-width:1}.shape{stroke:#172b45;stroke-width:2;fill:none}.hidden{stroke:#73899d;stroke-width:1.2;stroke-dasharray:6 5;fill:none}.center{stroke:#6793b6;stroke-width:1;stroke-dasharray:14 4 3 4;fill:none}.hole{fill:white;stroke:#172b45;stroke-width:1.4}</style>
+<text x="40" y="48" class="title">knee_stator_cnc  /  膝静壳连接法兰</text>
+<text x="40" y="76" class="sub">v1_review_prototype  ·  6061-T6  ·  单位 mm  ·  每侧1件 / 整机2件</text>
+<text x="1355" y="48" class="head" text-anchor="end">加工审查版</text>
+<text x="1355" y="76" class="sub" text-anchor="end">非加工认证图 / 以尺寸值为准</text>
+<line x1="40" y1="96" x2="1360" y2="96" class="ext"/>
+<text x="60" y="128" class="head">XZ 正投影 · 分型面 Y88</text>
+<text x="60" y="151" class="small">+X 向右，+Z 向上；相位 θ 按 X=r cosθ、Z=r sinθ</text>
+<circle cx="300" cy="365" r="184.0" class="shape"/>
+<line x1="95" y1="365" x2="505" y2="365" class="center"/>
+<line x1="300" y1="160" x2="300" y2="570" class="center"/>
+<text x="512" y="370" class="small">+X</text>
+<text x="306" y="173" class="small">+Z</text>
+<circle cx="300" cy="365" r="156.39999999999998" class="center"/>
+<circle cx="300" cy="365" r="87.39999999999999" class="center"/>
+<circle cx="361.80113267570425" cy="303.19886732429575" r="13.339999999999998" class="hole"/>
+<circle cx="361.80113267570425" cy="303.19886732429575" r="7.819999999999999" class="hole"/>
+<circle cx="238.19886732429575" cy="303.19886732429575" r="13.339999999999998" class="hole"/>
+<circle cx="238.19886732429575" cy="303.19886732429575" r="7.819999999999999" class="hole"/>
+<circle cx="238.19886732429575" cy="426.80113267570425" r="13.339999999999998" class="hole"/>
+<circle cx="238.19886732429575" cy="426.80113267570425" r="7.819999999999999" class="hole"/>
+<circle cx="361.80113267570425" cy="426.80113267570425" r="13.339999999999998" class="hole"/>
+<circle cx="361.80113267570425" cy="426.80113267570425" r="7.819999999999999" class="hole"/>
+<circle cx="410.591500577576" cy="254.40849942242397" r="10.12" class="hole"/>
+<circle cx="189.40849942242397" cy="254.40849942242397" r="10.12" class="hole"/>
+<circle cx="189.40849942242394" cy="475.591500577576" r="10.12" class="hole"/>
+<circle cx="410.59150057757597" cy="475.5915005775761" r="10.12" class="hole"/>
+<circle cx="143.60000000000002" cy="365" r="6.946" class="hole"/>
+<circle cx="456.4" cy="365" r="6.946" class="hole"/>
+<line x1="410.591500577576" y1="254.40849942242397" x2="515" y2="220" class="ext"/>
+<circle cx="410.591500577576" cy="254.40849942242397" r="2" class="hole"/>
+<text x="520" y="216" class="small">B</text>
+<line x1="456.4" y1="365" x2="515" y2="397" class="ext"/>
+<circle cx="456.4" cy="365" r="2" class="hole"/>
+<text x="520" y="393" class="small">C</text>
+<line x1="361.80113267570425" y1="303.19886732429575" x2="515" y2="430" class="ext"/>
+<circle cx="361.80113267570425" cy="303.19886732429575" r="2" class="hole"/>
+<text x="520" y="426" class="small">A</text>
+<line x1="116.0" y1="549.0" x2="116.0" y2="589" class="ext"/>
+<line x1="484.0" y1="549.0" x2="484.0" y2="589" class="ext"/>
+<line x1="116.0" y1="581" x2="484.0" y2="581" class="dim"/>
+<text x="300.0" y="573" class="small" text-anchor="middle">Ø80</text>
+<text x="60" y="620" class="small">A / B / C 见下方孔表；虚线为分布圆或背面特征。</text>
+<text x="680" y="128" class="head">A—A 轴向剖面 · Z=0</text>
+<text x="680" y="151" class="small">+Y 向右，+X 向上；剖切仅显示被该平面切到的孔。</text>
+<rect x="880" y="181.0" width="27.599999999999998" height="368.0" class="shape"/>
+<rect x="880" y="181.0" width="27.599999999999998" height="368.0" fill="url(#hatch)" stroke="#172b45" stroke-width="2"/>
+<rect x="880" y="514.454" width="27.599999999999998" height="13.892" class="hole"/>
+<rect x="880" y="201.65400000000002" width="27.599999999999998" height="13.892" class="hole"/>
+<line x1="825" y1="365" x2="965" y2="365" class="center"/>
+<line x1="880" y1="549.0" x2="880" y2="593" class="ext"/>
+<line x1="907.6" y1="549.0" x2="907.6" y2="593" class="ext"/>
+<line x1="880" y1="585" x2="907.6" y2="585" class="dim"/>
+<text x="893.8" y="577" class="small" text-anchor="middle">6</text>
+<text x="1015" y="230" class="small">左侧：分型面 Y88</text>
+<text x="1015" y="255" class="small">右侧：电机面 Y94</text>
+<text x="1015" y="300" class="head">A孔局部轴向剖面</text>
+<rect x="1040" y="325" width="54" height="90" fill="url(#hatch)" stroke="#172b45" stroke-width="2"/>
+<rect x="1040" y="354.7" width="54" height="30.599999999999998" class="hole"/>
+<rect x="1040" y="343.9" width="31.5" height="52.199999999999996" class="hole"/>
+<line x1="1020" y1="370" x2="1114" y2="370" class="center"/>
+<text x="1145" y="346" class="small">Ø5.8 深3.5</text>
+<text x="1145" y="372" class="small">从 Y88 加工</text>
+<text x="1145" y="398" class="small">Ø3.4 通孔</text>
+<line x1="1040" y1="415" x2="1040" y2="463" class="ext"/>
+<line x1="1071.5" y1="415" x2="1071.5" y2="463" class="ext"/>
+<line x1="1040" y1="455" x2="1071.5" y2="455" class="dim"/>
+<text x="1055.75" y="447" class="small" text-anchor="middle">3.5</text>
+<text x="680" y="620" class="small">B 孔 Ø4.4 通孔；M4×10 从 Y94 外侧穿入，拧入 hip 法兰。</text>
+<line x1="40" y1="640" x2="1360" y2="640" class="ext"/>
+<text x="60" y="675" class="head">孔表 / 同轴孔组</text>
+<text x="62" y="714" class="head">A</text>
+<text x="108" y="714" class="note">4×Ø3.4 通孔；沉孔 Ø5.8 深3.5，从 Y88</text>
+<text x="700" y="714" class="note">PCD38；45° + k×90°</text>
+<line x1="60" y1="727" x2="1340" y2="727" class="ext"/>
+<text x="62" y="755" class="head">B</text>
+<text x="108" y="755" class="note">4×Ø4.4 通孔</text>
+<text x="700" y="755" class="note">PCD68；45° + k×90°</text>
+<line x1="60" y1="768" x2="1340" y2="768" class="ext"/>
+<text x="62" y="796" class="head">C</text>
+<text x="108" y="796" class="note">2×Ø3.02 通孔，待确定销配合</text>
+<text x="700" y="796" class="note">X=±34，Z=0；中心距68</text>
+<line x1="60" y1="809" x2="1340" y2="809" class="ext"/>
+<text x="60" y="862" class="head">加工与装配备注</text>
+<text x="60" y="890" class="small">1. 一般尺寸建议 ±0.1；接触面平面度、孔系/定位杯同轴要求建议 0.05，待加工方确认基准与检验方案。</text>
+<text x="60" y="913" class="small">2. 定位杯及销孔不适用一般 ±0.1：须实测电机/定位销后确认配合；去毛刺、锐边倒钝，保留静壳避让间隙。</text>
+<text x="60" y="936" class="small">3. M3×6 名义入电机牙3.5；M4×10 贯穿本片并入 hip 牙4 mm（无垫圈），不使用内侧螺母。</text>
+<text x="60" y="959" class="small">4. 电机孔系依据供应商 J4310 STEP / 二维图；详见 INTERFACES.md。本版未完成冲击、疲劳及加工公差闭环验证。</text>
+</svg>

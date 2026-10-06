@@ -1,0 +1,12 @@
+{
+  "source_revision": "V5",
+  "unchanged_parts": "Hip motor mounting datums, hip-knee coupling and wheel design; V6 chassis has its own report",
+  "source_files": [
+    "chassis_motor_interface_validation.json",
+    "coupling_review.md",
+    "coupling_review.json",
+    "coupling_fasteners.json",
+    "coupling_local_review.FCStd"
+  ],
+  "note": "Inherited reports retain their V5 subsystem titles. V6 whole-robot validation is in validation.json."
+}

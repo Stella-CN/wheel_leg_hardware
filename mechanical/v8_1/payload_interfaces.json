@@ -1,0 +1,368 @@
+{
+  "units": "mm",
+  "status": "Official Jetson STEP solids + official D435 ROS mesh; camera analytic clearance volume checked independently",
+  "jetson": {
+    "mass_g": 175,
+    "ports_facing": "+X",
+    "forward_plug_allowance": 35,
+    "source": "https://developer.nvidia.com/downloads/assets/embedded/secure/jetson/orin_nano/docs/jetson_orin_nano_devkit_3d_step_model.zip/",
+    "model_revision": "20230320, P3766-P3768SKU4-P3767ENVELOPE",
+    "model_dimensions_mm": [
+      103.379004121345,
+      91.052502061514,
+      34.90451112444
+    ],
+    "mounting_bottom_plane_z_mm": 33,
+    "top_z_mm": 67.766,
+    "vertical_translation_mm": 37.9,
+    "source_solids": 1393,
+    "mounting": "Retain original plastic base; removable perimeter retention and tray, not assumed through-base holes",
+    "placed_BRep_bounds_xyz_mm": [
+      -70.52625103033625,
+      -51.68950206067251,
+      32.86148887556,
+      20.5262510311781,
+      51.68950206067251,
+      67.766
+    ],
+    "placed_BRep_dimensions_xyz_mm": [
+      91.05250206151436,
+      103.37900412134502,
+      34.904511124440006
+    ],
+    "bounds_basis": "Conservative bounds of installed official solid BRep; actual foot datum, not control-box minimum, is on trayZ33."
+  },
+  "d435": {
+    "envelope_dimensions": [
+      90.15,
+      25.15,
+      25.05
+    ],
+    "mass_g": 75,
+    "rear_mount_pitch": 45,
+    "rear_thread": "M3x0.5",
+    "manufacturer_max_insertion": 3,
+    "selected_screw": "ISO4762 M3x8",
+    "bracket_grip": 6.0,
+    "nominal_insertion": 2.0,
+    "manufacturer_recommended_mounting_torque_Nm": 0.4,
+    "source": "https://realsenseai.com/wp-content/uploads/2025/09/Intel-RealSense-D400-Series-Datasheet-October-2025.pdf",
+    "rear_mounting_plane_x": 91.95,
+    "center_z": 61,
+    "chassis_bracket_holes_z": [
+      53.5,
+      69.5
+    ],
+    "bracket_contact_plane_x": 91.95,
+    "model_drawing_difference": "2018 official ROS mesh depth25.05 versus 2025 manufacturer drawing26.05; no mesh scaling used",
+    "alternate_current_drawing_configuration": "Choose D435 bracket26.05 replacement; 6mm grip/backX84.95, same M3x8, nominal insertion2mm. One bracket only in BOM.",
+    "official_CAD_source": "https://dev.realsenseai.com/download/41950",
+    "official_CAD_format": "D435_Solid.SLDPRT; retained as supplied, not read by this FreeCAD installation",
+    "assembly_visual_source": "https://github.com/realsenseai/realsense-ros/blob/ros2-master/realsense2_description/meshes/d435.dae",
+    "model_in_FCStd_and_STL": "Official ROS mesh, original metres converted to mm; not a reverse-engineered box",
+    "STEP_representation": "Conservative analytic clearance volume; official SolidWorks source provided separately",
+    "front_face_x": 117,
+    "bracket_grip_stack": "6mm integral PETG backrest; no loose metal shims",
+    "alternate_26p05_rear_mounting_plane_x": 90.95
+  },
+  "battery": {
+    "units": "mm",
+    "model": "WHEELTEC E626S, 24V voltage class; selected explicitly by user",
+    "representation": "One conservative box including the magnetic base; not detailed vendor CAD",
+    "drawing_case_dimensions": [
+      85.6,
+      61.6,
+      42.0
+    ],
+    "drawing_with_base_thickness": 44.5,
+    "robot_dimensions_xyz": [
+      85.6,
+      44.5,
+      61.6
+    ],
+    "robot_min_xyz": [
+      -42.8,
+      -22.25,
+      -43.8
+    ],
+    "robot_max_xyz": [
+      42.8,
+      22.25,
+      17.8
+    ],
+    "mass_budget_g": 400.0,
+    "mass_is_measured": false,
+    "magnetic_base": {
+      "included_in_envelope": true,
+      "role": "Mechanical magnetic attachment/flux plate; not an electrical contact; no jump load credit",
+      "source": "Official24-DC.pdf page9; selectedE626S family, supplied package/base contents still to be checked"
+    },
+    "mounting": {
+      "part": "battery_tray",
+      "process": "one-piecePETG",
+      "mounting_centres_xy": [
+        [
+          -70.0,
+          -20.0
+        ],
+        [
+          -70.0,
+          20.0
+        ],
+        [
+          70.0,
+          -20.0
+        ],
+        [
+          70.0,
+          20.0
+        ]
+      ],
+      "mounting_pad_z": [
+        -39.0,
+        -36.0
+      ],
+      "mounting_screws": "4xISO4762 M3x8 unchanged;3mm grip/5mm nominal metal insertion",
+      "clearance_hole_diameter": 3.4,
+      "floor_bottom_z": -46.2,
+      "support_z": -43.8,
+      "floor_thickness": 2.4,
+      "inner_opening_xy": [
+        86.6,
+        45.5
+      ],
+      "nominal_side_clearance_each": 0.5,
+      "main_outer_width_y": 49.5,
+      "long_sidewall_thickness": 2.0,
+      "long_sidewall_top_z": -34.2,
+      "endstop_top_z": -31.8,
+      "actual_belly_central_pocket_top_z": -48.0,
+      "tray_belly_clearance_mm": 1.8
+    },
+    "retention": {
+      "straps": 2,
+      "maximum_width": 10.0,
+      "strap_x": [
+        -24.0,
+        24.0
+      ],
+      "suggested_purchase_size_mm": [
+        10.0,
+        300.0
+      ],
+      "conservative_centreline_loop_mm": 231.0,
+      "minimum_top_overlap_mm": 50.0,
+      "selection": "300mm cut-to-fit straps; straight single layer<=1mm, no bulky buckle; overlap only above battery, away from actual DC plug and cable",
+      "side_guide_window_width_x": 12.0,
+      "side_guide_window_z": [
+        -46.3,
+        -38.2
+      ],
+      "upper_guide_bridge_height": 4.0,
+      "underfloor_single_layer_thickness_max": 1.0,
+      "underfloor_remaining_nominal_clearance": 0.8,
+      "instruction": "Mechanical straps and integral stops carry restraint; no magnetic holding-force assumption. Keep buckles/overlaps on top outside actualDC port."
+    },
+    "dc": {
+      "drawing_label": "2.1DC",
+      "exact_port_coordinates": null,
+      "port_face_robot_normal": [
+        0,
+        0,
+        1
+      ],
+      "available_height_to_electronics_tray": 12.2,
+      "design_keepout_height": 11.0,
+      "design_keepout_bounds": [
+        -42.8,
+        -22.25,
+        17.8,
+        42.8,
+        22.25,
+        28.8
+      ],
+      "clearance_keepout_to_tray": 1.2,
+      "qualification": "Only the declared keepout can be checked. Select and measure a compact right-angle plug/cable; no exact socket/plug geometry modeled.",
+      "official_interface": "DC5.5x2.1, shared charging/discharging per official E626S datasheet; actual plug geometry unmeasured"
+    },
+    "manufacturing": "Print floor flat with support under raised integral ears, clear the12mm strap windows/4mm bridges; calibrateØ3.4 holes and0.5mm side clearance. No scaling of source battery dimensions.",
+    "unresolved": [
+      "Supplied package contents and whether magnetic base is included; TaobaoSKU page was not directly read.",
+      "Measured complete assembly mass.",
+      "DC socket coordinates, right-angle plug height and cable bend radius.",
+      "Actual strap single-layer thickness<=1mm and buckle/overlap placement.",
+      "Electrical peak duration, BMS/connector rating and motor operating compatibility.",
+      "Restraint performance under jump/impact; no physical qualification."
+    ],
+    "user_drawing_source": "source/battery/WHEELTEC_battery_user_drawing.png",
+    "user_drawing_sha256": "b98cecfeec97993a836b9dfb05de558123f1c7bc83491f5cd5bb849ce996583d",
+    "cad_source_sha256": "2a67f62c7e2537ee2a0aef3f5c21423cf4af724e49d40569a179abf292258e8e",
+    "selection_confirmation": {
+      "status": "user_confirmed",
+      "model": "E626S",
+      "nominal_voltage_V": 22.2,
+      "full_voltage_V": 25.2,
+      "source": "User reply confirming24V E626S plus official24-DC.pdf page12",
+      "taobao_sku_page_directly_read": false,
+      "note": "Same dimensions alone were insufficient:12V E351S also shares the case. User confirmation now selectsE626S. Package contents, mass scope and real plug remain unverified."
+    },
+    "selected_official": {
+      "model": "E626S",
+      "source": "https://wheeltec.net/24-DC.pdf",
+      "page": 12,
+      "battery_mass_g": 337,
+      "battery_mass_scope": "Official337g item; whether magnetic base is included is not stated. Use400g complete assembly budget until measured.",
+      "nominal_voltage_V": 22.2,
+      "full_voltage_V": 25.2,
+      "cutoff_voltage_V": 18.0,
+      "capacity_mAh": 2550,
+      "continuous_current_A": 6.0,
+      "instant_current_A": 13.0,
+      "instant_duration_s": null,
+      "note": "Model selected explicitly by user; electrical values from official E626S table. These ratings do not certify whole-robot motor power suitability."
+    },
+    "metadata_provenance": "Selection metadata updated after explicit user confirmation; frozen CAD source retains earlier candidate wording. Geometry/source SHA is unchanged; this interface note governs electrical model selection."
+  },
+  "imu": {
+    "model": "HI13R2-USB-000",
+    "vendor_family_STEP": "HI13XX-USB.STEP",
+    "datasheet_revision": "1.5, 2026-03-14",
+    "source_STEP_file_date": "2026-03-16",
+    "source_STEP_sha256": "567f8fdfa9e1f4827b2d41bca9dce2127b86db4c251c0d58d586d6a56d4821f8",
+    "source_STEP_solids": 2,
+    "manufacturer_envelope_mm": [
+      26,
+      24,
+      12
+    ],
+    "main_housing_mm": [
+      24,
+      24,
+      12
+    ],
+    "source_STEP_IMU_point_mm": [
+      -40.00155697274189,
+      1.47316173360338,
+      0.0
+    ],
+    "robot_IMU_point_mm": [
+      0.0,
+      0.0,
+      85.0
+    ],
+    "robot_mounting_plane_z_mm": 79.0,
+    "mass_budget_g": 11.0,
+    "mass_basis": "Manufacturer specifies <11g; use11g conservative purchased-component mass.",
+    "mounting": {
+      "hole_centres_XY_mm": [
+        [
+          10.1,
+          -10.1
+        ],
+        [
+          -10.1,
+          10.1
+        ]
+      ],
+      "bore_diameter_mm": 2.6,
+      "bore_range_mm": [
+        2.55,
+        2.65
+      ],
+      "hole_pitch_XY_mm": [
+        20.2,
+        20.2
+      ],
+      "pitch_range_mm": [
+        20.0,
+        20.4
+      ],
+      "screw_nominal": "M2.5",
+      "screw_head_seat_z_mm": 89.4,
+      "head_corner_relief_radius_mm": 2.3,
+      "bridge_3mm_fastener_example": "M2.5x16, bridge clearance2.7mm, underside nut2mm; verify actual head/nut dimensions.",
+      "front_2xM2": "Type-C locking plate holes, 15mm pitch; not the vertical mounting holes."
+    },
+    "origin_evidence": {
+      "page": 17,
+      "figure": "9: HI13 mechanical dimensions and IMU position",
+      "nominal": "Red IMU dot: D4=12,E3=12,A3=6 from body datum edges/bottom.",
+      "dimension_table_ranges_mm": {
+        "D4": [
+          11.8,
+          12.2
+        ],
+        "E3": [
+          11.8,
+          12.2
+        ],
+        "A3": [
+          5.8,
+          6.2
+        ]
+      },
+      "limit": "Published nominal module datum, not per-unit calibrated die-centre metrology; assembly and sensor extrinsic calibration remain required."
+    },
+    "orientation": {
+      "type_c_exit_robot_axis": "-X",
+      "vendor_default_body_axes": "RFU: Right/Forward/Up",
+      "sensor_X_in_robot": [
+        0,
+        1,
+        0
+      ],
+      "sensor_Y_in_robot": [
+        -1,
+        0,
+        0
+      ],
+      "sensor_Z_in_robot": [
+        0,
+        0,
+        1
+      ],
+      "sensor_vector_to_robot_matrix": [
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "proper_rotation_determinant": 1,
+      "note": "Directions refer to existing numerical CAD axes. Matrix must be applied to raw vectors; attitude conversion needs explicit frame convention. No reflections."
+    },
+    "interface": {
+      "type": "USB Type-C, internal UART bridge",
+      "supply_V": [
+        4.5,
+        5.5
+      ],
+      "typical_power_mW": 300
+    },
+    "sensor_configuration": "R2 has accelerometer+gyroscope, no magnetometer, no barometer.",
+    "mounting_guidance": "Rigid flat mounting; avoid concentrated heat and cable stress; validate vibration on assembled robot. Do not add unqualified soft isolation in control IMU path.",
+    "usb_keep_out": "Design allowance20x12x9mm only, not measured cable geometry."
+  },
+  "manufacturing": "PETG camera bracket uses captive metal M3 nuts. No printed load-bearing leg joints.",
+  "limits": "Display active area, mass, casing front-rim contact, plugs and cable geometry await physical measurement. Jetson and HI13R2 use official solid CAD; D435 uses official ROS mesh in FCStd/STL and an analysis envelope in STEP; display/battery are dimensional envelopes.",
+  "display": {
+    "file": "display_interface.json",
+    "size_inches": 5,
+    "mass_assumption_g": 200,
+    "mass_sensitivity_range_g": [
+      100,
+      350
+    ],
+    "mass_source": "Not supplied; engineering scenarios only"
+  }
+}

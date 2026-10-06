@@ -1,0 +1,5293 @@
+{
+  "total_kg": 6.267823000000007,
+  "indicative_range_kg": [
+    6.067823000000007,
+    6.567823000000007
+  ],
+  "range_method": "Engineering installation/device/printing allowance, not a statistical confidence interval",
+  "by_material_kg": {
+    "CNC": 1.9495909999999996,
+    "PETG": 0.8838240000000002,
+    "payload": 0.926,
+    "motor": 1.92,
+    "rubber": 0.14398,
+    "steel": 0.24442800000000048,
+    "allowance": 0.2
+  },
+  "nominal_center_from_hip_mm": [
+    1.6475057923160492,
+    -0.02504355159550914,
+    -36.14242220475025
+  ],
+  "parts": [
+    {
+      "part": "chassis_belly_plate",
+      "material": "CNC",
+      "mass_g": 161.961,
+      "center_mm": [
+        -1.234391655585964e-15,
+        3.331471577905694e-16,
+        -48.482334488934455
+      ],
+      "local_center_mm": [
+        -1.234391655585964e-15,
+        3.331471577905694e-16,
+        -48.482334488934455
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "chassis_hip_frame_right",
+      "material": "CNC",
+      "mass_g": 160.205,
+      "center_mm": [
+        -1.0874607871280964,
+        70.04441309145535,
+        -0.2845281622673303
+      ],
+      "local_center_mm": [
+        -1.0874607871280964,
+        70.04441309145535,
+        -0.2845281622673303
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "chassis_hip_frame_left",
+      "material": "CNC",
+      "mass_g": 160.205,
+      "center_mm": [
+        -1.0874607871280935,
+        -70.04441309145534,
+        -0.28452816226735617
+      ],
+      "local_center_mm": [
+        -1.0874607871280935,
+        -70.04441309145534,
+        -0.28452816226735617
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "chassis_front_crossframe",
+      "material": "CNC",
+      "mass_g": 78.752,
+      "center_mm": [
+        82.71502619410359,
+        1.3501746182837189e-14,
+        -0.0018518825362685307
+      ],
+      "local_center_mm": [
+        82.71502619410359,
+        1.3501746182837189e-14,
+        -0.0018518825362685307
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "chassis_rear_crossframe",
+      "material": "CNC",
+      "mass_g": 78.752,
+      "center_mm": [
+        -82.71502619410357,
+        8.908657931724212e-14,
+        -0.0018518825362890947
+      ],
+      "local_center_mm": [
+        -82.71502619410357,
+        8.908657931724212e-14,
+        -0.0018518825362890947
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "chassis_front_shell",
+      "material": "PETG",
+      "mass_g": 355.932,
+      "center_mm": [
+        65.85010586135962,
+        -3.424688497410206e-05,
+        40.77613473005348
+      ],
+      "local_center_mm": [
+        65.85010586135962,
+        -3.424688497410206e-05,
+        40.77613473005348
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "chassis_rear_cover",
+      "material": "PETG",
+      "mass_g": 255.75,
+      "center_mm": [
+        -79.85426855795443,
+        -0.0003975304063517581,
+        33.14499318142534
+      ],
+      "local_center_mm": [
+        -79.85426855795443,
+        -0.0003975304063517581,
+        33.14499318142534
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "display_front_bezel",
+      "material": "PETG",
+      "mass_g": 30.592,
+      "center_mm": [
+        120.49999999999996,
+        2.6713031633072473e-15,
+        7.999999999999991
+      ],
+      "local_center_mm": [
+        120.49999999999996,
+        2.6713031633072473e-15,
+        7.999999999999991
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "shoulder_fairing_right",
+      "material": "PETG",
+      "mass_g": 44.811,
+      "center_mm": [
+        9.881905180687793e-15,
+        102.78543793910917,
+        26.694846193946702
+      ],
+      "local_center_mm": [
+        9.881905180687793e-15,
+        102.78543793910917,
+        26.694846193946702
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "shoulder_fairing_left",
+      "material": "PETG",
+      "mass_g": 44.811,
+      "center_mm": [
+        9.881905180687793e-15,
+        -102.78543793910917,
+        26.69484619394671
+      ],
+      "local_center_mm": [
+        9.881905180687793e-15,
+        -102.78543793910917,
+        26.69484619394671
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "battery_tray",
+      "material": "PETG",
+      "mass_g": 33.904,
+      "center_mm": [
+        7.205457531926483e-15,
+        1.9333792668407935e-15,
+        -41.06768055613261
+      ],
+      "local_center_mm": [
+        7.205457531926483e-15,
+        1.9333792668407935e-15,
+        -41.06768055613261
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "electronics_tray",
+      "material": "PETG",
+      "mass_g": 62.239,
+      "center_mm": [
+        -9.95998304499378,
+        3.82768951951698e-16,
+        31.499999999999996
+      ],
+      "local_center_mm": [
+        -9.95998304499378,
+        3.82768951951698e-16,
+        31.499999999999996
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "Jetson_base_retainer_right",
+      "material": "PETG",
+      "mass_g": 6.868,
+      "center_mm": [
+        -20.966517885705095,
+        52.367263464892865,
+        37.04751864229505
+      ],
+      "local_center_mm": [
+        -20.966517885705095,
+        52.367263464892865,
+        37.04751864229505
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "Jetson_base_retainer_left",
+      "material": "PETG",
+      "mass_g": 6.868,
+      "center_mm": [
+        -20.966517885705095,
+        -52.367263464892865,
+        37.04751864229505
+      ],
+      "local_center_mm": [
+        -20.966517885705095,
+        -52.367263464892865,
+        37.04751864229505
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "D435_embedded_bracket",
+      "material": "PETG",
+      "mass_g": 8.945,
+      "center_mm": [
+        101.42198204859326,
+        -4.939033221043373e-15,
+        88.30794224177944
+      ],
+      "local_center_mm": [
+        101.42198204859326,
+        -4.939033221043373e-15,
+        88.30794224177944
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "HI13R2_rigid_bridge",
+      "material": "CNC",
+      "mass_g": 39.126,
+      "center_mm": [
+        -3.6009990733486184e-15,
+        1.8044221936169547e-15,
+        71.77836933703634
+      ],
+      "local_center_mm": [
+        -3.6009990733486184e-15,
+        1.8044221936169547e-15,
+        71.77836933703634
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "display_carrier_right",
+      "material": "PETG",
+      "mass_g": 16.552,
+      "center_mm": [
+        104.65951490669441,
+        88.26664994820796,
+        8.00000000000004
+      ],
+      "local_center_mm": [
+        104.65951490669441,
+        88.26664994820796,
+        8.00000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "display_carrier_left",
+      "material": "PETG",
+      "mass_g": 16.552,
+      "center_mm": [
+        104.65951490669441,
+        -88.26664994820797,
+        8.00000000000004
+      ],
+      "local_center_mm": [
+        104.65951490669441,
+        -88.26664994820797,
+        8.00000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00127 g/mm³"
+    },
+    {
+      "part": "hip_stator_mount_right",
+      "material": "CNC",
+      "mass_g": 40.232,
+      "center_mm": [
+        5.199080024257461e-16,
+        75.48564851854304,
+        -2.6093021912724745e-15
+      ],
+      "local_center_mm": [
+        5.199080024257461e-16,
+        75.48564851854304,
+        -2.6093021912724745e-15
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "hip_stator_mount_left",
+      "material": "CNC",
+      "mass_g": 40.232,
+      "center_mm": [
+        5.199080024257461e-16,
+        -75.48564851854304,
+        -2.6093021912724745e-15
+      ],
+      "local_center_mm": [
+        5.199080024257461e-16,
+        -75.48564851854304,
+        -2.6093021912724745e-15
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "hip_rotor_cnc_right",
+      "material": "CNC",
+      "mass_g": 32.482,
+      "center_mm": [
+        -6.894622277658469e-06,
+        77.7807133497824,
+        4.798861463896953e-06
+      ],
+      "local_center_mm": [
+        -8.400182137338958e-06,
+        77.78071334978239,
+        -4.27523191318562e-08
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "hip_rotor_cnc_left",
+      "material": "CNC",
+      "mass_g": 32.482,
+      "center_mm": [
+        -6.894622277771277e-06,
+        -77.7807133497824,
+        4.798861463898134e-06
+      ],
+      "local_center_mm": [
+        -8.400182137431896e-06,
+        -77.78071334978239,
+        -4.275231919580458e-08
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "knee_stator_cnc_right",
+      "material": "CNC",
+      "mass_g": 50.862,
+      "center_mm": [
+        1.8284110069827327e-05,
+        82.53554480861057,
+        -1.4250277386991232e-05
+      ],
+      "local_center_mm": [
+        2.315373348518501e-05,
+        82.53554480861055,
+        -1.1330103039147068e-06
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "knee_stator_cnc_left",
+      "material": "CNC",
+      "mass_g": 50.862,
+      "center_mm": [
+        1.828411006950143e-05,
+        -82.53554480861055,
+        -1.4250277387133808e-05
+      ],
+      "local_center_mm": [
+        2.3153733485000524e-05,
+        -82.53554480861054,
+        -1.133010304218848e-06
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "OB_inner_carrier_right",
+      "material": "CNC",
+      "mass_g": 41.831,
+      "center_mm": [
+        -33.48391285295299,
+        134.01955372195562,
+        -48.17209259214246
+      ],
+      "local_center_mm": [
+        0.3357477522567106,
+        134.0195537219556,
+        -58.66523841336495
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "OB_inner_carrier_left",
+      "material": "CNC",
+      "mass_g": 41.831,
+      "center_mm": [
+        -33.48391285295299,
+        -134.01955372195562,
+        -48.17209259214246
+      ],
+      "local_center_mm": [
+        0.3357477522567106,
+        -134.0195537219556,
+        -58.66523841336495
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "OB_outer_shell_right",
+      "material": "CNC",
+      "mass_g": 95.079,
+      "center_mm": [
+        -30.659706626422366,
+        148.09438487747883,
+        -48.07543802650408
+      ],
+      "local_center_mm": [
+        2.5898826887705027,
+        148.0943848774788,
+        -56.96102052734772
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "OB_outer_shell_left",
+      "material": "CNC",
+      "mass_g": 95.079,
+      "center_mm": [
+        -30.659706626422377,
+        -148.0943848774789,
+        -48.0754380265041
+      ],
+      "local_center_mm": [
+        2.5898826887705044,
+        -148.09438487747886,
+        -56.96102052734774
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "OA_one_piece_right",
+      "material": "CNC",
+      "mass_g": 70.366,
+      "center_mm": [
+        -4.471600173155503,
+        143.5263018241071,
+        4.404231960379042
+      ],
+      "local_center_mm": [
+        -7.330351854174426e-16,
+        143.5263018241071,
+        -6.276341870021784
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "OA_one_piece_left",
+      "material": "CNC",
+      "mass_g": 70.366,
+      "center_mm": [
+        -4.471600173155503,
+        -143.526301824107,
+        4.404231960379042
+      ],
+      "local_center_mm": [
+        -7.330351854174426e-16,
+        -143.526301824107,
+        -6.276341870021784
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "AC_bearing_link_right",
+      "material": "CNC",
+      "mass_g": 47.588,
+      "center_mm": [
+        -69.4641920264213,
+        143.92067714945492,
+        -21.58234126984125
+      ],
+      "local_center_mm": [
+        7.105427357601002e-15,
+        143.9206771494549,
+        -64.99999999999996
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "AC_bearing_link_left",
+      "material": "CNC",
+      "mass_g": 47.588,
+      "center_mm": [
+        -69.4641920264213,
+        -143.92067714945492,
+        -21.58234126984125
+      ],
+      "local_center_mm": [
+        7.105427357601002e-15,
+        -143.9206771494549,
+        -64.99999999999996
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "CW_one_piece_right",
+      "material": "CNC",
+      "mass_g": 114.611,
+      "center_mm": [
+        -42.440201324669474,
+        144.06537535079008,
+        -137.63201328547206
+      ],
+      "local_center_mm": [
+        0.4040897870807356,
+        144.06537535079008,
+        -45.03289486589441
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "CW_one_piece_left",
+      "material": "CNC",
+      "mass_g": 114.611,
+      "center_mm": [
+        -42.440201324669474,
+        -144.06537535079008,
+        -137.63201328547206
+      ],
+      "local_center_mm": [
+        0.4040897870807356,
+        -144.06537535079008,
+        -45.03289486589441
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "wheel_rim_right",
+      "material": "CNC",
+      "mass_g": 142.244,
+      "center_mm": [
+        -4.589952812026581e-15,
+        182.646299242621,
+        -179.99999999999997
+      ],
+      "local_center_mm": [
+        0.0,
+        182.646299242621,
+        1.4210854715202004e-14
+      ],
+      "role": "wheel",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "wheel_rim_left",
+      "material": "CNC",
+      "mass_g": 142.244,
+      "center_mm": [
+        -4.589952812026581e-15,
+        -182.646299242621,
+        -179.99999999999997
+      ],
+      "local_center_mm": [
+        0.0,
+        -182.646299242621,
+        1.4210854715202004e-14
+      ],
+      "role": "wheel",
+      "method": "CAD nominal solid volume × 0.0027 g/mm³"
+    },
+    {
+      "part": "Jetson_Orin_Nano_official",
+      "material": "payload",
+      "mass_g": 175.0,
+      "center_mm": [
+        -28.46479815298306,
+        -0.8967877932221716,
+        46.047300542731335
+      ],
+      "local_center_mm": [
+        -28.46479815298306,
+        -0.8967877932221716,
+        46.047300542731335
+      ],
+      "role": "fixed",
+      "method": "NVIDIA official P3766 developer-kit STEP, 20230320 release. Includes carrier, SOM envelope, heatsink/fan and base. Only source solids retained; auxiliary open surfaces excluded. Mass is manufacturer complete-kit nominal, not uniform CAD density."
+    },
+    {
+      "part": "D435_clearance_envelope",
+      "material": "payload",
+      "mass_g": 75.0,
+      "center_mm": [
+        109.48437513180457,
+        1.0017004904728118e-18,
+        88.0
+      ],
+      "local_center_mm": [
+        109.48437513180457,
+        1.0017004904728118e-18,
+        88.0
+      ],
+      "role": "fixed",
+      "method": "Analytic clearance and mass proxy from manufacturer dimensions. Hidden in final assembly; official ROS camera mesh is shown separately. Rear 2x M3 spacing45, maximum engagement3mm. This assembly uses 2018 ROS rear datum X74.95 with removable1mm shims; newer26.05mm datasheet configuration removes shims and uses M3x5. V7 frontX122, centreZ88."
+    },
+    {
+      "part": "Battery_400g_envelope",
+      "material": "payload",
+      "mass_g": 400.0,
+      "center_mm": [
+        1.4400066769402004e-17,
+        -1.7717429255316784e-16,
+        -24.5
+      ],
+      "local_center_mm": [
+        1.4400066769402004e-17,
+        -1.7717429255316784e-16,
+        -24.5
+      ],
+      "role": "fixed",
+      "method": "User mass 400g. Assumed 110x50x35 rectangular envelope; actual cell, connector and protection dimensions pending."
+    },
+    {
+      "part": "HI13R2_official",
+      "material": "payload",
+      "mass_g": 11.0,
+      "center_mm": [
+        -0.17882825470880695,
+        0.007561189594060141,
+        84.97179844596717
+      ],
+      "local_center_mm": [
+        -0.17882825470880695,
+        0.007561189594060141,
+        84.97179844596717
+      ],
+      "role": "fixed",
+      "method": "HiPNUC official HI13XX-USB STEP, downloaded 2026-09-22; HI13R2-USB-000, mass budget11g for manufacturer specification<11g. Published IMU datum is XY=(0,0), Z=base+6mm. Type-C points CAD-X; sensorRFU->CAD rotation=[[0,-1,0],[1,0,0],[0,0,1]]. Nominal hole pitch20.2x20.2, two diagonal2.6mm bores."
+    },
+    {
+      "part": "Display_7in_user_envelope",
+      "material": "payload",
+      "mass_g": 265.0,
+      "center_mm": [
+        109.0,
+        -2.441817103549197e-16,
+        8.000000000000002
+      ],
+      "local_center_mm": [
+        109.0,
+        -2.441817103549197e-16,
+        8.000000000000002
+      ],
+      "role": "fixed",
+      "method": "User drawings165x110x20mm/265g,1024x600; holesD3 confirmed by user. Pitch150.6377x93.3845 is from screenshot, not certified tolerance. Centred array assumed; independent±2mm mounting adjustment. HDMI/USB face rear(-X); exact connectors/lug thickness unprovided."
+    },
+    {
+      "part": "J4310_hip_right",
+      "material": "motor",
+      "mass_g": 300.0,
+      "center_mm": [
+        -0.053480610223131664,
+        51.78216788192866,
+        -0.020960660603424892
+      ],
+      "local_center_mm": [
+        -0.053480610223131664,
+        51.78216788192866,
+        -0.020960660603424892
+      ],
+      "role": "fixed",
+      "method": "Manufacturer motor mass; CAD uniform-volume centre approximates unknown internal mass distribution"
+    },
+    {
+      "part": "J4310_hip_left",
+      "material": "motor",
+      "mass_g": 300.0,
+      "center_mm": [
+        -0.05348061022310614,
+        -51.782167881928686,
+        -0.020960660603434187
+      ],
+      "local_center_mm": [
+        -0.05348061022310614,
+        -51.782167881928686,
+        -0.020960660603434187
+      ],
+      "role": "fixed",
+      "method": "Manufacturer motor mass; CAD uniform-volume centre approximates unknown internal mass distribution"
+    },
+    {
+      "part": "J4310_knee_right",
+      "material": "motor",
+      "mass_g": 300.0,
+      "center_mm": [
+        -0.05580034847417663,
+        111.88216788192857,
+        0.013632537288836656
+      ],
+      "local_center_mm": [
+        -0.05348061022313525,
+        111.88216788192855,
+        -0.020960660603429177
+      ],
+      "role": "hip",
+      "method": "Manufacturer motor mass; CAD uniform-volume centre approximates unknown internal mass distribution"
+    },
+    {
+      "part": "J4310_knee_left",
+      "material": "motor",
+      "mass_g": 300.0,
+      "center_mm": [
+        -0.05580034847417133,
+        -111.88216788192837,
+        0.013632537288807953
+      ],
+      "local_center_mm": [
+        -0.0534806102231144,
+        -111.88216788192835,
+        -0.020960660603449605
+      ],
+      "role": "hip",
+      "method": "Manufacturer motor mass; CAD uniform-volume centre approximates unknown internal mass distribution"
+    },
+    {
+      "part": "H6215_right",
+      "material": "motor",
+      "mass_g": 360.0,
+      "center_mm": [
+        -0.005665570616292815,
+        173.81036686864417,
+        -179.99441978571076
+      ],
+      "local_center_mm": [
+        -2.842170943040401e-14,
+        173.81036686864417,
+        0.00795219981652906
+      ],
+      "role": "wheel",
+      "method": "Manufacturer motor mass; CAD uniform-volume centre approximates unknown internal mass distribution"
+    },
+    {
+      "part": "H6215_left",
+      "material": "motor",
+      "mass_g": 360.0,
+      "center_mm": [
+        -0.005665570616263185,
+        -173.8103668686443,
+        -179.9944197857108
+      ],
+      "local_center_mm": [
+        -2.842170943040401e-14,
+        -173.8103668686443,
+        0.007952199816486427
+      ],
+      "role": "wheel",
+      "method": "Manufacturer motor mass; CAD uniform-volume centre approximates unknown internal mass distribution"
+    },
+    {
+      "part": "elastic_tyre_right",
+      "material": "rubber",
+      "mass_g": 71.99,
+      "center_mm": [
+        4.447022350324137e-15,
+        174.10000000000002,
+        -179.99999999999997
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        174.10000000000002,
+        1.4210854715202004e-14
+      ],
+      "role": "wheel",
+      "method": "CAD nominal solid volume × 0.0011 g/mm³"
+    },
+    {
+      "part": "elastic_tyre_left",
+      "material": "rubber",
+      "mass_g": 71.99,
+      "center_mm": [
+        4.447022350324137e-15,
+        -174.1,
+        -179.99999999999997
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        -174.1,
+        1.4210854715202004e-14
+      ],
+      "role": "wheel",
+      "method": "CAD nominal solid volume × 0.0011 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_0_right",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        11.040865384615387,
+        78.0136088392743,
+        -7.768480646741788
+      ],
+      "local_center_mm": [
+        13.499999999999998,
+        78.01360883927428,
+        4.672218783377061e-15
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_0_left",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        11.040865384615387,
+        -78.0136088392743,
+        -7.768480646741788
+      ],
+      "local_center_mm": [
+        13.499999999999998,
+        -78.01360883927428,
+        4.672218783377061e-15
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_1_right",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        12.248134281193844,
+        78.01360883927434,
+        5.677429579470271
+      ],
+      "local_center_mm": [
+        6.749999999999996,
+        78.01360883927433,
+        11.691342951089915
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_1_left",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        12.248134281193844,
+        -78.01360883927434,
+        5.677429579470271
+      ],
+      "local_center_mm": [
+        6.749999999999996,
+        -78.01360883927433,
+        11.691342951089915
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_2_right",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        1.2072688965784666,
+        78.01360883927433,
+        13.44591022621206
+      ],
+      "local_center_mm": [
+        -6.749999999999996,
+        78.01360883927431,
+        11.691342951089915
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_2_left",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        1.2072688965784666,
+        -78.01360883927433,
+        13.44591022621206
+      ],
+      "local_center_mm": [
+        -6.749999999999996,
+        -78.01360883927431,
+        11.691342951089915
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_3_right",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        -11.040865384615381,
+        78.0136088392743,
+        7.768480646741788
+      ],
+      "local_center_mm": [
+        -13.499999999999993,
+        78.01360883927428,
+        -2.0076835242766852e-15
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_3_left",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        -11.040865384615381,
+        -78.0136088392743,
+        7.768480646741788
+      ],
+      "local_center_mm": [
+        -13.499999999999993,
+        -78.01360883927428,
+        -2.0076835242766852e-15
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_4_right",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        -12.248134281193849,
+        78.01360883927428,
+        -5.6774295794702665
+      ],
+      "local_center_mm": [
+        -6.750000000000002,
+        78.01360883927427,
+        -11.691342951089913
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_4_left",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        -12.248134281193849,
+        -78.01360883927428,
+        -5.6774295794702665
+      ],
+      "local_center_mm": [
+        -6.750000000000002,
+        -78.01360883927427,
+        -11.691342951089913
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_5_right",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        -1.2072688965784615,
+        78.0136088392743,
+        -13.445910226212058
+      ],
+      "local_center_mm": [
+        6.749999999999998,
+        78.01360883927428,
+        -11.691342951089911
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_ISO4762_M3x8_5_left",
+      "material": "steel",
+      "mass_g": 0.779,
+      "center_mm": [
+        -1.2072688965784615,
+        -78.0136088392743,
+        -13.445910226212058
+      ],
+      "local_center_mm": [
+        6.749999999999998,
+        -78.01360883927428,
+        -11.691342951089911
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_dowel_D4_L9_0_right",
+      "material": "steel",
+      "mass_g": 0.592,
+      "center_mm": [
+        6.991632582067612,
+        75.99999999999997,
+        9.936778846153846
+      ],
+      "local_center_mm": [
+        -1.4592087725430838e-15,
+        75.99999999999996,
+        12.149999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_dowel_D4_L9_0_left",
+      "material": "steel",
+      "mass_g": 0.592,
+      "center_mm": [
+        6.991632582067612,
+        -75.99999999999997,
+        9.936778846153846
+      ],
+      "local_center_mm": [
+        -1.4592087725430838e-15,
+        -75.99999999999996,
+        12.149999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_dowel_D4_L9_1_right",
+      "material": "steel",
+      "mass_g": 0.592,
+      "center_mm": [
+        -12.101319203590855,
+        75.99999999999997,
+        1.0865420069206153
+      ],
+      "local_center_mm": [
+        -10.522208655980922,
+        75.99999999999996,
+        -6.074999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_dowel_D4_L9_1_left",
+      "material": "steel",
+      "mass_g": 0.592,
+      "center_mm": [
+        -12.101319203590855,
+        -75.99999999999997,
+        1.0865420069206153
+      ],
+      "local_center_mm": [
+        -10.522208655980922,
+        -75.99999999999996,
+        -6.074999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_dowel_D4_L9_2_right",
+      "material": "steel",
+      "mass_g": 0.592,
+      "center_mm": [
+        5.109686621523239,
+        75.99999999999997,
+        -11.023320853074468
+      ],
+      "local_center_mm": [
+        10.522208655980924,
+        75.99999999999996,
+        -6.0750000000000055
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_rotor_dowel_D4_L9_2_left",
+      "material": "steel",
+      "mass_g": 0.592,
+      "center_mm": [
+        5.109686621523239,
+        -75.99999999999997,
+        -11.023320853074468
+      ],
+      "local_center_mm": [
+        10.522208655980924,
+        -75.99999999999996,
+        -6.0750000000000055
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_knee_SLH_M3x6_SD_0_right",
+      "material": "steel",
+      "mass_g": 0.346,
+      "center_mm": [
+        18.718822699309747,
+        84.53280152573257,
+        3.2566358027580593
+      ],
+      "local_center_mm": [
+        13.43502884254439,
+        84.53280152573255,
+        13.435028842544392
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_knee_SLH_M3x6_SD_0_left",
+      "material": "steel",
+      "mass_g": 0.346,
+      "center_mm": [
+        18.718822699309747,
+        -84.53280152573257,
+        3.256635802758059
+      ],
+      "local_center_mm": [
+        13.43502884254439,
+        -84.53280152573255,
+        13.435028842544392
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_knee_SLH_M3x6_SD_1_right",
+      "material": "steel",
+      "mass_g": 0.346,
+      "center_mm": [
+        -3.2566358027580598,
+        84.53280152573257,
+        18.71882269930975
+      ],
+      "local_center_mm": [
+        -13.435028842544394,
+        84.53280152573255,
+        13.435028842544392
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_knee_SLH_M3x6_SD_1_left",
+      "material": "steel",
+      "mass_g": 0.346,
+      "center_mm": [
+        -3.2566358027580598,
+        -84.53280152573255,
+        18.718822699309747
+      ],
+      "local_center_mm": [
+        -13.435028842544392,
+        -84.53280152573254,
+        13.43502884254439
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_knee_SLH_M3x6_SD_2_right",
+      "material": "steel",
+      "mass_g": 0.346,
+      "center_mm": [
+        -18.718822699309754,
+        84.5328015257326,
+        -3.256635802758057
+      ],
+      "local_center_mm": [
+        -13.435028842544398,
+        84.53280152573258,
+        -13.435028842544394
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_knee_SLH_M3x6_SD_2_left",
+      "material": "steel",
+      "mass_g": 0.346,
+      "center_mm": [
+        -18.718822699309754,
+        -84.5328015257326,
+        -3.256635802758057
+      ],
+      "local_center_mm": [
+        -13.435028842544398,
+        -84.53280152573258,
+        -13.435028842544394
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_knee_SLH_M3x6_SD_3_right",
+      "material": "steel",
+      "mass_g": 0.346,
+      "center_mm": [
+        3.256635802758056,
+        84.53280152573261,
+        -18.71882269930976
+      ],
+      "local_center_mm": [
+        13.435028842544398,
+        84.5328015257326,
+        -13.435028842544403
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_knee_SLH_M3x6_SD_3_left",
+      "material": "steel",
+      "mass_g": 0.346,
+      "center_mm": [
+        3.2566358027580558,
+        -84.53280152573261,
+        -18.71882269930976
+      ],
+      "local_center_mm": [
+        13.435028842544398,
+        -84.5328015257326,
+        -13.435028842544403
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_radial_SLH_M3x8_SD_0_right",
+      "material": "steel",
+      "mass_g": 0.474,
+      "center_mm": [
+        23.815941852580817,
+        79.5,
+        -8.729852088509436
+      ],
+      "local_center_mm": [
+        24.50120703708713,
+        79.49999999999999,
+        6.565078639175245
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_radial_SLH_M3x8_SD_0_left",
+      "material": "steel",
+      "mass_g": 0.474,
+      "center_mm": [
+        23.815941852580817,
+        -79.5,
+        -8.729852088509436
+      ],
+      "local_center_mm": [
+        24.50120703708713,
+        -79.49999999999999,
+        6.565078639175245
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_radial_SLH_M3x8_SD_1_right",
+      "material": "steel",
+      "mass_g": 0.474,
+      "center_mm": [
+        8.729852088509437,
+        79.49999999999997,
+        23.81594185258082
+      ],
+      "local_center_mm": [
+        -6.565078639175245,
+        79.49999999999996,
+        24.501207037087134
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_radial_SLH_M3x8_SD_1_left",
+      "material": "steel",
+      "mass_g": 0.474,
+      "center_mm": [
+        8.729852088509437,
+        -79.49999999999997,
+        23.81594185258082
+      ],
+      "local_center_mm": [
+        -6.565078639175245,
+        -79.49999999999996,
+        24.501207037087134
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_radial_SLH_M3x8_SD_2_right",
+      "material": "steel",
+      "mass_g": 0.474,
+      "center_mm": [
+        -23.81594185258082,
+        79.49999999999999,
+        8.729852088509436
+      ],
+      "local_center_mm": [
+        -24.501207037087134,
+        79.49999999999997,
+        -6.565078639175247
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_radial_SLH_M3x8_SD_2_left",
+      "material": "steel",
+      "mass_g": 0.474,
+      "center_mm": [
+        -23.81594185258082,
+        -79.49999999999999,
+        8.729852088509436
+      ],
+      "local_center_mm": [
+        -24.501207037087134,
+        -79.49999999999997,
+        -6.565078639175247
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_radial_SLH_M3x8_SD_3_right",
+      "material": "steel",
+      "mass_g": 0.474,
+      "center_mm": [
+        -8.72985208850945,
+        79.49999999999996,
+        -23.81594185258081
+      ],
+      "local_center_mm": [
+        6.565078639175228,
+        79.49999999999994,
+        -24.501207037087134
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "coupling_radial_SLH_M3x8_SD_3_left",
+      "material": "steel",
+      "mass_g": 0.474,
+      "center_mm": [
+        -8.729852088509448,
+        -79.49999999999996,
+        -23.815941852580806
+      ],
+      "local_center_mm": [
+        6.565078639175228,
+        -79.49999999999994,
+        -24.50120703708713
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "_626_A_right",
+      "material": "steel",
+      "mass_g": 12.022,
+      "center_mm": [
+        -32.06039631988677,
+        143.84999999999994,
+        31.577380952380953
+      ],
+      "local_center_mm": [
+        -7.105427357601002e-15,
+        143.8499999999999,
+        2.6645352591003757e-15
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "_626_A_left",
+      "material": "steel",
+      "mass_g": 12.022,
+      "center_mm": [
+        -32.06039631988677,
+        -143.84999999999994,
+        31.577380952380953
+      ],
+      "local_center_mm": [
+        -7.105427357601002e-15,
+        -143.8499999999999,
+        2.6645352591003757e-15
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "bearing_keeper_A_right",
+      "material": "steel",
+      "mass_g": 2.403,
+      "center_mm": [
+        -32.06039631988676,
+        147.29999999999993,
+        31.577380952380963
+      ],
+      "local_center_mm": [
+        0.0,
+        147.2999999999999,
+        1.509903313490213e-14
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "bearing_keeper_A_left",
+      "material": "steel",
+      "mass_g": 2.403,
+      "center_mm": [
+        -32.06039631988676,
+        -147.29999999999993,
+        31.577380952380963
+      ],
+      "local_center_mm": [
+        0.0,
+        -147.2999999999999,
+        1.509903313490213e-14
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_A_SETS_M2x4_0_right",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -22.246293755784208,
+        147.76428571428562,
+        24.672064821943806
+      ],
+      "local_center_mm": [
+        11.999999999999993,
+        147.7642857142856,
+        5.329070518200751e-15
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_A_SETS_M2x4_0_left",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -22.246293755784208,
+        -147.76428571428562,
+        24.672064821943806
+      ],
+      "local_center_mm": [
+        11.999999999999993,
+        -147.7642857142856,
+        5.329070518200751e-15
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_A_SETS_M2x4_1_right",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -30.987268411817023,
+        147.76428571428565,
+        43.529301153458334
+      ],
+      "local_center_mm": [
+        -6.0,
+        147.76428571428562,
+        10.392304845413259
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_A_SETS_M2x4_1_left",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -30.987268411817023,
+        -147.76428571428565,
+        43.529301153458334
+      ],
+      "local_center_mm": [
+        -6.0,
+        -147.76428571428562,
+        10.392304845413259
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_A_SETS_M2x4_2_right",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -42.94762679205908,
+        147.76428571428565,
+        26.53077688174071
+      ],
+      "local_center_mm": [
+        -6.0,
+        147.76428571428562,
+        -10.39230484541326
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_A_SETS_M2x4_2_left",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -42.94762679205908,
+        -147.76428571428565,
+        26.53077688174071
+      ],
+      "local_center_mm": [
+        -6.0,
+        -147.76428571428562,
+        -10.39230484541326
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "female_pin_A_right",
+      "material": "steel",
+      "mass_g": 2.984,
+      "center_mm": [
+        -32.06039631988674,
+        144.12353235269813,
+        31.577380952380956
+      ],
+      "local_center_mm": [
+        -2.794096747142895e-14,
+        144.12353235269813,
+        -44.999999999999986
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "female_pin_A_left",
+      "material": "steel",
+      "mass_g": 2.984,
+      "center_mm": [
+        -32.060396319886756,
+        -144.12353235269813,
+        31.577380952380956
+      ],
+      "local_center_mm": [
+        -1.7282826435027446e-14,
+        -144.12353235269813,
+        -44.99999999999999
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_A_inner_right",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -32.060396319886756,
+        138.35000000000002,
+        31.577380952380956
+      ],
+      "local_center_mm": [
+        -1.7282826435027446e-14,
+        138.35000000000002,
+        -44.99999999999999
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_A_inner_left",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -32.060396319886756,
+        -138.35000000000002,
+        31.577380952380963
+      ],
+      "local_center_mm": [
+        -2.23451112596242e-14,
+        -138.35000000000002,
+        -45.0
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_A_outer_right",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -32.060396319886756,
+        149.85000000000002,
+        31.577380952380956
+      ],
+      "local_center_mm": [
+        -1.7282826435027446e-14,
+        149.85000000000002,
+        -44.99999999999999
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_A_outer_left",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -32.060396319886756,
+        -149.85000000000002,
+        31.577380952380963
+      ],
+      "local_center_mm": [
+        -2.23451112596242e-14,
+        -149.85000000000002,
+        -45.0
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "race_spacer_A_inner_right",
+      "material": "steel",
+      "mass_g": 0.248,
+      "center_mm": [
+        -32.06039631988675,
+        140.225,
+        31.577380952380963
+      ],
+      "local_center_mm": [
+        -2.58978249384247e-14,
+        140.225,
+        -45.0
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "race_spacer_A_inner_left",
+      "material": "steel",
+      "mass_g": 0.248,
+      "center_mm": [
+        -32.06039631988675,
+        -140.22499999999988,
+        31.57738095238096
+      ],
+      "local_center_mm": [
+        -2.3366682526126322e-14,
+        -140.22499999999988,
+        -44.99999999999999
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "race_spacer_A_outer_right",
+      "material": "steel",
+      "mass_g": 0.337,
+      "center_mm": [
+        -32.06039631988676,
+        147.7,
+        31.577380952380974
+      ],
+      "local_center_mm": [
+        -2.6385824817718828e-14,
+        147.7,
+        -45.000000000000014
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "race_spacer_A_outer_left",
+      "material": "steel",
+      "mass_g": 0.337,
+      "center_mm": [
+        -32.06039631988677,
+        -147.7,
+        31.577380952380985
+      ],
+      "local_center_mm": [
+        -2.687382469701296e-14,
+        -147.7,
+        -45.00000000000003
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_A_inner_right",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -32.06039631988678,
+        137.0,
+        31.577380952380977
+      ],
+      "local_center_mm": [
+        -1.8258826193615704e-14,
+        137.0,
+        -45.00000000000003
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_A_inner_left",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -32.060396319886756,
+        -136.99999999999997,
+        31.577380952380977
+      ],
+      "local_center_mm": [
+        -3.246968090881771e-14,
+        -136.99999999999997,
+        -45.00000000000001
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_A_outer_right",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -32.06039631988678,
+        151.25,
+        31.577380952380977
+      ],
+      "local_center_mm": [
+        -1.8258826193615704e-14,
+        151.25,
+        -45.00000000000003
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_A_outer_left",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -32.060396319886756,
+        -151.25,
+        31.577380952380977
+      ],
+      "local_center_mm": [
+        -3.246968090881771e-14,
+        -151.25,
+        -45.00000000000001
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_A_SETS_M2x4_inner_right",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -32.06039631988675,
+        136.6818181818182,
+        31.577380952380967
+      ],
+      "local_center_mm": [
+        -2.842896735072308e-14,
+        136.6818181818182,
+        -45.0
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_A_SETS_M2x4_inner_left",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -32.06039631988675,
+        -136.6818181818182,
+        31.577380952380967
+      ],
+      "local_center_mm": [
+        -2.842896735072308e-14,
+        -136.6818181818182,
+        -45.0
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_A_SETS_M2x4_outer_right",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -32.060396319886756,
+        151.56818181818178,
+        31.577380952380963
+      ],
+      "local_center_mm": [
+        -2.23451112596242e-14,
+        151.56818181818178,
+        -45.0
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_A_SETS_M2x4_outer_left",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -32.060396319886756,
+        -151.56818181818178,
+        31.577380952380963
+      ],
+      "local_center_mm": [
+        -2.23451112596242e-14,
+        -151.56818181818178,
+        -45.0
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "_626_C_right",
+      "material": "steel",
+      "mass_g": 12.022,
+      "center_mm": [
+        -106.86798773295584,
+        143.84999999999994,
+        -74.74206349206347
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        143.8499999999999,
+        -129.99999999999994
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "_626_C_left",
+      "material": "steel",
+      "mass_g": 12.022,
+      "center_mm": [
+        -106.86798773295584,
+        -143.84999999999994,
+        -74.74206349206347
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        -143.8499999999999,
+        -129.99999999999994
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "bearing_keeper_C_right",
+      "material": "steel",
+      "mass_g": 2.403,
+      "center_mm": [
+        -106.86798773295581,
+        147.29999999999995,
+        -74.74206349206345
+      ],
+      "local_center_mm": [
+        3.552713678800501e-14,
+        147.29999999999993,
+        -129.99999999999991
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "bearing_keeper_C_left",
+      "material": "steel",
+      "mass_g": 2.403,
+      "center_mm": [
+        -106.86798773295581,
+        -147.29999999999995,
+        -74.74206349206345
+      ],
+      "local_center_mm": [
+        3.552713678800501e-14,
+        -147.29999999999993,
+        -129.99999999999991
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_C_SETS_M2x4_0_right",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -97.05388516885327,
+        147.76428571428565,
+        -81.64737962250061
+      ],
+      "local_center_mm": [
+        12.000000000000014,
+        147.76428571428562,
+        -129.99999999999991
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_C_SETS_M2x4_0_left",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -97.05388516885327,
+        -147.76428571428565,
+        -81.64737962250061
+      ],
+      "local_center_mm": [
+        12.000000000000014,
+        -147.76428571428562,
+        -129.99999999999991
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_C_SETS_M2x4_1_right",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -105.79485982488612,
+        147.76428571428565,
+        -62.79014329098608
+      ],
+      "local_center_mm": [
+        -5.999999999999993,
+        147.76428571428562,
+        -119.6076951545867
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_C_SETS_M2x4_1_left",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -105.79485982488612,
+        -147.76428571428565,
+        -62.79014329098608
+      ],
+      "local_center_mm": [
+        -5.999999999999993,
+        -147.76428571428562,
+        -119.6076951545867
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_C_SETS_M2x4_2_right",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -117.75521820512816,
+        147.76428571428565,
+        -79.7886675627037
+      ],
+      "local_center_mm": [
+        -5.999999999999993,
+        147.76428571428562,
+        -140.39230484541318
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_C_SETS_M2x4_2_left",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -117.75521820512816,
+        -147.76428571428565,
+        -79.7886675627037
+      ],
+      "local_center_mm": [
+        -5.999999999999993,
+        -147.76428571428562,
+        -140.39230484541318
+      ],
+      "role": "ac",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "female_pin_C_right",
+      "material": "steel",
+      "mass_g": 2.984,
+      "center_mm": [
+        -106.86798773295585,
+        144.12353235269813,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        144.12353235269813,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "female_pin_C_left",
+      "material": "steel",
+      "mass_g": 2.984,
+      "center_mm": [
+        -106.86798773295583,
+        -144.12353235269813,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        -144.12353235269813,
+        44.99999999999997
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_C_inner_right",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -106.86798773295584,
+        138.35000000000005,
+        -74.74206349206351
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        138.35000000000005,
+        44.99999999999998
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_C_inner_left",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -106.86798773295587,
+        -138.35000000000002,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        0.0,
+        -138.35000000000002,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_C_outer_right",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -106.86798773295584,
+        149.85000000000002,
+        -74.74206349206351
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        149.85000000000002,
+        44.99999999999998
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_C_outer_left",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -106.86798773295587,
+        -149.85000000000002,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        0.0,
+        -149.85000000000002,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "race_spacer_C_inner_right",
+      "material": "steel",
+      "mass_g": 0.248,
+      "center_mm": [
+        -106.86798773295587,
+        140.225,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        0.0,
+        140.225,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "race_spacer_C_inner_left",
+      "material": "steel",
+      "mass_g": 0.248,
+      "center_mm": [
+        -106.86798773295587,
+        -140.225,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        0.0,
+        -140.225,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "race_spacer_C_outer_right",
+      "material": "steel",
+      "mass_g": 0.337,
+      "center_mm": [
+        -106.86798773295587,
+        147.70000000000007,
+        -74.74206349206348
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        147.70000000000007,
+        45.000000000000014
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "race_spacer_C_outer_left",
+      "material": "steel",
+      "mass_g": 0.337,
+      "center_mm": [
+        -106.86798773295585,
+        -147.70000000000005,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        -147.70000000000005,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_C_inner_right",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -106.86798773295584,
+        137.0,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        137.0,
+        44.999999999999986
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_C_inner_left",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -106.86798773295584,
+        -136.99999999999997,
+        -74.74206349206351
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        -136.99999999999997,
+        44.99999999999998
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_C_outer_right",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -106.86798773295584,
+        151.25,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        151.25,
+        44.999999999999986
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_C_outer_left",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -106.86798773295584,
+        -151.25,
+        -74.74206349206351
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        -151.25,
+        44.99999999999998
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_C_SETS_M2x4_inner_right",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -106.86798773295585,
+        136.6818181818182,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        136.6818181818182,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_C_SETS_M2x4_inner_left",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -106.86798773295585,
+        -136.6818181818182,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        -136.6818181818182,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_C_SETS_M2x4_outer_right",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -106.86798773295585,
+        151.5681818181818,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        151.5681818181818,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_C_SETS_M2x4_outer_left",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -106.86798773295585,
+        -151.5681818181818,
+        -74.7420634920635
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        -151.5681818181818,
+        45.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "_626_B_right",
+      "material": "steel",
+      "mass_g": 12.022,
+      "center_mm": [
+        -74.8075914130691,
+        143.85000000000005,
+        -106.31944444444444
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        143.85000000000005,
+        1.0658141036401503e-14
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "_626_B_left",
+      "material": "steel",
+      "mass_g": 12.022,
+      "center_mm": [
+        -74.8075914130691,
+        -143.85000000000005,
+        -106.31944444444444
+      ],
+      "local_center_mm": [
+        2.842170943040401e-14,
+        -143.85000000000005,
+        1.0658141036401503e-14
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "bearing_keeper_B_right",
+      "material": "steel",
+      "mass_g": 2.403,
+      "center_mm": [
+        -74.8075914130691,
+        147.2999999999999,
+        -106.31944444444446
+      ],
+      "local_center_mm": [
+        0.0,
+        147.2999999999999,
+        0.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "bearing_keeper_B_left",
+      "material": "steel",
+      "mass_g": 2.403,
+      "center_mm": [
+        -74.8075914130691,
+        -147.2999999999999,
+        -106.31944444444446
+      ],
+      "local_center_mm": [
+        0.0,
+        -147.2999999999999,
+        0.0
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_B_SETS_M2x4_0_right",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -66.38695649243418,
+        147.76428571428568,
+        -97.770005425808
+      ],
+      "local_center_mm": [
+        12.000000000000014,
+        147.76428571428568,
+        -7.105427357601002e-15
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_B_SETS_M2x4_0_left",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -66.38695649243418,
+        -147.76428571428568,
+        -97.770005425808
+      ],
+      "local_center_mm": [
+        12.000000000000014,
+        -147.76428571428568,
+        -7.105427357601002e-15
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_B_SETS_M2x4_1_right",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -86.42194025163164,
+        147.76428571428573,
+        -103.30168019649848
+      ],
+      "local_center_mm": [
+        -5.999999999999972,
+        147.76428571428573,
+        10.39230484541326
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_B_SETS_M2x4_1_left",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -86.42194025163164,
+        -147.76428571428573,
+        -103.30168019649848
+      ],
+      "local_center_mm": [
+        -5.999999999999972,
+        -147.76428571428573,
+        10.39230484541326
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_B_SETS_M2x4_2_right",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -71.6138774951415,
+        147.76428571428573,
+        -117.8866477110269
+      ],
+      "local_center_mm": [
+        -6.0,
+        147.76428571428573,
+        -10.392304845413253
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "keeper_B_SETS_M2x4_2_left",
+      "material": "steel",
+      "mass_g": 0.069,
+      "center_mm": [
+        -71.6138774951415,
+        -147.76428571428573,
+        -117.8866477110269
+      ],
+      "local_center_mm": [
+        -6.0,
+        -147.76428571428573,
+        -10.392304845413253
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "female_pin_B_right",
+      "material": "steel",
+      "mass_g": 2.984,
+      "center_mm": [
+        -74.80759141306908,
+        144.12353235269802,
+        -106.3194444444444
+      ],
+      "local_center_mm": [
+        1.0918577758500454e-14,
+        144.123532352698,
+        -129.99999999999994
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "female_pin_B_left",
+      "material": "steel",
+      "mass_g": 2.984,
+      "center_mm": [
+        -74.80759141306908,
+        -144.1235323526981,
+        -106.31944444444444
+      ],
+      "local_center_mm": [
+        3.5451188831546254e-14,
+        -144.12353235269808,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_B_inner_right",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -74.80759141306909,
+        138.34999999999994,
+        -106.31944444444443
+      ],
+      "local_center_mm": [
+        1.306279709199565e-14,
+        138.3499999999999,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_B_inner_left",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -74.80759141306909,
+        -138.34999999999994,
+        -106.31944444444446
+      ],
+      "local_center_mm": [
+        2.941787114069285e-14,
+        -138.3499999999999,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_B_outer_right",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -74.80759141306909,
+        149.85,
+        -106.31944444444443
+      ],
+      "local_center_mm": [
+        1.306279709199565e-14,
+        149.84999999999997,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "bronze_sleeve_B_outer_left",
+      "material": "steel",
+      "mass_g": 0.473,
+      "center_mm": [
+        -74.80759141306909,
+        -149.84999999999994,
+        -106.31944444444446
+      ],
+      "local_center_mm": [
+        2.941787114069285e-14,
+        -149.8499999999999,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.0088 g/mm³"
+    },
+    {
+      "part": "race_spacer_B_inner_right",
+      "material": "steel",
+      "mass_g": 0.248,
+      "center_mm": [
+        -74.80759141306909,
+        140.22499999999997,
+        -106.31944444444444
+      ],
+      "local_center_mm": [
+        2.124033411634425e-14,
+        140.22499999999994,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "race_spacer_B_inner_left",
+      "material": "steel",
+      "mass_g": 0.248,
+      "center_mm": [
+        -74.80759141306906,
+        -140.225,
+        -106.31944444444444
+      ],
+      "local_center_mm": [
+        4.2556616189147256e-14,
+        -140.22499999999997,
+        -129.99999999999994
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "race_spacer_B_outer_right",
+      "material": "steel",
+      "mass_g": 0.337,
+      "center_mm": [
+        -74.80759141306906,
+        147.69999999999993,
+        -106.31944444444439
+      ],
+      "local_center_mm": [
+        9.846468091752856e-15,
+        147.6999999999999,
+        -129.99999999999991
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "race_spacer_B_outer_left",
+      "material": "steel",
+      "mass_g": 0.337,
+      "center_mm": [
+        -74.80759141306908,
+        -147.69999999999993,
+        -106.3194444444444
+      ],
+      "local_center_mm": [
+        1.0918577758500454e-14,
+        -147.6999999999999,
+        -129.99999999999994
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_B_inner_right",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -74.80759141306908,
+        136.99999999999994,
+        -106.31944444444444
+      ],
+      "local_center_mm": [
+        3.5451188831546254e-14,
+        136.99999999999991,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_B_inner_left",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -74.80759141306908,
+        -136.99999999999994,
+        -106.31944444444446
+      ],
+      "local_center_mm": [
+        4.3628725855894855e-14,
+        -136.99999999999991,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_B_outer_right",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -74.80759141306908,
+        151.24999999999994,
+        -106.31944444444444
+      ],
+      "local_center_mm": [
+        3.5451188831546254e-14,
+        151.24999999999991,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_washer_B_outer_left",
+      "material": "steel",
+      "mass_g": 0.094,
+      "center_mm": [
+        -74.80759141306908,
+        -151.24999999999994,
+        -106.31944444444446
+      ],
+      "local_center_mm": [
+        4.3628725855894855e-14,
+        -151.24999999999991,
+        -129.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_B_SETS_M2x4_inner_right",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -74.80759141306908,
+        136.68181818181813,
+        -106.31944444444443
+      ],
+      "local_center_mm": [
+        2.7273651807197654e-14,
+        136.6818181818181,
+        -129.99999999999994
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_B_SETS_M2x4_inner_left",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -74.80759141306908,
+        -136.68181818181813,
+        -106.31944444444443
+      ],
+      "local_center_mm": [
+        2.7273651807197654e-14,
+        -136.6818181818181,
+        -129.99999999999994
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_B_SETS_M2x4_outer_right",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -74.80759141306908,
+        151.56818181818173,
+        -106.31944444444443
+      ],
+      "local_center_mm": [
+        2.7273651807197654e-14,
+        151.5681818181817,
+        -129.99999999999994
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "axis_B_SETS_M2x4_outer_left",
+      "material": "steel",
+      "mass_g": 0.054,
+      "center_mm": [
+        -74.80759141306908,
+        -151.56818181818173,
+        -106.31944444444443
+      ],
+      "local_center_mm": [
+        2.7273651807197654e-14,
+        -151.5681818181817,
+        -129.99999999999994
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_angular_stop_shoulder_M3_right",
+      "material": "steel",
+      "mass_g": 0.694,
+      "center_mm": [
+        -16.3864247857199,
+        154.74100580415143,
+        16.139550264550273
+      ],
+      "local_center_mm": [
+        -1.1584513970415164e-14,
+        154.74100580415143,
+        -23.000000000000004
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_angular_stop_shoulder_M3_left",
+      "material": "steel",
+      "mass_g": 0.694,
+      "center_mm": [
+        -16.3864247857199,
+        -154.74100580415143,
+        16.139550264550273
+      ],
+      "local_center_mm": [
+        -1.1584513970415164e-14,
+        -154.74100580415143,
+        -23.000000000000004
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_shell_DIN7991_M3x10_0_right",
+      "material": "steel",
+      "mass_g": 0.277,
+      "center_mm": [
+        -40.236705341426656,
+        133.18749999999994,
+        -38.93915180467091
+      ],
+      "local_center_mm": [
+        -10.499999999999984,
+        133.18749999999991,
+        -54.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_shell_DIN7991_M3x10_0_left",
+      "material": "steel",
+      "mass_g": 0.277,
+      "center_mm": [
+        -40.236705341426656,
+        -133.18749999999994,
+        -38.93915180467091
+      ],
+      "local_center_mm": [
+        -10.499999999999984,
+        -133.18749999999991,
+        -54.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_shell_DIN7991_M3x10_1_right",
+      "material": "steel",
+      "mass_g": 0.277,
+      "center_mm": [
+        -23.06202585424717,
+        133.18749999999991,
+        -51.023455032935914
+      ],
+      "local_center_mm": [
+        10.500000000000009,
+        133.1874999999999,
+        -54.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_shell_DIN7991_M3x10_1_left",
+      "material": "steel",
+      "mass_g": 0.277,
+      "center_mm": [
+        -23.06202585424717,
+        -133.18749999999991,
+        -51.023455032935914
+      ],
+      "local_center_mm": [
+        10.500000000000009,
+        -133.1874999999999,
+        -54.99999999999997
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_shell_DIN7991_M3x10_2_right",
+      "material": "steel",
+      "mass_g": 0.277,
+      "center_mm": [
+        -55.77366663491025,
+        133.18749999999997,
+        -61.02088257390168
+      ],
+      "local_center_mm": [
+        -10.49999999999999,
+        133.18749999999994,
+        -81.99999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_shell_DIN7991_M3x10_2_left",
+      "material": "steel",
+      "mass_g": 0.277,
+      "center_mm": [
+        -55.77366663491025,
+        -133.18749999999997,
+        -61.02088257390168
+      ],
+      "local_center_mm": [
+        -10.49999999999999,
+        -133.18749999999994,
+        -81.99999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_shell_DIN7991_M3x10_3_right",
+      "material": "steel",
+      "mass_g": 0.277,
+      "center_mm": [
+        -38.59898714773075,
+        133.18749999999991,
+        -73.10518580216667
+      ],
+      "local_center_mm": [
+        10.500000000000007,
+        133.1874999999999,
+        -81.99999999999996
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_shell_DIN7991_M3x10_3_left",
+      "material": "steel",
+      "mass_g": 0.277,
+      "center_mm": [
+        -38.59898714773075,
+        -133.18749999999991,
+        -73.10518580216667
+      ],
+      "local_center_mm": [
+        10.500000000000007,
+        -133.1874999999999,
+        -81.99999999999996
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_0_right",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        24.89983375224456,
+        134.48461538461532,
+        -2.2356831418119736
+      ],
+      "local_center_mm": [
+        21.65063509461096,
+        134.4846153846153,
+        12.499999999999995
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_0_left",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        24.89983375224456,
+        -134.48461538461532,
+        -2.2356831418119736
+      ],
+      "local_center_mm": [
+        21.65063509461096,
+        -134.4846153846153,
+        12.499999999999995
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_1_right",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        14.386075271744057,
+        134.48461538461532,
+        20.446047008547
+      ],
+      "local_center_mm": [
+        1.2011421462450963e-16,
+        134.4846153846153,
+        24.99999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_1_left",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        14.386075271744057,
+        -134.48461538461532,
+        20.446047008547
+      ],
+      "local_center_mm": [
+        1.2011421462450963e-16,
+        -134.4846153846153,
+        24.99999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_2_right",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        -10.51375848050051,
+        134.48461538461535,
+        22.681730150358977
+      ],
+      "local_center_mm": [
+        -21.650635094610966,
+        134.48461538461532,
+        12.499999999999993
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_2_left",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        -10.51375848050051,
+        -134.48461538461535,
+        22.681730150358977
+      ],
+      "local_center_mm": [
+        -21.650635094610966,
+        -134.48461538461532,
+        12.499999999999993
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_3_right",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        -24.89983375224456,
+        134.48461538461532,
+        2.2356831418119665
+      ],
+      "local_center_mm": [
+        -21.650635094610955,
+        134.4846153846153,
+        -12.500000000000002
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_3_left",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        -24.89983375224456,
+        -134.48461538461532,
+        2.2356831418119665
+      ],
+      "local_center_mm": [
+        -21.650635094610955,
+        -134.4846153846153,
+        -12.500000000000002
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_4_right",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        -14.386075271744057,
+        134.48461538461532,
+        -20.446047008547
+      ],
+      "local_center_mm": [
+        -1.2011421462450963e-16,
+        134.4846153846153,
+        -24.99999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_4_left",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        -14.386075271744057,
+        -134.48461538461532,
+        -20.446047008547
+      ],
+      "local_center_mm": [
+        -1.2011421462450963e-16,
+        -134.4846153846153,
+        -24.99999999999999
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_5_right",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        10.513758480500494,
+        134.48461538461532,
+        -22.68173015035898
+      ],
+      "local_center_mm": [
+        21.65063509461095,
+        134.4846153846153,
+        -12.500000000000004
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OB_stator_SLH_M3x6_5_left",
+      "material": "steel",
+      "mass_g": 0.361,
+      "center_mm": [
+        10.513758480500494,
+        -134.48461538461532,
+        -22.68173015035898
+      ],
+      "local_center_mm": [
+        21.65063509461095,
+        -134.4846153846153,
+        -12.500000000000004
+      ],
+      "role": "hip",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_0_right",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        -9.473214285714288,
+        142.52452830188676,
+        -9.618118895966024
+      ],
+      "local_center_mm": [
+        13.499999999999998,
+        142.52452830188676,
+        -8.256137799781431e-15
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_0_left",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        -9.473214285714288,
+        -142.52452830188676,
+        -9.618118895966024
+      ],
+      "local_center_mm": [
+        13.499999999999998,
+        -142.52452830188676,
+        -8.256137799781431e-15
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_1_right",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        3.592928157668569,
+        142.52452830188676,
+        -13.013103674905244
+      ],
+      "local_center_mm": [
+        6.75000000000001,
+        142.52452830188676,
+        11.691342951089917
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_1_left",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        3.592928157668569,
+        -142.52452830188676,
+        -13.013103674905244
+      ],
+      "local_center_mm": [
+        6.75000000000001,
+        -142.52452830188676,
+        11.691342951089917
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_2_right",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        13.06614244338286,
+        142.5245283018868,
+        -3.394984778939219
+      ],
+      "local_center_mm": [
+        -6.749999999999991,
+        142.5245283018868,
+        11.691342951089926
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_2_left",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        13.06614244338286,
+        -142.5245283018868,
+        -3.394984778939219
+      ],
+      "local_center_mm": [
+        -6.749999999999991,
+        -142.5245283018868,
+        11.691342951089926
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_3_right",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        9.473214285714288,
+        142.52452830188676,
+        9.618118895966026
+      ],
+      "local_center_mm": [
+        -13.499999999999998,
+        142.52452830188676,
+        7.0096334303345634e-15
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_3_left",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        9.473214285714288,
+        -142.52452830188676,
+        9.618118895966026
+      ],
+      "local_center_mm": [
+        -13.499999999999998,
+        -142.52452830188676,
+        7.0096334303345634e-15
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_4_right",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        -3.5929281576685663,
+        142.52452830188676,
+        13.013103674905246
+      ],
+      "local_center_mm": [
+        -6.750000000000012,
+        142.52452830188676,
+        -11.691342951089915
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_4_left",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        -3.5929281576685663,
+        -142.52452830188676,
+        13.013103674905246
+      ],
+      "local_center_mm": [
+        -6.750000000000012,
+        -142.52452830188676,
+        -11.691342951089915
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_5_right",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        -13.06614244338286,
+        142.52452830188676,
+        3.394984778939214
+      ],
+      "local_center_mm": [
+        6.749999999999995,
+        142.52452830188676,
+        -11.691342951089922
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "OA_rotor_M3x16_5_left",
+      "material": "steel",
+      "mass_g": 1.225,
+      "center_mm": [
+        -13.06614244338286,
+        -142.52452830188676,
+        3.394984778939214
+      ],
+      "local_center_mm": [
+        6.749999999999995,
+        -142.52452830188676,
+        -11.691342951089922
+      ],
+      "role": "oa",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "H6215_stator_M3x8_0_right",
+      "material": "steel",
+      "mass_g": 0.837,
+      "center_mm": [
+        -6.233965951089104,
+        142.92596685082873,
+        -173.85995370370375
+      ],
+      "local_center_mm": [
+        -2.842170943040401e-14,
+        142.92596685082873,
+        -96.25
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "H6215_stator_M3x8_0_left",
+      "material": "steel",
+      "mass_g": 0.837,
+      "center_mm": [
+        -6.233965951089104,
+        -142.92596685082873,
+        -173.85995370370375
+      ],
+      "local_center_mm": [
+        -2.842170943040401e-14,
+        -142.92596685082873,
+        -96.25
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "H6215_stator_M3x8_1_right",
+      "material": "steel",
+      "mass_g": 0.837,
+      "center_mm": [
+        -2.200453097460638,
+        142.92596685082873,
+        -188.46879602811856
+      ],
+      "local_center_mm": [
+        -7.5777222831138715,
+        142.92596685082873,
+        -109.375
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "H6215_stator_M3x8_1_left",
+      "material": "steel",
+      "mass_g": 0.837,
+      "center_mm": [
+        -2.200453097460638,
+        -142.92596685082873,
+        -188.46879602811856
+      ],
+      "local_center_mm": [
+        -7.5777222831138715,
+        -142.92596685082873,
+        -109.375
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "H6215_stator_M3x8_2_right",
+      "material": "steel",
+      "mass_g": 0.837,
+      "center_mm": [
+        8.434419048549685,
+        142.92596685082876,
+        -177.6712502681778
+      ],
+      "local_center_mm": [
+        7.577722283113829,
+        142.92596685082876,
+        -109.375
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "H6215_stator_M3x8_2_left",
+      "material": "steel",
+      "mass_g": 0.837,
+      "center_mm": [
+        8.434419048549685,
+        -142.92596685082876,
+        -177.6712502681778
+      ],
+      "local_center_mm": [
+        7.577722283113829,
+        -142.92596685082876,
+        -109.375
+      ],
+      "role": "output",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_0_right",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        21.650635094610966,
+        73.94687499999999,
+        12.499999999999998
+      ],
+      "local_center_mm": [
+        21.650635094610966,
+        73.94687499999999,
+        12.499999999999998
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_0_left",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        21.650635094610966,
+        -73.94687499999999,
+        12.499999999999998
+      ],
+      "local_center_mm": [
+        21.650635094610966,
+        -73.94687499999999,
+        12.499999999999998
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_1_right",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        1.5205816377455178e-15,
+        73.94687499999999,
+        24.999999999999996
+      ],
+      "local_center_mm": [
+        1.5205816377455178e-15,
+        73.94687499999999,
+        24.999999999999996
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_1_left",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        1.5205816377455178e-15,
+        -73.94687499999999,
+        24.999999999999996
+      ],
+      "local_center_mm": [
+        1.5205816377455178e-15,
+        -73.94687499999999,
+        24.999999999999996
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_2_right",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        -21.65063509461097,
+        73.94687499999999,
+        12.499999999999998
+      ],
+      "local_center_mm": [
+        -21.65063509461097,
+        73.94687499999999,
+        12.499999999999998
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_2_left",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        -21.65063509461097,
+        -73.94687499999999,
+        12.499999999999998
+      ],
+      "local_center_mm": [
+        -21.65063509461097,
+        -73.94687499999999,
+        12.499999999999998
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_3_right",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        -21.650635094610966,
+        73.94687499999999,
+        -12.500000000000004
+      ],
+      "local_center_mm": [
+        -21.650635094610966,
+        73.94687499999999,
+        -12.500000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_3_left",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        -21.650635094610966,
+        -73.94687499999999,
+        -12.500000000000004
+      ],
+      "local_center_mm": [
+        -21.650635094610966,
+        -73.94687499999999,
+        -12.500000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_4_right",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        -4.5314287603276366e-15,
+        73.94687499999999,
+        -24.999999999999996
+      ],
+      "local_center_mm": [
+        -4.5314287603276366e-15,
+        73.94687499999999,
+        -24.999999999999996
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_4_left",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        -4.5314287603276366e-15,
+        -73.94687499999999,
+        -24.999999999999996
+      ],
+      "local_center_mm": [
+        -4.5314287603276366e-15,
+        -73.94687499999999,
+        -24.999999999999996
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_5_right",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        21.650635094610962,
+        73.94687499999999,
+        -12.50000000000001
+      ],
+      "local_center_mm": [
+        21.650635094610962,
+        73.94687499999999,
+        -12.50000000000001
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_stator_M3x6_CS_5_left",
+      "material": "steel",
+      "mass_g": 0.311,
+      "center_mm": [
+        21.650635094610962,
+        -73.94687499999999,
+        -12.50000000000001
+      ],
+      "local_center_mm": [
+        21.650635094610962,
+        -73.94687499999999,
+        -12.50000000000001
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4x12_CS_0_right",
+      "material": "steel",
+      "mass_g": 1.536,
+      "center_mm": [
+        -30.0,
+        73.0076017130621,
+        -30.0
+      ],
+      "local_center_mm": [
+        -30.0,
+        73.0076017130621,
+        -30.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4x12_CS_0_left",
+      "material": "steel",
+      "mass_g": 1.536,
+      "center_mm": [
+        -30.0,
+        -73.0076017130621,
+        -30.0
+      ],
+      "local_center_mm": [
+        -30.0,
+        -73.0076017130621,
+        -30.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_washer_0_right",
+      "material": "steel",
+      "mass_g": 0.308,
+      "center_mm": [
+        -30.000000000000004,
+        71.60000000000001,
+        -30.000000000000004
+      ],
+      "local_center_mm": [
+        -30.000000000000004,
+        71.60000000000001,
+        -30.000000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_washer_0_left",
+      "material": "steel",
+      "mass_g": 0.308,
+      "center_mm": [
+        -29.999999999999996,
+        -71.60000000000002,
+        -30.000000000000004
+      ],
+      "local_center_mm": [
+        -29.999999999999996,
+        -71.60000000000002,
+        -30.000000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_nut_0_right",
+      "material": "steel",
+      "mass_g": 0.75,
+      "center_mm": [
+        -29.999999999999993,
+        69.59999999999998,
+        -29.999999999999993
+      ],
+      "local_center_mm": [
+        -29.999999999999993,
+        69.59999999999998,
+        -29.999999999999993
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_nut_0_left",
+      "material": "steel",
+      "mass_g": 0.75,
+      "center_mm": [
+        -29.999999999999993,
+        -69.59999999999998,
+        -29.999999999999993
+      ],
+      "local_center_mm": [
+        -29.999999999999993,
+        -69.59999999999998,
+        -29.999999999999993
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4x12_CS_1_right",
+      "material": "steel",
+      "mass_g": 1.536,
+      "center_mm": [
+        -30.0,
+        73.0076017130621,
+        30.0
+      ],
+      "local_center_mm": [
+        -30.0,
+        73.0076017130621,
+        30.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4x12_CS_1_left",
+      "material": "steel",
+      "mass_g": 1.536,
+      "center_mm": [
+        -30.0,
+        -73.0076017130621,
+        30.0
+      ],
+      "local_center_mm": [
+        -30.0,
+        -73.0076017130621,
+        30.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_washer_1_right",
+      "material": "steel",
+      "mass_g": 0.308,
+      "center_mm": [
+        -30.000000000000004,
+        71.60000000000001,
+        30.000000000000004
+      ],
+      "local_center_mm": [
+        -30.000000000000004,
+        71.60000000000001,
+        30.000000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_washer_1_left",
+      "material": "steel",
+      "mass_g": 0.308,
+      "center_mm": [
+        -29.999999999999996,
+        -71.60000000000002,
+        30.000000000000007
+      ],
+      "local_center_mm": [
+        -29.999999999999996,
+        -71.60000000000002,
+        30.000000000000007
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_nut_1_right",
+      "material": "steel",
+      "mass_g": 0.75,
+      "center_mm": [
+        -30.000000000000004,
+        69.6,
+        29.999999999999996
+      ],
+      "local_center_mm": [
+        -30.000000000000004,
+        69.6,
+        29.999999999999996
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_nut_1_left",
+      "material": "steel",
+      "mass_g": 0.75,
+      "center_mm": [
+        -30.000000000000004,
+        -69.6,
+        29.999999999999996
+      ],
+      "local_center_mm": [
+        -30.000000000000004,
+        -69.6,
+        29.999999999999996
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4x12_CS_2_right",
+      "material": "steel",
+      "mass_g": 1.536,
+      "center_mm": [
+        30.0,
+        73.0076017130621,
+        -30.0
+      ],
+      "local_center_mm": [
+        30.0,
+        73.0076017130621,
+        -30.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4x12_CS_2_left",
+      "material": "steel",
+      "mass_g": 1.536,
+      "center_mm": [
+        30.0,
+        -73.0076017130621,
+        -30.0
+      ],
+      "local_center_mm": [
+        30.0,
+        -73.0076017130621,
+        -30.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_washer_2_right",
+      "material": "steel",
+      "mass_g": 0.308,
+      "center_mm": [
+        30.000000000000004,
+        71.60000000000001,
+        -30.000000000000004
+      ],
+      "local_center_mm": [
+        30.000000000000004,
+        71.60000000000001,
+        -30.000000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_washer_2_left",
+      "material": "steel",
+      "mass_g": 0.308,
+      "center_mm": [
+        29.999999999999996,
+        -71.60000000000002,
+        -30.000000000000004
+      ],
+      "local_center_mm": [
+        29.999999999999996,
+        -71.60000000000002,
+        -30.000000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_nut_2_right",
+      "material": "steel",
+      "mass_g": 0.75,
+      "center_mm": [
+        29.999999999999996,
+        69.6,
+        -29.999999999999996
+      ],
+      "local_center_mm": [
+        29.999999999999996,
+        69.6,
+        -29.999999999999996
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_nut_2_left",
+      "material": "steel",
+      "mass_g": 0.75,
+      "center_mm": [
+        29.999999999999996,
+        -69.6,
+        -29.999999999999996
+      ],
+      "local_center_mm": [
+        29.999999999999996,
+        -69.6,
+        -29.999999999999996
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4x12_CS_3_right",
+      "material": "steel",
+      "mass_g": 1.536,
+      "center_mm": [
+        30.0,
+        73.0076017130621,
+        30.0
+      ],
+      "local_center_mm": [
+        30.0,
+        73.0076017130621,
+        30.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4x12_CS_3_left",
+      "material": "steel",
+      "mass_g": 1.536,
+      "center_mm": [
+        30.0,
+        -73.0076017130621,
+        30.0
+      ],
+      "local_center_mm": [
+        30.0,
+        -73.0076017130621,
+        30.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_washer_3_right",
+      "material": "steel",
+      "mass_g": 0.308,
+      "center_mm": [
+        30.000000000000007,
+        71.60000000000001,
+        30.000000000000004
+      ],
+      "local_center_mm": [
+        30.000000000000007,
+        71.60000000000001,
+        30.000000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_washer_3_left",
+      "material": "steel",
+      "mass_g": 0.308,
+      "center_mm": [
+        30.000000000000004,
+        -71.60000000000002,
+        30.000000000000007
+      ],
+      "local_center_mm": [
+        30.000000000000004,
+        -71.60000000000002,
+        30.000000000000007
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_nut_3_right",
+      "material": "steel",
+      "mass_g": 0.75,
+      "center_mm": [
+        30.000000000000007,
+        69.6,
+        30.000000000000004
+      ],
+      "local_center_mm": [
+        30.000000000000007,
+        69.6,
+        30.000000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "hip_case_M4_nut_3_left",
+      "material": "steel",
+      "mass_g": 0.75,
+      "center_mm": [
+        30.000000000000007,
+        -69.6,
+        30.000000000000004
+      ],
+      "local_center_mm": [
+        30.000000000000007,
+        -69.6,
+        30.000000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_M3x10_1",
+      "material": "steel",
+      "mass_g": 1.051,
+      "center_mm": [
+        -78.00000000000003,
+        -38.0,
+        34.021659073388435
+      ],
+      "local_center_mm": [
+        -78.00000000000003,
+        -38.0,
+        34.021659073388435
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_washer_1",
+      "material": "steel",
+      "mass_g": 0.119,
+      "center_mm": [
+        -77.99999999999999,
+        -37.99999999999999,
+        29.749999999999993
+      ],
+      "local_center_mm": [
+        -77.99999999999999,
+        -37.99999999999999,
+        29.749999999999993
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_M3_nut_1",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        -77.99999999999996,
+        -38.0,
+        28.299999999999997
+      ],
+      "local_center_mm": [
+        -77.99999999999996,
+        -38.0,
+        28.299999999999997
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_M3x10_2",
+      "material": "steel",
+      "mass_g": 1.051,
+      "center_mm": [
+        -78.00000000000003,
+        38.0,
+        34.021659073388435
+      ],
+      "local_center_mm": [
+        -78.00000000000003,
+        38.0,
+        34.021659073388435
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_washer_2",
+      "material": "steel",
+      "mass_g": 0.119,
+      "center_mm": [
+        -77.99999999999999,
+        37.99999999999999,
+        29.749999999999993
+      ],
+      "local_center_mm": [
+        -77.99999999999999,
+        37.99999999999999,
+        29.749999999999993
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_M3_nut_2",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        -77.99999999999996,
+        38.0,
+        28.299999999999997
+      ],
+      "local_center_mm": [
+        -77.99999999999996,
+        38.0,
+        28.299999999999997
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_M3x10_3",
+      "material": "steel",
+      "mass_g": 1.051,
+      "center_mm": [
+        37.99999999999999,
+        -37.99999999999999,
+        34.02165907338843
+      ],
+      "local_center_mm": [
+        37.99999999999999,
+        -37.99999999999999,
+        34.02165907338843
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_washer_3",
+      "material": "steel",
+      "mass_g": 0.119,
+      "center_mm": [
+        38.0,
+        -37.99999999999999,
+        29.749999999999993
+      ],
+      "local_center_mm": [
+        38.0,
+        -37.99999999999999,
+        29.749999999999993
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_M3_nut_3",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        38.00000000000001,
+        -38.00000000000002,
+        28.300000000000004
+      ],
+      "local_center_mm": [
+        38.00000000000001,
+        -38.00000000000002,
+        28.300000000000004
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_M3x10_4",
+      "material": "steel",
+      "mass_g": 1.051,
+      "center_mm": [
+        37.99999999999999,
+        37.99999999999999,
+        34.02165907338843
+      ],
+      "local_center_mm": [
+        37.99999999999999,
+        37.99999999999999,
+        34.02165907338843
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_washer_4",
+      "material": "steel",
+      "mass_g": 0.119,
+      "center_mm": [
+        38.0,
+        37.99999999999999,
+        29.749999999999993
+      ],
+      "local_center_mm": [
+        38.0,
+        37.99999999999999,
+        29.749999999999993
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "Jetson_retainer_M3_nut_4",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        38.0,
+        37.99999999999999,
+        28.299999999999994
+      ],
+      "local_center_mm": [
+        38.0,
+        37.99999999999999,
+        28.299999999999994
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "shoulder__1_M3x20_0",
+      "material": "steel",
+      "mass_g": 1.336,
+      "center_mm": [
+        -45.00000000000001,
+        -85.55882352941178,
+        35.0
+      ],
+      "local_center_mm": [
+        -45.00000000000001,
+        -85.55882352941178,
+        35.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "shoulder__1_M3x20_1",
+      "material": "steel",
+      "mass_g": 1.336,
+      "center_mm": [
+        45.00000000000001,
+        -85.55882352941178,
+        35.0
+      ],
+      "local_center_mm": [
+        45.00000000000001,
+        -85.55882352941178,
+        35.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "shoulder_1_M3x20_0",
+      "material": "steel",
+      "mass_g": 1.336,
+      "center_mm": [
+        -45.00000000000001,
+        85.55882352941178,
+        35.0
+      ],
+      "local_center_mm": [
+        -45.00000000000001,
+        85.55882352941178,
+        35.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "shoulder_1_M3x20_1",
+      "material": "steel",
+      "mass_g": 1.336,
+      "center_mm": [
+        45.00000000000001,
+        85.55882352941178,
+        35.0
+      ],
+      "local_center_mm": [
+        45.00000000000001,
+        85.55882352941178,
+        35.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "front_shell_M3x14_0",
+      "material": "steel",
+      "mass_g": 1.003,
+      "center_mm": [
+        93.0668202764977,
+        -62.00000000000001,
+        -40.0
+      ],
+      "local_center_mm": [
+        93.0668202764977,
+        -62.00000000000001,
+        -40.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "rear_cover_M3x30_0",
+      "material": "steel",
+      "mass_g": 1.891,
+      "center_mm": [
+        -101.99388753056235,
+        -62.0,
+        -40.00000000000001
+      ],
+      "local_center_mm": [
+        -101.99388753056235,
+        -62.0,
+        -40.00000000000001
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "front_shell_M3x14_1",
+      "material": "steel",
+      "mass_g": 1.003,
+      "center_mm": [
+        93.0668202764977,
+        -62.00000000000001,
+        41.00000000000001
+      ],
+      "local_center_mm": [
+        93.0668202764977,
+        -62.00000000000001,
+        41.00000000000001
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "rear_cover_M3x30_1",
+      "material": "steel",
+      "mass_g": 1.891,
+      "center_mm": [
+        -101.99388753056235,
+        -62.0,
+        41.00000000000001
+      ],
+      "local_center_mm": [
+        -101.99388753056235,
+        -62.0,
+        41.00000000000001
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "front_shell_M3x14_2",
+      "material": "steel",
+      "mass_g": 1.003,
+      "center_mm": [
+        93.0668202764977,
+        62.00000000000001,
+        -40.0
+      ],
+      "local_center_mm": [
+        93.0668202764977,
+        62.00000000000001,
+        -40.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "rear_cover_M3x30_2",
+      "material": "steel",
+      "mass_g": 1.891,
+      "center_mm": [
+        -101.99388753056235,
+        62.0,
+        -40.00000000000001
+      ],
+      "local_center_mm": [
+        -101.99388753056235,
+        62.0,
+        -40.00000000000001
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "front_shell_M3x14_3",
+      "material": "steel",
+      "mass_g": 1.003,
+      "center_mm": [
+        93.0668202764977,
+        62.00000000000001,
+        41.00000000000001
+      ],
+      "local_center_mm": [
+        93.0668202764977,
+        62.00000000000001,
+        41.00000000000001
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "rear_cover_M3x30_3",
+      "material": "steel",
+      "mass_g": 1.891,
+      "center_mm": [
+        -101.99388753056235,
+        62.0,
+        41.00000000000001
+      ],
+      "local_center_mm": [
+        -101.99388753056235,
+        62.0,
+        41.00000000000001
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_frame_M3x10_0",
+      "material": "steel",
+      "mass_g": 1.114,
+      "center_mm": [
+        120.26348547717843,
+        -50.0,
+        80.5
+      ],
+      "local_center_mm": [
+        120.26348547717843,
+        -50.0,
+        80.5
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_frame_M3_nut_0",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        113.8,
+        -50.00000000000002,
+        80.5
+      ],
+      "local_center_mm": [
+        113.8,
+        -50.00000000000002,
+        80.5
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_frame_M3x10_1",
+      "material": "steel",
+      "mass_g": 1.114,
+      "center_mm": [
+        120.26348547717842,
+        -50.0,
+        96.49999999999999
+      ],
+      "local_center_mm": [
+        120.26348547717842,
+        -50.0,
+        96.49999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_frame_M3_nut_1",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        113.80000000000001,
+        -50.000000000000014,
+        96.49999999999999
+      ],
+      "local_center_mm": [
+        113.80000000000001,
+        -50.000000000000014,
+        96.49999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_frame_M3x10_2",
+      "material": "steel",
+      "mass_g": 1.114,
+      "center_mm": [
+        120.26348547717843,
+        50.0,
+        80.5
+      ],
+      "local_center_mm": [
+        120.26348547717843,
+        50.0,
+        80.5
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_frame_M3_nut_2",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        113.8,
+        50.0,
+        80.5
+      ],
+      "local_center_mm": [
+        113.8,
+        50.0,
+        80.5
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_frame_M3x10_3",
+      "material": "steel",
+      "mass_g": 1.114,
+      "center_mm": [
+        120.26348547717842,
+        50.0,
+        96.49999999999999
+      ],
+      "local_center_mm": [
+        120.26348547717842,
+        50.0,
+        96.49999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_frame_M3_nut_3",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        113.80000000000001,
+        50.0,
+        96.49999999999999
+      ],
+      "local_center_mm": [
+        113.80000000000001,
+        50.0,
+        96.49999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_rear_M3x6_0",
+      "material": "steel",
+      "mass_g": 0.892,
+      "center_mm": [
+        93.12875647668396,
+        -22.5,
+        88.0
+      ],
+      "local_center_mm": [
+        93.12875647668396,
+        -22.5,
+        88.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_depth_shim_1mm_0",
+      "material": "steel",
+      "mass_g": 0.323,
+      "center_mm": [
+        96.45000000000002,
+        -22.499999999999996,
+        88.0
+      ],
+      "local_center_mm": [
+        96.45000000000002,
+        -22.499999999999996,
+        88.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_rear_M3x6_1",
+      "material": "steel",
+      "mass_g": 0.892,
+      "center_mm": [
+        93.12875647668396,
+        22.5,
+        88.0
+      ],
+      "local_center_mm": [
+        93.12875647668396,
+        22.5,
+        88.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "D435_depth_shim_1mm_1",
+      "material": "steel",
+      "mass_g": 0.323,
+      "center_mm": [
+        96.45000000000002,
+        22.499999999999996,
+        88.0
+      ],
+      "local_center_mm": [
+        96.45000000000002,
+        22.499999999999996,
+        88.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "HI13R2_M2p5x16_0",
+      "material": "steel",
+      "mass_g": 0.929,
+      "center_mm": [
+        10.1,
+        -10.1,
+        84.50892116182574
+      ],
+      "local_center_mm": [
+        10.1,
+        -10.1,
+        84.50892116182574
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "HI13R2_M2p5_nut_0",
+      "material": "steel",
+      "mass_g": 0.263,
+      "center_mm": [
+        10.1,
+        -10.1,
+        74.99999999999999
+      ],
+      "local_center_mm": [
+        10.1,
+        -10.1,
+        74.99999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "HI13R2_M2p5x16_1",
+      "material": "steel",
+      "mass_g": 0.929,
+      "center_mm": [
+        -10.099999999999998,
+        10.099999999999998,
+        84.50892116182571
+      ],
+      "local_center_mm": [
+        -10.099999999999998,
+        10.099999999999998,
+        84.50892116182571
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "HI13R2_M2p5_nut_1",
+      "material": "steel",
+      "mass_g": 0.263,
+      "center_mm": [
+        -10.099999999999998,
+        10.100000000000001,
+        75.0
+      ],
+      "local_center_mm": [
+        -10.099999999999998,
+        10.100000000000001,
+        75.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "IMU_bridge_M3x8_0",
+      "material": "steel",
+      "mass_g": 0.726,
+      "center_mm": [
+        -9.999999999999998,
+        -67.99999999999999,
+        50.81210191082802
+      ],
+      "local_center_mm": [
+        -9.999999999999998,
+        -67.99999999999999,
+        50.81210191082802
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "IMU_bridge_M3x8_1",
+      "material": "steel",
+      "mass_g": 0.726,
+      "center_mm": [
+        -9.999999999999998,
+        67.99999999999999,
+        50.81210191082802
+      ],
+      "local_center_mm": [
+        -9.999999999999998,
+        67.99999999999999,
+        50.81210191082802
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "IMU_bridge_M3x8_2",
+      "material": "steel",
+      "mass_g": 0.726,
+      "center_mm": [
+        10.000000000000002,
+        -68.0,
+        50.81210191082803
+      ],
+      "local_center_mm": [
+        10.000000000000002,
+        -68.0,
+        50.81210191082803
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "IMU_bridge_M3x8_3",
+      "material": "steel",
+      "mass_g": 0.726,
+      "center_mm": [
+        10.000000000000002,
+        68.0,
+        50.81210191082803
+      ],
+      "local_center_mm": [
+        10.000000000000002,
+        68.0,
+        50.81210191082803
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3x16_0",
+      "material": "steel",
+      "mass_g": 1.447,
+      "center_mm": [
+        117.67252396166133,
+        -89.0,
+        -38.0
+      ],
+      "local_center_mm": [
+        117.67252396166133,
+        -89.0,
+        -38.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3_nut_0",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        108.79999999999997,
+        -89.00000000000001,
+        -37.99999999999999
+      ],
+      "local_center_mm": [
+        108.79999999999997,
+        -89.00000000000001,
+        -37.99999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3x16_1",
+      "material": "steel",
+      "mass_g": 1.447,
+      "center_mm": [
+        117.67252396166133,
+        -89.0,
+        7.999999999999999
+      ],
+      "local_center_mm": [
+        117.67252396166133,
+        -89.0,
+        7.999999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3_nut_1",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        108.79999999999995,
+        -89.0,
+        7.999999999999999
+      ],
+      "local_center_mm": [
+        108.79999999999995,
+        -89.0,
+        7.999999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3x16_2",
+      "material": "steel",
+      "mass_g": 1.447,
+      "center_mm": [
+        117.67252396166133,
+        -89.0,
+        53.99999999999999
+      ],
+      "local_center_mm": [
+        117.67252396166133,
+        -89.0,
+        53.99999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3_nut_2",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        108.79999999999997,
+        -89.00000000000001,
+        54.0
+      ],
+      "local_center_mm": [
+        108.79999999999997,
+        -89.00000000000001,
+        54.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3x16_3",
+      "material": "steel",
+      "mass_g": 1.447,
+      "center_mm": [
+        117.67252396166133,
+        89.0,
+        -38.0
+      ],
+      "local_center_mm": [
+        117.67252396166133,
+        89.0,
+        -38.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3_nut_3",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        108.79999999999997,
+        89.00000000000001,
+        -37.99999999999999
+      ],
+      "local_center_mm": [
+        108.79999999999997,
+        89.00000000000001,
+        -37.99999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3x16_4",
+      "material": "steel",
+      "mass_g": 1.447,
+      "center_mm": [
+        117.67252396166133,
+        89.0,
+        7.999999999999999
+      ],
+      "local_center_mm": [
+        117.67252396166133,
+        89.0,
+        7.999999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3_nut_4",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        108.79999999999995,
+        88.99999999999997,
+        7.999999999999999
+      ],
+      "local_center_mm": [
+        108.79999999999995,
+        88.99999999999997,
+        7.999999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3x16_5",
+      "material": "steel",
+      "mass_g": 1.447,
+      "center_mm": [
+        117.67252396166133,
+        89.0,
+        53.99999999999999
+      ],
+      "local_center_mm": [
+        117.67252396166133,
+        89.0,
+        53.99999999999999
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_frame_M3_nut_5",
+      "material": "steel",
+      "mass_g": 0.36,
+      "center_mm": [
+        108.79999999999997,
+        89.00000000000001,
+        54.0
+      ],
+      "local_center_mm": [
+        108.79999999999997,
+        89.00000000000001,
+        54.0
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_adjustable_washer_0",
+      "material": "steel",
+      "mass_g": 1.49,
+      "center_mm": [
+        93.5,
+        -75.31885,
+        -38.69225
+      ],
+      "local_center_mm": [
+        93.5,
+        -75.31885,
+        -38.69225
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_spacer_D8_d3_t2_0",
+      "material": "steel",
+      "mass_g": 0.678,
+      "center_mm": [
+        98.0,
+        -75.31885,
+        -38.69225
+      ],
+      "local_center_mm": [
+        98.0,
+        -75.31885,
+        -38.69225
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_adjustable_washer_1",
+      "material": "steel",
+      "mass_g": 1.49,
+      "center_mm": [
+        93.5,
+        -75.31885,
+        54.69225
+      ],
+      "local_center_mm": [
+        93.5,
+        -75.31885,
+        54.69225
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_spacer_D8_d3_t2_1",
+      "material": "steel",
+      "mass_g": 0.678,
+      "center_mm": [
+        98.0,
+        -75.31885,
+        54.69225
+      ],
+      "local_center_mm": [
+        98.0,
+        -75.31885,
+        54.69225
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_adjustable_washer_2",
+      "material": "steel",
+      "mass_g": 1.49,
+      "center_mm": [
+        93.5,
+        75.31885,
+        -38.69225
+      ],
+      "local_center_mm": [
+        93.5,
+        75.31885,
+        -38.69225
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_spacer_D8_d3_t2_2",
+      "material": "steel",
+      "mass_g": 0.678,
+      "center_mm": [
+        98.0,
+        75.31885,
+        -38.692249999999994
+      ],
+      "local_center_mm": [
+        98.0,
+        75.31885,
+        -38.692249999999994
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_adjustable_washer_3",
+      "material": "steel",
+      "mass_g": 1.49,
+      "center_mm": [
+        93.5,
+        75.31885,
+        54.69225
+      ],
+      "local_center_mm": [
+        93.5,
+        75.31885,
+        54.69225
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "display_spacer_D8_d3_t2_3",
+      "material": "steel",
+      "mass_g": 0.678,
+      "center_mm": [
+        98.0,
+        75.31885,
+        54.69225
+      ],
+      "local_center_mm": [
+        98.0,
+        75.31885,
+        54.69225
+      ],
+      "role": "fixed",
+      "method": "CAD nominal solid volume × 0.00785 g/mm³"
+    },
+    {
+      "part": "unmodelled_installation_allowance",
+      "material": "allowance",
+      "mass_g": 200.0,
+      "center_mm": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "local_center_mm": [
+        0.0,
+        0.0,
+        5.0
+      ],
+      "role": "fixed",
+      "method": "Engineering allowance for cables, DC/DC, connectors, retainers and unmodelled fasteners; 100–300 g indicative"
+    }
+  ],
+  "notes": [
+    "V7 actual CAD volume and BudgetMassGrams, not a V6 mass projection",
+    "PETG uses full CAD solid volume; actual slicer mass may differ",
+    "Motor and payload centres assume uniform CAD-volume density; internal real COM is unknown",
+    "HI13R2 mass is the 11 g upper bound, screen assembly mass is 265 g",
+    "Display-only Mesh::Feature objects are not counted; D435 has a single 75 g proxy",
+    "Includes 200 g unmodelled installation allowance at hip-frame [0,0,5] mm"
+  ],
+  "source_CAD": {
+    "file": "wheel_leg_v7.FCStd",
+    "geometry_source_sha256": {
+      "build_faceted_robot.py": "4929c0d618a3fe2be50353b0abe050fef9f978a70f131f35980d01f8ef4b294b",
+      "cad_v7_chassis.py": "d2f66f8edd0fd1711fc2d8934316d8e5b13063e360ac6d05d923f0dd3c479a6b",
+      "cad_v7_payload.py": "78baeb7fdb1f7b9f1e71a4d1bc8541b61844f4c48a405faf72b76b4bb356ec29",
+      "cad_v7_display.py": "0fecd61e34a2bf85818c866d52954c27557345e5f01889661759d8932158cf78",
+      "cad_v7_imu.py": "b96c061cb0660e597c7a46729b3196a18f9267b1e918e4edb41ad4813b5b81a4",
+      "cad_v6_leg.py": "abe2646d426fe4bd03c0f8ec4aa000e7cea71a055b00763f20e39e32ead2f091",
+      "cad_v6_jetson_mount.py": "465955c2eff340851ef9380ff2d76503026318f09a0466d4238e4e3478dcd5fa",
+      "cad_v5_coupling.py": "09f9921c891a79dac08b2faabbb424ef15b77259ee9389e6ec9e3671556cf2c9",
+      "build_printable_robot.py": "a8e5a1a8320c94eba38558cb6d5d6ebf215171f7e5f5f0e474eb2c5271494393",
+      "analyze_v7_motor_load.py": "6ec60745549dc733d05c623bf092121dc2f516b242b5af9e19bdd2c2a4e32538",
+      "analyze_v6_motor_load.py": "f4d89bd904ca40f486aa36560a67f7cb480cdcf88c5012ccc331b9d55f8d5694",
+      "analyze_v6_proportions.py": "7af6c123bccc060e7a79aff046c54df5bf70ef4d768a45c728becb9b3301a52e"
+    },
+    "kinematic_parameters_mm": {
+      "OB": 130,
+      "BW": 105,
+      "OA": 45,
+      "nominal_hip_to_wheel": 180.0
+    },
+    "V6_baseline_mass_budget_sha256": "1115af06b9b87433e9aa3f723cde1151bed78c6fa7b6a9b93df34779496f30d6",
+    "visual_save_note": "Subsequent visibility/view-only saves do not change geometry-source identity"
+  }
+}

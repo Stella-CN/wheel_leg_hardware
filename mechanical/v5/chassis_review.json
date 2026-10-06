@@ -1,0 +1,315 @@
+{
+  "units": "mm",
+  "materials": {
+    "chassis_lower_shell": "CNC",
+    "chassis_side_right": "CNC",
+    "chassis_side_left": "CNC",
+    "chassis_front_wall": "CNC",
+    "chassis_rear_wall": "CNC",
+    "chassis_upper_shell": "PETG",
+    "chassis_lid": "PETG",
+    "battery_tray": "PETG",
+    "electronics_tray": "PETG"
+  },
+  "parts": {
+    "chassis_lower_shell": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 72739.70926396878,
+      "bbox": [
+        -100.0,
+        -75.0,
+        -50.0,
+        100.0,
+        75.0,
+        -39.0
+      ]
+    },
+    "chassis_side_right": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 64294.71918149965,
+      "bbox": [
+        -97.0,
+        61.0,
+        -47.0,
+        97.0,
+        75.0,
+        47.0
+      ]
+    },
+    "chassis_side_left": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 64294.71918149965,
+      "bbox": [
+        -97.0,
+        -75.0,
+        -47.0,
+        97.0,
+        -61.0,
+        47.0
+      ]
+    },
+    "chassis_front_wall": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 46195.42945513216,
+      "bbox": [
+        82.5,
+        -75.0,
+        -47.0,
+        100.0,
+        75.0,
+        47.0
+      ]
+    },
+    "chassis_rear_wall": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 46195.42945513216,
+      "bbox": [
+        -100.0,
+        -75.0,
+        -47.0,
+        -82.5,
+        75.0,
+        47.0
+      ]
+    },
+    "chassis_upper_shell": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 68225.20062281998,
+      "bbox": [
+        -100.0,
+        -75.0,
+        47.0,
+        100.0,
+        75.0,
+        82.0
+      ]
+    },
+    "chassis_lid": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 79900.38802235111,
+      "bbox": [
+        -100.0,
+        -75.0,
+        81.99999999999999,
+        100.0,
+        75.0,
+        85.0
+      ]
+    },
+    "battery_tray": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 26696.171419047227,
+      "bbox": [
+        -77.0,
+        -29.0,
+        -44.400000000000006,
+        77.0,
+        29.0,
+        -34.0
+      ]
+    },
+    "electronics_tray": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 59533.81170196735,
+      "bbox": [
+        -94.0,
+        -54.0,
+        30.0,
+        94.0,
+        54.0,
+        33.0
+      ]
+    },
+    "hip_stator_mount": {
+      "valid": true,
+      "solids": 1,
+      "volume_mm3": 14900.879871576582,
+      "bbox": [
+        -39.0,
+        72.0,
+        -39.0,
+        39.0,
+        78.0,
+        39.0
+      ]
+    }
+  },
+  "collisions": [],
+  "M3_tap_drill": {
+    "diameter": 2.5,
+    "cylindrical_depth": 6.5,
+    "tip_angle": 118,
+    "full_thread_required": 5
+  },
+  "fasteners": [
+    {
+      "location": "bottom to metal side ledges",
+      "quantity": 8,
+      "spec": "M3x8 90deg countersunk",
+      "grip": 3,
+      "engagement": 5,
+      "access": "underside before battery tray"
+    },
+    {
+      "location": "PETG upper enclosure feet to metal side ledges",
+      "quantity": 8,
+      "spec": "M3x8 socket head",
+      "grip": 3,
+      "engagement": 5,
+      "access": "from above"
+    },
+    {
+      "location": "PETG lid to upper enclosure captive nuts",
+      "quantity": 8,
+      "spec": "M3x10 90deg countersunk + M3 nut t2.4",
+      "grip": 6.6,
+      "engagement": 2.4,
+      "access": "from top; nuts inserted from underside before upper shell fit"
+    },
+    {
+      "location": "metal side walls to end-wall rails",
+      "quantity": 8,
+      "spec": "M3x8 90deg countersunk",
+      "grip": 3,
+      "engagement": 5,
+      "access": "from outside left/right before hip mounts"
+    },
+    {
+      "location": "battery tray to metal bottom posts",
+      "quantity": 4,
+      "spec": "M3x8 socket head",
+      "grip": 3,
+      "engagement": 5,
+      "access": "from open top"
+    },
+    {
+      "location": "electronics tray to metal end-wall shelves",
+      "quantity": 4,
+      "spec": "M3x8 socket head",
+      "grip": 3,
+      "engagement": 5,
+      "access": "from open top; mounting face Z30"
+    },
+    {
+      "location": "hip mounts to hip stators",
+      "quantity": 12,
+      "spec": "DIN7991 M3x6, head D6 x 1.7; not larger ISO10642 head",
+      "grip": 3,
+      "engagement": 3,
+      "access": "from outside before motor cup; top Y75"
+    },
+    {
+      "location": "hip mounts to side walls",
+      "quantity": 8,
+      "spec": "DIN7991 M4x12, head D8 x 2.3 + washer t0.8 + M4 nut t3.2",
+      "grip": 6.6,
+      "engagement": 3.2,
+      "access": "outside driver plus inside nut before tray; head top77.8",
+      "tip_projection": 2.2
+    }
+  ],
+  "heat_set_inserts": 0,
+  "manufacturing_scope": "nominal shallow CNC panels; blind holes are tapping pilots, not real threads",
+  "electronics": {
+    "tray_z": [
+      30,
+      33
+    ],
+    "tray_xy": [
+      188,
+      108
+    ],
+    "device_envelope_not_modelled": true,
+    "upper_body_z": [
+      47,
+      82
+    ],
+    "lid_z": [
+      82,
+      85
+    ],
+    "device_base_z": 33,
+    "maximum_device_top_z": 68.86,
+    "nominal_clearance_to_lid": 13.14
+  },
+  "D435_upper_panel": {
+    "front_x": 100,
+    "opening_y": [
+      -45.3,
+      45.3
+    ],
+    "opening_z": [
+      50.7,
+      76.3
+    ],
+    "bracket_holes_diameter": 3.4,
+    "bracket_holes_y": [
+      -50,
+      50
+    ],
+    "bracket_holes_z": [
+      56,
+      72
+    ]
+  },
+  "ventilation": {
+    "lid_capsule_slots": 9,
+    "lid_slot_length": 76,
+    "lid_slot_width": 4.8,
+    "side_capsule_slots": 4,
+    "side_slot_length": 80,
+    "side_slot_width": 4.8,
+    "thermal_performance_validated": false
+  },
+  "countersunk_screw_source": "https://eshop-tr.boellhoff.com/out/media/pdf/DIN_7991_Stahl_10.9_gv___en.pdf",
+  "strength_validated": false,
+  "hip_hardware_collisions": [],
+  "lightweight_metal_panels": {
+    "density_g_cm3": 2.7,
+    "comparison": "Same five lower panels with versus without the three families of shallow CNC pockets",
+    "baseline_mass_g": 964.0157462364986,
+    "final_mass_g": 793.0440176505274,
+    "reduction_g": 170.97172858597116,
+    "pocket_floor_mm": {
+      "bottom": 2,
+      "side_outside_hip_load_frame": 1.5,
+      "front_rear": 1.5
+    },
+    "per_panel": [
+      {
+        "name": "chassis_lower_shell",
+        "baseline_g": 251.86503564832057,
+        "final_g": 196.39721501271572
+      },
+      {
+        "name": "chassis_side_right",
+        "baseline_g": 200.9435638944942,
+        "final_g": 173.59574179004906
+      },
+      {
+        "name": "chassis_side_left",
+        "baseline_g": 200.9435638944942,
+        "final_g": 173.59574179004906
+      },
+      {
+        "name": "chassis_front_wall",
+        "baseline_g": 155.13179139959473,
+        "final_g": 124.72765952885683
+      },
+      {
+        "name": "chassis_rear_wall",
+        "baseline_g": 155.13179139959473,
+        "final_g": 124.72765952885683
+      }
+    ]
+  }
+}
