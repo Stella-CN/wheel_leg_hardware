@@ -1,6 +1,21 @@
-# 轮腿机器人硬件工程
+# wheel_leg_hardware — 轮腿机器人硬件工程
 
 本工程保存完整机器人机械与电气结构、CAD 源文件、加工/打印文件、采购制造 BOM、装配说明、验证记录和生成工具。2026-10-06 从 `wheel_leg_mujoco` 拆分；保留各阶段最终交付与必要来源，过程临时文件已清理。
+
+## 获取仓库
+
+本仓库使用 Git LFS 保存大于等于 10 MiB 的现有 CAD、制造包等文件，并通过 Git 子模块固定两个电机资料库的版本。请先安装 Git 和 Git LFS，再执行：
+
+```bash
+git lfs install
+git clone --recurse-submodules https://github.com/Stella-CN/wheel_leg_hardware.git
+cd wheel_leg_hardware
+git lfs pull
+```
+
+已有克隆可运行 `git submodule update --init --recursive` 补齐电机资料。子模块来自 Gitee，需要能够访问对应服务。完整工程包含数 GiB 数据；建议按上述方式克隆，以取得 LFS 实体文件和子模块内容。
+
+查看设计从下方 V8.3 整机 CAD、打印试装包和装配说明开始。编辑 `.FCStd` 使用 FreeCAD；STEP/STL 用于几何交换与制造准备。生成工具还涉及 Python、FreeCAD Python API 和 Node.js，具体依赖见 [依赖说明](docs/DEPENDENCIES.md)。
 
 ## 当前工作入口
 
@@ -47,4 +62,4 @@ wheel_leg_hardware/
 - [过程文件清理记录](docs/cleanup_manifest.json)
 - [拆分后的校验结果](docs/split_validation.json)
 
-MuJoCo 仿真继续位于 [wheel_leg_mujoco](../wheel_leg_mujoco/README.md)。两个工程没有 Python 导入依赖或运行时目录链接。仿真尺寸、质量、惯量和控制参数保持独立快照；硬件修改后需另行评估并同步仿真参数，不应直接用制造 CAD 替换仿真碰撞/惯量模型。
+MuJoCo 仿真继续位于 [wheel_leg_simulation](https://github.com/Stella-CN/wheel_leg_simulation)。两个工程没有 Python 导入依赖或运行时目录链接。仿真尺寸、质量、惯量和控制参数保持独立快照；硬件修改后需另行评估并同步仿真参数，不应直接用制造 CAD 替换仿真碰撞/惯量模型。
